@@ -1,0 +1,46 @@
+{
+  "job_id": "fullpv-middle-f2057",
+  "source_frame": 2057,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1127-f2057.png",
+  "prompt": "Use case: identity-preserve. Edit CURRENT image1 into ONE independent strict-source Klee PV cel f2057, 1920x1080.\nRefs: image1 CURRENT source alone sets pose, face/head/eyes/hands/feet, camera, crop, occlusion and all background/effect/caption geometry. Image2 Klee identity and costume ONLY never pose/scale. Image3 actual source f2056->f2057 RGBdiff and contour overlay RIGHTCURRENT. Image4 current source head/eye/both hands and edge-face RGBdiff crops.\nThere are TWO human representations: main fullbody LEFT-FACING profile girl at RIGHT half and residual giant closed-eye face fragments on edges. Replace main girl completely; keep giant face's current skin/blackclosedeye/orangecheek fragments and same exact star-window occlusion, recolor only visible source hair to blonde, never invent full giant head/body.\nCurrent foreground main actor head aroundx1230..1620 y195..450; one OPEN profile eye looks LEFT with current thin eyelid slope, change BLUEiris to REDiris while retaining BLACK pupil and WHITE highlight. Far eye hidden. Small open O mouth and orangecheek. Arms lowered diagonally outward: viewer-left palm and fingers nearx1110..1180 y585..645, viewer-right nearx1600..1665 y540..600, precisely current splayed fingers, TWO gloves. Left leg straight down with plantedboot nearx1250..1420 y1000..1050; right knee BENT back with boot nearx1560..1620 y790..895. Match SOURCEcurrent pose, not previous outstretched-stride pose.\nKlee pale blonde bangs with EXACTLY TWO SHORT ear-root ponies, compact not long blown hair; pointed ears oneperside only ifvisible, no rounded oldhumanearwedges. Red/cream beret plainbrownband ONEcreamclover on redcrown ONEwhitefeather. Remove rabbit foreheadmask/headband and source peach longhair/pajamas/bunny pocket. Plain redcoat creamfoldedcollar/cuffs/hem, brown boots and gloves, smallplainbrownbackpack ifvisible. No side circularcloverbadge, no coat/boot/cuff/backpackclovers, no ornate symbols.\nLavender star-pattern portal now fills most frame but black border and giant peach/blackeye remnants still at TOPLEFT, TOPRIGHT, rightedge and orange cheek BOTTOMLEFT. Preserve exactly those current shapes/layers. All original creamoutline stars and tiny solidyellow stars near hands/mouth retain currentposition/crop. Same bottomcenter captions \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\", complete current AA strokes and position.\nSource loose wobbly blackink and FLAT broadfills, minimal hardshadows; no character gradients/gloss. Onecel only, no collage/morph/flow/mirror/held substitutes.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1127-f2057.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/star_dance/resume-delta-f2056-f2057.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/star_dance/resume-delta-f2056-f2057-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source TWO people and edge remnants geometry pose crop occlusion background caption effects authority",
+    "Klee costume/identity ONLY",
+    "source actual A/B RGBdiff contours right current",
+    "source head eye bothhands edgeface actual RGBdiff contours"
+  ],
+  "output": "generated/fine-f2057.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 2,
+    "eye_state": "profile leftgaze open; giantclosedeye fragments",
+    "hands": "main exactly2 splayed, giant0",
+    "delta_observed": "portal expands nearly fullframe; main profile right leg bentback and armsdown outward; giantface edge fragments visible"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-8477bff5-892b-4550-9668-a437a3f0982c.png",
+  "output_sha256": "c8758acf08ef262eaa2422db213ad604a91db3c66287ff9d044d107cb75504b0",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "static_review": "qa/fullpv-middle/resume-output-review-f2057.json",
+  "known_issues": [
+    "Main profile actor and all giant edge-face fragments represented in current expanding star transition. Near eye has red iris, black pupil and white highlight; two short ear-root ponies and single hat clover now apparent.",
+    "Cream folded collar is omitted or largely lost beneath hair; coat hem, boots and leg silhouette differ from source. Exact current glove fingertips, eye endpoints and face registration approximate.",
+    "Source star-mask boundary/effects, captions and background still require pixel restoration; continuity and actual-speed review pending."
+  ]
+}

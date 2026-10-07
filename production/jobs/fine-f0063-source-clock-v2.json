@@ -1,0 +1,30 @@
+{
+  "source_frame": 63,
+  "name": "fine-f0063-source-clock-v2.png",
+  "output": "generated/fine-f0063-source-clock-v2.png",
+  "tool": "builtin_imagegen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-02ab8fff-dfe6-4d55-914a-e73e0216fe8d.png",
+  "static_review": "Current clock lower plane angles down-right and partial digits remain behind near glove; original straight horizontal sleeves/profile pose retained approximately.",
+  "known_issues": ["Cream shorts instead of red", "Cuff/clock scale and contact differ", "Head/neck shifts relative to f58 beyond tiny source change", "Badge dangling ornament and shading"],
+  "references": [
+    {
+      "path": "source_refs/src-0020-f0063.png",
+      "role": "CURRENT original exact pose, eye state, cloth and clock/hand geometry"
+    },
+    {
+      "path": "qa/root-held-clock-worker/f0063-source-clock-hands-face.png",
+      "role": "CURRENT source clock/hand/face detail and partial or full 0:33"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only identity, no source pink hair"
+    },
+    {
+      "path": "qa/root-held-clock-worker/f0058-f0063-source-delta.png",
+      "role": "Actual original A/B RGB/contours, current at upper-right"
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Edit Image 1, CURRENT ORIGINAL PV cel f63, IN PLACE into Klee. ONE complete source-framed 1920x1080 canvas, no panels/crops. Image1 decides absolute pose, extent, original camera crop and all props/occlusion. Image2 is the SAME CURRENT original clock/hands/face detail. Image3 Klee HAT ONLY decides identity, never scale/body/face. Image4 is actual source f58/f63 delta; upper-right is CURRENT f63. Draw the current changed source head, wrists/fingers, sleeves and clock contours independently, no preceding-frame hold.\nOriginal side profile looks to the LEFT, with one sleepy half-open eye visible in exact source location/angle. Replace BLUE upper iris by muted RED, keep original BLACK curved pupil and tiny white highlight. Same tiny dot mouth and orange cheek. BOTH sleeves extend LEFT horizontally at chest height. Both brown gloved hands now CONTACT the clock, not floating apart as previous f54: source viewer-front fingers overlap its lower-right LCD corner, source rear hand supports opposite side behind clock. Clock is x875..1042,y390..535, current SOURCE exact contour wins. ORIGINAL cream alarm-clock casing tilts up-right, lavender rear handle recess on top, lavender LCD on its LOWER FRONT PLANE, not a new forward-facing rectangle. Preserve source time \"0:33\" with perspective and exactly same partially hidden last digits behind fingers. Do not clear the screen, invent a different time, rotate its screen to face camera, reveal digits the glove hides, or enlarge the clock. Pillow remains original lavender/cream giant tilted rectangle behind the head and elbows at exact original outline.\nReplace rabbit sleep mask and long pink hair with Klee red cream-clover beret/white feather, pointed ear and TWO SHORT pale blonde ponytails behind head, no long hair/sleep-mask remnants. Red simple Klee coat with cream collar/cuffs/hem and ONLY one tiny coat clover, red shorts/pale legs where source body is visible, modest brown pack behind shoulder. Keep original lean, body landmarks, arm length, foot/canvas crop. No extra clovers, detached cuff balls, backpack rabbit plush, giant feather or polished game art. Loose uneven dark PV sketch lines, simple FLAT patches, extremely sparse shading. Original source lavender backdrop and original left Chinese/Japanese lyrics verbatim unchanged; no new text other than original partially seen clock time.\nCURRENT f63 clock rotates subtly DOWN-RIGHT relative to f58: keep its lower LCD plane narrow and nearly horizontal, with its right end slightly lower. Original support fingers, top casing and near sleeve/forearm contour follow Image4. Source visible partial 0:33 stays behind near fingers. Do not repeat f58's up-right clock tilt."
+}

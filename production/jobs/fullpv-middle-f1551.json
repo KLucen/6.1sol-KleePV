@@ -1,0 +1,36 @@
+{
+  "job_id": "fullpv-middle-f1551",
+  "source_frame": 1551,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0908-f1551.png",
+  "prompt": "Use case: identity-preserve. One independently hand-redrawn strict-source Klee PV cel, full same 1920x1080 framing. EDIT current original SOURCE IMAGE 1, only current source decides camera, crop, position, proportions, expression, precise hand gesture and occlusion. Image 2 ONLY Klee beret brown band cream clover white feather identity, not pose/scale. Image 3 actual previous/current original RGB difference x4 and blue/red contours ONLY demonstrates local redrawn outlines; no output collage. Replace original bunny headwear entirely with Klee red beret, no rabbit ears or face or sleep-mask. Default Klee pale blond pointed bangs TWO SHORT side ponytails, pointed ears, muted RED irises where visible, orange oval cheek patches source-size. Only already visible sleeves become RED with plain cream cuffs, hands BROWN GLOVES, preserve all visible distinct fingers. Maintain same hat identity and simplification as f1539 and f1611 drafts without freezing either extreme; cap is pulled down only when SOURCE says so. Flat lavender background and current right-side Chinese/Japanese text remain unchanged. Rough source-like dark lines, simple flat patches, NO gradient, texture, polished game illustration, extra shadows or ornaments. HEAD GIANT ON LEFT approximately x60..1080 cropped at bottom, do not introduce shoulders/body below crop. CURRENT TARGET f1551: NO HANDS. Both eyes HALF OPEN muted red irises and small lower corner white glints, source eyelids slant/drawn slightly differently from f1545. Orange cheek ovals and downturned tiny mouth. Current forehead/bang, ear-side hair, brow and eyelid redraws follow actual delta. Hat/feather occupy x65..1080,y230..625 source footprint without new extensions.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0908-f1551.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/hat_closeup/source-delta-f1545-f1551.png"
+  ],
+  "reference_roles": [
+    "current source pose and geometry",
+    "hat identity only",
+    "actual source differences"
+  ],
+  "output": "generated/fine-f1551.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "endpoint_dependencies": [
+    1539,
+    1611
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-26d9ec28-a574-4539-8fbb-d4bbe69ffb36.png",
+  "output_sha256": "b09e81edfdb0ba3c07d725c9c07703aeb8fd37547213706ba26a68d98699770f",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

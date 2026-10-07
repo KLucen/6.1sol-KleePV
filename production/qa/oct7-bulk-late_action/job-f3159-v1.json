@@ -1,0 +1,82 @@
+{
+  "source_frame": 3159,
+  "cel": "cel-0558",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Same large arched-overhead arm closeup and down-left tilted head as f3157, both curled fists fully visible, rounded open eyes and tiny diagonal oval mouth. Actual RGB/contours show person essentially same, independent small stars change phase. Preserve CURRENT foreground yellow star lower-right occlusion and exact source crop, no legs. Exactly TWO short blond ponytails total, no extra third tuft on right from Image3; plain collar, brown gloves.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1733-f3159.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3157-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3157-f3159-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3159-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "dd1e41ec0ea279f77bb3aacc1f3db80d7d869ec6d4a20d609f3a7ae4f8444e65",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "f7e4057faa5ea33fb853427926110af3a764ca764e44a34f56e20425e02d178b",
+    "3995806f58fc60f8819c225e9e01256947ca238cb7b01ee6b624540f15aa90bc",
+    "bb24588319a33bc4d90008ea5538c3a42392e802bd4681ad75c31c277e56dc5a"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3159-v1.png",
+  "source_exposures": [
+    {
+      "start": 3159,
+      "end": 3162,
+      "pts": 131.625,
+      "end_pts": 131.75,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Same large arched-overhead arm closeup and down-left tilted head as f3157, both curled fists fully visible, rounded open eyes and tiny diagonal oval mouth. Actual RGB/contours show person essentially same, independent small stars change phase. Preserve CURRENT foreground yellow star lower-right occlusion and exact source crop, no legs. Exactly TWO short blond ponytails total, no extra third tuft on right from Image3; plain collar, brown gloves.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-cb082ed4-3aec-4263-adc4-e0b7b66dc257.png",
+  "output_sha256": "7e9d16d014940d48b1576742ef40499a17adce6e705068f8eb64e9413f34ff6a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output seen: two brown fists, arched arms and foreground lower-right star, no lyrics. Head/eye angle and hat volume drift though source actor essentially held; collar fluffy, coat clover buttons. One-pass draft only, no temporal acceptance.",
+    "accepted": false
+  }
+}

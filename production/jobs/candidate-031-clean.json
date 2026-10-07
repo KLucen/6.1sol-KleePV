@@ -1,0 +1,43 @@
+{
+  "id": "031-clean",
+  "prompt": "Use case: precise-object-edit. Remove ONLY the two off-white Japanese/Chinese subtitle rows near bottom center in this existing Klee PV cel. Seamlessly reconstruct dark night-blue red coat, pale scarf edge and blue sky under removed letters. No text anywhere. EVERYTHING ELSE remains image1 exactly: large night-blue right-facing PROFILE Klee with OPEN eye, tiny dot mouth, orange/night-tinted blush, blue-graded blonde hair, short ponytail, hat/feather, scarf/pompom, precise head/camera framing, partially visible foreground hair fragment at far left, original overlaps, tiny stars and crescent moon, sky grade and texture. No edits to any nonletter object or pose, no scaling, restyling, new shading or altered outlines. Preserve all pixel geometry outside lettering footprints as closely as tool permits.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-031.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-031-clean.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-2871e63b-c5b1-4feb-9b19-836a44416e70.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "edit_scope": "caption removal only",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Subtitle removal complete; night-blue profile eye/mouth/crop and sky moon retained."
+    ],
+    "flaws": [
+      "Original far-left pale-pink hair sliver remains unchanged and may be source remnant; pixel identity unmeasured.",
+      "Outside caption pixel identity is false; use original outside caption footprints."
+    ],
+    "text_check": "no visible residual captions",
+    "outside_caption_pixel_comparison": {
+      "id": "031",
+      "shape": [
+        941,
+        1672,
+        3
+      ],
+      "excluded_conservative_caption_bbox_xyxy": [
+        468,
+        799,
+        1153,
+        941
+      ],
+      "outside_caption_mean_abs_rgb": 3.9231,
+      "outside_caption_pixels_delta_gt10_fraction": 0.144864,
+      "outside_caption_pixels_delta_gt30_fraction": 0.011724,
+      "exact_outside_caption": false
+    },
+    "temporal_review": "pending"
+  },
+  "temporal_review": "pending"
+}

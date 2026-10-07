@@ -1,0 +1,53 @@
+{
+  "job_id": "fast-fullpv-cyan-f0992-v1",
+  "source_frame": 992,
+  "canonical_cel": "cel-0198",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-629c9e54-d191-4a4f-8f45-c8dd165efffd.png",
+  "asset_sha256": "a9643ae01bf8e66fe08ca55ced5319aeba5f2bfa3091fad961e4c76bafd2b36b",
+  "static_findings": ["Two half-open sleepy eyes, closed frown and dot nose retained", "Small independent contour/shadow changes; stable rooted short pony groups and head position", "Several-percent source face-registration mismatch carried forward; temporal/artistic review pending"],
+  "output": "generated/fast-fullpv-cyan-f0992-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0987-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-f0992-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual992 full source: current angle, frame crop and body authority",
+    "Actual992 native eyes/nose/closed frown",
+    "Previous987 Klee identity, colors and rooted pony/collar continuity only",
+    "True987->992 A/B RGB/contours: subtle brow, bang/cheek and contour redraw"
+  ],
+  "prompt": "Use case: identity-preserve. Generate ONE independent full16:9 CURRENT992 PV cel replacing source character with Klee. Image1 current992 full is pose/framing/crop authority; image2 native face confirms TWO half-open sleepy eyes, mildly raised worried brows, tiny dot nose, tiny CLOSED downward hook/caret mouth. Image4 actual987->992 RGB/contours shows sustained near-frontal three-quarter turn and subtle separately redrawn brow, eye/bang endpoint, cheek/jaw and hair outline, NOT a large new action or head shift. Image3 preceding987 Klee sets identity/style/scale/colors and two SHORT rooted pony groups, not a frozen held drawing. Make the current subtle facial and neck/collar/coat line redraw, keep comparable eye opening and stable head/beret/ear-root position, no new downward jump or pony growth. Warm amber-red iris lower band with simple tiny white highlight under dark night-shaded upper lid; do not over-detail or make original bright blue eyes. Pale lavender-tinted blond hair, pointed ears, burgundy clover beret with ONE side feather, red coat, PLAIN white TWO-leaf collar, no extra throat flap or third hair fan, no source long pink hair or animal head mask/ears, no hands/new limb. Actual source retains original sky/stars/crescent; keep that context close but ALL text must be OMITTED so source Japanese/Chinese captions can be separately restored. Bold simplified PV lines, limited color blocks/shadows matching image3, not a polished portrait. No collage, hold, morph or flow. Complete one newly redrawn current cel, not duplicate prior PNG.",
+  "source_exposures": [
+    {
+      "start": 992,
+      "end": 993,
+      "pts": 41.333,
+      "end_pts": 41.375,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_reference": "source_refs/src-0525-f0992.png",
+  "source_review": "Root viewed actual full frame, native face and real spatial A/B RGB/contours"
+}

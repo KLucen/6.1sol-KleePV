@@ -1,0 +1,14 @@
+{
+  "job_id": "fine-f0157-glove-repair",
+  "source_frame": 157,
+  "source_candidate": "src-0049",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0157-geometry-repair.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit THIS one PV cel locally. Change ONLY the two exposed pale skin-colored hands to Klee's dark warm BROWN GLOVES: viewer-left spread hand at x52..56%,y43..53%, viewer-right raised open hand at x86..92%,y33..40%. Retain identical hand contour, finger count/pose and all linework; fill skin regions in brown with a single subtle darker flat glove shadow. Cream cuff bands stay cream and unchanged. Do not change wrist location, clock or gap between clock and left hand. Every other pixel's appearance should remain unchanged: original violet canvas, pillow and fringes, blank clock, red beret/clover/feather, blonde hair, RED eyes, face/mouth, coat, backpack, all body geometry, colors, folds, and crop. NO new text, digits, decorations or extra palms. Single full 16:9 frame, no collage.",
+  "output": "../generated/fine-f0157-glove-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0157-geometry-repair.png",
+  "temporal_review": "pending"
+}

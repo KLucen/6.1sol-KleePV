@@ -1,0 +1,39 @@
+{
+  "source_frame": 2545,
+  "source_cel": "cel-0497",
+  "source_candidate": "src-1524",
+  "output": "generated\\fine-f2545.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2545: Full-body small curled floating figure on RIGHT of frame, overall original bound approximately x0.56..0.78 y0.28..0.73. Both knees raised together tightly to chest, round boots dangle beneath at x0.67 and0.71 y0.70; both arms grip lavender pillow against face. Eyes mostly hidden by pillow, do not invent an exposed face or mouth: only tiny top forehead/bang sliver. Head bowed and rolled left; sole red Klee beret replaces forehead rabbit sleep mask. Two short pale blonde ear-root ponytails connect near ears, not long original hair. Red coat must fold around raised thighs, cream hem follows the actual knee contour, not a standing skirt. Small red capelet and brown backpack behind shoulders if visible. Preserve lavender pillow in front with pale corner tabs, separate cream puff to left of head at x0.54 y0.38. Brown gloves in plain cream cuffs, brown boots. Purple field plain, remove caption text only.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1524-f2545.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": [
+      "Static source check: small right-side full-body curled pose, two raised knees, dangling boots, lavender pillow hiding face and two gripping gloves are present. Both short blonde ponytails remain rooted beside ears. Costume has denser cream hem detail than source simplification; source pose retained, actual-speed pending."
+    ],
+    "issues": [],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-8c1318a5-120f-4292-8e22-fe0581f08e97.png"
+}

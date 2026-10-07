@@ -1,0 +1,134 @@
+{
+  "job_id": "middle-continuation-f2073-2026-10-05-v1",
+  "source_frame": 2073,
+  "source_cel": "cel-0383",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1143-f2073.png",
+  "source_exposures": [
+    {
+      "start": 2073,
+      "end": 2077,
+      "pts": 86.375,
+      "end_pts": 86.542,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Edit CURRENT image1 into ONE complete independent strict-source Klee PV cel f2073, same 1920x1080 landscapeaspect. Replace actoronly.\nREF ROLES: Image1 CURRENT original is sole right-facing pose/eye-state/hand visibility/occlusion/crop authority and all background/caption/particlepositions. Image2 same-shot repairedKlee identity exactlytwo rootedponies/plaincostume colors only NOT preceding leftfacing posture or eyes. Image3 source f2069->2073 actual A/B RGBdiff contour RIGHTCURRENT. Image4 CURRENT original nativekeyparts; image5 original native A/B RGBdiff contours.\nCurrent turns from fullrear to RIGHT-FACING profile/rear3/4, jumps with torso curvedback and LEGS CROSSED inair. Original head x715..1180 y194..486. Profileface onlyx1000..1080 y330..405, ONE visible eye CLOSED as source heavy short downslanted double-black eyelidstroke, NO visible iris/pupil and NO second exposedeye. Small sideways O mouth nearx1040y397, orange cheek, near pointedear ifcurrentlyvisible. No smile. Currentface/head changes direction vs old anchor; do NOT mirror oldcel.\nOnly ONE visible hand: near arm reachesRIGHT infront of body, broadcreamcuff x1100..1180 y485..581; palm x1160..1240 y492..557 with fourfingers fanRIGHT/up and thumb foldedDOWN. A FULL BROWN glove follows original source palm/finger silhouette, not bare/fingerlesspalm. FAR arm is entirely occluded behind body/hair; visible only sleeve wedge/loop atx842..900 y450..550; NO second hand invented atleft. Physiologicallytwo arms but only original-visible parts.\nCurrent nearleg thigh extends almosthorizontal fromhipx965 y719 toKNEE x1190 y773, then SHIN FOLDS BACK LEFT tobootx900..990 y803..909; knee/shin overlaps farleg and bootbehindbody. Other leg extends DOWN-RIGHT fromhip through x1205y871 tofootx1230..1368 y945..1032, ankleboot slanted notvertical. Match original crossing/bothairbornelegs, current knee angles and fore/backocclusion; no grounded generic stance.\nKlee pale blonde bangs + EXACTLY TWO compact short earrootponies, no third neckcluster. Keep their short topology while current rotation shifts them, do NOT copy original longhair. Redberet plainbrown band ONEcreamfrontclover ONEwhitefeather correctlyrotated; plainredcoat foldedcreamcollar/cuffs/hem, smallplainbrown backpack only if sourceviewallows, plainbrownboots/gloves. Remove all rabbitmask/headband/pajamas/bunny pocket and longpeach hair. No clothesclovers/buttons/pockets/embroidery/frillyshorts.\nPreserve currentlavender flatbackground, every creamoutlinedstar/yellowparticle atcurrentgeometry. Clear complete bottomcenter Japanese \"\u611b\u3057\u3066\u305f\u3044\" above Chinese \"\u60f3\u8981\u53bb\u7231\" samepositions/strokes. Loose thinwobblyblackink broadflatcolors minimalhardshadow, nogradient/gloss/3D. Same currentplacement/scale/crop; noextra people, no mirror/warp/morph/collage/heldpose. Wholecelonly.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1143-f2073.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/middle-continuation-f2065-2026-10-05-hair-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/actual-source-f2069-f2073-AB-RGB-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2073-source-native-keyparts.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2073-keyparts-AB-RGB-contours.png"
+  ],
+  "reference_roles": [
+    "CURRENT original sole right-facing/closedeye pose/crop/occlusion/background/text/effect authority",
+    "Same shot Klee exactlytwo rooted ponies/plaincoat/backpack/gloveboot palette identity only NOT pose/eye state",
+    "Actual original previous/current A/B RGBdiff contours RIGHT current",
+    "CURRENT original native closedeyeface, occludedfararm, nearpalm, crossed bentlegs",
+    "Original native previous/current A/B RGB x4 contours"
+  ],
+  "output": "generated/middle-continuation-f2073-2026-10-05-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "reviewed_static_temporal_pending",
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "actual_sequential_decode_reference_equal": true,
+    "visible_people": 1,
+    "face": "rightfacing profile CLOSED eye onevisible; small Omouth",
+    "hands": "onevisibleforwardpalm; fararm completelyoccluded onlysleevewedge",
+    "legs": "crossedairborne nearthighright shinbackleft, farlegdiagdownright"
+  },
+  "ordered_reference_metadata": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1143-f2073.png",
+      "sha256": "1e03f363942aa09d4ea8b199a80878a0b7077b57e567051e780bf9eee3605152",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "role": "CURRENT original sole right-facing/closedeye pose/crop/occlusion/background/text/effect authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-hair-v2.png",
+      "sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+      "canvas": [
+        1672,
+        941
+      ],
+      "role": "Same shot Klee exactlytwo rooted ponies/plaincoat/backpack/gloveboot palette identity only NOT pose/eye state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2069-f2073-AB-RGB-contours.png",
+      "sha256": "76581b67978353b0d0d2e6c3f7a083203291885c83b1d364dbfeabb2e9b2897f",
+      "canvas": [
+        3840,
+        2240
+      ],
+      "role": "Actual original previous/current A/B RGBdiff contours RIGHT current"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2073-source-native-keyparts.png",
+      "sha256": "0b1888a9ffd208337e66431f0793c70250092ce5b8272b1a516cf2c933171a41",
+      "canvas": [
+        1120,
+        1384
+      ],
+      "role": "CURRENT original native closedeyeface, occludedfararm, nearpalm, crossed bentlegs"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2073-keyparts-AB-RGB-contours.png",
+      "sha256": "717d7916562f3a9da1ee357915dc3c091b8b689c37346b8eec274d3c35f43f62",
+      "canvas": [
+        4480,
+        1384
+      ],
+      "role": "Original native previous/current A/B RGB x4 contours"
+    }
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-0c13eb77-2eb9-4f93-8ffa-2ada6c8adc67.png",
+  "tool_output_metadata": {
+    "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-0c13eb77-2eb9-4f93-8ffa-2ada6c8adc67.png",
+    "sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "workspace_output_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2073-2026-10-05-v1.png",
+    "sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "output_sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc",
+  "known_issues": [
+    "New head/hat slightly larger and face a little lower; source thin doubleclosedeyeline simplified heavy single stroke",
+    "Near glove too broad and finger-gap contours differ; farhand remains hidden as required",
+    "Backpack visibility and collar/hem differ; light skin/clothing shading",
+    "Airborne crossedlegs follow original bend/occlusion but both boots larger and extendedfoot sole angle differs",
+    "Generated source background/effects/captions require compositor restoration; finalcomposition/actual-speed notperformed"
+  ],
+  "source_current_observed": "Right-facing profile with ONE closed eye and tiny O mouth, no iris/far-eyeinvented. One fullybrown forward glove, hiddenfararmonlysleeve. Nearthighright/shinbackleft overlaps far diagonaldownrightleg; bothfeetairborne. Two rooted shortponies and currentturn preserved.",
+  "static_review": "qa/middle-missing-continuation-2026-10-05/f2073-source-new-static.png",
+  "ordered_reference_metadata_phase": "before_builtin_call",
+  "actual_builtin_call_submitted": true
+}

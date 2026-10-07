@@ -1,0 +1,14 @@
+{
+  "job_id": "fullpv-middle-f1514-repair-v2",
+  "source_frame": 1514,
+  "tool": "built-in image_gen",
+  "prompt": "EDIT IMAGE 1 CURRENT ORIGINAL SOURCE into Klee PV cel f1514. Image 1 exclusively controls spatial registration, exact pose, body scale, closed eyelids, tiny dot mouth, crossed forearms occlusion and breathing puff. Image 2 is same-shot Klee COSTUME AND STYLE ONLY reference, NEVER its pose/breathing puff/coordinates. FULL 1920x1080 same framing lavender field. Need repair figure registration/size: original source horizontal body from HEAD LEFT x320..565 to FEET RIGHT x790..885. Do not widen or recenter. Forearm/front sleeve runs diagonally at x530..620,y555..794 and hides opposing hands. Follow those contours directly; don't turn folded arms into front-clasped hands. Keep source cream mushroom breathing puff x436..566,y345..461 unchanged. Replace original bunny forehead mask with red Klee beret brown band cream clover white feather, pale blond pointed bangs TWO SHORT side ponytails, pointed ears, red coat plain cream cuffs cream hem brown gloves and boots. Source current eyelids are closed, sideways face at x440,y680, orange cheeks and dot mouth. Restrained simple source-like flat red/cream/brown cells, loose black outlines. No texture gradient new shadows NO bunny sleeping mask NO added props. Existing draft too large, draw the source current SMALLER torso length and same-source boot endpoints. Never programmatically transform a previous cel; independent current-source redrawing.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0897-f1514.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1526.png"
+  ],
+  "output": "generated/fine-f1514-geometry-repair-v2.png",
+  "accepted": false,
+  "status": "generated_repair_draft",
+  "repair_round": 1
+}

@@ -1,0 +1,28 @@
+{
+  "job_id": "fast-fullpv-dance-f0889-hair-v2",
+  "source_frame": 889,
+  "canonical_cel": "cel-0158",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0889-hair-v2.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0889-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0887-v1.png"
+  ],
+  "reference_roles": [
+    "Current two-Klee edit target, preserve all but named waist tuft",
+    "Rear Klee short-hair root evidence, not whole-frame pose"
+  ],
+  "prompt": "Use case: precise-object-edit. Image 1 is the CURRENT EDIT TARGET, a two-Klee PV frame 889. Make exactly ONE bounded correction: REMOVE the detached EXTRA pale-blonde hair fan on the SMALL BACKGROUND Klee, underneath her lowered screen-right red sleeve, around x54%-59% / y52%-61%. That waist-level tuft is a third hair group and has no ear root. Restore only the lavender field/visible backpack or red coat naturally behind this removed tuft. Keep the two real SHORT ear-side ponytails at neck level intact. Image 2 is rear Klee frame 887 only as proof of the two short ear-rooted groups/no waist tuft. Keep image 1's enormous right foreground face, red eyes/pupil/white highlight, open cropped mouth, hat scale/crop, feather, short hair, red shoulder, rear closed eyes/O, both brown spread gloves, arm lengths/angles, legs/boots, stars and yellow particles otherwise unchanged. Do NOT redraw/reposition the portraits, recolor eyes or invent fingers. This is not a new pose or collage. No text. Flat simplified PV line/color style; preserve composition and the proper foreground-over-background layer relationship. Correct only the extra waist tuft, not all hair.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "repair_scope": "Remove unrooted extra rear waist hair group only",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-cbf97405-cd93-451c-96a6-7eaedd7170ce.png",
+  "static_review": "Extra rear waist fan removed on tool-output inspection. Two neck-level side groups remain; foreground right head/crop and rear gloves/legs retained visibly. Not claimed pixel locked; whole-frame drift and exact source overlap still need batch composite review.",
+  "known_issues": [
+    "Exact source silhouette contact and closed-eye head tilt remain approximate",
+    "Boot motifs/knee blush and mild shading still differ"
+  ],
+  "blocking_static_findings": [],
+  "artistic_accepted": false
+}

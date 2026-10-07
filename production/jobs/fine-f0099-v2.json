@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0099-v2",
+  "source_frame": 99,
+  "source_candidate": "src-0035",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0099-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0035-f0099.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0099-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0095-f0099-source-delta.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/identity-collar-only-f0091.png"
+  ],
+  "prompt": "Use case: identity-preserve LOCAL EDIT. ONE full16:9PVcel. Ref1 KleeCURRENT99 is target preserve unrelatedcanvas/body/camera/hat/pillow/coathem/legs/backpack/twoshortponies. Ref2 CURRENToriginal99 controls true localclock/grip/occlusion/unique pose neveroldpinkhair/pajamas/sleepmask. Ref3 enlargedCURRENT99clockhandsface exactcontactreference. Ref4 actual95->99 differences analysis only,current99cuffs/fingers/sleevecontours mustremainunique nofrozen95. Ref5 ONLYconsistentcollarornamentlayout two plain flatcream lapels,ONEsmallcreamchestpom+smalldiamondbelow,no print. Targetdisplaycenter(1382,290)iswrong:SOURCEcorrect(1389,276)normalized1920. Raiseclock+bothbrown grippinggloves+wrists+lowerface14px andmove7pxRIGHT by redraw only; fixedpillow/torso/lowerelbows/legs unchanged. Original compactcreamclocktiltup-right,lavenderdisplayvisibleboundsx1342..1440,y254..304,98pxwide. Curlnarrowglove fingertipsfrontinward slightlyfarther so sourcevisiblewidth98 not110. Fourcurvedfinger tips eachside inFRONT ofcasecorners,notflatmittens. Keepclockthickcream lowerbandFRONTupper eyes;ONLYtinylowerREDirisfragmentsundersourcebottomcorners,notlargefull eyes/pupils. Preserveorangecheekfragments,tinycloseddownturnedmouth/chinbelow. HatBEHINDcase/hands,faceFRONTpillow. Cuffssmoothplainangularcreambandsnotfluffy;upperredforearmendsredrawnlocal to correctedwristsnarrowvolume. TWOshortpale-blonde sideponytailsendingatshoulder, removeerroneouslowergold/orangehairwedge BELOWviewer-left elbow nexttowaistcord (x68%-70%,y52%-59%): no hairbelowelbows/waist. UseRef5collarlayoutwithflatcreamnotplaid,tinychestdiamondbadgebelowpom,oneleftwaistpomonly;allremainingoutfitsameRef1 redsplitcoatlowerleftclover/creamangularfaintcloverskirt/narrowpinkruffle/REDshorts. LoosePVdarklines/flatcolors/oneflatshadow. Blankclockdisplay,NOdigits/writing/captions/letters/watermark,notpanels.",
+  "output": "../generated/fine-f0099-v2.png",
+  "repair_of": "fine-f0099-geometry-repair.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "static_review": "pending",
+  "temporal_review": "pending",
+  "prop_restoration": "not enabled; held clock needs validated finger protection"
+}

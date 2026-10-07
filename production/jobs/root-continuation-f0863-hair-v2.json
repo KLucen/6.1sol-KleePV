@@ -1,0 +1,30 @@
+{
+  "source_frame": 863,
+  "source_reference": "source_refs/src-0409-f0863.png",
+  "output": "generated/root-continuation-f0863-hair-v2.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: precise-object-edit. Asset: ONE full-frame animation cel, source f0863. Image 1 is the EDIT TARGET, the existing Klee f0863 cel. Keep its current closed eyes, small low O mouth, frontal head/chest placement, two thin outward brown-gloved wrists in the shallow raised V, long descending front leg, short tightly bent rear leg/boot, cuffs, hat, feather, coat, backpack, clover, framing and background unchanged as closely as possible. Change ONLY the two overly long rear blonde hair tufts currently sticking out around the waist/backpack below the armpits: shorten and reposition these two connected ponytails to neck/ear-root level. They must be short low side ponytails attached behind the pointed ears and end around the upper shoulders, not waist-level detached hair wings. Exactly two ponytails total. Front face-framing strands and short bangs remain simple and short; do not add any extra hair groups or an ivory forelock. Image 2 is HAIR AND COSTUME TOPOLOGY REFERENCE ONLY: use its connected short side ponytail roots, two-lobed cream collar, plain red cream-trim coat, centered lower clover and no buttons or center seam. DO NOT COPY image 2's T-arms, forward kick, head tilt or large body position. Image 3 is the CURRENT original source f0863, used only to confirm the target cel's unchanged shallow V, thin outward wrists and tightly bent rear leg; do not restore original pink hair, rabbit mask or source costume. One simple flat pastel hand-drawn Klee cel, irregular thin black contours, no new text, no contact sheet, no other actors, no new accessories, no gradients or rendered shading. Keep all other elements unchanged; this is a bounded rear-hair topology edit, not a whole-character redesign.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0863-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0843-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0409-f0863.png"
+  ],
+  "reference_roles": [
+    "current Klee f863 edit target; preserve all except rear hair",
+    "hair and costume topology only; not pose",
+    "current source pose confirmation"
+  ],
+  "strict_source_exposure": [
+    863,
+    868
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-4ae62182-8eb0-4e05-86b5-b33ac53bc3de.png",
+  "known_issues": [
+    "Waist-level extra hair groups removed; only two neck-side short groups visible but ponytail roots still need adjacent-cel acceptance",
+    "Coat split hem, cream shorts cuffs, approximate source head/leg contour and mild shading persist",
+    "Bounded repair altered other pixels, no pixel-lock guarantee"
+  ],
+  "static_review": "Root viewed full output: waist-level rear tufts gone, pose and thin brown hands retained visibly. No artistic or actual-speed acceptance."
+}

@@ -1,0 +1,24 @@
+{
+  "job_id": "fine-f1329",
+  "source_frame": 1329,
+  "source_candidate": "src-0826",
+  "canonical_cel": "cel-0285",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0826-f1329.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1309.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\title-f1319-f1329.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE clean complete 16:9 PV cel, not sheet. Make ONLY the character on a CLEAN EMPTY LAVENDER BACKGROUND. All large pale Japanese title lettering seen in image1 and image3 must be COMPLETELY REMOVED, including behind legs/head/hair. NO WORDS ANYWHERE. Image1 is CURRENT source f1329 and defines exact pose, cropping and position. Image2 is preceding clean Klee art for identity, clothing style, dimensions ONLY. Image3 is actual source differences: f1329 straightens the head upright after leftward lean, crossed arms slope closer to horizontal, knee/shin and boot outline redraw. Replace original girl with Klee ShootingSpark, pale blonde TWO SHORT side ponytails, pointed ears, red beret with cream clover and white feather, red coat/cream trim, brown gloves/boots and backpack with round cream pom-poms exactly as image2. Do NOT reuse an earlier drawing unchanged. Sit with both knees raised and boots together at original floor baseline y780 on1920x1080 (680 on1672x940), small near center. Forearms crossed in FRONT of knees just below chin, hands in front of coat; face/hair behind hands. UPRIGHT almost level head and hat brim, tired half-lidded OPEN RED eyes left/down, tiny closed dot mouth and source oval orange cheeks. Head is not tilted left or right. Current source's slightly raised nearer knee, crossed-arm direction, jaw contour and tighter right elbow shape must be reflected; same Klee size and short ponytail topology, no body growth or lowering feet. Loose dark uneven contours, broad flat patches, restrained shadow, no game splash rendering. NO original pink hair, sleepmask or pajamas; no blanket/pillow/new prop. Remove title text entirely; keep exact lavender empty background. No captions, titles, credits, lettering, symbols, watermark or diagrams. Output one complete full canvas.",
+  "output": "../generated/fine-f1329.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-edf044dc-a096-4d30-accd-56b1191d732b.png",
+  "status": "generated_pending_review",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "character_coherent_pixels": 76320,
+    "proof": "qa/late-title-source-audit.json",
+    "differences": "diffs/title-f1319-f1329.png"
+  },
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

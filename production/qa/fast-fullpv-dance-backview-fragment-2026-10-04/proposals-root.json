@@ -1,0 +1,23 @@
+{
+  "owner": "root_fast_fullpv_dance",
+  "accepted": false,
+  "source_interval": [
+    900,
+    902
+  ],
+  "mode": "strict_source",
+  "selections": [
+    {
+      "source_frame": 900,
+      "cel": "cel-0162",
+      "path": "generated/fast-fullpv-dance-f0900-rearhat-v2.png",
+      "accepted": false,
+      "review": "Visible cyan/green original double ear lobes replaced by a thin muted cool burgundy rear beret arc. Foreground back head/beret/short two side groups remain, no new face or limbs. Full-image tool inspection shows no green animal-hat lobes; actual900/901 composites still need old AA fringe check.",
+      "known_issues": [
+        "Very thin rear beret sliver approximates source visible area",
+        "Foreground details not pixel locked; mild shading"
+      ],
+      "consecutive_review": "Pending actual900/901 and899/902 joins"
+    }
+  ]
+}

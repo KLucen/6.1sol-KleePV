@@ -1,0 +1,14 @@
+{
+  "job_id": "fine-f0176-hair-cuff-repair",
+  "source_frame": 176,
+  "source_candidate": "src-0054",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0176.png"
+  ],
+  "prompt": "Use case: precise-object-edit. LOCAL repair of this complete PV drawing only, preserving all scene/body/prop positions. There are two separate blonde ponytail wings on the SAME viewer-right side: upper rounded short wing adjacent to pointed ear/behind shoulder aboutx80%,y37% is correct; LOWER stray wing behind elbow and above backpack aboutx84%,y49% is incorrect. REMOVE ONLY that lower stray blonde wing and its black contour, reveal violet empty background where outside body and the existing brown backpack strap where behind elbow. Retain upper short ponytail and blonde face-side lock: one ponytail per side, never both behind same shoulder. Also replace scalloped fluffy cream CUFF around visible front wrist atx74%,y41% with a SIMPLE smooth-edged cream cuff band of same outer extent and orientation, with straight/curved smooth boundary, preserving brown glove contact/armgesture and red sleeve. Do not change cream collar/chestpom. All other content and appearance invariant: clock location and blankdisplay, pillow curved vertical angle and creamfringe, hatcloverwhitefeather, fullface/eyes/mouth entirely concealed by pillow except current thincheek/hairstrip, ear, coatunderskirtredshorts/legcrop/backpack/brownhand/shading/violet canvas. No new letteringdigits/subtitles. Singlefull16:9 frame.",
+  "output": "../generated/fine-f0176-hair-cuff-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0176.png",
+  "temporal_review": "pending"
+}

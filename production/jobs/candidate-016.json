@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-e87f4273-fb31-45ae-ad7d-4dbd9c56ef51",
+  "candidate_id": 16,
+  "tool": "builtin imagegen",
+  "prompt": "Precise object edit on this FULL16:9 Klee PV frame. Preserve exact composition, upward arm stretch/cropped gloves, eye shape/openness/highlights, O mouth, hair, beret, sleeves/cuffs, coat color and purple background. Only repair two identity details: 1. Change the slate-blue upper portion of BOTH irises to muted dark red/burgundy, lower irises remain warm red/pink. Klee has RED irises, no blue. Preserve exact eye contour, pupil position and small white crescent highlight. 2. Remove the two pale pajama-style hip pockets at bottom-left/right and the tiny rabbit ears protruding from right pocket; they belong to the original character costume, not Klee. Continue plain red Klee coat over those pocket locations with coherent side seam; don't add a replacement prop. Nothing else changes, no text anywhere. Single complete scene.",
+  "references": [
+    "production/generated/candidate-016-draft.png"
+  ],
+  "original_source": "analysis/source_cels/source-cel-016.jpg",
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-016.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Upward stretch/cropped hands retained. Targeted identity repair changed blue source irises to Klee red, removed pajama hip pockets and rabbit ears. No text."
+}

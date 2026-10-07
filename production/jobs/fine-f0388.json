@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-4eaccbeb-7d2a-40ca-9e58-38fac4d5fe4f",
+  "canonical_cel": "cel-0059",
+  "source_frame": 388,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. ONE full16:9 current-source PV cel f0388 with girl replaced by default Klee. Ref1 CURRENT fullsource sole crop/pose/face/hands/cuff geometry authority. Ref2 HAT-ONLY Klee crop identity/palette/looseblackline vocabulary only, no framing/pose; ref3 source A/Bdelta CURRENT top-right local change guide not an output sheet. Current source NOW tilts head a LITTLE counterclockwise, moves face LEFT slightly: center61.6%canvaswidth, left closed eyelid around43%height, right closed eyelid42%, mouth closed short black horizontalbar around56%height, chin71%. Maintain source current facial and glove contact positions, no generic Klee portrait resizing or pushing down to fit hat. Small mouth has left tiny down-tick and right taller up-tick, no interior. Both hands stillcup cheeks, current viewer-left leading fingers form more angular curled lobe atop orangecheek, viewer-right topfinger fan slants with head; FOLLOW current source wrist angle/cuff planes, left cuff top almostflat, right cuff top slopes sharply upward-right. Eyes FULLY CLOSED blackstrokes, no visibleiris. Klee redcreamcloverberet/viewer-right whitefeatherroundbrowncloverbadge no long loops, shorttwo attachedblonde sideponytails/pointedears; redcreamcoat with sparse peach open-diamond creamcollar and plain smallroundscalloped creamdiskmedallion, plaincreamcuffs, fullbrown gloves/wrists. Hat/blondebangs replace mask/pinkhair in original area ABOVE source eyelids; hair behind palms; onlytwo shortsideponytails, no lower extra hair. Current independent local redraw of eyelid weight/bang tips, palms/fingergaps/cuff rims and outer sleeves per source/delta. Flatbroadsimplecolor, looseblack sourcepressure, orangecheek ovals and restrainedsmall shadows, no gradients/detail upgrade. Remove all text/captions/lyrics/credits/speechbubble including outline/watermark, cleanpurple left. Same upperhead/lowercoat sourcecrop, no extras/annotation/montage.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0122-f0388.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-hat-only-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0388.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0388.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0380 to f0388: 398977 pixels >=28; slight counterclockwise tilt and left shift plus new angular inner finger curl, cuff planes, eyelids/mouth strokes; text/bubble changes not character.",
+  "inspection": "Closed end-ticked mouth and angular brown C-palms current shape broadly correct, no captions/bubble. Source counterclockwise eyelid angle underrepresented (output lids near-level), face about0.6 percent right of source; position/tilt QA flagged. Collar/sleeve pattern complexity increases relative established simplified anchor, continuity simplification repair flag."
+}

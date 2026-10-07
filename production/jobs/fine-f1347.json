@@ -1,0 +1,24 @@
+{
+  "job_id": "fine-f1347",
+  "source_frame": 1347,
+  "source_candidate": "src-0831",
+  "canonical_cel": "cel-0288",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1342.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0831-f1347.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\title-f1342-f1347.png"
+  ],
+  "prompt": "Edit Image1 clean Klee cel to original current source f1347 Image2. Output ONE complete16:9 cel. Image1 is editable neighbor and fixes style, design, same character scale, boots/floor y680 on1672x940. Image2 defines exact SOURCE current pose and local changes: her HEAD and upper body lean farther toward VIEWER RIGHT, about10degrees head eye-line, so left eye is HIGHER and right eye LOWER by14-18px. Head/bangs/hat follow this mild rightward lean; do NOT leave nearly level face. Chin and right shoulder move slightly image-right, near crossed elbow a little higher, forearms stay crossed over raised knees. Knees/boots largely upright and ground stays original y775-780 at1920x1080, don't lower feet or enlarge body. Source difference Image3 proves genuine changed forehead, bang/jaw tilt, outer right hair, elbow/coat fold and boots; redraw corresponding Klee contours, never a held/mirrored prior cel. Same ShootingSpark Klee red beret cream clover/white feather, pale blonde TWO SHORT side ponytails and pointed ears, equally half-lidded OPEN RED eyes looking left-down, small CLOSED dot mouth, orange oval cheek blush. Same red coat cream cuffs/hem length, brown gloves/boots and backpack, ROUND cream pom-poms not clover substitutions. Short ponytail roots stay attached behind ears, tips follow subtle right lean, no extra hair tufts. Forearms/hand IN FRONT of knees and body, face behind gloves near chin. Loose dark chunky line and flat source-like patches, restrained shadow. Preserve clean EMPTY LAVENDER BACKGROUND, remove ALL original lettering, no title/caption/credit, watermark, diagram or new props/characters. Do not add pajamas/bunny mask/long pink hair. One complete edited cel only.",
+  "output": "../generated/fine-f1347.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-cecbcf6e-4c84-46f4-8e1c-877ab2c68951.png",
+  "status": "generated_pending_review",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "character_coherent_pixels": 64936,
+    "proof": "qa/late-title-source-audit.json",
+    "differences": "diffs/title-f1342-f1347.png"
+  },
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

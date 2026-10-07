@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-314a7de9-31cc-4783-a710-56cc357eb3cc",
+  "canonical_cel": "cel-0045",
+  "source_frame": 294,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 CURRENTf0294 PV cel. Image1 originalcurrent source is geometry/pose/expression authority; image2 previousKlee0291 colors/identity/shorttwo-ponytail topologyonly; image3 trueoriginal291→294diff. NEW mouth is LARGEHORIZONTAL pinkOPENOVAL roughly x59%-67%,y65%-73%, blackcurve notquiteclosedatlowerleft; nottinyroundO andnotwhiteflatrectangle. Exactcurrent eyeopening still sleepyhalfopen rounded/redirises, heavyflatupperlids; orangecheeks; handfinger pressure/minorcontourchangescurrent. BOTHbrownfullglovepalms cupcheeks as exactsource, fouruprightfingerlobes nearcheeks/curvedthumb/wrist visible into creamcuffs. Preserve camera tightchestup charonright, no movedhands orheadscale. Klee redberetcreamcloverwhitefeather, blondeSHORTtwoattachedsideponytails pointedears redcreamcoatpatterncollar. No duplicate longrearhairwings. Full originallavenderbackdrop, NOletters/captions/text orspeechbubbleoutline; originaltextrestoredseparately. LoosesourceblackPV outlines/broadflatcolor/minimalshading. Change mouth to currentlargeoval do NOTfreeze0291.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0084-f0294.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0291.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0294.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0294.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "Maincharacter newhorizontal largepinkovalmouth vsroundO; eyelids andsourcehandpressure redrawn. Diff200896 pixels>=28.",
+  "inspection": "Largepinkhorizontaloval with small lowerleftoutlinebreak reproduced, gloves cuppingcheeks/currenthalfopenred eyes. No text/bubble; exactgeometry/sequence QA pending."
+}

@@ -1,0 +1,21 @@
+{
+  "frame": 666,
+  "name": "fine-f0666-source-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0284-f0666.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0661.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0666.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent 16:9 PV drawing, full frame, no text or panels. Image1 CURRENT ORIGINAL f0666 is EDIT TARGET and sole authority for composition, native screen position/scale, head tilt, closed eyelids, visible body parts, current hands/sleeves/legs/pillow contours and occlusion. Fully replace original person with Klee. Image2 preceding Klee drawing is IDENTITY/COSTUME/flat drawing simplification reference ONLY, do not copy its larger character scale, pose, background or head angle. Image3 actual source A/B, RGB difference x4 and blue-before/red-current contours is motion evidence ONLY. Draw the current-source new contours independently: legs have just lowered to almost horizontal shallow diagonal right from hip, boots close together at current source feet locations; both extended sleeves and glove fingertips shift; head/eyes have current source lower-left to upper-right slant. Eyelids are fully CLOSED black strokes with NO eye openings/irises; mouth hidden by face/pillow. Default Klee: pale blonde bangs, exactly TWO SHORT ponytails rooted immediately behind pointed ears, red cream-clover beret with white feather, plain round brown clover side badge with NOTHING dangling. Remove bunny forehead sleeping mask completely because it is old costume, no double headwear. Red coat with cream trim and one small cream clover on lower side coat, plain cream angular skirt/pink narrow ruffle over red shorts; PALE SKIN thighs/knees/shins, brown compact boots with plain cream top bands; plain brown gloves. No clovers on sleeves or boots, no source pajama trouser tubes, no long hair. Body must remain within ORIGINAL source silhouette proportions and source placement: glove left starts around x3%, boots terminate x65%, body/pillow below canvas middle; do not enlarge/zoom to Klee continuity reference. Preserve original actual pillow and lavender backdrop hue, simple thick uneven black lines and FLAT colors with minimal source shading only. No new props, text, gradients, texture, glossy rendering or extra shadow. Output only this current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-58d526c1-079b-45f6-b001-b5dae4a30933.png",
+  "output": "../generated/fine-f0666-source-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Static review: current almost-flat extended legs and compact feet, closed eyelids, independent sleeve contours present; source body scale broadly restored. Head/eyelid slant differs, shoulder/hair layout and extra upward bang silhouette remain. Not accepted; temporal review pending.",
+  "known_issues": [
+    "Head and closed eyelids retain a down-right slope instead of source up-right",
+    "Extra upward left hair tuft compared with canonical short twin pony design",
+    "Backdrop has gradient/texture despite flat source"
+  ]
+}

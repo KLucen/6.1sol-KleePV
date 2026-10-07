@@ -1,0 +1,1042 @@
+{
+  "audited_source_interval": [
+    812,
+    831
+  ],
+  "source_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "safe_rect_proposal": [
+    870,
+    954,
+    1022,
+    1044
+  ],
+  "frames": [
+    {
+      "frame": 812,
+      "cel": "cel-0140",
+      "selected_path": "generated/fullpv-early-f0812-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1404,
+          "current_core_mismatch_gt30_pixels": 0,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1022,
+            990
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1574,
+          "current_core_mismatch_gt30_pixels": 720,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 3623,
+      "proposed_undeclared_changed_pixels": 0,
+      "full_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0812-source-selected-current-full.png",
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0812-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 813,
+      "cel": "cel-0140",
+      "selected_path": "generated/fullpv-early-f0812-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1269,
+          "current_core_mismatch_gt30_pixels": 0,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1018,
+            992
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1578,
+          "current_core_mismatch_gt30_pixels": 730,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 3645,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 814,
+      "cel": "cel-0141",
+      "selected_path": "generated/fullpv-early-f0814-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1363,
+          "current_core_mismatch_gt30_pixels": 0,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1022,
+            992
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1578,
+          "current_core_mismatch_gt30_pixels": 714,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 3634,
+      "proposed_undeclared_changed_pixels": 0,
+      "full_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0814-source-selected-current-full.png",
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0814-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 815,
+      "cel": "cel-0142",
+      "selected_path": "generated/fullpv-early-f0815-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1374,
+          "current_core_mismatch_gt30_pixels": 0,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1022,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1578,
+          "current_core_mismatch_gt30_pixels": 722,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 3632,
+      "proposed_undeclared_changed_pixels": 0,
+      "full_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0815-source-selected-current-full.png",
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0815-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 816,
+      "cel": "cel-0142",
+      "selected_path": "generated/fullpv-early-f0815-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1453,
+          "current_core_mismatch_gt30_pixels": 0,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1022,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1576,
+          "current_core_mismatch_gt30_pixels": 714,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 3618,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 817,
+      "cel": "cel-0142",
+      "selected_path": "generated/fullpv-early-f0815-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1356,
+          "current_core_mismatch_gt30_pixels": 161,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1022,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1563,
+          "current_core_mismatch_gt30_pixels": 708,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6007,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 818,
+      "cel": "cel-0142",
+      "selected_path": "generated/fullpv-early-f0815-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1308,
+          "current_core_mismatch_gt30_pixels": 0,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1020,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1565,
+          "current_core_mismatch_gt30_pixels": 704,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 3613,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 819,
+      "cel": "cel-0143",
+      "selected_path": "generated/fullpv-early-f0819-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1237,
+          "current_core_mismatch_gt30_pixels": 123,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1020,
+            990
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1563,
+          "current_core_mismatch_gt30_pixels": 704,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6567,
+      "proposed_undeclared_changed_pixels": 0,
+      "full_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0819-source-selected-current-full.png",
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0819-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 820,
+      "cel": "cel-0143",
+      "selected_path": "generated/fullpv-early-f0819-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1276,
+          "current_core_mismatch_gt30_pixels": 138,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1020,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1563,
+          "current_core_mismatch_gt30_pixels": 704,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6662,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 821,
+      "cel": "cel-0143",
+      "selected_path": "generated/fullpv-early-f0819-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1130,
+          "current_core_mismatch_gt30_pixels": 145,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1020,
+            988
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1559,
+          "current_core_mismatch_gt30_pixels": 704,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6762,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 822,
+      "cel": "cel-0143",
+      "selected_path": "generated/fullpv-early-f0819-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1150,
+          "current_core_mismatch_gt30_pixels": 166,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1018,
+            988
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1571,
+          "current_core_mismatch_gt30_pixels": 717,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6777,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 823,
+      "cel": "cel-0144",
+      "selected_path": "generated/fullpv-early-f0823-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1165,
+          "current_core_mismatch_gt30_pixels": 89,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1022,
+            990
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1576,
+          "current_core_mismatch_gt30_pixels": 710,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6821,
+      "proposed_undeclared_changed_pixels": 0,
+      "full_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0823-source-selected-current-full.png",
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0823-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 824,
+      "cel": "cel-0144",
+      "selected_path": "generated/fullpv-early-f0823-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1221,
+          "current_core_mismatch_gt30_pixels": 105,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1022,
+            990
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1576,
+          "current_core_mismatch_gt30_pixels": 716,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 6893,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 825,
+      "cel": "cel-0144",
+      "selected_path": "generated/fullpv-early-f0823-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1118,
+          "current_core_mismatch_gt30_pixels": 104,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1018,
+            990
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1575,
+          "current_core_mismatch_gt30_pixels": 710,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 7001,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 826,
+      "cel": "cel-0144",
+      "selected_path": "generated/fullpv-early-f0823-source-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1139,
+          "current_core_mismatch_gt30_pixels": 181,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            958,
+            1018,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1573,
+          "current_core_mismatch_gt30_pixels": 714,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1002,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 7181,
+      "proposed_undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 827,
+      "cel": "cel-0145",
+      "selected_path": "generated/root-continuation-f0827-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1070,
+          "current_core_mismatch_gt30_pixels": 158,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1018,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1563,
+          "current_core_mismatch_gt30_pixels": 690,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1006,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 7318,
+      "proposed_undeclared_changed_pixels": 0,
+      "full_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0827-source-selected-current-full.png",
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0827-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 828,
+      "cel": "cel-0145",
+      "selected_path": "generated/root-continuation-f0827-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1175,
+          "current_core_mismatch_gt30_pixels": 167,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1018,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1582,
+          "current_core_mismatch_gt30_pixels": 692,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1002,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 7280,
+      "proposed_undeclared_changed_pixels": 0,
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0828-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 829,
+      "cel": "cel-0145",
+      "selected_path": "generated/root-continuation-f0827-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1063,
+          "current_core_mismatch_gt30_pixels": 162,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1018,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1590,
+          "current_core_mismatch_gt30_pixels": 681,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1002,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 7407,
+      "proposed_undeclared_changed_pixels": 0,
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0829-native-bottom-source-selected-current-proposed.png"
+    },
+    {
+      "frame": 830,
+      "cel": "cel-0145",
+      "selected_path": "generated/root-continuation-f0827-v1.png",
+      "fields": [
+        {
+          "name": "Japanese",
+          "rectangle": [
+            870,
+            954,
+            1022,
+            994
+          ],
+          "warm_source_core_pixels": 1166,
+          "current_core_mismatch_gt30_pixels": 221,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            874,
+            954,
+            1022,
+            994
+          ]
+        },
+        {
+          "name": "Chinese",
+          "rectangle": [
+            881,
+            1002,
+            1010,
+            1044
+          ],
+          "warm_source_core_pixels": 1603,
+          "current_core_mismatch_gt30_pixels": 687,
+          "best_source_offset_xy": [
+            0,
+            0
+          ],
+          "source_core_bbox_xyxy": [
+            886,
+            1002,
+            1004,
+            1040
+          ]
+        }
+      ],
+      "proposed_crop_source_exact": true,
+      "proposed_changed_pixels": 7458,
+      "proposed_undeclared_changed_pixels": 0,
+      "native_bottom_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\f0830-native-bottom-source-selected-current-proposed.png"
+    }
+  ],
+  "all_19_source_frames_checked": true,
+  "all_source_best_offsets_zero": true,
+  "all_proposed_crops_source_exact": true,
+  "all_proposed_changes_declared": true,
+  "provenance_sha256": {
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\compose.py": "57c82dc1d7fc309deb6edd9e8b1abe8f1834d98f66febb4ac4e037334f6538bc",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\caption_layers.py": "26ee56cd71707b12f50b33e26359ae8f1e3e108c7c8cc16f8cc848f2fdfade3d",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\dance_caption_layers.py": "d8ad7799d2a93ab72a24bf01c6a0e46dcf89b18a65ae79663807659e92d3eef4",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\asset_selections.json": "1f5db0999a7700a5cd83ce477bf95177cba8bfb8f71a8040b8a722b8dcf32047",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\timeline-opening-35s958-draft-v7.json": "f18271d63955eebfc25beb8d68afa67c3038d9dcfdeaceb9a1154910c5360c29",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_meta.json": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\pre831-caption\\restoration_plan.py": "f5388c2ce2d3c28b6ad1578bc992d1e47ed552c0efc1268a88a71de5bc59e20a",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0812-source-v1.png": "ba77c0b721e88997308ccc0a484b7c313c5a01d1df318c6e6a4f544b3a665ab0",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0814-source-v1.png": "19a4724cba89a8e9f8bd65f66b4855ebe720d2866a4a544625d598cdab63251a",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0815-source-v1.png": "81b78262b1da24878d0da6e6ac807df444f9242f4c735ad34b5bac7903316e09",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0819-source-v1.png": "e4348c5454efb2f18dc999e0499021e4598f0ad8b796334254c7f24d3ee86b7a",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0823-source-v1.png": "b03a432222d4272a2ec72741bcd5774906844a4821c42815aa2e8c14928e6f0a",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0827-v1.png": "6ba211f9c256ed90b0bee2476367efbce9a2c06bcd23780daa15a5f68b563930"
+  },
+  "inputs_unchanged": true,
+  "manual_character_clearance": "pending_full_board_review_not_inferred_from_subject_mask",
+  "artistic_acceptance": false,
+  "original_speed_watch": "not_performed",
+  "phase_note": "Same lyric is present on f810/811 over a macro human/effect. f812 is a cut/safe-region start, not its first lyrical occurrence; f831 changes text. No safe source-rectangle rule is proposed before f812."
+}

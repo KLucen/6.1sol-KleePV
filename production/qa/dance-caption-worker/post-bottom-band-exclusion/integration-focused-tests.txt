@@ -1,0 +1,10 @@
+test_actual_shared_compositor_exposes_integrated_layer (test_dance_caption_integration.DanceCaptionIntegrationTests.test_actual_shared_compositor_exposes_integrated_layer) ... ok
+test_dance_layer_changes_only_alpha_support_and_declares_its_changes (test_dance_caption_integration.DanceCaptionIntegrationTests.test_dance_layer_changes_only_alpha_support_and_declares_its_changes) ... ok
+test_every_actual_changed_pixel_has_a_declared_mask (test_dance_caption_integration.DanceCaptionIntegrationTests.test_every_actual_changed_pixel_has_a_declared_mask) ... ok
+test_no_current_source_graphics_can_reintroduce_old_boot_in_bottom_band (test_dance_caption_integration.DanceCaptionIntegrationTests.test_no_current_source_graphics_can_reintroduce_old_boot_in_bottom_band) ... ok
+test_outside_phase_equals_compositor_with_layer_disabled (test_dance_caption_integration.DanceCaptionIntegrationTests.test_outside_phase_equals_compositor_with_layer_disabled) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 12.984s
+
+OK

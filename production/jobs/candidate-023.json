@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-dce15909-211f-4735-9870-a3545233db22",
+  "candidate_id": 23,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Single FULL16:9 PV cel editing reference1 source-cel-023. This final EXTREME MACRO shows only ONE thick black upper-eyelid stroke going from lower-left edge toward x57%,y31%, no eye vertex/lower eyelid in frame, a narrow connected source pink hair strip across TOP, skin filling majority, partial orange cheek curve along bottom, and an ENORMOUS yellow black-outlined star in bottom-right cropped by right/bottom edges. Preserve EXACT this source crop and geometry; no whole eye, second eye, mouth, face outline, hat, ears, head, torso or hands. Replace ONLY visible pink-hair strip at top with Klee pale blonde bangs, use same source loose dark outline and restrained tan/gray shadow, keep skin and yellow-star effect untouched. Image2 Klee identity/style; image3 candidate022 sets continued blonde/skin palette but MUST NOT copy previous full-chevron visibility; this source is tighter. Remove ALL bottom lyrics/credits/letters leaving clean skin/star artwork. One complete fullcanvas macro PV frame, no zoomout, panels, annotations or new props.",
+  "references": [
+    "analysis/source_cels/source-cel-023.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-022.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-023.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Final extreme macro retains only upper black eye stroke (no vertex/lower eye), pale blonde top hair strip, skin/orange cheek and enormous right/bottom-clipped yellow star. No invented face or captions."
+}

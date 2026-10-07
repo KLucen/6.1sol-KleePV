@@ -1,0 +1,75 @@
+{
+  "job_id": "fast-fullpv-cyan-f0981-nod-v2",
+  "source_frame": 981,
+  "canonical_cel": "cel-0195",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-3df789f6-7c5b-4755-b4bf-f1dc95b3b956.png",
+  "asset_sha256": "93605600b053a7a606812a0e66176590c0aa411c3d35fd24a98dc40628ddb6fa",
+  "static_findings": ["Correct clockwise nod retained; excessive down relocation reduced", "Short ear-rooted pony and closed eye/tiny dot mouth retained", "Absolute source-face registration remains approximate and original-speed review pending", "Targeted repair changes some other lines; no pixel-lock claim"],
+  "output": "generated/fast-fullpv-cyan-f0981-nod-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0981-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-eyes-nose-mouth.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-f0981-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current981 Klee edit target: excessive down relocation only",
+    "Actual981 source full: current nod/placement/crop authority",
+    "Actual981 source face: closed-eye/tiny mouth/profile",
+    "Actual980-to981 spatial A/B/RGB/contours: real nod amplitude"
+  ],
+  "prompt": "Use case: precise-object-edit. ONE full16:9 corrected CURRENT981 cel, edit image1 existing Klee981. Correct ONE blocker: its downward head relocation overshoots actual source980->981 by about70-80native pixels. Image2 actual CURRENT981 full original is exclusive pose/crop/placement authority. Image3 actual CURRENT981 native closed eye/nose/mouth confirms expression and profile. Image4 true980->981 spatial A/B/RGB/contours confirms the modest nod, not a huge drop. Keep the current CLOCKWISE NOD (don't return upright), closed sloping eyelid partly under bangs, tiny dark dot mouth, eye/cheek/nose identity, exact short ear-rooted pony length/mass, plain two-leaf collar, burgundy clover beret/one feather and current colors. Redraw the complete connected head, hair, beret, ear, neck and attached collar about75px UP in image1's1672x941 canvas, maintaining the same size and right-facing nodded orientation. Target Klee closed eye near x68% y52%, nose near76%x57%y, mouth72.5%x66%y, chin71.5%x73%y; these retain the established character proportions while applying only source980->981's roughly10%-canvas downward action, not image1's18%-canvas downward jump. Do not squash/scale head, change source-defined current nod angle into old upright pose, grow ponytails, add iris, open mouth or move far left/right. Original source981 nose is nearer y51%; existing Klee baseline proportions are approximate, do not amplify that discrepancy again. Collar/neck must stay attached and body continues naturally below frame, no disembodied head or extra white throat flap. Top beret can be cut off if necessary; NEVER lower face just to fit full feather/hat. Leave source night sky/stars/crescent and all other content as stable as possible. No source animal mask/ears, long pink hair, text, new limbs, collage, morph/flow or video hold. One newly redrawn corrected current cel.",
+  "source_exposures": [
+    {
+      "start": 981,
+      "end": 983,
+      "pts": 40.875,
+      "end_pts": 40.958,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 983,
+      "end": 984,
+      "pts": 40.958,
+      "end_pts": 41,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0006134510040283,
+            -0.00010519158968236297,
+            -0.5572144389152527
+          ],
+          [
+            0.00010519158968236297,
+            1.0006134510040283,
+            -0.46388089656829834
+          ]
+        ]
+      }
+    }
+  ],
+  "repair_of": "fast-fullpv-cyan-f0981-v1",
+  "repair_reason": "Current down relocation about18%canvas instead of source approximately10%; direction correct but overshoot not propagated"
+}

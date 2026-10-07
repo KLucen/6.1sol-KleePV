@@ -1,0 +1,279 @@
+{
+  "accepted": false,
+  "artistic_accepted": false,
+  "proposals": [
+    {
+      "source_frame": 2077,
+      "path": "generated/middle-next-f2077-2026-10-05-source-v1.png",
+      "job": "jobs/middle-next-f2077-2026-10-05-source-v1.json",
+      "source_cel": "cel-0384",
+      "source_exposures": [
+        {
+          "start": 2077,
+          "end": 2081,
+          "pts": 86.542,
+          "end_pts": 86.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-next-missing-2026-10-05/f2077-source-new-static.png",
+      "known_issues": [
+        "Successful fresh original redraw after prior blocked result; bad whole draft excluded",
+        "Head/hat taller and eyelid slopes heavier than original; minimal skin shading",
+        "Near palm/fingers larger and cuff lower than source; far glove slightly overexposed",
+        "Three cream coat clover buttons and two pockets appeared despite plain-costume prompt; nonblocking costume differences deferred",
+        "Boots/cuff/hem contours and open leg amplitude approximate",
+        "Generated background/stars differ and text intentionally omitted; exact source layers must be restored by compositor",
+        "Static keypart review only; final composition and actual-speed review not performed"
+      ],
+      "source_current_observed": "Fresh source redraw removed former third neck pony. Exactly two rooted short outer blonde ponytails separated by cream collar. Both closed eyelids/tiny O mouth, left near open brown palm and tiny mostly hidden far brown glove retained. Both split legs airborne, near bent left knee covers diagonal far leg at hip.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "6aa8edbca70d3d76587d769215bdcf7d1a65cb2732e3fcf553b4fca9bcad3ae6"
+    },
+    {
+      "source_frame": 2081,
+      "path": "generated/middle-next-f2081-2026-10-05-source-v1.png",
+      "job": "jobs/middle-next-f2081-2026-10-05-source-v1.json",
+      "source_cel": "cel-0385",
+      "source_exposures": [
+        {
+          "start": 2081,
+          "end": 2085,
+          "pts": 86.708,
+          "end_pts": 86.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-next-missing-2026-10-05/f2081-source-new-static.png",
+      "known_issues": [
+        "Hat/head higher/larger than source; current slight left head tilt simplified toward frontal symmetry",
+        "Gloves broader and more exposed, collar shape and shoulder/cuff registration differ",
+        "Hem/boot contours and knee/sole angles approximate but distinct current pose retained",
+        "Generated backdrop/particles not source pixel-exact and caption intentionally omitted; original layers required",
+        "Static native parts reviewed; actual-speed and final composition not performed"
+      ],
+      "source_current_observed": "Front-facing both closed horizontal eyelids and bigger O mouth. Both arms extended, left flat side-on glove points left and right open palm points up. Left boot lower/almost horizontal, right diagonal leg ends in distinctly upturned sole. Exactly two rooted short side ponies, no old actor leftovers; plain coat achieved.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "f5bd3b987f822f31c435eec5e99f5f3d8831a6a56236b6084d344e25e215d805"
+    },
+    {
+      "source_frame": 2085,
+      "path": "generated/middle-next-f2085-2026-10-05-source-v1.png",
+      "job": "jobs/middle-next-f2085-2026-10-05-source-v1.json",
+      "source_cel": "cel-0386",
+      "source_exposures": [
+        {
+          "start": 2085,
+          "end": 2090,
+          "pts": 86.875,
+          "end_pts": 87.083,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-next-missing-2026-10-05/f2085-source-new-static.png",
+      "known_issues": [
+        "Head/hat taller, visible face more central; closed lid slope and mouth/cheek shape approximate",
+        "Left open palm and right glove broader/more exposed than source; arm/cuff positions offset",
+        "Coat hem/collar shape and boot leg length/sole angles differ, source motion retained approximately",
+        "Generated particles/background are not pixel-exact and text omitted intentionally; restore source layers before delivery",
+        "Static focus comparisons inspected, final composition/actual-speed review not performed"
+      ],
+      "source_current_observed": "Independent current viewer-right head tilt with both closed eyelids and smaller vertical O. Left glove now fans up-left rather than flat joined hand, right glove open upward. Lower left leg visibly straighter than2081, right leg diagonal with upright sole. Exactly two short rooted ponies and plain coat.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "f3539fd8032cc2b665643c8088da50166c823c91748c616e089912395d28c2ab"
+    },
+    {
+      "source_frame": 2090,
+      "path": "generated/middle-next-f2090-2026-10-05-source-v1.png",
+      "job": "jobs/middle-next-f2090-2026-10-05-source-v1.json",
+      "source_cel": "cel-0387",
+      "source_exposures": [
+        {
+          "start": 2090,
+          "end": 2094,
+          "pts": 87.083,
+          "end_pts": 87.25,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-next-missing-2026-10-05/f2090-source-new-static.png",
+      "known_issues": [
+        "New head/hat is higher, large and slightly rightward; current source front facial angle simplified using previous tilt",
+        "Hand sizes and arm extension greater than source, left palm/fingers more exposed",
+        "Right boot/sole rounded larger, knee/cuff/hem positions approximate; left foot remains inside but not pixelregistered",
+        "Original long bang partly covers mouth, Klee short bangs do not recreate that same obstruction; face identity kept",
+        "Backdrop/particles require original-source layer restoration; no text generated and captions must be restored",
+        "Static native keyparts only, no final composition or actual-speed art acceptance"
+      ],
+      "source_current_observed": "Current right leg now bends back to nearly horizontal shin with rounded boot sole toward viewer, rather than previous straight kick. Left long leg ends at bottomfoot inside canvas. Two open brown hands, right arm now slopes upward. Closed eyelids and O mouth retained, exactly two rooted compact ponies/plain coat.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "3b5616f08e4ff98e44e22f64745d8eff449fd51a38b9513e45e3f4859c7f951c"
+    },
+    {
+      "source_frame": 2094,
+      "path": "generated/middle-next-f2094-2026-10-05-source-v1.png",
+      "job": "jobs/middle-next-f2094-2026-10-05-source-v1.json",
+      "source_cel": "cel-0388",
+      "source_exposures": [
+        {
+          "start": 2094,
+          "end": 2098,
+          "pts": 87.25,
+          "end_pts": 87.417,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-next-missing-2026-10-05/f2094-source-new-static.png",
+      "known_issues": [
+        "Source head/camera registration approximate; Klee head and hat taller, centered face differs slightly",
+        "Both palms too large/exposed, cuff/arm lengths broader than source",
+        "Right foot tuck only modestly differs from2090 and remains rightward; sole/cuff/hem contours approximate",
+        "Minor costume shading; no same-blocking hair/limb error observed",
+        "Generated stars/background differ and text omitted; restore source layers at exact timing",
+        "Static comparisons only, final composition/actual-speed unreviewed"
+      ],
+      "source_current_observed": "New centered frontal face with both closed horizontal eyelids and larger round O. Left arm rises to shallowV matching right raised open arm. Right back-bent leg shortened tuck/right sole viewer, left long low leg, two compact side-rooted ponies and plain red coat.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "ee830e40fc47ad66aee837fe3f525cbd6ee6732996c56d8e5174d772894cc2dc"
+    },
+    {
+      "source_frame": 2098,
+      "path": "generated/middle-next-f2098-2026-10-05-source-v1.png",
+      "job": "jobs/middle-next-f2098-2026-10-05-source-v1.json",
+      "source_cel": "cel-0389",
+      "source_exposures": [
+        {
+          "start": 2098,
+          "end": 2105,
+          "pts": 87.417,
+          "end_pts": 87.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-next-missing-2026-10-05/f2098-source-new-static.png",
+      "known_issues": [
+        "Head/beret large/high and body rightward compared source, source placement approximate",
+        "Left-arm raising noticeably exaggerated, left cuff/palm higher than source; right arm and finger fan broader",
+        "Current rear-knee/near-thigh occlusion represented but contour/hem/cuff/sole amplitude approximate",
+        "Hair remains exactly two connected short ponytails, no blocking extra neck cluster seen",
+        "Generated stars/background independent phase not source exact; captions intentionally absent and must be restored before delivery",
+        "Static native review only; actual-speed and final composition/artistic acceptance not performed"
+      ],
+      "source_current_observed": "Current left-down facial slant with both eyes closed/round O, two rooted short ponies. Both arms raised steeper V, exactly two brown palms. Rear right knee now close behind near left thigh, rear boot closer inward than2094 and distinct sole viewer; left leg long to bottomfoot.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "af1cb5dadb2a67111aaede9878b56e8f7cc2faf1995a2682ab4c8badcd4ec613"
+    }
+  ],
+  "blocked_candidates": [],
+  "successful_builtin_calls": 6,
+  "unique_missing_cels_generated": 6,
+  "successful_first_missing_cel_calls": 5,
+  "successful_fresh_source_redraw_calls": 1,
+  "unique_source_cels_in_batch": 6,
+  "not_submitted_calls_in_this_batch": 0,
+  "source_frames_addable_draft_only": 28,
+  "actual_speed_review": "not_performed",
+  "final_composition_review": "not_performed"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "star-f1017-rear-hair-repair-2026-10-05",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1017,
+  "source_cel": "cel-0212",
+  "source_reference": "source_refs/src-0549-f1017.png",
+  "source_exposures": [
+    {
+      "start": 1017,
+      "end": 1019,
+      "pts": 42.375,
+      "end_pts": 42.458
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Asset: one entire independent hand-drawn PV cel, source f1017, rear-head macro. Input roles: Image1 current exact original framing/crop and occlusion only; Image2 full-frame edit target Klee rear head; Image3 adjacent Klee palette/line simplicity ONLY, not its face or pose; Image4 actual previous-to-current AB/RGB/contours; Image5 actual current-to-next AB/RGB/contours, not permission to reveal a face. Redraw the entire Image2 frame with its existing giant rear-view Klee red beret, dark-red brim, screen-left white feather and short pale blonde back hair plus two compact rooted short ponytails, matching original Image1 macro rear framing. No face, no eyes or nose, no invented hands, torso or legs. Keep Image2 existing Klee head silhouette, hat angle, framing and compact blonde groups as close as possible. Critical repair: the detached purple-blue long curved strands in the bottom-left sky of Image2 (approximately x180..410,y820..941 in1672x941) are leftover ORIGINAL CHARACTER HAIR, not a background effect. Remove every such original-character contour and restore the real blue-to-purple starry sky exposed behind Klee's short hair. Do not repaint these strands blue, extend them into Klee's ponytail, retain original long rear hair, erase real short Klee hair, or turn Klee around. Preserve the actual source small star specks/glow, with no extra pattern stars or characters. Do not add a front clover to the rear of this beret. Keep simple hand-drawn black/brown outlines and flat pale/red color blocks, avoiding added rich shading. No lyrics, typography or watermarks; exact original subtitles are restored independently by the compositor. One landscape full PV frame, not a collage or contact sheet. Preserve all invariants outside the repaired old-hair region as closely as the drawing model can, but do not claim pixel locking.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-star-gestures-2026-10-04\\actual-audit\\actual-f1017.png",
+      "role": "Current exact original source frame1017: sole authority for giant rear-head crop, no face, framing and visible areas. Original long hair identity is replaced, not preserved."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-035.png",
+      "role": "Edit target whole frame. Keep existing rear Klee red beret / pale short rooted hair / two compact ponytails and exact cropped view; repair detached original purple-blue strands at bottomleft only."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-gestures-f1014-fast-v1.png",
+      "role": "Adjacent Klee identity and simplified medium only. Do not copy profile face, foreground composition, rear clover or expose face in target."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-star-gestures-2026-10-04\\actual-audit\\f1014-f1017-actual-ab-rgb-contours.png",
+      "role": "Actual source previous-to-current spatial transition evidence, current rear-view macro authority; not copy source identity."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-star-gestures-2026-10-04\\actual-audit\\f1017-f1019-actual-ab-rgb-contours.png",
+      "role": "Actual source current-to-next transition only; next face may not be invented in current frame."
+    }
+  ],
+  "output": "generated/star-gestures-f1017-rear-hair-v2.png",
+  "accepted": false,
+  "artistic_acceptance": false,
+  "original_speed_review": "not_performed",
+  "status": "generated_static_draft",
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5187bde6-d20b-4ee8-887f-35ad5fe6ff3c.png",
+  "output_dimensions": [1671, 941],
+  "output_sha256": "c3b58d3167debcd3521c1ca236a5da5b07e16bb913b9f9b8fb46f30683b776df",
+  "static_review": "Root viewed exact source, raw target, adjacent identity, actual AB/RGB/contours and generated full output. Original detached purple-blue bottom-left hair contours removed; rear macro Klee pose retained. Generated sky/shading changed slightly; no pixel locking, compositing or original-speed acceptance claimed.",
+  "repair_reason": "Raw candidate035 retains identifiable original long rear hair contours; cannot solve by hiding with compositing mask"
+}

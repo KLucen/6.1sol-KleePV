@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f0629-source-native-v2",
+  "source_frame": 629,
+  "source_candidate": "src-0258",
+  "canonical_cel": "cel-0105",
+  "family": "prone_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0258-f0629.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/prone-head-clean-v3.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/prone-garment-clean-v3.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0629-source-legs.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0629.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full 16:9 flat hand-drawn PV cel. Image1 CURRENT original f0629 is the EDIT TARGET and absolute pose/scale/framing authority. Replace ONLY its pink-haired pajama girl by default Klee. Remove captions, keep source lavender background and cream/purple pillow geometry exactly. Image2 CROPPED Klee head defines identity/style/colors only, NOT head or body screen scale. Image3 CROPPED Klee garment defines redcoat/cream edge/small cream lower-coat clover/backpack only, not pose. Image4 CURRENT source leg close-up is EXACT joints/cuffs/foot outlines/occlusion. Image5 actual source625\u2192629 delta defines front foot moves LEFT and DOWN, rotates MORE VERTICAL; NEVER up. Strictly trace source body/forward arms and current leg silhouette for pose; front shin diagonally rises to left IN FRONT OF rear shin, front foot vertical toe top is at current source y325, not above current head top. Translate costume identity while keeping source compact simple foot shapes: only feet beyond cuffs become simple BROWN boots; both thighs/knees/shins PALE SKIN, plaincreamtopbands, redshorts and creamskirt/pinkruffle at hip. No elongating shins or boots, no sleeve or boot emblems. Brown full gloves with current source hand contours. Same half-open sleepy RED eyes under black eyelids, pointed ears, orange cheeks, two short ear-rooted sideponies, pale blonde bangs; mouth hidden. Red beret creamclover whitefeather plainroundbrowncloverbadge right with NO dangling ornaments. Thick loose uneven blackcontours, flat colors no game rendering/texture/gradient/newshadow. One current full cel, no sheets or lettering.",
+  "output": "../generated/fine-f0629-source-native-v2.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-65072061-3123-4c2b-b534-1b689d76b1db.png"
+}

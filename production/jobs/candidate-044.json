@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-46ffbf01-3501-4810-bf7e-ace8b34cc677",
+  "candidate_id": 44,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One FULL16:9 PV source-cel-044 edit. Image1 current source is POSE/crop/expression authority. Character smaller/lower and nearupright, both elbows lowered wide, two index fingers point DIAGONALLY INWARD toward the LOWERLEFT/LOWERRIGHT frontedge ofhat at temples (left fingertip near x44%,y38%, right near x62%,y34%). Do NOT copy previous handsatTOPofhat: current fingers flank temple/forehead, index tips point toward oneanother. All other fingers curled as source, bent wrists creamcuffs exact. Squeezedclosed > < eyeline, tiny horizontal NOTCH mouth (notW/O/open), source orangecheeks. Replace all originalhair/pajamas/sleepmask with Klee identity ref2: blondeshortTWOponytails, pointedears, redberet creamclover/whitefeather, redcreamcoat patterncollar/brownFULLgloves. Gloves overlap hat/hair in front, hat feather can be behind rightglove. Image3 previous Klee043 identity/style/topologyONLY, no freezingpose or expression orscale. Retain full source composition lavenderoutlinedcreamstars, loose blacksource lines/flatcolor simple shading. REMOVE all originallyrics/credits/text, no lettering. Do not invent unseenbody/props/anatomy.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-044.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-043.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-044.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Lowered elbows and two inward diagonal index fingers at temples retained, closed chevron eyes/notched tiny mouth, no text. Generated hands/elbows more symmetric than slightly asymmetric source; QA minor spatial flag."
+}

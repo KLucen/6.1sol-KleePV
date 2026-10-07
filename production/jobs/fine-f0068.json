@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0068",
+  "source_frame": 68,
+  "source_candidate": "src-0021",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0021-f0068.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0063.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0068.png"
+  ],
+  "prompt": "One full 16:9 Klee PV cel. Image1 CURRENT original determines exact pose/crop and little line changes; image2 preceding Klee determines SAME stable character/costume/style only; image3 shows original A/B and actual spatial differences, upper-right CURRENT, never reproduce panels. This is a subtle separately drawn hold, NOT a new action: both arms still extended LEFT, wrists/fingers touching the lower-right clock edge. Follow current slight head/hair contour wobble, upper eyelid thickness, cuff edge/forearm crease and elbow outline changes, and slightly shifted bent-knee outline from source. Keep hand position near x990,y525 and original almost-horizontal clock; do not lift or retract the whole arm. Red sleeve and cream cuff folds gently change with current outline, same coat length and hem. ONE narrow OPEN RED profile eye, tiny CLOSED dot/short mouth, left-facing head. Preserve same Klee red beret/creamclover/whitefeather side, pointed ear, TWO SHORT blonde side ponytails, redcream coat/capelet/backpack and lower legs cropped at bottom. Lavender pillow remains diagonal behind head. Flat loose irregular dark PV outlines, orange cheeks, one flat shadow. No gray pajamas or source bunny hood/pockets. NO subtitles, titles, credits, lettering or labels anywhere; clock display without digits, original text restored separately. No pose freeze fromprevious, no extra body part, no zoom/mirror/reframing.",
+  "output": "../generated/fine-f0068.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

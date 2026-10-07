@@ -1,0 +1,33 @@
+{
+  "job_id": "fast-fullpv-cyan-f0960-v1",
+  "source_frame": 960,
+  "canonical_cel": "cel-0187",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-cyan-f0960-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0496-f0960.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0957-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-f0960-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+    "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+    "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+    "Actual original previous/current A/B/RGB/contours: independent changes and wind direction"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 source960 independent PV cel. Image1 CURRENT ORIGINAL EDIT TARGET decides right-facing profile head scale/crop and HIGH eye/nose/mouth/chin placement; replace original girl by ONE Klee. Image2 native CURRENT face expression; Image3 only preceding cool-light Klee short rooted hair/plain beret/collar topology/colors, NOT permission to copy previous expression/low registration. Image4 actual957→960 spatial A/B/RGB/contour reference, draw CURRENT changes. CURRENT differences: Single eye stays FULLY CLOSED, tiny hooked mouth, current957-to960 independent hat/fringe/closed-lid/profile/hair tip/collar line-pressure redraws, small but coherent. Do not freeze957. Keep face HIGH as original image1: eye/lid near x66% y39%, nose x74% y41%, tiny mouth x71% y51%, chin x70% y59%; beret cropped across top, do not lower face to fit whole hat. Klee blonde hair cyan/lavender under source night light, TWO short ear/neck-rooted side groups, neither longer than collar. Clover burgundy/red beret, clipped feather, pointed ear, plain cream two-leaf collar tinted cyan, burgundy coat shoulders exit bottom. No old animal mask, peach/pink waist hair, upward curled forelock, third detached fan, extra face/eye, invented hands/legs, ornate diamonds/pompoms. Existing purple-left/blue-cyan-right night sky, stars/crescent framing retained. Simple flat hand-drawn PV color areas, irregular dark outlines, minimal shading. OMIT ALL lyric text for separately restored original glyph layer. Redraw ONE cel with current eyelid/hair tip/collar/shoulder/outline pressure changes, no collage, holds, mirror, morph, flow or crossfade.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-5b38752e-c922-4b91-b6e8-7d54e30532be.png",
+  "static_review": "Single eye remains closed; current beret/top crop and fringe/profile/short-group contour visibly redrawn, mouth and collar approximated, no old long hair or extra limbs. No claim all source small redrawing amplitudes reproduced.",
+  "known_issues": [
+    "Residual head/face registration versus original",
+    "Tiny mouth slanted tick differs original hook",
+    "Mild shading/simple collar historical difference"
+  ],
+  "blocking_static_findings": [],
+  "consecutive_review": "pending"
+}

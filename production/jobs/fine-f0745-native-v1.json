@@ -1,0 +1,20 @@
+{
+  "source_frame": 745,
+  "name": "fine-f0745-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0743-contour-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0327-f0745.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0745.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent full16:9 PV cel f0745. Image1 previous Klee is EDIT TARGET for exact established native small screen scale/location/crop and two shortponies/redberet/costumedesign. Image2 CURRENT ORIGINAL authority for eye/brow/mouth/current cuffs/sleeve/fist contours; image3 actual before/current source RGBdifferencex4 and contour evidence only. Mandatory CURRENT independent fine drawing: head/eyes/neck settle slightly DOWN and source shoulder/cuff/fist/fold contours change. BOTH eyes remain current SOURCE tall rounded sleepy halfopen openings, do NOT invent a narrow-lid blink or closed eyes. BLACK lowerleft hooked pupil connected to outline with WHITE notch persists, upperiris DARK RED/lowerCORAL RED, NO BLUE, no center dots. Tiny inverted-vmouth as current source. Independently redraw current minor sleeve/cuff/fist outlines/creases and brow/lid changes in diff; preserve arms down-out and stablecamera/face/body scale, do not copy full previous drawing. Small brown curledgloves, plaincreamcuffs, redcreamtrimcoat creamclovercoat emblem, creamangularskirt/pinkruffle/redshortsbottomcrop. ExactlyTWO SHORT blonde ear-root ponytails, pointedears, redcreamcloverberet whitefeather/plainroundbrowncloverbadge nothingdangling/no abovahat tuft/no original bunny forehead mask. Original flatlavender/no captions/text/props/panels/gradient/texture. Simplethick uneven PV blacklines/flatcolors. Only current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-fd4c5504-6153-4a31-b232-ca3cffa552b7.png",
+  "output": "../generated/fine-f0745-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "not_adopted_body_alignment_and_excessive_tilt",
+  "accepted": false,
+  "review": "Current open red-eye state/hooks and independently changed hands/coat contours present, but head/body enlarged and raised opposite slight source settling. Reject base for alignment; native repair underway.",
+  "known_issues": [
+    "Head/body enlarged and raised vs source/preceding",
+    "Wrists high"
+  ]
+}

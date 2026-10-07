@@ -1,0 +1,150 @@
+{
+  "queue": [
+    {
+      "source_frame": 2155,
+      "cel": "cel-0409",
+      "source_exposures": [
+        {
+          "start": 2155,
+          "end": 2157,
+          "pts": 89.792,
+          "end_pts": 89.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-source-actual.png",
+      "source_reference": "source_refs/src-1222-f2155.png",
+      "current_source_sha256": "45561717ea7012cebbea506f0be89803efe780c396eb485a7d8a3e0c24ff55c7",
+      "actual_previous": 2154,
+      "overview_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2154-f2155-source-ab-rgb-contours.png",
+      "native_locals": [
+        {
+          "name": "eyes-mouth-bangs",
+          "box_xyxy": [
+            1100,
+            240,
+            1480,
+            650
+          ],
+          "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-eyes-mouth-bangs-native-ab-rgb-contours.png",
+          "current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-eyes-mouth-bangs-current-native.png"
+        },
+        {
+          "name": "collar-shoulder",
+          "box_xyxy": [
+            890,
+            680,
+            1290,
+            1040
+          ],
+          "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-collar-shoulder-native-ab-rgb-contours.png",
+          "current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-collar-shoulder-current-native.png"
+        },
+        {
+          "name": "rear-hair-tip",
+          "box_xyxy": [
+            45,
+            480,
+            885,
+            1080
+          ],
+          "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-rear-hair-tip-native-ab-rgb-contours.png",
+          "current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-rear-hair-tip-current-native.png"
+        }
+      ],
+      "actual_original_sequential_exact": true,
+      "accepted": false
+    },
+    {
+      "source_frame": 2157,
+      "cel": "cel-0410",
+      "source_exposures": [
+        {
+          "start": 2157,
+          "end": 2163,
+          "pts": 89.875,
+          "end_pts": 90.125,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-source-actual.png",
+      "source_reference": "source_refs/src-1224-f2157.png",
+      "current_source_sha256": "4dd4cdc590fd9c090b76ea1504cfd13bfaf5474e6d86478c7abac5db81f2b28e",
+      "actual_previous": 2155,
+      "overview_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2155-f2157-source-ab-rgb-contours.png",
+      "native_locals": [
+        {
+          "name": "eyes-mouth-bangs",
+          "box_xyxy": [
+            1100,
+            240,
+            1480,
+            650
+          ],
+          "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-eyes-mouth-bangs-native-ab-rgb-contours.png",
+          "current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-eyes-mouth-bangs-current-native.png"
+        },
+        {
+          "name": "collar-shoulder",
+          "box_xyxy": [
+            890,
+            680,
+            1290,
+            1040
+          ],
+          "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-collar-shoulder-native-ab-rgb-contours.png",
+          "current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-collar-shoulder-current-native.png"
+        },
+        {
+          "name": "rear-hair-tip",
+          "box_xyxy": [
+            45,
+            480,
+            885,
+            1080
+          ],
+          "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-rear-hair-tip-native-ab-rgb-contours.png",
+          "current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-profile-next-2026-10-06\\f2157-rear-hair-tip-current-native.png"
+        }
+      ],
+      "actual_original_sequential_exact": true,
+      "accepted": false
+    }
+  ],
+  "decoded_actual_interval": [
+    2154,
+    2163
+  ],
+  "source_exposure_frames": 8,
+  "generation": "not called by evidence preparation"
+}

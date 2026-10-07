@@ -1,0 +1,81 @@
+{
+  "source_frame": 2350,
+  "cel": "cel-0454",
+  "source_candidate": "src-1337",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2350-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility. Image 5: Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop.\nCurrent source frame f2350; original predecessor f2345. Actual observed current pose and changes: Actually inspected f2350 source, actual f2345/f2350 AB RGBx4 contours and native head/fist. Current eyes now ROUND OPEN with visible pupils, render red open eyes, and mouth changed to small OPEN O, not pout. One full performer only; screen RIGHT fist still at upper chest below chin but moves slightly DOWN and inward with cuff foreground overlapping coat; LEFT arm down/out slightly lower. RIGHT leg is less bent and right boot flattens nearer vertical under body than previous angled boot; LEFT planted. Follow current open-eye O-mouth transition and fist-collar overlap; no prop, second actor or added hands.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1337-f2350.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-upper-head-hand-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2345-v1.png",
+      "role": "Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1337-f2350.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-upper-head-hand-native.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2345-v1.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2350,
+      "end": 2354,
+      "pts": 97.917,
+      "end_pts": 98.083,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "Actually inspected f2350 source, actual f2345/f2350 AB RGBx4 contours and native head/fist. Current eyes now ROUND OPEN with visible pupils, render red open eyes, and mouth changed to small OPEN O, not pout. One full performer only; screen RIGHT fist still at upper chest below chin but moves slightly DOWN and inward with cuff foreground overlapping coat; LEFT arm down/out slightly lower. RIGHT leg is less bent and right boot flattens nearer vertical under body than previous angled boot; LEFT planted. Follow current open-eye O-mouth transition and fist-collar overlap; no prop, second actor or added hands.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-50c8dd57-8912-43e9-9c15-7a47fc4929f5.png",
+  "output_sha256": "98c57117610829385cb9629dee2c631197e6304e4d72d205dcc19088254337d4",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually reviewed output: single standing Klee now round OPEN red eyes and small O mouth; RIGHT fist at collar over chest and LEFT arm down/out; RIGHT boot becomes flatter/less bent while LEFT planted. No props/extra hands. Right fist source downward shift weak; simple-style fluffy collar/coat ornament deviation remains. accepted=false; temporal review pending.",
+    "accepted": false
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "mode": "strict_source",
+  "sequential_decode": [
+    0,
+    1070
+  ],
+  "queue": [
+    {
+      "source_frame": 1043,
+      "cel": "cel-0221",
+      "source_reference": "source_refs/src-0575-f1043.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1043-source-actual.png",
+        "png_sha256": "02bc8a8c59e1807a691df95cdda35b38cbd65f59a547e4470b854b879c546b97",
+        "decoded_bgr_sha256": "103abe180f7f75e15c0386360866e6cac82b3f51a460eb814da1fe15d9719d9b",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1038,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1038-source-actual.png",
+        "png_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+        "decoded_bgr_sha256": "91073f66df64d6795af4356a39d930d1198b574de752c145be06b415a488cb63",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1038-f1043-source-ab-rgb-contours.png",
+      "delta_sha256": "5dd2baf9cfbf60b9a567eeb1bc670a40b2597a1b9fa6308b7cb6dfe656cb0a11",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1043-source-face-native.png",
+      "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1043-source-body-native.png",
+      "source_exposures": [
+        {
+          "start": 1043,
+          "end": 1048,
+          "pts": 43.458,
+          "end_pts": 43.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 1075,
+          "end": 1080,
+          "pts": 44.792,
+          "end_pts": 45.0,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "accepted": false,
+      "alias_created": false
+    },
+    {
+      "source_frame": 1048,
+      "cel": "cel-0222",
+      "source_reference": "source_refs/src-0580-f1048.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1048-source-actual.png",
+        "png_sha256": "f37eabae326987666de3198b8e3a3e5a956d77813a16f33c8a40bb460bd88c47",
+        "decoded_bgr_sha256": "4c3b01550af52689d221ea71ddff494f2ca697d48c4212df86ec15f2523f8503",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1043,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1043-source-actual.png",
+        "png_sha256": "02bc8a8c59e1807a691df95cdda35b38cbd65f59a547e4470b854b879c546b97",
+        "decoded_bgr_sha256": "103abe180f7f75e15c0386360866e6cac82b3f51a460eb814da1fe15d9719d9b",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1043-f1048-source-ab-rgb-contours.png",
+      "delta_sha256": "1265457990b062483122d965b1ad24ce87cd8529ad38c9e0330eb929714848f6",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1048-source-face-native.png",
+      "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1048-source-body-native.png",
+      "source_exposures": [
+        {
+          "start": 1048,
+          "end": 1053,
+          "pts": 43.667,
+          "end_pts": 43.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "accepted": false,
+      "alias_created": false
+    },
+    {
+      "source_frame": 1053,
+      "cel": "cel-0223",
+      "source_reference": "source_refs/src-0585-f1053.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1053-source-actual.png",
+        "png_sha256": "8121b9a0ac8ae3c742ebbae475c73a15e29ec8ae016d164fc1efee1eec9414c5",
+        "decoded_bgr_sha256": "43bf33b9c796d9ec31d4231b1bb11b5de100c934f723aad1dba9b7cabfa0d9cb",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1048,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1048-source-actual.png",
+        "png_sha256": "f37eabae326987666de3198b8e3a3e5a956d77813a16f33c8a40bb460bd88c47",
+        "decoded_bgr_sha256": "4c3b01550af52689d221ea71ddff494f2ca697d48c4212df86ec15f2523f8503",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1048-f1053-source-ab-rgb-contours.png",
+      "delta_sha256": "1448076748108a26f759fe03305565e3cd8610a4dfaadf3066f1e56d2d50f934",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1053-source-face-native.png",
+      "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1053-source-body-native.png",
+      "source_exposures": [
+        {
+          "start": 1053,
+          "end": 1059,
+          "pts": 43.875,
+          "end_pts": 44.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "accepted": false,
+      "alias_created": false
+    },
+    {
+      "source_frame": 1059,
+      "cel": "cel-0224",
+      "source_reference": "source_refs/src-0591-f1059.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1059-source-actual.png",
+        "png_sha256": "0c61280ac8ec4d6888f9687425211ade7a5957efe7015a1cba1dc204da142ec8",
+        "decoded_bgr_sha256": "0d60c62144c6af699ed700856e0366f3c9102c9d78fc1307a652c006fabf1411",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1053,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1053-source-actual.png",
+        "png_sha256": "8121b9a0ac8ae3c742ebbae475c73a15e29ec8ae016d164fc1efee1eec9414c5",
+        "decoded_bgr_sha256": "43bf33b9c796d9ec31d4231b1bb11b5de100c934f723aad1dba9b7cabfa0d9cb",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1053-f1059-source-ab-rgb-contours.png",
+      "delta_sha256": "b7dfe45f70d38b40db7e5d358b7e8ea08092fcec76f0e27202b75abf55086a33",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1059-source-face-native.png",
+      "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1059-source-body-native.png",
+      "source_exposures": [
+        {
+          "start": 1059,
+          "end": 1064,
+          "pts": 44.125,
+          "end_pts": 44.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "accepted": false,
+      "alias_created": false
+    },
+    {
+      "source_frame": 1064,
+      "cel": "cel-0225",
+      "source_reference": "source_refs/src-0596-f1064.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-source-actual.png",
+        "png_sha256": "f50740eb9353fd4aafeb2734301a5ecfe36c6034bf393243cce7cdda420e2e71",
+        "decoded_bgr_sha256": "faefeea4314d8e7a5a8a8e080090eedb912aae82cf231018de7b29d6d43787dc",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1059,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1059-source-actual.png",
+        "png_sha256": "0c61280ac8ec4d6888f9687425211ade7a5957efe7015a1cba1dc204da142ec8",
+        "decoded_bgr_sha256": "0d60c62144c6af699ed700856e0366f3c9102c9d78fc1307a652c006fabf1411",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1059-f1064-source-ab-rgb-contours.png",
+      "delta_sha256": "149376b26f0938e44e1d858f20915044c9bd346bdb8af8e23aa358105601e405",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-source-face-native.png",
+      "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-source-body-native.png",
+      "source_exposures": [
+        {
+          "start": 1064,
+          "end": 1069,
+          "pts": 44.333,
+          "end_pts": 44.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "accepted": false,
+      "alias_created": false
+    },
+    {
+      "source_frame": 1069,
+      "cel": "cel-0226",
+      "source_reference": "source_refs/src-0601-f1069.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-actual.png",
+        "png_sha256": "fb5f5e65e2687f9198ad48cda66471076e488d1873d43e1159fda1cf5aa55256",
+        "decoded_bgr_sha256": "74a802e02a2e119ab63957f6c4d448852b548d0cbb6243d81c63e058d9bd676a",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1064,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-source-actual.png",
+        "png_sha256": "f50740eb9353fd4aafeb2734301a5ecfe36c6034bf393243cce7cdda420e2e71",
+        "decoded_bgr_sha256": "faefeea4314d8e7a5a8a8e080090eedb912aae82cf231018de7b29d6d43787dc",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-f1069-source-ab-rgb-contours.png",
+      "delta_sha256": "24854a1fad525256950eb2ede689b214428ca338e6be72d17cc039156a18fa35",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-face-native.png",
+      "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-body-native.png",
+      "source_exposures": [
+        {
+          "start": 1069,
+          "end": 1075,
+          "pts": 44.542,
+          "end_pts": 44.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "accepted": false,
+      "alias_created": false
+    }
+  ],
+  "identity_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-cropped-identity-costume-reference.png",
+  "identity_parent": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0812-source-v1.png",
+  "identity_parent_sha256": "ba77c0b721e88997308ccc0a484b7c313c5a01d1df318c6e6a4f544b3a665ab0",
+  "identity_board_sha256": "52a22fa1c4e5355b826711cd0ffe942c160cf799607cf1eb60803878704287e9",
+  "exposures_changed": false,
+  "artwork_generated": false
+}

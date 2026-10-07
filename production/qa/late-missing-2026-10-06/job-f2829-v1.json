@@ -1,0 +1,103 @@
+{
+  "source_frame": 2829,
+  "source_cel": "cel-0519",
+  "source_candidate": "src-1606",
+  "output": "generated/late-f2829-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Produce ONE independent whole 16:9 hand-drawn cel by replacing the visible person in original IMAGE 1 with Genshin Impact Klee, preserving original scene, camera, exact body scale, placement, large empty margins and source action. Image1 full CURRENT original is sole pose, expression, direction and occlusion authority. Image2 native current figure crop makes current hands, pillow and feet visible; it is not a new framing. Image3 actual native local BEFORE/CURRENT, RGB difference x4 and blue-before/red-current contours controls the concrete changes. Image4 cropped Klee face is identity and simple palette ONLY, not eye state or head pose. Image5 adjacent Klee cel maintains short-pony topology, costume, source-like loose black lines and flat areas ONLY, not a frozen pose. CURRENT original, never previous Klee, determines new limb/eye state. Draw exactly two compact EAR-rooted short blonde side ponytails, no third loose rear lock; pale-blonde bangs, pointed ears, sleepy RED irises with small black pupils and white highlights when source open; fully shut eyes have no irises when source shut. Red beret with cream clover, small badge and white feather; simplified red coat/capelet, continuous plain cream trim/hem and PLAIN cream cuffs, brown continuous gloves and brown boots with cream upper trim. No scalloped cuffs or hem, no added coat/boot clovers or lettering. Keep SOURCE long limb proportions and garment hip level rather than shrink the person into chibi or lengthen coat. Replace rabbit sleep mask with Klee beret, not another mask. Keep exactly TWO source-visible hands. Preserve pillow at EXACT source polygon size, orientation and position, not enlarged. Pillow is lavender with original cream side edges; opaque pillow occludes torso, gloves and sleeves layer according to current SOURCE, no invented anatomy through pillow. Small brown backpack visible only where source/Klee turn genuinely allows. Match loose, sparse black contours and flat limited-color PV drawings, no polished splash art. Keep original purple background field; original source subtitle text removed cleanly to background, no generated words, glyphs, captions, numbers, logo or watermark. Compositor restores exact original captions/graphics later. Do not output contact sheet or diagram. CURRENT SOURCE details: f2829 independently turns head more squarely toward viewer: both half-lidded eyes visible with tiny caret mouth. Left-screen near sleeve hangs lower/down-left at bent elbow; its glove grips left upper pillow corner, cream cuff is tilted. Right-screen sleeve crosses diagonally upward to cheek with only index raised beside face, other gloved digits curled; glove touches upper-right pillow corner. Source pillow lower edge slopes upward to right, broader current front view than f2825. Body leans down-right but legs more upright and separated, both boot toes facing viewer, LEFT-screen boot lower and slightly left of right. Retain current source exact body and pillow silhouette, not prior high central fists.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2829-source-actual.png",
+      "role": "CURRENT original sole framing pose occlusion authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2829-source-pose-native.png",
+      "role": "native CURRENT entire figure and pillow details not output crop"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2825-f2829-source-locals-native.png",
+      "role": "native source local actual A/B RGB and contours current red"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee face identity only not pose or eye-state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2825.png",
+      "role": "adjacent Klee topology line color only do not freeze fists"
+    }
+  ],
+  "all_references_actual_viewed": true,
+  "source_exposure_strategy": "strict_source",
+  "source_exposures": [
+    {
+      "start": 2829,
+      "end": 2834,
+      "pts": 117.875,
+      "end_pts": 118.083,
+      "family": "floating_turn",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 2897,
+      "end": 2901,
+      "pts": 120.708,
+      "end_pts": 120.875,
+      "family": "floating_turn",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Current half-lidded front-facing red eyes, caret mouth, right-screen raised index and lower left-screen glove, plain cuffs, two rooted compact ponies and separated frontal boot toes are present; native current and actual A/B RGB/contours viewed. Pillow/hat/head registration and pillow breadth approximate; coat pockets/forelock and low hem differ, iris white highlights not distinct. Minor costume differences deferred; compositing and actual-speed continuity not checked, accepted false.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "argument_validation_correction": {
+    "previous_reference_count": 6,
+    "current_reference_count": 5,
+    "no_output_prior_attempt": true,
+    "whole_delta_not_submitted_but_actual_viewed": true,
+    "authorization": "Parent authorized fixing unsubmitted argument validation and continuing original six-cel task."
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10f41-d625-7081-823e-717bc8ebded2\\exec-adc71847-ec2b-425f-b928-3b54069152b3.png",
+  "output_sha256": "310533d2ae310647d8cdbb035df543e20bac9cf0ecc9ee24c68d9dbdc93b7b44",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

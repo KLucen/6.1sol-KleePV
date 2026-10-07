@@ -1,0 +1,31 @@
+{
+  "source_frame": 79,
+  "name": "fine-f0079-source-clock-v3.png",
+  "output": "generated/fine-f0079-source-clock-v3.png",
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Edit Image 1, CURRENT ORIGINAL PV drawing f79, in place to default Klee. ONE full 1920x1080 canvas, no panels. Image 1 is absolute authority for all source geometry, camera crop, scale, exact leaning body angle, pillow and arm/hand/clock occlusion. Image 2 is THIS SAME source clock/hands/face enlarged, sole authority for clock screen proportions, finger contacts and partially covered face. Image 3 is HAT-ONLY Klee identity, never pose. Image 4 is clothing COLOR/identity only, simplify it to the original PV flat rendering, not its detailed coat contours.\nKeep ORIGINAL clock at original coordinates x1195..1360, y~260..375 (current original wins over approximate numbers), angled up-right exactly as source. Do not widen or enlarge it. It is an alarm clock with simple cream base and a muted lavender LCD framed by thin cream/dark lines. Preserve source LCD text EXACTLY \"0:33\", three pale segmented digits with colon at the original angle and spacing. The clock covers the EYES and NOSE completely, leaving the tiny frowning mouth/cheeks below. Keep both hands beside clock edges with source contact geometry and number of visible fingers, convert skin hands to simple brown gloves. Fingers are IN FRONT of the clock lateral edges, but do not cover the digit centers. Cream cuffs sit behind wrists. Do not lower clock onto mouth/chin; do not reveal eyes below it. Huge cream/lavender pillow remains behind head and elbows at EXACT source outline and angle.\nReplace entire original rabbit forehead mask and long pink hair with Klee red cream-clover beret/white feather, pointed ears, exactly TWO short pale-blonde ponytails behind head. No residual rabbit mask or rabbit plush, no long hair. Keep same head/face extent; do not add expression or iris in the concealed eyes. Simple red coat with cream collar/cuffs/hem and only ONE coat clover, red shorts with source-proportioned compact pale legs, small brown backpack behind right shoulder. No extra cuff/boot clovers, detached balls, dangling badge strips, detailed patterned skirt or pendant. Keep original PV's loose uneven thick sketch lines, minimal flat fills, sparse shading. No glossy gradient/anime game illustration. Preserve ORIGINAL left Chinese/Japanese subtitles verbatim and lavender backdrop, framing/crop, no added text except the original \"0:33\" on clock.",
+  "references": [
+    {
+      "path": "source_refs/src-0027-f0079.png",
+      "role": "CURRENT original target; pose, extent, crop, pillow, clock and hands"
+    },
+    {
+      "path": "qa/held-clock-v2/f0079-source-clock-hands-face.png",
+      "role": "CURRENT original screen and finger contact geometry, exact 0:33"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "HAT ONLY identity"
+    },
+    {
+      "path": "qa/held-clock-v2/identity-collar-and-waist.png",
+      "role": "Color/identity only, never detailed pose or garment silhouette"
+    }
+  ],
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-936eadc6-cc30-4c0f-a426-27cd1fb82b9c.png",
+  "asset_sha256": "ec888c7dc1fc328cc4c7737cad39cd5b0aacf163f84116a5cf07215da0787b28",
+  "static_review": "LCD correctly reads 0:33, eyes fully concealed and both gloves overlap lateral edges. Clock dimensions/tilt, cuff/pony/backpack proportions and adjacent exposure continuity remain approximate.",
+  "known_issues": ["Clock frame and finger contacts not source pixel registered", "Cuff/pony/backpack volume and shading differ", "Original-speed review unperformed"]
+}

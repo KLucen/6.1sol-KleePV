@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-b8dab02d-a01a-47cc-86c7-039b10ddf83f",
+  "canonical_cel": "cel-0050",
+  "source_frame": 314,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full 16:9 PV replacement animation cel for CURRENT f0314, not a sheet. Reference1 full source CURRENT image determines ALL composition, face/cheek positions, eyes/mouth, current finger outline and cuff contour, crop and purple background. Reference2 is CROPPED Klee head style only, not composition: use its red clover beret/white feather, blonde bang vocabulary, palette and simple line style; do not enlarge to its cropped size. Reference3 source A/B spatial delta, top-right CURRENT, not a sheet to copy. Redraw actual f0314 source contours rather than copying f0310. Girl becomes Klee default red/cream coat patterned collar, cream cuffs and ENTIRELY brown cheek-cupping gloves. Short two attached blond side ponytails only, pointed ears, burgundy/red irises, large orange cheek blush. Full closeup sits to RIGHT as source, coat bottom cropped, headgear may top-crop same source. Preserve current sleepy half-open eye outlines and small curled lower-eye highlights. Mouth remains large PINK almost-round O but CURRENT has a slightly flatter/slanted upper-right segment and BOTH black contour gaps near upper-right and bottom, follow its exact current size/location, not a perfect circle. Genuine local changes from prior: current upper lid thickness, central bang contour, upright spread-finger gaps/knuckle lobes, outer palm cheek pressure and right cuff rim have redrawn positions. Both wrists enter source current big cuffs; palm/fingers touch current cheeks in front of face, hair behind hands; do not center hands or make them symmetrical. Use source black freehand line pressure, flat broad color, restrained shading, no detailed game illustration. No source sleep mask, pink long hair, pajamas or animal ears. NO captions, lyrics, speech bubble text OR bubble outline, credits, letters, watermark anywhere; clean uniform purple at left. No annotations, no extra props or unseen anatomy.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0095-f0314.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-head-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0314.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0314.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0310 to f0314: 127589 pixels >=28; current almost-round O has changed upper-right perimeter gap, finger/cuff and eyelid contours independently redrawn.",
+  "inspection": "Mouth current upper-right/bottom gaps and half-open red eyes correct, full brown palms touch cheeks; no generated captions/bubble. Cropped style reference allowed genuinely changed palms/contours rather than exact neighbor freeze, but collar medallion/cuff decoration changed more than source. Clothing-detail and sequence consistency repair flag; current geometry broadly closer."
+}

@@ -1,0 +1,65 @@
+{
+  "sealed_at_utc": "2026-10-06T10:24:52.340779+00:00",
+  "accepted": false,
+  "changed_scope": [
+    1037,
+    1043
+  ],
+  "interval_checked": [
+    1008,
+    1043
+  ],
+  "raw_technical_frames": 35,
+  "prior_29_frames_exact": true,
+  "outside_ownership_errors": 0,
+  "body_vs_before_errors": 0,
+  "japanese_arrays_and_output_unchanged": true,
+  "source_exposures_and_pts_unchanged": true,
+  "same_clear_original_chinese": "深爱着 把寂寞两人各分一半",
+  "registration": {
+    "original_f3402_translation": [
+      -15,
+      0
+    ],
+    "relative_to_v2_cn_slot": [
+      0,
+      0
+    ],
+    "all_six_sources_checked": true,
+    "best_dice_range": [
+      0.850910957146523,
+      0.8798604187437687
+    ],
+    "method": "Measured against clear left phrase, excluding original cream cuff; no scaling or guessed glyph strokes."
+  },
+  "native_review": {
+    "actually_viewed": true,
+    "all_six_caption_rows": true,
+    "source_and_current_page": "six-actual-source-and-current-cn-native.png",
+    "registration_overlay_page": "six-integer-registration-core-overlay-native.png",
+    "source_before_after_page": "six-v3-source-before-after-caption-native.png",
+    "whole_frames_viewed": [
+      1037,
+      1042
+    ],
+    "observation": "Previously incomplete 人 is now complete and readable in all six native views; original-position phrase preserved. Character/JP are unchanged."
+  },
+  "tests": {
+    "new_six_v3": "4 passed",
+    "existing_old_star": "6 passed"
+  },
+  "shared_helper_sha256": "b82b6c09dd121b83f5ba7191cc2c06d9595dc64e5ac15f47537f13d113fe26b2",
+  "before_helper_sha256": "bac52c90a0f325e113093545fa76cba088dd39a926af959ba917fff9f9cdb370",
+  "technical_report_sha256": "bd102beda3517fd58d32a1f9fa9b990522784f0471e575be714bb534d6663d28",
+  "registration_sha256": "fd809e6f6b74d72da0829c7857f1ec8fe4f099b2d06601f8cfe48eaf51033764",
+  "unchanged_japanese_npz_sha256": "a588071c0f94ff1697baf468cf9a7a8b13867d9cb5c36b8adc5318c13b7d09f6",
+  "clear_original_cn_npz_sha256": "38ae00ae0480ca8077554a26e343315cfaa9d7da72e92b135bb543389bb4198e",
+  "rendering_policy": "Old-star contrast behavior left unchanged. No new halo experiment and no body redraw.",
+  "encoded_review": "Not performed by this agent; old exports intentionally unchanged.",
+  "actual_speed_review": "Not performed by this agent.",
+  "remaining_issues": [
+    "Japanese boot-clover camouflage at1129..1160 remains unaccepted, documented in v2 seal.",
+    "Old character boundary artifacts are retained baseline, not corrected or art-accepted by this caption-only work."
+  ],
+  "preserved": "No shared selections, aliases, compose, docs, original Japanese NPZ or old exports changed."
+}

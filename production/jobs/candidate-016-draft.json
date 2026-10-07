@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-4ee5b623-9add-4589-af3b-20cffc32b206",
+  "candidate_id": 16,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Single FULL16:9 PV cel editing reference1 source-cel-016. Replace pink pajama girl with default Klee only. Source1 determines NEW upright upward-stretch pose: BOTH arms raised high above head forming broad U, shoulders raised, forearms point upward, wrists/hands mostly CLIPPED by TOP edge with only small finger fragments showing at top-left/top-right. Preserve exactly which fingers are visible and crop; brown gloves and red sleeves/cream cuffs. Head centered with open sleepy eyes (more open than bow poses), LARGE vertical teardrop/O mouth, chin near y49%; upper hat/head partly out of top frame. DO NOT fit full hat/hands in view. Klee red beret cream clover white feather only where inside crop, blonde SHORT side ponytails/pointed ears, red coat cream trim through lower torso. ONLY one compact ponytail each side, not original long rear wings. Image2 Klee anchor sets identity/style, image3 candidate013 sets stable upright Klee head colors but NOT cheek palms. Keep source canvas/crop and lavender background. NO SUBTITLES, credits, letters or annotation anywhere; original text is restored separately. Retain other original effects/props if any, but source has no prop. Loose black source-like outlines, flat broad colors, orange cheeks and simple shadows. No panels, no extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-016.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-013.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-016-draft.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Pose/crop correct but blue upper iris source color and pajama cream hip pockets remain. Pending identity repair."
+}

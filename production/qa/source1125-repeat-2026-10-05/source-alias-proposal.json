@@ -1,0 +1,426 @@
+{
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "source_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "evidence_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\source-evidence.json",
+  "evidence_sha256": "e0f4780964f26ae493dbed6f71c6f5ba19206b9eafc2b7a7a88d4305b5623f49",
+  "sequential_decode": {
+    "start": 0,
+    "end_exclusive": 1129,
+    "exact_checked_frame_count": 6,
+    "windows": [
+      [
+        1123,
+        1129
+      ]
+    ]
+  },
+  "all_six_saved_references_exact_bgr": true,
+  "actual_source_frames_manually_viewed": [
+    1123,
+    1124,
+    1125,
+    1126,
+    1127,
+    1128
+  ],
+  "source_frame": 1125,
+  "source_candidate": "src-0657",
+  "source_cel": "cel-0238",
+  "verified_target_frame": 1123,
+  "target_candidate": "src-0655",
+  "verified_target_cel": "cel-0237",
+  "source_exposures_unchanged": [
+    {
+      "start": 1125,
+      "end": 1129,
+      "pts": 46.875,
+      "end_pts": 47.042,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "target_exposures_unchanged": [
+    {
+      "start": 1123,
+      "end": 1125,
+      "pts": 46.792,
+      "end_pts": 46.875,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "transform": {
+    "kind": "identity",
+    "matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "character_only_reuse": true,
+  "background_and_captions_keep_each_original_frame": true,
+  "semantic_reason": "All f1123..1128 retain the same half-open eyelids, small round mouth, hat face/ears, hair roots and ends, two curled hands at the chest, tightly crossing cream cuffs/sleeves, torso button/pocket/seam/hem lines, straight legs, pant cuffs and boot silhouettes. Native canonical RGB/dual contour/local evidence shows only isolated codec-colored person-edge pixels, not coherent redrawn contours. Pink stars and Japanese caption edges vary independently, including a star moving between the lower legs. The all-exposure native sheets show no intermediate character pose or expression change.",
+  "actual_viewed_files": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-character-native-ab.png",
+      "sha256": "b3fcd7f574bfd9edad76586ef65ea50608d888cf58e98c4261c9536cabfbd1dc"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-character-rgb-contours.png",
+      "sha256": "c6bf2da3e7ba0999e43707870b551edaed06f454f9adfe69d3723e3ccc64e361"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-locals-native-page-01.png",
+      "sha256": "926ef2c7d739548bae062f80bec33a6aa17f16d0ee4879a6d2b77b3174acb587"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-locals-native-page-02.png",
+      "sha256": "64b04d81f68e2b228073e7bd9b09ac4cb54989c81f4ff76384a63a4dcab446fb"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-locals-native-page-03.png",
+      "sha256": "1566ba1fbf14999b810b12bfd621ff8838bdfea4f47cb1dd38c5c15c414a6dc6"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\exposure-native-f1123-f1124.png",
+      "sha256": "fc54383288a23bc28769b8a2b818cfbe2dfc4551e1151a2d51a7252115bb7af7"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\exposure-native-f1125-f1126.png",
+      "sha256": "d0f9139a1ba7722101f35728832967c8f57b9cbee19d0d6c78220001e366069e"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\exposure-native-f1127-f1128.png",
+      "sha256": "838953223527d469c1f0e0c45d6458a11d1a2a8d8107c8cd0b1eb37d7fdf8441"
+    }
+  ],
+  "generated_art_reviewed": false,
+  "artistic_accepted": false,
+  "actual_speed_reviewed": false,
+  "alias_created": false,
+  "recommendation": "propose_original_character_identity_alias_after_root_actual_visual_review",
+  "mapping_available_only_after_target_art_selected": true,
+  "metadata_only_previous_alias_checks": [
+    {
+      "source_frame": 1100,
+      "target_frame": 1097,
+      "source_candidate": {
+        "id": "src-0632",
+        "frame": 1100,
+        "start": 1100,
+        "end": 1101,
+        "pts": 45.833,
+        "end_pts": 45.875,
+        "reference": "source_refs/src-0632-f1100.png",
+        "change": {
+          "pixels": 20499,
+          "coherent_pixels": 18221,
+          "largest_region": 366,
+          "masked_mean_delta": 5.648455575535922,
+          "frame": 1100,
+          "pts": 45.833,
+          "foreground_pixels": 247891
+        },
+        "review": "independent_candidate",
+        "cel": "cel-0231",
+        "family": "star_gestures",
+        "character_bbox": [
+          672,
+          97,
+          486,
+          953
+        ],
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        },
+        "prior_cel": "cel-0348"
+      },
+      "target_candidate": {
+        "id": "src-0629",
+        "frame": 1097,
+        "start": 1097,
+        "end": 1098,
+        "pts": 45.708,
+        "end_pts": 45.75,
+        "reference": "source_refs/src-0629-f1097.png",
+        "change": {
+          "pixels": 126565,
+          "coherent_pixels": 124648,
+          "largest_region": 117721,
+          "masked_mean_delta": 48.408941178995256,
+          "frame": 1097,
+          "pts": 45.708,
+          "foreground_pixels": 249851
+        },
+        "review": "independent_candidate",
+        "cel": "cel-0230",
+        "family": "star_gestures",
+        "character_bbox": [
+          672,
+          97,
+          488,
+          953
+        ],
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        },
+        "prior_cel": "cel-0346"
+      },
+      "source_cel": "cel-0231",
+      "target_cel": "cel-0230",
+      "source_exposures": [
+        {
+          "start": 1100,
+          "end": 1102,
+          "pts": 45.833,
+          "end_pts": 45.917,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures": [
+        {
+          "start": 1097,
+          "end": 1100,
+          "pts": 45.708,
+          "end_pts": 45.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "previous_proposal_metadata_matches": true,
+      "metadata_check_only_not_new_semantic_approval": true
+    },
+    {
+      "source_frame": 1117,
+      "target_frame": 1113,
+      "source_candidate": {
+        "id": "src-0649",
+        "frame": 1117,
+        "start": 1117,
+        "end": 1118,
+        "pts": 46.542,
+        "end_pts": 46.583,
+        "reference": "source_refs/src-0649-f1117.png",
+        "change": {
+          "pixels": 11630,
+          "coherent_pixels": 9715,
+          "largest_region": 174,
+          "masked_mean_delta": 4.194572479474143,
+          "frame": 1117,
+          "pts": 46.542,
+          "foreground_pixels": 236035
+        },
+        "review": "independent_candidate",
+        "cel": "cel-0235",
+        "family": "star_gestures",
+        "character_bbox": [
+          775,
+          101,
+          369,
+          953
+        ],
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        },
+        "prior_cel": "cel-0357"
+      },
+      "target_candidate": {
+        "id": "src-0645",
+        "frame": 1113,
+        "start": 1113,
+        "end": 1114,
+        "pts": 46.375,
+        "end_pts": 46.417,
+        "reference": "source_refs/src-0645-f1113.png",
+        "change": {
+          "pixels": 80068,
+          "coherent_pixels": 77726,
+          "largest_region": 57230,
+          "masked_mean_delta": 38.629482434764206,
+          "frame": 1113,
+          "pts": 46.375,
+          "foreground_pixels": 234315
+        },
+        "review": "independent_candidate",
+        "cel": "cel-0234",
+        "family": "star_gestures",
+        "character_bbox": [
+          775,
+          101,
+          373,
+          953
+        ],
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        },
+        "prior_cel": "cel-0355"
+      },
+      "source_cel": "cel-0235",
+      "target_cel": "cel-0234",
+      "source_exposures": [
+        {
+          "start": 1117,
+          "end": 1118,
+          "pts": 46.542,
+          "end_pts": 46.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures": [
+        {
+          "start": 1113,
+          "end": 1117,
+          "pts": 46.375,
+          "end_pts": 46.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "previous_proposal_metadata_matches": true,
+      "metadata_check_only_not_new_semantic_approval": true
+    }
+  ],
+  "shared_files_written_by_worker": [],
+  "status": "private_source_semantic_review_complete_pending_root_visual_approval"
+}

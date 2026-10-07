@@ -1,0 +1,82 @@
+{
+  "source_frame": 3222,
+  "cel": "cel-0580",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Current3222 actual person HELD from3219, verified source contours; change is foreground star motion. Upper giant star moves UP-RIGHT and cropped at top; it still hides upper face/eyes/crown but NOW REVEALS vertical near upper sleeve and elbow below its left point. Preserve TWO horizontal brown gloves at left x575-715/y280-365 andx650-785/y190-275, connecting to two original sleeves. Lower giant star moves RIGHT-UP to bottom center and covers lower coat/pocket; use source current overlap not prior. Only tiny right-profile lower cheek/chin sliver below upper star, no visible eyes added. Klee short twin tail roots not long original back hair, no third tuft. Flat simple cream collar/cuffs/red coat, small dark buttons; no text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1768-f3222.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3219-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3219-f3222-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3222-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "9bf53be68f668e9800bed41268ecb804cdb61281398dfb61d1a94f9ab6501568",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "c54598cc67d5867fc47d47c1911326a5948cf415625995c01bc58ac2a10950af",
+    "0b6ad9dd3ad01635317da4ac5cf8687ffb8d89c6621278c2f266178171422b96",
+    "a46bc726314759da4c13a6517e69af3a76b507341c1afc85399582f72581696e"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3222-v1.png",
+  "source_exposures": [
+    {
+      "start": 3222,
+      "end": 3223,
+      "pts": 134.25,
+      "end_pts": 134.292,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Current3222 actual person HELD from3219, verified source contours; change is foreground star motion. Upper giant star moves UP-RIGHT and cropped at top; it still hides upper face/eyes/crown but NOW REVEALS vertical near upper sleeve and elbow below its left point. Preserve TWO horizontal brown gloves at left x575-715/y280-365 andx650-785/y190-275, connecting to two original sleeves. Lower giant star moves RIGHT-UP to bottom center and covers lower coat/pocket; use source current overlap not prior. Only tiny right-profile lower cheek/chin sliver below upper star, no visible eyes added. Klee short twin tail roots not long original back hair, no third tuft. Flat simple cream collar/cuffs/red coat, small dark buttons; no text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-405550ef-6cab-46a8-86f7-95485ecb0a67.png",
+  "output_sha256": "b0faf87cdbf28e40e04392d9f4bb1607618336dddc46b76cd1ef757e17206460",
+  "dimensions": [
+    1672,
+    940
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: two brown hand ends at left, upper star/right and lower center foreground star updated. CRITICAL CURRENT newly revealed near vertical sleeve was not correctly drawn: hat/ear/hair replaces expected red sleeve region, arm connections obscured/implied behind oversized hat; crown/feather exposed and hair tufts drift. Eyes hidden as source. Unaccepted first draft exact-save, prioritize occlusion/arm repair after full video.",
+    "accepted": false
+  }
+}

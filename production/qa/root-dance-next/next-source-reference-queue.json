@@ -1,0 +1,1121 @@
+{
+  "scope": "Source-only preparation of four retained target cels, not artwork or alias approval",
+  "manifest_snapshot_utc": "2026-10-03T10:17:53.556949+00:00",
+  "source_map_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+  "manifest_sha256": "0c5d2487216cb1b41b5456bfb3a9baae175b9745e610d106f3c5d4f5d620028d",
+  "coverage_snapshot_utc": "2026-10-03T10:17:53.556949+00:00",
+  "coverage_summary": {
+    "source_frames": 3658,
+    "source_cel_upper_bound": 689,
+    "raw_generated_png_files": 467,
+    "job_json_files": 472,
+    "direct_selected_asset_cels": 357,
+    "direct_generated_character_cels": 356,
+    "verified_alias_expansion_cels": 4,
+    "alias_inclusive_character_cels": 360,
+    "source_reuse_no_character_cels": 1,
+    "mapped_cels_including_source_reuse": 361,
+    "missing_selected_cels": 328,
+    "blocked_failed_cels": 0,
+    "historical_blocked_selection_records_resolved": 1,
+    "covered_frames_draft_plus_source_reuse": 2299,
+    "coverage_percent_draft_plus_source_reuse": 62.848551120831054,
+    "character_replacement_draft_frames": 2249,
+    "verified_no_character_source_reuse_frames": 50,
+    "contiguous_available_prefix_frames": 863,
+    "drafts_with_structured_flaws_or_cleanup": 201,
+    "accepted_character_cels": 0,
+    "job_statuses": {
+      "generated": 159,
+      "bounded_batch_saved_unaccepted": 1,
+      "missing": 8,
+      "queued": 1,
+      "generated_draft": 125,
+      "generated_draft_unaccepted": 126,
+      "geometry_repair_draft": 5,
+      "generated_repair": 1,
+      "reviewed_static_targeted_repair_temporal_pending": 8,
+      "source_reuse_no_character_visible": 1,
+      "partial_repair_draft_unaccepted": 3,
+      "failed_head_tilt_unaccepted": 2,
+      "reviewed_static_temporal_pending": 8,
+      "not_adopted_body_alignment_and_excessive_tilt": 3,
+      "generated_pending_review": 9,
+      "reviewed_static_partial_repair": 1,
+      "needs_head_tilt_and_body_alignment_repair": 1,
+      "failed_pupil_details_unaccepted": 1,
+      "generated_draft_cuff_repair_required": 1,
+      "generated_repair_draft": 5,
+      "submitted_repair": 1,
+      "rejected_headwear_semantics": 1,
+      "saved_unaccepted_repair_drafts": 1
+    },
+    "late_worker_missing_cels_canonical_frame_ge_2400": 153
+  },
+  "full_cel_count_is_conservative_upper_bound": true,
+  "source_map_candidate_ranges_cross_checked": true,
+  "shared_selections_modified": false,
+  "core_files_modified": false,
+  "generation_called": false,
+  "aliases_created": false,
+  "caption_phase_contact": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0856-f0880-source-caption-phase-contact.png",
+  "queue": [
+    {
+      "frame": 863,
+      "cel": "cel-0153",
+      "source_candidate": "src-0409",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0409-f0863.png",
+      "source_sha256": "02f01d2017f4eabb337e93c6d1ae56b6879a2e79247b95f293c0387770339c44",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "source_before_frame": 856,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0402-f0856.png",
+      "source_exposures": [
+        {
+          "start": 863,
+          "end": 868,
+          "pts": 35.958,
+          "end_pts": 36.167,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "source_map_candidates": [
+        {
+          "id": "src-0409",
+          "frame": 863,
+          "start": 863,
+          "end": 864,
+          "pts": 35.958,
+          "end_pts": 36.0,
+          "cel": "cel-0153",
+          "reference": "source_refs/src-0409-f0863.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0410",
+          "frame": 864,
+          "start": 864,
+          "end": 865,
+          "pts": 36.0,
+          "end_pts": 36.042,
+          "cel": "cel-0153",
+          "reference": "source_refs/src-0410-f0864.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0411",
+          "frame": 865,
+          "start": 865,
+          "end": 866,
+          "pts": 36.042,
+          "end_pts": 36.083,
+          "cel": "cel-0153",
+          "reference": "source_refs/src-0411-f0865.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0412",
+          "frame": 866,
+          "start": 866,
+          "end": 867,
+          "pts": 36.083,
+          "end_pts": 36.125,
+          "cel": "cel-0153",
+          "reference": "source_refs/src-0412-f0866.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0413",
+          "frame": 867,
+          "start": 867,
+          "end": 868,
+          "pts": 36.125,
+          "end_pts": 36.167,
+          "cel": "cel-0153",
+          "reference": "source_refs/src-0413-f0867.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_at_snapshot": null,
+      "status_at_snapshot": "missing_selected_replacement",
+      "neighbor_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-ab-rgb-contours.png",
+      "anchor_856_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-ab-rgb-contours.png",
+      "neighbor_difference": {
+        "pixels_max_rgb_delta_gt_28": 233319,
+        "pixels_max_rgb_delta_gte_28": 236712,
+        "max_rgb_delta": 255,
+        "local_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-local-ab.png",
+        "local_crops_xyxy": [
+          {
+            "role": "head-eyelids-mouth",
+            "box": [
+              520,
+              150,
+              1250,
+              620
+            ]
+          },
+          {
+            "role": "hands-cuffs",
+            "box": [
+              250,
+              70,
+              1350,
+              680
+            ]
+          },
+          {
+            "role": "legs-boots-caption-contact",
+            "box": [
+              580,
+              620,
+              1330,
+              1080
+            ]
+          }
+        ]
+      },
+      "crops": [
+        {
+          "role": "head-eyelids-mouth",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-head-eyelids-mouth.png",
+          "box": [
+            520,
+            150,
+            1250,
+            620
+          ]
+        },
+        {
+          "role": "hands-cuffs",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-hands-cuffs.png",
+          "box": [
+            250,
+            70,
+            1350,
+            680
+          ]
+        },
+        {
+          "role": "legs-boots-caption-contact",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-legs-boots-caption-contact.png",
+          "box": [
+            580,
+            620,
+            1330,
+            1080
+          ]
+        }
+      ],
+      "approved_alias": false,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 868,
+      "cel": "cel-0154",
+      "source_candidate": "src-0414",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0414-f0868.png",
+      "source_sha256": "e35221926a303e3c7d3ff597b84fc64c1955bb05fafbc362af7b60cc9b6b558b",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "source_before_frame": 863,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0409-f0863.png",
+      "source_exposures": [
+        {
+          "start": 868,
+          "end": 873,
+          "pts": 36.167,
+          "end_pts": 36.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "source_map_candidates": [
+        {
+          "id": "src-0414",
+          "frame": 868,
+          "start": 868,
+          "end": 869,
+          "pts": 36.167,
+          "end_pts": 36.208,
+          "cel": "cel-0154",
+          "reference": "source_refs/src-0414-f0868.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0415",
+          "frame": 869,
+          "start": 869,
+          "end": 870,
+          "pts": 36.208,
+          "end_pts": 36.25,
+          "cel": "cel-0154",
+          "reference": "source_refs/src-0415-f0869.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0416",
+          "frame": 870,
+          "start": 870,
+          "end": 871,
+          "pts": 36.25,
+          "end_pts": 36.292,
+          "cel": "cel-0154",
+          "reference": "source_refs/src-0416-f0870.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0417",
+          "frame": 871,
+          "start": 871,
+          "end": 872,
+          "pts": 36.292,
+          "end_pts": 36.333,
+          "cel": "cel-0154",
+          "reference": "source_refs/src-0417-f0871.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0418",
+          "frame": 872,
+          "start": 872,
+          "end": 873,
+          "pts": 36.333,
+          "end_pts": 36.375,
+          "cel": "cel-0154",
+          "reference": "source_refs/src-0418-f0872.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_at_snapshot": null,
+      "status_at_snapshot": "missing_selected_replacement",
+      "neighbor_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-ab-rgb-contours.png",
+      "anchor_856_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0856-to-f0868-source-ab-rgb-contours.png",
+      "neighbor_difference": {
+        "pixels_max_rgb_delta_gt_28": 206070,
+        "pixels_max_rgb_delta_gte_28": 209631,
+        "max_rgb_delta": 255,
+        "local_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-local-ab.png",
+        "local_crops_xyxy": [
+          {
+            "role": "head-eyelids-mouth",
+            "box": [
+              520,
+              150,
+              1250,
+              620
+            ]
+          },
+          {
+            "role": "hands-cuffs",
+            "box": [
+              250,
+              70,
+              1350,
+              680
+            ]
+          },
+          {
+            "role": "legs-boots-caption-contact",
+            "box": [
+              580,
+              620,
+              1330,
+              1080
+            ]
+          }
+        ]
+      },
+      "crops": [
+        {
+          "role": "head-eyelids-mouth",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-head-eyelids-mouth.png",
+          "box": [
+            520,
+            150,
+            1250,
+            620
+          ]
+        },
+        {
+          "role": "hands-cuffs",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-hands-cuffs.png",
+          "box": [
+            250,
+            70,
+            1350,
+            680
+          ]
+        },
+        {
+          "role": "legs-boots-caption-contact",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-legs-boots-caption-contact.png",
+          "box": [
+            580,
+            620,
+            1330,
+            1080
+          ]
+        }
+      ],
+      "approved_alias": false,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 873,
+      "cel": "cel-0155",
+      "source_candidate": "src-0419",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0419-f0873.png",
+      "source_sha256": "95441e5038a447a9f5b53f83507de68a64667b058b6a27869adf84e8da65c422",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "source_before_frame": 868,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0414-f0868.png",
+      "source_exposures": [
+        {
+          "start": 873,
+          "end": 880,
+          "pts": 36.375,
+          "end_pts": 36.667,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "source_map_candidates": [
+        {
+          "id": "src-0419",
+          "frame": 873,
+          "start": 873,
+          "end": 874,
+          "pts": 36.375,
+          "end_pts": 36.417,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0419-f0873.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0420",
+          "frame": 874,
+          "start": 874,
+          "end": 875,
+          "pts": 36.417,
+          "end_pts": 36.458,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0420-f0874.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0421",
+          "frame": 875,
+          "start": 875,
+          "end": 876,
+          "pts": 36.458,
+          "end_pts": 36.5,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0421-f0875.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0422",
+          "frame": 876,
+          "start": 876,
+          "end": 877,
+          "pts": 36.5,
+          "end_pts": 36.542,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0422-f0876.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0423",
+          "frame": 877,
+          "start": 877,
+          "end": 878,
+          "pts": 36.542,
+          "end_pts": 36.583,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0423-f0877.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0424",
+          "frame": 878,
+          "start": 878,
+          "end": 879,
+          "pts": 36.583,
+          "end_pts": 36.625,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0424-f0878.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0425",
+          "frame": 879,
+          "start": 879,
+          "end": 880,
+          "pts": 36.625,
+          "end_pts": 36.667,
+          "cel": "cel-0155",
+          "reference": "source_refs/src-0425-f0879.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_at_snapshot": null,
+      "status_at_snapshot": "missing_selected_replacement",
+      "neighbor_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-ab-rgb-contours.png",
+      "anchor_856_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0856-to-f0873-source-ab-rgb-contours.png",
+      "neighbor_difference": {
+        "pixels_max_rgb_delta_gt_28": 438158,
+        "pixels_max_rgb_delta_gte_28": 440775,
+        "max_rgb_delta": 255,
+        "local_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-local-ab.png",
+        "local_crops_xyxy": [
+          {
+            "role": "head-eyelids-mouth",
+            "box": [
+              520,
+              150,
+              1250,
+              620
+            ]
+          },
+          {
+            "role": "hands-cuffs",
+            "box": [
+              250,
+              70,
+              1350,
+              680
+            ]
+          },
+          {
+            "role": "legs-boots-caption-contact",
+            "box": [
+              580,
+              620,
+              1330,
+              1080
+            ]
+          }
+        ]
+      },
+      "crops": [
+        {
+          "role": "head-eyelids-mouth",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-head-eyelids-mouth.png",
+          "box": [
+            520,
+            150,
+            1250,
+            620
+          ]
+        },
+        {
+          "role": "hands-cuffs",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-hands-cuffs.png",
+          "box": [
+            250,
+            70,
+            1350,
+            680
+          ]
+        },
+        {
+          "role": "legs-boots-caption-contact",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-legs-boots-caption-contact.png",
+          "box": [
+            580,
+            620,
+            1330,
+            1080
+          ]
+        }
+      ],
+      "approved_alias": false,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 880,
+      "cel": "cel-0156",
+      "source_candidate": "src-0426",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0426-f0880.png",
+      "source_sha256": "bbfda6bd21d70243e9e6836fbb9657f415a37e6a7f3a9bd4eab71f2abd599c90",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "source_before_frame": 873,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0419-f0873.png",
+      "source_exposures": [
+        {
+          "start": 880,
+          "end": 887,
+          "pts": 36.667,
+          "end_pts": 36.958,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "source_map_candidates": [
+        {
+          "id": "src-0426",
+          "frame": 880,
+          "start": 880,
+          "end": 881,
+          "pts": 36.667,
+          "end_pts": 36.708,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0426-f0880.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0427",
+          "frame": 881,
+          "start": 881,
+          "end": 882,
+          "pts": 36.708,
+          "end_pts": 36.75,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0427-f0881.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0428",
+          "frame": 882,
+          "start": 882,
+          "end": 883,
+          "pts": 36.75,
+          "end_pts": 36.792,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0428-f0882.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0429",
+          "frame": 883,
+          "start": 883,
+          "end": 884,
+          "pts": 36.792,
+          "end_pts": 36.833,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0429-f0883.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0430",
+          "frame": 884,
+          "start": 884,
+          "end": 885,
+          "pts": 36.833,
+          "end_pts": 36.875,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0430-f0884.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0431",
+          "frame": 885,
+          "start": 885,
+          "end": 886,
+          "pts": 36.875,
+          "end_pts": 36.917,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0431-f0885.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "src-0432",
+          "frame": 886,
+          "start": 886,
+          "end": 887,
+          "pts": 36.917,
+          "end_pts": 36.958,
+          "cel": "cel-0156",
+          "reference": "source_refs/src-0432-f0886.png",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_at_snapshot": null,
+      "status_at_snapshot": "missing_selected_replacement",
+      "neighbor_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-ab-rgb-contours.png",
+      "anchor_856_ab_rgb_contours": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0856-to-f0880-source-ab-rgb-contours.png",
+      "neighbor_difference": {
+        "pixels_max_rgb_delta_gt_28": 287357,
+        "pixels_max_rgb_delta_gte_28": 290279,
+        "max_rgb_delta": 255,
+        "local_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-local-ab.png",
+        "local_crops_xyxy": [
+          {
+            "role": "head-eyelids-mouth",
+            "box": [
+              520,
+              150,
+              1250,
+              620
+            ]
+          },
+          {
+            "role": "hands-cuffs",
+            "box": [
+              250,
+              70,
+              1350,
+              680
+            ]
+          },
+          {
+            "role": "legs-boots-caption-contact",
+            "box": [
+              580,
+              620,
+              1330,
+              1080
+            ]
+          }
+        ]
+      },
+      "crops": [
+        {
+          "role": "head-eyelids-mouth",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-head-eyelids-mouth.png",
+          "box": [
+            520,
+            150,
+            1250,
+            620
+          ]
+        },
+        {
+          "role": "hands-cuffs",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-hands-cuffs.png",
+          "box": [
+            250,
+            70,
+            1350,
+            680
+          ]
+        },
+        {
+          "role": "legs-boots-caption-contact",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-legs-boots-caption-contact.png",
+          "box": [
+            580,
+            620,
+            1330,
+            1080
+          ]
+        }
+      ],
+      "approved_alias": false,
+      "artistically_accepted": false
+    }
+  ],
+  "limitations": [
+    "Whole-frame RGB counts also include stars, captions and compression; numbers alone do not establish drawing uniqueness.",
+    "This preparation retains the existing strict-source cel/exposure mapping and does not create aliases.",
+    "Full generated artwork, composited all-frame masks, and original-speed playback are still unperformed for these missing cels."
+  ]
+}

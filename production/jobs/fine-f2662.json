@@ -1,0 +1,47 @@
+{
+  "source_frame": 2662,
+  "source_cel": "cel-0502",
+  "source_candidate": "src-1554",
+  "output": "generated\\fine-f2662.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2662: Independent raised-arm airborne pose changes: head moves UP about0.03H and LEFT about0.02W, torso rotates more clockwise while both knees fold strongly backward toward RIGHT. Legs are more compact, boot tips end around0.60H, not prior0.65H. Both closed fists still above head: left atx0.62 y0.185 rightx0.776 y0.17, arms long complete up from shoulders. Open eyes now tired half-lidded red EACH visible black pupil and white highlight, small O mouth less tall than prior. Source figure bound x0.605..0.84 y0.165..0.60. SIMPLE STRAIGHT-EDGED rectangular cream cuff rings with absolutely NO scallops, NO fluffy cuffs, like source original sleeves. Keep lavender pillow untouched below-left x0.55..0.748 y0.63..0.746. Two short blonde ear-root ponytails trail gently outward, redcoat/creamhem folds and brown backpack follow current leaning pose. Sole clover beret replaces foreheadmask. Current red contour exact authority.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1554-f2662.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2657-f2662-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2657.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": [
+      "Static source/adjacent check: raised fists and complete arms, narrow half-open red eyes with pupils, shortened folded-back legs and fixed pillow separation present. Cuffs now plain cream. Draft remains unaccepted pending actual-speed and precise body-axis review."
+    ],
+    "issues": [],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-2bdff6a9-a907-4b76-a541-ccc512747901.png"
+}

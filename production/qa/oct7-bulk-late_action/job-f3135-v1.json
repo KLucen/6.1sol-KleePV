@@ -1,0 +1,82 @@
+{
+  "source_frame": 3135,
+  "cel": "cel-0553",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Current is a much WIDER shot: small entire airborne Klee on UPPER RIGHT, crown y98/source1080, feet y625, not a huge medium actor. Both arms bent overhead, both brown gloves visible near top; image-right arm in front of head, image-left behind hat. Eyes half-open, mouth small vertical oval. BOTH legs tucked backward/right with knees bent beneath coat and TWO separate airborne boots at lower-right; no ground contact. Torso almost upright leaning slightly right; short two ponytails stream right behind arms. Huge yellow star dominates LEFT center and bottom-right foreground stars; preserve source star camera scale and actor negative-space proportion. Identity prior sets clothes only; NEVER copy its medium crop or extra hair tufts. No text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1713-f3135.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-094.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3134-f3135-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3135-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "09599dafc3e12feef2fe43f5f6d3da5fa72678de4c5a923ea95297f5dfdeb9d5",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "2191a6702ebc1839a519c26ee24f6b922d5aeb12925f6d1fc2b74b1402364b36",
+    "58c7304a698f14b3d5c80a0e2c9a7c8eb2ae2752e0e951531c0b5c6a7cfda6b7",
+    "1ddc799804b0dd27912f957a81e12f4088a782c764b3507f1ce25af206e5a27c"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3135-v1.png",
+  "source_exposures": [
+    {
+      "start": 3135,
+      "end": 3142,
+      "pts": 130.625,
+      "end_pts": 130.917,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Current is a much WIDER shot: small entire airborne Klee on UPPER RIGHT, crown y98/source1080, feet y625, not a huge medium actor. Both arms bent overhead, both brown gloves visible near top; image-right arm in front of head, image-left behind hat. Eyes half-open, mouth small vertical oval. BOTH legs tucked backward/right with knees bent beneath coat and TWO separate airborne boots at lower-right; no ground contact. Torso almost upright leaning slightly right; short two ponytails stream right behind arms. Huge yellow star dominates LEFT center and bottom-right foreground stars; preserve source star camera scale and actor negative-space proportion. Identity prior sets clothes only; NEVER copy its medium crop or extra hair tufts. No text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-5315c3d2-3ccb-4174-90f9-a160ea477ad5.png",
+  "output_sha256": "9cca5b34c9c16ab2f0546c595b69be970fcd61884c9b13bda6149362d5978264",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: wide small airborne actor, both arms overhead, both bent legs/boots. Hands open slightly versus simple original glove silhouette; extra right-side hair tuft persists and boots overlap tightly. Defer hair-count/anatomy corrections to user review, no repair in pass.",
+    "accepted": false
+  }
+}

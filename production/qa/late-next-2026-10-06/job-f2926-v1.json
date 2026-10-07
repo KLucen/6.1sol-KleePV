@@ -1,0 +1,51 @@
+{
+  "source_frame": 2926,
+  "output": "generated/late-next-f2926-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset: ONE whole 16:9 hand-drawn PV cel, actual original frame 2926.\nRedraw the current original pillow-holding figure as Klee, preserving current pose, camera, scale, position and all limb/pillow occlusion. Reference 1 is the sole current whole pose authority; 2 is actual 2921-before / 2926-current motion, not a composition template; 3 shows closed eyes; 4 is the true current complete native body, pillow, hands and legs; 5 is tiny Klee HEAD-only identity/style. Never freeze the previous standing body.\nActual changed pose: head and upper torso move farther screen-right than 2921, head at about x1375 in 1920-wide canvas, two entirely CLOSED thick eyelids, orange cheeks, very small mouth mostly hidden at pillow edge. Pillow front of chest slopes up-right; far upper corner around x1585 y270. Near elbow curves into the raised cream cuff and brown spread-finger palm on the pillow front. The farther BROWN glove wraps over the top-right pillow corner with two small rounded gripping fingers, above the cream side ruffle. Far forearm is entirely hidden behind pillow. Exactly two brown gloves, no bare fingertips or third arm. Keep the cream ruffle separate from the far brown glove.\nLegs now widely separated: screen-left leg leans diagonally down-left with rounded front-facing boot toe around x1220; screen-right lower leg is close to vertical, knee slightly outward, boot full side-profile pointing RIGHT with a long nearly horizontal sole around x1410. Preserve distinct ankle connections and this asymmetric stance, not two parallel leaning legs. Near palm covers pillow, pillow covers torso and far forearm; backpack behind left shoulder.\nKlee identity: warm blonde bob, exactly two low compact ponytails with far pony naturally occluded, pointed ears, red beret with cream clover and one feather, simple red coat with plain cream cuffs and continuous plain hem, compact brown backpack, bare legs, cream-topped brown boots. Sparse flat colors and wobbly black PV contours, no game-render detail. Plain lavender canvas with huge empty left margin, retain original tiny figure placement and proportions. No original long pink hair, animal ears or pajamas. Do not add facial features hidden in source.\nOne full cel only. No panels, labels, subtitles, letters or watermark. Original text will be restored separately.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-actual.png",
+      "role": "Current whole source; sole pose, scale and layout authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-f2926-source-ab-rgb-contours.png",
+      "role": "Actual adjacent motion, overview only",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-face-native.png",
+      "role": "Current head and fully closed eyes at native scale",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-wide-pose-native.png",
+      "role": "Current complete body, spread leg stance and both pillow grips; wider crop includes far hand",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+      "role": "Klee head identity and simplified style only; not standing pose",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-720c8dd7-2cca-47ee-b4ee-85b3f8ca417c.png",
+  "output_sha256": "72bff105d117f9358b3ed8027d707ab7617ec73ca654ca356a8a700756c72829",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed current whole/native wide pose/far grip and generated whole: two fully closed eyes, two brown gripping hands, far forearm hidden, spread asymmetric legs and right profile sole retained. Head/pillow farther right supported. Hat/feather and coat/boot ornament drift remains; positional match approximate; static only, not temporal or compositor accepted.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

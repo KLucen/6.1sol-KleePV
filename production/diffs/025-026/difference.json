@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "status": "spatial_reference_only",
+  "before": "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-025.jpg",
+  "after": "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-026.jpg",
+  "width": 1920,
+  "height": 1080,
+  "roi_xywh": null,
+  "gain": 4.0,
+  "pixel_threshold": 12,
+  "grid": 8,
+  "metrics": {
+    "compared_pixels": 2073600,
+    "changed_pixels": 660366,
+    "changed_fraction": 0.3184635416666667,
+    "largest_component_pixels": 580851,
+    "max_local_changed_fraction": 0.8754012345679012,
+    "max_local_cell_xywh": [
+      1200,
+      540,
+      240,
+      135
+    ],
+    "largest_changed_regions": [
+      {
+        "x": 740,
+        "y": 0,
+        "width": 1180,
+        "height": 1080,
+        "pixels": 580851
+      },
+      {
+        "x": 71,
+        "y": 175,
+        "width": 236,
+        "height": 238,
+        "pixels": 19307
+      },
+      {
+        "x": 5,
+        "y": 935,
+        "width": 154,
+        "height": 145,
+        "pixels": 8655
+      },
+      {
+        "x": 331,
+        "y": 784,
+        "width": 114,
+        "height": 111,
+        "pixels": 5389
+      },
+      {
+        "x": 603,
+        "y": 183,
+        "width": 145,
+        "height": 96,
+        "pixels": 4106
+      },
+      {
+        "x": 1592,
+        "y": 775,
+        "width": 84,
+        "height": 63,
+        "pixels": 3698
+      },
+      {
+        "x": 1544,
+        "y": 817,
+        "width": 72,
+        "height": 66,
+        "pixels": 3380
+      },
+      {
+        "x": 387,
+        "y": 10,
+        "width": 89,
+        "height": 87,
+        "pixels": 3354
+      },
+      {
+        "x": 652,
+        "y": 128,
+        "width": 79,
+        "height": 67,
+        "pixels": 3061
+      },
+      {
+        "x": 1748,
+        "y": 204,
+        "width": 172,
+        "height": 240,
+        "pixels": 2705
+      },
+      {
+        "x": 879,
+        "y": 912,
+        "width": 65,
+        "height": 115,
+        "pixels": 2515
+      },
+      {
+        "x": 519,
+        "y": 508,
+        "width": 73,
+        "height": 74,
+        "pixels": 2280
+      }
+    ]
+  },
+  "alignment_applied": false,
+  "requires_visual_review": true
+}

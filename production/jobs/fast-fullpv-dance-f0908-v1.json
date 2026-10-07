@@ -1,0 +1,33 @@
+{
+  "job_id": "fast-fullpv-dance-f0908-v1",
+  "source_frame": 908,
+  "canonical_cel": "cel-0167",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0908-v1.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0453-f0908.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0907-f0908-source-ab-rgb-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "Current two-person crop and left-shift source authority",
+    "Cropped head identity, not pose",
+    "Cropped collar/coat structure",
+    "Actual large907-to908 shift/bangs spatial evidence",
+    "Crimson iris identity only"
+  ],
+  "prompt": "Use case: identity-preserve. Create ONE full 16:9 PV cel at source frame 908, replace BOTH people. Image 1 is CURRENT EDIT TARGET, exclusive geometry/crop/pose/layer authority. Image 2 is short-hair Klee HEAD IDENTITY ONLY, NOT composition. Image 3 is two-leaf cream collar/continuous red coat structure ONLY. Image 4 is actual ORIGINAL907-to908 A/B, amplified RGB delta and two-color contours: a major LEFT shift and lean of the foreground face with changed bangs, the rear profile stays in place. Image 5 is crimson iris identity only, not gaze or head angle. Foreground is a HUGE Klee head pushed far LEFT and cut by TOP and LEFT, NOT centered like the small identity reference or previous 903. Its small open triangular mouth MUST be near x20%/y70%; left closed eyelid begins at/partly outside LEFT edge near y51%, right closed eyelid near x28%/y47% so eye-line slopes up-right. Front nose/cheek/chin and red clover beret follow CURRENT crop/lean. No tongue or O mouth. Do not recenter to fit both closed eyes or whole hat. Hair is short blonde bangs and only ear-rooted short side groups: near/right ponytail rooted beside current ear around x40%/y54%, flowing in FRONT OF rear neck/chest; far-left group stays clipped/hidden, don't invent it to show symmetry. No long pink source bob, waist hair or floating clumps. Foreground partial TWO-leaf cream collar and red shoulder are naturally cropped at bottom; NO visible limbs. Rear is separate Klee in strict RIGHT profile at current x68%/y46%, same source cool CYAN/BLUE NIGHT tint on face/blonde hair/red beret/coat, one open crimson eye with pupil/highlight, tiny dot mouth, source nose/chin/fringe/hat contour. Both animal sleep masks and pink source hair fully removed. Keep current blue night sky/tiny stars/crescent moon, warm foreground versus cool rear, exact near/far ordering. Draw simplified flat muted PV blocks/irregular thin black lines; no rendered gradients or elaborate details. ALL captions omitted; source original Japanese/Chinese glyphs are independent layers. One independently drawn current cel, no collage, mirror, morph, flow, copied still or missing rear person.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-f5a4471d-9e7a-42b1-9732-7b8be3cd31fb.png",
+  "static_review": "Leftward major source movement present: left eye partly clipped, tiny triangle mouth near20% width, left giant head and right cool profile both Klee, no invented hands/legs. Right foreground ponytail ear root now visible and overlaps rear neck; distant left group remains cropped. Exact rear contour/logo/collar continuity still approximate; source/neighbor batch QA pending.",
+  "known_issues": [
+    "Rear beret front logo visibility and collar volume differ from903/907",
+    "Mild shading and exact side-hair/face silhouette approximate"
+  ],
+  "blocking_static_findings": [],
+  "artistic_accepted": false
+}

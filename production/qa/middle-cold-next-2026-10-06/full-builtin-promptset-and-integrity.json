@@ -1,0 +1,546 @@
+{
+  "snapshot_utc": "2026-10-06T15:08:09.002642+00:00",
+  "tool": "builtin_imagegen",
+  "jobs": [
+    {
+      "source_frame": 2145,
+      "status": "reviewed_static_temporal_pending",
+      "tool": "builtin_imagegen",
+      "output": "generated/middle-cold-f2145-oct6-v1.png",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve. Asset: ONE complete 16:9 hand-drawn PV cel, f2145. Replace ALL source characters with Klee from Genshin Impact, keeping the original PV's simple cel shapes, black/dark colored outlines, restrained flat coloring and actual current camera. Not a montage or reference contact sheet. No text, subtitles, watermark.\nReference roles in order: 1 current original f2145 is sole authority for pose/crop/screen positions and occlusion. 2 actual f2143->2145 A/B RGB and contours shows real changes. 3 native cold-source eye/bangs/hat/profile differences is authoritative detail. 4 cropped warm Klee face is ID/style only. 5 cropped cold Klee is ID and cool color only; do not copy its CLOSED eye.\nThere are exactly TWO Klee actors: giant warm foreground Klee on the LEFT/front, and smaller cool-blue-lavender side-profile Klee facing RIGHT behind her, both clipped by frame as in source. Warm front stays in the current closed-eyes pose, two shut heavy eyelid lines, two orange cheek ovals, small upward peaked closed mouth, head/face near same coordinates as original, cream-blonde short bob and two compact side ponytails replacing original long pink hair, oversized red-brown beret with one pale clover and single feather. Red coat with simple pale collar at bottom. Both warm eyes are fully SHUT, no visible red irises. Do NOT move or rotate front face merely because background changes.\nCold rear face remains HALF-OPEN with exactly ONE narrow red eye visible in right-facing profile, one muted violet-pink cheek, tiny closed-dot mouth, no second eye. Keep source nose around 72% canvas width and source chin around 67% canvas height. Its cyan-lavender blonde hair replaces source pink hair: current f2145 rear long bang edges sway downward/right relative to f2143; preserve this modest directional motion using short Klee bangs and tied ponytail rather than freezing the cropped identity. Source hat top contour changes slightly. Red-brown Klee beret and pale feather/clover tinted cool blue, replacing ALL animal cap ears. Keep the rear left part of head/neck/body occluded by the warm front actor and its hair. Only show source-visible shoulder/collar, no extra hands/legs.\nForeground remains sharp; rear remains slightly soft as original, not photoreal. Blue night sky occupies right half, crescent moon near upper-right, tiny original pale dots, small lavender remnant at upper-left. Keep original background and actual transition framing. No invented limbs, no visible hidden rear face on left, no copied animal hats, no facial expression freeze from identity anchors. Original subtitles will be composited separately, output contains NO letters.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-source-actual.png",
+          "role": "CURRENT f2145 original whole PV frame; sole camera/pose/crop/visibility/occlusion authority; both characters must be replaced",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2143-f2145-source-ab-rgb-contours.png",
+          "role": "Actual source A/B RGBx4 and blue/red contours; overview was tool-resized, not native detail; only source motion evidence",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "role": "Native source cold profile change: hat top, long bangs and right hair tip shift; eyelid/pupil current authority, not identity",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2143-warm-head-identity-only.png",
+          "role": "Warm Klee identity and simplified line/color continuity only; no scene or position authority",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cold Klee identity/palette only; its CLOSED EYE must NOT override current source half-open visible eye",
+          "actually_viewed": true
+        }
+      ],
+      "source_drawing_review": {
+        "distinct": true,
+        "reason": "Warm foreground source holds; cold rear bangs, hat top and hair tip contours change coherently, so wholecel cannot alias f2143.",
+        "actually_viewed_native": [
+          "f2145-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "f2145-warm-hat-hair-native-ab-rgb-contours.png",
+          "f2145-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png"
+        ]
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a1109b-8068-7201-8ae3-e679eddd9fdd\\exec-9606df1a-9a98-47df-a266-7371ba6221dc.png",
+      "output_sha256": "803de5282814ab94175d66c4c43ebf88691e9380eecbcc212001830afab29c46",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Two Klee actors; warm front both shut eyes and peaked mouth, rear one half-open red eye in right profile, correctly behind. Static whole and source/adjacent checked. Rear profile placement and warm ponytail volume approximate, source held foreground has modest unintended redraw; deferred first-cut polish. No captions generated; compositor/all exposures/speed pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2146,
+      "status": "reviewed_static_temporal_pending",
+      "tool": "builtin_imagegen",
+      "output": "generated/middle-cold-f2146-oct6-v1.png",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve. ONE complete 16:9 hand-drawn PV cel f2146. Replace BOTH people with Klee while preserving the ACTUAL current original scene, cropping and layer order. No text, subtitles, watermark or contact sheets. Simple hand-drawn black outlines and flat cel colors, not detailed rendered art.\nReference roles: 1 CURRENT f2146 controls ALL poses, screen positions, eye expressions, mouth shapes and visible regions. 2 actual original f2145->2146 difference overview controls the real transition movement. 3 native foreground source facial AB/RGB/contours controls subtle facial changes. 4 cropped warm Klee head is ID/style only, do not freeze its closed peaked mouth or prior head tilt. 5 cropped cool Klee is ID/palette only, do not copy closed eye.\nExactly TWO Klee actors. The warm foreground giant on LEFT/front moves LEFT relative to f2145 and becomes MORE UPRIGHT, not still leaning like previous reference. Current warm mouth is a tiny OPEN rounded triangle around 28% canvas width and 69% height, NOT a peaked closed line. Both warm eyes remain FULLY SHUT with thick horizontal eyelid strokes, two large orange cheek ovals. Current front chin about 28% width and 88% height. Forehead/beret top clipped above canvas, left hair clipped off left edge. Blonde short bob and two tied compact side ponytails preserve Klee identity while moving according to source, red-brown beret with single cream clover and feather, red coat and simple cream collar cropped at bottom. Do not scale up to fill all canvas; respect current remaining right-side blue space.\nRear cool-blue/lavender Klee facing RIGHT remains HELD in the same source position as f2145. Exactly one narrow HALF-OPEN red eye, one violet-pink cheek and tiny closed dot mouth, cream-blonde hair tinted icy lavender, simple red beret tinted cool, pale clover/feather replacing animal cap ears. Nose around 72% canvas width, chin around 63% height. Rear head/body remains behind warm head; only the source-visible right profile, hat and right shoulder/collar are exposed. No hidden left face or limbs. Rear is slightly soft as original, front sharp. Do not freeze the cool ID reference eye closed.\nNight blue background, tiny pale stars and crescent near upper-right remain in original positions; remove original subtitle letters completely since they are composited separately. Preserve original crop and original overlap, no invented figures or hands.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-source-actual.png",
+          "role": "CURRENT original f2146; sole authority for composition, warm face movement and mouth, cold held profile and occlusion",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-f2146-source-ab-rgb-contours.png",
+          "role": "Actual source AB RGB and contours overview, viewed resized; warm head slides left and straightens, cold head holds",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "role": "Native CURRENT foreground eyelids, cheek/mouth and changed contour; tiny rounded triangular open mouth is real",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2143-warm-head-identity-only.png",
+          "role": "Cropped warm Klee identity/simple lines only; do not freeze its position or closed peaked mouth",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cool Klee palette/identity only, NOT its closed eye; current source rear has one half-open visible eye",
+          "actually_viewed": true
+        }
+      ],
+      "source_drawing_review": {
+        "distinct": true,
+        "reason": "Foreground contour slides left/straightens, bangs and right lock reshape, mouth changes closed peak to rounded open triangle; cold head remains held.",
+        "actually_viewed_native": [
+          "f2146-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "f2146-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "f2146-warm-hat-hair-native-ab-rgb-contours.png"
+        ]
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a1109b-8068-7201-8ae3-e679eddd9fdd\\exec-9a08c41a-14fa-4fab-a7e4-e5a5ac23a78b.png",
+      "output_sha256": "a70947f9ad39ffdef04f15222cdcaeba7180a83d1800958bb9a01909fbf69fe2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Two Klee actors, foreground moves left and upright with shut eyes and true triangular open mouth; one visible rear red eye, rear occluded. Source and adjacent static whole reviewed. Rear held source gains unintended position/eye-aperture drift vs2135 output; front mouth position/ponytail shape approximate. Costume drift deferred; all-exposure compositor and speed pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2149,
+      "status": "reviewed_static_temporal_pending",
+      "tool": "builtin_imagegen",
+      "output": "generated/middle-cold-f2149-oct6-v1.png",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve. ONE whole 16:9 simple hand-drawn PV animation cel f2149, replacing BOTH original characters with Klee. No subtitles, text, watermark, collage. Preserve the exact current original night transition and source visible regions. Simple flat colors and thick clean hand-drawn outlines matching PV.\nReference1 CURRENT f2149 is SOLE pose, composition and occlusion authority. Reference2 actual f2146->2149 A/B RGB/contour overview determines movement. Reference3 native foreground eyes/mouth/bangs details determines the current drawing. Reference4 warm Klee crop and Reference5 cool Klee crop are ID/style only, never positional or expression templates.\nWarm foreground giant Klee has moved FARTHER LEFT than f2146. Her face is clipped off the LEFT edge, including part of the near-left shut eyelid/cheek/hair; do not recenter her or restore clipped pieces. TWO SHUT eyelid strokes (left one partially clipped), both fully closed without irises, two orange cheeks with left cheek partly clipped, small OPEN triangular mouth now near 20% canvas width and 70% canvas height. Chin around 21% canvas width and 89% canvas height, hat clipped at top/left. Current bangs reshape diagonally and right hair contour shifts; Klee's short blonde bob and compact tied ponytails should travel with this head, no original long pink hair. Keep source tilt and clipped scale, not the centered previous warm identity. Warm red beret with pale clover/feather, simple red coat and cream collar visible at lower-left only.\nCool rear Klee remains the same RIGHT-facing profile behind the departing warm head: one HALF-OPEN narrow red visible eye, one muted violet cheek, tiny closed-dot mouth. Rear nose at roughly 72% width, held head/hat/shoulder at source positions. Cool cyan-lavender blonde short bob with one tied ponytail and simple red-brown beret tinted cool with pale feather/clover, ALL original animal ears removed. Keep rear profile partially overlapped by front right hair/ponytail at its lower-left; no hidden face, hands, legs or added character. Front sharp, rear slightly soft just like source, original blue sky/crescent/dots unchanged.\nThe original captions are restored separately by compositor, draw NO letters at all. Do not freeze cold eye closed from reference5; do not move the held rear head merely to expose more of it.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-source-actual.png",
+          "role": "CURRENT f2149 sole camera, pose, warm left departure, facial crop and cold held profile authority",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-f2149-source-ab-rgb-contours.png",
+          "role": "Actual source AB/RGB/contours overview viewed resized; front slides farther left while cold rear stays",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "role": "Native source shut eyelids, open triangular mouth and new jaw/bangs changes",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2143-warm-head-identity-only.png",
+          "role": "Warm Klee identity/style only; cropped identity does not determine current face position, rotation or crop",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cold Klee identity/cool palette only, NOT closed eyelid; current rear single eye is half-open",
+          "actually_viewed": true
+        }
+      ],
+      "source_drawing_review": {
+        "distinct": true,
+        "reason": "Wholecel distinct: foreground moves farther left and tilts, bangs/eye/jaw/hair/collar reshape and partially clip left; rear largely holds. Cannot alias wholecel.",
+        "actually_viewed_native": [
+          "f2149-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "f2149-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "f2149-warm-hat-hair-native-ab-rgb-contours.png"
+        ]
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a1109b-8068-7201-8ae3-e679eddd9fdd\\exec-245cd86f-7803-468f-b744-104839b6565a.png",
+      "output_sha256": "6554c4d8131f6e1d24c12e6d960808517575a47ba75060a0bf3a190000d5c0af",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Front genuinely moves farther left with partially clipped left shut eyelid/cheek and open triangular mouth; rear one red profile eye remains behind. Current source and adjacent static whole checked. Rear held source head has unintended vertical position/eye drift and front ponytail/collar details vary; deferred first-cut continuity polish, not accepted or temporal passed. No generated captions.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2151,
+      "status": "reviewed_static_temporal_pending",
+      "tool": "builtin_imagegen",
+      "output": "generated/middle-cold-f2151-oct6-v1.png",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve. ONE complete 16:9 hand-drawn PV cel f2151, both people replaced by Klee, original current night scene retained, no text/subtitles/watermark/collage. Flat simple hand-drawn PV linework.\nReference1 CURRENT f2151 is sole pose/camera/crop/expression authority. Reference2 actual f2149->2151 A/B RGB and contour overview identifies what changes. Reference3 native cold rear face/hat/hair A/B is the detail authority. Reference4 adjacent Klee f2149 gives identity and the genuinely HELD front head; reference5 cool Klee crop is identity only. Neither reference4 rear nor reference5 closed eye may freeze the CURRENT rear drawing.\nThe LEFT/front giant warm Klee is HELD as source f2149: same partly clipped left face/closed eye/cheek, same two fully SHUT black eyelid lines with no irises, two orange cheeks, same little OPEN triangular mouth around 20% canvas width and 70% height, same chin around 21% width and 89% height. Keep adjacent draft front shape/crop/color/short blonde bob/tied ponytails/red beret/pale clover/feather/simple cream collar closely continuous; do not add front motion while only rear changes.\nThe rear RIGHT-facing cool-blue/lavender Klee has a REAL new drawing: source hat crown/brim curves shift slightly, near long bangs swing left/down, the right forehead-fringe edge pulls left/up, narrow single eye/lid and profile/neck/collar contours redraw. Translate these into Klee's own short blonde bangs and tied ponytail with coherent strand connections, don't retain the old rear silhouette unchanged. Exactly ONE half-open narrow red eye is visible in profile, one muted violet cheek, tiny dot mouth, current source nose about 72% width. Red beret tinted cool with pale clover and one feather replaces animal cap/ears. Rear left face/shoulder remains occluded by foreground head/hair. Preserve current source size and position and no extra face, hands, legs.\nKeep front sharp and rear slightly soft as source. Original blue night sky, small crescent at upper-right, small pale dots and existing crop remain unchanged. No generated lettering, original lyric timing and glyphs will be restored separately.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-source-actual.png",
+          "role": "CURRENT f2151 sole original composition, occlusion, eyelid/profile and crop authority",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-f2151-source-ab-rgb-contours.png",
+          "role": "Actual AB RGB/contours overview viewed resized; warm front holds, cold head/hair/hat/collar redraws",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "role": "Native cold rear current eye/bangs/hat/profile changes; controls current expression and actual motion, not identity",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-cold-f2149-oct6-v1.png",
+          "role": "Adjacent Klee draft: warm foreground is held and same crop; identities, palette and strand connections only for rear; DO NOT freeze changing rear drawing",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cool Klee identity only; closed eye is NOT current source expression",
+          "actually_viewed": true
+        }
+      ],
+      "source_drawing_review": {
+        "distinct": true,
+        "reason": "Foreground source holds f2149, but cold rear hat/bangs/eye/profile/collar display coherent contour redraw. Wholecel cannot alias.",
+        "actually_viewed_native": [
+          "f2151-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "f2151-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "f2151-warm-hat-hair-native-ab-rgb-contours.png"
+        ]
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a1109b-8068-7201-8ae3-e679eddd9fdd\\exec-dad15c0a-9332-43ac-a66a-3e3d27597b42.png",
+      "output_sha256": "e55de37ab27d30e1ecadaaaa80b5c6c13fd85702611ecd76bb7f31eb0502b447",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Foreground held near prior2149 as source, two shut eyes and small triangular mouth; rear one visible half-open red eye, bangs/hat/collar genuinely redraw with stable overlap. Source/current and adjacent static whole reviewed. Rear bang/hat displacement amplitude and nose placement approximate; deferred first-cut polish. No invented hidden limbs or text; all-exposure composite/speed pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2152,
+      "status": "reviewed_static_temporal_pending",
+      "tool": "builtin_imagegen",
+      "output": "generated/middle-cold-f2152-oct6-v1.png",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve. ONE whole 16:9 simple hand-drawn PV cel f2152 with EVERY visible original character fragment replaced by Klee. No text/subtitles/watermark/collage. Current source1 controls composition/pose/crop/visibility exclusively. Source2 actual f2151->2152 AB/RGB/contours shows warm foreground departs. Source3 native cold profile A/B controls held eye/face detail. Reference4 warm ponytail crop is identity ONLY for departing fragment, no face. Reference5 cool Klee crop is identity/palette only; never copy its closed eye.\nIMPORTANT transition: there is ONE visible FACE now, the cool RIGHT-facing profile. The huge warm foreground face and its hat, eyes, cheeks, mouth and coat have completely EXITED LEFT. Do not recreate or recenter that warm head. Only a narrow WARM BLONDE KLEE PONYTAIL FRAGMENT remains clipped along the far LEFT edge, roughly from y35% to bottom, corresponding to the original peach hair fragment; at most a red tie sliver, no warm face, no eyes/mouth/ear/hat/torso. This fragment is in FRONT of the cool scene and ends sharply as current source. Do not confuse this with the cool actor's flowing hair.\nCool main Klee facing RIGHT occupies current source position: nose around 73% canvas width and 42% height, chin around 70% width and 59% height, neck/pale collar around 58% width and 70% height, red shoulder/coat clipped at bottom. Exactly ONE narrow HALF-OPEN red eye visible, with heavy upper eyelid and small lower pupil, one muted violet cheek, tiny closed-dot mouth. Main head is held relative to f2151; keep source eyelid/bang/hat/profile expression. Klee has icy-lavender tinted blonde short bob plus a red-tied ponytail sweeping LEFT under current source breeze, preserving recognizable short bob and separated tied hair, NOT the original huge long pink hair sheet. A simple red beret tinted cool, pale clover and one feather replaces original animal cap and all animal ears. Show only current-visible head/neck/shoulder, no hands/legs/second face.\nThis scene now exposes the original purple-blue LEFT night sky and vivid blue RIGHT night sky with small pale dots and crescent at upper-right. Preserve the source background and exposure framing, do not replace with solid empty fill. Simple flat cel colors, restrained dark colored outlines, rear softness like original; no realistic shading. Original lyrics are restored separately, draw no lettering.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-source-actual.png",
+          "role": "CURRENT f2152 sole actual composition/visible-fragment/crop authority; warm face is completely offscreen",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-f2152-source-ab-rgb-contours.png",
+          "role": "Actual source AB RGB/contours overview viewed resized: warm giant departs, leaving only hair fragment at far-left; cold profile revealed",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "role": "Native held cold profile eye/bangs/hat: expression one half-open visible eye; full cold hair/collar newly revealed by warm departure",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2149-warm-ponytail-identity-only.png",
+          "role": "Warm blonde ponytail and ribbon identity ONLY for the tiny departing far-left fragment, no face template",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cool Klee short bob/ponytail/beret identity only; current visible eye must remain HALF-OPEN, not this crop's closed eye",
+          "actually_viewed": true
+        }
+      ],
+      "source_drawing_review": {
+        "distinct": true,
+        "reason": "Warm face departs completely, only clipped warm hair remains at far left; previously occluded cold hair/neck/collar and purple-blue sky are exposed. Wholecel cannot alias.",
+        "actually_viewed_native": [
+          "f2152-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "f2152-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "f2152-warm-hat-hair-native-ab-rgb-contours.png"
+        ]
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a1109b-8068-7201-8ae3-e679eddd9fdd\\exec-9fcc946d-87ca-43e2-8990-a562a655ca24.png",
+      "output_sha256": "5d85eddaefd78f8eec07f6e4e61dededf1382e3ef6d49d1a7bb3a36fbce258a4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Exactly one cool Klee profile face and warm blonde ponytail fragment at far-left; warm face/hat/coat correctly offscreen. One half-open red eye, correct rear/profile orientation and original visible sky restored, no text. Current source and adjacent static whole checked. Cool profile nose/neck positions and larger beret/hair silhouette approximate; sharpness/ornament drift deferred. Compositor all-exposure and temporal pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    }
+  ],
+  "integrity": [
+    {
+      "source_frame": 2145,
+      "output": "generated/middle-cold-f2145-oct6-v1.png",
+      "sha256": "803de5282814ab94175d66c4c43ebf88691e9380eecbcc212001830afab29c46",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-source-actual.png",
+          "role": "CURRENT f2145 original whole PV frame; sole camera/pose/crop/visibility/occlusion authority; both characters must be replaced",
+          "actually_viewed": true,
+          "sha256_at_archive": "226288d95009ac26e8d2550e5ccc6c30bfdaff5d35c8fb2cf1a8bd6ad941559d"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2143-f2145-source-ab-rgb-contours.png",
+          "role": "Actual source A/B RGBx4 and blue/red contours; overview was tool-resized, not native detail; only source motion evidence",
+          "actually_viewed": true,
+          "sha256_at_archive": "e9eb205354b2d6ba636e9f29153fb71e6b670b7a971d7449e0f59ac453b64be1"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "role": "Native source cold profile change: hat top, long bangs and right hair tip shift; eyelid/pupil current authority, not identity",
+          "actually_viewed": true,
+          "sha256_at_archive": "2ace045c5ee295c42c9db2bde89d5a07e9008d5d34f926c7366345ea066db07b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2143-warm-head-identity-only.png",
+          "role": "Warm Klee identity and simplified line/color continuity only; no scene or position authority",
+          "actually_viewed": true,
+          "sha256_at_archive": "3e57b1639d8a3c9e68de70b67415642e1abc0f92d4ecffbcb82c71a78567e969"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cold Klee identity/palette only; its CLOSED EYE must NOT override current source half-open visible eye",
+          "actually_viewed": true,
+          "sha256_at_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ]
+    },
+    {
+      "source_frame": 2146,
+      "output": "generated/middle-cold-f2146-oct6-v1.png",
+      "sha256": "a70947f9ad39ffdef04f15222cdcaeba7180a83d1800958bb9a01909fbf69fe2",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-source-actual.png",
+          "role": "CURRENT original f2146; sole authority for composition, warm face movement and mouth, cold held profile and occlusion",
+          "actually_viewed": true,
+          "sha256_at_archive": "138578aa9ae7930bb7a6ab2433b4e717483d3726449ed9246dc002ac4412428e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-f2146-source-ab-rgb-contours.png",
+          "role": "Actual source AB RGB and contours overview, viewed resized; warm head slides left and straightens, cold head holds",
+          "actually_viewed": true,
+          "sha256_at_archive": "f8fd9ff7cb313fa9d099b51b432d8331a35be3770892477aea752a9c4d334673"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "role": "Native CURRENT foreground eyelids, cheek/mouth and changed contour; tiny rounded triangular open mouth is real",
+          "actually_viewed": true,
+          "sha256_at_archive": "38397bfa611e55ac0c346c908481757a56e15ddff588fbd8f867c619f6e25d99"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2143-warm-head-identity-only.png",
+          "role": "Cropped warm Klee identity/simple lines only; do not freeze its position or closed peaked mouth",
+          "actually_viewed": true,
+          "sha256_at_archive": "3e57b1639d8a3c9e68de70b67415642e1abc0f92d4ecffbcb82c71a78567e969"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cool Klee palette/identity only, NOT its closed eye; current source rear has one half-open visible eye",
+          "actually_viewed": true,
+          "sha256_at_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ]
+    },
+    {
+      "source_frame": 2149,
+      "output": "generated/middle-cold-f2149-oct6-v1.png",
+      "sha256": "6554c4d8131f6e1d24c12e6d960808517575a47ba75060a0bf3a190000d5c0af",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-source-actual.png",
+          "role": "CURRENT f2149 sole camera, pose, warm left departure, facial crop and cold held profile authority",
+          "actually_viewed": true,
+          "sha256_at_archive": "ee162060ada392c8576808d2b4389647793dacba2873d85b86ab7b959817f714"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-f2149-source-ab-rgb-contours.png",
+          "role": "Actual source AB/RGB/contours overview viewed resized; front slides farther left while cold rear stays",
+          "actually_viewed": true,
+          "sha256_at_archive": "5bcc66c980cc37aa36986ad07af227165a85042dfe388b896ad7acbec72f9618"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-warm-face-eye-mouth-native-ab-rgb-contours.png",
+          "role": "Native source shut eyelids, open triangular mouth and new jaw/bangs changes",
+          "actually_viewed": true,
+          "sha256_at_archive": "1f812518429942a3206f82d816bd7b13b3c514b4e7d6736628c177b183816ba4"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2143-warm-head-identity-only.png",
+          "role": "Warm Klee identity/style only; cropped identity does not determine current face position, rotation or crop",
+          "actually_viewed": true,
+          "sha256_at_archive": "3e57b1639d8a3c9e68de70b67415642e1abc0f92d4ecffbcb82c71a78567e969"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cold Klee identity/cool palette only, NOT closed eyelid; current rear single eye is half-open",
+          "actually_viewed": true,
+          "sha256_at_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ]
+    },
+    {
+      "source_frame": 2151,
+      "output": "generated/middle-cold-f2151-oct6-v1.png",
+      "sha256": "e55de37ab27d30e1ecadaaaa80b5c6c13fd85702611ecd76bb7f31eb0502b447",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-source-actual.png",
+          "role": "CURRENT f2151 sole original composition, occlusion, eyelid/profile and crop authority",
+          "actually_viewed": true,
+          "sha256_at_archive": "3dc3e341828195cacf9e81d553e80099ac447c67db1231503df9983d976baddb"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-f2151-source-ab-rgb-contours.png",
+          "role": "Actual AB RGB/contours overview viewed resized; warm front holds, cold head/hair/hat/collar redraws",
+          "actually_viewed": true,
+          "sha256_at_archive": "506dd269b58a078343230c40f3048d844315193dd54d4e96b2a6889e9828bbbd"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "role": "Native cold rear current eye/bangs/hat/profile changes; controls current expression and actual motion, not identity",
+          "actually_viewed": true,
+          "sha256_at_archive": "5a48bb45a8c7e9ecf1046c2f1561f00f2027e1bafaf60397d6528a42c750b44e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-cold-f2149-oct6-v1.png",
+          "role": "Adjacent Klee draft: warm foreground is held and same crop; identities, palette and strand connections only for rear; DO NOT freeze changing rear drawing",
+          "actually_viewed": true,
+          "sha256_at_archive": "6554c4d8131f6e1d24c12e6d960808517575a47ba75060a0bf3a190000d5c0af"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cool Klee identity only; closed eye is NOT current source expression",
+          "actually_viewed": true,
+          "sha256_at_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ]
+    },
+    {
+      "source_frame": 2152,
+      "output": "generated/middle-cold-f2152-oct6-v1.png",
+      "sha256": "5d85eddaefd78f8eec07f6e4e61dededf1382e3ef6d49d1a7bb3a36fbce258a4",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-source-actual.png",
+          "role": "CURRENT f2152 sole actual composition/visible-fragment/crop authority; warm face is completely offscreen",
+          "actually_viewed": true,
+          "sha256_at_archive": "68158afe17c9e1c278f0aa9c59544751e31e77c271b97a90253ba285d869857a"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-f2152-source-ab-rgb-contours.png",
+          "role": "Actual source AB RGB/contours overview viewed resized: warm giant departs, leaving only hair fragment at far-left; cold profile revealed",
+          "actually_viewed": true,
+          "sha256_at_archive": "35135ab6ba77b22ad294b122fccb9e09461a2a4a7d36dc00ad078ac3e591db33"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+          "role": "Native held cold profile eye/bangs/hat: expression one half-open visible eye; full cold hair/collar newly revealed by warm departure",
+          "actually_viewed": true,
+          "sha256_at_archive": "5b44cff18603fcdb5b2c1133fca7c8cc499d33a0f6ed2c22241858010fb32674"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2149-warm-ponytail-identity-only.png",
+          "role": "Warm blonde ponytail and ribbon identity ONLY for the tiny departing far-left fragment, no face template",
+          "actually_viewed": true,
+          "sha256_at_archive": "0dde516aeef3d3a2ec4302ee7d913ea0c86101e4f741fdd55bf4783bd140f725"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "Cool Klee short bob/ponytail/beret identity only; current visible eye must remain HALF-OPEN, not this crop's closed eye",
+          "actually_viewed": true,
+          "sha256_at_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ]
+    }
+  ],
+  "successful_builtin_outputs": 5,
+  "requested_queue_cels": 6,
+  "unique_generated_source_cels": 5,
+  "private_selected_drafts": 5,
+  "source_exposure_frames_of_private_drafts": 9,
+  "requested_but_ungenerated_frames": [
+    2154
+  ],
+  "argument_validation_attempts_with_no_generated_output": 0,
+  "accepted": false,
+  "shared_selection_edited_at_seal": false,
+  "temporal_speed_review": "not_performed",
+  "art_acceptance": "Not performed; static drafts only"
+}

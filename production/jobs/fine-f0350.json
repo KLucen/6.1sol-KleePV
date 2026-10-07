@@ -1,0 +1,20 @@
+{
+  "job_id": "exec-68940783-b2f4-4ae6-80a5-2b4cf3552d4c",
+  "canonical_cel": "cel-0053",
+  "source_frame": 350,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. ONE full16:9 current PV cel f0350, no sheet. Reference1 CURRENT source absolute pose/crop/hand contact/eye geometry authority. Ref2 cropped Klee upper head identity/flat style only, not composition. Ref3 cropped plain cream cuffs/sparse peach-diamond cream collar/scalloped round medallion clothing only. Ref4 source A/B diff CURRENT top-right, redraw guide not layout. Replace original girl with Klee: short two attached blonde side ponytails, pointed ears, red cream-clover beret viewer-right white feather, red cream coat, full brown gloves, plain cream cuffs. Source right-side closeup, both palms STILL CUP cheeks, no shrug/palms-up, all upright fingers at current source contours. Current distinctive eyes: NARROWLY OPEN rectangular horizontal sleepy slots, with heavy black upper lids and near-flat BLACK lower edges, visible narrow burgundy/red iris strips and small curled light notches at lower-left of each. Do NOT use closed eye strokes, do NOT draw prior big round eyes. Worried gently inclined inner brows. Small pale-pink upright triangular/domed open mouth, at current-source x61.4-64.3%,y64.3-68.4%, a little taller than f0326 and slightly higher. Both hands wrap more inward to cheeks, altered fingertip peaks, outer palm curves and cuff contours exactly current source; preserve asymmetric left/right wrist angle. Head minimally tilted, source current face centered about63%canvas, no big clockwise lean. Hair behind palms, full brown fingers against orange cheek patches, source visible crop only, headgear top cropped/torso lower cropped. Broad flat color, loose black source-like outlines and black line-pressure accents; iris is flat dark-red top strip/pink-red lower strip, no pupils, no gradients or extra shading blobs. Maintain two ponytails topology, no armpit duplicate hair. Plain cuffs have no clover decorations. NO captions, credits, lyrics, lettering, bubbles or bubble outlines whatsoever: clean purple left. No annotations, missing-anatomy inventions or added props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0103-f0350.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-head-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-collar-f0307.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0350.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0350.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0326 to f0350: 281556 pixels >=28; round sleepy eyes become narrow open rectangles, inner-brow shape and inward palm/finger pressure differ, mouth raised/taller.",
+  "inspection": "Narrow open rectangular red eye slots with flat lower lids and curled notches correct, not closed anchor006. Both palms still cup cheeks, small taller triangle correct, no captions or extra ornaments. Flat iris restored; source normalized face/palm locations broadly match. Hat/ponytail proportions and exact finger outline remain sequence-review pending."
+}

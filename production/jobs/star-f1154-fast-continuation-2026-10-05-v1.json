@@ -1,0 +1,78 @@
+{
+  "id": "star-f1154-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1154,
+  "source_cel": "cel-0245",
+  "source_reference": "source_refs/src-0686-f1154.png",
+  "source_exposures": [
+    {
+      "start": 1154,
+      "end": 1161,
+      "pts": 48.083,
+      "end_pts": 48.375,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-actual.png",
+      "role": "Current1154 both indexpointing more widely separated and forearms swing outward."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-face-native.png",
+      "role": "Currentclosed horizontal eyelids/tiny mouthdot."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-ab-rgb-contours.png",
+      "role": "Actual1147->1154 AB/RGB/contours; gloves move outward, indices morevertical; cuffs rotate."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-body-native.png",
+      "role": "Current wider bentelbows/creamcuffs/leg/boots and coat."
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/generated/star-f1147-fast-continuation-v1.png",
+      "role": "PreviousKlee identity/style only, not narrower fingerposing."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent WHOLE Klee handdrawn PV cel. Image1 exactCURRENT original is wholepose/framing/occlusion authority; Image2 current nativeFACE defines expression and visibleparts; Image3 actual previous/current sourceAB RGBdifference/dualcontours defines real redraw; Image4 current nativeBODY defines cuffs/sleeves/legs/boots; Image5 previousKlee ONLY identity/style/two-rooted-ponytail consistency, NOT frozen expression/pose. Replace entire original girl with pale-blonde shortbangs/elfears and EXACTLY TWO compact rooted shoulder ponytails above lowercollar; red beret/creamclover/whitefeather/brown badge; simple PLAINredcoat, twolobedcreamcollar, plaincreamcuffs, one continuousstraightcream COAThem over REDshorts, browngloves/boots. NO longpinkhair, thirdbunch, oldanimalhat/pajamas/buttons/pockets/backpack. Same currentoriginal centered upright slender fullbody totalheight/framing. CURRENT1154 TWO index fingers stillpointUP but move FARTHER OUTWARDS than1147: leftglove near(x752,y339) index nearlyVERTICAL tip(x743,y281), rightglove near(x1160,y335) indexverticaltip(x1174,y278). Not inward-leaning fingers besidecheeks. Other fingerscurled, TWOcontinuousbrowngloves, oneindexeachnotVsign. Widen forearms out fromcurrent elbows~x820/y474 andx1100/y470; left creamcuff extends diagonally fromx740/y392 tox797/y371; right creamcuff fromx1107/y369 tox1170/y392; sleeves angleupandout leaving clean purplegaps beside torso. Shoulder/elbow/cuff contours redraw exactlycurrent outwardkeypose notnarrowprevious. BOTHeyesfullyCLOSED thin nearhorizontal strokes/noiris, tinyclosedmouthdot, headnearlyupright. Current coathem/boots redraw: nearupright groundedlegs, leftboottoesslightleft/rightbootright sole nearhorizontal. Plainred coat/no clovermotifs orverticalcreamtrim; straightcontinuous creamhem. Exactly2shortrootedponies no extra hairunderarms. Match CURRENT source head/collar/cuff/hem/legs contours independently. Two hands/twolegs only; coherent shoulder-elbow-wrist connectivity, correct near/far sleeve layering. Clearpurple sky underarms, no danglinghair belowcollar. Originalpurple star layout, no text/lyrics/watermark (source captions restored independently). One wholelandscape frame, no collage/crop/flip/warped previouspaste. Simple organic darkink and mostlyflat PVcolors; no extraornament/shading.",
+  "output": "generated/star-f1154-fast-continuation-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Rootviewed full/nativeface/body and sourceAB/RGB/contours/locals. Indices straightenvertical and hands moveoutward, rotated cuffs/forearms distinct, sourceindependent.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-locals-native.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-216be78e-9d6f-49dc-8458-a7045d5c9e04.png",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+  "static_review": {
+    "passed": [
+      "Both index gloves move fartherout and straightenvertical, cuffs and forearms swingout coherently",
+      "Bothclosedeyes tinyclosedmouthdot, two rootedponies, nearverticalgroundedlegs"
+    ],
+    "deferred": [
+      "Hand/cuff/forearm amplitude and contour simplified",
+      "Frontforelock/boottrim/knee shading/head-hem verticalregistration differ; compositor/actual-speed pending"
+    ],
+    "accepted": false
+  }
+}

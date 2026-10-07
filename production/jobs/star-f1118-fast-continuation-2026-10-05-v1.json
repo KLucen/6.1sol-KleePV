@@ -1,0 +1,80 @@
+{
+  "id": "star-f1118-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1118,
+  "source_cel": "cel-0236",
+  "source_reference": "source_refs/src-0650-f1118.png",
+  "source_exposures": [
+    {
+      "start": 1118,
+      "end": 1123,
+      "pts": 46.583,
+      "end_pts": 46.792,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-source-actual.png",
+      "role": "CURRENT1118 source exact both hands brought to chest, sleeves inward, left bentleg."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-source-face-native.png",
+      "role": "Current narrow open eyes/O mouth and hat/head slightly leaning."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1117-f1118-source-ab-rgb-contours.png",
+      "role": "Actual1117→1118 independent source head/bothhands/cuffs/hem/legs redraw."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-source-body-native.png",
+      "role": "Native current clenched hands above cuffs at collar, two inward sleeves, left angledleg occlusion."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1113-fast-continuation-v1.png",
+      "role": "Klee identity/style only; no out-left raised cuff or old hand spacing."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent WHOLE Klee PV cel from CURRENT exact source Image1. Image2 current native face and Image4 current body alone decide expression/pose/framing/visible parts/occlusion. Image3 real previous→current AB/RGB/dual contours controls actual redraw. Image5 ONLY previous Klee identity, original PV simple hand drawn mostly flat style and costume consistency; never freeze its pose. Replace ENTIRE original girl: red beret cream clover white feather brown badge; pale short bangs/elf ears/exactly TWO compact rooted ponytails ending at shoulders ABOVE lower collar. Plain red coat with two-lobed cream collar, plain cream sleeve cuffs, continuous cream COAT hem over RED shorts, brown gloves/boots. No old long hair/animal hat/buttonrow/pockets/pajama pants/backpack/extra ornament/third tuft. Same source total slender fullbody height and framing. CURRENT1118: LEFT forearm rotates DIAGONALLY INWARD/UP and small curled brown gloved hand near(940,355) is brought directly beside left collar, not a raised cuff outward at815407. RIGHT hand small curled glove near(995,348) just above the nearvertical cream cuff; both fists near one another just under chin but SEPARATE, neither hand clasped/together in prayer. LEFT elbow~875,440 with sleeve diagonally crossing upper torso and cream cuff angled around wrist; RIGHT elbow~1045,420 and upright sleeve slightly outward. Preserve CURRENT head hat tilt slightly down/right and narrow half-open eyes with tiny open O mouth. LEFT leg bends so lowerleg slopes down-left to tilted boot~870,1020; RIGHT groundedboot~1060,1020 morevertical. Red coat same length with real sleeve/hem variation.  Both hands and two legs only, coherent shoulder-elbow-cuff connectivity and current foreground sleeve overlap. No detached hair below collar or under arms: original long pink underarm tail removed leaving clean purple sky gap. Retain original purple stars layout, no extra graphics, no text/lyrics/watermark; source captions restored separately. One landscape whole frame, not collage/crop/flip/warp/transformed paste. Actually redraw current real keypose and contour/fold changes.",
+  "output": "generated/star-f1118-fast-continuation-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root viewed exact current full/native face/body and actual AB/RGB/contours/native local evidence; both hands brought to collar independently, not1117 source alias.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1117-f1118-source-locals-native.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-19c86e65-69b6-4bf7-a122-f8d6ce5cbb36.png",
+  "static_review": {
+    "passed": [
+      "two separate curled gloves brought to chest",
+      "left sleeve inward crossedtorso/right upright",
+      "two rooted shoulder ponytails/no originalhair",
+      "left tilted leg and upright right groundedfoot"
+    ],
+    "deferred": [
+      "hand/cuff/head/hem registration approximate",
+      "style added knee/boot shading"
+    ],
+    "accepted": false
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "76b3832e4b3d7685a12413b45d701c56b8c2995336bb727c7afefdcf9a524b51"
+}

@@ -1,0 +1,1671 @@
+{
+  "version": 1,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "status": "partial_safe_source_regions_static_review",
+  "layer_order": [
+    "source_background_and_observed_pillow",
+    "generated_character",
+    "source_clock_at_original_geometry",
+    "generated_brown_fingers_and_cuffs",
+    "source_text_and_independent_effects"
+  ],
+  "limits": [
+    "Only already visible source pillow material is restored.",
+    "Pillow boundaries and disoccluded hidden source material need further work.",
+    "Held-clock geometry is diagnostic only; displaced hand poses need redraw.",
+    "The diagnostic uses generated images as the baseline, not the production renderer.",
+    "Clock metrics describe the visible display hull; changed finger occlusion can bias its center."
+  ],
+  "assets": [
+    {
+      "frame": 0,
+      "source_reference": "source_refs/src-0000-f0000.png",
+      "asset": "generated/opening-f0000.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 269016,
+      "source_mismatch_before": 268962,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "44743d87681f03c5e6720633d7b802d7aa9467dbae3e61f81173d408f1768709",
+      "source_reference_sha256": "2fbac3a3e7c7d771e7bdb7252a408abdcc9dcaca96663d131453dd7c8b9d973e",
+      "pillow_observed_pixels": 288726,
+      "pillow_restore_pixels": 269016,
+      "glove_guard_pixels": 0,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "diagnostic": "qa\\opening-layers\\f0000-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0000-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0000-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0000-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0000-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0000-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0000-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 25,
+      "source_reference": "source_refs/src-0006-f0025.png",
+      "asset": "generated/opening-f0025.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 271257,
+      "source_mismatch_before": 271257,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "45166109f306cb3bb8b9072cb9b1c1676fda661e9d0d0e146cb8e95ab736f88b",
+      "source_reference_sha256": "f70dddbcb6f0c23ae8f27cc0e5332d1070cbb23d65e65ef39f16c8f4a696d34d",
+      "pillow_observed_pixels": 289273,
+      "pillow_restore_pixels": 271257,
+      "glove_guard_pixels": 0,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "diagnostic": "qa\\opening-layers\\f0025-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0025-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0025-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0025-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0025-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0025-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0025-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 28,
+      "source_reference": "source_refs/src-0007-f0028.png",
+      "asset": "generated/opening-f0028.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 275234,
+      "source_mismatch_before": 275232,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "1ac5da53b3b63d596890c04749eae2124b3bace37f5b7d4d5fdae08dd53004ee",
+      "source_reference_sha256": "57541aeefe652face4f4f4e617336af4b36ae26fa589e6af6e29d08f351ecd91",
+      "pillow_observed_pixels": 292131,
+      "pillow_restore_pixels": 275234,
+      "glove_guard_pixels": 0,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "diagnostic": "qa\\opening-layers\\f0028-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0028-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0028-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0028-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0028-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0028-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0028-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 31,
+      "source_reference": "source_refs/src-0010-f0031.png",
+      "asset": "generated/opening-f0031.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 288298,
+      "source_mismatch_before": 288294,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "7af46cb66f6d584e42fccddfc97e1f5522d52012e4511f9b77a60347cc0b83a5",
+      "source_reference_sha256": "e88c89b7661ebcb44f78f6ef1849edc5c5864c3be0b7f2a79385cdc303eef969",
+      "pillow_observed_pixels": 290597,
+      "pillow_restore_pixels": 288298,
+      "glove_guard_pixels": 0,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "diagnostic": "qa\\opening-layers\\f0031-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0031-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0031-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0031-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0031-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0031-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0031-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 38,
+      "source_reference": "source_refs/src-0013-f0038.png",
+      "asset": "generated/candidate-001-clean.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 60437,
+      "source_mismatch_before": 60413,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "ec9632bf3f4b6f6b270366ee9e3ca5be0de9cfc2c0240e040c7350ee77d628e9",
+      "source_reference_sha256": "b40e7fcb99734c71c13694357aa6d9ad668c05a0e74930c33da152a8a7aa3ef9",
+      "pillow_observed_pixels": 42754,
+      "pillow_restore_pixels": 29469,
+      "glove_guard_pixels": 0,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            908,
+            462,
+            1024,
+            522
+          ],
+          "center": [
+            966.8091327201051,
+            491.8584099868594
+          ],
+          "pixels": 3044
+        },
+        "generated": {
+          "bbox": [
+            907,
+            459,
+            1020,
+            522
+          ],
+          "center": [
+            966.8581395348838,
+            491.5239202657807
+          ],
+          "pixels": 3010
+        },
+        "center_delta_xy": [
+          0.049,
+          -0.334
+        ],
+        "center_distance": 0.338,
+        "overlap_iou": 0.95606,
+        "restoration": "full_source_clock",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0038-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0038-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0038-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0038-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0038-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0038-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0038-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 50,
+      "source_reference": "source_refs/src-0015-f0050.png",
+      "asset": "generated/fine-f0050.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 59267,
+      "source_mismatch_before": 59247,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "bd36a06abfcfe01bdeb0021071cd3e015062e402d1267e005eadc362e408c18b",
+      "source_reference_sha256": "2b1de46113649ece70e6023f4b06124747f4ded92c798e955679eeabae645613",
+      "pillow_observed_pixels": 43058,
+      "pillow_restore_pixels": 28299,
+      "glove_guard_pixels": 0,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            908,
+            462,
+            1023,
+            522
+          ],
+          "center": [
+            966.7168694508385,
+            491.8773429792831
+          ],
+          "pixels": 3041
+        },
+        "generated": {
+          "bbox": [
+            907,
+            460,
+            1021,
+            524
+          ],
+          "center": [
+            966.966476913346,
+            492.6767868437698
+          ],
+          "pixels": 3162
+        },
+        "center_delta_xy": [
+          0.25,
+          0.799
+        ],
+        "center_distance": 0.838,
+        "overlap_iou": 0.91215,
+        "restoration": "full_source_clock",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0050-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0050-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0050-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0050-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0050-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0050-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0050-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 54,
+      "source_reference": "source_refs/src-0016-f0054.png",
+      "asset": "generated/fine-f0054.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 58993,
+      "source_mismatch_before": 58973,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "1286bb0515b5126bff7cf51845cd4702773ee10f08c95a3ced148598f8646b9a",
+      "source_reference_sha256": "3526215bc9ac98814ac9aa6eb77d727004598f13983af5c15344789933dddfef",
+      "pillow_observed_pixels": 42890,
+      "pillow_restore_pixels": 28393,
+      "glove_guard_pixels": 3217,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            908,
+            462,
+            1023,
+            522
+          ],
+          "center": [
+            966.7168694508385,
+            491.8773429792831
+          ],
+          "pixels": 3041
+        },
+        "generated": {
+          "bbox": [
+            907,
+            459,
+            1021,
+            523
+          ],
+          "center": [
+            967.0999367488931,
+            491.5705249841872
+          ],
+          "pixels": 3162
+        },
+        "center_delta_xy": [
+          0.383,
+          -0.307
+        ],
+        "center_distance": 0.491,
+        "overlap_iou": 0.92939,
+        "restoration": "full_source_clock",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0054-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0054-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0054-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0054-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0054-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0054-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0054-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 58,
+      "source_reference": "source_refs/src-0018-f0058.png",
+      "asset": "generated/fine-f0058.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 28341,
+      "source_mismatch_before": 28341,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "55793f59641922d6b130cde5e1fd5380938b6ddf0dba3ca5cbc0099da7470d0e",
+      "source_reference_sha256": "a9e04e8a39e42752d77b9d79019e8428669ed689931d1354586aa8ac4e67e6c2",
+      "pillow_observed_pixels": 43051,
+      "pillow_restore_pixels": 28341,
+      "glove_guard_pixels": 3815,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            910,
+            464,
+            1020,
+            524
+          ],
+          "center": [
+            959.8281874318925,
+            494.3483472575372
+          ],
+          "pixels": 2753
+        },
+        "generated": {
+          "bbox": [
+            905,
+            466,
+            962,
+            505
+          ],
+          "center": [
+            932.9543602281989,
+            485.3317033414833
+          ],
+          "pixels": 1227
+        },
+        "center_delta_xy": [
+          -26.874,
+          -9.017
+        ],
+        "center_distance": 28.346,
+        "overlap_iou": 0.09191,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 1560
+      },
+      "diagnostic": "qa\\opening-layers\\f0058-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0058-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0058-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0058-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0058-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0058-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0058-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 63,
+      "source_reference": "source_refs/src-0020-f0063.png",
+      "asset": "generated/fine-f0063.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 28083,
+      "source_mismatch_before": 28083,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "1934a3410df2b771494e563bf144c9c7a8b60d04799e4727a003052c02b33876",
+      "source_reference_sha256": "4a2a88506ba700c92f5512dd009ae0134965606119dec7e44d7bd7425ef11171",
+      "pillow_observed_pixels": 43616,
+      "pillow_restore_pixels": 28083,
+      "glove_guard_pixels": 4621,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            910,
+            504,
+            973,
+            529
+          ],
+          "center": [
+            941.1679653679654,
+            515.9948051948052
+          ],
+          "pixels": 1155
+        },
+        "generated": {
+          "bbox": [
+            903,
+            489,
+            966,
+            520
+          ],
+          "center": [
+            935.6524300441827,
+            504.1347569955817
+          ],
+          "pixels": 1358
+        },
+        "center_delta_xy": [
+          -5.516,
+          -11.86
+        ],
+        "center_distance": 13.08,
+        "overlap_iou": 0.29336,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 10
+      },
+      "diagnostic": "qa\\opening-layers\\f0063-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0063-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0063-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0063-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0063-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0063-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0063-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 68,
+      "source_reference": "source_refs/src-0021-f0068.png",
+      "asset": "generated/fine-f0068.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 28060,
+      "source_mismatch_before": 28060,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "03f488227563562fa999114de1a094edc5e465079f3f9fb0af5388111010b608",
+      "source_reference_sha256": "e63403ce94f9c9fe0ade37e9004b9308778e1f84c82e052ac181a33a1b70097f",
+      "pillow_observed_pixels": 43151,
+      "pillow_restore_pixels": 28060,
+      "glove_guard_pixels": 5251,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            912,
+            505,
+            974,
+            530
+          ],
+          "center": [
+            943.9509403107114,
+            516.4309076042518
+          ],
+          "pixels": 1223
+        },
+        "generated": {
+          "bbox": [
+            904,
+            495,
+            970,
+            520
+          ],
+          "center": [
+            938.5673611111112,
+            506.59930555555553
+          ],
+          "pixels": 1440
+        },
+        "center_delta_xy": [
+          -5.384,
+          -9.832
+        ],
+        "center_distance": 11.209,
+        "overlap_iou": 0.38051,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 65
+      },
+      "diagnostic": "qa\\opening-layers\\f0068-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0068-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0068-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0068-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0068-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0068-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0068-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 75,
+      "source_reference": "source_refs/src-0025-f0075.png",
+      "asset": "generated/fine-f0075.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 16458,
+      "source_mismatch_before": 16457,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "673233dc0e932751673652bdddbe091d7d2962923918462a21f6dac355e90fbe",
+      "source_reference_sha256": "84d703d50121b9ca335d66bcbcbd443de30c33bb8c87eae4f94c28b882478b16",
+      "pillow_observed_pixels": 30423,
+      "pillow_restore_pixels": 16458,
+      "glove_guard_pixels": 10162,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            992,
+            336,
+            1072,
+            428
+          ],
+          "center": [
+            1032.0860215053763,
+            381.2737799834574
+          ],
+          "pixels": 3627
+        },
+        "generated": {
+          "bbox": [
+            991,
+            335,
+            1080,
+            433
+          ],
+          "center": [
+            1033.5088088351301,
+            382.12674204575336
+          ],
+          "pixels": 3803
+        },
+        "center_delta_xy": [
+          1.423,
+          0.853
+        ],
+        "center_distance": 1.659,
+        "overlap_iou": 0.8901,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 49
+      },
+      "diagnostic": "qa\\opening-layers\\f0075-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0075-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0075-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0075-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0075-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0075-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0075-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 79,
+      "source_reference": "source_refs/src-0027-f0079.png",
+      "asset": "generated/fine-f0079.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 22153,
+      "source_mismatch_before": 22152,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "80132d7b67733086052aac8d87c1e7d9cb30feb41443ab493d6ab388bf0b0bce",
+      "source_reference_sha256": "083b6339026b07a6c8194e3ed6642fcffe212b743fb65cbf7c4107e3ae7bcd78",
+      "pillow_observed_pixels": 43133,
+      "pillow_restore_pixels": 22153,
+      "glove_guard_pixels": 13827,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1216,
+            272,
+            1330,
+            337
+          ],
+          "center": [
+            1272.1076859843815,
+            302.65043156596795
+          ],
+          "pixels": 4866
+        },
+        "generated": {
+          "bbox": [
+            1245,
+            364,
+            1375,
+            413
+          ],
+          "center": [
+            1309.235227013461,
+            387.6046087154917
+          ],
+          "pixels": 4383
+        },
+        "center_delta_xy": [
+          37.128,
+          84.954
+        ],
+        "center_distance": 92.713,
+        "overlap_iou": 0.0,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0079-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0079-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0079-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0079-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0079-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0079-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0079-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 83,
+      "source_reference": "source_refs/src-0029-f0083.png",
+      "asset": "generated/fine-f0083.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 21662,
+      "source_mismatch_before": 21662,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "af7ac10879130c8ef3bba72be3177a2939c879a3bf032e44af9ed37b113e47b9",
+      "source_reference_sha256": "a66bd0af92e8b8d0ef4d424f6ccfd096ec8ee2cab1d6d3b7729d9bccb6f03f9e",
+      "pillow_observed_pixels": 47940,
+      "pillow_restore_pixels": 21662,
+      "glove_guard_pixels": 14057,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1267,
+            256,
+            1364,
+            316
+          ],
+          "center": [
+            1316.474543707973,
+            285.4426032660903
+          ],
+          "pixels": 4164
+        },
+        "generated": {
+          "bbox": [
+            1246,
+            304,
+            1377,
+            354
+          ],
+          "center": [
+            1311.250229147571,
+            328.20989917506876
+          ],
+          "pixels": 4364
+        },
+        "center_delta_xy": [
+          -5.224,
+          42.767
+        ],
+        "center_distance": 43.085,
+        "overlap_iou": 0.00117,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0083-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0083-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0083-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0083-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0083-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0083-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0083-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 87,
+      "source_reference": "source_refs/src-0030-f0087.png",
+      "asset": "generated/fine-f0087.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 17576,
+      "source_mismatch_before": 17576,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "5f2c783c12b4bf9d1d0dc3042b65401ea3052a096633353250fbb3ad627e456c",
+      "source_reference_sha256": "bfc68e27aeef13bda2815bd8aa906a5dea30d8713882afc05b9ee6b441b56cf7",
+      "pillow_observed_pixels": 45071,
+      "pillow_restore_pixels": 17576,
+      "glove_guard_pixels": 12398,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1344,
+            252,
+            1440,
+            304
+          ],
+          "center": [
+            1388.6949884792627,
+            275.41417050691246
+          ],
+          "pixels": 3472
+        },
+        "generated": {
+          "bbox": [
+            1259,
+            302,
+            1375,
+            348
+          ],
+          "center": [
+            1316.4230571281523,
+            324.5066906845085
+          ],
+          "pixels": 3886
+        },
+        "center_delta_xy": [
+          -72.272,
+          49.093
+        ],
+        "center_distance": 87.369,
+        "overlap_iou": 0.00177,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 261
+      },
+      "diagnostic": "qa\\opening-layers\\f0087-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0087-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0087-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0087-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0087-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0087-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0087-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 91,
+      "source_reference": "source_refs/src-0032-f0091.png",
+      "asset": "generated/fine-f0091.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 17814,
+      "source_mismatch_before": 17814,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "0b6b0dd1ebb1be5ce81b5d2d4b84bb4353f0950c1f8f04306b31f67d97425401",
+      "source_reference_sha256": "c2d754b8fe76c0cad764b98e9379fda4bdff1ba409f59dc6a3541b1c3868113f",
+      "pillow_observed_pixels": 45538,
+      "pillow_restore_pixels": 17814,
+      "glove_guard_pixels": 12557,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1342,
+            248,
+            1416,
+            302
+          ],
+          "center": [
+            1382.0897986134037,
+            274.0673489600528
+          ],
+          "pixels": 3029
+        },
+        "generated": {
+          "bbox": [
+            1258,
+            302,
+            1374,
+            347
+          ],
+          "center": [
+            1315.9557224236148,
+            324.2931123770067
+          ],
+          "pixels": 3862
+        },
+        "center_delta_xy": [
+          -66.134,
+          50.226
+        ],
+        "center_distance": 83.044,
+        "overlap_iou": 0.0,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 162
+      },
+      "diagnostic": "qa\\opening-layers\\f0091-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0091-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0091-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0091-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0091-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0091-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0091-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 95,
+      "source_reference": "source_refs/src-0033-f0095.png",
+      "asset": "generated/fine-f0095.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 18702,
+      "source_mismatch_before": 18702,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "de93e8a1ba4fe998f72a3a33bf7337ea03e72357e8247f595ea437673da701a1",
+      "source_reference_sha256": "538733c6dfe1df4d302dae946dfa99a3e44cf57242c031d13c46c9256cf5eadf",
+      "pillow_observed_pixels": 46603,
+      "pillow_restore_pixels": 18702,
+      "glove_guard_pixels": 12724,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1346,
+            254,
+            1424,
+            304
+          ],
+          "center": [
+            1384.5745168686537,
+            277.8722567965935
+          ],
+          "pixels": 3053
+        },
+        "generated": {
+          "bbox": [
+            1266,
+            302,
+            1378,
+            349
+          ],
+          "center": [
+            1322.04431352459,
+            325.1014344262295
+          ],
+          "pixels": 3904
+        },
+        "center_delta_xy": [
+          -62.53,
+          47.229
+        ],
+        "center_distance": 78.362,
+        "overlap_iou": 0.00216,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 254
+      },
+      "diagnostic": "qa\\opening-layers\\f0095-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0095-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0095-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0095-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0095-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0095-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0095-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 99,
+      "source_reference": "source_refs/src-0035-f0099.png",
+      "asset": "generated/fine-f0099.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 18135,
+      "source_mismatch_before": 18135,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "f4231a410e0e57316f16aca2d37d7689e326739ef779d7ae5c0f2b8d938b39b6",
+      "source_reference_sha256": "aeefc0139d1a4ea1f7717e8dbb1cda194d361599d27119a8be46f8ead8db2e8c",
+      "pillow_observed_pixels": 44857,
+      "pillow_restore_pixels": 18135,
+      "glove_guard_pixels": 12421,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1342,
+            254,
+            1440,
+            304
+          ],
+          "center": [
+            1388.5100354191263,
+            275.65348288075563
+          ],
+          "pixels": 3388
+        },
+        "generated": {
+          "bbox": [
+            1266,
+            301,
+            1377,
+            348
+          ],
+          "center": [
+            1321.6277934754687,
+            324.1749293603904
+          ],
+          "pixels": 3893
+        },
+        "center_delta_xy": [
+          -66.882,
+          48.521
+        ],
+        "center_distance": 82.629,
+        "overlap_iou": 0.00262,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 258
+      },
+      "diagnostic": "qa\\opening-layers\\f0099-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0099-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0099-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0099-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0099-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0099-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0099-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 117,
+      "source_reference": "source_refs/src-0040-f0117.png",
+      "asset": "generated/fine-f0117.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 19153,
+      "source_mismatch_before": 19153,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "7bee194678b4c0c292339ddcbd5928f2c656aec570a9911ce536edc8ddb19a9e",
+      "source_reference_sha256": "f8458f24a1cf39367fbfacbee3011d08ed0dd1c4abbe2d995a1d850806954e8e",
+      "pillow_observed_pixels": 47566,
+      "pillow_restore_pixels": 19153,
+      "glove_guard_pixels": 11660,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1356,
+            249,
+            1454,
+            301
+          ],
+          "center": [
+            1406.2504985044866,
+            273.8654037886341
+          ],
+          "pixels": 4012
+        },
+        "generated": {
+          "bbox": [
+            1268,
+            300,
+            1378,
+            346
+          ],
+          "center": [
+            1323.5638354700855,
+            322.6124465811966
+          ],
+          "pixels": 3744
+        },
+        "center_delta_xy": [
+          -82.687,
+          48.747
+        ],
+        "center_distance": 95.986,
+        "overlap_iou": 0.0,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 328
+      },
+      "diagnostic": "qa\\opening-layers\\f0117-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0117-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0117-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0117-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0117-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0117-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0117-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 121,
+      "source_reference": "source_refs/src-0041-f0121.png",
+      "asset": "generated/fine-f0121-costume-repair.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 12316,
+      "source_mismatch_before": 12316,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "0687eef65ae5542ab29c6dfee051a8c032a034ffdd04d013008eb31627ea75af",
+      "source_reference_sha256": "f9959d37f02141aca0c2063aa090437e0709fee3a27fefcee1e8aa79b66ac5ab",
+      "pillow_observed_pixels": 26112,
+      "pillow_restore_pixels": 12316,
+      "glove_guard_pixels": 7105,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            1020,
+            230,
+            1132,
+            313
+          ],
+          "center": [
+            1071.5224818914855,
+            269.39948066147326
+          ],
+          "pixels": 7317
+        },
+        "generated": {
+          "bbox": [
+            1016,
+            227,
+            1125,
+            309
+          ],
+          "center": [
+            1073.3803092233873,
+            262.771992180558
+          ],
+          "pixels": 5627
+        },
+        "center_delta_xy": [
+          1.858,
+          -6.627
+        ],
+        "center_distance": 6.883,
+        "overlap_iou": 0.71945,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 1274
+      },
+      "diagnostic": "qa\\opening-layers\\f0121-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0121-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0121-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0121-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0121-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0121-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0121-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 125,
+      "source_reference": "source_refs/src-0043-f0125.png",
+      "asset": "generated/fine-f0125.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 20321,
+      "source_mismatch_before": 20321,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "09ad44412ed8de96bf00a9c3c6b6f724eb73c379fc777ad293a5f4c16aff6ca3",
+      "source_reference_sha256": "0b3beedeaad28ad487279d24d7763d8d51200edb27826901a880981ebc980a5c",
+      "pillow_observed_pixels": 33656,
+      "pillow_restore_pixels": 20321,
+      "glove_guard_pixels": 5678,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            896,
+            354,
+            982,
+            466
+          ],
+          "center": [
+            938.0179081729854,
+            410.94684701847973
+          ],
+          "pixels": 5249
+        },
+        "generated": {
+          "bbox": [
+            892,
+            350,
+            989,
+            448
+          ],
+          "center": [
+            938.6529745042493,
+            398.29380817482803
+          ],
+          "pixels": 4942
+        },
+        "center_delta_xy": [
+          0.635,
+          -12.653
+        ],
+        "center_distance": 12.669,
+        "overlap_iou": 0.63632,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 693
+      },
+      "diagnostic": "qa\\opening-layers\\f0125-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0125-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0125-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0125-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0125-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0125-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0125-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 129,
+      "source_reference": "source_refs/src-0044-f0129.png",
+      "asset": "generated/fine-f0129.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 3673,
+      "source_mismatch_before": 3673,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "7a2d4cd4ee855c3a56029d82266ef5f3930bfa812d748fc187c9b1cffea800cb",
+      "source_reference_sha256": "1edf0af37edddb8dd3559b5153846a14e369e10ba23368e537cf28dfe34178fd",
+      "pillow_observed_pixels": 36700,
+      "pillow_restore_pixels": 3673,
+      "glove_guard_pixels": 4339,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "clock_and_pillow_displaced_pose_redraw_needed",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            868,
+            482,
+            950,
+            592
+          ],
+          "center": [
+            903.8014915899714,
+            540.8703586163123
+          ],
+          "pixels": 6302
+        },
+        "generated": {
+          "bbox": [
+            758,
+            466,
+            862,
+            576
+          ],
+          "center": [
+            809.0132911392406,
+            520.492088607595
+          ],
+          "pixels": 6320
+        },
+        "center_delta_xy": [
+          -94.788,
+          -20.378
+        ],
+        "center_distance": 96.954,
+        "overlap_iou": 0.0,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 897
+      },
+      "diagnostic": "qa\\opening-layers\\f0129-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0129-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0129-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0129-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0129-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0129-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0129-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 133,
+      "source_reference": "source_refs/src-0046-f0133.png",
+      "asset": "generated/fine-f0133.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 3816,
+      "source_mismatch_before": 3816,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "770f7b0ea94ed664ae5259d67edc63ae961f8448e22948f6872e5912e1df0054",
+      "source_reference_sha256": "30fe929288cbd66e61617e3d6aa598d8b4f11983cf2edb7029e6fc4726059a51",
+      "pillow_observed_pixels": 36218,
+      "pillow_restore_pixels": 3816,
+      "glove_guard_pixels": 3292,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "clock_and_pillow_displaced_pose_redraw_needed",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            870,
+            480,
+            952,
+            592
+          ],
+          "center": [
+            905.4216377015813,
+            539.6286206356662
+          ],
+          "pixels": 6387
+        },
+        "generated": {
+          "bbox": [
+            766,
+            469,
+            863,
+            573
+          ],
+          "center": [
+            812.7773257870534,
+            519.3454191722674
+          ],
+          "pixels": 5654
+        },
+        "center_delta_xy": [
+          -92.644,
+          -20.283
+        ],
+        "center_distance": 94.839,
+        "overlap_iou": 0.0,
+        "restoration": "blocked_pending_hand_geometry_review",
+        "foreground_guard_overlap_source_display": 922
+      },
+      "diagnostic": "qa\\opening-layers\\f0133-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0133-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0133-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0133-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0133-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0133-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0133-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 157,
+      "source_reference": "source_refs/src-0049-f0157.png",
+      "asset": "generated/fine-f0157.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 42211,
+      "source_mismatch_before": 42211,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 31872,
+      "generated_sha256": "476c9ce09a5fa10c995d67688366d351b0a853ed14bca0194e488f146cf43463",
+      "source_reference_sha256": "1b8f9621a19830b724cd44e5247f068867faa6e405a5520ff649fc9009bd0ee6",
+      "pillow_observed_pixels": 38259,
+      "pillow_restore_pixels": 4557,
+      "glove_guard_pixels": 4974,
+      "layer_order": [
+        "source_background_and_observed_pillow",
+        "generated_character",
+        "source_clock_at_original_geometry",
+        "generated_brown_fingers_and_cuffs",
+        "source_text_and_independent_effects"
+      ],
+      "geometry_status": "wrong_clock_erased_but_released_hand_overlaps_original_clock_redraw_needed",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            880,
+            484,
+            990,
+            581
+          ],
+          "center": [
+            931.5491436100132,
+            534.099209486166
+          ],
+          "pixels": 7590
+        },
+        "generated": {
+          "bbox": [
+            715,
+            485,
+            819,
+            597
+          ],
+          "center": [
+            759.5250624917774,
+            542.3068017366136
+          ],
+          "pixels": 7601
+        },
+        "center_delta_xy": [
+          -172.024,
+          8.208
+        ],
+        "center_distance": 172.22,
+        "overlap_iou": 0.0,
+        "restoration": "wrong_clock_erased_source_clock_partial_hand_overlap_pending",
+        "foreground_guard_overlap_source_display": 5701
+      },
+      "clock_erase_source_background": {
+        "pixels": 31872,
+        "bgr_mean": [
+          243.092,
+          136.156,
+          154.168
+        ],
+        "bgr_std": [
+          1.176,
+          0.686,
+          0.684
+        ],
+        "pixel_source_mismatch_after": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0157-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0157-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0157-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0157-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0157-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0157-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0157-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 162,
+      "source_reference": "source_refs/src-0050-f0162.png",
+      "asset": "generated/fine-f0162.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 51686,
+      "source_mismatch_before": 51654,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "042ba188ff710b8e804939b45b98414e4d216f3a449896101e5b9c7fabf4c98f",
+      "source_reference_sha256": "2eda077b4f2dd360d7b4e0b1f222da2bc72b8300d2d21c8fab1dcfc8bb105cbd",
+      "pillow_observed_pixels": 31108,
+      "pillow_restore_pixels": 20478,
+      "glove_guard_pixels": 7036,
+      "layer_order": [
+        "source_background",
+        "Klee_body_and_rear_arm",
+        "original_observed_front_pillow",
+        "Klee_crossed_arm_cuff_and_visible_glove",
+        "independent_original_clock",
+        "source_captions_and_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            880,
+            484,
+            990,
+            581
+          ],
+          "center": [
+            931.5491436100132,
+            534.099209486166
+          ],
+          "pixels": 7590
+        },
+        "generated": {
+          "bbox": [
+            880,
+            484,
+            991,
+            581
+          ],
+          "center": [
+            930.2872270885083,
+            534.0189567263694
+          ],
+          "pixels": 7649
+        },
+        "center_delta_xy": [
+          -1.262,
+          -0.08
+        ],
+        "center_distance": 1.264,
+        "overlap_iou": 0.96582,
+        "restoration": "full_source_clock",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0162-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0162-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0162-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0162-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0162-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0162-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0162-front_arm_guard.png"
+      }
+    },
+    {
+      "frame": 167,
+      "source_reference": "source_refs/src-0051-f0167.png",
+      "asset": "generated/fine-f0167.png",
+      "review": "partial_source_restore_diagnostic",
+      "restored_pixels": 47113,
+      "source_mismatch_before": 47078,
+      "source_mismatch_after": 0,
+      "outside_mask_pixels_changed": 0,
+      "glove_overwritten_pixels": 0,
+      "front_arm_overwritten_pixels": 0,
+      "clock_erase_restore_pixels": 0,
+      "generated_sha256": "bf382f440cc3258825935e46ac76d06b70e231ee56ae199f0c8b42c27b47ece5",
+      "source_reference_sha256": "0ac5f42a5b94d40a5f825bc337115d2b8b390215f2876eba184289ee2519f2b9",
+      "pillow_observed_pixels": 17988,
+      "pillow_restore_pixels": 15905,
+      "glove_guard_pixels": 5933,
+      "layer_order": [
+        "source_background",
+        "Klee_body_and_rear_arm",
+        "original_observed_front_pillow",
+        "Klee_crossed_arm_cuff_and_visible_glove",
+        "independent_original_clock",
+        "source_captions_and_effects"
+      ],
+      "geometry_status": "partial_props_only_art_review_pending",
+      "clock_display": {
+        "source": {
+          "bbox": [
+            880,
+            484,
+            990,
+            581
+          ],
+          "center": [
+            931.5491436100132,
+            534.099209486166
+          ],
+          "pixels": 7590
+        },
+        "generated": {
+          "bbox": [
+            892,
+            483,
+            992,
+            570
+          ],
+          "center": [
+            941.7427017225748,
+            526.1662737987307
+          ],
+          "pixels": 5515
+        },
+        "center_delta_xy": [
+          10.194,
+          -7.933
+        ],
+        "center_distance": 12.917,
+        "overlap_iou": 0.68857,
+        "restoration": "full_source_clock",
+        "foreground_guard_overlap_source_display": 0
+      },
+      "diagnostic": "qa\\opening-layers\\f0167-safe-props-diagnostic.jpg",
+      "masks": {
+        "pillow_observed": "qa\\opening-layers\\f0167-pillow_observed.png",
+        "pillow_restore": "qa\\opening-layers\\f0167-pillow_restore.png",
+        "clock_restore": "qa\\opening-layers\\f0167-clock_restore.png",
+        "clock_erase_restore": "qa\\opening-layers\\f0167-clock_erase_restore.png",
+        "glove_front": "qa\\opening-layers\\f0167-glove_front.png",
+        "front_arm_guard": "qa\\opening-layers\\f0167-front_arm_guard.png"
+      }
+    }
+  ]
+}

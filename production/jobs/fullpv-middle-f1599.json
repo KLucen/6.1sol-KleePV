@@ -1,0 +1,36 @@
+{
+  "job_id": "fullpv-middle-f1599",
+  "source_frame": 1599,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0934-f1599.png",
+  "prompt": "Use case: identity-preserve. One independently hand-redrawn strict-source Klee PV cel, full same 1920x1080 framing. EDIT current original SOURCE IMAGE 1, only current source decides camera, crop, position, proportions, expression, precise hand gesture and occlusion. Image 2 ONLY Klee beret brown band cream clover white feather identity, not pose/scale. Image 3 actual previous/current original RGB difference x4 and blue/red contours ONLY demonstrates local redrawn outlines; no output collage. Replace original bunny headwear entirely with Klee red beret, no rabbit ears or face or sleep-mask. Default Klee pale blond pointed bangs TWO SHORT side ponytails, pointed ears, muted RED irises where visible, orange oval cheek patches source-size. Only already visible sleeves become RED with plain cream cuffs, hands BROWN GLOVES, preserve all visible distinct fingers. Maintain same hat identity and simplification as f1539 and f1611 drafts without freezing either extreme; cap is pulled down only when SOURCE says so. Flat lavender background and current right-side Chinese/Japanese text remain unchanged. Rough source-like dark lines, simple flat patches, NO gradient, texture, polished game illustration, extra shadows or ornaments. HEAD GIANT ON LEFT approximately x60..1080 cropped at bottom, do not introduce shoulders/body below crop. CURRENT TARGET f1599: Hat pulled DOWN farther. Klee beret brown brim COMPLETELY COVERS BOTH EYES/eyebrows at lower edge around y897. NO red iris or black eyelid visible. Both brown gloved hands curled around brim sides with exact source bent finger contours at left x50..312,y703..947 and right x903..1171,y695..945. Keep orange cheeks still visible below hat, nose dot x600,y973, small downturned mouth near y1045. Plain cream cuffs source angle and red sleeves cropped bottom. Maintain small independent redraws of cap edge, gloved digits, cuffs, facial cheeks and mouth, not a hold substitute.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0934-f1599.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/hat_closeup/source-delta-f1593-f1599.png"
+  ],
+  "reference_roles": [
+    "current source pose and geometry",
+    "hat identity only",
+    "actual source differences"
+  ],
+  "output": "generated/fine-f1599.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "endpoint_dependencies": [
+    1539,
+    1611
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-d0042425-d4cd-4c07-a1fa-e5426c079e89.png",
+  "output_sha256": "9378913977aff363d226256a52caaf0912c02e4f49fe056ab2c5333012411dd7",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

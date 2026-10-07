@@ -1,0 +1,40 @@
+{
+  "source_frame": 2058,
+  "before_frame": 2057,
+  "boxes": {
+    "edge_face": [
+      0,
+      0,
+      600,
+      1080
+    ],
+    "head": [
+      1160,
+      150,
+      1700,
+      510
+    ],
+    "eye": [
+      1210,
+      250,
+      1400,
+      430
+    ],
+    "left_hand": [
+      1050,
+      520,
+      1240,
+      700
+    ],
+    "right_hand": [
+      1490,
+      430,
+      1750,
+      650
+    ]
+  },
+  "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1128-f2058.png",
+  "source_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\star_dance\\resume-delta-f2057-f2058.png",
+  "local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\star_dance\\resume-delta-f2057-f2058-head-eye-hands.png",
+  "role": "Source spatial evidence only; current is pose authority"
+}

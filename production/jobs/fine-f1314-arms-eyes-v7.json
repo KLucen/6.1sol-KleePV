@@ -1,0 +1,12 @@
+{
+  "job_id": "fine-f1314-arms-eyes-v7",
+  "source_frame": 1314,
+  "family": "seated_title_credits",
+  "repair_of": "generated/fine-f1314-source-native-v6.png",
+  "references": [{"path": "generated/fine-f1314-source-native-v6.png", "role": "Edit target; preserve correctly left-tilted head, body scale and exact floor"}],
+  "prompt": "Precise local correction to the supplied current Klee title PV cel, preserve the entire canvas. Two corrections ONLY: (1) Both eye IRIS fills must be Klee muted red, including the large upper half currently painted blue. Replace all blue iris fill with muted dark red while retaining the existing lower warm red fill, original black eyelids, eye outlines, tiny highlights, both open eye shapes and gaze exactly. No wink or closed eyelid. (2) Remove the EXTRA PAIR of brown glove hands and white wrist cuff stacked across the TOP of her crossed red forearms below her chin. The real hands in this pose are tucked entirely behind the OPPOSING sleeves and not visible. Keep the existing crossed red forearms resting on raised knees, replace just the erroneous glove/cuff strip with the matching continuous red upper sleeve surfaces and the tiny cream neck collar where it meets her chin, no new hands. Preserve head counterclockwise lean, hat, feather, exactly two short ponytails, mouth, blush, pointed ears, knee positions, body scale, boots, floor level, side coat/clover and right backpack. Preserve all title lettering and background unchanged. Do not change sleeve outer silhouette, redraw pose, move figure, or add captions. One full16:9 independent cel in same PV line style.",
+  "output": "generated/fine-f1314-arms-eyes-v7.png",
+  "status": "reviewed_static_temporal_pending",
+  "review": "Both full irises are red, extra visible hands removed, source left-leaning head and boot baseline retained. Original title pixels and adjacent drawing consistency still require composition review.",
+  "accepted": false
+}

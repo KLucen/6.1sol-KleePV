@@ -1,0 +1,82 @@
+{
+  "source_frame": 3142,
+  "cel": "cel-0554",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Wide upper-right full-body airborne actor with two overhead bent arms and two knees folded back/right. Compared f3135 body rotates subtly counterclockwise toward left, crown/raised wrists shift right, right sleeve elbow higher and coat hem angle steeper; boots lift slightly. Half-open eyes, small vertical open oval mouth. Exactly TWO SHORT ponytails total, one rooted behind EACH ear; right one streams right behind raised sleeve, NO extra third blond tuft from prior draft. Gloves follow simple curled source silhouette, not spread palm. Keep original actor scale/center and independent huge moving yellow stars. No text, ground or extra people.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1720-f3142.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3135-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3135-f3142-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3142-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "7c582b5dbeab4abeb2a55239c8802d068b5751d217272828199b138f40d976e9",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "9cca5b34c9c16ab2f0546c595b69be970fcd61884c9b13bda6149362d5978264",
+    "6bcbd15e7ac101914c2e2cef34df0f2a08bd68365a8068030ad96526ee50df73",
+    "ba5f0e3bdb7f557ff63f3ba42d137ced977a057bac824e48ed3276f6daa63a82"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3142-v1.png",
+  "source_exposures": [
+    {
+      "start": 3142,
+      "end": 3147,
+      "pts": 130.917,
+      "end_pts": 131.125,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Wide upper-right full-body airborne actor with two overhead bent arms and two knees folded back/right. Compared f3135 body rotates subtly counterclockwise toward left, crown/raised wrists shift right, right sleeve elbow higher and coat hem angle steeper; boots lift slightly. Half-open eyes, small vertical open oval mouth. Exactly TWO SHORT ponytails total, one rooted behind EACH ear; right one streams right behind raised sleeve, NO extra third blond tuft from prior draft. Gloves follow simple curled source silhouette, not spread palm. Keep original actor scale/center and independent huge moving yellow stars. No text, ground or extra people.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-11cca64f-5aa1-4178-a5bc-71002b3137d7.png",
+  "output_sha256": "77a9dc39a4b2a63d294f4daa3b7ab0fff6139f7702a132e40a6671d32f5b2196",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Recovered existing orphan output matching the sole prepared f3142 job and original star layout; inspected whole source, delta and output. Two overhead bent arms and two folded boots, half-open red eyes and open mouth. Extra right ponytail tuft and embellished costume persist; defer correction to feedback. Not temporally accepted.",
+    "accepted": false
+  }
+}

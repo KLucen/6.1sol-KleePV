@@ -1,0 +1,23 @@
+{
+  "id": "086",
+  "prompt": "Use case: precise-object-edit. Asset: one complete 16:9 hand-drawn PV cel. Image 1 is the original source frame and determines exact camera, character size and position, cropping, pose, eye state, mouth, hands, props and occlusion. Image 2 is ONLY Klee identity and drawing-style guidance, not pose or composition. Replace every original person in image 1 with Genshin Impact Klee in her default Shooting Spark outfit. Pale blonde bangs and short twin side ponytails, pointed ears, red beret with cream clover and white feather, red coat with cream trim, brown gloves and boots, small brown backpack when visible. Match source simplified dark loose outlines and flat color blocks, orange oval blush, at most one simple shadow color. Keep source eye state and facial expression rather than copying the anchor's closed-eye expression. Preserve background, captions, lettering, props and independent effects at their source locations. Full scene, no extra panel, no montage, no new objects, no extra body parts outside the original crop. Only replace character areas and adapt visible clothes/hair to Klee. Specific target: waist-up frontal Klee fills center as original, both elbows raised high beside head, both hands BEHIND the head/beret and mostly cropped at top. Both open round eyes slightly upward, a large vertical oval open singing mouth, orange oval cheeks. Top of hat cut off by upper edge and lower coat cut by bottom. Red sleeves are vertical on both sides framing the head, matching source. Preserve yellow stars behind/around figure, lavender background, and bottom original subtitles. Hands stay behind head, no raised index fingers.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-086.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-086.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-6e60336b-472e-4d0d-81b9-e81346c9bfe6.png",
+  "status": "generated",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Both raised elbows and hands behind head, open singing mouth retained."
+    ],
+    "flaws": [
+      "Source BLUE iris upper patches incorrectly retained; requires red-eye repair before adoption."
+    ],
+    "temporal_review": "pending"
+  },
+  "caption_cleanup_required": true,
+  "preferred_repair_output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-086-red-eyes.png"
+}

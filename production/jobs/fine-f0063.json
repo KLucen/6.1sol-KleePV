@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0063",
+  "source_frame": 63,
+  "source_candidate": "src-0020",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0020-f0063.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0058.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0063.png"
+  ],
+  "prompt": "One 16:9 animation cel replacing the girl with Klee. Image1 is CURRENT original: exact pose, crop, eyes/mouth, hand/clock/pillow geometry. Image2 preceding Klee: same character identity, hat/feather orientation, short side ponytails, redcream outfit/backpack, style only. Image3 original BEFORE/CURRENT/difference/contours: follow upper-right current, no analysis panels in final. Arms stay extended LEFT at chest height; wrist/fingers are now slightly lower/more upright than prior, cream cuff outline and elbow/sleeve fold subtly change; use actual current source upper and lower sleeve contours. Current clock has rotated to almost horizontal, digits display partly behind fingers, not prior steep tilt. Hands are overlapping the clock's lower-right edge, nearer brown glove in front, far wrist above/behind. Keep current source slightly lower sleeve path, no frozen pose. Klee head LEFT profile, narrow OPEN RED iris, tiny closed dot mouth and orange cheek; source current eyebrow/bang/cheek contours respected. Maintain same short blonde hair/hatclover/whitefeather/pointed ear/red coat/cream hem, bent knees clipped bottom. Pillow diagonal behind head, not held bag. Flat source-style dark handdrawn outlines, one shadow, no gray pajamas/hood/pockets. Entire frame NO text/subtitles/titles/credits/labels/lettering, clock digits removed for original restoration. Do not zoom out, mirror, add limb/hair tuft or alter head size.",
+  "output": "../generated/fine-f0063.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

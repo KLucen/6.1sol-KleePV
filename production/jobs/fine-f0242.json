@@ -1,0 +1,20 @@
+{
+  "job_id": "exec-cbea994c-0296-4cf4-91bf-f42d435cf693",
+  "canonical_cel": "cel-0036",
+  "source_frame": 242,
+  "family": "pillow_face_occlusion",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 sourcePV replacement cel CURRENTsource f0242 image1. Image1 CURRENTpose/crop/visibilityauthority, image2 Kleeidentity/styleonly, image3 previousKlee238 continuitycolors/clothesONLY NOTpillowpose, image4source238→242 spatialdiff. Pillow is raised FARUP, topcroppedoffcanvas/rightslightlycrop, source purplepanel creamruffle bluehands shadows preserved in foreground completelyhiding EYES/BANGS/HAT/FOREHEAD. Current f242 bottomcurve liftedmore, revealing ONLY LOWERFACE orangecheekslivers and tinyupwardcaretclosedmouth (nofull eyes/hat added). BOTH brownfullgloves CURL-GRIP pillowruffle sides: leftgrip nowhigher nearx47%,y40%; rightgrip nearx96%,y11%, clippedright. Correctsourcefingerloops/creamcuffs/raisedarmfolds, leftelbow roundeddown and currenttorsolean. Replace pajamas with redcreamKleecoat/patterncollar, blonde visiblehair ONLY shorttwo attachedponytails at neck. No longrearhairbelowarmpits, no fourponytails from238draft. No inventedhat orseenface. Pillow FRONT ofhead/body; gloves FRONT ofruffles. Full lavenderbackgroundcanvas, REMOVE ALL originalcaptions/lyrics/text. LooseblacksourcePVlines/flatfills/minimalshadows, no newprops.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0071-f0242.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-003.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0242.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0242.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "New pillow lift/corner and foreground curlgloves raised; mouth and cheekslivers newly exposed. Diff340381 pixels>=28.",
+  "inspection": "Correct no eyes/hat invention, source pillow lifted/current mouth slivers, two foreground curls and raised cuffs. Approx normalized pillowleftcorner/source grip coordinates checked, broad geometry aligns; exact prop-layer QA still pending. No text/extra rearhair wings."
+}

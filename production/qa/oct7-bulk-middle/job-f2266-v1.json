@@ -1,0 +1,76 @@
+{
+  "source_frame": 2266,
+  "cel": "cel-0434",
+  "source_candidate": "src-1253",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2266-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility.\nCurrent source frame f2266; original predecessor f2265. Actual observed current pose and changes: New turn: giant warm foreground frontal face on LEFT half, eyes CLOSED horizontal lines, small inverted chevron pout, hat/head cut by left and top edges, shoulder bottom crop. Tiny second rear standing person partly visible to RIGHT of foreground head (head and sleeve/hand and narrow body), must also be Klee. Rear mostly hidden by front hair but visible bits must use red beret, short blonde tails, red coat, brown glove. Foreground two short blonde ponytails, not original flowing pink sheet. No foreground hands in crop, no extra face outside visible tiny rear face. Current source controls front-over-rear occlusion, open sky on RIGHT.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1253-f2266.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-upper-head-hand-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1253-f2266.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-upper-head-hand-native.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2266,
+      "end": 2269,
+      "pts": 94.417,
+      "end_pts": 94.542,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "New turn: giant warm foreground frontal face on LEFT half, eyes CLOSED horizontal lines, small inverted chevron pout, hat/head cut by left and top edges, shoulder bottom crop. Tiny second rear standing person partly visible to RIGHT of foreground head (head and sleeve/hand and narrow body), must also be Klee. Rear mostly hidden by front hair but visible bits must use red beret, short blonde tails, red coat, brown glove. Foreground two short blonde ponytails, not original flowing pink sheet. No foreground hands in crop, no extra face outside visible tiny rear face. Current source controls front-over-rear occlusion, open sky on RIGHT.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-478ce496-0ad9-4dc5-ba5b-8a643b551f20.png",
+  "output_sha256": "61c8e16575c7f6996d12b880937e8105b395330086bdc051ef9e12624b0f2eb6",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed output front giant closed-eye pout Klee and tiny rear Klee red coat/brown glove; both people replaced, no foreground hands. Rear partly hidden face, glove shape and excessive fluffy collar are unaccepted redraw differences. Temporal check pending.",
+    "accepted": false
+  }
+}

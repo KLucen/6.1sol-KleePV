@@ -1,0 +1,637 @@
+{
+  "snapshot_utc": "2026-10-06T09:53:13.107425+00:00",
+  "jobs": [
+    {
+      "source_frame": 2132,
+      "output": "generated/middle-next-f2132-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: one complete 16:9 hand-drawn animation cel for a Klee replacement of the original MIMI PV, true source cel f2132.\nPrimary request: redraw BOTH original people as Klee from Genshin Impact, with the current f2132 camera, expressions, scale and exact foreground/background visibility. Produce one full whole-frame illustration, not a contact sheet or components.\nInput images, in order:\n1. EDIT TARGET, actual source f2132: sole authority for composition, crop, body pose, visible anatomy and occlusion.\n2. SUPPORT, actual f2130/f2132 original A/B, RGB x4 and two-color contour comparison: change authority only, not a scene to reproduce. The giant foreground head moves inward/down-left and covers the previously visible small background face and right arm.\n3. SUPPORT, native current giant foreground: half-lidded open eyes with heavy slanted upper lids, a small tilted oval open mouth, orange cheeks, head tilted diagonally. Preserve this expression and crop, not the identity reference's closed eyes.\n4. SUPPORT, native current visible background: only the raised open left hand and cream cuff, leaning torso and coat, parted standing legs and boots are visible. The small background head and right arm are COMPLETELY HIDDEN behind the giant foreground head/hair. Do not reveal or invent them.\n5. KLEE IDENTITY/STYLE ONLY, head crop from a prior simplified Klee cel: blonde bangs and side ponytails, pointed ears, red beret with cream clover and feather, simple thick black linework and warm flat fills. This crop sets identity, not pose, scale, expression or feather screen side.\nScene/backdrop: original lavender sky and pale scribbled stars. Keep the current source shot's scale and star arrangement as context; final compositor will retain original background and original bilingual captions separately.\nSubject: TWO Klee depictions, one giant foreground closeup filling the right two-thirds and clipped at top/right/bottom, one small background body left of it. Giant Klee's beret replaces the original padded cap; make the large head/beret/blonde silhouette maintain the source foreground occlusion. Show no small background face or right glove through hair gaps. Preserve the current raised background palm's five-finger silhouette, now with Klee's brown glove, connected to cream cuff and red sleeve.\nStyle/medium: match the PV's economical chibi hand-drawn black contour, simple flat red coat, cream collar/cuffs, blonde hair, brown gloves/boots, cream boot tops. Minimal shadow, no realistic anatomy, no extra ornament density.\nComposition/framing: full 1920x1080-equivalent landscape canvas. Giant face and collar remain obliquely tilted exactly as source; do not center it, zoom out, lift it, or expose the hidden background head. Small body retains current source lean, spread legs and boot contacts. The giant foreground is in FRONT of every covered background body part.\nChanges versus previous source: advance the giant head position/crop/eye shape/mouth tilt to f2132; keep only currently visible small-body parts. Update bangs, ear, collar and ponytail connections to the target pose instead of freezing an earlier cel.\nConstraints: redraw all characters as Klee; exactly two subjects and no extra limbs or disembodied hands. No original pink hair, grey pajamas or animal cap. No new readable text, no regenerated captions, no watermark. Do not add invisible arms, background faces, uncovered eyes or transparent body holes. Do not reproduce panels, labels or comparison borders. Output one complete cel only.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-source-actual.png",
+          "role": "edit target; current source composition and occlusion",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2130-f2132-source-ab-rgb-contours.png",
+          "role": "support; actual previous/current original spatial differences; overview resized during viewing",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-foreground-native.png",
+          "role": "support; current giant face and crop, native actual viewing",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-background-visible-native.png",
+          "role": "support; current visible small body, native actual viewing",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\klee-f2073-head-only-identity-v2.png",
+          "role": "identity/style only; no pose authority",
+          "actually_viewed": true
+        }
+      ],
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      },
+      "authority": "User: missing-first complete first cut; defer minor style drift; no exposure changes.",
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-b93e7e78-3020-4b80-891f-2b395b114464.png",
+      "output_sha256": "4cca1da6a045c86930d23b8d7c2f29d7fc1889e1b0f38c0a61f5ccdc121f6b58",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed builtin whole cel; both actors are Klee, background head and right arm stay hidden, raised glove/cuff is connected. Giant beret widens foreground silhouette and hides more rear torso/boot than source; defer amplitude and costume drift for first cut. Captions omitted for separate original-source composition. Static draft only, temporal and compositor review pending.",
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2135,
+      "output": "generated/middle-next-f2135-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole animation cel, true original f2135, not panels or component cutouts.\nPrimary request: replace BOTH original people with Klee while preserving the exact CURRENT original composition and foreground occlusion.\nInput images in order:\n1 EDIT TARGET: original current f2135. Sole authority for pose, camera, expression, scale, visible anatomy and crop.\n2 SUPPORT: original f2132 BEFORE / f2135 CURRENT plus RGB difference and blue/red contours. It shows the giant head advancing down-left, a slightly more upright face, changed fringe contours and a small more vertical oval mouth. Follow CURRENT, do not reproduce the panels.\n3 SUPPORT: native current foreground face/hat/collar. Keep the half-lidded open eyes, heavy slanted lids, orange cheeks, tilted oval mouth and exact edge crops.\n4 SUPPORT: native currently visible small background body. Only the raised open palm/cream cuff/red sleeve, torso, spread legs and boot contacts are visible. Foreground giant head entirely hides background face and right arm; do not reveal them.\n5 IDENTITY/CONTINUITY ONLY: a HEAD-ONLY crop of the prior giant Klee f2132. Continue blonde bang/pony root language, red beret/clover/feather, red eyes, pointed ears and economical thick black drawing. Not position, tilt, expression or mouth authority. The crop intentionally contains no small body.\nSubject: two Klee depictions. Giant foreground Klee fills the right two-thirds, clipped at the top/right/bottom, in front of all covered small-body parts. Replace cap with giant Klee beret, keep foreground coverage, and redraw bangs, cheeks, ear, collar and side pony connections for CURRENT f2135. Small background Klee retains original lean, raised spread five-finger hand now brown-gloved, cream cuff, red coat with simple cream collar and hem, spread legs with cream boot tops and brown boots. Do not increase hidden anatomy visibility.\nScene/style: current original lavender sky and pale sketched stars as context, hand-drawn chibi PV flat warm fills, minimal shadow and ornament density. No realistic rendering.\nConstraints: ONE full-frame cel, no grids or borders. No added limbs, original pink hair, grey pajamas, original animal cap, hidden background head, hidden right glove or gaps exposing it. No new text, no AI captions, no watermark. Captions and original stars will be composited separately. Do not freeze f2132 face or use the identity crop as a pose template.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-source-actual.png",
+          "role": "current edit target",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-f2135-source-ab-rgb-contours.png",
+          "role": "actual previous/current original difference; overview viewing only",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-foreground-native.png",
+          "role": "current foreground native pose",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-background-visible-native.png",
+          "role": "current visible background native occlusion",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "head-only identity/continuity, no pose",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-46e009b1-3a05-4585-a0ea-7a2dd15e35c1.png",
+      "output_sha256": "30f0f8f994253d4e30311515a713a3001ebdb6e1f8b651a19e920ca5cad3fbd0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole builtin cel and source current/native AB evidence. Both actors Klee, rear head/right arm hidden, connected spread brown glove and cream cuff. Giant moves down-left versus f2132; broad beret and blonde pony reduce rear torso/boot visibility. Rear near boot points more frontward than source and front collar/medallion drift; defer for full first cut. Captions absent for original-source compositing. Static draft only; no temporal or compositor review.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2136,
+      "output": "generated/middle-next-f2136-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole animation cel, true original f2136, not panels or component cutouts.\nPrimary request: replace BOTH original people with Klee while preserving the exact CURRENT original composition and foreground occlusion.\nInput images in order:\n1 EDIT TARGET: original current f2136. Sole authority for pose, camera, expression, scale, visible anatomy and crop.\n2 SUPPORT: original f2135 BEFORE / f2136 CURRENT plus RGB difference and blue/red contours. The giant foreground is almost held; the SMALL BACKGROUND left raised palm/fingers rotate and shift, the sleeve/coat and parted legs/boot contours change. Redraw these actual small-body differences, not a random new giant head pose. Follow CURRENT, do not reproduce the panels.\n3 SUPPORT: native current foreground face/hat/collar. Keep the half-lidded open eyes, heavy slanted lids, orange cheeks, tilted oval mouth and exact edge crops.\n4 SUPPORT: native currently visible small background body. Only the raised open palm/cream cuff/red sleeve, torso, spread legs and boot contacts are visible. Foreground giant head entirely hides background face and right arm; do not reveal them.\n5 IDENTITY/CONTINUITY ONLY: a HEAD-ONLY crop of the prior giant Klee f2132. Continue blonde bang/pony root language, red beret/clover/feather, red eyes, pointed ears and economical thick black drawing. Not position, tilt, expression or mouth authority. The crop intentionally contains no small body.\nSubject: two Klee depictions. Giant foreground Klee fills the right two-thirds, clipped at the top/right/bottom, in front of all covered small-body parts. Replace cap with giant Klee beret, keep foreground coverage, and redraw bangs, cheeks, ear, collar and side pony connections for CURRENT f2136. Small background Klee retains original lean, raised spread five-finger hand now brown-gloved, cream cuff, red coat with simple cream collar and hem, spread legs with cream boot tops and brown boots. Do not increase hidden anatomy visibility.\nScene/style: current original lavender sky and pale sketched stars as context, hand-drawn chibi PV flat warm fills, minimal shadow and ornament density. No realistic rendering.\nConstraints: ONE full-frame cel, no grids or borders. No added limbs, original pink hair, grey pajamas, original animal cap, hidden background head, hidden right glove or gaps exposing it. No new text, no AI captions, no watermark. Captions and original stars will be composited separately. Keep foreground close to current f2136, but do not freeze the changed small-body glove, sleeve or legs from f2135. The identity crop is not a pose template.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-source-actual.png",
+          "role": "current edit target",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-f2136-source-ab-rgb-contours.png",
+          "role": "actual previous/current original difference; overview viewing only",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-foreground-native.png",
+          "role": "current foreground native pose",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-background-visible-native.png",
+          "role": "current visible background native occlusion",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "head-only identity/continuity, no pose",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-0678e3ab-447e-4756-9217-905565713155.png",
+      "output_sha256": "759411881279234dad00469e24443035421e029df1026da4dc1ca646ccc8f174",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole builtin cel/current native source and actual spatial AB. Two Klee, hidden rear head/right arm remain hidden; rotated raised brown palm attaches to cream cuff. Rear coat/legs independently redrawn. Foreground nearly held but slight mouth/collar/feather amplitude and costume drift, boot directions approximate; defer to first cut rework. No AI captions. Static only, accepted false; compositor and temporal review pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2138,
+      "output": "generated/middle-next-f2138-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole PV animation cel for true original f2138.\nPrimary request: replace both original depictions with Klee, exactly respecting CURRENT PROFILE pose, crop and two-actor occlusion. This is a real new profile key pose, not the previous diagonal frontal face.\nInputs, ordered:\n1 EDIT TARGET: actual original f2138, sole authority for camera, visible anatomy, expression and foreground coverage.\n2 SUPPORT: actual f2136 BEFORE / f2138 CURRENT plus RGB difference and blue/red contours. The giant head rotates decisively to a LEFT-FACING FULL PROFILE and advances into the center. Redraw this change, not the comparison panels.\n3 SUPPORT: current foreground native profile. Exactly ONE narrow half-lidded eye seen sideways, ONE orange cheek, small nearly closed line mouth under the projecting nose, current chin and neck outline. The far eye is anatomically hidden and must not be drawn. Keep the source giant head scale, top/right/bottom cropping and leftward nose projection.\n4 SUPPORT: currently visible small background parts. Foreground hides the background head, all right arm, most torso and most raised left arm/cuff. Only the few currently peeking raised finger tips above/behind the foreground hat silhouette and the small coat/leg/near-boot portions actually shown by the current source may remain. Do NOT show a complete spread palm or cream cuff as in prior f2136; do NOT reveal a hidden background face.\n5 KLEE IDENTITY/STYLE ONLY: prior giant Klee HEAD-ONLY crop, NOT pose/eyes/mouth/crop authority. Continue blonde bangs/compact pony roots, pointed ears, red beret with cream clover and feather, red eye and hand-drawn black contour; convert them to actual PROFILE geometry.\nSubjects: exactly two Klee depictions, giant foreground Klee facing screen-left and occluding small background Klee. Giant beret replaces the old cap; keep source foreground coverage and occlusion, retain one visible red iris in a thin profile eye, blonde swept head mass and coherent ear/pony connections. Small visible background coat is red/cream, any actually visible fingertips brown-gloved, cream boot tops and brown boots. Do not invent unseen anatomy.\nScene/style: current lavender sky with pale scribbled stars context, PV-economical chibi proportions, thick slightly hand-drawn black outlines and simple flat warm color, minimal ornamentation and shadows.\nConstraints: ONE full illustration only; no contact sheet, panels, labels, border, text, captions, watermark. No old pink hair, grey pajamas or animal cap. No second foreground eye, frontal face, oval open singing mouth, extra cheek, extra arms or exposed background head. Do not freeze the prior Klee frontal reference. Actual bilingual source captions and stars are preserved separately later.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-source-actual.png",
+          "role": "current edit target",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-f2138-source-ab-rgb-contours.png",
+          "role": "actual source profile motion spatial comparison; overview only",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-foreground-native.png",
+          "role": "current full-profile pose, one eye, native inspected",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-background-visible-native.png",
+          "role": "current visible background only, native inspected",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "head-only identity/style, explicitly not frontal pose",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-3bd21d42-0cbf-4c03-887d-b0b0ab04c52e.png",
+      "output_sha256": "f13634c5b5128e8bfec11fc1b3a86f999a3fb3f867af46fe598240a370b51bf8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed current full source/native profile/occlusion and whole builtin cel. New left-facing profile key pose, exactly one narrow red eye, one cheek and nearly closed mouth; rear head/right arm hidden, no exposed full rear cuff/palm. Small raised glove tips and near leg/boot remain. Foreground beret/hair broader, rear fingertip visibility and profile nose/chin position approximate, small triangular far head tuft and feather side may drift; defer first-cut refinements. Static only, compositor/temporal pending, accepted false.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2141,
+      "output": "generated/middle-next-f2141-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "blocked_static_unselected",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole PV animation cel at actual original f2141.\nPrimary request: replace all actually visible original character regions with Klee, retaining the current PROFILE-TO-REAR transition and exact source occlusion. This is a BACK-OF-HEAD pose: there is NO visible foreground face whatsoever.\nInputs in order:\n1 EDIT TARGET: actual original f2141, sole camera/crop/current-pose/visible-region authority.\n2 SUPPORT: actual f2138 BEFORE / f2141 CURRENT, RGB difference and contour comparison. The enormous head rotates from left profile to completely rear-facing, moves to center-left and fully hides the previous standing actor. Do not copy the old profile eye or nose.\n3 SUPPORT: native current rear head silhouette and top-right new night-character hat fragment. Preserve these actual two visible regions and their depth order.\n4 SUPPORT: native center occlusion crop: the former standing figure is COMPLETELY HIDDEN. No finger tips, boots, coat, palm or face should peek out.\n5 IDENTITY ONLY: cropped prior Klee rear beret/blonde bob/compact pony tails. Continue simple Klee identity colors and thick hand-drawn contours, but reshape to current giant rear silhouette. Do not copy its earlier camera location, shading or background.\nForeground subject: giant REAR VIEW Klee red beret with wide cream band, blonde back-of-head bob and compact two low side pony tails connected to the back hair. The broad rounded cap top spans roughly x400..1500 in a 1920 canvas and is clipped at the top; the large back hair spreads to the bottom/right edge. Keep comparable source coverage. No face, cheek, eyes, eyebrow, nose, mouth, neck front, shoulders, hands or new full body. Back cap has no front-facing clover on its center; retain side decoration only if naturally visible.\nBackground visible fragment: ONLY the thin cyan/cold green outlined upper part of the next NIGHT Klee beret/cream feather peeking behind the giant rear head near upper-right x1100..1450. Replace the original animal-cap rounded ears with the simplified Klee hat/feather outline in the same tiny exposed area. Its face/body are fully hidden: do not reveal them, no extra eye, no extra standing figure.\nScene: current lavender scribbled-star left sky transitioning to vivid BLUE night right sky, small crescent moon at far upper-right, exactly the target scene and wipe context. Economy of original PV: flat warm red/cream/blonde areas, black slightly wobbly heavy outlines; no elaborate lighting or added ornaments.\nConstraints: ONE whole cel, no panels, no labels, no captions/text/watermark. No pink hair, pajamas or animal ears. No frontal/profile face anywhere at this frame. No hidden standing character shown. Preserve depth: giant rear head occludes both previous actor and new night actor except its tiny cap fragment. Captions/background effects will be restored separately from original, never paint lettering.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-source-actual.png",
+          "role": "current edit target; rear head and tiny cold night hat fragment",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-f2141-source-ab-rgb-contours.png",
+          "role": "actual profile to rear turn/wipe comparison; overview not native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-foreground-native.png",
+          "role": "current rear silhouette and upper-right cyan fragment; native inspected",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-background-visible-native.png",
+          "role": "current center fully occluded standing actor; native inspected",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0900-rear-head-identity-only.png",
+          "role": "rear Klee identity and palette only; not camera or pose authority",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-4b239cf5-cde5-4c95-a59e-5674bc48c35a.png",
+      "output_sha256": "11bf18ec92ac9d6ef809f178ae4d2e701251557b22ba7d00274f5f7a10e454c7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole builtin: giant rear Klee has no face and standing actor correctly hidden. Hard block: tiny upper-right cold fragment retains original rounded animal-cap ears rather than Klee hat/feather, so unselected pending one targeted whole-cel repair. Wider ponies/cap silhouette deferred, no temporal or compositor review.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2141,
+      "output": "generated/middle-next-f2141-oct6-v2.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: precise-object-edit\nAsset type: ONE complete whole PV animation cel, targeted structural repair of f2141.\nEDIT IMAGE 1. Preserve the giant rear-facing Klee with red beret, cream brim, blonde bob and two low pony tails, all giant head contour/crop/location and background unchanged. DO NOT add any face, eyes, mouth, hands or standing actor.\nONE NECESSARY CHANGE ONLY: the small light-cyan, dark-green outlined SHAPE at upper-right behind the giant beret currently has the OLD CHARACTER'S TWO ROUNDED ANIMAL EARS. Replace that tiny visible shape completely with the next NIGHT KLEE'S HAT FRAGMENT. It must NOT have ANY rounded ear-shaped lobes, bear muzzle, head, body or human face.\nReference2 actual source tells ONLY its position and amount exposed (roughly x1100..1430 y0..260 on original 1920 frame); it is not an identity reference. Reference3 locates the same actual tiny fragment. Reference4 shows the correct NIGHT KLEE hat identity and cold palette: dark purple-red beret dome, pale blue-cream pointed feather with tapered tip and angled notches, dark navy/greenish hand-drawn contour.\nIn this rear pose the giant foreground hides almost all of night Klee. Draw ONLY the sliver of cold purple-red beret and ONE slim pale-blue POINTED feather tip peeking above/behind the giant red hat at upper right. Cut them off naturally where the giant foreground covers them. The feather is a tapered leaf shape, not two round ears. No clover badge needs to be shown if hidden; no new face, hair or whole small character. Do not widen the region of visible night actor.\nKeep image1 giant foreground untouched and the same lavender left scribbled stars/blue right night/crescent. No texts, panels, labels, watermark. Output one full illustration, not a patch or collage.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2141-oct6-v1.png",
+          "role": "edit target; keep giant rear Klee and entire scene; replace ONLY cold upper-right original animal fragment",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-source-actual.png",
+          "role": "source current actual occlusion and tiny fragment extent only, not animal identity",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-foreground-native.png",
+          "role": "source upper-right tiny exposed region; current native inspected",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "cold Klee hat/red-purple beret/pointed feather identity; no face exposed",
+          "actually_viewed": true
+        }
+      ],
+      "repair_scope": "one targeted original-animal-hat residue fix; no silhouette polish",
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d02f3eb4-f2ea-4ed3-a752-cfd68f49076e.png",
+      "output_sha256": "06755f821b4ba0d417def7284443ddbe580d808ab8d4b7ca47252cd9b9539e9a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole output: targeted cold fragment is now red-purple Klee beret sliver with pointed pale-blue feather and no rounded animal ears. Giant rear view has no face/limbs; previous actor hidden. Whole giant body and scene visually retained fromv1. Feather visible height and giant pony/hat silhouette remain approximate, defer first cut. Static only, no compositor/temporal acceptance.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2143,
+      "output": "generated/middle-next-f2143-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE full 16:9 whole PV animation cel for actual f2143.\nPrimary request: replace BOTH original characters with Klee, preserving CURRENT warm closed-eye giant foreground and cold one-eye right profile in background. It is no longer a rear-head frame. Redraw the real distinct key pose.\nInput roles ordered:\n1 EDIT TARGET actual f2143: sole camera, expression, facing, proportions and depth authority.\n2 Actual BEFORE f2141 rear / CURRENT f2143 closed face + RGB contours: giant turns all the way to three-quarter frontal and moves screen-left revealing the night actor at screen-right. Do not copy the previous giant rear view.\n3 Actual current native overlap crop: night actor has EXACTLY ONE small half-lidded OPEN eye in right-facing profile, ONE pale mauve cheek, tiny nearly closed line/dot mouth under the nose. Warm foreground bangs/ponytail overlap the left side of night actor. Do not expose the occluded far eye or complete torso.\n4 Warm Klee identity/style head crop ONLY: blonde bangs, compact connected side ponies, pointed ear, red beret with cream clover and feather, flat PV outlines. Current giant must have TWO fully CLOSED thick eyelid lines, TWO orange cheeks and a very small upward-pointing pout, not the crop's open eyes or singing mouth.\n5 Cold Klee identity/palette crop ONLY: same red Klee beret, clover and tapered feather, pale blonde hair with cold blue/lavender cast and navy/greenish outline. NOT expression authority: its closed eye must become current source's partly OPEN one visible profile eye.\nSubjects/composition: warm giant Klee fills left 0..1300, head and beret clipped top/left; giant face angles slightly screen-right with closed eyelids, curved brows and tiny centered pout, warm cheeks. Compact ponies and bangs follow current left-to-right head turn and source overlap. Cold night Klee behind occupies source x1000..1480 and head/right nose at y300..700; right profile, nose projecting right, one partly open narrow red iris in source eye slot, pale mauve cheek, tiny mouth. Its left/back head and shoulder are occluded by warm foreground. Replace old animal cap completely with Klee hat/clover/pointed feather, no rounded animal ears, no muzzle badge. Do not create a third standing character.\nScene/style: original lavender scribbled stars remain only at far left; most right is rich blue night with small high-right crescent, preserving actual target wipe. Match economical low-frame hand-drawn PV: broad flat red/cream/blonde colors, heavy wobbly outline, simplified details; cold actor subdued blue-purple cast without photorealism.\nConstraints: ONE wholecel only, no panels, labels, lettering, captions or watermark. No old pink hair, pajamas, animal cap, invented hands/legs or exposed far eye. No open foreground eyes, no closed background eye, no rear giant head. Source backgrounds/subtitles preserved separately. Keep correct warm-foreground-over-cold-background occlusion.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2143-source-actual.png",
+          "role": "current edit target; warm closed face over cold right profile",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-f2143-source-ab-rgb-contours.png",
+          "role": "actual rear to closed face and night face revealed; overview",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2143-foreground-native.png",
+          "role": "current actual cold profile and foreground overlap; native inspected",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "warm Klee head identity/style only, not eyes/mouth/pose",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "cold Klee identity/palette only, source dictates eye expression",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1e30e52a-3c57-47f2-9400-40f412d2fee4.png",
+      "output_sha256": "e26fed6d8612240c3442116ca1e75b0da4cf298464de8706bfcadfb352bfb23b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole builtin and actual current source/native: two Klee depictions, warm foreground has two closed eyelids/tiny pout and occludes cold right profile with one half-open red eye. Both animal hats replaced. Giant scale/tilt, cold eye/nose position and ornament/pigtail geometry approximate; defer first-cut refinement. No invented limbs or third figure. Static only, accepted false, compositor/temporal pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    }
+  ],
+  "integrity": [
+    {
+      "output": "generated/middle-next-f2132-oct6-v1.png",
+      "source_frame": 2132,
+      "sha256": "4cca1da6a045c86930d23b8d7c2f29d7fc1889e1b0f38c0a61f5ccdc121f6b58",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-source-actual.png",
+          "role": "edit target; current source composition and occlusion",
+          "sha256_at_final_archive": "0fbbd2a1fd469acd97bd86959cdf6915c6fe458ba4dc9800f935ea5f9216f2f0"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2130-f2132-source-ab-rgb-contours.png",
+          "role": "support; actual previous/current original spatial differences; overview resized during viewing",
+          "sha256_at_final_archive": "bba67fe3e168a5d4463601fdc34f167939dfa2a89c1c4cdd5609306852374571"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-foreground-native.png",
+          "role": "support; current giant face and crop, native actual viewing",
+          "sha256_at_final_archive": "ebdd81205a329ffe26339ef26df274b84cd48ac9ce1224c1bf5910fed8f68d04"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-background-visible-native.png",
+          "role": "support; current visible small body, native actual viewing",
+          "sha256_at_final_archive": "0d01e2bc6ff2d975d017d46398dda44887ad536266019892144286fe7dd9d2c5"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\klee-f2073-head-only-identity-v2.png",
+          "role": "identity/style only; no pose authority",
+          "sha256_at_final_archive": "ba47680d230d0b673f99ede1de69d4549dda21a7d9d4b939d21d00847de2b3e5"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true
+    },
+    {
+      "output": "generated/middle-next-f2135-oct6-v1.png",
+      "source_frame": 2135,
+      "sha256": "30f0f8f994253d4e30311515a713a3001ebdb6e1f8b651a19e920ca5cad3fbd0",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-source-actual.png",
+          "role": "current edit target",
+          "sha256_at_final_archive": "1bb99d2b097fbf22b6a516920d57a7a941bb8c2386e2c4c910c4c2ba06bd5a8c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-f2135-source-ab-rgb-contours.png",
+          "role": "actual previous/current original difference; overview viewing only",
+          "sha256_at_final_archive": "b7e633bddc8ea366353be2bce170cb65b7636551eb7990e24e20eeb73d8aca6f"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-foreground-native.png",
+          "role": "current foreground native pose",
+          "sha256_at_final_archive": "f1e434e46027a7864d84dbcf89ebbf2b749e67c15274a6b885b2bd4b14c227c4"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-background-visible-native.png",
+          "role": "current visible background native occlusion",
+          "sha256_at_final_archive": "d2de0dcb9283f2029a5e044ce30749105948aa36c0faca255aa48450300d5b60"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "head-only identity/continuity, no pose",
+          "sha256_at_final_archive": "0f3579c00737d0186f25c0f90c937ae024377c2bf4b80fd3706b7674a3cfa8d5"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true
+    },
+    {
+      "output": "generated/middle-next-f2136-oct6-v1.png",
+      "source_frame": 2136,
+      "sha256": "759411881279234dad00469e24443035421e029df1026da4dc1ca646ccc8f174",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-source-actual.png",
+          "role": "current edit target",
+          "sha256_at_final_archive": "b7accf829ca9fe4fe195dc973b7aa76fbddf5b748e680774e69777db06fff1c5"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-f2136-source-ab-rgb-contours.png",
+          "role": "actual previous/current original difference; overview viewing only",
+          "sha256_at_final_archive": "a409df4ae7ffe8b71085500dbcd8850f62216009b80affdf0d8ead71bc3235b5"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-foreground-native.png",
+          "role": "current foreground native pose",
+          "sha256_at_final_archive": "62f42e839338bda749b51e7c1f0c83f0309c67c21dabf8027ee350f580c0f2c0"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-background-visible-native.png",
+          "role": "current visible background native occlusion",
+          "sha256_at_final_archive": "c1e302f7719a5ba57bf7b5b0f393581c79c0cc3aecdfd6f5f06848040af36357"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "head-only identity/continuity, no pose",
+          "sha256_at_final_archive": "0f3579c00737d0186f25c0f90c937ae024377c2bf4b80fd3706b7674a3cfa8d5"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true
+    },
+    {
+      "output": "generated/middle-next-f2138-oct6-v1.png",
+      "source_frame": 2138,
+      "sha256": "f13634c5b5128e8bfec11fc1b3a86f999a3fb3f867af46fe598240a370b51bf8",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-source-actual.png",
+          "role": "current edit target",
+          "sha256_at_final_archive": "71d34ee39930076df0b65eeb12da79b68bd1fb8898fbaf79ca17f075ab69aea1"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-f2138-source-ab-rgb-contours.png",
+          "role": "actual source profile motion spatial comparison; overview only",
+          "sha256_at_final_archive": "d54ceb49c192b4d5e491d3b0b24ce8186acd9b5f61458b50663b13f198a224ab"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-foreground-native.png",
+          "role": "current full-profile pose, one eye, native inspected",
+          "sha256_at_final_archive": "d5ad75f5994eeb973a64493f12ec43484bcb84d773d5e2cb6e4f78d75d1e632f"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-background-visible-native.png",
+          "role": "current visible background only, native inspected",
+          "sha256_at_final_archive": "0536f5c423a1b8eb1c33b51bd63cc4d9205b83d0a5104250491b8b9ab290e7e4"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "head-only identity/style, explicitly not frontal pose",
+          "sha256_at_final_archive": "0f3579c00737d0186f25c0f90c937ae024377c2bf4b80fd3706b7674a3cfa8d5"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true
+    },
+    {
+      "output": "generated/middle-next-f2141-oct6-v1.png",
+      "source_frame": 2141,
+      "sha256": "11bf18ec92ac9d6ef809f178ae4d2e701251557b22ba7d00274f5f7a10e454c7",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-source-actual.png",
+          "role": "current edit target; rear head and tiny cold night hat fragment",
+          "sha256_at_final_archive": "537d8c827437a22bda7a9d4e121804f2b47cd68f130dcce593368558961a92b9"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-f2141-source-ab-rgb-contours.png",
+          "role": "actual profile to rear turn/wipe comparison; overview not native",
+          "sha256_at_final_archive": "98b60dc8f06b469703814893bd6889ce774f533c78a716a48d808c66764f95e3"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-foreground-native.png",
+          "role": "current rear silhouette and upper-right cyan fragment; native inspected",
+          "sha256_at_final_archive": "10ceb508bc43d139e54216eeb71e1bb93fd4a2db94e6b07065d7dd250894e88e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-background-visible-native.png",
+          "role": "current center fully occluded standing actor; native inspected",
+          "sha256_at_final_archive": "c70bf2f41a012d1e451d36634946bc2bb5f88ad7efd41ff558573569dad96544"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0900-rear-head-identity-only.png",
+          "role": "rear Klee identity and palette only; not camera or pose authority",
+          "sha256_at_final_archive": "23da39a2f88197fe753de950476967c81632c1cd76fc1e68b472f4c540e33eda"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": false
+    },
+    {
+      "output": "generated/middle-next-f2141-oct6-v2.png",
+      "source_frame": 2141,
+      "sha256": "06755f821b4ba0d417def7284443ddbe580d808ab8d4b7ca47252cd9b9539e9a",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2141-oct6-v1.png",
+          "role": "edit target; keep giant rear Klee and entire scene; replace ONLY cold upper-right original animal fragment",
+          "sha256_at_final_archive": "11bf18ec92ac9d6ef809f178ae4d2e701251557b22ba7d00274f5f7a10e454c7"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-source-actual.png",
+          "role": "source current actual occlusion and tiny fragment extent only, not animal identity",
+          "sha256_at_final_archive": "537d8c827437a22bda7a9d4e121804f2b47cd68f130dcce593368558961a92b9"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-foreground-native.png",
+          "role": "source upper-right tiny exposed region; current native inspected",
+          "sha256_at_final_archive": "10ceb508bc43d139e54216eeb71e1bb93fd4a2db94e6b07065d7dd250894e88e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "cold Klee hat/red-purple beret/pointed feather identity; no face exposed",
+          "sha256_at_final_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true
+    },
+    {
+      "output": "generated/middle-next-f2143-oct6-v1.png",
+      "source_frame": 2143,
+      "sha256": "e26fed6d8612240c3442116ca1e75b0da4cf298464de8706bfcadfb352bfb23b",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2143-source-actual.png",
+          "role": "current edit target; warm closed face over cold right profile",
+          "sha256_at_final_archive": "e02a071670972d1134886457d170f7499ce0d915abbae89d0d5410f6631abc61"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-f2143-source-ab-rgb-contours.png",
+          "role": "actual rear to closed face and night face revealed; overview",
+          "sha256_at_final_archive": "1444a36f41bf7ebc962177fd41e9e58e93fd6a92af1538b342693b7fef0763fd"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2143-foreground-native.png",
+          "role": "current actual cold profile and foreground overlap; native inspected",
+          "sha256_at_final_archive": "82424eb8f12084d421ba8e3a954fcad2189c1297e2ea2d78a9b3b4d9f4f23471"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+          "role": "warm Klee head identity/style only, not eyes/mouth/pose",
+          "sha256_at_final_archive": "0f3579c00737d0186f25c0f90c937ae024377c2bf4b80fd3706b7674a3cfa8d5"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+          "role": "cold Klee identity/palette only, source dictates eye expression",
+          "sha256_at_final_archive": "116ccc7688c0663043736ce60202cd2968cf133be73f6184e733c605be0f6b86"
+        }
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true
+    }
+  ],
+  "successful_builtin_outputs": 7,
+  "unique_missing_true_source_cels": 6,
+  "selected_private_drafts": 6,
+  "source_exposure_frames": 13,
+  "source_only_alias2121_not_adopted": true,
+  "accepted": false,
+  "compositor_and_actual_speed_review": "not_performed",
+  "shared_files_written": []
+}

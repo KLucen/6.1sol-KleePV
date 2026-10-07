@@ -1,0 +1,82 @@
+{
+  "source_frame": 3083,
+  "cel": "cel-0537",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Same right-shoulder turn close-up, upper body cropped at bottom. Independent fine cel: head settles slightly down-left, eye aperture subtly narrower with tiny pupil shift, small oval mouth remains open; cheek hair ends swing inward-left and near low-right cuff descends a little with bent glove. Keep two half-open eyes and one visible closed brown glove. Short ponytail tips follow same mild inward settling without replacing with long source curtain. Sparse dark hand-drawn outlines and current face tilt; no pillow, legs, front torso or extra hand.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1682-f3083.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3079-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3079-f3083-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3083-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "bee03e6fbc8385773f1f03f85b2dc690327ddb3edd0baf8af8a7aea786799370",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "e3d1c918fbe2ff6f4ca5192afcb5bfb366c3ba37cfbcbbb845c66040d8d234c4",
+    "d788c15b15973ae38b21673821ffb04cda8af5fbe67b8a91f9180baedd17a825",
+    "a5d904f27a719ffbdd5f40512f2abe6b0e57607420c23ce89d39d4ce2a275794"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3083-v1.png",
+  "source_exposures": [
+    {
+      "start": 3083,
+      "end": 3087,
+      "pts": 128.458,
+      "end_pts": 128.625,
+      "family": "back_side_turn",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Same right-shoulder turn close-up, upper body cropped at bottom. Independent fine cel: head settles slightly down-left, eye aperture subtly narrower with tiny pupil shift, small oval mouth remains open; cheek hair ends swing inward-left and near low-right cuff descends a little with bent glove. Keep two half-open eyes and one visible closed brown glove. Short ponytail tips follow same mild inward settling without replacing with long source curtain. Sparse dark hand-drawn outlines and current face tilt; no pillow, legs, front torso or extra hand.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-1bde36c9-739b-4605-920a-6ed50f5d701f.png",
+  "output_sha256": "a878114c0d51ba6a090b54eb82e033e5bf7b3b645489d512a12164110820fc10",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: settled head, two sleepy red eyes, one bent glove. Fine eye/bang/cuff changes only approximate; persistent coat/collar embellishment drift recorded for full-draft feedback. No local repair.",
+    "accepted": false
+  }
+}

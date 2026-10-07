@@ -1,0 +1,46 @@
+{
+  "job_id": "fullpv-middle-f2048",
+  "source_frame": 2048,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1118-f2048.png",
+  "prompt": "Use case: identity-preserve. Edit image1 CURRENT source into ONE true independent strict-source Klee PV cel f2048, 1920x1080 landscape.\nImage1 sole camera, crop, exact geometry, expression, visible fragments, occlusion, yellow star, background and captions authority. Image2 Klee costume/identity ONLY, never pose/scale/composition. Image3 source f2045->f2048 actual A/B RGBdiff and contours, RIGHT CURRENT. Image4 source head, eyes and lower-edge local crops with actual diff/contours. Use current source, no copied/held pose.\nCurrent major FURTHER ZOOM/leftward face shift: viewer-left CLOSED black > eye is cut off by LEFT edge, its inner vertex around x440 y535; viewer-right CLOSED black < eye dominates center-right, around x830..1430 y415..835. NO visible iris, pupil or eye highlights. Source eyebrows/bangs around exact current points. Forehead headwear heavily TOP-cropped. Orange cheek patches both cut by frame edges, very large ALL-PINK mouth lower-left around x230..835 y815..1080, mouth bottom CUT OFF; no chin, collar, hands, body visible. Do NOT shrink head to expose both whole eyes or insert gloves/body.\nReplace rabbit forehead mask entirely by heavily cropped red/cream Klee beret with plain brown band and ONE cream clover only if inside actual top crop; one white feather only its in-frame portion. Pale blonde bangs, EXACTLY TWO SHORT compact ear-root ponytails as an anatomy, but only portions actually visible within current camera crop. Pointed ears only if their actual current location inside frame, one per side; no rounded human ear wedge, no duplicate ears. No long source peach hair, no extra clovers.\nCURRENT single YELLOW thick-black outlined five-point source STAR at x1470..1870 y530..875 is larger and left/higher than f2045; preserve exact size/outline/occlusion with right hair/ear region. Keep source lavender gradient and small cream captions at fixed bottom-center over face: \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\", all strokes/AA and placement unchanged. No extra stars or text.\nLoose wobbly source black ink, flat broad fills and minimal hard source shadow. No gradients/gloss on character. Single cel only, no sheet, collage, flow, morph, tween, mirror or held substitute.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1118-f2048.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2045-f2048.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2045-f2048-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source sole geometry camera crop expression occlusion background caption star authority",
+    "Klee costume identity ONLY",
+    "actual source A/B RGBdiff contours right current",
+    "actual source head eyes lower-edge RGBdiff contours"
+  ],
+  "output": "generated/fine-f2048.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 1,
+    "eye_state": "both closed; left chevron cut off left frame",
+    "hands": "zero outside current crop",
+    "delta_observed": "further zoom and leftward face crop; yellow star grows and moves up-left"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-266757cc-c301-4111-9750-117fb6bf5831.png",
+  "output_sha256": "3cb770e7513a8f0e31c961b49957dd981b5e19965789287795be9ab9f9c1fb58",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "static_review": "qa/fullpv-middle/resume-output-review-f2048.json",
+  "known_issues": [
+    "Independent f2048 deeper zoom and left cropped eye represented. Hands and body absent; source yellow star present.",
+    "Beret unexpectedly has an extra circular side clover marking; mouth and right eye registration approximate. Hair volume/feather differ from neighboring draft and smooth shading persists.",
+    "Caption and yellow-star exact pixels plus source background require layer restoration. Sequence and actual-speed review pending."
+  ]
+}

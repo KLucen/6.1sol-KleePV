@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0172",
+  "source_frame": 172,
+  "source_candidate": "src-0053",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0053-f0172.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0172.png"
+  ],
+  "prompt": "ONE full16:9 original-style Klee PV animation cel. Edit sourceperson in CURRENT image1 only. Image1 controls fullcanvas coordinates, pose, frontal angle, exact prop sizes/location/occlusion. Crop2 Klee face/hat ID/style ONLY, no borrowed tilt; crop3 established lower garment ONLY; image4 actual source before/current RGB/contour changes upper-righttarget, output no panels. Current held hugging-pillow pose but head becomes MORE UPRIGHT/FRONTAL, BOTH halfopen REDeyes are short droopy rectangles, tiny CLOSED horizontal/dot mouth not pronouncedcaret. Pillow nearlyvertical just LEFT of face, lavender single plane creamleftfringe at x58..62%,y16..44%. Brown FRONT glove grips pillowtop-leftnear x65%,y27%, its creamcuff immediately below glove; crossing forearm goes diagonally up-left IN FRONT from right shoulder/chest to glove. Other arm bent up behind pillowleftfringe, creamcuff partially visible behindedge, other glove hidden. Source current pillowborder, shoulderarc/elbows, eyeopening, hair and cuffs distinct small redraws; don't output static prior. Do not expose hidden otherhand or obscure both visible eyes. Body/straight legs angledright croppedbottom exact sourceplacement. Klee SAMEredberet creamclover/whitefeatherside, blondebangs TWO SHORTsideponytails/pointedears, brown gloves, redcapelet SMALL SINGLE chestpom atcollar under crossingarm (NO extra pompoms on shoulder/elbow), redcoat angularsplitpanels lowerleftclover, broadcream angular underskirt fainttinyclovers/pinkruffle/REDshorts, ONEleftwaistdanglepom, smallbrown backpackcharm right. Floatingclock isolatedLEFT at x49%,y50%, blanklavenderdisplay. Source flatpatches loose darkline onesmallflatshade, no polishedtextures. NO captions/subtitles/title/credits/letters/digits, pajamas/sleepmask/rabbitears, extra hands/ponies/zoom/mirror.",
+  "output": "../generated/fine-f0172.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

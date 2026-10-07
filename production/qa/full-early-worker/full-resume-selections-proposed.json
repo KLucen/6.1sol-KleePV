@@ -1,0 +1,130 @@
+{
+  "owner": "full_early_resume",
+  "accepted": false,
+  "shared_selection_modified": false,
+  "original_speed_review": "unperformed",
+  "selections": [
+    {
+      "source_frame": 766,
+      "path": "generated/fullpv-early-f0766-source-v1.png",
+      "accepted": false,
+      "static_review": "Source/native crop and current raised curled fists checked; both red iris black hooks and white notches present.",
+      "known_issues": [
+        "Face wider than source; hat/feather extend higher",
+        "Backdrop gradient and slight costume shading persist",
+        "Fine cuff/finger/source contours approximate"
+      ],
+      "consecutive_review": "Source f763/f766 local RGB/contour comparison performed; full original-speed review unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0766-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 774,
+      "path": "generated/fullpv-early-f0774-source-v1.png",
+      "accepted": false,
+      "static_review": "Current fully closed eyes, tall O and two open cheek-front hands independently drawn. Current source771/774 full/local RGB and contours reviewed.",
+      "known_issues": [
+        "Face wider and eye line about3% canvas lower than source",
+        "Cuffs larger and sleeve contours approximate",
+        "Hat/feather extends higher; backdrop gradient and costume shading persist"
+      ],
+      "consecutive_review": "Source771/774 RGB/contour evidence reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0774-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 777,
+      "path": "generated/fullpv-early-f0777-source-v1.png",
+      "accepted": false,
+      "static_review": "Current closed eyes/two open cheek-front hands/crop retained; source774/777 full/local RGB and contour evidence reviewed.",
+      "known_issues": [
+        "Source774/777 closed-eyelid arc and reduced mouth change are not fully expressed; prior face largely persists",
+        "Face wider and eye line lower than source, cuffs larger",
+        "Small yellow shoulder sliver added",
+        "Backdrop gradient and costume shading"
+      ],
+      "consecutive_review": "Source774/777 RGB/contour evidence reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0777-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 787,
+      "path": "generated/fullpv-early-f0787-source-v1.png",
+      "accepted": false,
+      "static_review": "Source785/787 and current source/draft whole RGB contact reviewed. Current wide-V raised sleeves and top-clipped hands/hat present, two red eyes preserve black hooks/white notches, old mask removed.",
+      "known_issues": [
+        "Eye/face positions about3-4% canvas lower than source; face slightly wider",
+        "Collar source contour and sleeve folds simplified",
+        "Backdrop gradient and costume shading"
+      ],
+      "consecutive_review": "Source785/787 actual difference and source/draft contact reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0787-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 810,
+      "path": "generated/fullpv-early-f0810-source-v1.png",
+      "accepted": false,
+      "static_review": "Macro current source/draft and source809/810 RGB/contours checked. Only source-visible eyelid/hair/skin/cheek/star fragments retained; captions removed, no invented face or costume.",
+      "known_issues": [
+        "Blonde bang contour expanded beyond source narrow strip, prior candidate geometry strongly persists",
+        "Star point/cheek/eyelid fine contours differ from source current",
+        "Skin/hair gradient and shadow persist"
+      ],
+      "consecutive_review": "Source809/810 RGB/contours and whole source/draft contact reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0810-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 812,
+      "path": "generated/fullpv-early-f0812-source-v1.png",
+      "accepted": false,
+      "static_review": "Current full source/draft contact checked, walking split legs/extended arms/right foreground boot overlap present, no mask/old long hair. Source811/812 cut and next814 source inspected.",
+      "known_issues": [
+        "New head/hat taller than source; current cheek/mouth and far ponytail simplified",
+        "Coat hem slightly short vs source torso; leg/cuff proportions differ",
+        "Source background/foreground contours and yellow star number differ",
+        "Gradient backdrop and shading"
+      ],
+      "consecutive_review": "Source811/812 cut and next814/draft contact reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0812-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 814,
+      "path": "generated/fullpv-early-f0814-source-v1.png",
+      "accepted": false,
+      "static_review": "Source812/814 RGB/contours and current source/draft contact checked. Same visible source walking silhouette represented, right boot occlusion retained, red eye/short pony profile/mask removal checked.",
+      "known_issues": [
+        "Previous812 art geometry strongly persists; current fine contours approximate",
+        "Hat/head taller than source, torso hem/leg proportions differ",
+        "Background stars/transition effect redraw drift and excess yellow star",
+        "Backdrop gradient/shading"
+      ],
+      "consecutive_review": "Source812/814 actual RGB/contours and source/draft contact reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0814-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 815,
+      "path": "generated/fullpv-early-f0815-source-v1.png",
+      "accepted": false,
+      "static_review": "Source814/815 and consecutive Klee814/815 contour contact reviewed. Source leftward move, lowered diagonal arms, planted leg/rear knee bend present. Visible profile red iris/pupil, mask removal and short pony checked.",
+      "known_issues": [
+        "Hat/head still too tall vs source and new pony orientation differs",
+        "Boots/cuffs larger and now fluffy vs previous814 compact flat cuffs",
+        "Coat clover shifts side and extra tiny cream hem crosses appear",
+        "Source star/bg drift and shading"
+      ],
+      "consecutive_review": "Source814/815 and Klee814/815 contour contact visually reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0815-source-v1-source-static-contact.jpg"
+    },
+    {
+      "source_frame": 819,
+      "path": "generated/fullpv-early-f0819-source-v1.png",
+      "accepted": false,
+      "static_review": "Source815/819 and Klee815/819 consecutive contour contact reviewed. Source lowered forward arm/head turn and bent rear knee change drawn, small source-visible profile red eye and two hands retained.",
+      "known_issues": [
+        "Torso turns farther into back view than source front-button silhouette",
+        "Hat/head taller; boot and knee joints shifted vs source",
+        "Lower coat clover placement/style drift; extra yellow particle",
+        "Shaded/gradient background; white source stars not pixel identical"
+      ],
+      "consecutive_review": "Source815/819 and Klee815/819 contour contact visually reviewed; original-speed unperformed",
+      "static_contact_path": "qa/full-early-worker/fullpv-early-f0819-source-v1-source-static-contact.jpg"
+    }
+  ]
+}

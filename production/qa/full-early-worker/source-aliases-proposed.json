@@ -1,0 +1,26 @@
+{
+  "owner": "early_resume",
+  "shared_source_map_modified": false,
+  "aliases": [
+    {
+      "source_frame": 720,
+      "verified_target_frame": 671,
+      "proposed_only": true,
+      "transform": {"kind": "verified_original_rigid_motion", "matrix": [[0.9999895691871643, 0.00020945645519532263, 8.209941864013672], [-0.00020945645519532263, 0.9999895691871643, 0.09160907566547394]]},
+      "proof_png": "qa/full-early-worker/source-audit-f0671-f0720.png",
+      "proof_metrics": {"coherent_pixels": 184, "largest_region": 35, "masked_mean_delta": 3.8714571655660004, "ecc": 0.9894206828682397},
+      "semantic_reason": "Full source aligned RGB difference and contours show matching prone closed-eye/hand/pillow/boot/coat drawing. Only subtitle changes and source layer translation right by about eight pixels; no new character drawing observed.",
+      "review": "private_static_source_review_parent_confirmation_pending"
+    },
+    {
+      "source_frame": 682,
+      "verified_target_frame": 671,
+      "proposed_only": true,
+      "transform": {"kind": "verified_original_rigid_motion", "matrix": [[0.9997162818908691, 0.000006522950570797548, 1.973134994506836], [-0.000006522950570797548, 0.9997162818908691, 0.35860657691955566]]},
+      "proof_png": "qa/full-early-worker/source-audit-f0671-f0682.png",
+      "proof_metrics": {"coherent_pixels": 579, "largest_region": 43, "masked_mean_delta": 2.7854069286714704, "ecc": 0.9940186671287179},
+      "semantic_reason": "Rigid-aligned source A/B, RGB difference and contour overlay show matching eye, bang, hand/cuff, pillow, leg/foot and coat contours. Residuals are scattered codec/antialiasing color changes on matching outlines. Original layer shifts about two pixels right; no new coherent character drawing observed.",
+      "review": "private_static_source_review_parent_confirmation_pending"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "fullpv-middle-f1914-eyelid-repair-v2",
+  "source_frame": 1914,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1015-f1914.png",
+  "prompt": "Precise-object-edit targeted repair for full PV f1914. Image1 is EDIT TARGET current Klee cel: keep full composition/crop/body/hat/two short blonde ponytails/redcoat/gloves/straightlegs/boots/background/captions unchanged. Image2 original CURRENT SOURCE sole expression authority. Correct ONLY the two eyelid lines to match source's sleepy softly CLOSED eyes: each eye is a single unbranched slightly diagonal smooth black stroke, with short separate eyebrow above. Remove current sharp V/> shaped squeezed eyes and remove additional inward wrinkle rays. Don't make smiling arcs, do not open eyes, no visible irises. Match source small sleepy mouth and orange cheek positions. Preserve Klee identity and all current costume; no rabbit mask/pajamas. This is same independent source drawing f1914, no temporal change or interpolation.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1914.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1015-f1914.png"
+  ],
+  "reference_roles": [
+    "current Klee full cel edit target; keep all except eyelid stroke",
+    "current source sleepy closed eyelid/eyebrow/mouth expression authority"
+  ],
+  "output": "generated/fine-f1914-eyelid-repair-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-672e3fa6-4b39-4cee-874a-403f1b15d34f.png",
+  "output_sha256": "48ee41eb3b1c87a89bcb494101a727d39062a73172ecdf0f44b153c6e1c1c874",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

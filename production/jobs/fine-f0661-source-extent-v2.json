@@ -1,0 +1,32 @@
+{
+  "source_frame": 661,
+  "name": "fine-f0661-source-extent-v2.png",
+  "output": "generated/fine-f0661-source-extent-v2.png",
+  "tool": "builtin_imagegen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-d132f35f-b92d-48e8-b2c5-c2a4d1b3f6e0.png",
+  "asset_sha256": "a786881bfa4078c894781b7f9c10a1b2b9d6e0632fd4f87772b6d0d8b360fbf1",
+  "review": "Current-source redraw restores compact leg/boot extent and clear lyric gap. Closed eyes tilt counterclockwise like source; glove outlines, hat/pony volume, arm and pillow overlap still require consecutive-frame review.",
+  "known_issues": ["Glove fingers simplified", "Hat, hair and backpack volume continuity pending", "Sleeve and pillow contact differs"],
+  "original_speed_watch": "not_performed",
+  "references": [
+    {
+      "path": "source_refs/src-0281-f0661.png",
+      "role": "CURRENT original target; absolute pose, size, pillow and occlusion"
+    },
+    {
+      "path": "qa/full-early-worker/f0661-source-legs.png",
+      "role": "CURRENT original leg extent and bend, no identity"
+    },
+    {
+      "path": "qa/full-early-worker/f0661-closed-face.png",
+      "role": "CURRENT original head and closed-eye slant"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "HAT-ONLY Klee identity; never pose or face proportions"
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Edit Image 1, the CURRENT ORIGINAL hand-drawn PV cel f661, in place into default Klee. Output ONE full 1920x1080 canvas, no panels. Image 1 is absolute authority for character size, current head angle, eyelids, body pose, arms, leg length, pillow shape and placement. Image 2 is only the SAME SOURCE legs enlarged. Image 3 is only the SAME SOURCE closed face enlarged. Image 4 is Klee HAT-ONLY identity, not geometry. Do NOT use an elongated previous Klee pose.\nPreserve the original small prone figure exact extent: hands at x75..305, pillow x75..745,y560..875, face center x390,y644, body/hip finishes near x900,y680. BOTH knees and compact boot tips occupy only x900..1230,y415..650, reaching NO farther right than x1230. The right lyric begins x1255 and must have a clear lavender gap before the boot. Keep the source leg-to-body ratio and subtle knee bend, both thighs/shins overlap at precisely the original source angle up-right. Do not draw long stretched skin legs, large soles or long pointed boots. The feet angle downward at the source tips; original pose never reaches into the text. Head tilts slightly COUNTERCLOCKWISE with viewer-left lower than viewer-right. BOTH eyelids fully CLOSED as black thick short strokes slanting up-right, no iris, no visible mouth.\nReplace original rabbit sleep-mask and peach long hair with simple Klee red clover beret/white feather, pale blonde bangs and exactly TWO SHORT small ponytails behind pointed ears. No rabbit features, no long hair, no red eyes when closed. Red Klee coat simple cream collar/cuffs/hem, one small cream coat clover, red shorts, compact pale legs and two simple small brown boots with cream tops within ORIGINAL FOOT bounds, modest brown backpack behind shoulders. Both small brown gloved hands extend onto the same original cream/lavender pillow, sleeve trim behind wrists. Keep original arm lengths, contact and pillow outline; no additional fingers/arms/props.\nMatch original's loose uneven dark sketch contours, sparse flat fills, extremely simple PV rendering, no smooth glossy gradient/game-art detail, no complex round hanging badge. Preserve ORIGINAL lavender backdrop and ORIGINAL Chinese/Japanese lettering verbatim exactly where visible. Only character changes, zero new text; keep entire source 16:9 framing and empty margins. Prioritize ORIGINAL spatial bounds and pose over costume elaboration."
+}

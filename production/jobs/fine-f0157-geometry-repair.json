@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0157-geometry-repair",
+  "source_frame": 157,
+  "source_candidate": "src-0049",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0049-f0157.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-open-eye-identity-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0133-f0157.png"
+  ],
+  "prompt": "Use case: identity-preserve. Make a new complete 1920x1080 frame 157 PV character-replacement drawing. CURRENT SOURCE image1 completely determines geometry and gesture; source before/current analysis4 demonstrates released clock and elbow changes. Cropped image2 ONLY Klee identity/colors, image3 ONLY Klee lower garment. Do not invent their geometry as the frame. Replace sole person with Klee using simple rough PV dark outlines and flat shading. PRESERVE CLOCK AND PILLOW EXACTLY WHERE IN SOURCE, not shifted left: detached cream clock is isolated around x45.4..52.5%,y43.3..57.2% (bbox approx 872,469 to1008,616), tilted slightly left, with empty-purple display and NO digits. Leftmost spread brown fingertip is at x52.3% (1004px), with clear empty-background gap between glove and source clock edge: hand is NOT touching or overlapping the clock. Left cream cuff at x55..59%, y46..53%; bent red elbow down at x66%,y56%; right brown palm raised x89%,y35% with cuff x87%,y39%, elbow x85%,y48%. Exact source shrug pose rather than straight T arms. Pillow stays behind head x55..83%, y14..53%, upper-right edge original. Head around x70.8%,y29%, slightly tilted viewer-left relative to torso. Both half-open drooping RED eyes and small closed downturned mouth; blonde bangs, TWO short side ponytails not four hair wings, pointed ears. Red cream-clover beret white feather; no sleepmask. Lower source crop same lean and same legs scale, no enlarged body. Consistent red angular split coat, single lower-left cream clover, cream zigzag underskirt faint clovers, narrow pink ruffle, RED shorts, ONE small left waist dangling pom, right brown backpack; no extra two chest pompoms. Two SIMPLE CREAM cuff bands not fluffy balls. Preserve all empty violet background and original framing. NO lyrics/captions/text/letters/digits anywhere. Single full frame only.",
+  "output": "../generated/fine-f0157-geometry-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0157.png",
+  "temporal_review": "pending"
+}

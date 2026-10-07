@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-6f78a7b7-65d9-40a7-8bb2-126bf83ad678",
+  "canonical_cel": "cel-0058",
+  "source_frame": 380,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. ONE full16:9 current-source PV replacement cel f0380. Reference1 CURRENT exact source sets crop, face coordinates, current eye/mouth strokes, finger contact and cuff outlines. Reference2 HAT-ONLY crop Klee identity/palette/loose black style only, not framing; reference3 A/B actual source spatial delta CURRENT top-right, guide not output sheet. Klee default red cream-clover beret with viewer-right white feather/round browncloverbadge (no long hanging loops), shorttwo attached blonde sideponytails/pointedears, redcreamcoat, sparse peach-diamond cream collar with small roundscalloped creamdisk medallion, plaincreamcuffs and fullbrown gloves/wrists. Preserve CURRENT source CLOSED black eyelids at43.4%height, tiny closed mouth blackbar at56.6%height with small endticks, head/facecenter63.3%width/chin71.8%height. Keep source eyelid/mouth/cheek/palm landmarks, do not push down for hat; replace source mask/bang region above eyelids with beret/blondebangs. Genuine redraw relative f0374: right glove upright finger separations/outer edge recontoured, left palm/finger lobes slightly compress and inner C-edge changes, upper lid weight/end shape and central bang tip changes, cuff right front plane and lower outer rim redrawn. Both hands cup cheeks with inward-curled leading digits, no shrug or open palms away from face, exact source current asymmetry. Hair behind brown palms/fingers, only two short sideponytails, no duplicate underarm wings. Match source loose black outlines and broad flat patches with orange cheeks, restrained shadows, no detailed rendering. Remove EVERY caption/lyrics/credits/lettering/bubble/outline/watermark, clean purple background. Full source visible scope upper hat/lower torso cropped, no invented anatomy/props/annotations/montage.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0117-f0380.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-hat-only-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0380.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0380.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0374 to f0380: 85943 pixels >=28; subtle genuine finger/inner palm/lid line pressure/cuff plane and bang outline differences, not compression-only.",
+  "inspection": "Closed eyes/mouth and current high C-palms correct, no text/long hanging hat loops. Eye/mouth positions43.0/56.5 percent broadly match source43.4/56.6, chin a little high (~15px). Collar/medallion now added crossed pattern/cream tie-tail not established prior simple round disk, clothing-detail consistency flag. Fine local contours visibly changed; not accepted sequence."
+}

@@ -1,0 +1,91 @@
+{
+  "review_scope": "Static explicit 856 -> 863 hair-v2 -> 868 v1 -> 873 v1 -> 880 v1 source/draft group; no actual composite or original-speed acceptance",
+  "viewed_evidence": {
+    "full_native_drafts": [856, 863, 868, 873, 880],
+    "source_draft_group": true,
+    "all_four_neighbor_source_draft_contour_boards": true,
+    "all_four_local_source_draft_boards": true,
+    "all_four_source_only_actual_rgb_x4_and_two_color_contour_local_boards": true,
+    "additional_native_normalized_detail_pairs_viewed": [
+      "f0863-new-source-draft-legs-boots.png",
+      "f0868-new-source-draft-legs-boots.png",
+      "f0868-new-source-draft-head-mouth-hair-collar.png",
+      "f0873-new-source-draft-head-mouth-hair-collar.png",
+      "f0880-new-source-draft-head-mouth-hair-collar.png",
+      "f0880-new-source-draft-legs-boots.png"
+    ]
+  },
+  "overall": {
+    "gross_source_pose_changes_present": true,
+    "obvious_extra_hand_or_third_leg_observed": false,
+    "source_eyes_closed_in_all_five_and_drafts_remain_closed": true,
+    "artistic_acceptance": false,
+    "actual_speed_playback_performed": false,
+    "complete_glyph_acceptance": false,
+    "verdict": "Useful independent pose drafts, still unaccepted due to hair/costume/contour continuity risks. No final motion or compositor pass is established."
+  },
+  "per_frame": [
+    {
+      "frame": 856,
+      "draft": "root-continuation-f0856-v1.png",
+      "role": "Existing unaccepted preceding anchor, not repaired in this task",
+      "observed": "Closed eyes and a tall narrow open mouth; both open gloves point upward with forward palms. Screen-left leg extends down and foreground; screen-right leg folds back with the boot to its right. Exactly two hands and two leg chains visible.",
+      "costume_state": "Vertical center seam continues into the cream hem; clover sits toward screen-right of the coat; plain red shorts lack the narrow cream thigh bands introduced at f863. Wide multi-lobed collar and rounded side ponytails.",
+      "limitations": "Already-unaccepted anchor means copying its costume details is not approval of them."
+    },
+    {
+      "frame": 863,
+      "draft": "root-continuation-f0863-hair-v2.png",
+      "source_change": "Higher frontal head and small O; both wrists turn from upright open palms to thin outward edge-on fingers; folded rear leg draws slightly inward.",
+      "draft_observed": "Both gloves now form horizontal side-facing silhouettes, not retained f856 upright palms. Frontal closed eyes and the smaller O are present. Two separate leg chains connect beneath the shorts; long front/down leg hides the medial root of the folded leg. The short side ponies end near the shoulders, and the previous overlong back-hair shape is absent in this explicit hair-v2.",
+      "risks": ["Center seam disappears despite another mostly frontal view; clover moves to the coat center and is smaller.", "Hem changes to two rounded split/scalloped lobes and cream bands are introduced below both red shorts legs.", "Pony tie/root identity and collar contour are still stylized rather than anatomically registered."]
+    },
+    {
+      "frame": 868,
+      "draft": "root-continuation-f0868-v1.png",
+      "source_change": "Both palms reopen with thumbs up; frontal head tilts slightly, O grows vertically; rear leg foreshortens to a compact tucked knee and small shoe below it.",
+      "draft_observed": "Exactly two splayed brown gloves with upward thumbs; closed eyes, larger vertical O and two legs retained. Rear knee and boot are compact instead of copying the long far shin from the prior draft.",
+      "risks": ["Additional long blonde fans reappear behind both upper sleeves, extending far below the two cheek-side short ponies. Their roots are obscured and do not preserve the bounded f863 hair-v2 topology.", "Rear boot remains farther screen-right and more exposed than the source's tightly tucked shoe; foreshortening/depth is approximate.", "Collar becomes two smooth leaf-like lobes; clover becomes conspicuously larger; hem becomes one broad curved band; cream shorts-leg bands disappear. These are schema changes, not just pose deformation."]
+    },
+    {
+      "frame": 873,
+      "draft": "root-continuation-f0873-v1.png",
+      "source_change": "Major independent extreme: body/head move right and lean clockwise; screen-left arm lifts steeply, screen-right arm lowers; formerly tucked leg unfolds into a long down-right kick with the sole edge visible.",
+      "draft_observed": "Asymmetric high-left/low-right arms and both visible open gloves are present. Closed eyelids and tilted smaller O remain. Exactly two long separated leg chains; down-left boot and raised down-right kicking boot are correctly distinct, with a readable sole edge on the kicking boot. This is not a rigid transform or alias of f868.",
+      "risks": ["Collar changes back to a multi-lobed scallop; coat hem again splits/scallops; thin cream shorts bands return.", "Coat clover shrinks again and follows a different front-center placement from the f868 motif.", "Backpack strap widths/side panels and pony-tip volume differ; exact boot depth and body contour still need motion/composite inspection."]
+    },
+    {
+      "frame": 880,
+      "draft": "root-continuation-f0880-v1.png",
+      "source_change": "Raised arm approaches vertical; low-right hand descends; head leans further clockwise and O becomes smaller; the kicking second boot lowers into the caption band while the other leg remains down.",
+      "draft_observed": "High-left glove is nearly vertical above the head, low-right glove is lower, and both are visible. Two long separated legs remain; the right boot lowers and its sole-facing angle becomes shallower instead of staying at the f873 raised kick. Both closed eyes and smaller O remain.",
+      "risks": ["Small pale wedges appear behind the raised sleeve and beneath the lowering sleeve. They are not hand-shaped and no extra hand is confirmed, but their connection to the two short pony roots is not traced convincingly. They must be judged as hair/occlusion continuity, not automatically as retained yellow effects.", "Source head/eyelid/mouth clockwise progression is stronger than the visually approximate draft progression; avoid claiming an exact head rotation match.", "Multi-lobed collar, split hem and cream shorts bands persist from f873 but do not reconcile f856/f863/f868 costume changes.", "Both boots enter opposite ends of the fixed caption area in the source; generated underlay alone cannot certify registered text occlusion or pale-on-pale contrast."]
+    }
+  ],
+  "prioritized_findings": [
+    {
+      "id": "NEXT-STATIC-01",
+      "priority": "P2",
+      "frames": [863, 868, 873, 880],
+      "finding": "Hair topology is not continuous after the f863 shortening: f868 introduces large rear fans; f880 adds weakly rooted pale wedges behind the sleeves.",
+      "constraint": "Keep exactly two short side ponytails, attached through recognizable same-side roots; no extra long rear-hair fans. Draw sleeve-over-hair/strap occlusion explicitly. Preserve each current source hand and arm pose while repairing hair."
+    },
+    {
+      "id": "NEXT-STATIC-02",
+      "priority": "P2",
+      "frames": [856, 863, 868, 873, 880],
+      "finding": "Center seam, collar-lobe schema, split-vs-one-piece hem, shorts cream bands and coat-clover placement/size toggle between neighbors.",
+      "constraint": "Choose one reviewed coat/shorts/collar schema before a bounded repair. Keep the same seam presence, collar topology, hem construction and clover motif as local cloth features that deform with perspective, not different garment designs. Do not call a costume repair pixel-locked without measuring drift."
+    },
+    {
+      "id": "NEXT-STATIC-03",
+      "priority": "P2",
+      "frames": [868, 873, 880],
+      "finding": "Gross two-leg trajectory is represented but f868 rear boot depth and subsequent soles/cuff outlines are approximate; f880 head tilt is not exact.",
+      "constraint": "Retain two separate leg chains with the correct foreground medial overlap at f868; unfold the same tucked leg at f873, then lower that boot at f880. Match the current head/eyelid/mouth lean independently. Inspect actual sequential composites before acceptance."
+    }
+  ],
+  "separate_caption_review": "The 24 actual-source decode audit supports a fixed phase through f886, not actual generated text acceptance. Updated production composite pages are a subsequent separate task.",
+  "shared_state_modified": false,
+  "source_aliases_added": false
+}

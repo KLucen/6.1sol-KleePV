@@ -1,0 +1,82 @@
+{
+  "source_frame": 3223,
+  "cel": "cel-0581",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: CURRENT turns farther BACK toward screen-right; visible face becomes plain BACK/side head with NO eye, mouth, orange cheek or front coat row except small far-right button edges. Star positions HELD from3222, original PERSON changes: two horizontal gloves move slightly screen-right/down, torso narrows/turns away, hair contour follows down-left. Crucial current visible near sleeve is L-SHAPED RED arm: horizontal forearm from cream cuff originalx800/y175 to elbowx1120/y300, then VERTICAL upper arm x1010-1190 down toy650. Draw that RED sleeve in front of ear/hat/hair, not hair/hat in its place. Far sleeve lower horizontal behind near sleeve. Exactly TWO brown mitten ends. Upper foreground star hides crown and face-right; bottom foreground star covers lower body. Klee only two short tail roots behind arm; no long front side lock over sleeve.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1769-f3223.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3222-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3222-f3223-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3223-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "346e2e7218fa460b28e07c86fdd84ef9bad208a37640f599c6ee8033202996b2",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "b0faf87cdbf28e40e04392d9f4bb1607618336dddc46b76cd1ef757e17206460",
+    "a7c50bb96c2d712d7567db2a6ad4002fe1bcd414625464fbc6e168cbbc784e1c",
+    "348ed383764040acff181285f67c7285a90789f7094d4f7792464b6441eb195e"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3223-v1.png",
+  "source_exposures": [
+    {
+      "start": 3223,
+      "end": 3224,
+      "pts": 134.292,
+      "end_pts": 134.333,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "CURRENT turns farther BACK toward screen-right; visible face becomes plain BACK/side head with NO eye, mouth, orange cheek or front coat row except small far-right button edges. Star positions HELD from3222, original PERSON changes: two horizontal gloves move slightly screen-right/down, torso narrows/turns away, hair contour follows down-left. Crucial current visible near sleeve is L-SHAPED RED arm: horizontal forearm from cream cuff originalx800/y175 to elbowx1120/y300, then VERTICAL upper arm x1010-1190 down toy650. Draw that RED sleeve in front of ear/hat/hair, not hair/hat in its place. Far sleeve lower horizontal behind near sleeve. Exactly TWO brown mitten ends. Upper foreground star hides crown and face-right; bottom foreground star covers lower body. Klee only two short tail roots behind arm; no long front side lock over sleeve.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-84e93e73-e0e0-4de3-b0c0-a44dec93bc41.png",
+  "output_sha256": "28d3bdf254845b58707488506c5e3b49c8f9cb94772aa48a9113ba2ec84d0272",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: two brown glove ends and no eye/mouth/orange cheek, two short tails; lower star covers body. Critical source near raised L-shaped sleeve still replaced by large hat/ear/hair; glove sleeves do not visibly connect down to shoulder in source-correct region despite explicit coordinates, crown/feather exposed above star. First draft exact-save accepted=false, prioritize arm/occlusion repair after full-video feedback.",
+    "accepted": false
+  }
+}

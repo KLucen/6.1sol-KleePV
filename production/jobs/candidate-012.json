@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-28513074-bf15-42e1-b6c5-c80c39c89de9",
+  "candidate_id": 12,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset type ONE complete wide16:9 hand-drawn PV cel. Reference1 source-cel-012 determines exact pose/composition: character lies HORIZONTALLY PRONE facing screen-left, stretched across the LEFT two-thirds, head near x21%,y52%, torso horizontal toward right, BOTH knees bent so two feet rise behind body around x45%,y33% and x59%,y40%. Both arms reach forward screen-left resting along a cream/lavender PILLOW UNDER her whole body; two little open palms at far-left and lower-left, not holding a sack. Preserve exact two raised-leg silhouettes, bent knee angles, two forward arms, half-open sleepy eyes and small visible face. Replace pink pajama girl with default Klee using reference2 identity/style: blonde SHORT side ponytails/pointed ears, red beret cream clover white feather, red coat cream hem/cuffs, brown gloves and BROWN BOOTS on both raised feet. Coat folds over prone hips, backpack only if visible on upper back. Image3 candidate004 provides consistent full-body Klee clothing palette only, NOT curled-up pose or framing. Pillow stays behind/beneath arms/body; gloves above pillow, head/hair in front of shoulders, boots at rear raised feet. Maintain original large blank lavender upper background, right-side subtitles Chinese '于是我们 告了别', Japanese '僕たちは そして またね', and source overall scale/crop. Loose dark linework flat colors orange cheeks simple source-style shadows, not detailed illustration. No panels, no new props, no extra limbs, no upright/sitting person.",
+  "references": [
+    "analysis/source_cels/source-cel-012.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-004.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-012.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Prone source pose retained with two forward gloves and two bent rear legs/boots. Pillow under arms/body, backpack on upper back. Source broad body direction and scale matched, original long hair replaced by short Klee ponytails."
+}

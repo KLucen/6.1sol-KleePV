@@ -1,0 +1,110 @@
+{
+  "id": "standing-missing-f1069-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "source_frame": 1069,
+  "source_cel": "cel-0226",
+  "source_reference": "source_refs/src-0601-f1069.png",
+  "source_exposures": [
+    {
+      "start": 1069,
+      "end": 1075,
+      "pts": 44.542,
+      "end_pts": 44.792,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-actual.png",
+      "role": "Exact original1069 controls slightlylower tiltedhead/gloves/body contours and framing."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-face-native.png",
+      "role": "Current actual closedeyes/caretface remainscounterclockwisetilted, no new expression."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-f1069-source-ab-rgb-contours.png",
+      "role": "Actual1064-to1069 AB/RGB/contours: head+torso subtlydown, both cuffs/gloves lower, tinyfootredraw; sourcewardrobe not identity."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\standing-f1064-fast-v1.png",
+      "role": "Immediate Klee cel maintains tilted head, rootedtwo shorthairgroups, plainredcoat withcreamhem/redshorts/brownboots topology; not fixedpose."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE full independent hand-drawn PV cel, not a collage. Preserve original PV exposure and framing; replace the sole original girl with Klee. Input1 is current exact original source controlling every pose, crop, visible limb, facial expression and spatial composition. Input2 is current source native facial evidence. Input3 actual previous/current original AB, amplified RGB difference and contours controls direction and amplitude; do not copy original identity. Input4 is previous newly drawn Klee continuity/style, not a frozen pose template. Use original simple drawn outlines, mostly flat colors, no extra texture or rich shading. Klee identity: red beret with cream four-leaf clover and white feather/brown side badge, short pale blond bang locks and TWO short compact ponytails connected below her elf ears, not original long hair; simple red coat with plain two-lobed cream collar, cream sleeve cuffs and hem, red shorts, brown gloves and brown boots. Continue the existing proportions and costume of Image4 with no added pompom, backpack, long mane, necklace or ornate coat trim. Keep torso/leg length, hat/head size and foot/hands locations consistent with the ORIGINAL target composition rather than turning her into a small chibi pasted in another position. Each hand connects once to its sleeve and has the source visible gesture in brown gloves; two legs end in two brown boots. No extra limbs or floating hair. Original stars and purple background retain their arrangement, no new stars or objects. Do not render any lyrics or new text; exact original Japanese/Chinese lyrics will be restored independently in compositing. One entire landscape16:9 frame. Current target f1069 retains the same counterclockwise head tilt, tiny CLOSEDcaret mouth and fully CLOSEDeyes; head/torso descend slightly vs1064 while remainingleft-leaning. Both gloves lower a little: screen-left near(686,580), screen-right near(1175,582) on1920canvas; current creamcuff angles and rounded fingertip shapes freshly redrawn. Left/right hands nearlysameheight, sleeves still diagonaldown, no wave or handsraised. Redraw current shoulder/coathem pressure and two legs/boots without translating wholebody as a single layer. Keep continuous simple plainredcoat with SINGLEcreamcoathem ABOVEshortredshorts exactlyasImage4, NO sourcepockets/buttonrow/creamshortbands. Two compactponyroots must remainconnected and same volume, respond modestlywithhead. Feet remain grounded; keep total bodyheight, notsquat/shrink. Independent freshdrawing with restrained actualsource amplitudes; do not return unchanged previous image.",
+  "output": "generated/standing-f1069-fast-v1.png",
+  "accepted": false,
+  "artistic_acceptance": false,
+  "original_speed_review": "not_performed",
+  "status": "generated_draft_unaccepted",
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-eb8e6f07-b9fd-48f4-a81a-d9fcc6c38710.png",
+  "output_sha256": "e9ebf9d672cd11928bef91810c7d57a02bac1815dff01240d115c0cc1782330d",
+  "output_dimensions": [1672,941],
+  "static_review": "Viewed exact current full source/native tiltedclosedface, actual1064-to1069 AB/RGB/contours and full generated output. Both gloves descend subtly with redrawn edges; counterclockwise closedeyehead, two compactrootedpony groups, plainredcoat/creamcoathem and grounded boots maintained. Source head descent/leftshift amplitude remains approximate, glove fingers reduced, richer kneemark/bootclover retained, source-to-new clothinglength style differences pending. No originalspeed/compositing artacceptance.",
+  "source_evidence": {
+    "source_frame": 1069,
+    "cel": "cel-0226",
+    "source_reference": "source_refs/src-0601-f1069.png",
+    "current_source": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-actual.png",
+      "png_sha256": "fb5f5e65e2687f9198ad48cda66471076e488d1873d43e1159fda1cf5aa55256",
+      "decoded_bgr_sha256": "74a802e02a2e119ab63957f6c4d448852b548d0cbb6243d81c63e058d9bd676a",
+      "canonical_reference_exact": true
+    },
+    "before_source_frame": 1064,
+    "before_source": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-source-actual.png",
+      "png_sha256": "f50740eb9353fd4aafeb2734301a5ecfe36c6034bf393243cce7cdda420e2e71",
+      "decoded_bgr_sha256": "faefeea4314d8e7a5a8a8e080090eedb912aae82cf231018de7b29d6d43787dc",
+      "canonical_reference_exact": true
+    },
+    "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1064-f1069-source-ab-rgb-contours.png",
+    "delta_sha256": "24854a1fad525256950eb2ede689b214428ca338e6be72d17cc039156a18fa35",
+    "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-face-native.png",
+    "native_body_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\f1069-source-body-native.png",
+    "source_exposures": [
+      {
+        "start": 1069,
+        "end": 1075,
+        "pts": 44.542,
+        "end_pts": 44.792,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      }
+    ],
+    "manual_source_and_delta_review": "pending",
+    "accepted": false,
+    "alias_created": false
+  },
+  "independent_cel": true,
+  "alias_created": false
+}

@@ -1,0 +1,21 @@
+{
+  "source_frame": 724,
+  "name": "fine-f0724-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0319-f0724.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0724.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent 16:9 full-frame PV cel. Image1 CURRENT source f0724 is EDIT TARGET and absolute authority for native screen scale/location, front-facing upright pose, shoulders/arms occlusion, exact sleepy-open eyelids/gaze/tiny downturned mouth, visible body extent and bottom crop. Replace ALL old human/costume with Klee. Image2 Klee is IDENTITY/DESIGN ONLY, not pose/crop/props; use its flat simplified red cream-trim coat with coat emblem, red beret creamclover and whitefeather, blonde short twins, pointed ears and brown gloves. Image3 source cut/diff evidence only, no analysis panels in output. This CURRENT character is SMALL and centered lower half: source head around x43%..58% width and y36%..61% height, body fromy63% through cropped bottom; do not zoom or produce big closeup. Both arms are held BEHIND torso and no hands/gloves are visible: preserve occlusion, invent no hands. Exact source sleepy half-open upper lids, eyes looking forward/down, tiny inverted-v mouth, no smile. Red Klee irises retain source BLACK small hooked pupils and WHITE highlight accents, never blank red discs or allblackeyes. Exactly TWO SHORT blonde ponytails immediately at ear-roots, no long source hair, no third tuft above hat; pointed ears; red beret with creamclover/whitefeather/plain round brownclover side badge and no dangling decorations. Completely REMOVE source bunny forehead sleeping mask; no two headwear layers. Redcoat with cream cuffs/trim and cream coat emblem; cream angular skirt with narrow pinkruffle/redshorts may meet bottom crop at source garment end, no pajama buttons/pockets/trouser tubes. No pillow, clock, backpack prop from reference2 or any new prop. Preserve source background lavender solidflat, source simple rough thickblack contours and minimal flat shading. Remove all source lyric text for separate compositing, no text/watermark/panels. Only current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-a34d6e75-a441-4aa6-8c55-9f4476958d1a.png",
+  "output": "../generated/fine-f0724-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Source-native small centered upright pose, hidden hands and sleepy eyes/mouth broadly present. Extra top hair tuft/dangling hat strips and reduced pupils/highlights require targeted repair.",
+  "known_issues": [
+    "Extra above-hat cream tuft and dangling sidebadge strips",
+    "Black pupil hooks/white highlights reduced to tiny dots",
+    "Skirt/hair contour simplification drift"
+  ]
+}

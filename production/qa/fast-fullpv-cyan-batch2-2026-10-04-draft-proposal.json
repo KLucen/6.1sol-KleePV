@@ -1,0 +1,199 @@
+{
+  "owner": "root_cyan_batch2_2026-10-04",
+  "accepted": false,
+  "artistic_accepted": false,
+  "tool": "builtin_imagegen",
+  "source_interval": [
+    965,
+    1006
+  ],
+  "generation_calls": 17,
+  "unique_source_cels": 15,
+  "unselected_blockers": [
+    "fast-fullpv-cyan-f0975-v1",
+    "fast-fullpv-cyan-f0981-v1"
+  ],
+  "actual_speed_review": "unperformed",
+  "selections": [
+    {
+      "source_frame": 965,
+      "path": "generated/fast-fullpv-cyan-f0965-v1.png",
+      "accepted": false,
+      "review": "Actual source/face/A-B/RGB/contours and whole generated output inspected. One closed-eye right-facing Klee with attached short ear-side group and tiny hooked-dot mouth. No original animal hat, long source hair, extra face or limbs observed. Independent contour/mouth changes visible, but source micro-motion and full high-face registration not claimed exact.",
+      "known_issues": [
+        "Existing approximately4-5% vertical source-face registration discrepancy persists; not an accepted pose anchor",
+        "Additional hat/coat shading and symbol precision",
+        "Original-speed and final composite/caption review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0965-v1.json",
+      "asset_sha256": "24925f8aa9ece6bb0c88f4aee45bec8a2eed9d7a695e3c93ea153004202c7551"
+    },
+    {
+      "source_frame": 967,
+      "path": "generated/fast-fullpv-cyan-f0967-v1.png",
+      "accepted": false,
+      "review": "Current actual full source/face/spatialdelta and full tool output seen. One closed eye/tiny dark mouth, attached near short group, small fringe/collar/profile redraw. No old animal mask, long source hair, extra person or limb observed. No generated text. Source967 true lyric change belongs independent composite layer.",
+      "known_issues": [
+        "Existing approximate high-face registration versus source",
+        "Source closed-lid/forehead angle and wind micro amplitude approximate",
+        "Extra shading, final composite/caption and original-speed review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0967-v1.json",
+      "asset_sha256": "dc800262544c0e6c9dcc014f6e47f4744d2c18cfe5edf004ab55e25595812a8a"
+    },
+    {
+      "source_frame": 969,
+      "path": "generated/fast-fullpv-cyan-f0969-v1.png",
+      "accepted": false,
+      "review": "Actual current source/face/2D delta and complete tool output viewed. Near short rooted group visibly lifts/back-left from967, no huge long source hair sheet or detached third group. One fully closed eye and tiny mouth, two-leaf collar, source right-facing crop. Hair wind amplitude adapted to short Klee group, not source-long-hair geometry claimed exact.",
+      "known_issues": [
+        "Near short group extends further than prompt20-30px expectation; static root remains attached, original-speed severity pending",
+        "High-face registration versus source remains approximate",
+        "Minimal source expression/hair/stroke differences and extra shading remain draft"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0969-v1.json",
+      "asset_sha256": "83008c7de39177b3e22342a4d40929608b408fc9850acc38d6022fcd8174352a"
+    },
+    {
+      "source_frame": 973,
+      "path": "generated/fast-fullpv-cyan-f0973-v1.png",
+      "accepted": false,
+      "review": "Actual source/face/delta and whole generated image inspected. Sustained raised-back-left near short group, stable ear root and no extra group; current micro redraw preserved as distinct image. One fully closed eye/tiny mouth and plain two-leaf collar. No source animal mask or invented limb. Not claimed exact source stroke replication or original-speed motion.",
+      "known_issues": [
+        "Wind-state closely resembles969, true perceptual microdelta unverified",
+        "High face registration approximate",
+        "Extra shading/decoration and final composite/caption pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0973-v1.json",
+      "asset_sha256": "690f1ae11324741aab34af95b289b86d5c06ac682bde85a72a2c4a130f7c23ef"
+    },
+    {
+      "source_frame": 975,
+      "path": "generated/fast-fullpv-cyan-f0975-hair-v2.png",
+      "accepted": false,
+      "review": "Full corrected builtin output inspected. Near group leftmost edge moves from~333 to~478native px, restoring short persistent length/mass close to973; root stays at ear and lower tip lifts moderately. Closed-eye mouth/head/collar remain. No new lobe/third group/old source mask/limb. Do not claim non-hair pixels exactly locked; whole-image/native delta and original-speed review pending.",
+      "known_issues": [
+        "Residual micro wind direction/amplitude and exact source face registration",
+        "Tool edit may change outside the targeted hair; no pixel lock claim",
+        "Final matte/glyph and original-speed artistic review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0975-hair-v2.json",
+      "asset_sha256": "fc7d1c851ce87eb91ca7b5a7ed19d4120da07caa8e22a790f666eb8ee76f63c7"
+    },
+    {
+      "source_frame": 980,
+      "path": "generated/fast-fullpv-cyan-f0980-v1.png",
+      "accepted": false,
+      "review": "Complete actual source/face/delta and tool output viewed. Maintains corrected compact short ear group, closed eye and tiny mouth, with small current outline/collar redraw. No regrowth to975-v1 long fan, original mask or extra limb. Source registration and micro-motion approximate, not an accepted full-pose template.",
+      "known_issues": [
+        "Approximate current-source face registration and stroke/wind micro changes",
+        "Extra shading/decoration",
+        "Final matte/glyph and original-speed review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0980-v1.json",
+      "asset_sha256": "d03f21a3bc229367482a31961ccf9134a87dafa9d263cd322a787d0fbc317e6d"
+    },
+    {
+      "source_frame": 981,
+      "path": "generated/fast-fullpv-cyan-f0981-nod-v2.png",
+      "accepted": false,
+      "review": "Correct clockwise nod retained; excessive down relocation reduced; Short ear-rooted pony and closed eye/tiny dot mouth retained; Absolute source-face registration remains approximate and original-speed review pending; Targeted repair changes some other lines; no pixel-lock claim",
+      "known_issues": [
+        "Absolute source-face registration remains approximate and original-speed review pending",
+        "Targeted repair changes some other lines; no pixel-lock claim"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0981-nod-v2.json",
+      "asset_sha256": "93605600b053a7a606812a0e66176590c0aa411c3d35fd24a98dc40628ddb6fa"
+    },
+    {
+      "source_frame": 984,
+      "path": "generated/fast-fullpv-cyan-f0984-v1.png",
+      "accepted": false,
+      "review": "Sustained corrected nod, closed eye and tiny dot mouth; Independently redrawn small bang, pony-tip and collar contours; no further downward jump; Source face placement approximate; actual-speed review pending",
+      "known_issues": [
+        "Source face placement approximate; actual-speed review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0984-v1.json",
+      "asset_sha256": "f2cfdde265063e3d705d523597cbc44f99c18be91ef5e4e8a4426c4e3167dcb5"
+    },
+    {
+      "source_frame": 987,
+      "path": "generated/fast-fullpv-cyan-f0987-v1.png",
+      "accepted": false,
+      "review": "Major profile to three-quarter turn present with TWO half-open eyes, small frown and dot nose; Both short rooted pony groups visible, plain collar and no original animal hat; Face registration left/down by several percent relative source; approximate, deferred to grouped original-speed review; Additional tiny eye highlights and dark upper night iris band differ from source simplification",
+      "known_issues": [
+        "Face registration left/down by several percent relative source; approximate, deferred to grouped original-speed review",
+        "Additional tiny eye highlights and dark upper night iris band differ from source simplification"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0987-v1.json",
+      "asset_sha256": "cc5adaccacc4c1b83a9bc1500c91ade6fc3c3091b5c555d4ab506bff8ae6ee05"
+    },
+    {
+      "source_frame": 992,
+      "path": "generated/fast-fullpv-cyan-f0992-v1.png",
+      "accepted": false,
+      "review": "Two half-open sleepy eyes, closed frown and dot nose retained; Small independent contour/shadow changes; stable rooted short pony groups and head position; Several-percent source face-registration mismatch carried forward; temporal/artistic review pending",
+      "known_issues": [
+        "Several-percent source face-registration mismatch carried forward; temporal/artistic review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0992-v1.json",
+      "asset_sha256": "a9643ae01bf8e66fe08ca55ced5319aeba5f2bfa3091fad961e4c76bafd2b36b"
+    },
+    {
+      "source_frame": 993,
+      "path": "generated/fast-fullpv-cyan-f0993-v1.png",
+      "accepted": false,
+      "review": "Head moves left/up with newly wide open two eyes; closed caret mouth retained; Short two rooted pony groups and plain collar preserved, no original mask; Added eye lashes/shadow detail; absolute face registration approximate and artistic review pending",
+      "known_issues": [
+        "Added eye lashes/shadow detail; absolute face registration approximate and artistic review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0993-v1.json",
+      "asset_sha256": "18e337768f56bb4252876fd00dc3800d43c8920bb79617732c58016b3f06d478"
+    },
+    {
+      "source_frame": 997,
+      "path": "generated/fast-fullpv-cyan-f0997-v1.png",
+      "accepted": false,
+      "review": "Wide two eyes and closed caret mouth maintained; Small newly redrawn eye/bang/pony contours without large head translation; Existing added shading/eye detail and approximate face placement remain pending grouped review",
+      "known_issues": [
+        "Existing added shading/eye detail and approximate face placement remain pending grouped review"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0997-v1.json",
+      "asset_sha256": "1684e5d8f53a9b9cf5f4a3d64209156052d44a2ef38d137145111cf6594ab95d"
+    },
+    {
+      "source_frame": 998,
+      "path": "generated/fast-fullpv-cyan-f0998-v1.png",
+      "accepted": false,
+      "review": "Required mouth opening present as small oval/teardrop, no tongue or teeth; Wide two eyes and compact rooted hair maintained; Pose line changes subtle; approximate face placement and original-speed artistic review pending",
+      "known_issues": [
+        "Pose line changes subtle; approximate face placement and original-speed artistic review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f0998-v1.json",
+      "asset_sha256": "a86520467875bd60aea687ced0bce1eb340e329a3cffae1c8b213d6fa689fff7"
+    },
+    {
+      "source_frame": 1002,
+      "path": "generated/fast-fullpv-cyan-f1002-v1.png",
+      "accepted": false,
+      "review": "Wide eyes and open small oval mouth present; Small independent face/hat/collar redraw, short rooted pony masses retained; Source pose placement approximate; actual-speed and artistic review pending",
+      "known_issues": [
+        "Source pose placement approximate; actual-speed and artistic review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f1002-v1.json",
+      "asset_sha256": "af705acd20f39ce39de1c6063604a90d71bfc4a68c54e234df8c92c8d8686fa5"
+    },
+    {
+      "source_frame": 1003,
+      "path": "generated/fast-fullpv-cyan-f1003-v1.png",
+      "accepted": false,
+      "review": "Wide eyes/open small oval mouth and short rooted two pony groups retained; Small independent line changes; exact source left-motion amplitude not asserted; Approximate face/pose registration and original-speed artistic review pending",
+      "known_issues": [
+        "Small independent line changes; exact source left-motion amplitude not asserted",
+        "Approximate face/pose registration and original-speed artistic review pending"
+      ],
+      "generation_job": "jobs/fast-fullpv-cyan-f1003-v1.json",
+      "asset_sha256": "d5e716f6c0d02e74b8ec9b1d18034df8331d3163a7214a18e66b706d2662710f"
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "accepted": false,
+  "owner": "star_finish_oct5",
+  "source_interval": [
+    1008,
+    1043
+  ],
+  "actual_frames": 35,
+  "canonical_raw_composite_comparisons": 16,
+  "source_timing_mutated": false,
+  "compose_mutated": false,
+  "selections_mutated": false,
+  "registered_assets": {
+    "candidate-033-clean.png": [
+      1008,
+      1009
+    ],
+    "star-gestures-f1009-fast-v1.png": [
+      1009,
+      1010
+    ],
+    "star-gestures-f1010-fast-v1.png": [
+      1010,
+      1011
+    ],
+    "candidate-034-clean.png": [
+      1011,
+      1012
+    ],
+    "star-gestures-f1012-fast-v1.png": [
+      1012,
+      1013
+    ],
+    "star-gestures-f1013-fast-v1.png": [
+      1013,
+      1014
+    ],
+    "star-gestures-f1014-fast-v1.png": [
+      1014,
+      1017
+    ],
+    "star-gestures-f1017-rear-hair-v2.png": [
+      1017,
+      1019
+    ],
+    "candidate-036.png": [
+      1019,
+      1022
+    ],
+    "candidate-037.png": [
+      1022,
+      1023
+    ],
+    "star-gestures-f1023-fast-v1.png": [
+      1023,
+      1025
+    ],
+    "star-gestures-f1025-fast-v1.png": [
+      1025,
+      1028
+    ],
+    "candidate-038.png": [
+      1028,
+      1033
+    ],
+    "star-gestures-f1033-fast-v1.png": [
+      1033,
+      1037
+    ],
+    "star-gestures-f1037-fast-v1.png": [
+      1037,
+      1038
+    ],
+    "star-gestures-f1038-fast-v1.png": [
+      1038,
+      1043
+    ]
+  },
+  "rows": [
+    {
+      "frame": 1008,
+      "asset": "generated/candidate-033-clean.png",
+      "asset_sha256": "a373e42cd1466d32fcba2a54cdf2924aae5a079952f03cd17d3c30fd800a136a",
+      "source_sha256": "79aa070610ce8680ef584e7d03a92624e3ad3a33b23c2648f4dc88d2bf4c7f2e",
+      "word_phase": 0,
+      "source_subject_pixels": 1537434,
+      "generated_subject_pixels": 1409903,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1008-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1008-native-caption-pair.png"
+    },
+    {
+      "frame": 1009,
+      "asset": "generated/star-gestures-f1009-fast-v1.png",
+      "asset_sha256": "40d507204928415a06242e6e3f5ce4294ee3c9b18f08f2fef4c548713632b274",
+      "source_sha256": "af0419e86b7311f23ea3df45e23c208baa22f95eab430eed1c53f87ee0d35601",
+      "word_phase": 0,
+      "source_subject_pixels": 1537742,
+      "generated_subject_pixels": 1479507,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1009-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1009-native-caption-pair.png"
+    },
+    {
+      "frame": 1010,
+      "asset": "generated/star-gestures-f1010-fast-v1.png",
+      "asset_sha256": "b6ac6ec0788dd9ccccb575f68394a292da63278a7d92e63dd654d9a34a2b28b5",
+      "source_sha256": "d5cae5f2056eb2f6fb186cbf6b040486b416986c65e8251a136a3ae94eb1be0f",
+      "word_phase": 0,
+      "source_subject_pixels": 1538483,
+      "generated_subject_pixels": 1467527,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1010-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1010-native-caption-pair.png"
+    },
+    {
+      "frame": 1011,
+      "asset": "generated/candidate-034-clean.png",
+      "asset_sha256": "3fa0f19089ce922e512d0c242c91a0cfcfeba5257b563ad5333bbe010add59a4",
+      "source_sha256": "051cde419f062e0867866535b9a6d09cfd273f756fda9986f4481d6159652f6d",
+      "word_phase": 0,
+      "source_subject_pixels": 1539954,
+      "generated_subject_pixels": 1410865,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1011-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1011-native-caption-pair.png"
+    },
+    {
+      "frame": 1012,
+      "asset": "generated/star-gestures-f1012-fast-v1.png",
+      "asset_sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+      "source_sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+      "word_phase": 1,
+      "source_subject_pixels": 1540129,
+      "generated_subject_pixels": 1466229,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1012-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1012-native-caption-pair.png"
+    },
+    {
+      "frame": 1013,
+      "asset": "generated/star-gestures-f1013-fast-v1.png",
+      "asset_sha256": "cccc1edb308dcbf3d23fa58ebe1bb2d56d2449c7e32afe2ebd53914ef24c443f",
+      "source_sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+      "word_phase": 1,
+      "source_subject_pixels": 1535456,
+      "generated_subject_pixels": 1474631,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1013-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1013-native-caption-pair.png"
+    },
+    {
+      "frame": 1014,
+      "asset": "generated/star-gestures-f1014-fast-v1.png",
+      "asset_sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "source_sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+      "word_phase": 1,
+      "source_subject_pixels": 1535538,
+      "generated_subject_pixels": 1476277,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1014-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1014-native-caption-pair.png"
+    },
+    {
+      "frame": 1015,
+      "asset": "generated/star-gestures-f1014-fast-v1.png",
+      "asset_sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "source_sha256": "437254d5ffd81dabdb7e63a3c174a130ca46a46783cc8caa861950f035fbc7f7",
+      "word_phase": 1,
+      "source_subject_pixels": 1535629,
+      "generated_subject_pixels": 1476277,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1015-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1015-native-caption-pair.png"
+    },
+    {
+      "frame": 1016,
+      "asset": "generated/star-gestures-f1014-fast-v1.png",
+      "asset_sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "source_sha256": "871398c9b35ec662872d63c9a02ead4b089d239b2ddbe4a862302c18b4910e4a",
+      "word_phase": 1,
+      "source_subject_pixels": 1535710,
+      "generated_subject_pixels": 1476277,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1016-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1016-native-caption-pair.png"
+    },
+    {
+      "frame": 1017,
+      "asset": "generated/star-gestures-f1017-rear-hair-v2.png",
+      "asset_sha256": "c3b58d3167debcd3521c1ca236a5da5b07e16bb913b9f9b8fb46f30683b776df",
+      "source_sha256": "0adca735aa85b3ef374d2a3e366a1815eb25aa5694fba01aa928bac5d537a402",
+      "word_phase": 1,
+      "source_subject_pixels": 1611120,
+      "generated_subject_pixels": 1677601,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1017-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1017-native-caption-pair.png"
+    },
+    {
+      "frame": 1018,
+      "asset": "generated/star-gestures-f1017-rear-hair-v2.png",
+      "asset_sha256": "c3b58d3167debcd3521c1ca236a5da5b07e16bb913b9f9b8fb46f30683b776df",
+      "source_sha256": "6ef33b0fc4fe0c6c9b7ebc0c7c846f1ebcf23cc776963841b536af617757c37e",
+      "word_phase": 1,
+      "source_subject_pixels": 1611133,
+      "generated_subject_pixels": 1677601,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1018-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1018-native-caption-pair.png"
+    },
+    {
+      "frame": 1019,
+      "asset": "generated/candidate-036.png",
+      "asset_sha256": "694fcd87714120c3ee5ec9b49070ca5c4bcaa17cbaa534c514646187dddb1596",
+      "source_sha256": "466ea6e0409b29f6efbc769b08891688d90698cd85d19a60558e7b507c922295",
+      "word_phase": 1,
+      "source_subject_pixels": 1247464,
+      "generated_subject_pixels": 1235921,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1019-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1019-native-caption-pair.png"
+    },
+    {
+      "frame": 1020,
+      "asset": "generated/candidate-036.png",
+      "asset_sha256": "694fcd87714120c3ee5ec9b49070ca5c4bcaa17cbaa534c514646187dddb1596",
+      "source_sha256": "2ae289c6763322ba9c49f599f9f7b14fe6bd1cdee4427f428d3895d3c183c67e",
+      "word_phase": 1,
+      "source_subject_pixels": 1247224,
+      "generated_subject_pixels": 1235921,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1020-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1020-native-caption-pair.png"
+    },
+    {
+      "frame": 1021,
+      "asset": "generated/candidate-036.png",
+      "asset_sha256": "694fcd87714120c3ee5ec9b49070ca5c4bcaa17cbaa534c514646187dddb1596",
+      "source_sha256": "779d8c5a09ab9f9eadf2627a77d30a57982345fd73964d5d5f2d2a0964fbaacb",
+      "word_phase": 1,
+      "source_subject_pixels": 1247107,
+      "generated_subject_pixels": 1235921,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1021-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1021-native-caption-pair.png"
+    },
+    {
+      "frame": 1022,
+      "asset": "generated/candidate-037.png",
+      "asset_sha256": "c0967540cc09dca5e9c17b08019576a71588c1a9400a5558cd8870f9cb9b2955",
+      "source_sha256": "a0c0987842900c5f87865e2b06d584553796cb5f4ec4365492967d5f062bc08c",
+      "word_phase": 1,
+      "source_subject_pixels": 1195389,
+      "generated_subject_pixels": 1218035,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1022-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1022-native-caption-pair.png"
+    },
+    {
+      "frame": 1023,
+      "asset": "generated/star-gestures-f1023-fast-v1.png",
+      "asset_sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "source_sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+      "word_phase": 1,
+      "source_subject_pixels": 1178543,
+      "generated_subject_pixels": 1194052,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1023-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1023-native-caption-pair.png"
+    },
+    {
+      "frame": 1024,
+      "asset": "generated/star-gestures-f1023-fast-v1.png",
+      "asset_sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "source_sha256": "66500ea57606da99079c112cedcb41dcf507e9fbf620ba4cbd63f55d9cf87a60",
+      "word_phase": 1,
+      "source_subject_pixels": 1178567,
+      "generated_subject_pixels": 1194052,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1024-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1024-native-caption-pair.png"
+    },
+    {
+      "frame": 1025,
+      "asset": "generated/star-gestures-f1025-fast-v1.png",
+      "asset_sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "source_sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+      "word_phase": 1,
+      "source_subject_pixels": 1171895,
+      "generated_subject_pixels": 1163204,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1025-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1025-native-caption-pair.png"
+    },
+    {
+      "frame": 1026,
+      "asset": "generated/star-gestures-f1025-fast-v1.png",
+      "asset_sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "source_sha256": "131c59f554188ff82e4898e0aa2e58c116c6089359704cec64a1498d92775f70",
+      "word_phase": 1,
+      "source_subject_pixels": 1171923,
+      "generated_subject_pixels": 1163204,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1026-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1026-native-caption-pair.png"
+    },
+    {
+      "frame": 1027,
+      "asset": "generated/star-gestures-f1025-fast-v1.png",
+      "asset_sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "source_sha256": "29707965205d4681862c669d0e7bd4086ae5328d5ef1fdf149a4ec1e45492d26",
+      "word_phase": 1,
+      "source_subject_pixels": 1171854,
+      "generated_subject_pixels": 1163204,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1027-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1027-native-caption-pair.png"
+    },
+    {
+      "frame": 1028,
+      "asset": "generated/candidate-038.png",
+      "asset_sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "source_sha256": "3fdaa482f2cf5a8d59a78b370748bee9ba2b4c5d831055c78b5d9307741ab7d8",
+      "word_phase": 1,
+      "source_subject_pixels": 445583,
+      "generated_subject_pixels": 473272,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1028-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1028-native-caption-pair.png"
+    },
+    {
+      "frame": 1029,
+      "asset": "generated/candidate-038.png",
+      "asset_sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "source_sha256": "84d810bb69af45c67ce397a036a7512399b47714d5357b3f0e549f6a890317f9",
+      "word_phase": 1,
+      "source_subject_pixels": 445375,
+      "generated_subject_pixels": 473272,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1029-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1029-native-caption-pair.png"
+    },
+    {
+      "frame": 1030,
+      "asset": "generated/candidate-038.png",
+      "asset_sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "source_sha256": "671e1b7182c921cf885e6eab7055d7032ad1ece72624aa1a1f923578be4dd1ee",
+      "word_phase": 1,
+      "source_subject_pixels": 445379,
+      "generated_subject_pixels": 473272,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1030-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1030-native-caption-pair.png"
+    },
+    {
+      "frame": 1031,
+      "asset": "generated/candidate-038.png",
+      "asset_sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "source_sha256": "534c7bc104e6ccb22b2487f49d65f9bd1118c4b8f2f39a50ef4acd839e6fcf82",
+      "word_phase": 1,
+      "source_subject_pixels": 263283,
+      "generated_subject_pixels": 473272,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1031-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1031-native-caption-pair.png"
+    },
+    {
+      "frame": 1032,
+      "asset": "generated/candidate-038.png",
+      "asset_sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "source_sha256": "bd87c035310f66e295f2dddf571aa85cf5c6c3ac645fff5d104cd5438df54afd",
+      "word_phase": 1,
+      "source_subject_pixels": 263354,
+      "generated_subject_pixels": 473272,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1032-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1032-native-caption-pair.png"
+    },
+    {
+      "frame": 1033,
+      "asset": "generated/star-gestures-f1033-fast-v1.png",
+      "asset_sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "source_sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+      "word_phase": 1,
+      "source_subject_pixels": 259068,
+      "generated_subject_pixels": 248765,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1033-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1033-native-caption-pair.png"
+    },
+    {
+      "frame": 1034,
+      "asset": "generated/star-gestures-f1033-fast-v1.png",
+      "asset_sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "source_sha256": "5c82ccc70383f835d00ba474b82aa18cde53c71e320198535f827c8329f1a25f",
+      "word_phase": 1,
+      "source_subject_pixels": 259165,
+      "generated_subject_pixels": 248765,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1034-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1034-native-caption-pair.png"
+    },
+    {
+      "frame": 1035,
+      "asset": "generated/star-gestures-f1033-fast-v1.png",
+      "asset_sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "source_sha256": "d6b2e108a6ff892be41b936bf3872f74a1d59d676408d64ffc3108a818a9fd16",
+      "word_phase": 1,
+      "source_subject_pixels": 259170,
+      "generated_subject_pixels": 248765,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1035-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1035-native-caption-pair.png"
+    },
+    {
+      "frame": 1036,
+      "asset": "generated/star-gestures-f1033-fast-v1.png",
+      "asset_sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "source_sha256": "c51081ee0548fd153c353f96165bbbd4817611fb0ae02cdfc66849aa722b7d16",
+      "word_phase": 1,
+      "source_subject_pixels": 259275,
+      "generated_subject_pixels": 248765,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1036-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1036-native-caption-pair.png"
+    },
+    {
+      "frame": 1037,
+      "asset": "generated/star-gestures-f1037-fast-v1.png",
+      "asset_sha256": "6ff9a817ade9dbcdb286b5bc392c2b6344fab97eb81f8716c11d6899976d4632",
+      "source_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "word_phase": 2,
+      "source_subject_pixels": 263920,
+      "generated_subject_pixels": 248154,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1037-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1037-native-caption-pair.png"
+    },
+    {
+      "frame": 1038,
+      "asset": "generated/star-gestures-f1038-fast-v1.png",
+      "asset_sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "source_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "word_phase": 2,
+      "source_subject_pixels": 267749,
+      "generated_subject_pixels": 257238,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1038-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1038-native-caption-pair.png"
+    },
+    {
+      "frame": 1039,
+      "asset": "generated/star-gestures-f1038-fast-v1.png",
+      "asset_sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "source_sha256": "8541abb95e6e613767cb8297d06b55750d38d7f1ee45f56cfbfd2c610609c5bf",
+      "word_phase": 2,
+      "source_subject_pixels": 267589,
+      "generated_subject_pixels": 257238,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1039-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1039-native-caption-pair.png"
+    },
+    {
+      "frame": 1040,
+      "asset": "generated/star-gestures-f1038-fast-v1.png",
+      "asset_sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "source_sha256": "77b2b17186e3ebd69f46b329ed48f6da990713c6b4a41de47b73d1e84d5d283e",
+      "word_phase": 2,
+      "source_subject_pixels": 267500,
+      "generated_subject_pixels": 257238,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1040-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1040-native-caption-pair.png"
+    },
+    {
+      "frame": 1041,
+      "asset": "generated/star-gestures-f1038-fast-v1.png",
+      "asset_sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "source_sha256": "ccd3eabd3d70ccd2bb29f0a0b60aef80b1dd18f0fcd87339e98539d572fc4bf9",
+      "word_phase": 2,
+      "source_subject_pixels": 267335,
+      "generated_subject_pixels": 257238,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1041-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1041-native-caption-pair.png"
+    },
+    {
+      "frame": 1042,
+      "asset": "generated/star-gestures-f1038-fast-v1.png",
+      "asset_sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "source_sha256": "c65adc2e36a3c23294d8834d5b9a03960c47508a4d7e8f0705486cfdf3854b68",
+      "word_phase": 2,
+      "source_subject_pixels": 267197,
+      "generated_subject_pixels": 257238,
+      "outside_ownership_changed": 0,
+      "registered_core_changed": 0,
+      "raw_composite": "qa/star-gestures-layers-2026-10-05/f1042-private-compose.png",
+      "native_caption_pair": "qa/star-gestures-layers-2026-10-05/f1042-native-caption-pair.png"
+    }
+  ],
+  "pages": {
+    "source_raw_composite": [
+      "qa/star-gestures-layers-2026-10-05/source-raw-composite-page-01.png",
+      "qa/star-gestures-layers-2026-10-05/source-raw-composite-page-02.png",
+      "qa/star-gestures-layers-2026-10-05/source-raw-composite-page-03.png",
+      "qa/star-gestures-layers-2026-10-05/source-raw-composite-page-04.png"
+    ],
+    "own_mattes": [
+      "qa/star-gestures-layers-2026-10-05/own-mattes-page-01.png",
+      "qa/star-gestures-layers-2026-10-05/own-mattes-page-02.png",
+      "qa/star-gestures-layers-2026-10-05/own-mattes-page-03.png",
+      "qa/star-gestures-layers-2026-10-05/own-mattes-page-04.png"
+    ],
+    "native_lyrics": [
+      "qa/star-gestures-layers-2026-10-05/native-lyrics-page-01.png",
+      "qa/star-gestures-layers-2026-10-05/native-lyrics-page-02.png",
+      "qa/star-gestures-layers-2026-10-05/native-lyrics-page-03.png",
+      "qa/star-gestures-layers-2026-10-05/native-lyrics-page-04.png",
+      "qa/star-gestures-layers-2026-10-05/native-lyrics-page-05.png"
+    ]
+  },
+  "limits": "Static native raw images only. Vacated sky, hidden lyric plate and AA are reconstructed. Artistic acceptance and final encoded review are pending."
+}

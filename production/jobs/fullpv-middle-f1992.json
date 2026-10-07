@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f1992",
+  "source_frame": 1992,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1065-f1992.png",
+  "prompt": "Identity-preserve strict-source independent PV cel f1992. Image1 CURRENT ORIGINAL SOURCE is sole camera/backpose/crop/occlusion authority. Image2 prior Klee f1943 is ONLY short-hair/rearberet/redcoat/line continuity; don't freeze pose or exact outlines. Image3 actual source1986->1992 RGBdiff/contours, RIGHTcurrentf1992. This currentsource lowers/settles rearhead crown fromy255 toy305, crownslightlyflatter, shoulder/left sleeve settlesdown and lowerhaircontour growsoutward: respond current SOURCE pose, NOT fixed f1943reference. Full1920x1080 lavender background and BOTH existing LEFT and RIGHT two-line source lyrics preserved. Single CENTERED BACK of head and body, source torso bottomcropped, arms down at source side registration. NO face, eyes, mouth, cheeks, frontbangs, invented legs or extra actors. Independently redraw current source tiny headhighlight, contour, shoulder/sleeve edge and linepressure variations shown in actual RGBdiff/blue-red contours, not interpolation or morph. Replace entire long peachhair/headband/graypajamas with Klee: pale blonde nape-length hair cap and TWO SHORT side ponytails at same root placement by pointedears, rearredberet brownband and ONEwhitefeather on viewerLEFT(rearview). No oldmask/headband/doublehat or longhairsheet. Rearredcoat creamcollar and PLAINcreamcuffs, tiny visiblehandtips are BROWN GLOVES, neverbarepeachskin. Same coatshape/ponytail length/hat volume as continuityref subject to tiny current source redraw, no addedbackpack/props/frontcloveremblem. Thick slightly wobbling sourcePVblackcontours, broadFLATfills/simplehardshadow only, no gradients/gloss/texture/game-renderpolish. Preserve source captions for source-layer restoration. One independent current true drawing, no reuse othercel, no hold/mirror/tween/flow.\nCritical currentpose: still100% BACK-facing noface; entire head slightly lowered and more rounded flattenedcrown as actualsource, centeredaboutx905, current source bodycropholds. Keep Klee's persistent two short blondepony tails responding to current head drop. Do not reuse earlier upright f1943outline or simply translate layer; source contour pressure changes require new drawing.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1065-f1992.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1943.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1986-f1992.png"
+  ],
+  "reference_roles": [
+    "current source slightly lowered rear head/body pose/crop and both captions",
+    "Klee rear identity/style only",
+    "actual source head-drop and lower contour diff; RIGHT current"
+  ],
+  "output": "generated/fine-f1992.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-8cc36c13-3c2f-4f1a-9fd2-3dd98a4927ee.png",
+  "output_sha256": "f30a9717d754c8a085bbff37414f38871b4de133f09e94b358ec1ca67654e8c0",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

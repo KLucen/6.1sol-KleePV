@@ -1,0 +1,77 @@
+{
+  "source_frame": 3403,
+  "cel": "cel-0635",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "source_exposures": [
+    {
+      "start": 3403,
+      "end": 3405,
+      "pts": 141.792,
+      "end_pts": 141.875,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "output": "generated/oct7-bulk-ending-f3403-v1.png",
+  "prompt": "Use-case: illustration-story. Produce ONE complete hand-drawn 16:9 PV cel replacing every visible original person in image 1 with Klee from Genshin Impact. Image 1 is the CURRENT actual original cel, sole authority for composition, person count, crop, posture, eye aperture, mouth, shoulder height, elbow wrist finger position and occlusion. Image 2 determines Klee identity only. Image 3 is diagnostic actual original BEFORE/CURRENT AB plus RGB x4 and contour overlay, not the requested collage. Image 4 is native local diagnostic evidence. Image 5 is previous Klee style continuity only; follow current source changes rather than freezing it. Draw one normal whole PV frame, never diagnostic panels or montage. Preserve the purple flat source background and exact original camera framing, character scale and lean. Simple thick black freehand outlines and flat unshaded color blocks, same rough low-frame-rate original style, not detailed polished anime. Klee has pale blond bangs, TWO SHORT side ponytails only, red clover beret with white feather, red eyes with same source eyelids/direction, subtle orange cheeks, red coat and cream collar. Whenever hands are visible they wear plain dark brown gloves, with SIMPLE solid cream cuffs, no lace/frills; do not add a backpack mascot to a crop where no bag is visible. Replace all original pink long hair, animal sleep-mask hat and mauve clothing; no original-person leftovers, extra hands or extra face. Keep visible source pose and gesture even when source differs from identity photo. Keep cropped torso cropped, do not invent feet, whole body, props or extra people. Remove all source lyric letters/subtitles and do not invent any text: original subtitles and source FX will be restored deterministically in video. Exact source-specific observation and changes to implement: TWO Klee characters NEWcurrentposition. Foreground huge FRONTface now LEFT ofcanvas x0..1280, TOPandLEFTandBOTTOMclipped, eyes CLOSED horizontal blacklines, mouth tiny invertedV PUCKER closed not O. No foregroundhands visible, torso shoulder bottomcrop. Shortblondecheeklocks/tails replace longpinkhair. Background small standing Klee nearx1040behindFOREhead, only rightedgeofhead/rightshoulderdownRIGHT sleeve and curled brown fist visible, lowerbodymostlyhidden. Exact foreground coversbackgroundLEFTface and torso, do NOTshowfullsecondactor. Solidcreamcollar/cuffs; noyellowparticles/text. Prior appearance only not oldRIGHTposition/halfopen expression.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1906-f3403.png",
+      "role": "CURRENT source sole composition, visible people, pose, expression, crop and occlusion authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: pale blonde short twin tails, red eyes, red clover beret white feather; not pose or crop",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3401-f3403-source-ab-rgb-contours.png",
+      "role": "Actual original before/current AB, RGB x4 and blue-before/red-current contour spatial changes; CURRENT only is target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3401-f3403-actual-focus-native.png",
+      "role": "Native current/before eyes-mouth, both hands and cuffs, hair spatial evidence; use CURRENT pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-ending-f3395-v1.png",
+      "role": "Previous Klee draft style and identity continuity only, NOT pose; defer existing defects and obey current source",
+      "actually_viewed": true
+    }
+  ],
+  "source_observation": "TWO Klee characters NEWcurrentposition. Foreground huge FRONTface now LEFT ofcanvas x0..1280, TOPandLEFTandBOTTOMclipped, eyes CLOSED horizontal blacklines, mouth tiny invertedV PUCKER closed not O. No foregroundhands visible, torso shoulder bottomcrop. Shortblondecheeklocks/tails replace longpinkhair. Background small standing Klee nearx1040behindFOREhead, only rightedgeofhead/rightshoulderdownRIGHT sleeve and curled brown fist visible, lowerbodymostlyhidden. Exact foreground coversbackgroundLEFTface and torso, do NOTshowfullsecondactor. Solidcreamcollar/cuffs; noyellowparticles/text. Prior appearance only not oldRIGHTposition/halfopen expression.",
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-6b2b-7203-a0b6-7da37140f155\\exec-714941f2-a543-4aec-b5c7-b3c62c618567.png",
+  "output_sha256": "26517295ff2b56987201042bd05c62b6ef4cd9c1a2079625e8ce7fd382115705",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actual output viewed: foregroundleft closedeyes pucker, backgroundheadedge/rightbrownfist partlyvisible. Small MAUVE source-like body strip remains behind lower foreground right hair aroundx830y760, explicitly unresolved draft defect; do not propagate. Foregroundtailslarger/morevolume/collardrift. Accepted false temporal pending.",
+    "accepted": false
+  }
+}

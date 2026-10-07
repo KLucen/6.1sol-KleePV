@@ -1,0 +1,23 @@
+{
+  "source_frame": 2045,
+  "canonical_frames": [
+    2045
+  ],
+  "findings": [
+    "Independent extreme-zoom f2045 draft: hands and body outside frame, shout mouth cropped bottom, closed chevrons, one source yellow star retained.",
+    "Mouth, eye and cheek registration differs from current source; pony/bang masses and beret brim move considerably relative to preceding cel. Smooth character shading remains.",
+    "Yellow star position and caption glyphs approximate, require source effect/text restoration. Original background, neighboring continuity and actual-speed review pending."
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "static_inspection": "completed",
+  "full_canvas_difference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\resume-output-review-f2045.png",
+  "changed_pixels_gt28": 1280086,
+  "checks": {
+    "source_current_geometry": "visually_compared",
+    "head_eye_hands": "visually_compared",
+    "source_background_caption_props": "compositor_review_required",
+    "sequence_continuity": "pending",
+    "actual_speed": "pending"
+  }
+}

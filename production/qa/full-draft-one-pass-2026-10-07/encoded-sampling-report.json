@@ -1,0 +1,515 @@
+{
+  "snapshot_utc": "2026-10-07T04:33:04.652712+00:00",
+  "master": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-full-oct7-draft-v1.mp4",
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "expected_master_frames": 3658,
+  "expected_canvas": [
+    1920,
+    1080
+  ],
+  "continuous_centers": [
+    1037,
+    1129,
+    1144,
+    2145,
+    2163,
+    3235,
+    3259
+  ],
+  "continuous_groups": [
+    [
+      1036,
+      1037,
+      1038
+    ],
+    [
+      1128,
+      1129,
+      1130
+    ],
+    [
+      1143,
+      1144,
+      1145
+    ],
+    [
+      2144,
+      2145,
+      2146
+    ],
+    [
+      2162,
+      2163,
+      2164
+    ],
+    [
+      3234,
+      3235,
+      3236
+    ],
+    [
+      3258,
+      3259,
+      3260
+    ]
+  ],
+  "overview_frames": [
+    0,
+    500,
+    1502,
+    2401,
+    3000,
+    3470,
+    3657
+  ],
+  "requested_frames": [
+    0,
+    500,
+    1036,
+    1037,
+    1038,
+    1128,
+    1129,
+    1130,
+    1143,
+    1144,
+    1145,
+    1502,
+    2144,
+    2145,
+    2146,
+    2162,
+    2163,
+    2164,
+    2401,
+    3000,
+    3234,
+    3235,
+    3236,
+    3258,
+    3259,
+    3260,
+    3470,
+    3657
+  ],
+  "source_pts_seconds": {
+    "0": 0.0,
+    "500": 20.833,
+    "1036": 43.167,
+    "1037": 43.208,
+    "1038": 43.25,
+    "1128": 47.0,
+    "1129": 47.042,
+    "1130": 47.083,
+    "1143": 47.625,
+    "1144": 47.667,
+    "1145": 47.708,
+    "1502": 62.583,
+    "2144": 89.333,
+    "2145": 89.375,
+    "2146": 89.417,
+    "2162": 90.083,
+    "2163": 90.125,
+    "2164": 90.167,
+    "2401": 100.042,
+    "3000": 125.0,
+    "3234": 134.75,
+    "3235": 134.792,
+    "3236": 134.833,
+    "3258": 135.75,
+    "3259": 135.792,
+    "3260": 135.833,
+    "3470": 144.583,
+    "3657": 152.375
+  },
+  "caption_crop_xyxy": [
+    600,
+    920,
+    1320,
+    1080
+  ],
+  "decode_method": "Sequential native encoded-frame decode, no approximate time seeking",
+  "status": "encoded_samples_extracted_visual_review_pending",
+  "encoded_video_observed": "decoded_pixels_only_not_visual_acceptance",
+  "artistic_acceptance": "not_performed",
+  "shared_selection_changed": false,
+  "artwork_recomposited": false,
+  "master_sha256": "de68d1e6a653b2188399de84c25cd828fb0e700fab2720d0d88e2580b5b85737",
+  "source_samples": {
+    "0": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f0000.png",
+      "png_sha256": "2fbac3a3e7c7d771e7bdb7252a408abdcc9dcaca96663d131453dd7c8b9d973e",
+      "decoded_rgb_sha256": "acffb6313269dd5e3f02ebd7d20ea33970fe1986417544bf0a3973ec45cbebc1"
+    },
+    "500": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f0500.png",
+      "png_sha256": "cdc41cfab3c627f332c63afcaa1f04562904a73f14dd17b9e09b76234d6c9bbf",
+      "decoded_rgb_sha256": "aa448809d62e52eaa8650286f2bb0259a87e02b17e8b17ae2a4812e0a9524452"
+    },
+    "1036": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1036.png",
+      "png_sha256": "c51081ee0548fd153c353f96165bbbd4817611fb0ae02cdfc66849aa722b7d16",
+      "decoded_rgb_sha256": "e28189469fbfc052411fcea8c1cadb3905b9119149c8d98ee6834c2577b9d2a0"
+    },
+    "1037": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1037.png",
+      "png_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "decoded_rgb_sha256": "6fda6edca68fe5afd48c3bdafc53ef4ab9d4e6f7e9207be408913e8c35e430d5"
+    },
+    "1038": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1038.png",
+      "png_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "decoded_rgb_sha256": "4ce062c32e75eb7b6d017c1682cddee120e0fb121cbf080767e4670a2a829a2f"
+    },
+    "1128": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1128.png",
+      "png_sha256": "4a15085d01df2b86ab05c393d64ed7118d84e8dda2df73c674c683eadb3a6b66",
+      "decoded_rgb_sha256": "b308cfb3533c0229183697aeea7c15aaf157a78b78d6ce13f25d500f96f67b0c"
+    },
+    "1129": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1129.png",
+      "png_sha256": "7d75057134f08f7c89b02a1ea402b72ba8d862fa5c59803251d27fd233d21552",
+      "decoded_rgb_sha256": "4eca08ddf0bf74767e67577936357885bc464c36f5f003124bf048b27d98312d"
+    },
+    "1130": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1130.png",
+      "png_sha256": "b7adeb3c434b05a23c89696427d63ce173b6c6ae204702fd7b59135530027959",
+      "decoded_rgb_sha256": "75a969b2501dd2c21409a2103549f2b660ecf40cc2175d4bde11f8656a6ceeba"
+    },
+    "1143": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1143.png",
+      "png_sha256": "94633598ade581b401d7795b400ff1b0747307eaa9efaf45ed20147534dddb66",
+      "decoded_rgb_sha256": "2c232ae61e391ad269bf1ebacd6b0e33dbd5b508fa05c565709121c2622b43d2"
+    },
+    "1144": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1144.png",
+      "png_sha256": "aeeeb7223c2cf88808f242d074c50f8794a527f266289e67515cd136a7fdc53a",
+      "decoded_rgb_sha256": "c0ee4f885230d189c45d78f05f6ea4fe2dbe8ecf17963ba5677b4092f7bf1140"
+    },
+    "1145": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1145.png",
+      "png_sha256": "96e8e701971852cba57d0cb10b10ce3c5fa2f00c16d1b06ba257fe189a12e510",
+      "decoded_rgb_sha256": "ad7e9b00fd829e3c9a1c7653229adfda5e7956abd53ce92974fa7fd6afab5dc3"
+    },
+    "1502": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f1502.png",
+      "png_sha256": "ce8ec86da2041249d093b82ab4a102d6a63b3d130603f2cd1ba73f910fc7eadc",
+      "decoded_rgb_sha256": "45957e5f112488c714ee52fa87e25bcb88d245cd25cb2a09f961ffc84f2c22fe"
+    },
+    "2144": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2144.png",
+      "png_sha256": "d2cb05e94e2c53e30ae661bd168cffa224baebdb039fd2b36d4dd3ba92e5f6ad",
+      "decoded_rgb_sha256": "63e74456e8e395260f8fccc831048192fa107ce09babbd2bcf22a3923574f43c"
+    },
+    "2145": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2145.png",
+      "png_sha256": "226288d95009ac26e8d2550e5ccc6c30bfdaff5d35c8fb2cf1a8bd6ad941559d",
+      "decoded_rgb_sha256": "6b55e374e3014cf48a35e54187f831d2ee983ed37c5318aaf7fa92a835f94267"
+    },
+    "2146": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2146.png",
+      "png_sha256": "138578aa9ae7930bb7a6ab2433b4e717483d3726449ed9246dc002ac4412428e",
+      "decoded_rgb_sha256": "fc9cd33c5d89ebad22c9731c9f42529036c5c3887d9f4e9b4772e65781d3732e"
+    },
+    "2162": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2162.png",
+      "png_sha256": "8607a6b7a811d1cd601e9ebb6e18310f9ae11d8869685a8189ee10a5a7ae5395",
+      "decoded_rgb_sha256": "e8d1770237009d046d501c2603fda7671135dbd989a90c11f30dcb21cb9b838e"
+    },
+    "2163": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2163.png",
+      "png_sha256": "12b05be14faa04b560f75a6169a735461795cfd167618e9e5f89723d62396b82",
+      "decoded_rgb_sha256": "877f7c42310d76cef9783bbe1addb60ccb32bb021fcc19f751f90be8387217bd"
+    },
+    "2164": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2164.png",
+      "png_sha256": "57e3fc06f459f43e1e42a49c92dca5aba4ff3fc28f31f155f02da25e7f2fbcf0",
+      "decoded_rgb_sha256": "6fa07996969ea725f83070900b91b660604008a9ed3a5d88f347fffce2dae044"
+    },
+    "2401": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f2401.png",
+      "png_sha256": "0fb55fdaddcbae169d192d157edaa80d34e7745f047a9993b1ccebc496c5917a",
+      "decoded_rgb_sha256": "7fed78ab16d12f3eab834772c1633038f74a9b4215c2c961f22f293194128b9f"
+    },
+    "3000": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3000.png",
+      "png_sha256": "d66cd91d333485321df635f49d1db096cac667fdae611da1cb7ba4cbf9f0b068",
+      "decoded_rgb_sha256": "e6ed3a7a0c29b67d7053ad10cbd9f531130c18026c0e633bcb336823966bb96a"
+    },
+    "3234": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3234.png",
+      "png_sha256": "a8647daaefbf6129ed199d00074db4dbe6b9e2b76a8f810b30e55ec74f02954b",
+      "decoded_rgb_sha256": "2e24f1fb63e681181b33f1beacabb4c09e3c2773dc33d53dc802022a3223ca1b"
+    },
+    "3235": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3235.png",
+      "png_sha256": "b6cad3810260e11711635debdf0434c611ccc6df3a1ac133bdd038f6de3702a0",
+      "decoded_rgb_sha256": "b13490064627f0ab21a58e4fc107da013755716ca659b908282a08d763a7d5d8"
+    },
+    "3236": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3236.png",
+      "png_sha256": "b8f82199ce0bdb8b522eefac9d08493967e917fa6a0b3ea5c818e3686ce91812",
+      "decoded_rgb_sha256": "428f5c03c7f100c02dd0f053ca5edd053ac4746b8737dbc267a09a0f92df206b"
+    },
+    "3258": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3258.png",
+      "png_sha256": "aaa2c7a5384f71323efdda3a77934f36ebedf4ea55faa6894b2aae30f8e0f322",
+      "decoded_rgb_sha256": "8ce782f9c081cf42b1202570375e736c0c56e19a6dc849253032cafa916fb84e"
+    },
+    "3259": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3259.png",
+      "png_sha256": "95aceae3b14abd264669f9cf2a60d1342d18f82e9e4ee6b3ba1c7b0cb224607d",
+      "decoded_rgb_sha256": "2c8199775ad748d55204109e38f0a6aa5a36c2adc0291661e35832017932fd83"
+    },
+    "3260": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3260.png",
+      "png_sha256": "408d42fd9a9043326ffea37e00503efd88ff21221d60553bd357c54410ab317f",
+      "decoded_rgb_sha256": "68a1f67bb1237b785c96cfce31c5408ff30f82eb2bb80bb7f6a840c9ea907679"
+    },
+    "3470": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3470.png",
+      "png_sha256": "c4292ab785cf3bafe12a47e9b7c0a2e068fdb459be45ed1ee650807bfba92180",
+      "decoded_rgb_sha256": "f2bd8874e0145d797d7d8bf2ebbc52fbe69f83f360e9663ac07345d4c56240e1"
+    },
+    "3657": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\source-f3657.png",
+      "png_sha256": "e86655b615877021c57292d4c6682465de148c1155459dee355879306d951c02",
+      "decoded_rgb_sha256": "c42f4e17b16cce744f6aae004f0cf9ce95beb087363f12f0e9701d3c87a50025"
+    }
+  },
+  "draft_samples": {
+    "0": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f0000.png",
+      "png_sha256": "2582fb554e96fed424674e5b8c333b1eaf46a495802b141e182a890c4c5e5a6f",
+      "decoded_rgb_sha256": "b636049fe1161af181dba0979cfd09d1cefa93add95cba8b17f601e98b0815a4"
+    },
+    "500": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f0500.png",
+      "png_sha256": "aca8853ba9ff3baeb7393ad83400e76e94e98384222e88c10f7a3aad8954450b",
+      "decoded_rgb_sha256": "e79549a81c004065b2b48a1bd415af0857b4ba8af5f8c7c4c25c2d4cb50fbfc8"
+    },
+    "1036": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1036.png",
+      "png_sha256": "6d28d74322edfce14287d79085949ba882a3f70a97afed774a1f6c029f348cda",
+      "decoded_rgb_sha256": "bb54504591dd7f717c0540dc51d58ede26369cfcf1829bc85e9a8720af833bea"
+    },
+    "1037": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1037.png",
+      "png_sha256": "443d60d03640b7a26a08c63b4a88dfb176c7e72790177660345feb466149c5fe",
+      "decoded_rgb_sha256": "46f03df30822b1b14b02b9450624804ec06dc609b1c9e566782dad5fe72f1a69"
+    },
+    "1038": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1038.png",
+      "png_sha256": "af04f4c4d38f641aca29bd6776c466cf884128d39c6345f121b45a000268cfe0",
+      "decoded_rgb_sha256": "bd095313ec236bd950b8b75168546446ba99ceeac92cbebf9cebe258b631046a"
+    },
+    "1128": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1128.png",
+      "png_sha256": "2e56d43042f5689fa1afc040b286644dd57c9e3526f9ab00f6ee622d22ed2ba2",
+      "decoded_rgb_sha256": "9bff57cec32f448fdfdbfe830c38c7207422d7d1104fc7256947aac2f964c67c"
+    },
+    "1129": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1129.png",
+      "png_sha256": "1f732e74e9ec588e64da6c83bd441f6d71ee2d0413381afa31c8a38e61c5cdec",
+      "decoded_rgb_sha256": "6035cf2d9c603f60ad5d4d1f9c6342d140769948c5ee92941785b3b1344ab4c2"
+    },
+    "1130": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1130.png",
+      "png_sha256": "da87362f9ef7ff0e11813d1a9e774f5145e604e64e065b5e6d1e92362479031d",
+      "decoded_rgb_sha256": "6bf34721a3e59517af206dae4f27ecc5c5b519c0a07f13fb62e403c3c5c47f70"
+    },
+    "1143": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1143.png",
+      "png_sha256": "1df2fdb375488ef33197d9a37b0ccac970997a2e9dc32d7b021b1f3696f7327f",
+      "decoded_rgb_sha256": "32a15cf9d5c8a674dec836d6fcc51bf3dc965fd0de17b8e59409288843b31b5e"
+    },
+    "1144": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1144.png",
+      "png_sha256": "b17e7fedf5e5f7f9f4d9cd507748d221237a838e134a7022a52294b1699294a1",
+      "decoded_rgb_sha256": "a22f797b098335b7c9ba6701cfb3f04250476c25b17702b31623571ce969ed99"
+    },
+    "1145": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1145.png",
+      "png_sha256": "13e054b0a9282b918980eeaf9fa42dfd952af0da98fc790d216912c72a48cd72",
+      "decoded_rgb_sha256": "a0660d5e15da3f8558e5317f829e3dca2fdefec80dd3b9606715128666323c8d"
+    },
+    "1502": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f1502.png",
+      "png_sha256": "8f47578304ea8a0959227e50ad7358bcb064a5a113027debf444fbc490d3a769",
+      "decoded_rgb_sha256": "6656b83583f27b5f23c615fe567de183098aee9f4ab2cdc339fd937433c736f2"
+    },
+    "2144": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2144.png",
+      "png_sha256": "fce156776dcc2ad03291e247a72eaa9a018baec61d9f916a5180be3df0c11f22",
+      "decoded_rgb_sha256": "d344b26225929ad2e652bf6801694275de0c17161fb3885aa948707f98e51f22"
+    },
+    "2145": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2145.png",
+      "png_sha256": "31e8b840537acc92f72e8ebe4f45e01018de4daffc718b3bb658da8b508f63b4",
+      "decoded_rgb_sha256": "6188d865aafe2827180d55ec303e03af9a18b013888b653ac49c8888616e1584"
+    },
+    "2146": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2146.png",
+      "png_sha256": "513ac5366ffbda5ed08e998bcb6a66843bf077e88478172fe3434aebeaf1625e",
+      "decoded_rgb_sha256": "b3de02b2a914fc84d8cd0afb987316c130c4491ce1f52f33a32e76b9b2283162"
+    },
+    "2162": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2162.png",
+      "png_sha256": "f206d149791f71ed9d95beb8c776922a8c7a964bed3d3e4d241e36d4da5d3aed",
+      "decoded_rgb_sha256": "f7001bfd380cb3ffca6edb56be95b8aa6bc14834a2c37d2e6ef9836faf260b15"
+    },
+    "2163": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2163.png",
+      "png_sha256": "5bd4912070f0e8796b81a70029488396a69b597228f8b07ed85177f2033e8e73",
+      "decoded_rgb_sha256": "113458a176cac2ce03f5546d9d894719e34229a3d7bf29953e8fa2d80fbf5a50"
+    },
+    "2164": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2164.png",
+      "png_sha256": "1c694c8418f21b351d5e416b2950792e4e74b63b7a85c02b3028d2a125a92695",
+      "decoded_rgb_sha256": "bfc84abae75b0865060b2f77fb12b5c9b411e41f46d1dd9a87f30b5eee06baef"
+    },
+    "2401": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f2401.png",
+      "png_sha256": "e066be285f4724d11ed42ea7385b6ed7408aea4c1b6bb39141f1f4bb02a727fd",
+      "decoded_rgb_sha256": "ef9cd8566cf1dee86a2b195df9f6a5a0af72b9e6ecb06bed264b448f6c70080c"
+    },
+    "3000": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3000.png",
+      "png_sha256": "68203223d91d5bdbbdfe75bd634332c7242c7d6827d1c0fd25eb4ba68fae624a",
+      "decoded_rgb_sha256": "b961bb97c0ce065e5b067f78de920a10b3ac84ace5f972ba21be53e911f75620"
+    },
+    "3234": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3234.png",
+      "png_sha256": "3d8140a6db88829854315bf590fd601e092f2998c08f46b08daf7f0408bea8e9",
+      "decoded_rgb_sha256": "4ffb1bca4bb12b7bd2322bdef6c62180da47eae32bf0f1e24df668982c9079f1"
+    },
+    "3235": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3235.png",
+      "png_sha256": "e46c6521611304a25e991f5f19431e9a085029d1e15a0555d6245b856e9718b6",
+      "decoded_rgb_sha256": "6df69bda557a61b02410938e361bd4d2d2e35695307edefa093bf6f1680f03be"
+    },
+    "3236": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3236.png",
+      "png_sha256": "addc1cea99f37a19c2dd45e3281d89377c28be5a8a2b9dbe93ee3beac85a71f9",
+      "decoded_rgb_sha256": "d97cb3aa6afa4428477212b3fd51ee00f765d0fdd769c789a9e03e002086bce5"
+    },
+    "3258": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3258.png",
+      "png_sha256": "3b2752133ce96062550f0a965485c3cc460b7928f3b233201f7a14dd11dc3af6",
+      "decoded_rgb_sha256": "b3e39dc24eacdf07a0abf64d5dc29eefa0be4a68c0663ae9ae2362a6ea4f03de"
+    },
+    "3259": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3259.png",
+      "png_sha256": "6c41e9db8a03eb670fa4ce2471bd9dca7d33e9d3327c75787feb9225f2e96fde",
+      "decoded_rgb_sha256": "0b22a965772b4e4ea8eb10236b3833801230e93d0f49d464c6c3b647387b82f2"
+    },
+    "3260": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3260.png",
+      "png_sha256": "55b7b5e0eb572eb66e2f99edcbf865bd2271e708473356eabe06c57f7d787197",
+      "decoded_rgb_sha256": "2bf1727ce8474eff262e341c8242039e759a605e05cbe90b0c7210bd7531cbf0"
+    },
+    "3470": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3470.png",
+      "png_sha256": "292c83348726c598bdc9d3b39da78e6ad6828b3906560b1b52a0f8bd16ecefb0",
+      "decoded_rgb_sha256": "ff4631f0e7b22ed0a326afc239ba116b06de3ed83a0736c89c1039e055848488"
+    },
+    "3657": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\draft-f3657.png",
+      "png_sha256": "bccb55e0574c62134a15f55941c867e7e24d7f128ff62b547282bfe623876836",
+      "decoded_rgb_sha256": "78ee33e182d33b49557672a9390cd52c155a729057e7eab55a4102365da005cf"
+    }
+  },
+  "continuous_panels": [
+    {
+      "center": 1037,
+      "frames": [
+        1036,
+        1037,
+        1038
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f1037-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f1037-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    },
+    {
+      "center": 1129,
+      "frames": [
+        1128,
+        1129,
+        1130
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f1129-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f1129-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    },
+    {
+      "center": 1144,
+      "frames": [
+        1143,
+        1144,
+        1145
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f1144-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f1144-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    },
+    {
+      "center": 2145,
+      "frames": [
+        2144,
+        2145,
+        2146
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f2145-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f2145-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    },
+    {
+      "center": 2163,
+      "frames": [
+        2162,
+        2163,
+        2164
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f2163-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f2163-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    },
+    {
+      "center": 3235,
+      "frames": [
+        3234,
+        3235,
+        3236
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f3235-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f3235-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    },
+    {
+      "center": 3259,
+      "frames": [
+        3258,
+        3259,
+        3260
+      ],
+      "panels": {
+        "full-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f3259-full-strip.png",
+        "caption-native-strip": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-draft-one-pass-2026-10-07\\encoded-samples\\f3259-caption-native-strip.png"
+      },
+      "human_or_agent_visual_review": "pending"
+    }
+  ]
+}

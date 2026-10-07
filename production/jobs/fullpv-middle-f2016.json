@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f2016",
+  "source_frame": 2016,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1086-f2016.png",
+  "prompt": "Source-preserving independent f2016 PV drawing. Edit image1 CURRENT ORIGINAL sole authority for all expression, eyes, mouth, pose, head tilt, scale, crop and hand positions. Image2 ONLY Klee hatcolor/clover/feather identity, not pose or framing; image3 ONLY Klee coat creamcollar plaincreamcuffs browngloves identity, IGNORE stars/moon/props. Image4 actual source2015->2016 RGBdiff and two-color contours shows a new MUCH LARGER almostfrontal face with OPEN mouth, currentRIGHT. Must reproduce CURRENT ORIGINAL enlarged cheek/jaw rectangle, half-lidded TWO eyes at x~760..1430y500..640 and OPENsmall round-rect pinkmouth x940..1120y790..885. CROWN HAT croppedTOP, lavenderfull1920x1080 NOcaptions, shoulder/fistsmostlycutBOTTOM. Facial asymmetry/tilted eyelids gaze and sourcewhiteC-highlights/blackpupilslivers unchanged, sourceblueupperiris becomes deepREDupper, pinkREDlower (not cyan/solidreddiscs). Both orangecheeks. BothSOURCEearpositions become pointed ears, TWO SHORTpaleblonde sideponytails underberet, source longpeachhair and rabbitmask/headband completelyremoved. SingleKleeredberet brownband cloverwhitefeather exactsameattachment, topcropped bysourcezoom. Redcoat creamcollar/simplepompom and brownGLOVES only where sourcebottomhand slivers exist, no newwholehands. Shortpony tips may be partlysidecropped, NEVER retainbodylengthhair. Source thick wobblyblackink flatbroadPVfills/simple hardshadow only. No gradients/gloss/fabric/airbrush/overdetail/clovercuffs/backpack/newprops/actors. This is enlarged FRONT angle not heldprevious threequarterclosedmouth, do NOT merely reuse/shrink/paste prior drawing or freezepose; no mirror/morph/tween.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1086-f2016.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/source-delta-f2015-f2016.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression crop occlusion and camera authority",
+    "Klee beret-only identity reference, not framing",
+    "costume collar plain cuff gloves only, ignore props",
+    "actual RGBdiff contours right current new enlarged front openmouth source"
+  ],
+  "output": "generated/fine-f2016.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-2ce325ca-1eb1-49f3-b392-b4bf1e9a68d0.png",
+  "output_sha256": "18248662f5c510da3a498e3778f617bbda53d72a4cb2c0733fc93ad21e014331",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

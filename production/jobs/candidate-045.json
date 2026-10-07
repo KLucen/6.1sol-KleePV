@@ -1,0 +1,13 @@
+{
+  "job_id": "exec-0e49e209-dd4f-402e-84fd-3cf5d9149a4f",
+  "candidate_id": 45,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: precise-object-edit. Image1 is Klee PV target to repair. Change ONLY extra duplicated blonde hair wings outside BOTH armpits: remove the lower disconnected blonde tufts at left x29-36%,y60-78% and right x66-74%,y60-78%, replacing them with same lavender background. KEEP the correct two attached side ponytails beside face/neck left x33-43%,y46-67% and right x59-68%,y46-67%. Klee has exactly TWO SHORT side ponytails, no second pair below the arms, no long rear hair wings. Everything else identical: full16:9 composition, Yraised straight arms/two full brown open palms with five normal fingers, red openeyes/O mouth/orangecheeks, redberet cloverwhitefeather/pointedears, redcreamcoat/glovecuffs/collar, source blacklines/simpleflatfills/lavenderstars, no lettering anywhere. No new ornaments or altered pose.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045-draft.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Targeted repair removed duplicate lower blond hair wings, only two short attached side ponytails remain. Y-arm/source full spread glove palms, open red eyes/arched O mouth retained. No text."
+}

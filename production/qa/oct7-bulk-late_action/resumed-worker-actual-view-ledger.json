@@ -1,0 +1,1147 @@
+{
+  "snapshot_utc": "2026-10-07T03:54:53.503974+00:00",
+  "scope": "The resumed worker's 29 newly generated cels; current source, source delta, native diagnostic, identity, and supplied prior were actually displayed before calls; output displayed and statically inspected after each call.",
+  "older_14_saved_jobs": "Prior worker view timing not audited by resumed worker; no flags invented.",
+  "recovered_f3142": "Exact pre-existing builtin orphan reviewed and saved, no regeneration; original call view timing not audited.",
+  "sealed_archive_modified": false,
+  "shared_selection_modified": false,
+  "accepted": false,
+  "rows": [
+    {
+      "source_frame": 3147,
+      "job": "qa\\oct7-bulk-late_action\\job-f3147-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3147-v1.png",
+      "output_sha256": "98ad604581778b616d6debd435353c25b21a36a1c296e60ce95b40d2149a23d8",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1725-f3147.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "110f1a4625750209c8ed69be30b43a42b1037d25ef108d27f08621f68b370f34"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3142-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "77a9dc39a4b2a63d294f4daa3b7ab0fff6139f7702a132e40a6671d32f5b2196"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3142-f3147-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "928a884c123e35851ffe9e99c84febb01733c2ba773b6c097b6109dd61c1f5a3"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3147-native-figure-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "2f989902c2fb2bbb842d957ac69740753787ba7d68f601dd13c3d1b87635bfcc"
+        }
+      ]
+    },
+    {
+      "source_frame": 3157,
+      "job": "qa\\oct7-bulk-late_action\\job-f3157-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3157-v1.png",
+      "output_sha256": "f7e4057faa5ea33fb853427926110af3a764ca764e44a34f56e20425e02d178b",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1732-f3157.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "310b6095a72fedc08fe0a591d5658ee6efda5c2f491c95d5c6034bf2bbb6a246"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-095.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e505f654c6eb83f5b8eeedd85fd926f6e460a3c8215ba0e97ef683769424ab25"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3152-f3157-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "07d470194b6131e4a9fa382dcc01303ded36b2a757d5da983a5a9a480bf9ba96"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3157-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "ade13ea8e0a417be52b360a6d4ff6850f156a8387d49f2711aabf748d5a9e3a9"
+        }
+      ]
+    },
+    {
+      "source_frame": 3159,
+      "job": "qa\\oct7-bulk-late_action\\job-f3159-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3159-v1.png",
+      "output_sha256": "7e9d16d014940d48b1576742ef40499a17adce6e705068f8eb64e9413f34ff6a",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1733-f3159.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "dd1e41ec0ea279f77bb3aacc1f3db80d7d869ec6d4a20d609f3a7ae4f8444e65"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3157-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "f7e4057faa5ea33fb853427926110af3a764ca764e44a34f56e20425e02d178b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3157-f3159-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "3995806f58fc60f8819c225e9e01256947ca238cb7b01ee6b624540f15aa90bc"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3159-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "bb24588319a33bc4d90008ea5538c3a42392e802bd4681ad75c31c277e56dc5a"
+        }
+      ]
+    },
+    {
+      "source_frame": 3162,
+      "job": "qa\\oct7-bulk-late_action\\job-f3162-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3162-v1.png",
+      "output_sha256": "b038b56d2505ac4d140bfd195c1026bbfaa23c4ae876edb9fd4417f104e6e0c7",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1735-f3162.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "bef8f6517a536f5b7f6f527ab8eb0c7dff42a963592714916b3d14d5eabfb754"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3159-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "7e9d16d014940d48b1576742ef40499a17adce6e705068f8eb64e9413f34ff6a"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3159-f3162-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "5730976b001055ab399fcc278341e130f923c573d10fd10d26af990258d3669e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3162-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "705f520d20be79a09af3a4c1fcde14fa92d88a99d6bb6c178f90685dcd32095d"
+        }
+      ]
+    },
+    {
+      "source_frame": 3164,
+      "job": "qa\\oct7-bulk-late_action\\job-f3164-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3164-v1.png",
+      "output_sha256": "a3aca95adc520e13aa6a76475e5a9137b50a9acd323bb7b6ea31706c006dbca8",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1736-f3164.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "ab6134a68934b9c7f3cc89f1b1723550bdcb8d4262c142ad889808c105182581"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3162-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b038b56d2505ac4d140bfd195c1026bbfaa23c4ae876edb9fd4417f104e6e0c7"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3162-f3164-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "6dd08639e9554984f784899a4369dc907fc8ba948dcc6d253ce905c9164984f0"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3164-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "ae7875253af410c1d4e4cf7925eb7ec928c67d8ab9915a50bbdd0cce8bf5d408"
+        }
+      ]
+    },
+    {
+      "source_frame": 3167,
+      "job": "qa\\oct7-bulk-late_action\\job-f3167-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3167-v1.png",
+      "output_sha256": "069bf5da5207d6f79a0fb04d863d8045453d16960128b3d38b180a41b06b9e9b",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1737-f3167.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e9a5a6d2e94bc0d1d0e5df5a7c1f37c7cdb3140437c070cfc219f7a0f232639f"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3164-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a3aca95adc520e13aa6a76475e5a9137b50a9acd323bb7b6ea31706c006dbca8"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3164-f3167-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "7876013b31afd41c634ff3ffc7c3197c0801092c7e66e67dfb1902bdd92e00cf"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3167-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "1694cdc0da32efd10d41a4ae7ac3a587caf85f2e89c4798dc5791401bdd0cb7e"
+        }
+      ]
+    },
+    {
+      "source_frame": 3169,
+      "job": "qa\\oct7-bulk-late_action\\job-f3169-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3169-v1.png",
+      "output_sha256": "6dc8b0109aa47eea55912efc23e1790e007c6a9ef739cb3c4f5ccb203bed1988",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1738-f3169.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "eebd0340cbb55894d9555a67f6964d6c4573e42764a3e1530fdc0aca0e75ecb6"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3167-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "069bf5da5207d6f79a0fb04d863d8045453d16960128b3d38b180a41b06b9e9b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3167-f3169-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "566a23e23106973b83c274a28e4badfed48bb239f2adf39ed39f105e37e2ae63"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3169-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "bb1a8a089555797367d9e3d72457531ca5cb846a2aefdc7eb23ed736f33c6359"
+        }
+      ]
+    },
+    {
+      "source_frame": 3177,
+      "job": "qa\\oct7-bulk-late_action\\job-f3177-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3177-v1.png",
+      "output_sha256": "e1f84fb90477dbb1cf53f2d86c0f8a53529986fe095c736ffded0292b13d0b3c",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1743-f3177.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "2da70bbe1419987248d1df4662c3748c5b11e3a4e7b67f1390c2c7369a9b9514"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-096.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "01421a76e467f14c1ae444856ff30ec47e833502b9e34389ae54b297d92f6de1"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3172-f3177-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "9eecde3c1ed0d960f8afbe412e12f6d99a11f82452b8a49025b93b2e02b5bd59"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3177-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "43566dfd7026643971447ba6cac617ed2c80ccdd9b60eb64b3b6367ad678aa75"
+        }
+      ]
+    },
+    {
+      "source_frame": 3182,
+      "job": "qa\\oct7-bulk-late_action\\job-f3182-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3182-v1.png",
+      "output_sha256": "b5a54c34310ead4e6866b456bc72f4ee21dcb353f632eaa02ffcb62b576f198e",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1746-f3182.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "8a068fb53559015eec6c24ac9adba27ba54e88e5b444294a51eb6e96494a4b89"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3177-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e1f84fb90477dbb1cf53f2d86c0f8a53529986fe095c736ffded0292b13d0b3c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3177-f3182-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e81c44250564bb188da43a3054d50bc02ac06896c0a916c8e5788ad95204cf66"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3182-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "ec8e2c1fd04295ad4375a9c24723c656b7d9c92cbc8155af226ffc1e35abc99b"
+        }
+      ]
+    },
+    {
+      "source_frame": 3187,
+      "job": "qa\\oct7-bulk-late_action\\job-f3187-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3187-v1.png",
+      "output_sha256": "947cf1dea8278537756679a56a33e95463f0e629218301e92843974943f4c56c",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1749-f3187.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "d92d3a764caed77680f109ce399325bf99286e1e5d7204f3e323182ade4bd277"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3182-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b5a54c34310ead4e6866b456bc72f4ee21dcb353f632eaa02ffcb62b576f198e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3182-f3187-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "168990ab0cf77587ee172fb9d26fe2f505eb5514391508a4f25321b02fa99f0e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3187-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "6f110de8c2a08c346a078bc9757b3a9370b266f7812397cfc067826394acb4f2"
+        }
+      ]
+    },
+    {
+      "source_frame": 3189,
+      "job": "qa\\oct7-bulk-late_action\\job-f3189-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3189-v1.png",
+      "output_sha256": "ea989b95db6411165e98d745111e1a791bd95df919d35bde564ffef223a7373c",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1750-f3189.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "99541fb963c09d2f8019a3957374d50c5f21aba0234ca928da9be1da3dc18090"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3187-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "947cf1dea8278537756679a56a33e95463f0e629218301e92843974943f4c56c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3187-f3189-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "8de4ccdd1861d6daf70a43940ebb56014d355ec60a363afeb62082aa7d267c1c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3189-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "60b13d392666cf6dbf18c0f8ca9dab409db3867c68afc35dcae920055b11293e"
+        }
+      ]
+    },
+    {
+      "source_frame": 3192,
+      "job": "qa\\oct7-bulk-late_action\\job-f3192-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3192-v1.png",
+      "output_sha256": "a481dfc88546ea952f18efb918826f0ee92ef4ad22582c8f9a09b434e796b8a4",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1751-f3192.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "52c9272c42cbe40bf8fcd467d6e1fd588af659f0a6ec470a7193f35f43090672"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3189-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "ea989b95db6411165e98d745111e1a791bd95df919d35bde564ffef223a7373c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3189-f3192-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "ebed9e70c83d3200f1fd9b6dc45121efb4049db24311179135c1dee5abffd5e9"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3192-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "fc42ae4db1f2e1724729efda2cc3d52a289bad9b70b2b35b3ff23b2f84098505"
+        }
+      ]
+    },
+    {
+      "source_frame": 3194,
+      "job": "qa\\oct7-bulk-late_action\\job-f3194-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3194-v1.png",
+      "output_sha256": "9c26fb36f72eebcb6b5b91c2aca7faef5ba193a27b858c16508c3c0d0f2a1218",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1753-f3194.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "bb7f315d5ed002d02149b2d2556d908b1bd923e8a9fdf022a5f301b5fe77ff7f"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3192-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a481dfc88546ea952f18efb918826f0ee92ef4ad22582c8f9a09b434e796b8a4"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3192-f3194-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e141f2ae02b9e2661f2e2119970373bc8fd9b1760d7ccda8e7b8a58b557c346c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3194-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "5c5d0a3aa9c65e3f2a5cd9f247100d85438d2af8ab626ba7c021cd6c9056bd96"
+        }
+      ]
+    },
+    {
+      "source_frame": 3197,
+      "job": "qa\\oct7-bulk-late_action\\job-f3197-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3197-v1.png",
+      "output_sha256": "8357f9936cad2bfada7a556858016973614b4cfbee87a5bd5b00e3872e48557d",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1754-f3197.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "90691da9d2d151276053dd39d73c66bb3683c9f963fcebbecad5ca3e2c1dd2f3"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3194-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "9c26fb36f72eebcb6b5b91c2aca7faef5ba193a27b858c16508c3c0d0f2a1218"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3194-f3197-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "dd015d67126fd6e0002e3de175456e49f9df8a9e5d87bdd15faf67fb47aee2ff"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3197-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "761298fa60cf8224d11009c5d08e6e655ccc3dbed990582068341180e0e3b97b"
+        }
+      ]
+    },
+    {
+      "source_frame": 3199,
+      "job": "qa\\oct7-bulk-late_action\\job-f3199-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3199-v1.png",
+      "output_sha256": "1206de50d796a9fcb813c2488f454c2a1453973c9e7381c73b04474d55908043",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1755-f3199.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "c01d56a5c225fef4e1252715022ba325079d3e102302f9162e54c673e4c819b8"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3197-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "8357f9936cad2bfada7a556858016973614b4cfbee87a5bd5b00e3872e48557d"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3197-f3199-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "5c3f1cfe1815fcee491ca00ab3a698782f8262662a07d8be9dbc49a10fd853bc"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3199-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a7c940f1e46fbeb16592ef9938303578bb4fd52b7450559e3d8559206f9b06f1"
+        }
+      ]
+    },
+    {
+      "source_frame": 3202,
+      "job": "qa\\oct7-bulk-late_action\\job-f3202-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3202-v1.png",
+      "output_sha256": "42a86fe5013f05f389911d8234b624e7088b54f3832004f098a5d242dea24036",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1756-f3202.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "6da0b47de72f2f765dfe2acd02b5ecd78d1c63d817033919b545293e4b8d172b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3199-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "1206de50d796a9fcb813c2488f454c2a1453973c9e7381c73b04474d55908043"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3199-f3202-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "0c8e93aa7c2d9ca66093bc36e6e0ce1574b2ad2a6cfab658877b501565fb5c6c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3202-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "5e4ad2083f14c730c0c80eef8e5247d586d7487a252ac89809ccc2e2ec2060ac"
+        }
+      ]
+    },
+    {
+      "source_frame": 3204,
+      "job": "qa\\oct7-bulk-late_action\\job-f3204-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3204-v1.png",
+      "output_sha256": "976a20ed4623b581e5227dacb5a556aadef86855ca4a4af54e8daafb43326952",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1757-f3204.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "515538b9c585c22c057d5ea39130db81f48373d9e4d684c6f31c8e1efd76f0ee"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3202-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "42a86fe5013f05f389911d8234b624e7088b54f3832004f098a5d242dea24036"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3202-f3204-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b58cc77349c68edb19dc4a33d0eb42079cdc15544b46cd62401ff9595ec98c88"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3204-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a693d33e6e0f60c07892194bc3b3028f976e66c141d7c12c35904a7dfd934c1f"
+        }
+      ]
+    },
+    {
+      "source_frame": 3209,
+      "job": "qa\\oct7-bulk-late_action\\job-f3209-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3209-v1.png",
+      "output_sha256": "fa444e5c7f2f3d142f50b31047a69931f66f5750750d47f6087276677a32ad57",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1761-f3209.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e9885a6db27c0a3c07c3c486edf0dba555222a34e16d3eee8e0a7dc2bb0fd7c0"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-097.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "c68f9129d9354d495ac6780473cf31f2e19086abfb0ccfa24b33075e17c9b438"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3207-f3209-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "cc2819aae4ec15a802966a8be4c2f202dca684b6ffee6ddd8f0298994fea985f"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3209-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "7b68cc6ab49a7b8efe916a43afa2f2b4539215860101d8b8972eec48eb48c602"
+        }
+      ]
+    },
+    {
+      "source_frame": 3212,
+      "job": "qa\\oct7-bulk-late_action\\job-f3212-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3212-v1.png",
+      "output_sha256": "f5a1f4f1881dab973ee14031265ec54192d01850935c0c5247cc27691e150354",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1763-f3212.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a7e4f9020c333b02978b757718d5f77337be27c9812bd4b3825b3cf01f8c7ee7"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3209-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "fa444e5c7f2f3d142f50b31047a69931f66f5750750d47f6087276677a32ad57"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3209-f3212-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "70966788af17dfb5efe963b5843a72d9819a18144b17b596ce2d2c7236a4e196"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3212-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "f0f8b2dd997b9ab0a78be0bd5e08a8a57337a0bfba57014441b4cb14a9cb5c00"
+        }
+      ]
+    },
+    {
+      "source_frame": 3214,
+      "job": "qa\\oct7-bulk-late_action\\job-f3214-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3214-v1.png",
+      "output_sha256": "086b25a5048416a152ccfabcfc074b2f04561743381da90d89f47a3d98a73036",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1765-f3214.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "febe710b55324534ab7e90455b89fcebca98ce1b5aa89f74444bb6aaab8882b4"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3212-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "f5a1f4f1881dab973ee14031265ec54192d01850935c0c5247cc27691e150354"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3212-f3214-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "9783f82d0bbd0b41215f2ed339082c39af6fddbd21919a58cb77ff4737ec2887"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3214-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "4147a9ea9b8f1c5fefadadbca23d70e395e96e2e8acd5a55679e17b7e3b870fa"
+        }
+      ]
+    },
+    {
+      "source_frame": 3217,
+      "job": "qa\\oct7-bulk-late_action\\job-f3217-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3217-v1.png",
+      "output_sha256": "7477c6e0d55e26fe6e8eecf83f38df558b28e6daaeaa76ac8668c96a44082c22",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1766-f3217.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a887e5dab914236eafbd70ffa2eede300d895e427080b69b93400e8083f1bb13"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3214-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "086b25a5048416a152ccfabcfc074b2f04561743381da90d89f47a3d98a73036"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3214-f3217-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "f4b55222aefc6af3228fa1af61ae7e32503c6c86058a43bdf6ae707528c11e1a"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3217-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a7c9db4b864931a200fa78e21ba74763755dbcc5306530fd326fe10fcd90504a"
+        }
+      ]
+    },
+    {
+      "source_frame": 3219,
+      "job": "qa\\oct7-bulk-late_action\\job-f3219-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3219-v1.png",
+      "output_sha256": "c54598cc67d5867fc47d47c1911326a5948cf415625995c01bc58ac2a10950af",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1767-f3219.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "2ffea754c75637e4e978cc1aafdcec9ec956253a6ca922c75a64f86348d82ef0"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3217-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "7477c6e0d55e26fe6e8eecf83f38df558b28e6daaeaa76ac8668c96a44082c22"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3217-f3219-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "d41fa2469b21461994f55e9dd731475f9f779667f2199986711207c97a5ee716"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3219-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "99ce7ae825d633ba1384f60482ab297e51d7ecea1be1b14598b175eaaba13a0f"
+        }
+      ]
+    },
+    {
+      "source_frame": 3222,
+      "job": "qa\\oct7-bulk-late_action\\job-f3222-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3222-v1.png",
+      "output_sha256": "b0faf87cdbf28e40e04392d9f4bb1607618336dddc46b76cd1ef757e17206460",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1768-f3222.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "9bf53be68f668e9800bed41268ecb804cdb61281398dfb61d1a94f9ab6501568"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3219-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "c54598cc67d5867fc47d47c1911326a5948cf415625995c01bc58ac2a10950af"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3219-f3222-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "0b6ad9dd3ad01635317da4ac5cf8687ffb8d89c6621278c2f266178171422b96"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3222-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a46bc726314759da4c13a6517e69af3a76b507341c1afc85399582f72581696e"
+        }
+      ]
+    },
+    {
+      "source_frame": 3223,
+      "job": "qa\\oct7-bulk-late_action\\job-f3223-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3223-v1.png",
+      "output_sha256": "28d3bdf254845b58707488506c5e3b49c8f9cb94772aa48a9113ba2ec84d0272",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1769-f3223.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "346e2e7218fa460b28e07c86fdd84ef9bad208a37640f599c6ee8033202996b2"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3222-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b0faf87cdbf28e40e04392d9f4bb1607618336dddc46b76cd1ef757e17206460"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3222-f3223-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a7c50bb96c2d712d7567db2a6ad4002fe1bcd414625464fbc6e168cbbc784e1c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3223-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "348ed383764040acff181285f67c7285a90789f7094d4f7792464b6441eb195e"
+        }
+      ]
+    },
+    {
+      "source_frame": 3224,
+      "job": "qa\\oct7-bulk-late_action\\job-f3224-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3224-v1.png",
+      "output_sha256": "883f3c63cb84404d91361bac0e302e1ec96c53043a7562a7ba4b26a038fe7c3f",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1770-f3224.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "054e93dbf2d50bbb6c232c3478e7a1d01a70417daea9f633cb9211c419d7a832"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3223-v1.png",
+          "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose",
+          "actually_viewed": true,
+          "sha256_at_ledger": "28d3bdf254845b58707488506c5e3b49c8f9cb94772aa48a9113ba2ec84d0272"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3223-f3224-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "8577843c99ffc212e988e7df3120f0534ca60d6a233e9d3dbede1b96ad10a89e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3224-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "f6aa2e12b147dc17d191b3f8b8a6a56c2f5f30286e159547c9ee39ff78ff0f44"
+        }
+      ]
+    },
+    {
+      "source_frame": 3227,
+      "job": "qa\\oct7-bulk-late_action\\job-f3227-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3227-v1.png",
+      "output_sha256": "7fd6d3b100a5ca1d8b6e8092034c211bf9626824cf34dc72a855fe8e77b42d5a",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1771-f3227.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e075b08c06946e3d0f24c5e0751386b824c00133e2a340170f4fd0811b011d05"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3224-f3227-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "c57e0483bd2ffe47b03e2572f2a6dc4047387bfd3652a12d7a3bb24f6a36ae48"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3227-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e270ef6d70c3ce4f42879e8b14dc280b242e5a6ca8f769660c4d1e533682fc85"
+        }
+      ]
+    },
+    {
+      "source_frame": 3229,
+      "job": "qa\\oct7-bulk-late_action\\job-f3229-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3229-v1.png",
+      "output_sha256": "424f7cdf4c0cb1df9b4b7e589d81675e04f11effeade1889bff40343e14ce9f8",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1772-f3229.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "685ed138072d122b38eb6e8f94dc6592e7618fb50c47b959fc7f94faecf76909"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3227-f3229-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "06dedc2a2b0e995390ada36b0c6707728077414582f3c09a2f1fb7cee4cc0101"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3229-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "e7b437b80a314cde4e4653ea74dbbf6a1500d7efa0a693998aeb33f753f9a2f6"
+        }
+      ]
+    },
+    {
+      "source_frame": 3232,
+      "job": "qa\\oct7-bulk-late_action\\job-f3232-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3232-v1.png",
+      "output_sha256": "be24454d814dad69e728f2bfa6ccf28159710bf0adb7abe2389d394e34b9724a",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1774-f3232.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "f1cc0b07289be51f2062de13fcb88b5cfe5ed6f48c88b3bc5f547eb3db4c4b23"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3229-f3232-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "98677674341ddfe8519e03e82371d1e771ecee462cee7beefb510fb385b8894d"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3232-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "26aba43f77af8eabb0216bcd642f21b73e3eb6adadfefc44607ef7a2761f1c50"
+        }
+      ]
+    },
+    {
+      "source_frame": 3234,
+      "job": "qa\\oct7-bulk-late_action\\job-f3234-v1.json",
+      "output": "generated/oct7-bulk-late_action-f3234-v1.png",
+      "output_sha256": "8f78b871794e31a4278d4f9ed29256cd3d9b1e11dd5292544f8d2e38dc014a2a",
+      "output_actually_viewed": true,
+      "accepted": false,
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1775-f3234.png",
+          "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion",
+          "actually_viewed": true,
+          "sha256_at_ledger": "a8647daaefbf6129ed199d00074db4dbe6b9e2b76a8f810b30e55ec74f02954b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression",
+          "actually_viewed": true,
+          "sha256_at_ledger": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3232-f3234-ab-rgb-contours.png",
+          "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art",
+          "actually_viewed": true,
+          "sha256_at_ledger": "0bba27f7a505e77068ead444bfffaf112be68b223bfb0172f02ab43880db2b4c"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3234-source-local-ab-rgb-contours.png",
+          "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels",
+          "actually_viewed": true,
+          "sha256_at_ledger": "8f14e0557f82a80283a84c20e9ff8626eb3f4f39b073dcbe8aa194fdb01c77a1"
+        }
+      ]
+    }
+  ]
+}

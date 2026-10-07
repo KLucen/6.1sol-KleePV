@@ -1,0 +1,51 @@
+{
+  "source_frame": 2138,
+  "output": "generated/middle-next-f2138-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole PV animation cel for true original f2138.\nPrimary request: replace both original depictions with Klee, exactly respecting CURRENT PROFILE pose, crop and two-actor occlusion. This is a real new profile key pose, not the previous diagonal frontal face.\nInputs, ordered:\n1 EDIT TARGET: actual original f2138, sole authority for camera, visible anatomy, expression and foreground coverage.\n2 SUPPORT: actual f2136 BEFORE / f2138 CURRENT plus RGB difference and blue/red contours. The giant head rotates decisively to a LEFT-FACING FULL PROFILE and advances into the center. Redraw this change, not the comparison panels.\n3 SUPPORT: current foreground native profile. Exactly ONE narrow half-lidded eye seen sideways, ONE orange cheek, small nearly closed line mouth under the projecting nose, current chin and neck outline. The far eye is anatomically hidden and must not be drawn. Keep the source giant head scale, top/right/bottom cropping and leftward nose projection.\n4 SUPPORT: currently visible small background parts. Foreground hides the background head, all right arm, most torso and most raised left arm/cuff. Only the few currently peeking raised finger tips above/behind the foreground hat silhouette and the small coat/leg/near-boot portions actually shown by the current source may remain. Do NOT show a complete spread palm or cream cuff as in prior f2136; do NOT reveal a hidden background face.\n5 KLEE IDENTITY/STYLE ONLY: prior giant Klee HEAD-ONLY crop, NOT pose/eyes/mouth/crop authority. Continue blonde bangs/compact pony roots, pointed ears, red beret with cream clover and feather, red eye and hand-drawn black contour; convert them to actual PROFILE geometry.\nSubjects: exactly two Klee depictions, giant foreground Klee facing screen-left and occluding small background Klee. Giant beret replaces the old cap; keep source foreground coverage and occlusion, retain one visible red iris in a thin profile eye, blonde swept head mass and coherent ear/pony connections. Small visible background coat is red/cream, any actually visible fingertips brown-gloved, cream boot tops and brown boots. Do not invent unseen anatomy.\nScene/style: current lavender sky with pale scribbled stars context, PV-economical chibi proportions, thick slightly hand-drawn black outlines and simple flat warm color, minimal ornamentation and shadows.\nConstraints: ONE full illustration only; no contact sheet, panels, labels, border, text, captions, watermark. No old pink hair, grey pajamas or animal cap. No second foreground eye, frontal face, oval open singing mouth, extra cheek, extra arms or exposed background head. Do not freeze the prior Klee frontal reference. Actual bilingual source captions and stars are preserved separately later.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-source-actual.png",
+      "role": "current edit target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-f2138-source-ab-rgb-contours.png",
+      "role": "actual source profile motion spatial comparison; overview only",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-foreground-native.png",
+      "role": "current full-profile pose, one eye, native inspected",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-background-visible-native.png",
+      "role": "current visible background only, native inspected",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+      "role": "head-only identity/style, explicitly not frontal pose",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-3bd21d42-0cbf-4c03-887d-b0b0ab04c52e.png",
+  "output_sha256": "f13634c5b5128e8bfec11fc1b3a86f999a3fb3f867af46fe598240a370b51bf8",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed current full source/native profile/occlusion and whole builtin cel. New left-facing profile key pose, exactly one narrow red eye, one cheek and nearly closed mouth; rear head/right arm hidden, no exposed full rear cuff/palm. Small raised glove tips and near leg/boot remain. Foreground beret/hair broader, rear fingertip visibility and profile nose/chin position approximate, small triangular far head tuft and feather side may drift; defer first-cut refinements. Static only, compositor/temporal pending, accepted false.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

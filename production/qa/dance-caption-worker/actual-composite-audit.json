@@ -1,0 +1,115 @@
+{
+  "source_frames": [
+    843,
+    848,
+    856
+  ],
+  "cases": [
+    {
+      "frame": 843,
+      "selected_path": "generated/root-continuation-f0843-v1.png",
+      "native_crop_rectangle": [
+        700,
+        890,
+        1260,
+        1075
+      ],
+      "native_crop_three_panel": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\f0843-native-bottom-three-panel.png",
+      "suspect_rectangle": [
+        778,
+        924,
+        800,
+        951
+      ],
+      "old_boot_detail": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\f0843-old-boot-overlay-detail-4x.png",
+      "suspect_generic_graphics_pixels": 67,
+      "suspect_original_subject_pixels": 594,
+      "suspect_generated_subject_pixels": 364,
+      "suspect_generic_pixels_equal_original_source": 67,
+      "suspect_pixels_changed_by_disabling_bottom_graphics": 67,
+      "suspect_pixels_changed_gt20_by_disabling_bottom_graphics": 67,
+      "all_frame_pixels_changed_by_disabling_bottom_graphics": 500,
+      "undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 848,
+      "selected_path": "generated/root-continuation-f0848-source-native-v2.png",
+      "native_crop_rectangle": [
+        700,
+        890,
+        1260,
+        1075
+      ],
+      "native_crop_three_panel": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\f0848-native-bottom-three-panel.png",
+      "suspect_rectangle": [
+        778,
+        924,
+        800,
+        951
+      ],
+      "old_boot_detail": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\f0848-old-boot-overlay-detail-4x.png",
+      "suspect_generic_graphics_pixels": 21,
+      "suspect_original_subject_pixels": 594,
+      "suspect_generated_subject_pixels": 594,
+      "suspect_generic_pixels_equal_original_source": 21,
+      "suspect_pixels_changed_by_disabling_bottom_graphics": 21,
+      "suspect_pixels_changed_gt20_by_disabling_bottom_graphics": 13,
+      "all_frame_pixels_changed_by_disabling_bottom_graphics": 581,
+      "undeclared_changed_pixels": 0
+    },
+    {
+      "frame": 856,
+      "selected_path": "generated/root-continuation-f0856-v1.png",
+      "native_crop_rectangle": [
+        700,
+        890,
+        1260,
+        1075
+      ],
+      "native_crop_three_panel": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\f0856-native-bottom-three-panel.png",
+      "suspect_rectangle": [
+        778,
+        924,
+        800,
+        951
+      ],
+      "old_boot_detail": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\f0856-old-boot-overlay-detail-4x.png",
+      "suspect_generic_graphics_pixels": 5,
+      "suspect_original_subject_pixels": 370,
+      "suspect_generated_subject_pixels": 555,
+      "suspect_generic_pixels_equal_original_source": 5,
+      "suspect_pixels_changed_by_disabling_bottom_graphics": 5,
+      "suspect_pixels_changed_gt20_by_disabling_bottom_graphics": 1,
+      "all_frame_pixels_changed_by_disabling_bottom_graphics": 541,
+      "undeclared_changed_pixels": 0
+    }
+  ],
+  "provenance_sha256": {
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\compose.py": "ec3ff32bd3c3a7b5e4578c6033c2f2f047cf5534f3b8d50e7464e214354c3278",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\dance_caption_layers.py": "d8ad7799d2a93ab72a24bf01c6a0e46dcf89b18a65ae79663807659e92d3eef4",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_dance_caption_integration.py": "5e13305792dbeadb3ae82ce2cbb286f818b26b3aecbd97f91cf5394f7c80fc58",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\asset_selections.json": "1f5db0999a7700a5cd83ce477bf95177cba8bfb8f71a8040b8a722b8dcf32047",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0389-f0843.png": "5edcff0e406095686f910a15fef30ba96b9ccee2f0e70c2e80b3b45488f78d37",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0843-v1.png": "3aa8d664fd30dba8d15003beda67d6e6ba745ec2f96732493b17b39fa052454a",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0394-f0848.png": "b578df19012267acb1fc9d6dc2101ddfa8dabfc37d0bda298e4c349fed3a230e",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0848-source-native-v2.png": "329e6c0488ea874c2710de6f22aa092f40338f0cdf6da0d86453c4c11225eab8",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0402-f0856.png": "aacf3ac3a46cc0c762fc402ed34ce11711abb9974958d6abfb4a2df8891f456c",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0856-v1.png": "ff06249d64b1659588377ed5ecba721c704241a64e3fb50c04ed2bc00cb9c559"
+  },
+  "inputs_unchanged": true,
+  "integration_tests": {
+    "count": 5,
+    "exit_code": 0,
+    "transcript": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\integration-focused-tests.txt"
+  },
+  "all_32_current_warm_core_inside_donor_alpha": false,
+  "full_phase_report": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-worker\\phase-and-layer-audit.json",
+  "artistic_acceptance": false,
+  "original_speed_watch": "not_performed",
+  "manual_observations": "pending_native_crop_inspection",
+  "limitations": [
+    "The integration tests do not validate all glyph shapes or final readability.",
+    "The 32-frame warm-core support false item remains; stable donor subsets are not a substitute.",
+    "Comparing with a locally disabled overlay isolates only the generic overlay path, not every possible old-character residue."
+  ]
+}

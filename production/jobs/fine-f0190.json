@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0190",
+  "source_frame": 190,
+  "source_candidate": "src-0059",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0059-f0190.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-open-eye-identity-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0185-f0190.png"
+  ],
+  "prompt": "Use case: identity-preserve. One complete 16:9 1920x1080 hand-drawn PV cel. Replace ONLY the original person in image 1 with Klee from Genshin Impact, in the existing simple flat sketch PV style. Image 1 CURRENT original frame 190 is the ONLY authority for framing, pose, all positions, pillow angle, visible face and occlusion. Image 2 is a cropped Klee identity reference ONLY, image 3 costume ONLY; neither determines the pose. Image 4 is source before/current spatial difference analysis ONLY (upper-right is current); do NOT output panels/analysis. EXACT CURRENT ACTION: pillow lowered enough to show BOTH half-open rectangular drooping red eyes fully above its tilted top edge, blonde bangs above eyes; the mouth and lower face are entirely hidden behind pillow. Red beret cream clover and white feather, short side ponytails kept behind pillow and not protruding as extra hair wings. Pillow spans approximately x62-87% and y29-63%, almost frontal with top sloping upward toward viewer-right. TWO brown-gloved hands are OPEN with spread fingers resting on the FRONT lavender surface, not curled around side fringes: left hand around x67%,y48%, right hand x83%,y42%. Cream cuffs and bent red sleeves follow exact source elbows outside the pillow. Preserve two pale blue hand-contact marks on pillow, cream fringes, original detached clock at x49%,y50% and all empty violet background. Body has same source slight lean viewer-right, cropped legs at bottom. Same Klee garment as cropped costume: angular split red lower coat with one cream clover lower-left, cream zigzag underskirt with faint clovers, narrow pink ruffle, RED shorts, one small dangling cream pom at left waist, brown backpack at right. No new shoulder/hip pompoms or duplicate hair tufts. Loose dark contour, flat colors, one muted shadow, orange cheeks if visible, no glossy game-art detail. Absolutely NO text, subtitles, credits, letters or digits anywhere; clock display must be blank purple (original digits restored separately). Preserve original canvas/camera/props rather than enlarge body. Output a single full-frame cel only.",
+  "output": "../generated/fine-f0190.png",
+  "status": "generated_draft",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

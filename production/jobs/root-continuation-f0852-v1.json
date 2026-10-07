@@ -1,0 +1,16 @@
+{
+  "job_id": "root-continuation-f0852-v1",
+  "source_frame": 852,
+  "canonical_cel": "cel-0151",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-500d3041-2a5c-4bb6-9099-4f3f0488bc5e.png",
+  "static_review": "Current raised open brown palms and inward rear fold, two closed eyelids, O mouth and only short side ponytails drawn. Face/eyelid axis lower and costume shape still differ from source and prior draft; temporal review pending.",
+  "known_issues": ["Face/eyelid placement differs", "Cuff/hem and boot contours differ", "Prior collar/short topology mismatch", "Mild shading"],
+  "original_speed_review": "unperformed",
+  "accepted": false,
+  "output": "generated/root-continuation-f0852-v1.png",
+  "references": ["source_refs/src-0398-f0852.png", "qa/root-dance-continuation/hat-color-clover-feather-only.png", "qa/full-early-worker/resume-f0852-source-local.png"],
+  "reference_roles": ["Current source edit target; exclusive pose, expression and occlusion", "Hat identity only", "Original848-to852 actual source RGB and contours"],
+  "prompt": "Use case: identity-preserve. Replace the ENTIRE original girl in Image1 current PV source852 with simplified Klee, one native16:9 full cel. Image1 exclusively decides camera, exact source pose, scale, expression, visible hand surfaces and occlusion. Image2 only red cream-clover beret/one white feather identity, not body or hair. Image3 actual original848-to852 changes; source palms RISE and rear-folded boot draws INWARD, current mouth becomes round O. Front-facing head/chest, TWO CLOSED black eyelids and small vertical O open mouth, NO tongue/teeth or smile, orange source blush. Crown y20%, face center x38% y34%, source shoulders y43%, coat hem y67%; source native torso and long-leg lengths. Arms shallow V: left palm x20% y32% and right palm x55% y33%, both open spread fingers and both BROWN GLOVES all the way to plain cream cuffs, no skin hands. Left-in-picture leg long down, bottom boot x41% y96.5% (all shoe visible, bottom99%); right-in-picture leg bent BACK with boot pulled in to x49% y75%, lower leg approximately horizontal; legs separated by background, no X or extra exposed thigh. Match current thigh/knee/ankle angles rather than prior forward kick. Klee only TWO SHORT blonde side ponytails rooted near pointed ears behind sleeves, no long rear blonde sheet/third tuft. Red beret with front cream clover and one white feather. Simple red coat ONE lowerfront cream clover, plain two-lobed cream collar, wide plain cream cuffs and single cream hem, plain red shorts/bare knees, compact brown boots plain cream top cuffs, compact backpack largely occluded behind torso. No buttons/zippers/vertical chest strips/pockets/badges/ruffles/fluff. Keep native character placement/canvas; do not zoom, recenter, shorten or move boots to avoid subtitles. Strict muted FLAT patches and loose irregular thin dark source outlines, no gradient/rendered shading/highlights. Original lavender white sketch-stars independent background; omit text and yellow effect particles for original-layer recomposition. Bottom captions foreground over shoe. Draw this current raised-arm/inward-boot key pose separately, no frozen neighbor/mirror/morph/panels/collage/new people."
+}

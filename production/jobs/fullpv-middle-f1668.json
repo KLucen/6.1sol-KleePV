@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f1668",
+  "source_frame": 1668,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0953-f1668.png",
+  "prompt": "Identity-preserve source PV character replacement, independent cel f1668. Edit SOURCE image1 into Klee, preserving FULL exact same 1920x1080 coordinate system and background/subtitles. Image2 is ONLY Klee hat design; image3 is ONLY Klee coat cuffs gloves design (NEVER its star/moon). Image4 actual RGB difference/two-color contours with source neighboring cel; these tiny bang/eyelid/cuff/fold variations must survive, don't use a frozen previous cel. CURRENT SOURCE owns all pose and position. LARGE closeup character ONLY RIGHT x888..1847 y126..1080, LEFT caption stays unchanged. Head x1435 y470; half-open sleepy RED irises with thick black slanted upper lids, orange cheek circles; current tiny downturned mouth. Klee red beret cream clover brown band white feather REPLACES original bunny sleep mask entirely, never stack both. Pale blonde bangs TWO SHORT side ponytails; pointed ears only where visible. Exact crossed-arm topology: foreground forearm slants from x1140 y1050 to x1510 y840, a PLAIN cream cuff at x1515..1685 y845..980, only right brown glove tips x1642..1735 y790..890 on opposite red upper sleeve. Other hand hidden. Below crossed arms is FOLDED CLOTHED COAT MASS cropped by bottom, not exposed knees, thighs, pants, feet. Red Klee coat maintains source silhouette; don't add extra limbs/body. Source thick wobbly black contours, limited flat color and simple source shadow, low-framerate hand-drawn PV, NOT fine game-card illustration, no gradients/texture/shading polish or extra coat jewelry. Current source art independently redrawn.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0953-f1668.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/small_seated/source-delta-f1668-f1674.png"
+  ],
+  "reference_roles": [
+    "current source geometry/pose/occlusion",
+    "hat identity only",
+    "costume identity only",
+    "actual source RGB difference and contours"
+  ],
+  "output": "generated/fine-f1668.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "qa": "Static source and adjacent-delta checked before generation; draft unaccepted.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-9133ce0e-11bb-4c58-9d43-c4884620b26c.png",
+  "output_sha256": "8bade04294cf2b1be4672b77600cd29cec6613172fa7319b50b007c45587a304",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

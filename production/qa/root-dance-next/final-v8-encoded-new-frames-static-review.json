@@ -1,0 +1,1437 @@
+{
+  "created_utc": "2026-10-03T15:28:33.313870+00:00",
+  "scope": "Final single V8 encoded static review only: pages 09..14, all 24 new frames f863..886, and native full samples f880/f886",
+  "reviewed_interval_half_open": [
+    863,
+    887
+  ],
+  "pages_viewed": 6,
+  "new_encoded_frames_viewed": 24,
+  "full_samples_viewed": 2,
+  "encoded_video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-opening-36s958-draft-v8.mp4",
+  "encoded_video_file_sha256": "e00030247ef7b2a99fbd643f6127c8283352954a235a23a8758bc22e9b114d7d",
+  "exporter_report": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\report.json",
+    "file_sha256": "501e2d14c73baa927fd3886138e6dd4f0c581e850161f85c7b95d2769422af19",
+    "reported_sequential_decode_count": 887,
+    "reported_caption_interval_half_open": [
+      812,
+      887
+    ],
+    "reported_total_caption_rows": 75
+  },
+  "all_requested_pages_native_pair_hashes_and_two_full_decode_hashes_verified": true,
+  "all_24_source_bgr_hashes_match_prior_independent_source_decode": true,
+  "additional_encoded_video_decode_performed_by_this_static_review": false,
+  "raw_vs_encoded_are_separate_evidence_versions": true,
+  "stable_registered_current_warm_subset_gt30_difference_range": [
+    3,
+    18
+  ],
+  "chinese_registered_current_warm_subset_gt30_difference_range": [
+    0,
+    6
+  ],
+  "pages": [
+    {
+      "page": 9,
+      "frames_inclusive": [
+        863,
+        866
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\overlap-encoded-page-09.png",
+        "file_sha256": "7ecf0d96501b55a7239623894d95bd85718ffbe27969a5b14d88b3ba7fee6d57",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "native_rgb_pixel_sha256": "fc978bd3820f9c35ecf3c2c032dc86fa59a7be886f2d18efe3a88c3e7cd916e1"
+      },
+      "manually_viewed": true,
+      "page_rebuild_pixel_mismatch": 0
+    },
+    {
+      "page": 10,
+      "frames_inclusive": [
+        867,
+        870
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\overlap-encoded-page-10.png",
+        "file_sha256": "c1e01d1da3a52ebc4b25c2da85c0125db56a9e55293c2e8ff41ae214b9abbbb4",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "native_rgb_pixel_sha256": "83d70f385555f4b6f6413f0f83424534f836b7006301926e7645e47b73727a05"
+      },
+      "manually_viewed": true,
+      "page_rebuild_pixel_mismatch": 0
+    },
+    {
+      "page": 11,
+      "frames_inclusive": [
+        871,
+        874
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\overlap-encoded-page-11.png",
+        "file_sha256": "47992c44a8916c8baf69b487e629742bf74c032408e97325f1be8c389b1d0457",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "native_rgb_pixel_sha256": "6c851ae3d7d4719c3790c4684bcdd1c0db689e5b867d941d85c33715e7ac099b"
+      },
+      "manually_viewed": true,
+      "page_rebuild_pixel_mismatch": 0
+    },
+    {
+      "page": 12,
+      "frames_inclusive": [
+        875,
+        878
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\overlap-encoded-page-12.png",
+        "file_sha256": "02873707bd083c3987ebb58f5e5183c8468b78b8d8a5b89ab940c24b6dd937b5",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "native_rgb_pixel_sha256": "34e1d4eb712c0f9efec425b7247e339c080e6ae3f4f700c981aa15b0243f00c8"
+      },
+      "manually_viewed": true,
+      "page_rebuild_pixel_mismatch": 0
+    },
+    {
+      "page": 13,
+      "frames_inclusive": [
+        879,
+        882
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\overlap-encoded-page-13.png",
+        "file_sha256": "87e925776b08673baad0df1e55a94f4d42f9ceabadb65d586222a183e2b35c52",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "native_rgb_pixel_sha256": "d651666941a03dcdb45e8c051b62489a794291025059be4660b12ed492751581"
+      },
+      "manually_viewed": true,
+      "page_rebuild_pixel_mismatch": 0
+    },
+    {
+      "page": 14,
+      "frames_inclusive": [
+        883,
+        886
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\overlap-encoded-page-14.png",
+        "file_sha256": "6b1b080fa4801e4b0f5d4f8fc35ef4f6e4d0c23521196820e1f424b6147c92cb",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "native_rgb_pixel_sha256": "ea7f068d0e31c86647363271615c0f1a0af08524c3e625c36aa8999cd552b75a"
+      },
+      "manually_viewed": true,
+      "page_rebuild_pixel_mismatch": 0
+    }
+  ],
+  "full_samples": [
+    {
+      "frame": 880,
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0880-encoded.png",
+        "file_sha256": "39dbb99ed5c1fbdbec7bb3e9e1268cf79ea83008f8c43a071ae6fc8666b64e7e",
+        "size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "e7fd3690e495fa0d643ba8d1ef4e9fbe31d99a0da09141e1f08688aa312a2744"
+      },
+      "manually_viewed": true,
+      "native_bgr_sha256_matches_exporter_actual_decode": true,
+      "caption_crop_pixel_equal_to_native_pair_encoded_half": true
+    },
+    {
+      "frame": 886,
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0886-encoded.png",
+        "file_sha256": "01919c66d8dee2f1cd6997228fe59be4bf444323cc4c361036bfec68884cac3c",
+        "size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "8da81dcbc90f655ac075ffbdaeb477e19b6bac1801e12aa4362be4ad466dda2f"
+      },
+      "manually_viewed": true,
+      "native_bgr_sha256_matches_exporter_actual_decode": true,
+      "caption_crop_pixel_equal_to_native_pair_encoded_half": true
+    }
+  ],
+  "frame_evidence": [
+    {
+      "frame": 863,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0863-source-encoded-caption-pair.png",
+        "file_sha256": "2b3b02e27214879c0d8741151745aca3bc2e64ae2e8a5588f5f99fee5c2527c6",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "397b4337408371dacc66f749a882646854a03aa3015261fbc4931a49ef72875f"
+      },
+      "exporter_decoded_source_bgr_sha256": "01ec4b346f308727a49d5b61fdcd0b75e6dba143ce3b8d025b2b0d24e764cef8",
+      "exporter_decoded_encoded_bgr_sha256": "c3d526204191ceec951a39f6d62806e1239725cb01db8c804fcc6283a122b936",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6722,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.386956032201768,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 29.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1548,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 864,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0864-source-encoded-caption-pair.png",
+        "file_sha256": "8bde3e8291540f2721cc355a2d14fea65b311a9ec7976af66f8601f29884ed19",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "315240682f218a946c4d5e14e6641270e7d0f51a8b20e7d4f2c8c604ceaf9b73"
+      },
+      "exporter_decoded_source_bgr_sha256": "567cdfaa0e09c4a37bddfba020add5111eba1f9c5b271a138e778932a80d16b1",
+      "exporter_decoded_encoded_bgr_sha256": "42b632911879257b92a7e9d264c08e21125a935f9d6c1bc612adf9828b047d87",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6763,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.410769577211056,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 29.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1548,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 865,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0865-source-encoded-caption-pair.png",
+        "file_sha256": "b42818b162b7f4349e98c6278ffda730d8220824e10e23d07dce289ea34947ce",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "11534f97b474e153b2b60608bf1e1230fc862c7767d861a1c48e24226e588734"
+      },
+      "exporter_decoded_source_bgr_sha256": "62a22f3c8411b6e9a24e1631769efb6843c6abe01cf8275c0a4939c1afbb304b",
+      "exporter_decoded_encoded_bgr_sha256": "fe5b2ab1bde8f59c98c5c466492bc0f227868c72617d3595b89d1d5d5ecbe64c",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6780,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.428897145752407,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 29.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1552,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 866,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0866-source-encoded-caption-pair.png",
+        "file_sha256": "b8e23734263c9fafc63c7f98f1fef9f4995a293c45b832d7ef17f892599f83aa",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "911dd763e9429d3c64dc29541ac601c9ca211a9c2172363c6437dfd5a2ff9ce9"
+      },
+      "exporter_decoded_source_bgr_sha256": "09a211de3d5962042e8ab8fabcc96a6d17804dcf7c410fbff9d7701623d8436f",
+      "exporter_decoded_encoded_bgr_sha256": "338ac9fd7f4232057c88a512fe8dca7c398a675b1a2215a393d2ad191e429236",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6795,
+      "registered_current_warm_subset_difference_gt30_pixels": 5,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 4,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          905,
+          976
+        ],
+        [
+          902,
+          977
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.442295783369927,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 29.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1550,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 867,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0867-source-encoded-caption-pair.png",
+        "file_sha256": "476e66b3d4d30feb8373d4e5968946020417ddacdcb1bf98e0eaa35615ebf160",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "7c8f3f6849ffed6b0bee149c9b8ced06ab4f04dc073fb8be7bb2253caf476791"
+      },
+      "exporter_decoded_source_bgr_sha256": "4a51ea8feedfed64b176ef2079b98db5b0d917563b0190f198363016cdd469e6",
+      "exporter_decoded_encoded_bgr_sha256": "0f9a6fdec7444aa8bb56527baef0f4e1c4884c06079b7dbee731db3bdb6f2f8d",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6777,
+      "registered_current_warm_subset_difference_gt30_pixels": 4,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 3,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          900,
+          968
+        ],
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.449614366942521,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 29.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1544,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 868,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0868-source-encoded-caption-pair.png",
+        "file_sha256": "ea5044f5b5ce4dc845c2519b7f0fad48b12d6b2aa0d2916e1943de5b3bccd58e",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "afa02ebe5d3b21fbef4231fbcad520f4c71ab907c9d45af1e667dbd27e707970"
+      },
+      "exporter_decoded_source_bgr_sha256": "01e9cd9f9f73fbe976a6a2c2100225ee78b13928480d286313d22fc652770455",
+      "exporter_decoded_encoded_bgr_sha256": "3a13ddfa66e8b33db4176d04781d2ba06aa00af61958b8e7f7d325fbb70a1d3b",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6724,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.065050948601025,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1487,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 869,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0869-source-encoded-caption-pair.png",
+        "file_sha256": "ff366cf1704d057af8974019c08020424cab8fc9a0cedc725ad43937e3bf91cc",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "5ca28de3de1325bff5a7edd8b92fe25bd3355aba47b904fdf9b018189391c31b"
+      },
+      "exporter_decoded_source_bgr_sha256": "4c18ab6719d284345944a35c54c2236bffd5a9c6a5055a8ffd45ab593f5a74c4",
+      "exporter_decoded_encoded_bgr_sha256": "71e23c01f6204afe653ccd7088d95852e3904240e0f2c1061401e1bdfec4e31c",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6691,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.119884028598772,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1479,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 870,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0870-source-encoded-caption-pair.png",
+        "file_sha256": "b968aee30805c7b4ffa5b72b584c7e6e06dbbdf1fed528be513b0f218b7dce3d",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "02580df5e03412086ae23735889dd5dc686c5821a82f7e0705b42c8f17ce7d1b"
+      },
+      "exporter_decoded_source_bgr_sha256": "d59c3da5469eee491cefacd34f6ad90d635ddc6012ce84d6addad45f4b823f71",
+      "exporter_decoded_encoded_bgr_sha256": "55a36f79a14d5839119d47dbdaf622da3dc2a565df324a05916981cedba2e71f",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6747,
+      "registered_current_warm_subset_difference_gt30_pixels": 6,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 5,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          791,
+          976
+        ],
+        [
+          902,
+          976
+        ],
+        [
+          903,
+          976
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.176828238473231,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1482,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 871,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0871-source-encoded-caption-pair.png",
+        "file_sha256": "87a792f62bcbd87865ab620f233f41633c450f07994747f76fb1493447582352",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "ffb1813f2883672376b4bb086c584518cb1f1ab5f2ad0d857a26e980c4d361d3"
+      },
+      "exporter_decoded_source_bgr_sha256": "bff33ca002d268096cf39978a2ba0625beb3c8ea5fbbd268bc53d8380d2e0dc0",
+      "exporter_decoded_encoded_bgr_sha256": "fdc677e53c964693181f5716814b652156b776fdbe64d234eaa402b30a7a76da",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6748,
+      "registered_current_warm_subset_difference_gt30_pixels": 8,
+      "chinese_registered_subset_difference_gt30_pixels": 3,
+      "nonchinese_registered_subset_difference_gt30_pixels": 5,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          791,
+          976
+        ],
+        [
+          902,
+          976
+        ],
+        [
+          903,
+          976
+        ],
+        [
+          1102,
+          1023
+        ],
+        [
+          950,
+          1024
+        ],
+        [
+          951,
+          1024
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.137645667961493,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1486,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 872,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0872-source-encoded-caption-pair.png",
+        "file_sha256": "f8b34e759b4787cf4db1efc082159e060959af3b5840f1d9538dc07265abf6fd",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "33bc9ca990456a534ced397d1667bc32d8f16cb70ffd9c5d93b777502cc52ad4"
+      },
+      "exporter_decoded_source_bgr_sha256": "9288208924dfb7fef79e6a403398fdbb49fe687af8ffaf3e7c6fc39b1a0d6a37",
+      "exporter_decoded_encoded_bgr_sha256": "3757ad5e53a30ae32fe561584d914ec1f45c10b60228ce05e8fb15d4c4a2a8aa",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6792,
+      "registered_current_warm_subset_difference_gt30_pixels": 5,
+      "chinese_registered_subset_difference_gt30_pixels": 2,
+      "nonchinese_registered_subset_difference_gt30_pixels": 3,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          791,
+          976
+        ],
+        [
+          975,
+          1015
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.12419073354726,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1487,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 873,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0873-source-encoded-caption-pair.png",
+        "file_sha256": "b55ce7717734b9713c60cfe7e9027dfa74a4d69c4df2a77a47ff3d3b2ccb0304",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "e9a571c3b72acb08a0cc699ea92fe7decbeb114af6b2f33b883fd5f01342b520"
+      },
+      "exporter_decoded_source_bgr_sha256": "9748c94b3d33fa2b0b8965dbdb9cfa4ea52876907a90ef717dfc5bf470e285dd",
+      "exporter_decoded_encoded_bgr_sha256": "a9ecd37c601930a5b9b61ccf8fea31c87af62af1aeb8ad7fcecaf40181e9bc27",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6821,
+      "registered_current_warm_subset_difference_gt30_pixels": 4,
+      "chinese_registered_subset_difference_gt30_pixels": 2,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ],
+        [
+          992,
+          1029
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.31785171423746,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1475,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 874,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0874-source-encoded-caption-pair.png",
+        "file_sha256": "574a774770e5e4987e30ed750eb6959b8648987c3a61a347e70385a0e2c7a6f8",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "dd423743b0bacbf95db049cda488a56c098220a93f55b9596b79e9a494c79370"
+      },
+      "exporter_decoded_source_bgr_sha256": "bde80bce96fad160729c7083e27903330479bbc6afc2e8f711b128d1437cfc4e",
+      "exporter_decoded_encoded_bgr_sha256": "ac571d4c41ad69ae64b4c22c9121b865e7a759a8bedbe7b45e88a569879eaeb7",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6841,
+      "registered_current_warm_subset_difference_gt30_pixels": 4,
+      "chinese_registered_subset_difference_gt30_pixels": 2,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ],
+        [
+          992,
+          1029
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.337555593086753,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1481,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 875,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0875-source-encoded-caption-pair.png",
+        "file_sha256": "53be1e50601e141a4aa505608aefc6ef38d052808510d0611b4348a1260b82d9",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "90769abc6b925113c1bda715c44f7a0e422a6e2d04a28e4a5b4c719ef76d5496"
+      },
+      "exporter_decoded_source_bgr_sha256": "7f3d8c8b7865c3977772c8f16ca8a16423e25f5a18e44ca14cc84caab10c94f3",
+      "exporter_decoded_encoded_bgr_sha256": "6ba0c2358790a8f89fa2b824d1879635b436429ea280dc720c7e17ff1cdb1ab9",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6803,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.374486291730001,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1473,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 876,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0876-source-encoded-caption-pair.png",
+        "file_sha256": "bba8be02f66db73aca05010fdad1885dde8f922413a2d39e8d5fd41c3274f9b9",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "2cf12d974bd663fc6ac1264d46188c47e97060786cfb69b4086d50b4db7c4c85"
+      },
+      "exporter_decoded_source_bgr_sha256": "89fa43d82e38617a3d82beedc367398b1b0d9a98ff3a751c979542647a5e7e2a",
+      "exporter_decoded_encoded_bgr_sha256": "56b9d6b379d69ae03159de478e747e0e409d7da9a8aab538a30db6bf507c723b",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6821,
+      "registered_current_warm_subset_difference_gt30_pixels": 5,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 4,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          889,
+          984
+        ],
+        [
+          889,
+          985
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.415948882508586,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1478,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 877,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0877-source-encoded-caption-pair.png",
+        "file_sha256": "0563cffb435e20d149f33452f7fff0b7fa1707a01f7e060989802eb1e437db6d",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "35b7dd002807d7deb3355413f02c3c10e2dfd70b6b676a3ea774af85b2434187"
+      },
+      "exporter_decoded_source_bgr_sha256": "646ee8eb9c8cb35e239221a61cdd0f6488439191889fa19bccf29ba1ea345044",
+      "exporter_decoded_encoded_bgr_sha256": "779490351010450e5af4b229dac35a31a0f1246a61506d55f60c17b869689313",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6732,
+      "registered_current_warm_subset_difference_gt30_pixels": 4,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 3,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          893,
+          970
+        ],
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1102,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.41744074762146,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1478,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 878,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0878-source-encoded-caption-pair.png",
+        "file_sha256": "efb31d44d6c06e4a5ea3e7e4e20da64e2f20379f1956370950e01023ec204967",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "6a754caddbc918ef0597faa7247906cf19e0e593d40fb95e36f289f523e88b7e"
+      },
+      "exporter_decoded_source_bgr_sha256": "f80c2724d2e16602a81bcbd6bd3af3f8824eddbbee4ee3afd4aae1aa046fa2e2",
+      "exporter_decoded_encoded_bgr_sha256": "875a514cee905b7a46fda8d4efd1ec1b88a320792386b3c1d5d28adacbc216c9",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6662,
+      "registered_current_warm_subset_difference_gt30_pixels": 13,
+      "chinese_registered_subset_difference_gt30_pixels": 4,
+      "nonchinese_registered_subset_difference_gt30_pixels": 9,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          969,
+          968
+        ],
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1055,
+          971
+        ],
+        [
+          1052,
+          972
+        ],
+        [
+          1070,
+          986
+        ],
+        [
+          1071,
+          986
+        ],
+        [
+          1070,
+          987
+        ],
+        [
+          1071,
+          987
+        ],
+        [
+          932,
+          1011
+        ],
+        [
+          1102,
+          1023
+        ],
+        [
+          950,
+          1028
+        ],
+        [
+          951,
+          1029
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.38053819737657,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1478,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 879,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0879-source-encoded-caption-pair.png",
+        "file_sha256": "19e997d209270c4b02ed5ec82ceceb0fe84183c87b08ea1ce8fd6236660f9609",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "f466ca4f36548e179aeb455d5da7b05e30c820994a7545fd2b2a4806f0a39d60"
+      },
+      "exporter_decoded_source_bgr_sha256": "daae6b24fe388b21b256b2a1e5c84ba4f2a5b524789c8193d62efeae6b32c333",
+      "exporter_decoded_encoded_bgr_sha256": "14672081448ed3f1563cb201ff335a08a055e25be64b5666ea17d8f0fae2f160",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6624,
+      "registered_current_warm_subset_difference_gt30_pixels": 16,
+      "chinese_registered_subset_difference_gt30_pixels": 6,
+      "nonchinese_registered_subset_difference_gt30_pixels": 10,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          969,
+          968
+        ],
+        [
+          892,
+          970
+        ],
+        [
+          1052,
+          970
+        ],
+        [
+          1053,
+          970
+        ],
+        [
+          1055,
+          971
+        ],
+        [
+          1052,
+          972
+        ],
+        [
+          1070,
+          986
+        ],
+        [
+          1071,
+          986
+        ],
+        [
+          1070,
+          987
+        ],
+        [
+          1071,
+          987
+        ],
+        [
+          932,
+          1011
+        ],
+        [
+          1102,
+          1023
+        ],
+        [
+          950,
+          1028
+        ],
+        [
+          951,
+          1028
+        ],
+        [
+          950,
+          1029
+        ],
+        [
+          951,
+          1029
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.382874514440129,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 28.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1484,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 880,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0880-source-encoded-caption-pair.png",
+        "file_sha256": "7c84ce2218c5c1468a67062fe65daf6ded7b9644cf2086c447cdfd177237a300",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "7b20115c36ba165f8ee0ad9b07565086503750fad2a9b5e50c20779e51dc021b"
+      },
+      "exporter_decoded_source_bgr_sha256": "9104aafae9c3d048ba10b75bc9038d9b422d5a762eaa3e4bedc1897aac510b0e",
+      "exporter_decoded_encoded_bgr_sha256": "07fc07aaf04779e89e563fca0e3715532d5c8535b581939bfe13114efa0ea9c1",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6824,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 0,
+      "nonchinese_registered_subset_difference_gt30_pixels": 3,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          940,
+          959
+        ],
+        [
+          941,
+          959
+        ],
+        [
+          968,
+          974
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 7.98136576028824,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1169,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 881,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0881-source-encoded-caption-pair.png",
+        "file_sha256": "f06913d152455ddec5dca31fee13caebe30d3598cacc30041fa6f2cac4488318",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "341fccca95626d53af78df6175b3dfa4aa221ba5ea7cb15159fc80d067dac9f1"
+      },
+      "exporter_decoded_source_bgr_sha256": "505c548b4d02b61f9917a8e64370f2a55904489ef7eeb349d307cce513b14339",
+      "exporter_decoded_encoded_bgr_sha256": "898305dd55d352ecdc652d4e2e6941a6f40ab9f9cb0b8308df759b3354cebcf4",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6782,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 1,
+      "nonchinese_registered_subset_difference_gt30_pixels": 2,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          938,
+          959
+        ],
+        [
+          968,
+          974
+        ],
+        [
+          868,
+          1020
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 7.964701908461408,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1161,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 882,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0882-source-encoded-caption-pair.png",
+        "file_sha256": "0dd23247bc795908f5c8629900062a9042875a233cdbf123d9e894dec185a8f2",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "545e3f2991c37a53d8f6a63a1b1d784087181db40d08c38fd0f13ecfdee2ab33"
+      },
+      "exporter_decoded_source_bgr_sha256": "bfa012a0fc1af2772b9969b25c0beeb6b24107924def10769171d2e176c523dd",
+      "exporter_decoded_encoded_bgr_sha256": "87ced4e7d7b83b7f8d71b4e4c93edc5dd03da64e7a9497e506f0f917c0c476d2",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6745,
+      "registered_current_warm_subset_difference_gt30_pixels": 5,
+      "chinese_registered_subset_difference_gt30_pixels": 2,
+      "nonchinese_registered_subset_difference_gt30_pixels": 3,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          938,
+          959
+        ],
+        [
+          939,
+          959
+        ],
+        [
+          968,
+          974
+        ],
+        [
+          866,
+          1020
+        ],
+        [
+          869,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.019169059280527,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1163,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 883,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0883-source-encoded-caption-pair.png",
+        "file_sha256": "db2a44ecd88be3611ca34b7df2c5bb132b152fe67cec84a98e5dfb716ddafd55",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "0f7217cf085623ff133f35bdf44a69d2c4f8fd68458a707dff8765b3e3cb7372"
+      },
+      "exporter_decoded_source_bgr_sha256": "6e2d9dff907d9b62818808f8009243af3344e649795aee18089864961927edef",
+      "exporter_decoded_encoded_bgr_sha256": "16095585e0c336e3fcd0deb442bea7a5ad3ae8f6b8e13a7f18b0ef39cad2bc91",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6737,
+      "registered_current_warm_subset_difference_gt30_pixels": 3,
+      "chinese_registered_subset_difference_gt30_pixels": 2,
+      "nonchinese_registered_subset_difference_gt30_pixels": 1,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          968,
+          974
+        ],
+        [
+          866,
+          1020
+        ],
+        [
+          987,
+          1029
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.075296965602657,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1163,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 884,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0884-source-encoded-caption-pair.png",
+        "file_sha256": "9da3543315ae85da32eee21858596a3f74ae4d2aa74ce90f05ed5cc51116c999",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "1bddf7d7e7b4028137056fdc51f09c4d94943f5ddc19ac810e141f5be11e2312"
+      },
+      "exporter_decoded_source_bgr_sha256": "9d4c93f6569a808c068828f6c3c388d518770388d4a1da52475b89f076e03744",
+      "exporter_decoded_encoded_bgr_sha256": "9b5ec908788fd554591bfbeb2c32157b62fcb5724595ed0ad99de00af8b14534",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6771,
+      "registered_current_warm_subset_difference_gt30_pixels": 10,
+      "chinese_registered_subset_difference_gt30_pixels": 4,
+      "nonchinese_registered_subset_difference_gt30_pixels": 6,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          968,
+          974
+        ],
+        [
+          969,
+          974
+        ],
+        [
+          968,
+          975
+        ],
+        [
+          969,
+          975
+        ],
+        [
+          930,
+          984
+        ],
+        [
+          930,
+          985
+        ],
+        [
+          904,
+          1008
+        ],
+        [
+          987,
+          1028
+        ],
+        [
+          987,
+          1029
+        ],
+        [
+          939,
+          1036
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.104852783876597,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1170,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 885,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0885-source-encoded-caption-pair.png",
+        "file_sha256": "8480eb5de8b8e143e8e567634c2a734dfb678c3119bae5d5b8cee5cd85bb938f",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "eee9f73f1b843c4b2fd1afaaf2cbc11ae7c5be5c226fe566826883b3170e4599"
+      },
+      "exporter_decoded_source_bgr_sha256": "2af2c04b4c236ec1fdff97d2d55d30cee499ad49ffdddf040760fdb2192c2ab6",
+      "exporter_decoded_encoded_bgr_sha256": "20cdf430dc212c36611ea1f2977887490cd2a225d0d919116f54bc2a6f0b7ed7",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6813,
+      "registered_current_warm_subset_difference_gt30_pixels": 7,
+      "chinese_registered_subset_difference_gt30_pixels": 0,
+      "nonchinese_registered_subset_difference_gt30_pixels": 7,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          940,
+          959
+        ],
+        [
+          941,
+          959
+        ],
+        [
+          968,
+          974
+        ],
+        [
+          969,
+          974
+        ],
+        [
+          968,
+          975
+        ],
+        [
+          969,
+          975
+        ],
+        [
+          830,
+          981
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.113663232562066,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1165,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    },
+    {
+      "frame": 886,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\opening-v8-encoded-caption-evidence\\f0886-source-encoded-caption-pair.png",
+        "file_sha256": "84dfff6fe9f1c3d90326c011c8172c3510b514d1df83898aa3ff48ca4219f9ba",
+        "size_wh": [
+          764,
+          93
+        ],
+        "native_rgb_pixel_sha256": "5e513284e2e6c7cf6ec8f27a6199040bdea58bcc224cf4f53cc2cbda488a65b0"
+      },
+      "exporter_decoded_source_bgr_sha256": "fc5ad373fdee5ae2c3f40de29275f2df9692dd899694bd4a919815f2f693b00e",
+      "exporter_decoded_encoded_bgr_sha256": "9f552fa036743aaeea21cef5f70554201528c55549767a24ad2898be221b1740",
+      "source_hash_matches_independent_actual_24_frame_audit": true,
+      "source_half_pixel_equal_to_raw_composite_evidence_source_half": true,
+      "registered_current_warm_subset_pixels": 6755,
+      "registered_current_warm_subset_difference_gt30_pixels": 18,
+      "chinese_registered_subset_difference_gt30_pixels": 2,
+      "nonchinese_registered_subset_difference_gt30_pixels": 16,
+      "registered_subset_delta_gt30_native_xy": [
+        [
+          938,
+          959
+        ],
+        [
+          939,
+          959
+        ],
+        [
+          940,
+          959
+        ],
+        [
+          941,
+          959
+        ],
+        [
+          1005,
+          960
+        ],
+        [
+          1096,
+          961
+        ],
+        [
+          1101,
+          963
+        ],
+        [
+          984,
+          967
+        ],
+        [
+          990,
+          974
+        ],
+        [
+          991,
+          974
+        ],
+        [
+          990,
+          975
+        ],
+        [
+          991,
+          975
+        ],
+        [
+          1009,
+          975
+        ],
+        [
+          1088,
+          977
+        ],
+        [
+          1091,
+          981
+        ],
+        [
+          1107,
+          983
+        ],
+        [
+          868,
+          1020
+        ],
+        [
+          863,
+          1023
+        ]
+      ],
+      "subset_difference_is_not_fragmentation_or_full_glyph_test": true,
+      "encoded_vs_raw_caption_crop_mean_max_channel_delta": 8.169312616112144,
+      "encoded_vs_raw_caption_crop_p95_max_channel_delta": 26.0,
+      "encoded_vs_raw_caption_crop_pixels_max_channel_delta_gt30": 1174,
+      "page_manually_viewed": true,
+      "obvious_new_fragmented_chinese_glyph_observed": false
+    }
+  ],
+  "manual_findings": [
+    "All 24 new encoded-frame crops were viewed. No obvious newly fragmented Chinese glyph was seen at the displayed 2x nearest-neighbor scale relative to the raw-composite inspection.",
+    "At f880..886, Chinese first characters remain foreground over the left brown boot and final characters remain foreground over the right brown boot. No pasted source shoe/cuff rectangle was observed.",
+    "Japanese left/right end glyphs overlap pale cream boot cuffs and remain low-contrast. Moving pale star lines cross central Japanese counters and the Chinese middle; that limitation existed in the raw composites and is not cured by encoding.",
+    "f880/f886 full encoded samples preserve the new open two-leg stance and registered caption contact. Their display is static, not actual-speed or artistic approval.",
+    "Encoding changes antialiased/color pixels. A subset difference count is not a new-fragmentation locator; recorded pixel coordinates are technical deltas only."
+  ],
+  "confirmed_new_chinese_fragmentation_locations": [],
+  "complete_glyph_acceptance": false,
+  "encoded_source_exact_claim": false,
+  "artistic_acceptance": false,
+  "actual_speed_watch_performed": false,
+  "production_core_or_selections_modified": false,
+  "stopping_boundary": "This bounded subtask is complete after the static encoded review. No further generation, encode retry, stage continuation or shared-state change is authorized by this review.",
+  "limitations": [
+    "The parent exporter performed the actual sequential 887-frame encoded/source decode and kept 75 caption rows; this private review reads and hash-verifies its artifacts, not a second 887-frame decode.",
+    "Only pages 09..14/new f863..886 and f880/f886 encoded full samples are visually reviewed here. Other encoded pages and clear-phase images remain the parent review scope.",
+    "Current warm core intersected with the stable donor is a subset, not every glyph pixel, OCR or exact original source transparency.",
+    "H264/YUV color and AA differences mean raw/composite source-exact claims cannot be transferred to the encoded video.",
+    "Japanese pale-on-pale cuff contact, star crossings and full-motion readability are not accepted.",
+    "Underlying hair/costume/contour continuity findings remain open; no artistic acceptance or complete PV claim is made."
+  ]
+}

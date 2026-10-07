@@ -1,0 +1,81 @@
+{
+  "source_frame": 2354,
+  "cel": "cel-0455",
+  "source_candidate": "src-1341",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2354-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility. Image 5: Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop.\nCurrent source frame f2354; original predecessor f2350. Actual observed current pose and changes: Actually viewed current full source, actual f2350/f2354 AB RGBx4 contours and native head/both raised cuffs panel. One full actor, round OPEN eyes/red pupils and small OPEN O mouth unchanged. Screen LEFT arm now bends UP: left forearm angled up/left ending in front-facing compact fist at chest-height outside torso, cuff behind fist. RIGHT forearm more upright with fist beside collar on screen RIGHT side below cheek, cuff/forearm in front of torso; not crossing all the way inward as before. Both legs now nearly straight and both complete feet flat/separated. Head shifts slightly RIGHT/up. Preserve two distinct bent arms, correct cuff-fist anatomy, no held prop or extra hands.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1341-f2354.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-upper-head-hand-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2350-v1.png",
+      "role": "Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1341-f2354.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-upper-head-hand-native.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2350-v1.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2354,
+      "end": 2361,
+      "pts": 98.083,
+      "end_pts": 98.375,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "Actually viewed current full source, actual f2350/f2354 AB RGBx4 contours and native head/both raised cuffs panel. One full actor, round OPEN eyes/red pupils and small OPEN O mouth unchanged. Screen LEFT arm now bends UP: left forearm angled up/left ending in front-facing compact fist at chest-height outside torso, cuff behind fist. RIGHT forearm more upright with fist beside collar on screen RIGHT side below cheek, cuff/forearm in front of torso; not crossing all the way inward as before. Both legs now nearly straight and both complete feet flat/separated. Head shifts slightly RIGHT/up. Preserve two distinct bent arms, correct cuff-fist anatomy, no held prop or extra hands.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-bf4af865-4f19-406b-aded-97c5c72f5b4d.png",
+  "output_sha256": "d500036af7f54d9a4d97b958a7aee161647e91c1f5228da8c788c3265a28a38b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually reviewed output: full single Klee open red eyes and O mouth. Both arms now bent UP, LEFT gloved fist outward at chest height, RIGHT fist near collar, both cuffs overlap forearm correctly. Boots flat/separated. RIGHT wrist still more inward than exact source and RIGHT knee retains weak bend; dense outfit and fluffy collar. accepted=false; no retry, temporal review pending.",
+    "accepted": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "source_frame": 2152,
+  "status": "reviewed_static_temporal_pending",
+  "tool": "builtin_imagegen",
+  "output": "generated/middle-cold-f2152-oct6-v1.png",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. ONE whole 16:9 simple hand-drawn PV cel f2152 with EVERY visible original character fragment replaced by Klee. No text/subtitles/watermark/collage. Current source1 controls composition/pose/crop/visibility exclusively. Source2 actual f2151->2152 AB/RGB/contours shows warm foreground departs. Source3 native cold profile A/B controls held eye/face detail. Reference4 warm ponytail crop is identity ONLY for departing fragment, no face. Reference5 cool Klee crop is identity/palette only; never copy its closed eye.\nIMPORTANT transition: there is ONE visible FACE now, the cool RIGHT-facing profile. The huge warm foreground face and its hat, eyes, cheeks, mouth and coat have completely EXITED LEFT. Do not recreate or recenter that warm head. Only a narrow WARM BLONDE KLEE PONYTAIL FRAGMENT remains clipped along the far LEFT edge, roughly from y35% to bottom, corresponding to the original peach hair fragment; at most a red tie sliver, no warm face, no eyes/mouth/ear/hat/torso. This fragment is in FRONT of the cool scene and ends sharply as current source. Do not confuse this with the cool actor's flowing hair.\nCool main Klee facing RIGHT occupies current source position: nose around 73% canvas width and 42% height, chin around 70% width and 59% height, neck/pale collar around 58% width and 70% height, red shoulder/coat clipped at bottom. Exactly ONE narrow HALF-OPEN red eye visible, with heavy upper eyelid and small lower pupil, one muted violet cheek, tiny closed-dot mouth. Main head is held relative to f2151; keep source eyelid/bang/hat/profile expression. Klee has icy-lavender tinted blonde short bob plus a red-tied ponytail sweeping LEFT under current source breeze, preserving recognizable short bob and separated tied hair, NOT the original huge long pink hair sheet. A simple red beret tinted cool, pale clover and one feather replaces original animal cap and all animal ears. Show only current-visible head/neck/shoulder, no hands/legs/second face.\nThis scene now exposes the original purple-blue LEFT night sky and vivid blue RIGHT night sky with small pale dots and crescent at upper-right. Preserve the source background and exposure framing, do not replace with solid empty fill. Simple flat cel colors, restrained dark colored outlines, rear softness like original; no realistic shading. Original lyrics are restored separately, draw no lettering.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-source-actual.png",
+      "role": "CURRENT f2152 sole actual composition/visible-fragment/crop authority; warm face is completely offscreen",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-f2152-source-ab-rgb-contours.png",
+      "role": "Actual source AB RGB/contours overview viewed resized: warm giant departs, leaving only hair fragment at far-left; cold profile revealed",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+      "role": "Native held cold profile eye/bangs/hat: expression one half-open visible eye; full cold hair/collar newly revealed by warm departure",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\klee-f2149-warm-ponytail-identity-only.png",
+      "role": "Warm blonde ponytail and ribbon identity ONLY for the tiny departing far-left fragment, no face template",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+      "role": "Cool Klee short bob/ponytail/beret identity only; current visible eye must remain HALF-OPEN, not this crop's closed eye",
+      "actually_viewed": true
+    }
+  ],
+  "source_drawing_review": {
+    "distinct": true,
+    "reason": "Warm face departs completely, only clipped warm hair remains at far left; previously occluded cold hair/neck/collar and purple-blue sky are exposed. Wholecel cannot alias.",
+    "actually_viewed_native": [
+      "f2152-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png",
+      "f2152-warm-face-eye-mouth-native-ab-rgb-contours.png",
+      "f2152-warm-hat-hair-native-ab-rgb-contours.png"
+    ]
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a1109b-8068-7201-8ae3-e679eddd9fdd\\exec-9fcc946d-87ca-43e2-8990-a562a655ca24.png",
+  "output_sha256": "5d85eddaefd78f8eec07f6e4e61dededf1382e3ef6d49d1a7bb3a36fbce258a4",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Exactly one cool Klee profile face and warm blonde ponytail fragment at far-left; warm face/hat/coat correctly offscreen. One half-open red eye, correct rear/profile orientation and original visible sky restored, no text. Current source and adjacent static whole checked. Cool profile nose/neck positions and larger beret/hair silhouette approximate; sharpness/ornament drift deferred. Compositor all-exposure and temporal pending.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

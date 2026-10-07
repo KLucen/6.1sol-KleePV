@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f1314-source-native-v6",
+  "source_frame": 1314,
+  "family": "seated_title_credits",
+  "references": [
+    {"path": "source_refs/src-0823-f1314.png", "role": "Edit target; sole pose, scale, camera and eye-state authority"},
+    {"path": "qa/title-repair-v6/source-head-f1314.png", "role": "Same current source head; exact leftward lean and eyelid/iris landmarks"},
+    {"path": "style_refs/face-reaction-hat-only-f0310.png", "role": "Klee beret, blonde curl and feather identity only; no facial or pose authority"},
+    {"path": "qa/title-repair-v6/costume-only.png", "role": "Existing Klee costume colors and cut only, not joint placement"},
+    {"path": "qa/title-repair-v6/source-delta-f1309-f1314.png", "role": "Actual source delta and contours; preserve independent current drawing"}
+  ],
+  "prompt": "Use case identity-preserve. Edit image1 original PV frame1314 into Klee, maintaining its original full1920x1080 framing. Image2 is the SAME CURRENT ORIGINAL HEAD enlarged, its roughly 13-degree counterclockwise leftward tilt and both open drooping eye landmarks must be followed. Image3 ONLY supplies Klee red clover beret/feather/blonde identity, image4 ONLY supplies costume design, image5 ONLY source spatial delta, never output these panels. Replace the sole original human in place with Klee; do not enlarge or recenter her. Preserve the SMALL seated center-bottom figure occupying x39..59%, y23..73%: boot soles at y72.5%, knees together raised to y53%, crossed red forearms resting across both knees around y48..53%, hands tucked behind opposing sleeves, NOT extra gloved hands stacked above the arms. Face center aboutx49%, y39%, tiny dot mouth atx48.6%, y42%; BOTH eyes open with source drooping upper lids and gaze, mutedRED irises, never a wink. The eyebrow/eye axis rises toward viewer-right exactly as original currenthead; head clearly leans left, body remains seated. Klee has exactly TWO short pale-blonde ponytails with roots by her pointed ears, replacing the original long hair; keep volume restrained. Red beret creamclover with whitefeather, simple flat redcoat creamtrim draped around raised knees, brownroundboots creamtops, small right backpack partially hidden. Keep original PV uneven bold outlines, flat color patches, orangeblush and minimal shading, not polished gameart. Keep the exact large cream Japanese title behind the figure unchanged as background; no added lettering, no new captions, no repainting/translation of words, no panels. Preserve the original figure's floor height and headlean; do not copy the upright geometry or visible extra hands from a Klee reference. One complete current cel, no crop.",
+  "output": "generated/fine-f1314-source-native-v6.png",
+  "status": "reviewed_static_partial_repair",
+  "review": "Source leftward head lean and floor scale improved; source blue upper iris fill and added visible hands were failures. Superseded by arms-eyes-v7.",
+  "accepted": false
+}

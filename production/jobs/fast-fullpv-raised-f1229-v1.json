@@ -1,0 +1,51 @@
+{
+  "owner": "raised_closeup_batch",
+  "source_frame": 1229,
+  "cel": "cel-0265",
+  "mode": "strict_source",
+  "tool_mode": "builtin_image_gen",
+  "accepted": false,
+  "status": "generated_blocked_superseded",
+  "prompt": "Use case: identity-preserve. Asset type: one independent full-frame cel for strict-source Klee hand-drawn PV. Image 1 is EDIT TARGET current original; it alone sets exact raised-arm pose, facial state, size, crop and background. Image 2 is same-shot Klee continuity/identity only, not its expression or pose. Image 3 is original preceding/current A/B, actual RGB difference and blue/red contours; it documents motion, not artwork. Image 4 is Klee EYE COLOR/black pupil/highlight reference only: source image 1 controls eye openness, upper lid tilt and gaze. Completely replace original pink hair, animal sleep-mask, gray coat and bare hands with Klee: pale blonde simple bangs, exactly two short rooted neck-side ponytails, pointed ears, red beret cream clover and one white feather, red coat, plain cream two-leaf collar and broad cream cuffs, brown full-finger gloves. Preserve recognizable same hair/hat/costume across cels, no extra hanging hair or third ponytail. The current original controls head/arm motion and folds; do not freeze on image 2. Klee eyes RED with dark black-red pupil and restrained source-like white highlight, never source blue-gray. Simple source PV style: loose dark outlines, flat color patches, orange blush, minimal one shadow, no elaborate rendering or fine fabric patterns. Preserve current purple star backdrop; remove all text in art image because compositor restores exact Chinese/Japanese lyrics at source timestamps. No invented objects, no original human residual, no extra arms/legs, no lower body added beyond crop. TARGET f1229: both open brown gloved hands fully visible in wide V; left palm/wrist shifted down-left relative to f1225 and fingers a little more horizontal, right wrist slightly lower with palm fingers right/down; cream cuffs rotate with exact source wrists. Half-open sleepy eyes low rectangular openings, narrower than f1282 closeup, and a larger vertical O mouth open at the bottom in the source, not closed-eye f1256 and not tiny f1225 O. Head and collar slightly lower than previous cel as shown by actual difference. Keep full source torso-bottom crop and two arm sleeve folds; no close zoom. Allow bangs/side-pony tips to follow current modest downward motion, retain rooted short topology.",
+  "referenced_image_paths": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0761-f1229.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1256-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1225-f1229.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "edit_target_current_source_pose_crop_expression_background",
+    "same_shot_Klee_1256_identity_not_expression_pose",
+    "actual_source_RGB_contours_1225_to_1229",
+    "eyes_color_pupil_highlight_only"
+  ],
+  "intended_output": "generated/fast-fullpv-raised-f1229-v1.png",
+  "exposure": [
+    1229,
+    1234
+  ],
+  "selected_draft_proposed": false,
+  "static_review": {
+    "result": "Superseded after confirmed original long peach-pink armpit hair residue",
+    "blocking_confirmed": [
+      "Old pink hair tips remain at both armpits"
+    ],
+    "issues": [
+      "Do not use as identity or replacement anchor"
+    ]
+  },
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-7c80ef96-3777-4c18-b013-c8f835c3fd2e.png",
+  "observed_call_seconds": 46.9,
+  "output_sha256": "cf8e770151cd436e30b3ce1265f5625f84fe963c6830c4309604563e3846c007",
+  "output_canvas": [
+    1672,
+    941
+  ],
+  "canvas_note": "Native tool output retained; compositor normalizes to source 1920x1080 canvas",
+  "reference_sha256": {
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0761-f1229.png": "e36886b796d1c7a9279b8818221f23eb2d4cd871f8b77005fae0bf1a6604fd6d",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1256-v1.png": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1225-f1229.png": "99dbbfc6610da9f2c68bab4ba551f9acf51e8442930cfc9f81ec486da7944b20",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+  }
+}

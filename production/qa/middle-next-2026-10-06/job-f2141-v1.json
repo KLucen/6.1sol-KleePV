@@ -1,0 +1,51 @@
+{
+  "source_frame": 2141,
+  "output": "generated/middle-next-f2141-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "blocked_static_unselected",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole PV animation cel at actual original f2141.\nPrimary request: replace all actually visible original character regions with Klee, retaining the current PROFILE-TO-REAR transition and exact source occlusion. This is a BACK-OF-HEAD pose: there is NO visible foreground face whatsoever.\nInputs in order:\n1 EDIT TARGET: actual original f2141, sole camera/crop/current-pose/visible-region authority.\n2 SUPPORT: actual f2138 BEFORE / f2141 CURRENT, RGB difference and contour comparison. The enormous head rotates from left profile to completely rear-facing, moves to center-left and fully hides the previous standing actor. Do not copy the old profile eye or nose.\n3 SUPPORT: native current rear head silhouette and top-right new night-character hat fragment. Preserve these actual two visible regions and their depth order.\n4 SUPPORT: native center occlusion crop: the former standing figure is COMPLETELY HIDDEN. No finger tips, boots, coat, palm or face should peek out.\n5 IDENTITY ONLY: cropped prior Klee rear beret/blonde bob/compact pony tails. Continue simple Klee identity colors and thick hand-drawn contours, but reshape to current giant rear silhouette. Do not copy its earlier camera location, shading or background.\nForeground subject: giant REAR VIEW Klee red beret with wide cream band, blonde back-of-head bob and compact two low side pony tails connected to the back hair. The broad rounded cap top spans roughly x400..1500 in a 1920 canvas and is clipped at the top; the large back hair spreads to the bottom/right edge. Keep comparable source coverage. No face, cheek, eyes, eyebrow, nose, mouth, neck front, shoulders, hands or new full body. Back cap has no front-facing clover on its center; retain side decoration only if naturally visible.\nBackground visible fragment: ONLY the thin cyan/cold green outlined upper part of the next NIGHT Klee beret/cream feather peeking behind the giant rear head near upper-right x1100..1450. Replace the original animal-cap rounded ears with the simplified Klee hat/feather outline in the same tiny exposed area. Its face/body are fully hidden: do not reveal them, no extra eye, no extra standing figure.\nScene: current lavender scribbled-star left sky transitioning to vivid BLUE night right sky, small crescent moon at far upper-right, exactly the target scene and wipe context. Economy of original PV: flat warm red/cream/blonde areas, black slightly wobbly heavy outlines; no elaborate lighting or added ornaments.\nConstraints: ONE whole cel, no panels, no labels, no captions/text/watermark. No pink hair, pajamas or animal ears. No frontal/profile face anywhere at this frame. No hidden standing character shown. Preserve depth: giant rear head occludes both previous actor and new night actor except its tiny cap fragment. Captions/background effects will be restored separately from original, never paint lettering.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-source-actual.png",
+      "role": "current edit target; rear head and tiny cold night hat fragment",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2138-f2141-source-ab-rgb-contours.png",
+      "role": "actual profile to rear turn/wipe comparison; overview not native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-foreground-native.png",
+      "role": "current rear silhouette and upper-right cyan fragment; native inspected",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-background-visible-native.png",
+      "role": "current center fully occluded standing actor; native inspected",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0900-rear-head-identity-only.png",
+      "role": "rear Klee identity and palette only; not camera or pose authority",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-4b239cf5-cde5-4c95-a59e-5674bc48c35a.png",
+  "output_sha256": "11bf18ec92ac9d6ef809f178ae4d2e701251557b22ba7d00274f5f7a10e454c7",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole builtin: giant rear Klee has no face and standing actor correctly hidden. Hard block: tiny upper-right cold fragment retains original rounded animal-cap ears rather than Klee hat/feather, so unselected pending one targeted whole-cel repair. Wider ponies/cap silhouette deferred, no temporal or compositor review.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

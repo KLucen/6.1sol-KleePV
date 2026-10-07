@@ -1,0 +1,77 @@
+{
+  "source_frame": 3232,
+  "cel": "cel-0585",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Images 3 and 4 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output. No adjacent Klee pose template is supplied because its anatomy was flawed; current original is the sole pose authority.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Current3232 FULL BACK VIEW held body/hand positions from3229 verified contours, no face. Upper foreground giant star moves RIGHT-UP and now clears almost ALL back crown and near right elbow/sleeve; don't keep its prior over-arm overlap. Bottom foreground giant star moves RIGHT and obscures lower-right coat; left cross star enters from left. TWO simple brown mitten ends: far screen-leftx600-740/y250-333; near mid-headx970-1110/y235-325 overlapping back blond hair. Each has EXACTLY ONE plain cream cuff, not double wrist bands. Near cuffx1090-1225/y215-385 and red forearm extends RIGHT to elbowx1425/y330-425 then upper arm curves DOWN to shoulderx1310/y600. Far red sleeve behind short hair. Back red beret rounded arc with white feather/back side clover only where actually visible; two SHORT ponytails behind arms, replace original long broad hair with short roots and match down-left flow. Simple cream collar/red coat-back, no front buttons or text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1774-f3232.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3229-f3232-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3232-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "f1cc0b07289be51f2062de13fcb88b5cfe5ed6f48c88b3bc5f547eb3db4c4b23",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "98677674341ddfe8519e03e82371d1e771ecee462cee7beefb510fb385b8894d",
+    "26aba43f77af8eabb0216bcd642f21b73e3eb6adadfefc44607ef7a2761f1c50"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3232-v1.png",
+  "source_exposures": [
+    {
+      "start": 3232,
+      "end": 3234,
+      "pts": 134.667,
+      "end_pts": 134.75,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Current3232 FULL BACK VIEW held body/hand positions from3229 verified contours, no face. Upper foreground giant star moves RIGHT-UP and now clears almost ALL back crown and near right elbow/sleeve; don't keep its prior over-arm overlap. Bottom foreground giant star moves RIGHT and obscures lower-right coat; left cross star enters from left. TWO simple brown mitten ends: far screen-leftx600-740/y250-333; near mid-headx970-1110/y235-325 overlapping back blond hair. Each has EXACTLY ONE plain cream cuff, not double wrist bands. Near cuffx1090-1225/y215-385 and red forearm extends RIGHT to elbowx1425/y330-425 then upper arm curves DOWN to shoulderx1310/y600. Far red sleeve behind short hair. Back red beret rounded arc with white feather/back side clover only where actually visible; two SHORT ponytails behind arms, replace original long broad hair with short roots and match down-left flow. Simple cream collar/red coat-back, no front buttons or text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-ef86ce34-77c4-4c5c-8314-1c6f2b87a5a0.png",
+  "output_sha256": "be24454d814dad69e728f2bfa6ccf28159710bf0adb7abe2389d394e34b9724a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: fully BACK facing without face, TWO brown hand ends each single cream cuff, near forearm over back hair connected to red right elbow/shoulder; two short ponytails. Current top star clears near arm and bottom star covers lower-right coat. Body size/hat and shortened hair design drift on held source, unexplained cream scallop at lower-left coat/back trim; static unaccepted no temporal/compositor approval.",
+    "accepted": false
+  }
+}

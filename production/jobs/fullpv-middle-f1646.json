@@ -1,0 +1,32 @@
+{
+  "job_id": "fullpv-middle-f1646",
+  "source_frame": 1646,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0948-f1646.png",
+  "prompt": "Use case identity-preserve. Independently redraw ORIGINAL SOURCE image 1 one Klee strict-source PV cel f1646. Full SAME 1920x1080 lavender field and registered small source person x701..1235,y190..918. Source exclusively controls current lifted/tilted forehead headwear, body pose and eye/mouth/hand visibility. Image 2 ONLY Klee hat identity, image 3 ONLY red/cream coat and cuffs costume, NO moon/star. Replace old bunny mask entirely with red Klee beret cream clover white feather, pale blonde two SHORT side ponytails, pointed ears. Both hands brown gloves with exact current curled fingers PULLING HAT UP unequally: left hand x780,y374 lower; right hand x1068,y318 higher, head tilted slightly. Eyes are HALF OPEN muted RED, both visible under raised hat at x870,y412 and x1004,y400, not closed/occluded. Mouth source SMALL OPEN O at x956,y472. Orange cheeks. Raised forearms and elbow angles exact source, cream cuffs red sleeves; paired knees at y620..790, Klee red coat skirt naturally folds over tightly pulled-up knees with ONE continuous cream underskirt edge and only small leg above brown boots. NO original pajama pants or giant bare thighs. Brown boot endpoints x774..1080,y918 preserved. One redrawn cel, simple loose black source-like outlines, flat color patches, no polished game detail textures gradient new objects or floorline.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0948-f1646.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png"
+  ],
+  "reference_roles": [
+    "current source geometry and occlusion",
+    "hat identity only",
+    "costume identity only"
+  ],
+  "output": "generated/fine-f1646.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-7c1d8798-2c7e-4154-8c0e-b663375d69f2.png",
+  "output_sha256": "da0f8c3377763683068b4a79991b67cc4b72ba4a8114d61e7a46dfffbdbe4911",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

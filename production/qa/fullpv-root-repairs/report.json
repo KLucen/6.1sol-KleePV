@@ -1,0 +1,224 @@
+{
+  "scope": "single cel plus chronological static source/composite review",
+  "artistic_acceptance": false,
+  "original_speed_watch": "not_performed",
+  "warning": "Color-based bounding boxes are diagnostics, not semantic or artistic passes.",
+  "assets": [
+    {
+      "frame": 129,
+      "cel": "cel-0020",
+      "source": "source_refs/src-0044-f0129.png",
+      "asset": "generated/fine-f0129-hair-repair-v2.png",
+      "sha256": "29cdf0906a7851c1bcfba2f25023e632699a2fd915dfdf311877b50ae729a35e",
+      "source_mask_bbox": [
+        292,
+        142,
+        1894,
+        1080
+      ],
+      "generated_mask_bbox": [
+        844,
+        113,
+        1899,
+        1080
+      ],
+      "mask_kind": "color_heuristic",
+      "floor_delta_pixels": 0,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 133,
+      "cel": "cel-0021",
+      "source": "source_refs/src-0046-f0133.png",
+      "asset": "generated/fine-f0133-hair-repair-v2.png",
+      "sha256": "b40c5b4637d762ddba9796cf210fdd00dd9c08d4e2b724a30e4170c4b346f194",
+      "source_mask_bbox": [
+        485,
+        143,
+        1894,
+        1080
+      ],
+      "generated_mask_bbox": [
+        842,
+        115,
+        1898,
+        1080
+      ],
+      "mask_kind": "color_heuristic",
+      "floor_delta_pixels": 0,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 167,
+      "cel": "cel-0024",
+      "source": "source_refs/src-0051-f0167.png",
+      "asset": "generated/fine-f0167-sleeve-repair-v2.png",
+      "sha256": "9b96627f13276e1cb006546fba9a9fc2361039f2902de5f4ac2eed6b3bfd8ee0",
+      "source_mask_bbox": [
+        294,
+        160,
+        1746,
+        1080
+      ],
+      "generated_mask_bbox": [
+        867,
+        151,
+        1789,
+        1080
+      ],
+      "mask_kind": "color_heuristic",
+      "floor_delta_pixels": 0,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 1314,
+      "cel": "cel-0283",
+      "source": "source_refs/src-0823-f1314.png",
+      "asset": "generated/fine-f1314-arms-eyes-v7.png",
+      "sha256": "8c69090fedb32fa8f0149cd0bc1f85670f0f838908ac273de548e9ea1da43839",
+      "source_mask_bbox": [
+        738,
+        243,
+        1115,
+        792
+      ],
+      "generated_mask_bbox": [
+        703,
+        197,
+        1125,
+        786
+      ],
+      "mask_kind": "registered_title",
+      "floor_delta_pixels": -6,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 1319,
+      "cel": "cel-0284",
+      "source": "source_refs/src-0824-f1319.png",
+      "asset": "generated/fine-f1319-source-native-v2.png",
+      "sha256": "fa30db9dd7da1782aa4a9e09d154db81255318ced7178d8ba8ff5345844f0443",
+      "source_mask_bbox": [
+        737,
+        244,
+        1106,
+        792
+      ],
+      "generated_mask_bbox": [
+        700,
+        213,
+        1124,
+        787
+      ],
+      "mask_kind": "registered_title",
+      "floor_delta_pixels": -5,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 1329,
+      "cel": "cel-0285",
+      "source": "source_refs/src-0826-f1329.png",
+      "asset": "generated/fine-f1329-source-native-v2.png",
+      "sha256": "ec1a5fb24d21969c0679ba6da6cec36c67c7dde2919a43eec6d89e78719963de",
+      "source_mask_bbox": [
+        737,
+        241,
+        1135,
+        790
+      ],
+      "generated_mask_bbox": [
+        729,
+        204,
+        1122,
+        785
+      ],
+      "mask_kind": "registered_title",
+      "floor_delta_pixels": -5,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 1335,
+      "cel": "cel-0286",
+      "source": "source_refs/src-0828-f1335.png",
+      "asset": "generated/fine-f1335-source-native-v2.png",
+      "sha256": "5af1417a74f520add364cde6622c47f0b96bc140e844136c8351e220c23157bc",
+      "source_mask_bbox": [
+        738,
+        240,
+        1142,
+        788
+      ],
+      "generated_mask_bbox": [
+        728,
+        203,
+        1122,
+        785
+      ],
+      "mask_kind": "registered_title",
+      "floor_delta_pixels": -3,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 1342,
+      "cel": "cel-0287",
+      "source": "source_refs/src-0830-f1342.png",
+      "asset": "generated/fine-f1342-source-native-v2.png",
+      "sha256": "7bcd721f428bdef68ec72de8267ef7ab181f6d9caaeaf6fbc1b6496c1f9e62e2",
+      "source_mask_bbox": [
+        743,
+        238,
+        1155,
+        784
+      ],
+      "generated_mask_bbox": [
+        730,
+        218,
+        1137,
+        785
+      ],
+      "mask_kind": "registered_title",
+      "floor_delta_pixels": 1,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    },
+    {
+      "frame": 1347,
+      "cel": "cel-0288",
+      "source": "source_refs/src-0831-f1347.png",
+      "asset": "generated/fine-f1347-source-native-v2.png",
+      "sha256": "f9f58044f74a538a593c25088f0c60af238557c4562123e048a54cb1ab391bf0",
+      "source_mask_bbox": [
+        747,
+        238,
+        1172,
+        781
+      ],
+      "generated_mask_bbox": [
+        732,
+        212,
+        1170,
+        784
+      ],
+      "mask_kind": "registered_title",
+      "floor_delta_pixels": 3,
+      "outside_subject_union_changed_pixels": 0,
+      "accepted": false,
+      "review": "static_inspected_temporal_pending"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "reviewer": "dance_caption_newphase",
+  "review_date_local": "2026-10-04",
+  "scope_half_open": [887, 911],
+  "raw_composite_caption_frames_manually_viewed": 24,
+  "raw_full_canvas_frames_manually_viewed": [887, 891, 907, 909],
+  "source_video_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "audited_proposed_report_sha256": "8dff1a74053f720c34fd1a546c8db83189e5d4d4c755d5008179e1465b3db96b",
+  "caption_page_sha256": {
+    "current-composite-caption-page-01.png": "f55874fb292018796d570cd3fb2cebd8f3f7a8b4343292c399a8200b0a883a66",
+    "current-composite-caption-page-02.png": "18b85e70bece8aa19b23a6b8180642cf3fc55e743766bff9ebf538867159a0f5",
+    "current-composite-caption-page-03.png": "a4555d6a46525e47f117fe77d6fd2ac01f3d4e47600f9aa18e00039b27060261",
+    "current-composite-caption-page-04.png": "0fb1dc98325e2e87ea4112c1f2fc10aff92565f62e158fdc823401eef3620015",
+    "current-composite-caption-page-05.png": "789cd8e15a1e42e9161d773928576a0797de73db0a7031f654c303a601d63aee",
+    "current-composite-caption-page-06.png": "7e3bab37270f72f7e7af819574580da91bfd93c553b2713eab25e6b641cc8b3e"
+  },
+  "observations": [
+    "The previously fragmented two-line captions in candidate025..030 composites are no longer fragmented in the inspected 24 final proposed raw composites.",
+    "f887..896 uses the verified old text phase, and f897 changes to the independently registered wider night-caption phase.",
+    "The fixed 1px dark edge improves distinguishability on new pale foreground hair, face/collar patches in f897..910 without outlining the star-only vacated background region.",
+    "The Chinese line is readable in the inspected raw crops; no new missing Chinese character stroke was evident.",
+    "The older Japanese line still crosses the original animated pale star. The donor support and reconstructed counter/AA cannot be described as an exact original all-glyph alpha recovery.",
+    "f907/f909 whole-frame views retain thin cyan contour remnants and blue matte joins around the tinted background character. Their structural/matte severity is outside this caption acceptance and was reported to root for independent review."
+  ],
+  "technical_scope_results": {
+    "actual_main_source_decodes": 24,
+    "additional_actual_night_donor_decodes": [911, 914, 919],
+    "all_night_donor_actual_decodes_equal_saved_reference_pixels": true,
+    "all_24_actual_phase_best_offsets_zero": true,
+    "all_24_proposed_assets_composited": true,
+    "max_observed_stable_glyph_subset_nonexact_rgb_pixels": 0,
+    "max_caption_restore_previously_untouched_source_pixels_changed": 0,
+    "max_caption_restore_changed_outside_registered_alpha_or_1px_ring_pixels": 0,
+    "max_predicted_halo_outside_explicit_new_subject_pixels": 0,
+    "max_whole_composite_changed_outside_declared_masks_pixels": 0,
+    "old_10_frame_unsupported_warm_candidate_count_range": [2267, 2690],
+    "new_14_frame_unsupported_warm_candidate_count_range": [1842, 3517],
+    "old_phase_contrast_halo_pixels": 0,
+    "new_phase_contrast_halo_pixel_count_range": [753, 5158]
+  },
+  "regression_runs": [
+    {
+      "scope": "Affected layer/integration/clear/transition suite before final explicit new_subject tightening; includes all 56 old V8 native caption crops and 4 saved full-frame composites",
+      "observed_unified_exec_session": 14539,
+      "tests": 28,
+      "elapsed_seconds": 61.435,
+      "exit_code": 0
+    },
+    {
+      "scope": "Four affected coverage/contrast-edge/skin/generic-overlay tests after explicit new_subject tightening; old 56 not redundantly rerun",
+      "tests": 4,
+      "elapsed_seconds": 4.375,
+      "exit_code": 0
+    }
+  ],
+  "global_asset_selections_modified_by_this_worker": false,
+  "image_generation_performed_by_this_worker": false,
+  "full_video_export_performed_by_this_worker": false,
+  "encoded_caption_review": "not_performed",
+  "original_speed_review": "not_performed",
+  "all_glyph_alpha_certification": false,
+  "character_or_full_pv_artistic_acceptance": false
+}

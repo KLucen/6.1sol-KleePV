@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-b50106d5-877b-4ea4-9215-c172a94fde55",
+  "candidate_id": 39,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Make ONE full16:9 PV cel editing image1 source-cel-039. Source1 determines exact centered chest-up upright pose: BOTH bent arms raised at sides, both hands point ONE INDEX FINGER straight UP (left fingertip near x20%,y52%, right near x74%,y46%), remaining fingers curled with thumbs over knuckles, wrists/cuffs at original angles. Both eyes CLOSED horizontal darkslits, tiny vertical O mouth, head UPRIGHT, not leaning. Replace pink-haired pajama girl with Klee identity/style from image2: blonde SHORT two side ponytails/pointedears, redberet cream clover whitefeather, redcoat cream collar/trim/cuffs, brown gloves. Preserve source visible single-index hand anatomy and arm positions exactly; don't copy image2 right hand touching hat or tiltedhead. Hands sit in front of sleeves/background, compact ponytails behind ears/shoulders; no extra rear longhair wings. Preserve exact crop/body scale and cream outlined star effects on lavender backdrop. Remove ALL bottom subtitles/credits/letters, leave clean artwork; text restored separately. Loose dark source handlines, flat patches, orange cheeks, restrained simple shadows. No panels/new props/extra fingers/limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-039.jpg",
+    "production/generated/anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-039.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Upright source closed-eye O-mouth pose with both single index fingers pointing up, same left/right heights, no anchor tilted-hat gesture copied. All star effects retained and no captions."
+}

@@ -1,0 +1,82 @@
+{
+  "source_frame": 3169,
+  "cel": "cel-0562",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Same upper-body overhead arch and down-left tilted face, rounded open eyes with tiny angled oval mouth, fists fully within source top edge. Person essentially held vs f3167, small stars independently move. Left foreground star occludes left upper sleeve/hat side but not eyes; chest star overlaps left torso and huge right foreground star overlaps outside right coat. Follow source crop and registration, do not clip fists from prior, no lyrics.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1738-f3169.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3167-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3167-f3169-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3169-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "eebd0340cbb55894d9555a67f6964d6c4573e42764a3e1530fdc0aca0e75ecb6",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "069bf5da5207d6f79a0fb04d863d8045453d16960128b3d38b180a41b06b9e9b",
+    "566a23e23106973b83c274a28e4badfed48bb239f2adf39ed39f105e37e2ae63",
+    "bb1a8a089555797367d9e3d72457531ca5cb846a2aefdc7eb23ed736f33c6359"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3169-v1.png",
+  "source_exposures": [
+    {
+      "start": 3169,
+      "end": 3172,
+      "pts": 132.042,
+      "end_pts": 132.167,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Same upper-body overhead arch and down-left tilted face, rounded open eyes with tiny angled oval mouth, fists fully within source top edge. Person essentially held vs f3167, small stars independently move. Left foreground star occludes left upper sleeve/hat side but not eyes; chest star overlaps left torso and huge right foreground star overlaps outside right coat. Follow source crop and registration, do not clip fists from prior, no lyrics.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-ffad63ba-e29e-4367-a6ac-8683e2b302bd.png",
+  "output_sha256": "6dc8b0109aa47eea55912efc23e1790e007c6a9ef739cb3c4f5ccb203bed1988",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: left hat/sleeve foreground occlusion and chest star, two fists brown. Top fists clipped despite source interior constraint, head/pocket/ponytail edges drift relative held source; mark for feedback, no art acceptance or retry.",
+    "accepted": false
+  }
+}

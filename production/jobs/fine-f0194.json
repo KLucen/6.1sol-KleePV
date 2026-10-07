@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0194",
+  "source_frame": 194,
+  "source_candidate": "src-0060",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0060-f0194.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0190.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0190-f0194.png"
+  ],
+  "prompt": "Use case: identity-preserve. Generate ONE independent full 1920x1080 PV drawing for CURRENT original frame 194, replacing the sole human with Klee. Image 1 CURRENT SOURCE fixes exact camera, body pose, prop positions and visibility. Image 2 previous Klee frame190 fixes character identity, costume, scale and simple PV drawing style, NOT a frozen hold. Image3 source190/current194 difference analysis fixes local change directions; upper-right=current. Output no panels. This is the next distinct relaxed hand redraw, not a copied190: left spread fingers/cuff slide a little downward/right on the front pillow, thumb more tucked and fingers slightly more horizontal; viewer-right cuff rotates to be more vertical, elbow extends slightly right, finger lengths/spacing redraw as in CURRENT source; sleeve fold line and coat/pillow contour pressures independently change. Source head and eyelid outlines also subtly redraw, two drooping half-open RED eyes visible above pillow, mouth/nose remain hidden. Keep forehead/hair and beret geometry close to prior, no enlargement or new decorations. Pillow is front lavender rectangle with cream fringes and two pale blue handcontact patches, x62..87% y29..63%, top tilts slightly up toward right. Both BROWN gloved palms on FRONT surface, cream cuffs, red bent sleeves. One short side ponytail per side only, most hair concealed behind pillow; no extra lower hair wings. Klee red clover beret/white feather and pointed ears. SAME red split coat, cream zigzag underskirt with faint clovers, narrow pink ruffle, red shorts, one small left waist pom and right brown backpack/charm. Single flat shadow only, loose dark contour, not polished game art. Keep detached source clock around x49%,y50%, same shape angle/location; blank purple display. Violet empty background stays. Absolutely NO captions, lyrics, credits, letters or digits. Keep all original crop and scene occlusion; do not expose mouth or hidden arm.",
+  "output": "../generated/fine-f0194.png",
+  "status": "generated_draft",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

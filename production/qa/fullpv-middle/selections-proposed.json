@@ -1,0 +1,1088 @@
+{
+  "scope": [
+    1500,
+    2399
+  ],
+  "status": "draft_suggestions_for_root_review_only",
+  "artistic_accepted": false,
+  "actual_speed_watch": "not_performed",
+  "proposals": [
+    {
+      "source_frame": 1502,
+      "path": "generated/fine-f1502.png",
+      "review": "qa/fullpv-middle/small-rest-review.json",
+      "job": "jobs/fullpv-middle-f1502-r1.json",
+      "known_issues": [
+        "Bunny mask removed in a source-based redraw to match Klee baseline.",
+        "Closed eyes and point mouth retained; coat hem, glove visibility and ponytail volume need group continuity repair."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1508,
+      "path": "generated/fine-f1508.png",
+      "review": "qa/fullpv-middle/small-rest-review.json",
+      "job": "jobs/fullpv-middle-f1508.json",
+      "known_issues": [
+        "Independent closed-eye diagonal pose redraw, no source breathing puff at this frame.",
+        "Hat/feather and figure footprint somewhat broader; patterned hem and cuff edges differ from neighboring drafts."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1514,
+      "path": "generated/fine-f1514-geometry-repair-v2.png",
+      "review": "qa/fullpv-middle/small-rest-review.json",
+      "job": "jobs/fullpv-middle-f1514-repair-v2.json",
+      "known_issues": [
+        "Source-based repair reduced enlarged first draft; current rounded breathing puff retained.",
+        "Front arm folds/clasp and chest ornament differ from current source and neighboring drafts; not accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1520,
+      "path": "generated/fine-f1520-short-hair-repair-v2.png",
+      "review": "qa/fullpv-middle/small-rest-review.json",
+      "job": "jobs/fullpv-middle-f1520-repair-v2.json",
+      "known_issues": [
+        "Long erroneous hair mass removed; two short head-side ponytails remain. Current flatter breathing puff retained.",
+        "Hem panel cut and clover continuity differ from 1514 and 1526; needs further costume/arm continuity work."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1526,
+      "path": "generated/fine-f1526.png",
+      "review": "qa/fullpv-middle/small-rest-review.json",
+      "job": "jobs/fullpv-middle-f1526.json",
+      "known_issues": [
+        "Closed sideways eyes and two separated source breathing shapes retained.",
+        "Glove exposure and sleeve overlap approximate; costume hem and ponytail topology must be harmonized."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1539,
+      "path": "generated/fine-f1539-hat-footprint-repair-v2.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1539.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1545,
+      "path": "generated/fine-f1545.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1545.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1551,
+      "path": "generated/fine-f1551.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1551.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1569,
+      "path": "generated/fine-f1569.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1569.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1575,
+      "path": "generated/fine-f1575.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1575.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1581,
+      "path": "generated/fine-f1581.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1581.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1587,
+      "path": "generated/fine-f1587.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1587.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1593,
+      "path": "generated/fine-f1593.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1593.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1599,
+      "path": "generated/fine-f1599.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1599.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1605,
+      "path": "generated/fine-f1605.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1605.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1611,
+      "path": "generated/fine-f1611.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1611.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1635,
+      "path": "generated/fine-f1635-coat-knee-repair-v3.png",
+      "review": "qa/fullpv-middle/hat-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1635-repair-v3.json",
+      "known_issues": [
+        "No original rabbit headwear remains in these Klee drafts.",
+        "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+        "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+        "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+        "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+        "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+        "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1646,
+      "path": "generated/fine-f1646.png",
+      "review": "qa/fullpv-middle/small-seated-review.json",
+      "job": "jobs/fullpv-middle-f1646.json",
+      "known_issues": [
+        "1662 repaired extra-bare-knees failure from candidate051: crossed coat arms and fully covered folded lower coat mass now follow current crop, no new bare knees.",
+        "1662,1668,1674 half-open red eyes, tiny frown and visible right partial gloved hand are retained; other hand remains hidden.",
+        "Hat feather size, bang, ear, collar, clover placement and cuff shape drift between independent drafts more than source RGB differences. Group costume/face consistency is unaccepted.",
+        "1646 current O mouth and asymmetric hands lifting hat are retained, but copied peach pajama-like leg panels remain beneath red coat; do not accept.",
+        "Source background, captions and independent scene effects require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1662,
+      "path": "generated/fine-f1662-knee-crop-repair-v2.png",
+      "review": "qa/fullpv-middle/small-seated-review.json",
+      "job": "jobs/fullpv-middle-f1662-repair-v2.json",
+      "known_issues": [
+        "1662 repaired extra-bare-knees failure from candidate051: crossed coat arms and fully covered folded lower coat mass now follow current crop, no new bare knees.",
+        "1662,1668,1674 half-open red eyes, tiny frown and visible right partial gloved hand are retained; other hand remains hidden.",
+        "Hat feather size, bang, ear, collar, clover placement and cuff shape drift between independent drafts more than source RGB differences. Group costume/face consistency is unaccepted.",
+        "1646 current O mouth and asymmetric hands lifting hat are retained, but copied peach pajama-like leg panels remain beneath red coat; do not accept.",
+        "Source background, captions and independent scene effects require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1668,
+      "path": "generated/fine-f1668.png",
+      "review": "qa/fullpv-middle/small-seated-review.json",
+      "job": "jobs/fullpv-middle-f1668.json",
+      "known_issues": [
+        "1662 repaired extra-bare-knees failure from candidate051: crossed coat arms and fully covered folded lower coat mass now follow current crop, no new bare knees.",
+        "1662,1668,1674 half-open red eyes, tiny frown and visible right partial gloved hand are retained; other hand remains hidden.",
+        "Hat feather size, bang, ear, collar, clover placement and cuff shape drift between independent drafts more than source RGB differences. Group costume/face consistency is unaccepted.",
+        "1646 current O mouth and asymmetric hands lifting hat are retained, but copied peach pajama-like leg panels remain beneath red coat; do not accept.",
+        "Source background, captions and independent scene effects require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1674,
+      "path": "generated/fine-f1674.png",
+      "review": "qa/fullpv-middle/small-seated-review.json",
+      "job": "jobs/fullpv-middle-f1674.json",
+      "known_issues": [
+        "1662 repaired extra-bare-knees failure from candidate051: crossed coat arms and fully covered folded lower coat mass now follow current crop, no new bare knees.",
+        "1662,1668,1674 half-open red eyes, tiny frown and visible right partial gloved hand are retained; other hand remains hidden.",
+        "Hat feather size, bang, ear, collar, clover placement and cuff shape drift between independent drafts more than source RGB differences. Group costume/face consistency is unaccepted.",
+        "1646 current O mouth and asymmetric hands lifting hat are retained, but copied peach pajama-like leg panels remain beneath red coat; do not accept.",
+        "Source background, captions and independent scene effects require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1716,
+      "path": "generated/fine-f1716.png",
+      "review": "qa/fullpv-middle/blanket-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1716.json",
+      "known_issues": [
+        "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+        "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+        "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+        "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+        "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+        "Source background and lyric pixels require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1720,
+      "path": "generated/fine-f1720-red-iris-repair-v2.png",
+      "review": "qa/fullpv-middle/blanket-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1720-red-iris-repair-v2.json",
+      "known_issues": [
+        "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+        "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+        "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+        "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+        "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+        "Source background and lyric pixels require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1724,
+      "path": "generated/fine-f1724.png",
+      "review": "qa/fullpv-middle/blanket-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1724.json",
+      "known_issues": [
+        "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+        "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+        "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+        "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+        "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+        "Source background and lyric pixels require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1728,
+      "path": "generated/fine-f1728.png",
+      "review": "qa/fullpv-middle/blanket-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1728.json",
+      "known_issues": [
+        "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+        "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+        "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+        "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+        "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+        "Source background and lyric pixels require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1734,
+      "path": "generated/fine-f1734-red-iris-repair-v2.png",
+      "review": "qa/fullpv-middle/blanket-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1734-red-iris-repair-v2.json",
+      "known_issues": [
+        "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+        "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+        "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+        "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+        "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+        "Source background and lyric pixels require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1740,
+      "path": "generated/fine-f1740.png",
+      "review": "qa/fullpv-middle/blanket-closeup-review.json",
+      "job": "jobs/fullpv-middle-f1740.json",
+      "known_issues": [
+        "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+        "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+        "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+        "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+        "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+        "Source background and lyric pixels require original compositing restoration."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1787,
+      "path": "generated/fine-f1787.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1787.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1795,
+      "path": "generated/fine-f1795.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1795.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1803,
+      "path": "generated/fine-f1803.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1803.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1811,
+      "path": "generated/fine-f1811.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1811.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1827,
+      "path": "generated/fine-f1827.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1827.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1835,
+      "path": "generated/fine-f1835.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1835.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1843,
+      "path": "generated/fine-f1843.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f1843.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1901,
+      "path": "generated/fine-f1901.png",
+      "review": "qa/fullpv-middle/seated-pause-review.json",
+      "job": "jobs/fullpv-middle-f1901.json",
+      "known_issues": [
+        "Both source independent seated eye states and tiny downturned mouths have replacement drafts. Straight parallel projected legs and supporting hands preserved approximately; old rabbit mask/pajamas removed.",
+        "1914 initial output had pinched V eyelids; one targeted repair restores single closed strokes. Keep repair-v2 as draft suggestion.",
+        "Hat/feather and short ponytail silhouette add width above and around source head; small supporting glove geometry and neckline change across1901/1914 exceed original subtle drawing delta. Requires temporal harmonization.",
+        "Background/captions are generated approximations and require source-layer restoration. No actual-speed or compositor review performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1914,
+      "path": "generated/fine-f1914-eyelid-repair-v2.png",
+      "review": "qa/fullpv-middle/seated-pause-review.json",
+      "job": "jobs/fullpv-middle-f1914-eyelid-repair-v2.json",
+      "known_issues": [
+        "Both source independent seated eye states and tiny downturned mouths have replacement drafts. Straight parallel projected legs and supporting hands preserved approximately; old rabbit mask/pajamas removed.",
+        "1914 initial output had pinched V eyelids; one targeted repair restores single closed strokes. Keep repair-v2 as draft suggestion.",
+        "Hat/feather and short ponytail silhouette add width above and around source head; small supporting glove geometry and neckline change across1901/1914 exceed original subtle drawing delta. Requires temporal harmonization.",
+        "Background/captions are generated approximations and require source-layer restoration. No actual-speed or compositor review performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1940,
+      "path": "generated/fine-f1940.png",
+      "review": "qa/fullpv-middle/rear-hold-start-review.json",
+      "job": "jobs/fullpv-middle-f1940.json",
+      "known_issues": [
+        "Rear orientation and bottom torso crop retained; no invented face or original rabbit headband/long peach hair remains. Short blonde ponytail roots, rear beret/one left feather and redcoat are mostly consistent.",
+        "1940 has two pale tips under cream cuffs, representing invented/exposed ungloved hands.1943/1945/1949/1953 constrain those tips brown but source arms originally substantially hidden by hair; exposed cuff/glove geometry needs occlusion review.",
+        "1953 drops previous beret hard highlight and hair pink accent strokes; original source delta does not justify large disappearance. Persistent accent topology needs targeted harmonization.",
+        "Klee short hairstyle necessarily exposes source body volume, but exact rear shoulder and coat silhouette registration differs from original long-hair-covered silhouette. Maintain body/camera authority and check at speed.",
+        "Generated background/captions require source-layer restoration. All assets unaccepted; actual-speed watch not performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1943,
+      "path": "generated/fine-f1943.png",
+      "review": "qa/fullpv-middle/rear-hold-start-review.json",
+      "job": "jobs/fullpv-middle-f1943.json",
+      "known_issues": [
+        "Rear orientation and bottom torso crop retained; no invented face or original rabbit headband/long peach hair remains. Short blonde ponytail roots, rear beret/one left feather and redcoat are mostly consistent.",
+        "1940 has two pale tips under cream cuffs, representing invented/exposed ungloved hands.1943/1945/1949/1953 constrain those tips brown but source arms originally substantially hidden by hair; exposed cuff/glove geometry needs occlusion review.",
+        "1953 drops previous beret hard highlight and hair pink accent strokes; original source delta does not justify large disappearance. Persistent accent topology needs targeted harmonization.",
+        "Klee short hairstyle necessarily exposes source body volume, but exact rear shoulder and coat silhouette registration differs from original long-hair-covered silhouette. Maintain body/camera authority and check at speed.",
+        "Generated background/captions require source-layer restoration. All assets unaccepted; actual-speed watch not performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1945,
+      "path": "generated/fine-f1945.png",
+      "review": "qa/fullpv-middle/rear-hold-start-review.json",
+      "job": "jobs/fullpv-middle-f1945.json",
+      "known_issues": [
+        "Rear orientation and bottom torso crop retained; no invented face or original rabbit headband/long peach hair remains. Short blonde ponytail roots, rear beret/one left feather and redcoat are mostly consistent.",
+        "1940 has two pale tips under cream cuffs, representing invented/exposed ungloved hands.1943/1945/1949/1953 constrain those tips brown but source arms originally substantially hidden by hair; exposed cuff/glove geometry needs occlusion review.",
+        "1953 drops previous beret hard highlight and hair pink accent strokes; original source delta does not justify large disappearance. Persistent accent topology needs targeted harmonization.",
+        "Klee short hairstyle necessarily exposes source body volume, but exact rear shoulder and coat silhouette registration differs from original long-hair-covered silhouette. Maintain body/camera authority and check at speed.",
+        "Generated background/captions require source-layer restoration. All assets unaccepted; actual-speed watch not performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1949,
+      "path": "generated/fine-f1949.png",
+      "review": "qa/fullpv-middle/rear-hold-start-review.json",
+      "job": "jobs/fullpv-middle-f1949.json",
+      "known_issues": [
+        "Rear orientation and bottom torso crop retained; no invented face or original rabbit headband/long peach hair remains. Short blonde ponytail roots, rear beret/one left feather and redcoat are mostly consistent.",
+        "1940 has two pale tips under cream cuffs, representing invented/exposed ungloved hands.1943/1945/1949/1953 constrain those tips brown but source arms originally substantially hidden by hair; exposed cuff/glove geometry needs occlusion review.",
+        "1953 drops previous beret hard highlight and hair pink accent strokes; original source delta does not justify large disappearance. Persistent accent topology needs targeted harmonization.",
+        "Klee short hairstyle necessarily exposes source body volume, but exact rear shoulder and coat silhouette registration differs from original long-hair-covered silhouette. Maintain body/camera authority and check at speed.",
+        "Generated background/captions require source-layer restoration. All assets unaccepted; actual-speed watch not performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1953,
+      "path": "generated/fine-f1953.png",
+      "review": "qa/fullpv-middle/rear-hold-start-review.json",
+      "job": "jobs/fullpv-middle-f1953.json",
+      "known_issues": [
+        "Rear orientation and bottom torso crop retained; no invented face or original rabbit headband/long peach hair remains. Short blonde ponytail roots, rear beret/one left feather and redcoat are mostly consistent.",
+        "1940 has two pale tips under cream cuffs, representing invented/exposed ungloved hands.1943/1945/1949/1953 constrain those tips brown but source arms originally substantially hidden by hair; exposed cuff/glove geometry needs occlusion review.",
+        "1953 drops previous beret hard highlight and hair pink accent strokes; original source delta does not justify large disappearance. Persistent accent topology needs targeted harmonization.",
+        "Klee short hairstyle necessarily exposes source body volume, but exact rear shoulder and coat silhouette registration differs from original long-hair-covered silhouette. Maintain body/camera authority and check at speed.",
+        "Generated background/captions require source-layer restoration. All assets unaccepted; actual-speed watch not performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1959,
+      "path": "generated/fine-f1959.png",
+      "review": "qa/fullpv-middle/rear-hold-late-review.json",
+      "job": "jobs/fullpv-middle-f1959.json",
+      "known_issues": [
+        "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+        "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+        "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+        "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+        "No artistic acceptance or speed-watch performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1963,
+      "path": "generated/fine-f1963.png",
+      "review": "qa/fullpv-middle/rear-hold-late-review.json",
+      "job": "jobs/fullpv-middle-f1963.json",
+      "known_issues": [
+        "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+        "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+        "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+        "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+        "No artistic acceptance or speed-watch performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1968,
+      "path": "generated/fine-f1968.png",
+      "review": "qa/fullpv-middle/rear-hold-late-review.json",
+      "job": "jobs/fullpv-middle-f1968.json",
+      "known_issues": [
+        "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+        "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+        "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+        "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+        "No artistic acceptance or speed-watch performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1975,
+      "path": "generated/fine-f1975.png",
+      "review": "qa/fullpv-middle/rear-hold-late-review.json",
+      "job": "jobs/fullpv-middle-f1975.json",
+      "known_issues": [
+        "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+        "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+        "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+        "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+        "No artistic acceptance or speed-watch performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1979,
+      "path": "generated/fine-f1979.png",
+      "review": "qa/fullpv-middle/rear-hold-late-review.json",
+      "job": "jobs/fullpv-middle-f1979.json",
+      "known_issues": [
+        "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+        "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+        "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+        "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+        "No artistic acceptance or speed-watch performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1986,
+      "path": "generated/fine-f1986.png",
+      "review": "qa/fullpv-middle/rear-hold-late-review.json",
+      "job": "jobs/fullpv-middle-f1986.json",
+      "known_issues": [
+        "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+        "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+        "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+        "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+        "No artistic acceptance or speed-watch performed."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1992,
+      "path": "generated/fine-f1992.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f1992.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1995,
+      "path": "generated/fine-f1995.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f1995.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 1998,
+      "path": "generated/fine-f1998.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f1998.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2000,
+      "path": "generated/fine-f2000.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f2000.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2002,
+      "path": "generated/fine-f2002.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f2002.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2004,
+      "path": "generated/fine-f2004.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f2004.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2006,
+      "path": "generated/fine-f2006.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f2006.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2008,
+      "path": "generated/fine-f2008.png",
+      "review": "qa/fullpv-middle/profile-zoom-entry-review.json",
+      "job": "jobs/fullpv-middle-f2008.json",
+      "known_issues": [
+        "1992 retains lowered rear-facing head without invented face; 1995..2006 correctly change to right strict profile with one visible eye and far pony occluded.",
+        "Profile visible eye is red with dark pupil and white highlight, tiny downturned mouth preserved approximately; aperture is wider than original and nose/head registration needs closer overlay review.",
+        "Profile Klee short ponytail and hat/feather volume make actor silhouette wider toward captions; source compositor must restore all original captions/background and check hair-text overlap.",
+        "2008 correctly cuts into enlarged three-quarter front close-up with two sleepy eyes, capped closed mouth and both clenched brown-gloved fists bottom cropped. Source crown crop represented by cropped beret and feather.",
+        "2008 fist/collar geometry drifts and introduces more costume detail than source. Beret, gloves and coat contain mild gradient rendering despite flat-fill request; no cel is artistically accepted.",
+        "1995..2006 subtle original contour pressure and small face/bang changes are not proven pixel-accurate; drafts must not be represented as exact matches or auto-accepted."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2011,
+      "path": "generated/fine-f2011.png",
+      "review": "qa/fullpv-middle/shout-start-review.json",
+      "job": "jobs/fullpv-middle-f2011.json",
+      "known_issues": [
+        "2011/2015 retain closed capped mouth and half-open eyes; 2016 correct enlarged open-mouth near-frontal cut; 2019/2022 alternate independent tiny source changes represented approximately.",
+        "2016 initial draft had duplicate right ear; targeted v2 removes the long inner ear and retains one pointed ear per side. Repair remains unaccepted.",
+        "2019/2022 again retain a pale source-shaped wedge beside right eye in addition to outer pointed ear, despite explicit constraints; unresolved structural flaw, not accepted.",
+        "2016..2022 top-cropped beret and bottom-cropped hands represented, source face and mouth registration still needs precise overlay review.",
+        "Mild gradient shading and smoother model contours differ from source flat fills and wobbly ink. 2011 collar changed to a more ruffled source-like shape and continuity needs review.",
+        "Source background needs compositor restoration; no actual-speed review yet."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2015,
+      "path": "generated/fine-f2015.png",
+      "review": "qa/fullpv-middle/shout-start-review.json",
+      "job": "jobs/fullpv-middle-f2015.json",
+      "known_issues": [
+        "2011/2015 retain closed capped mouth and half-open eyes; 2016 correct enlarged open-mouth near-frontal cut; 2019/2022 alternate independent tiny source changes represented approximately.",
+        "2016 initial draft had duplicate right ear; targeted v2 removes the long inner ear and retains one pointed ear per side. Repair remains unaccepted.",
+        "2019/2022 again retain a pale source-shaped wedge beside right eye in addition to outer pointed ear, despite explicit constraints; unresolved structural flaw, not accepted.",
+        "2016..2022 top-cropped beret and bottom-cropped hands represented, source face and mouth registration still needs precise overlay review.",
+        "Mild gradient shading and smoother model contours differ from source flat fills and wobbly ink. 2011 collar changed to a more ruffled source-like shape and continuity needs review.",
+        "Source background needs compositor restoration; no actual-speed review yet."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2016,
+      "path": "generated/fine-f2016-ear-repair-v2.png",
+      "review": "qa/fullpv-middle/shout-start-review.json",
+      "job": "jobs/fullpv-middle-f2016-ear-repair-v2.json",
+      "known_issues": [
+        "2011/2015 retain closed capped mouth and half-open eyes; 2016 correct enlarged open-mouth near-frontal cut; 2019/2022 alternate independent tiny source changes represented approximately.",
+        "2016 initial draft had duplicate right ear; targeted v2 removes the long inner ear and retains one pointed ear per side. Repair remains unaccepted.",
+        "2019/2022 again retain a pale source-shaped wedge beside right eye in addition to outer pointed ear, despite explicit constraints; unresolved structural flaw, not accepted.",
+        "2016..2022 top-cropped beret and bottom-cropped hands represented, source face and mouth registration still needs precise overlay review.",
+        "Mild gradient shading and smoother model contours differ from source flat fills and wobbly ink. 2011 collar changed to a more ruffled source-like shape and continuity needs review.",
+        "Source background needs compositor restoration; no actual-speed review yet."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2019,
+      "path": "generated/fine-f2019.png",
+      "review": "qa/fullpv-middle/shout-start-review.json",
+      "job": "jobs/fullpv-middle-f2019.json",
+      "known_issues": [
+        "2011/2015 retain closed capped mouth and half-open eyes; 2016 correct enlarged open-mouth near-frontal cut; 2019/2022 alternate independent tiny source changes represented approximately.",
+        "2016 initial draft had duplicate right ear; targeted v2 removes the long inner ear and retains one pointed ear per side. Repair remains unaccepted.",
+        "2019/2022 again retain a pale source-shaped wedge beside right eye in addition to outer pointed ear, despite explicit constraints; unresolved structural flaw, not accepted.",
+        "2016..2022 top-cropped beret and bottom-cropped hands represented, source face and mouth registration still needs precise overlay review.",
+        "Mild gradient shading and smoother model contours differ from source flat fills and wobbly ink. 2011 collar changed to a more ruffled source-like shape and continuity needs review.",
+        "Source background needs compositor restoration; no actual-speed review yet."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2022,
+      "path": "generated/fine-f2022.png",
+      "review": "qa/fullpv-middle/shout-start-review.json",
+      "job": "jobs/fullpv-middle-f2022.json",
+      "known_issues": [
+        "2011/2015 retain closed capped mouth and half-open eyes; 2016 correct enlarged open-mouth near-frontal cut; 2019/2022 alternate independent tiny source changes represented approximately.",
+        "2016 initial draft had duplicate right ear; targeted v2 removes the long inner ear and retains one pointed ear per side. Repair remains unaccepted.",
+        "2019/2022 again retain a pale source-shaped wedge beside right eye in addition to outer pointed ear, despite explicit constraints; unresolved structural flaw, not accepted.",
+        "2016..2022 top-cropped beret and bottom-cropped hands represented, source face and mouth registration still needs precise overlay review.",
+        "Mild gradient shading and smoother model contours differ from source flat fills and wobbly ink. 2011 collar changed to a more ruffled source-like shape and continuity needs review.",
+        "Source background needs compositor restoration; no actual-speed review yet."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2024,
+      "path": "generated/fine-f2024.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f2024.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2029,
+      "path": "generated/fine-f2029.png",
+      "review": null,
+      "job": "jobs/fullpv-middle-f2029.json",
+      "known_issues": [
+        "No completed group review yet; do not promote automatically."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2034,
+      "path": "generated/fine-f2034.png",
+      "job": "jobs/fullpv-middle-f2034.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2034.json",
+      "known_issues": [
+        "Recovered saved draft. Closed-chevron eye state and pink shout mouth present, but face registration, cheek size and lower glove slivers differ from current source.",
+        "Beret has an unnecessary circular side clover plus front clover; ponytails oversized for required short ear-root topology.",
+        "Source background and captions require independent layer restoration; continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2035,
+      "path": "generated/fine-f2035.png",
+      "job": "jobs/fullpv-middle-f2035.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2035.json",
+      "known_issues": [
+        "Recovered saved draft. Current caption onset represented approximately; closed eyes correct state but eyelid and mouth coordinates remain approximate.",
+        "Two visible shortish ponytails are too voluminous; extra side clover on beret and lower hands differ from source crop.",
+        "Caption strokes and background require source restoration; continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2037,
+      "path": "generated/fine-f2037.png",
+      "job": "jobs/fullpv-middle-f2037.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2037.json",
+      "known_issues": [
+        "Recovered saved draft. Closed chevron eyes, cheeks and pink open mouth present; exact source head, eyelid and mouth registration not established.",
+        "Extra circular beret clover, large ponytail masses and enlarged lower gloves persist.",
+        "Caption and background pixels differ; source layer restoration and temporal review remain required."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2039,
+      "path": "generated/fine-f2039.png",
+      "job": "jobs/fullpv-middle-f2039.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2039.json",
+      "known_issues": [
+        "Recovered saved draft. Current minor source contour changes are approximate; closed eye state represented without visible irises.",
+        "Extra circular beret clover and voluminous ponytails persist; lower sleeve and hand fragments exceed source visibility.",
+        "Caption strokes and source background need layer restoration; full continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2040,
+      "path": "generated/fine-f2040.png",
+      "job": "jobs/fullpv-middle-f2040.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2040.json",
+      "known_issues": [
+        "New independent source-led f2040 draft saved. Both eyes fully closed, pink open shout mouth and single front beret clover present.",
+        "Right side retains a rounded skin ear wedge above the pointed ear; extra ear topology unresolved. Ponytails and lower front hair masses exceed required compact short ear-root silhouette.",
+        "Source eyelid, jaw and mouth registration remains approximate; gloves extend beyond tiny source lower slivers. Character gradient shading smoother than source flat fills.",
+        "Source captions and background need restoration; sequence continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2043,
+      "path": "generated/fine-f2043.png",
+      "job": "jobs/fullpv-middle-f2043.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2043.json",
+      "known_issues": [
+        "Current f2043 draft independently generated with closed eyes and single front beret clover. Right duplicate ear wedge from f2040 no longer visibly apparent.",
+        "Short ponytails remain too broad; bangs and jaw registration, beret feather height and visible bottom glove sizes drift across cels. Character facial color has smooth gradient instead of source flat fill.",
+        "Current captions approximately present but glyph strokes and source background need restoration; sequence and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2045,
+      "path": "generated/fine-f2045.png",
+      "job": "jobs/fullpv-middle-f2045.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2045.json",
+      "known_issues": [
+        "Independent extreme-zoom f2045 draft: hands and body outside frame, shout mouth cropped bottom, closed chevrons, one source yellow star retained.",
+        "Mouth, eye and cheek registration differs from current source; pony/bang masses and beret brim move considerably relative to preceding cel. Smooth character shading remains.",
+        "Yellow star position and caption glyphs approximate, require source effect/text restoration. Original background, neighboring continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2048,
+      "path": "generated/fine-f2048.png",
+      "job": "jobs/fullpv-middle-f2048.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2048.json",
+      "known_issues": [
+        "Independent f2048 deeper zoom and left cropped eye represented. Hands and body absent; source yellow star present.",
+        "Beret unexpectedly has an extra circular side clover marking; mouth and right eye registration approximate. Hair volume/feather differ from neighboring draft and smooth shading persists.",
+        "Caption and yellow-star exact pixels plus source background require layer restoration. Sequence and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2051,
+      "path": "generated/fine-f2051.png",
+      "job": "jobs/fullpv-middle-f2051.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2051.json",
+      "known_issues": [
+        "Independent f2051 huge face fragment follows right closed-chevron-only crop, no hat/body/hands invented, mouth corner at bottom-left.",
+        "Klee blonde fringe introduced but upper bang silhouette differs; skin/blush shading smooth rather than source flat. Yellow star and black-eye endpoints close but not pixel exact.",
+        "Source star/caption/background layers still need restoration. Sequence continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2054,
+      "path": "generated/fine-f2054.png",
+      "job": "jobs/fullpv-middle-f2054.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2054.json",
+      "known_issues": [
+        "Both current human representations handled: giant face fragment behind star portal, small profile Klee inside portal. Inset eye red with black pupil and small white highlight; two brown open gloves present.",
+        "Inset beret and coat/boot details introduce unnecessary clovers and excessive outfit detail; rear pony extends too far. Source hand splay, jaw, head/boot registration and exact portal boundary need closer overlay repair.",
+        "Source text, background pattern and tiny yellow effect stars need source-layer restoration; sequence and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2056,
+      "path": "generated/fine-f2056.png",
+      "job": "jobs/fullpv-middle-f2056.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2056.json",
+      "known_issues": [
+        "Independent current-source two-human transition. Giant face remains behind star portal, inset Klee open red eye with black pupil and highlight, exactly two open gloves.",
+        "Coat and boots simplified but extra circular hat clover persists. Inset pony volume, head size/registration, collar and glove splay differ from preceding draft and source; group repair required.",
+        "Current source portal boundary, effect stars, captions and background still require layered pixel restoration; sequence and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    },
+    {
+      "source_frame": 2057,
+      "path": "generated/fine-f2057.png",
+      "job": "jobs/fullpv-middle-f2057.json",
+      "review": "qa/fullpv-middle/resume-output-review-f2057.json",
+      "known_issues": [
+        "Main profile actor and all giant edge-face fragments represented in current expanding star transition. Near eye has red iris, black pupil and white highlight; two short ear-root ponies and single hat clover now apparent.",
+        "Cream folded collar is omitted or largely lost beneath hair; coat hem, boots and leg silhouette differ from source. Exact current glove fingertips, eye endpoints and face registration approximate.",
+        "Source star-mask boundary/effects, captions and background still require pixel restoration; continuity and actual-speed review pending."
+      ],
+      "artistic_accepted": false,
+      "actual_speed_watch": "not_performed"
+    }
+  ]
+}

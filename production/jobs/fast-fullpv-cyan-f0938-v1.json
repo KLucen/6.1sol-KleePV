@@ -1,0 +1,33 @@
+{
+  "job_id": "fast-fullpv-cyan-f0938-v1",
+  "source_frame": 938,
+  "canonical_cel": "cel-0179",
+  "tool": "builtin_imagegen",
+  "status": "generated_blocking_head_registration_unselected",
+  "output": "generated/fast-fullpv-cyan-f0938-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0478-f0938.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0935-f0938-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current938 edit target sole camera/profile pose/visible crop and night lighting",
+    "Warm Klee short rooted twin-tail/clover beret identity ONLY, not full pose",
+    "Crimson pupil/highlight color identity ONLY",
+    "Actual935→938 source tiny fringe/outline/collar pressure changes, not hold proof"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE independent full16:9 PV cel at source938. Image1 is CURRENT EDIT TARGET and sole authority for camera, face position/scale, RIGHT-facing side profile, one visible open eye gaze, tiny dot mouth, nose/chin/neck and partial shoulder crop, blue night illumination. Image2 supplies ONLY Klee identity head topology: short blonde bangs, exactly TWO short rooted ear/neck-side ponytail groups, pointed ear, red clover beret/cropped pale feather. Do not copy its warm lighting or frontal face. Image3 gives only red iris, black upper pupil/hook and white highlight. Image4 is actual original935→938 A/B/RGB/contours: current fringe tip, hat/profile contour, side hair and neck/coat pressure are independently redrawn subtly, not held or morph-generated. Replace the ONE original girl with Klee, remove all duck sleep mask and source long peach hair including the bottom-left flowing sheet. Current single close RIGHT-profile head remains at source face center, visible eye near x66%/y38%, small dot mouth near x71%/y51%, nose projects RIGHT around x74%/y41%, chin around x70%/y61%; preserve source gaze and eye opening, no added second frontal eye. Klee blonde hair is tinted LIGHT CYAN/LAVENDER by source night light; red beret and coat are subdued BURGUNDY/PURPLE under the same cool light, red iris still distinguishable. Maintain short ear-rooted side groups, no up-curled moon forelock, no waist-length locks, no detached fans. Simple two-leaf cream collar and red shoulder/chest extend down out of bottom, no pompom/diamond embroidery required, no hands/legs or invented full body visible. Keep source night sky's left purple/right cyan-blue glow, small stars and crescent in same composition, background under removed long hair is source sky, not extra hair. Minimal shading, flat original PV block colors and irregular thin dark outlines, one character only. OMIT Chinese/Japanese lyric text for independent source glyph restoration. No collage, mirror, flow, morph, frozen prior drawing or 3D illustration.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-38d77fcb-fa5c-4ac7-8521-f926e4548283.png",
+  "static_review": "Single cyan Klee/right-profile/red eye/dot/short rooted rear group/no mask or extra limbs. However head eye/mouth/chin landmarks about13% canvas too low versus current938, causing severe head drop versus adjacent935/939. Not selected, one source-guided registration redraw allowed.",
+  "known_issues": [
+    "Blocking: head landmarks roughly13% canvas below source",
+    "Mild shading and simple collar differ existing neighbor"
+  ],
+  "blocking_static_findings": [
+    "Current profile head placed too low; source current pose not followed"
+  ]
+}

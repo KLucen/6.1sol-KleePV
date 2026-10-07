@@ -1,0 +1,40 @@
+{
+  "job_id": "fullpv-middle-f2058",
+  "source_frame": 2058,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1128-f2058.png",
+  "prompt": "Use case: identity-preserve. Edit CURRENT image1 into ONE independent strict-source Klee PV cel f2058, 1920x1080.\nRefs: image1 CURRENT source alone sets pose, face/head/eyes/hands/feet, camera, crop, occlusion and all background/effect/caption geometry. Image2 Klee identity and costume ONLY never pose/scale. Image3 actual source f2057->f2058 RGBdiff and contour overlay RIGHTCURRENT. Image4 current source head/eye/both hands and edge-face RGBdiff crops.\nThere are TWO human representations: main fullbody LEFT-FACING profile girl at RIGHT half and residual giant closed-eye face fragments on edges. Replace main girl completely; keep giant face's current skin/blackclosedeye/orangecheek fragments and same exact star-window occlusion, recolor only visible source hair to blonde, never invent full giant head/body.\nCurrent foreground main actor head aroundx1230..1620 y195..450; one OPEN profile eye looks LEFT with current thin eyelid slope, change BLUEiris to REDiris while retaining BLACK pupil and WHITE highlight. Far eye hidden. Small open O mouth and orangecheek. Arms lowered diagonally outward: viewer-left palm and fingers nearx1110..1180 y585..645, viewer-right nearx1600..1665 y540..600, precisely current splayed fingers, TWO gloves. Left leg straight down with plantedboot nearx1250..1420 y1000..1050; right knee BENT back with boot nearx1560..1620 y790..895. Match SOURCEcurrent pose, not previous outstretched-stride pose.\nKlee pale blonde bangs with EXACTLY TWO SHORT ear-root ponies, compact not long blown hair; pointed ears oneperside only ifvisible, no rounded oldhumanearwedges. Red/cream beret plainbrownband ONEcreamclover on redcrown ONEwhitefeather. Remove rabbit foreheadmask/headband and source peach longhair/pajamas/bunny pocket. Plain redcoat creamfoldedcollar/cuffs/hem, brown boots and gloves, smallplainbrownbackpack ifvisible. No side circularcloverbadge, no coat/boot/cuff/backpackclovers, no ornate symbols.\nLavender star-pattern portal now fills most frame but black border and giant peach/blackeye remnants still at TOPLEFT, TOPRIGHT, rightedge and orange cheek BOTTOMLEFT. Preserve exactly those current shapes/layers. All original creamoutline stars and tiny solidyellow stars near hands/mouth retain currentposition/crop. Same bottomcenter captions \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\", complete current AA strokes and position.\nSource loose wobbly blackink and FLAT broadfills, minimal hardshadows; no character gradients/gloss. Onecel only, no collage/morph/flow/mirror/held substitutes.\nCurrent f2058 source same main profile bent-back-leg geometry with current minor star-pattern/ink differences shown by sourceRGBdiff. Respect current subtle redraw; no additional motion. Keep cream FOLDED COLLAR visible below chin between short front pony and red chest. Hat ONE clover only and coat/boots plain as stated.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1128-f2058.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/star_dance/resume-delta-f2057-f2058.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/star_dance/resume-delta-f2057-f2058-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source TWO people and edge remnants geometry pose crop occlusion background caption effects authority",
+    "Klee costume/identity ONLY",
+    "source actual A/B RGBdiff contours right current",
+    "source head eye bothhands edgeface actual RGBdiff contours"
+  ],
+  "output": "generated/fine-f2058.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 2,
+    "eye_state": "profile leftgaze open; giantclosedeye fragments",
+    "hands": "main exactly2 splayed, giant0",
+    "delta_observed": "same main profile bentbackleg; minor current star-pattern and edgeink differences"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-bd45806d-f5b8-48a3-b4a9-33dc4c1aaeb1.png",
+  "output_sha256": "51d4025d498c84e87735326985b9a5c902898d9cceb267f54e3f39c05de66a46",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ]
+}

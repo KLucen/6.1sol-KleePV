@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f1314-head-crop-repair",
+  "source_frame": 1314,
+  "canonical_cel": "cel-0283",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1309.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\title-f1314-head-pose-crop.png"
+  ],
+  "prompt": "LOCAL HEAD EDIT of full Klee cel IMAGE 1. Image2 is a close-cropped SOURCE HEAD POSE reference, not identity. Redraw ONLY Klee head/hat/bangs/ears to match image2's head lean and EYE SLOPE. Do not copy image2 pink hair or bunny mask. IMPORTANT: in image2 the left eye is LOWER and the right eye is HIGHER. Klee's two eyelids must have this same rising-to-the-right line. Not rising-to-left. Source head left edge hangs lower and hat right side sits higher. Observe that exact angle in image2; use it for the Klee face and red clover/feather beret. Aim left eye center y399 and right eye center y380 at the same x positions in image1: LEFT EYE IS LOWER. Keep tired half-lidded OPEN RED eyes looking down-left, tiny closed dot mouth, orange cheeks. Hat, fringe and pointed ears follow this new angle, but keep same head size. Preserve Klee blonde TWO SHORT side ponytails and stable existing hat design. Keep EVERYTHING below the chin as image1: crossed gloved arms, red sleeves, cream cuffs, two raised knees, coat length/trim, backpack with pom-pom, brown boots/pom-poms, boot floor y680. Do not enlarge/move body or lower boot baseline. Her knees stay upright, only head changes. No detailed render, preserve loose dark line and flat patches. No text, no titles, no original girl's hair/mask or any new prop. Output ONE full 16:9 complete cel.",
+  "output": "../generated/fine-f1314-v5.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-bf6ccd1e-aba7-4a50-be84-61a4298b6e80.png",
+  "status": "generated_pending_review",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

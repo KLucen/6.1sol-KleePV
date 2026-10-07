@@ -1,0 +1,23 @@
+{
+  "source_frame": 763,
+  "name": "fine-f0763-face-side-fists-v1",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0333-f0763.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0758-raised-contours-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\early-full-f0763.png"
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE independent complete anime PV cel763,16:9. Image1 current source763 is authority for actual closer camera, sourceface/head/eye placement, current raised hands and sleeve pose/crop. Image2 Klee758 is identity/design/flatcolors continuity ONLY, not pose or scale. Image3 actual758/763 source A/B RGBdiffx4 and blue/red contours show real source camera move closer and changed currentdrawing. Current763 zooms closer: eyes centers about42%canvas, mouth51%, chin55%, collar60%; do not retain old smaller low758 pose. Character roughlycenteredx50%. BOTH small curled fingers/fists raised to OUTER FACE SIDES aboutx38%,63%,y54%, with 3simple foldedfingerlines inside compactBROWNgloves; hands do not cover cheeks/eyes or squeezeface. Plaincreamcuffs angleup inward at wrists aroundy61%; elbows point down/out x31%,69%,y78%; bentforearms slopeupinward towardsface. Currentshirt/coatlowerbody cropped by bottom, no skirthem/legs/boots visible. Tiny rounded OPEN O mouth now largerthan758. Sleepy open rounded lower eye openings belowheavyhorizontalupperlids; darkred upper/coral loweririses, BLACKlowerlefthookedpupils attachedblackeyeborder + WHITEenclosednotches exactly visible, noblue/no blankred/noextra centraldot. Independently draw currentbrows/lids/facechin/collar/shoulder/cuff/fingers/innerouter sleeve folds/coat edges following763 contours. Identity Klee: exactly2 SHORTblonde ear-rootponytails, pointedears, redcreamcloverberet ONEwhitefeather and plainroundbrowncloversidebadge, noextraabovehatcreamtuft/nodanglers. Removeoldsourceforeheadbunnysleepmask completely. Redcoatcreamtrimcoatclover, browngloves/plaincreamcuffs; no sourcepajamatubes/buttons/pockets, no sleeveclovers. Simple irregularboldblackPVoutlines flatlimitedcolors sameKlee758. Sourceflatperiwinklebackground no gradient, no text or particles/props. No mirrored priorframe, morph,held pose oraddedartistic camera zoom beyond actual763.",
+  "output": "generated/fine-f0763-face-side-fists-v1.png",
+  "accepted": false,
+  "provenance": {
+    "tool": "builtin_imagegen",
+    "original_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-bac9be73-f0ff-4af1-be5b-365cb4e3c5ba.png"
+  },
+  "review": "Rejected source-scale failure: generated as oversized closeup, arms lower, coat clipped, unlike source763. Red eyes/hooks and glove finger forms present.",
+  "known_issues": [
+    "Excessive invented zoom; head/body far larger than source",
+    "Fists too low vs currentsource",
+    "Coat cropped too high",
+    "Gradientbackdrop"
+  ]
+}

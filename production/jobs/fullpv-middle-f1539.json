@@ -1,0 +1,30 @@
+{
+  "job_id": "fullpv-middle-f1539",
+  "source_frame": 1539,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0901-f1539.png",
+  "prompt": "Use case: identity-preserve. One full-frame strict-source Klee replacement PV cel f1539. Image 1 CURRENT ORIGINAL is edit target and sole authority for framing, geometry, eye/mouth state, hands and occlusion. Image 2 identity-only red Klee beret, brown hatband, cream clover and white feather; NEVER copy its head scale or pose. Head is a GIANT LEFT-SIDE CLOSEUP partially cropped at bottom, head bounds x65..1080,y230..1080. Keep face at x320..850,y760..1080, both eyes HALF OPEN with dark straight upper lids around y775 and muted RED irises extending to y900, whites and small white highlights lower outer corners. Orange cheek ovals at y900..1045, nose dot and small downturned mouth at x600,y1025. NO HANDS visible, do not invent shoulders or torso. Replace original forehead bunny mask with a red beret; cap and feather must remain approximately inside the original x65..1080,y230..620 headwear footprint. Keep feather small, NO big extension upward. Two short blond side ponytails only at bottom sides of head, cropped at image edge. Current Chinese/Japanese text in original right empty region is independent overlay: retain unchanged. Default Klee pale blond pointed bangs, two SHORT blonde side ponytails, pointed ears, brown gloves where currently visible. Original bunny sleep-mask is character headwear, REPLACE IT not preserve it as a prop. Entire same 1920x1080 landscape camera, flat lavender field unchanged. Source-simple flat color patches, rough dark lines, orange oval cheeks, minimal source-like shadow, NOT game splash art; no gradients, textures, glossy reflections, new props or added body. Independently redraw current source line work and keep incomplete visibility/cropping. Output only single full-frame cel, not a comparison collage.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0901-f1539.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png"
+  ],
+  "reference_roles": [
+    "current source geometry and occlusion",
+    "hat identity only"
+  ],
+  "output": "generated/fine-f1539-hat-footprint-repair-v2.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-a699a5ea-b666-4677-93ab-1449082e5093.png",
+  "output_sha256": "a5dc022bbaf74c26a4d06477b0d5a5c7c6ad96f3fc840388a4eaf35b1cb186d7",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

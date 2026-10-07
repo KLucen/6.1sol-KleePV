@@ -1,0 +1,53 @@
+{
+  "job_id": "fast-fullpv-cyan-f1002-v1",
+  "source_frame": 1002,
+  "canonical_cel": "cel-0202",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-3ca13cd5-0720-47fa-855d-df4e2629d6b4.png",
+  "asset_sha256": "af705acd20f39ce39de1c6063604a90d71bfc4a68c54e234df8c92c8d8686fa5",
+  "static_findings": ["Wide eyes and open small oval mouth present", "Small independent face/hat/collar redraw, short rooted pony masses retained", "Source pose placement approximate; actual-speed and artistic review pending"],
+  "output": "generated/fast-fullpv-cyan-f1002-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0998-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0998-f1002-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual1002 full source: current pose/framing/crop",
+    "Actual1002 native wide eyes/dot nose/open small oval mouth",
+    "998 Klee identity/short pony length and plain collar only",
+    "True998->1002 A/B RGB/contours: subtle current independent outline redraw"
+  ],
+  "prompt": "Use case: identity-preserve. Generate ONE complete independent full16:9 CURRENT1002 Klee PV cel. Image1 actual1002 original alone decides current near-frontal mild tilt, crop and visible shoulder/neck; image2 current native face confirms BOTH wide open tall eyes, dot nose and tiny OPEN oval/teardrop mouth (no teeth/tongue). Image4 true998->1002 spatial A/B RGB/contours is a subtle separate redraw of eyelid/bang edge, nose/face contour, collar/shoulder and hair tips, not a large new tilt/drop/shift. Image3 preceding998 Klee sets identity, color, current short rooted pony mass/length and plain collar continuity only; make newly drawn current fine contours, not an unchanged held frame. Keep two warm amber-red wide irises with upper dark night shade and simple small white highlight; same head/hat scale and eye opening, tiny oval mouth maintained. Pale blond lavender-tinted night hair, pointed ears, burgundy clover beret/ONE feather (top crop allowed), TWO SHORT compact ear-rooted pony groups with small current tip response, PLAIN white TWO-leaf collar/red coat below crop. No original animal hat/ears or long pink mane, third hair fan, long throat flap, ornate collar, added hands/limbs. Rough simplified bold PV contour, few flat shadows, avoid added portrait details. Keep original blue/violet night/stars/crescent context close; timed original captions separately restored, OMIT ALL TEXT/scribbles. No collage, morph/flow or held pose. One freshly redrawn current cel.",
+  "source_exposures": [
+    {
+      "start": 1002,
+      "end": 1003,
+      "pts": 41.75,
+      "end_pts": 41.792,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_reference": "source_refs/src-0535-f1002.png",
+  "source_review": "Root viewed actual full source, native face and true spatial A/B RGB/contours"
+}

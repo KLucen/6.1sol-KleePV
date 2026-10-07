@@ -1,0 +1,26 @@
+{
+  "source_frame": 58,
+  "name": "fine-f0058-source-clock-v3.png",
+  "output": "generated/fine-f0058-source-clock-v3.png",
+  "tool": "builtin_imagegen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-b5107523-f314-4f18-886e-f116591ac41b.png",
+  "static_review": "Rear ponytail is now pale blonde and partial 0:33 remains behind front glove. Original clock plane/hand motion approximately retained; full outside-target raster drift still to measure.",
+  "known_issues": ["Front side lock remains too long", "Clock/glove geometry approximate", "Coat/cuff/backpack contours and shading differ", "Consecutive and actual-speed review pending"],
+  "references": [
+    {
+      "path": "generated/fine-f0058-source-clock-v2.png",
+      "role": "Edit target; keep current pose, clock text, fingers, canvas and rendering"
+    },
+    {
+      "path": "source_refs/src-0018-f0058.png",
+      "role": "Current source geometry only, NEVER original hair color"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Klee pale-blonde color identity only"
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Edit Image1 only with ONE small color repair: the rear short ponytail on viewer-right is incorrectly PINK. Make that single pink hair tuft the same PALE BLONDE color as Klee's other ponytail/bangs. Both short ponytails must be pale blonde. Image2 is current source geometry ONLY, do not copy its pink hair color. Image3 shows pale-blonde Klee identity only. Preserve the pinkish-lavender PILLOW and all its spots unchanged; the pink pillow is not hair. Preserve exact ponytail shapes/roots, red hat/feather, pointed ear, one visible sleepy red eye with its BLACK hook and white accent, face landmarks, sleeves/brown gloves, CURRENT clock exact shape/angle/partially visible 0:33, coat/backpack/legs, all original captions, crop/canvas and background. Do not redraw, rescale, move or add anything. Only one pink ponytail color becomes pale blonde. Return one complete 16:9 PV cel, no panels/crop."
+}

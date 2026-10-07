@@ -1,0 +1,77 @@
+{
+  "id": "star-f1195-closeup-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1195,
+  "source_cel": "cel-0256",
+  "source_reference": "source_refs/src-0727-f1195.png",
+  "source_exposures": [
+    {
+      "start": 1195,
+      "end": 1199,
+      "pts": 49.792,
+      "end_pts": 49.958,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-actual.png",
+      "role": "Current smaller lower uprighthead/foreheadpointing."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-face-native.png",
+      "role": "Current tight angularclosedeyes/tinyhorizontalpinchedmouth."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1191-f1195-source-ab-rgb-contours.png",
+      "role": "Headfalls/downshifts, lefthandmorehorizontal and rightindexhorizontal inward, sourceactualcontours."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-hands-body-native.png",
+      "role": "Current foreheadgloves/broadbentelbows/cufftilts, torso cropped."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-044.png",
+      "role": "Previous Klee costume/identitystyle only, NOT previoushigherhatpointing orindexangles."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1195 upright centered head LOWER and slightlysmaller thanprevious1191: crownaroundy180, chiny740, squeezed > < eyes noiris and tinyclosedhorizontal mouth withverticalends. Both arms bending towardforehead, LEFT index points diagonallyUP-INWARD endingaroundx910y440, curledleftknuckles~x775y560/cuff~x630..800y535..740. RIGHT index points almostHORIZONTALLY LEFT endingx1100y490, right curledknuckles~x1240y550/cuff~x1220..1420y550..715, notold upwardpoint. Both hands foreground overbangs nearforehead sides, NOT hatcrown. Sourcecurrent leftelbowx470y825 and rightelbowx1510y815 bothwide, lower thanearlier; connectedbrown glove/redforearms/creamcuffs, shoulders/collar lower. Uppercoat/torso continuesoutbottom, NO legsorbody beyondcrop. Clearlylowerhead/handpose thanimage5, do notjustcopylastframe. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+  "output": "generated/star-f1195-closeup-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Rootviewed full/nativefacebody/sourceABRGBcontours/nativepage1. Current lower head and rightindex nearlyhorizontal inwarddistinct.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-229479c0-c228-45f0-9a8b-1a17184fae69.png",
+  "output_sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "passed": [
+      "Lower/smaller uprighthead, tight angularclosedeyes and pinchedhorizontalmouth",
+      "Both indexgloves pointing inward atforehead, rightalmosthorizontal; coherentwideelbows/tworootedponies"
+    ],
+    "deferred": [
+      "Head/hand/cuff/shoulder registration and mouthamplitude approximate",
+      "Source layers and actual-speed pending"
+    ],
+    "accepted": false
+  }
+}

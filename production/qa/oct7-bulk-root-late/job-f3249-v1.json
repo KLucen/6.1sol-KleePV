@@ -1,0 +1,84 @@
+{
+  "source_frame": 3249,
+  "source_candidate": "src-1784",
+  "source_exposures": [
+    {
+      "start": 3249,
+      "end": 3252,
+      "pts": 135.375,
+      "end_pts": 135.5,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "output": "generated/oct7-bulk-root-late-f3249-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the user's Klee PV draft. Redraw the FIRST image in the original simple hand-drawn PV style, replacing ALL visible original characters/fragments with Klee from Genshin Impact. The FIRST image alone determines camera, crop, body/head/hand pose, expression, visible extent and front/back overlap. Maintain the original blue backdrop and props. Keep any existing pillow and hand contact at source size/position. Use a red Klee cap with light feather, pale blonde short twin ponytails (exactly two, no long original hair), red simplified coat, plain cream cuffs, brown gloves/boots where visible, red eyes when source eyes are open. Preserve the source's closed eye/wink states and visible hands. Do not add hidden anatomy or extra hands. Identity/style references must NOT freeze the previous expression or pose. The source delta describes actual drawing changes, not a motion warp. Keep flat original-PV color blocks and line weight, no elaborate render, no new background decoration. Remove all source lettering from this generated cel: original Chinese/Japanese subtitles and credits are restored independently in composition. Do not generate text, labels, watermark, collage or reference panels. Produce exactly one complete 16:9 frame. Current source observation and required changes for f3249: Current same LEFT profile one open red eye small O mouth cheek and TWO raised arms from3247. Actual delta mostly small star moved behind big farRIGHT star. Preserve current shape and crop and hand diagonals. Native Klee red beret clover feather replacing sleep mask, short blond TWO rooted ponytails TOTAL, front side bangs are not a third tied tail. Prior generated has extra third tail farRIGHT and double collar puff IGNORE those flaws. One cream fluffy collar red coat brown gloves cream cuffs. Keep original crown foreground star and bottom star plus exact far right star. No original pink hair bunny mask or extra arms. Flat handdrawn omit text. Ordered input roles: Image 1: CURRENT original; sole crop, pose, visible anatomy, expression and occlusion authority; Image 2: Klee head identity only, ignore reference pose and expression; Image 3: Klee costume colors and construction only, NOT crop or pose; Image 4: Actual source AB RGB x4 and blue-before/red-current contours; not final art; Image 5: Adjacent unaccepted Klee colors/lineweight only; current source overrides pose/crop; ignore defects",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1784-f3249.png",
+      "role": "CURRENT original; sole crop, pose, visible anatomy, expression and occlusion authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "1758872b28b83d75baa537525707a231e54cde5f9f7304820e297e3baa5a0630"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee head identity only, ignore reference pose and expression",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "Klee costume colors and construction only, NOT crop or pose",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6642a7150fc8d784bf0a5300ce9b87dde979150f06abac2da55412e2c621df7a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3247-f3249-ab-rgb-contours.png",
+      "role": "Actual source AB RGB x4 and blue-before/red-current contours; not final art",
+      "actually_viewed": true,
+      "sha256_at_prepare": "9b0de0c8e02d8785cbc7701e5d3dc0b18f9339e390e8e766beea9b1fa5c78784"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-root-late-f3247-v1.png",
+      "role": "Adjacent unaccepted Klee colors/lineweight only; current source overrides pose/crop; ignore defects",
+      "actually_viewed": true,
+      "sha256_at_prepare": "dc971685e1a2c7de2333e042daad61bb115c4fd33e68afe146608e38ec6fec86"
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "policy": "one_pass_no_artistic_repairs_before_user_full_draft_feedback",
+  "owner": "root_late",
+  "references_inspected_before_prepare": true,
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-ce0862da-505a-4700-8ca5-55379f9af7f1.png",
+  "output_sha256": "800f7a57f32f3dc4f97a1078ec1487d712f0cc88525436ac55f629fc0bf385c4",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actual left profile two up arms correct source star update. Deferred major extra third tied tail and doubled collar inherited despite explicit prompt. Acceptedfalse one-pass. Next generation omits flawed prior ref, uses native current delta instead.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

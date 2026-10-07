@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f0410",
+  "source_frame": 410,
+  "source_candidate": "src-0129",
+  "canonical_cel": "cel-0065",
+  "family": "kneeling_props",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0129-f0410.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0410.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE 1920x1080 full 16:9 hand-drawn PV replacement cel, NOT a sheet or portrait crop. Reference 1 CURRENT original source decides all screen-space pose, face/hand locations, camera scale, cropping and effect positions. Reference 2 cropped Klee head is identity/colors/source-simple style ONLY, not its pose. Reference 3 cropped costume is garment construction/colors ONLY, not standing pose. Reference 4 is source BEFORE/CURRENT and RGB x4/blue-before-red-current contour difference, analysis ONLY: output only CURRENT single full image, no panels/labels. Replace source girl with default Genshin Klee, preserving original deliberately simple loose dark outlines, flat red/cream patches, orange cheek ovals and only one flat shadow, no polished game illustration. Klee has pale blonde bangs and exactly TWO SHORT side ponytails, pointed ears, red beret with cream clover and small white feather, red coat/capelet with cream collar/cuffs, ONE small cream collar/chest pom, angular split red coat lower panels with cream clover, angular cream underskirt with faint clovers and small pink ruffle, red shorts, brown gloves and boots, small brown backpack behind right shoulder/hip only where visible. No gray pajamas or bunny sleeping mask. Pose throughout this scene is upright kneeling at LEFT occupying approximately x17%-38%, feet tucked to viewer-right and entire figure ending at y80%; face center x25%, y39%; shoulders x22%-33%, y45%; BOTH arms angle down inward and BOTH gloved hands close together IN FRONT of knees at x22%-28%, y74%-77%, cuff fronts cover wrists. Keep the upper body's source length and folded-cloth forms; do not squash the coat into a standing short top or make kneeling into standing/seated cross legs. Gloves and cuffs are foreground, torso/dress behind them, folded knee/thigh and tucked boots below, backpack behind body. Uniform original lavender-purple background, broad empty right side. Keep source independent tiny floating shapes exactly CURRENT where present; do not add any if absent. ABSOLUTELY NO text, captions, lyrics, numbers, letters, credits, symbols resembling writing, watermark or annotations; captions restored later from original pixels. Preserve full source canvas. CURRENT f0410 is first new kneeling pose after empty purple cut. BOTH eyes are half-open tired horizontal lids with visible muted-red irises at same coordinates as source, a tiny closed caret mouth at about25.3%,40.7%. Head upright, gaze low, subdued expression. Current has NO floating stars/moon/hearts/fish. Original girl's upper head y19% and kneeling floor y80%; keep replacement face and hand coordinates, do not grow the whole figure or move it downward. Red beret replaces sleepmask at upper head, not extra second hat. Do not copy the cropped identity arm or any pillow/clock. Two brown gloves rest separately almost touching, viewer-left fingers downward and viewer-right fingers down-left across the lap.",
+  "output": "../generated/fine-f0410.png",
+  "status": "generated_draft",
+  "caption_cleanup_required": false,
+  "continuity_status": "adjacent_static_comparison_flagged_actual_speed_pending",
+  "accepted": false,
+  "inspection": "Static source/adjacent comparison only. Half-open muted-red eyes, closed caret mouth, upright kneeling, separate brown gloves in front of knees, two short ponytails, no captions or extra floating props. Overall knee-floor and hand regions broadly follow source. Exact landmark registration is not verified; garment ornament/chest panel and side backpack details fluctuate against subsequent cels. Original background pixels must be restored in composition.",
+  "repair_flags": ["facial_and_hand_pixel_registration_pending", "costume_pattern_and_chest_panel_sequence_drift", "original_background_pixel_restoration", "actual_speed_review_pending"]
+}

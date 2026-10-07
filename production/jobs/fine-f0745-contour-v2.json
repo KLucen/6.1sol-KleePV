@@ -1,0 +1,32 @@
+{
+  "source_frame": 745,
+  "name": "fine-f0745-contour-v2",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0743-contour-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0327-f0745.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0745.png"
+  ],
+  "prompt": "Use case: identity-preserve. Edit image1 stable-sized preceding Klee into ONE independently drawn CURRENT f0745 PV cel, full16:9/no text. Image1 is exact position/size/costume/hair identity baseline. Image2 CURRENT source dictates detailed f0745 eyelid/brow/mouth/head/neck/cuff/fist/sleeve outlines. Image3 actual source before/current/RGBdiffx4/contours tells where this real drawing changes. Redraw current contours and gentle head settling, never freeze whole previous drawing. CRITICAL fixed screen dimensions: Klee HAT TOP is at34% canvas height, WHITE FEATHER TOP at33%, eye centers at54%, source current headwidth unchanged; this small lowerhalf character must NOT rise or enlarge. Wholebody remains same image1 size and bottomcropping. Native shoulder/neck slight shape changes current source; arms downout, redraw current glove thumbnotches/cuffangle/creases modestly, no splayed hands or pajama sleeves. Eyes CURRENT open tallrounded sleepyhalf-open, upperiris DARKRED/lowercoral RED, BLACK lowerleft hooked detail attached to border/WHITE notch, noblue/no centraldots/no invented blink. Tiny inverted-vmouth current. Exactly two SHORT ear-root blondponies, pointedears/redcreamcloverberet whitefeather/plainroundbadge with nodanglers/no third abovehat tuft/no original bunny sleepingmask. Redcreamtrimcoat/creamcoatclover/plaincreamcuffs/creamangularskirt-pinkruffle/redshorts as stable reference1. Solidlavender background/thicksimplePVblackoutline/flatcolors/no gradient/texture/newprops/panels. Only current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-580d4f66-de11-42c8-89fb-e8d6058e372b.png",
+  "output": "../generated/fine-f0745-contour-v2.png",
+  "tool": "builtin imagegen",
+  "status": "reviewed_static_targeted_repair_temporal_pending",
+  "accepted": false,
+  "review": "Repair restores stable native small head/body placement and independently redrawn current sleeve/cuff/fist/coat/brow contours. Current open sleepy red eye hooks/white notches present. Fine source alignment approximate and temporal review pending.",
+  "known_issues": [
+    "Wrists somewhat high vs source",
+    "Fine contour/neck drift",
+    "Backdrop gradient persists"
+  ],
+  "job_id": "fine-f0745-contour-v2",
+  "source_candidate": "src-0327",
+  "canonical_cel": "cel-0119",
+  "family": "front_small",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0743-contour-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0327-f0745.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0745.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0745-contour-v2-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

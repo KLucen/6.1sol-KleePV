@@ -1,0 +1,37 @@
+{
+  "job_id": "fast-fullpv-dance-f0889-v1",
+  "source_frame": 889,
+  "canonical_cel": "cel-0158",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0889-v1.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0435-f0889.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0887-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0887-f0889-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current two-person source, sole placement/crop/occlusion authority",
+    "New rear dancer continuity only, not foreground pose",
+    "Cropped head identity only",
+    "Crimson iris and pupil/highlight identity only",
+    "Actual second-person entry A/B, RGB/contour evidence"
+  ],
+  "prompt": "Use case: identity-preserve. Make ONE current full-frame 16:9 PV cel for source frame 889, replacing BOTH source people by Klee. Image 1 is the CURRENT EDIT TARGET: it alone determines count=two performers, camera, scale, head/eye/mouth angles, all crops, placement and layer ordering. Image 2 is the just-drawn BACKGROUND Klee at 887, for rear dancer identity/clothing and pose continuity only; do NOT turn this into a single-person frame or move the foreground portrait. Image 3 is cropped Klee HEAD IDENTITY ONLY: ear-rooted short pale-blonde twins, red cream-clover beret, one white feather. Image 4 is EYE COLOR ONLY: deep crimson upper iris, black pupil and pale highlight; do not copy its eyelid angle or gaze. Image 5 shows actual source 887-to-889 A/B, RGB delta and two-color contours: the new huge foreground head enters from the RIGHT while the rear dancer remains behind. Draw the small rear Klee leaning right, closed eyes/tiny O, high screen-left open brown glove, low screen-right open glove and separated straight legs/boots at original positions. Draw the SECOND Klee as an enormous face and cropped shoulder on the RIGHT foreground, exactly as current source: leftmost head edge around x57%, upper hat cut by the TOP, far-right half of face/eye and mouth cut by the RIGHT edge, shoulder cut by BOTTOM. Eye-line slopes upward toward screen-right; one large full eye and one partial right eye, open crimson irises preserving original eyelid/pupil shapes and tiny open mouth at far-right edge. No recentering to fit a whole head; do not add hidden hands, feet or body. Foreground head/hair/hat/shoulder must occlude the rear dancer's right hair/sleeve/hand extent exactly in front-to-back order. Red hat replaces the source duck sleep-mask entirely, no animal mask or face/blush markings on hat; clipped white feather stays clipped if offscreen. Hair must be short with two ear-rooted groups, not the original long pink bob or broad waist hair. Rear costume keeps TWO cream collar leaves, continuous coat hem, plain red shorts/brown gloves and boots; foreground shows only naturally cropped red shoulder and cream collar. Exactly two people; no third head/limbs. Keep lavender source field and pale sketch stars/yellow sparkles in visible background. Flat muted colors and irregular thin black lines, no photoreal shading/detail inflation. Omit ALL Japanese/Chinese text; original source captions are independent compositing layers. No collage, labels, interpolation, morph, mirror or reused single-person still.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-c52ee6a5-7b04-4737-a240-d451994580a2.png",
+  "asset_sha256": "c515a704f81aa33626293766b05ccf1be739bb22d10d635d9c0dd85170e74bc8",
+  "static_review": "Two Klee portraits and cropped right foreground face drawn; crimson iris, rear high-left/low-right gloves and legs present. Extra rear waist-level blonde fan below lowered arm reappeared; cannot treat an unrooted extra third group as a minor motif. Front/rear exact silhouette contact not yet verified in composite.",
+  "known_issues": [
+    "Rear waist-level extra blonde hair group",
+    "Foreground/rear overlap needs source/composite check",
+    "Boot badges/soles/knee blush, mild shading"
+  ],
+  "blocking_static_findings": [
+    "Rear extra waist hair group must be removed before current draft selection"
+  ],
+  "artistic_accepted": false
+}

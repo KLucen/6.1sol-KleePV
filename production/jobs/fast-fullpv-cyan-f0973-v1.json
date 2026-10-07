@@ -1,0 +1,53 @@
+{
+  "job_id": "fast-fullpv-cyan-f0973-v1",
+  "source_frame": 973,
+  "canonical_cel": "cel-0192",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-cyan-f0973-v1.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-3c09b01d-58e9-42ae-8ce0-872466bb2c0f.png",
+  "asset_sha256": "690f1ae11324741aab34af95b289b86d5c06ac682bde85a72a2c4a130f7c23ef",
+  "static_review": "Actual source/face/delta and whole generated image inspected. Sustained raised-back-left near short group, stable ear root and no extra group; current micro redraw preserved as distinct image. One fully closed eye/tiny mouth and plain two-leaf collar. No source animal mask or invented limb. Not claimed exact source stroke replication or original-speed motion.",
+  "known_issues": ["Wind-state closely resembles969, true perceptual microdelta unverified", "High face registration approximate", "Extra shading/decoration and final composite/caption pending"],
+  "blocking_static_findings": [],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0969-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-f0973-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual current source full cel: pose/crop/high facial landmarks",
+    "Actual current native face: closed expression only",
+    "Previous short-rooted Klee wind-state topology only; unaccepted and not pose authority",
+    "Actual969-to973 source A/B RGB/contours: current independent outline redraw"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 independent Klee replacement cel. Image1 CURRENT ORIGINAL EDIT TARGET exclusively decides current right-facing profile pose, head/neck/shoulder geometry, HIGH facial landmark placement and top/bottom crop. Image2 CURRENT native face decides visible eye/mouth expression only. Image3 previous Klee cel decides short EAR-ROOTED hair, beret/feather and plain TWO-LEAF collar topology/color ONLY; do not freeze its pose, do not copy its approximate low face registration. Image4 actual original previous/current A/B RGB difference and two-color contour overlay decides current changes. Keep source eye near x65.5% y38.5%, nose74%x41%y, mouth71%x51%y, chin70%x59%y; beret/feather crop OFF TOP, do not lower or shrink head to fit accessories. One Klee under cyan/lavender night light: cool pale-blonde hair, two SHORT neck/collar-length ear-rooted side groups with far group occluded correctly, one pointed near ear, muted burgundy red cream-clover beret with one clipped feather, simple cream two-leaf collar and burgundy coat shoulders exiting bottom. No original animal mask/animal ears or long pink hair sheet, curled forelock, third detached fan, ornate diamonds/pompoms, invented hands/legs/second face. Preserve original purple-left/blue-cyan-right sky and tiny stars/crescent framing. Simple flat hand-drawn PV color areas, irregular thin dark lines, minimal shading. OMIT ALL TEXT for separate original glyph composition. ONE CURRENT cel, no collage, hold, mirror, morph, optical flow or crossfade. CURRENT SPECIFIC CHANGES: Current FRAME973 vs original969: the wind is still sustained back/left at the SAME lifted state, not another huge fling; current original contour/lower hair/collar/eyebrow pressure has subtle independent redraw. Current visible eye FULLY CLOSED with thin slightly rising brow and bold horizontal lid, tiny hooked-dot mouth, no iris. Preserve right-profile HIGH eye/nose/chin. Keep near short Klee pony root fixed behind pointed ear; same neck-length mass and raised-back-left tip, but redraw its outer lobes and tip/forelock outline slightly and collar neck fold to reflect current source micro changes. Do NOT grow a longer/new hair fan, shift head, expose far eye or copy967's unlifted tips. Tiny current cheek/jaw corner and collar edge changes, irregular line pressure, source crop, one clipped feather.",
+  "source_exposures": [
+    {
+      "start": 973,
+      "end": 975,
+      "pts": 40.542,
+      "end_pts": 40.625,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

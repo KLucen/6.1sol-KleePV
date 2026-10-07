@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f1995",
+  "source_frame": 1995,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1067-f1995.png",
+  "prompt": "Use case identity-preserve. Independently redraw strict-source PV f1995. EDIT image1 CURRENT ORIGINAL source, sole camera/pose/expression/crop/gaze/occlusion authority. Image2 rearKlee f1992 gives ONLY same short-hair/beret/coatline continuity; image3 frontKlee f1901 provides identity/costume/eye colors only; image4 actual source1992->1995 RGBdiff/contours RIGHTcurrent. Preserve full1920x1080 lavender scene and BOTH left and right two-line source captions. Character now RIGHT-facing PROFILE, one partlyopen eye visible underbangs, tiny downward mouth, orange cheek, visible near ear. Head centeredaboutx915 and noseatx1065 y520, currentface aboutx950..1068 y400..595; torso narrow turned sideview croppedbottom, bent arm held close to fronttorso/source sleeve projection aroundx920..1075 y700..1010. Exact currentsource profile/crop/forearm geometry; don't keep rearpose, don't invent secondeye/frontalface/hands/legs. Replace ALL peach longhair rabbitmask/headbandgraypajamas with defaultKlee: short pale blonde napehair and TWO SHORT sideponytails by pointedears; far ponytail/ear partlyoccluded by head as appropriate to strictsideview. Redberet brown band singlecreamclover identity and whitefeather on persistent anatomicalLEFT side: its rear-view left attachment rotates away/far side in this right-facingprofile, partlyoccluded by crown, never flip it to wrongside or duplicate. One current partlyopen SOURCEeye converted to darkredmaroon upper/pinkred loweriris retaining source blackpupil, smallsourcehighlight and rightwardgaze; no blue/cyan/solidred disc. Plain redcoat creamcollar/cuff and brown glove onlyif a sourcehand is actuallyvisible; no pajama sleeve/buttons/rabbit accessory or backpack. Hairends no lowerthan shoulders, never longblondesheet. Thick wobbly sourcePV darkoutlines and broadflatfills/onlysimplehardshade. No gradients/gloss/texture/extraactors/props/alternatepose, no morph/tween/hold/mirror. Follow current nosechin/eyelid/bang/sleeve outline changes in actual RGBdiff, preserve current eyelid and little mouth precisely.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1067-f1995.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1992.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1901.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1992-f1995.png"
+  ],
+  "reference_roles": [
+    "current original rightprofile pose/expression/crop/oneeye and armocclusion",
+    "previousrear Klee continuity identity only, never rearpose",
+    "frontal Klee costume/iris colors identity only, never pose",
+    "actual original turn RGBdiff/contours; RIGHT current"
+  ],
+  "output": "generated/fine-f1995.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-3e2bbb3a-ae84-4493-8bc7-bd37efa1ffc8.png",
+  "output_sha256": "9b2b55d48a57bc2597ad87ac8fcdfd3e0b59a52380e4db0c4abaab1393b24c40",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

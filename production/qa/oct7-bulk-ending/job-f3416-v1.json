@@ -1,0 +1,77 @@
+{
+  "source_frame": 3416,
+  "cel": "cel-0641",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "source_exposures": [
+    {
+      "start": 3416,
+      "end": 3420,
+      "pts": 142.333,
+      "end_pts": 142.5,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "output": "generated/oct7-bulk-ending-f3416-v1.png",
+  "prompt": "Use-case: illustration-story. Produce ONE complete hand-drawn 16:9 PV cel replacing every visible original person in image 1 with Klee from Genshin Impact. Image 1 is the CURRENT actual original cel, sole authority for composition, person count, crop, posture, eye aperture, mouth, shoulder height, elbow wrist finger position and occlusion. Image 2 determines Klee identity only. Image 3 is diagnostic actual original BEFORE/CURRENT AB plus RGB x4 and contour overlay, not the requested collage. Image 4 is native local diagnostic evidence. Image 5 is previous Klee style continuity only; follow current source changes rather than freezing it. Draw one normal whole PV frame, never diagnostic panels or montage. Preserve the purple flat source background and exact original camera framing, character scale and lean. Simple thick black freehand outlines and flat unshaded color blocks, same rough low-frame-rate original style, not detailed polished anime. Klee has pale blond bangs, TWO SHORT side ponytails only, red clover beret with white feather, red eyes with same source eyelids/direction, subtle orange cheeks, red coat and cream collar. Whenever hands are visible they wear plain dark brown gloves, with SIMPLE solid cream cuffs, no lace/frills; do not add a backpack mascot to a crop where no bag is visible. Replace all original pink long hair, animal sleep-mask hat and mauve clothing; no original-person leftovers, extra hands or extra face. Keep visible source pose and gesture even when source differs from identity photo. Keep cropped torso cropped, do not invent feet, whole body, props or extra people. Remove all source lyric letters/subtitles and do not invent any text: original subtitles and source FX will be restored deterministically in video. Exact source-specific observation and changes to implement: Current source3416 now ONLY ONE centered full-body actor, giant foreground hair has completely EXITED no hair fragment left edge. Main expression changes to WIDE OPEN rounded red eyes and tiny OPEN round O mouth, not half-closed pout. Right fist stays folded inward on upper chest but cuff turns slightly, left arm straight down-left with small visible glove. Right leg straightens closer vertical and right toe touches floor near1050, left leg supports near900. Preserve actual AB contours and current expression not prior freeze. Prior3412 identity style only, delete its left foreground hair completely. Red coat cream hems bare light legs plain brown boots two short side ponytails, no source old mauve pink pants or animal mask.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1918-f3416.png",
+      "role": "CURRENT source sole composition, visible people, pose, expression, crop and occlusion authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: pale blonde short twin tails, red eyes, red clover beret white feather; not pose or crop",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3412-f3416-source-ab-rgb-contours.png",
+      "role": "Actual original before/current AB, RGB x4 and blue-before/red-current contour spatial changes; CURRENT only is target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3412-f3416-actual-focus-native.png",
+      "role": "Native current/before eyes-mouth, both hands and cuffs, hair spatial evidence; use CURRENT pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-ending-f3412-v1.png",
+      "role": "Previous Klee draft style and identity continuity only, NOT pose; defer existing defects and obey current source",
+      "actually_viewed": true
+    }
+  ],
+  "source_observation": "Current source3416 now ONLY ONE centered full-body actor, giant foreground hair has completely EXITED no hair fragment left edge. Main expression changes to WIDE OPEN rounded red eyes and tiny OPEN round O mouth, not half-closed pout. Right fist stays folded inward on upper chest but cuff turns slightly, left arm straight down-left with small visible glove. Right leg straightens closer vertical and right toe touches floor near1050, left leg supports near900. Preserve actual AB contours and current expression not prior freeze. Prior3412 identity style only, delete its left foreground hair completely. Red coat cream hems bare light legs plain brown boots two short side ponytails, no source old mauve pink pants or animal mask.",
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-6b2b-7203-a0b6-7da37140f155\\exec-f3243c4e-d0a6-48e5-b102-cb31234573e2.png",
+  "output_sha256": "f01dee5812cec4fed43fbe8ef9ed1d550e1c47fb8bc95e386bf28807ac501a36",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed. Wide open red eyes and small open O implemented; left giant hair removed completely one actor. Tool largely holds prior right leg angled stance despite source straightening right leg; right cuff rotation small motion approximate. Accepted false one-pass source/static reviewed only, speed review pending.",
+    "accepted": false
+  }
+}

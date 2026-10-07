@@ -1,0 +1,23 @@
+{
+  "source_frame": 1314,
+  "asset": "generated/title-background-reconstruction-v1.png",
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: precise-object-edit. Asset: clean background plate for a source-preserving hand-drawn PV compositor, NOT a new character cel. Image 1 is the edit target and absolute canvas/layout/lettering authority (1920x1080 source frame 1314). Images 2 and 3 show the same original background with the original seated person shifted and are supporting evidence of letter strokes exposed beside that person, not alternate layouts. Remove only the seated girl, her hair, sleep mask, sleeves, legs, slippers and all black character outlines from Image 1. Reconstruct only the lavender backdrop and cream hand-painted lettering formerly hidden by her. Keep every already visible cream glyph, its exact irregular shape, size and placement, and the flat lavender canvas unchanged. The original title reads top line 痛いの痛いの and bottom line 飛んでいけっ. Continue the partial original strokes naturally, do not typeset, center, enlarge, or rewrite the whole text. There must be no person, silhouette, face, clothes, hat, shadow, or residual black lines anywhere. Return a full wide source-layout clean plate. Most generated pixels will be ignored; only tiny previously unobserved regions beside Klee's shorter hair will be used. No new text, no watermark.",
+  "references": [
+    {
+      "path": "source_refs/src-0823-f1314.png",
+      "role": "edit target; source canvas and visible lettering"
+    },
+    {
+      "path": "source_refs/src-0831-f1347.png",
+      "role": "source visible-stroke evidence"
+    },
+    {
+      "path": "source_refs/src-0822-f1309.png",
+      "role": "source visible-stroke evidence"
+    }
+  ],
+  "review": "no_person_static_inspected_tiny_unobserved_patch_only_not_exact_source_pixels",
+  "accepted": false,
+  "original_speed_watch": "not_performed"
+}

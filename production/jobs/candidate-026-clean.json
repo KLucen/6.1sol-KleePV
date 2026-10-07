@@ -1,0 +1,16 @@
+{
+  "job_id": "candidate-026-clean",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-026.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027.png"
+  ],
+  "prompt": "Localized repair of image 1, a hand-drawn Klee replacement animation cel. Keep image 1's entire composition, exact large tilted head at RIGHT, half-open RED eyes, tiny oval mouth, all hair contours, red hat/clover/feather, smaller raised-arm Klee behind, proportions, framing, background stars and yellow effects unchanged. Image 2 is reference ONLY for the SAME Klee cream capelet and red coat design, not pose or camera. Repair just the visible FOREGROUND figure's clothing at the extreme bottom/right: remove the surviving gray/lavender pajama torso and its triangle emblem. Replace it with Klee's red coat shoulder under a cream short capelet with simple outlined diamond trim and a cream round pom at the neckline, following exactly the current neck/shoulder crop in image 1. Do not alter the large face or move either person. Also completely REMOVE ALL existing bottom Chinese/Japanese subtitles and any lettering. Where text covered boots or clothing, reconstruct only their existing clean continuation with matching colors/outlines. No new text, caption, label, shadow, detail, object or body part. Preserve same flat PV drawing style; no rendering upgrade.",
+  "output": "../generated/candidate-026-clean.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "replaces": "candidate-026",
+  "repairs": [
+    "foreground gray pajamas",
+    "generated subtitles"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "fullpv-middle-f1674",
+  "source_frame": 1674,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0956-f1674.png",
+  "prompt": "Use case identity-preserve. Edit ONLY current original SOURCE image1 into default Klee PV cel f1674, full same 1920x1080. Image 1 solely controls camera/absolute position/pose/expression/hand occlusion. Image 2 hat identity ONLY, image 3 coat/cuff glove identity ONLY NEVER moon/star. Character LARGE RIGHT-SIDE closeup x888..1847,y126..1080; do not center, shrink, move or add legs outside crop. Small Chinese/Japanese caption on empty LEFT source region remains unchanged. Head around x1435,y470, eyes HALF OPEN with tired upper lid slopes and visible muted RED irises/white glints at current source coordinates x1270..1350 and1480..1570,y575..670. Tiny downturned mouth x1404,y760; orange source cheek ovals. Both arms CROSS OVER FOLDED KNEES, front red forearm diagonally across lower frame from x1140,y1050 toward x1510,y840. Plain cream cuff at x1515..1685,y845..980. RIGHT-visible brown glove fingers at x1642..1735,y790..890 lying ON opposing sleeve, exact partial hand only. Other hand hidden, don't invent one. Klee red beret cream clover white feather replaces bunny mask entirely; pale blonde bangs TWO SHORT side ponytails, pointed ears. Knees/legs ARE COVERED by red coat/cream hem at lower crop, do NOT add huge bare knees because source shows only folded clothed mass. Rough black source-like outlines, few flat patches, source-like restrained shade only, no texture gradients polished game style new props. Independently redraw current eyelid/bang/sleeve/cuff contour differences, no held copy.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0956-f1674.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png"
+  ],
+  "reference_roles": [
+    "current source geometry and occlusion",
+    "hat identity only",
+    "costume identity only"
+  ],
+  "output": "generated/fine-f1674.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-2838937d-1023-4f60-b7e0-64477e0af7b1.png",
+  "output_sha256": "0817f471e6ca144e7e4b5fd4085eeded335e81aa7cd0b04936e40ba05734d851",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

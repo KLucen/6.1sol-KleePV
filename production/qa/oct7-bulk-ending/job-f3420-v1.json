@@ -1,0 +1,77 @@
+{
+  "source_frame": 3420,
+  "cel": "cel-0642",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "source_exposures": [
+    {
+      "start": 3420,
+      "end": 3424,
+      "pts": 142.5,
+      "end_pts": 142.667,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "output": "generated/oct7-bulk-ending-f3420-v1.png",
+  "prompt": "Use-case: illustration-story. Produce ONE complete hand-drawn 16:9 PV cel replacing every visible original person in image 1 with Klee from Genshin Impact. Image 1 is the CURRENT actual original cel, sole authority for composition, person count, crop, posture, eye aperture, mouth, shoulder height, elbow wrist finger position and occlusion. Image 2 determines Klee identity only. Image 3 is diagnostic actual original BEFORE/CURRENT AB plus RGB x4 and contour overlay, not the requested collage. Image 4 is native local diagnostic evidence. Image 5 is previous Klee style continuity only; follow current source changes rather than freezing it. Draw one normal whole PV frame, never diagnostic panels or montage. Preserve the purple flat source background and exact original camera framing, character scale and lean. Simple thick black freehand outlines and flat unshaded color blocks, same rough low-frame-rate original style, not detailed polished anime. Klee has pale blond bangs, TWO SHORT side ponytails only, red clover beret with white feather, red eyes with same source eyelids/direction, subtle orange cheeks, red coat and cream collar. Whenever hands are visible they wear plain dark brown gloves, with SIMPLE solid cream cuffs, no lace/frills; do not add a backpack mascot to a crop where no bag is visible. Replace all original pink long hair, animal sleep-mask hat and mauve clothing; no original-person leftovers, extra hands or extra face. Keep visible source pose and gesture even when source differs from identity photo. Keep cropped torso cropped, do not invent feet, whole body, props or extra people. Remove all source lyric letters/subtitles and do not invent any text: original subtitles and source FX will be restored deterministically in video. Exact source-specific observation and changes to implement: Source3420 ONE centered full Klee. Eyes wide rounded RED and tiny OPEN O continue. Major LEFT ARM motion: bend elbow out-left x815y525 and lift LEFT brown fist to x740y430, upright cream cuff, do not keep prior left arm hanging down. RIGHT fist lifts higher near right shoulder x980y340 with sleeve curled inward. BOTH legs now parallel near-vertical to both feet floor at x880/1040y1020, no angled right shin from prior. Follow current source actual native arm/leg contours and expression; previous Klee identity colors only. Keep two short side ponytails red clover hat cream feather red coat cream hems plain brown boots. No left giant hair fragment, no old mauve pants, no extra people.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1922-f3420.png",
+      "role": "CURRENT source sole composition, visible people, pose, expression, crop and occlusion authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: pale blonde short twin tails, red eyes, red clover beret white feather; not pose or crop",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3416-f3420-source-ab-rgb-contours.png",
+      "role": "Actual original before/current AB, RGB x4 and blue-before/red-current contour spatial changes; CURRENT only is target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3416-f3420-actual-focus-native.png",
+      "role": "Native current/before eyes-mouth, both hands and cuffs, hair spatial evidence; use CURRENT pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-ending-f3416-v1.png",
+      "role": "Previous Klee draft style and identity continuity only, NOT pose; defer existing defects and obey current source",
+      "actually_viewed": true
+    }
+  ],
+  "source_observation": "Source3420 ONE centered full Klee. Eyes wide rounded RED and tiny OPEN O continue. Major LEFT ARM motion: bend elbow out-left x815y525 and lift LEFT brown fist to x740y430, upright cream cuff, do not keep prior left arm hanging down. RIGHT fist lifts higher near right shoulder x980y340 with sleeve curled inward. BOTH legs now parallel near-vertical to both feet floor at x880/1040y1020, no angled right shin from prior. Follow current source actual native arm/leg contours and expression; previous Klee identity colors only. Keep two short side ponytails red clover hat cream feather red coat cream hems plain brown boots. No left giant hair fragment, no old mauve pants, no extra people.",
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-6b2b-7203-a0b6-7da37140f155\\exec-d7a631fc-49fc-49fd-a1dd-6f83cd661a48.png",
+  "output_sha256": "8e5495b13a199fc0f2d380f5e2a9b11274351079bd32033c3f0383131ad782ce",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed. Left fist raised with bent elbow and right fist near shoulder; both legs parallel vertical now implemented, wide red eyes open O. Hand shapes and head scale approximate; previous coat ornamental pocket clovers retained. No old character fragments seen. Accepted false, actual speed continuity check pending.",
+    "accepted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-40bf3033-4fda-4f73-88a6-8b8c49789aef",
+  "candidate_id": 43,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel editing reference1 ORIGINAL source-cel-043. Current source defines NEW both-hands-overhead pose: body/head shifted right, waist croppedbottom, broad elbows out, screenLEFT glove index points HORIZONTALLY RIGHT across TOP of hat (near x55%,y10%), screenRIGHT glove index UP beside hat(right x75%,y10%); all remaining fingers curled. Keep original wrist bends/hand silhouettes/cuff angles/armfolds. Face almost UPRIGHT, very mild clockwise tilt, both eyes SQUEEZEDSHUT chevrons > <, tiny puckered double-notched Wmouth, orangecheeks; no openirises/noOmouth. Replace pink-haired pajamas girl with Klee from image2 identityonly: blonde short TWOsidepony tails/pointedears/redberet creamfrontclover whitefeather/redcreamtrimcoat patterncollar/brownFULLgloves. Layer gloves INFRONT ofhat/feather, leftpointingglove crosseshatcrest. Preserve source scene/crop/pose allvisibleanatomy, lavenderbackdrop/outlinedcreamstars. Image2 anchor STYLE/color only NOT pose. REMOVE ALL captions/credits/letters includingoriginal, no text anywhere. Loose darkoutlines/simpleflatfills sourcePV style, no extra hairlength/limbs/props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-043.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-043.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Both hands above hat, left single index horizontal right and right single index up. Squeezed closed eye chevrons, tiny W mouth, slight clockwise face, broad elbows/crop good. No text; glove in front of hat/feather."
+}

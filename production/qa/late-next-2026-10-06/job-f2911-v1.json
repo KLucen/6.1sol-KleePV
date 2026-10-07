@@ -1,0 +1,51 @@
+{
+  "source_frame": 2911,
+  "output": "generated/late-next-f2911-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE whole 16:9 hand-drawn PV animation cel for actual f2911.\nPrimary request: replace the original pillow-holding figure with Klee, keeping the CURRENT source pose, long standing proportions, small figure on screen-right and huge lavender margins.\nInput roles: image1 current source sole pose/camera/crop/visible-anatomy authority; image2 actual f2906 BEFORE/f2911 CURRENT with RGB and dual contours is motion support only, do not draw panels; image3 actual native closed-eye head/pillow grip; image4 actual native full-body pose, knee/boot changes; image5 previous Klee identity/glove-color and low-complexity style ONLY, do not freeze its body.\nCurrent figure: frontal upright head, TWO fully closed thick horizontal eyelid lines, curved brows, two orange cheeks, tiny mouth mostly covered by pillow/neck scarf. Short blonde bob, exactly TWO compact low side ponies with coherent roots, far root/pigtail may be hidden by pillow; pointed ears, red Klee beret, cream clover and one feather. Red coat with plain cream cuffs and continuous cream hem, compact brown backpack on left/back, bare legs and cream-topped brown boots.\nGesture/occlusion: lavender rectangular pillow slopes up towards screen-right and lies BEFORE chest, covering scarf/mouth area as source. Near screen-left BROWN GLOVE palm and spread fingers are OVER the lower-left/front pillow; near cream cuff connected to red sleeve. Far small BROWN GLOVE fingers grip the top-right edge OVER its cream ruffle while entire far forearm/sleeve is source-hidden behind the pillow. Exactly two hands, no bare fingertips, no extra fingers/arm. Do not recolor cream ruffle to brown.\nActual new drawing: trace current source torso angle, pillow corner positions, near elbow and palm rotation, hat/head contour/line pressure. Both legs near vertical, knees slightly bent inward, current feet separate and toes front-facing with current right toe turned outward more; retain actual boot-sole tilt and ankle positions, not prior Klee feet. Do not exaggerate new crouch or change dress length.\nStyle: economical original PV chibi with dark wobbly contours and simple flat warm red/cream/blonde color, sparse minimal shadows, not game-render detail. Same uniform lavender backdrop, preserve source visible camera scale and huge blank left region.\nConstraints: output exactly one complete illustration, no captions or text (original left CN/JP will be retained separately), labels, panels, contact sheet, watermark, animal cap/ears, pink long hair/pajamas, extra third hair lock or ornamental split hem. Do not expose hidden far forearm or make fingers cream skin.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-actual.png",
+      "role": "current whole source edit target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2906-f2911-source-ab-rgb-contours.png",
+      "role": "actual previous/current spatial change; overview only",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-face-native.png",
+      "role": "current closed eyelids/hat/pillow grip native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-pose-native.png",
+      "role": "current coat/knees/boot toes and pillow overlap native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\late-f2906-oct6-v2.png",
+      "role": "Klee simplified identity and glove continuity only; not new pose template",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-446b11cf-96d0-4040-b387-16dfde6e590e.png",
+  "output_sha256": "f5d4f5b2ebab7aa84f3a2ee421ad7a726e8bf87698ae8df99c00e2385b5fb602",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole builtin with actual source/native. One Klee, two closed eyes, exactly two brown gloves gripping/covering pillow with far sleeve hidden, two compact ponies. Mostly retains2906 head/torso/pillow silhouette; knee/boot redrawing amplitude and original jitter small, not exact source. Minor hem/long-leg/collar drift deferred; no temporal/compositor acceptance. Next changing pose uses cropped identity instead of held whole anchor.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

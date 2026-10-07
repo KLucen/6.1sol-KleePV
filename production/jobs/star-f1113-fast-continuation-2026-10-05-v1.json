@@ -1,0 +1,81 @@
+{
+  "id": "star-f1113-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1113,
+  "source_cel": "cel-0234",
+  "source_reference": "source_refs/src-0645-f1113.png",
+  "source_exposures": [
+    {
+      "start": 1113,
+      "end": 1117,
+      "pts": 46.375,
+      "end_pts": 46.542,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1113-source-actual.png",
+      "role": "Exact CURRENT1113 controls closer/higher left open cuff with compact curled glove, right mostly-hidden chest hand, head and left diagonal foot."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1113-source-face-native.png",
+      "role": "Native current narrow open eyes/small O mouth; subtle current hat/face redraw."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-f1113-source-ab-rgb-contours.png",
+      "role": "True1106→1113 source AB/RGB/contours shows left sleeve curls closer to body and left leg/boot moves."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1113-source-body-native.png",
+      "role": "Native current cuff opening/glove silhouette/elbows/hem/legs."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1106-fast-continuation-v1.png",
+      "role": "Klee identity simplified style and costume only; not fixed arm spacing/straight two-leg pose."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE whole independent Klee PV cel from CURRENT original1113 Image1. CURRENT native face Image2 and current body Image4 control framing/expression/occlusion; actual1106→1113 AB/RGB/contours Image3 shows independent changes; previous Klee Image5 supplies identity/style only, not pose. Keep original slender fullbody framing/height, simple hand outlines and mostly flat colors. Replace ENTIRE old girl with Klee: red beret cream clover white feather brown badge, pale short bangs and elf ears, exactly TWO compact rooted short shoulder ponytails ending above lower collar; red coat plain two-lobed cream collar, plain cream cuffs, continuous cream COAT hem over RED shorts; brown gloves/boots. No original long hair/animal hat/buttonrow/pockets/pajama pants, no backpack/new ornaments. CURRENT1113 LEFT raised forearm curls MORE VERTICALLY UP and CLOSER to body than1106, small curled/palm-shaped brown glove inside camera-facing cuff near(815,407), elbow near(840,475), not previous glove far-out at739425; preserve current oval opening around compact hand without extra fingers/open spread wave. RIGHT hand stays mostly hidden behind nearvertical cream cuff at upper chest, only small brown tip peeking near collar; right elbow ~1040,450. Exactly two hands, sleeve-cuff connections coherent. Narrow partly-open red eyes/current eyelid redraw with small ROUND OPEN O mouth and source head slightly right; no frozen previous caret/no closed eyes. LEFT lower leg angles diagonally down LEFT from bent knee, left boot tilts source near(872,1020), toe toward right/heel left; RIGHT leg remains nearlyvertical grounded to boot~1060,1020. This is left-leg lean, not prior right-leg lean or two straight feet. Keep coat garment length and independently redraw source shoulder/cuff/hem lines. NO third hair tuft under arm: two rooted ponytails end at shoulders and original long pink hair behind left upper sleeve is gone, clean purple sky gap only. Preserve purple-star arrangement, no added stars or objects, no text/lyrics/watermark; source captions restored separately. One whole landscape frame, not crop/montage/mirror/rigid paste; actually draw current closer raised cuff and left tilted leg.",
+  "output": "generated/star-f1113-fast-continuation-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root viewed actual source/current face/body, AB/RGB/contours and native eye/cuff/hem/boot locals. Closer higher left glove/cuff and slanted left lower leg distinct from1106.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-f1113-source-locals-native.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c89fdd8e-d52e-4703-967b-51e6061b3bdb.png",
+  "static_review": {
+    "passed": [
+      "left glove/cuff curls closer and higher to body",
+      "right cuff hides fingertips at chest",
+      "two rooted shoulder ponytails and no old outlined underarm hair",
+      "left leg/boot angles outward and right remains upright"
+    ],
+    "deferred": [
+      "hand/cuff shape and head/coat framing approximate",
+      "faint graphic remnant near left torso requires compositing-layer review",
+      "added knee/boot shading"
+    ],
+    "accepted": false
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "a46d448b2a41f575e53b6d5c1745c27c476eb32bf6c8d9f1e87595d08fe8c99e"
+}

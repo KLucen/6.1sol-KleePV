@@ -1,0 +1,5040 @@
+{
+  "scope_half_open": [
+    887,
+    911
+  ],
+  "actual_source_count": 24,
+  "production_interval_at_audit": [
+    831,
+    897
+  ],
+  "night_interval_at_audit": [
+    897,
+    911
+  ],
+  "old_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+  "night_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+  "old_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+  "night_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+  "source_video_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "implementation_sha256": {
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\compose.py": "9f3276bf7901b23f92c4a5e61e3cbedca8af123857370bc011e1d121eaa2ce51",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\dance_caption_layers.py": "2ca95d371f5b6d8fe6ebfafe3548e257d64282ded8423565f7ef0e930ea7584c",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\audit_extension.py": "dc36603165b917225e47897b6d90e966834d72e8cc2be7839b02a5e8b3c1ec02"
+  },
+  "all_best_offsets_zero": true,
+  "rows": [
+    {
+      "frame": 887,
+      "source_pts": 36.958,
+      "cel": "cel-0157",
+      "source_reference": "source_refs/src-0433-f0887.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0887-actual-source.png",
+      "source_png_sha256": "45af14e0865991b1502d609eb4000837eb56ac11a3a40a7b76ba382637a16ca8",
+      "actual_source_bgr_sha256": "1466dc7c9124206b37059fc39482fa387bb62bc1bb4cd3128fba05dc41d33e49",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11290,
+      "current_warm_core_hits_on_donor_core": 6819,
+      "current_warm_core_outside_donor_alpha_pixels": 2563,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 735,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          884,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.098758958224087,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.098758958224087,
+      "missing_asset": true
+    },
+    {
+      "frame": 888,
+      "source_pts": 37.0,
+      "cel": "cel-0157",
+      "source_reference": "source_refs/src-0434-f0888.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0888-actual-source.png",
+      "source_png_sha256": "1e47ffee8f383a30d48f951da2f88d3758d05c3af9469e9b67fec11d8e171c5e",
+      "actual_source_bgr_sha256": "cca916a37fc758c1979066e4b24ba4002163129f19d957061653fc98f18e23f5",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11464,
+      "current_warm_core_hits_on_donor_core": 6810,
+      "current_warm_core_outside_donor_alpha_pixels": 2690,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 866,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          880,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.269708092990737,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.269708092990737,
+      "missing_asset": true
+    },
+    {
+      "frame": 889,
+      "source_pts": 37.042,
+      "cel": "cel-0158",
+      "source_reference": "source_refs/src-0435-f0889.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0889-actual-source.png",
+      "source_png_sha256": "a9f75abbc1bb7daf79fdf5f14c007345e9ab433acf8f8058910388efee3dfffc",
+      "actual_source_bgr_sha256": "1a572c3f6eca647c3a27459174a5b6f1d5e340a65cf774d4906c4cc974d82a3a",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11261,
+      "current_warm_core_hits_on_donor_core": 6800,
+      "current_warm_core_outside_donor_alpha_pixels": 2571,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 739,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          882,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.19140010487677,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.19140010487677,
+      "missing_asset": true
+    },
+    {
+      "frame": 890,
+      "source_pts": 37.083,
+      "cel": "cel-0158",
+      "source_reference": "source_refs/src-0436-f0890.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0890-actual-source.png",
+      "source_png_sha256": "e6282ec81e440151fce9db9e377795bc5d98057611eeb4b3131a83710fc8b9b1",
+      "actual_source_bgr_sha256": "7acfa447277e91a5c1ba6b2a22da2857b244160d36fdfb945ba702f2bb2dd45c",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 10993,
+      "current_warm_core_hits_on_donor_core": 6766,
+      "current_warm_core_outside_donor_alpha_pixels": 2410,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 582,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          878,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.095962244362873,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.095962244362873,
+      "missing_asset": true
+    },
+    {
+      "frame": 891,
+      "source_pts": 37.125,
+      "cel": "cel-0159",
+      "source_reference": "source_refs/src-0437-f0891.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0891-actual-source.png",
+      "source_png_sha256": "53f87c8aed8e602b287b6ed99d7772e3df047c5c9ee1b815b4a76f97f872fc7a",
+      "actual_source_bgr_sha256": "19a75dcb0a0fdac78ea4b56ec91377e0261519a9d5bab650476d45877d51a123",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11015,
+      "current_warm_core_hits_on_donor_core": 6744,
+      "current_warm_core_outside_donor_alpha_pixels": 2455,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 565,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          880,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.182310784827827,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.182310784827827,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-025-clean.png",
+      "asset_sha256": "cff21148ea5499f785a3338664598decef262784076d83274ea6cac696a7d477",
+      "asset_source_frame": 891,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0891-current-composite.png",
+      "composite_png_sha256": "66e98496d6f75263b0571e0ab9ef10043100a9adfa7a611eb6acf65d35849bd8",
+      "composite_bgr_sha256": "4aa4f3f12aaaa4ea74cfb0e9083339363c90c260ed6c3664cbe00c322084ba2e",
+      "observed_stable_glyph_subset_pixels": 6744,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 0,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 892,
+      "source_pts": 37.167,
+      "cel": "cel-0159",
+      "source_reference": "source_refs/src-0438-f0892.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0892-actual-source.png",
+      "source_png_sha256": "9e7885baff8e420b7f5ab1c31e73b527fe5e1374933064e31bb72ff81f211d32",
+      "actual_source_bgr_sha256": "0f74c91d287063d6fc2da711440c9840d50b2e73288fd34addb8191cdb3830ac",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11172,
+      "current_warm_core_hits_on_donor_core": 6767,
+      "current_warm_core_outside_donor_alpha_pixels": 2536,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 639,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          880,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.249781506729592,
+      "stable_interior_p95_max_channel_delta": 23.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.249781506729592,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-025-clean.png",
+      "asset_sha256": "cff21148ea5499f785a3338664598decef262784076d83274ea6cac696a7d477",
+      "asset_source_frame": 891,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0892-current-composite.png",
+      "composite_png_sha256": "2c473ca8e62a8a43c3d3b06c509b5d745772ca278cb11b8553b695c46c2c9ae6",
+      "composite_bgr_sha256": "d7e60c2eaac3f1c05b0c669746cff0709f27161a02972fc3f6b5547db86d2ff3",
+      "observed_stable_glyph_subset_pixels": 6767,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 0,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 893,
+      "source_pts": 37.208,
+      "cel": "cel-0159",
+      "source_reference": "source_refs/src-0439-f0893.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0893-actual-source.png",
+      "source_png_sha256": "ce6a79e8b7956059ea52ef0286fbc6c1e99f6af2daa9f0e3cff9f4075892e667",
+      "actual_source_bgr_sha256": "902eb7d6aacdc5ed4ed2b7f32b5fa2ddf2e4352828c4bf762094de291c240be0",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11033,
+      "current_warm_core_hits_on_donor_core": 6717,
+      "current_warm_core_outside_donor_alpha_pixels": 2485,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 587,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          785,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          828,
+          959
+        ],
+        [
+          924,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.30169550777836,
+      "stable_interior_p95_max_channel_delta": 23.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.30169550777836,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-025-clean.png",
+      "asset_sha256": "cff21148ea5499f785a3338664598decef262784076d83274ea6cac696a7d477",
+      "asset_source_frame": 891,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0893-current-composite.png",
+      "composite_png_sha256": "88cf054e26d35071d3a7d8e9e4caefa2af5f5b21dbe8b51c0741a5ef395106d6",
+      "composite_bgr_sha256": "b90e2b4d45b30617ce58d879d95a328f8aa5eaf1b60250e0945f42916f0bb3f1",
+      "observed_stable_glyph_subset_pixels": 6717,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 0,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 894,
+      "source_pts": 37.25,
+      "cel": "cel-0160",
+      "source_reference": "source_refs/src-0440-f0894.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0894-actual-source.png",
+      "source_png_sha256": "2f443a794f55602205bf0ed6c7378e9d61a6669a5821bb9e048dd6b47aaa7f1f",
+      "actual_source_bgr_sha256": "f23f0a1d313deded28b3f1a46bedd279e76939d689e10155156b7f9e5e5327e2",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 10819,
+      "current_warm_core_hits_on_donor_core": 6707,
+      "current_warm_core_outside_donor_alpha_pixels": 2267,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 618,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          756,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          788,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          922,
+          959
+        ],
+        [
+          923,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.217094913476664,
+      "stable_interior_p95_max_channel_delta": 23.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.217094913476664,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-026-clean.png",
+      "asset_sha256": "dbc23096eaaef1821ab806abe6cb516c74b8c70bef6b380c022e00472138ccdb",
+      "asset_source_frame": 894,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0894-current-composite.png",
+      "composite_png_sha256": "ad7e17666e3cfa88c4b01f47e7618396ccb6c53eb230695b0a843fef9520365f",
+      "composite_bgr_sha256": "98538d89391cc6139d523beb7dcea3986b09d87cde74867bb4f2595d6b4f8abe",
+      "observed_stable_glyph_subset_pixels": 6707,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 0,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 895,
+      "source_pts": 37.292,
+      "cel": "cel-0160",
+      "source_reference": "source_refs/src-0441-f0895.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0895-actual-source.png",
+      "source_png_sha256": "3f201506c8dc79c030cefc9eb67819cdda2e7724429613f6a7a02fd82cf1c923",
+      "actual_source_bgr_sha256": "f8740d389fe5c6672dad47b7e178ec595156f99c36ccdfb9c0346048fe5a53a0",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 10868,
+      "current_warm_core_hits_on_donor_core": 6668,
+      "current_warm_core_outside_donor_alpha_pixels": 2320,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 667,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          756,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          788,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          922,
+          959
+        ],
+        [
+          923,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.240517392064325,
+      "stable_interior_p95_max_channel_delta": 23.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.240517392064325,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-026-clean.png",
+      "asset_sha256": "dbc23096eaaef1821ab806abe6cb516c74b8c70bef6b380c022e00472138ccdb",
+      "asset_source_frame": 894,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0895-current-composite.png",
+      "composite_png_sha256": "6e3ffb11a312cf3cb1c8c7ae7b7daa454f20fdc92c6221082668d3d6f5d4be53",
+      "composite_bgr_sha256": "f0f44e16d1f3bd787dbeb69c1e88cd43fc36b59efd133f79636498cf8faca591",
+      "observed_stable_glyph_subset_pixels": 6668,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 0,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 896,
+      "source_pts": 37.333,
+      "cel": "cel-0160",
+      "source_reference": "source_refs/src-0442-f0896.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0896-actual-source.png",
+      "source_png_sha256": "ce571d97aeeda4d304207a0fec9fb1fcaabbddd42bf4437fcbb75e4926b9654f",
+      "actual_source_bgr_sha256": "579a9ad3392ab7bdd4d6fd4fdf47e7266a57d33fdcb65fb26e70b388ecadc454",
+      "caption_region_xyxy": [
+        754,
+        954,
+        1136,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "registered_donor_sha256": "c7e5bca73f71ac85ae2cbb39cd281e631c7348c48cfedcdbd6710384c48b3011",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png": "52942c8c39e1f2f365e3a308cb44a7b267c2bef7bc0a80d6acd682a64b8b6618",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png": "6152058709f4c4c1cd333d60b52f292949b3241157acfa3bda715db7a6f2d796"
+      },
+      "registered_alpha_pixels": 13280,
+      "contrast_edge_support_pixels": 0,
+      "contrast_edge_policy": "not_enabled",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 7446,
+      "current_warm_core_pixels": 11008,
+      "current_warm_core_hits_on_donor_core": 6670,
+      "current_warm_core_outside_donor_alpha_pixels": 2416,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 768,
+      "unsupported_sample_xy": [
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          756,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          788,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ],
+        [
+          814,
+          959
+        ],
+        [
+          815,
+          959
+        ],
+        [
+          816,
+          959
+        ],
+        [
+          817,
+          959
+        ],
+        [
+          824,
+          959
+        ],
+        [
+          825,
+          959
+        ],
+        [
+          826,
+          959
+        ],
+        [
+          827,
+          959
+        ],
+        [
+          920,
+          959
+        ],
+        [
+          921,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 5721,
+      "stable_interior_mean_max_channel_delta": 10.439084076210452,
+      "stable_interior_p95_max_channel_delta": 23.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.439084076210452,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-026-clean.png",
+      "asset_sha256": "dbc23096eaaef1821ab806abe6cb516c74b8c70bef6b380c022e00472138ccdb",
+      "asset_source_frame": 894,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0896-current-composite.png",
+      "composite_png_sha256": "fac27bc0caeeecb856950b32d88d2db7cb3991110900183bde72a30e4184cf34",
+      "composite_bgr_sha256": "b449568c8381aeef4479725d0b77d0388ec3dd5a558b1fdeccf9b21c4d2edbfd",
+      "observed_stable_glyph_subset_pixels": 6670,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 0,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 897,
+      "source_pts": 37.375,
+      "cel": "cel-0161",
+      "source_reference": "source_refs/src-0443-f0897.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0897-actual-source.png",
+      "source_png_sha256": "4f73be98a3e56fd29be48fc132380686fbcfae4dc178f0d0d4e59ce86d4ce06e",
+      "actual_source_bgr_sha256": "2ff64fa4fcffc1f15160b7bf0619d4a2ca3f0e1a5b0a0ca2be4b60e9202bfe1c",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 13273,
+      "current_warm_core_hits_on_donor_core": 7366,
+      "current_warm_core_outside_donor_alpha_pixels": 2785,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 793,
+      "unsupported_sample_xy": [
+        [
+          745,
+          959
+        ],
+        [
+          746,
+          959
+        ],
+        [
+          747,
+          959
+        ],
+        [
+          748,
+          959
+        ],
+        [
+          749,
+          959
+        ],
+        [
+          750,
+          959
+        ],
+        [
+          751,
+          959
+        ],
+        [
+          752,
+          959
+        ],
+        [
+          753,
+          959
+        ],
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          756,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          788,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 12.918856988812509,
+      "stable_interior_p95_max_channel_delta": 27.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 12.918856988812509,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027-clean.png",
+      "asset_sha256": "91fb2d44285f86b5cc2a3c6875619787dcf476b098a339695b7950352976b935",
+      "asset_source_frame": 897,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0897-current-composite.png",
+      "composite_png_sha256": "0f6bc6426ff64d07358af227f312a26d0a0bd396a09740fd1317cc2ce69dce8a",
+      "composite_bgr_sha256": "979134e539e0030a87c0f34c0d85f3aa720f22286df228314d3e7da4491107a4",
+      "observed_stable_glyph_subset_pixels": 7335,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 1513,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 898,
+      "source_pts": 37.417,
+      "cel": "cel-0161",
+      "source_reference": "source_refs/src-0444-f0898.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0898-actual-source.png",
+      "source_png_sha256": "4b6d50617c52e199610bca728d26aa7a059a067b209f965bca8d04aad4b4b2f9",
+      "actual_source_bgr_sha256": "ac6634c3bd5e7064891f9794d647dda2129730e32ebfcc524fe053c5ab22eba1",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 13282,
+      "current_warm_core_hits_on_donor_core": 7352,
+      "current_warm_core_outside_donor_alpha_pixels": 2776,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 784,
+      "unsupported_sample_xy": [
+        [
+          745,
+          959
+        ],
+        [
+          746,
+          959
+        ],
+        [
+          747,
+          959
+        ],
+        [
+          748,
+          959
+        ],
+        [
+          749,
+          959
+        ],
+        [
+          750,
+          959
+        ],
+        [
+          751,
+          959
+        ],
+        [
+          752,
+          959
+        ],
+        [
+          753,
+          959
+        ],
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          756,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          788,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 12.976681493462731,
+      "stable_interior_p95_max_channel_delta": 27.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 12.976681493462731,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027-clean.png",
+      "asset_sha256": "91fb2d44285f86b5cc2a3c6875619787dcf476b098a339695b7950352976b935",
+      "asset_source_frame": 897,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0898-current-composite.png",
+      "composite_png_sha256": "e6934e2cc565cdc9a31416426c1d622d6be3e08c7dc6a374a79b83e7848852f2",
+      "composite_bgr_sha256": "dfee03a8d7a922f399161f22ef8347f4ab16d288614ac714ef190c8900e7bf49",
+      "observed_stable_glyph_subset_pixels": 7321,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 1513,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 899,
+      "source_pts": 37.458,
+      "cel": "cel-0161",
+      "source_reference": "source_refs/src-0445-f0899.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0899-actual-source.png",
+      "source_png_sha256": "956f0bd67c2d37ebcdb2f2cd988caf32a2581cc508e19ebad9bd516eac2b7f3a",
+      "actual_source_bgr_sha256": "cb513044635809d3bee06372a3432c13732c388b60f9a1aa1a91ee7689ffb0f6",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 13393,
+      "current_warm_core_hits_on_donor_core": 7412,
+      "current_warm_core_outside_donor_alpha_pixels": 2738,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 734,
+      "unsupported_sample_xy": [
+        [
+          745,
+          959
+        ],
+        [
+          746,
+          959
+        ],
+        [
+          747,
+          959
+        ],
+        [
+          748,
+          959
+        ],
+        [
+          749,
+          959
+        ],
+        [
+          750,
+          959
+        ],
+        [
+          751,
+          959
+        ],
+        [
+          752,
+          959
+        ],
+        [
+          753,
+          959
+        ],
+        [
+          754,
+          959
+        ],
+        [
+          755,
+          959
+        ],
+        [
+          756,
+          959
+        ],
+        [
+          786,
+          959
+        ],
+        [
+          787,
+          959
+        ],
+        [
+          788,
+          959
+        ],
+        [
+          789,
+          959
+        ],
+        [
+          790,
+          959
+        ],
+        [
+          791,
+          959
+        ],
+        [
+          792,
+          959
+        ],
+        [
+          793,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ],
+        [
+          805,
+          959
+        ],
+        [
+          806,
+          959
+        ],
+        [
+          807,
+          959
+        ],
+        [
+          808,
+          959
+        ],
+        [
+          809,
+          959
+        ],
+        [
+          810,
+          959
+        ],
+        [
+          811,
+          959
+        ],
+        [
+          812,
+          959
+        ],
+        [
+          813,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 12.873298288178999,
+      "stable_interior_p95_max_channel_delta": 27.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 12.873298288178999,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027-clean.png",
+      "asset_sha256": "91fb2d44285f86b5cc2a3c6875619787dcf476b098a339695b7950352976b935",
+      "asset_source_frame": 897,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0899-current-composite.png",
+      "composite_png_sha256": "1fd7e5c633ca28563c6b1a84c384d707ad82c916c47ac954015c15e86f68f626",
+      "composite_bgr_sha256": "89602afcd40aa460d3d28064eb1255eb59fec67d72778babcd300984ca90d92f",
+      "observed_stable_glyph_subset_pixels": 7380,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 1513,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 900,
+      "source_pts": 37.5,
+      "cel": "cel-0162",
+      "source_reference": "source_refs/src-0446-f0900.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0900-actual-source.png",
+      "source_png_sha256": "4cfe4b472b3ef58e514ae2ec122cafed36c6d2ff2656d9abef533c5a1d77e927",
+      "actual_source_bgr_sha256": "5cb627109db144b3d1f7c38fefe21af129a3b11aa57e0bed6fb15f0382cf6ec7",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 16897,
+      "current_warm_core_hits_on_donor_core": 8821,
+      "current_warm_core_outside_donor_alpha_pixels": 1876,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 247,
+      "unsupported_sample_xy": [
+        [
+          686,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          970,
+          959
+        ],
+        [
+          971,
+          959
+        ],
+        [
+          1150,
+          959
+        ],
+        [
+          1151,
+          959
+        ],
+        [
+          1152,
+          959
+        ],
+        [
+          1153,
+          959
+        ],
+        [
+          1154,
+          959
+        ],
+        [
+          1155,
+          959
+        ],
+        [
+          1162,
+          959
+        ],
+        [
+          1163,
+          959
+        ],
+        [
+          1198,
+          959
+        ],
+        [
+          1199,
+          959
+        ],
+        [
+          1200,
+          959
+        ],
+        [
+          1201,
+          959
+        ],
+        [
+          1202,
+          959
+        ],
+        [
+          1203,
+          959
+        ],
+        [
+          1204,
+          959
+        ],
+        [
+          1205,
+          959
+        ],
+        [
+          1206,
+          959
+        ],
+        [
+          1207,
+          959
+        ],
+        [
+          1208,
+          959
+        ],
+        [
+          1209,
+          959
+        ],
+        [
+          682,
+          960
+        ],
+        [
+          683,
+          960
+        ],
+        [
+          684,
+          960
+        ],
+        [
+          685,
+          960
+        ],
+        [
+          686,
+          960
+        ],
+        [
+          687,
+          960
+        ],
+        [
+          688,
+          960
+        ],
+        [
+          689,
+          960
+        ],
+        [
+          733,
+          960
+        ],
+        [
+          734,
+          960
+        ],
+        [
+          735,
+          960
+        ],
+        [
+          736,
+          960
+        ],
+        [
+          737,
+          960
+        ],
+        [
+          738,
+          960
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 12.254886103248417,
+      "stable_interior_p95_max_channel_delta": 24.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 12.254886103248417,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-028-clean.png",
+      "asset_sha256": "9685bae4ecaf86ed52f6c041fb73b5d4726c1f9e13fe120b4890bceddcd08aac",
+      "asset_source_frame": 900,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0900-current-composite.png",
+      "composite_png_sha256": "396d73b826d6380e97399ee1039ff304640984a43f05b2568772ec003f5218ec",
+      "composite_bgr_sha256": "af8af77ea6184857eb4f2e5ac4741f83c993b2d0152b8c352bb76c86318c5585",
+      "observed_stable_glyph_subset_pixels": 8816,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 4398,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 901,
+      "source_pts": 37.542,
+      "cel": "cel-0162",
+      "source_reference": "source_refs/src-0447-f0901.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0901-actual-source.png",
+      "source_png_sha256": "f9db1e8af4aa64c3d7a654b926b73dd7df7f3a25b68b6efd598ea1423b5226e6",
+      "actual_source_bgr_sha256": "daeacf0b46e5b02e27ad58800fd3fe9a1db04dd1c7288ed0959907118b756b8f",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 16894,
+      "current_warm_core_hits_on_donor_core": 8821,
+      "current_warm_core_outside_donor_alpha_pixels": 1874,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 247,
+      "unsupported_sample_xy": [
+        [
+          686,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          970,
+          959
+        ],
+        [
+          971,
+          959
+        ],
+        [
+          1150,
+          959
+        ],
+        [
+          1151,
+          959
+        ],
+        [
+          1152,
+          959
+        ],
+        [
+          1153,
+          959
+        ],
+        [
+          1154,
+          959
+        ],
+        [
+          1155,
+          959
+        ],
+        [
+          1162,
+          959
+        ],
+        [
+          1163,
+          959
+        ],
+        [
+          1198,
+          959
+        ],
+        [
+          1199,
+          959
+        ],
+        [
+          1200,
+          959
+        ],
+        [
+          1201,
+          959
+        ],
+        [
+          1202,
+          959
+        ],
+        [
+          1203,
+          959
+        ],
+        [
+          1204,
+          959
+        ],
+        [
+          1205,
+          959
+        ],
+        [
+          1206,
+          959
+        ],
+        [
+          1207,
+          959
+        ],
+        [
+          1208,
+          959
+        ],
+        [
+          1209,
+          959
+        ],
+        [
+          682,
+          960
+        ],
+        [
+          683,
+          960
+        ],
+        [
+          684,
+          960
+        ],
+        [
+          685,
+          960
+        ],
+        [
+          686,
+          960
+        ],
+        [
+          687,
+          960
+        ],
+        [
+          688,
+          960
+        ],
+        [
+          689,
+          960
+        ],
+        [
+          733,
+          960
+        ],
+        [
+          734,
+          960
+        ],
+        [
+          735,
+          960
+        ],
+        [
+          736,
+          960
+        ],
+        [
+          737,
+          960
+        ],
+        [
+          738,
+          960
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 12.205014152850788,
+      "stable_interior_p95_max_channel_delta": 24.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 12.205014152850788,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-028-clean.png",
+      "asset_sha256": "9685bae4ecaf86ed52f6c041fb73b5d4726c1f9e13fe120b4890bceddcd08aac",
+      "asset_source_frame": 900,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0901-current-composite.png",
+      "composite_png_sha256": "085fb24fd1ef345f21ae699ef089f25db2163617b0e032921acfa4ebd5150cdb",
+      "composite_bgr_sha256": "a84612d17a59177618d9f1722b174a73ed98603d95c495ba8da644eddfefe406",
+      "observed_stable_glyph_subset_pixels": 8816,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 4398,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 902,
+      "source_pts": 37.583,
+      "cel": "cel-0163",
+      "source_reference": "source_refs/src-0448-f0902.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0902-actual-source.png",
+      "source_png_sha256": "fd58ec86d7810d763f9ea82fda1af9e257e003b2919beb5b397d931992340d80",
+      "actual_source_bgr_sha256": "d08e9336b9473265bed0c3efe0fa73235704a208e90709489fea7b956063b5bd",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 15683,
+      "current_warm_core_hits_on_donor_core": 8237,
+      "current_warm_core_outside_donor_alpha_pixels": 3074,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 256,
+      "unsupported_sample_xy": [
+        [
+          682,
+          959
+        ],
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          689,
+          959
+        ],
+        [
+          690,
+          959
+        ],
+        [
+          691,
+          959
+        ],
+        [
+          704,
+          959
+        ],
+        [
+          705,
+          959
+        ],
+        [
+          706,
+          959
+        ],
+        [
+          707,
+          959
+        ],
+        [
+          708,
+          959
+        ],
+        [
+          709,
+          959
+        ],
+        [
+          710,
+          959
+        ],
+        [
+          711,
+          959
+        ],
+        [
+          712,
+          959
+        ],
+        [
+          713,
+          959
+        ],
+        [
+          714,
+          959
+        ],
+        [
+          715,
+          959
+        ],
+        [
+          716,
+          959
+        ],
+        [
+          717,
+          959
+        ],
+        [
+          718,
+          959
+        ],
+        [
+          719,
+          959
+        ],
+        [
+          721,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 10.54185200161747,
+      "stable_interior_p95_max_channel_delta": 24.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.54185200161747,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-029-clean.png",
+      "asset_sha256": "f6a27af81143168a27eb9645b781610a4b88006b1d0d98cc135c22993f582d41",
+      "asset_source_frame": 902,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0902-current-composite.png",
+      "composite_png_sha256": "d85290ee28456102aae472ddefb0a08fe1bd06e8311f0e9e9efc7b4f561ae29c",
+      "composite_bgr_sha256": "da22a361036f74c56e0964a9f525c1d3993bda8c4bf6a829cc1fb6f4a94eaefb",
+      "observed_stable_glyph_subset_pixels": 8201,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 1565,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 903,
+      "source_pts": 37.625,
+      "cel": "cel-0164",
+      "source_reference": "source_refs/src-0449-f0903.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0903-actual-source.png",
+      "source_png_sha256": "e92a061bb2563cfe8263b8f7584e624b098a3ba0dd40eb45acd48700c6f4b79a",
+      "actual_source_bgr_sha256": "02d9a8bebe0c648d6f006b8729a7ebb42eb1a4ab7f7c082f47e0ca0b37fdd018",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 15782,
+      "current_warm_core_hits_on_donor_core": 8278,
+      "current_warm_core_outside_donor_alpha_pixels": 3111,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 252,
+      "unsupported_sample_xy": [
+        [
+          682,
+          959
+        ],
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          689,
+          959
+        ],
+        [
+          690,
+          959
+        ],
+        [
+          691,
+          959
+        ],
+        [
+          704,
+          959
+        ],
+        [
+          705,
+          959
+        ],
+        [
+          706,
+          959
+        ],
+        [
+          707,
+          959
+        ],
+        [
+          708,
+          959
+        ],
+        [
+          709,
+          959
+        ],
+        [
+          710,
+          959
+        ],
+        [
+          711,
+          959
+        ],
+        [
+          712,
+          959
+        ],
+        [
+          713,
+          959
+        ],
+        [
+          714,
+          959
+        ],
+        [
+          715,
+          959
+        ],
+        [
+          716,
+          959
+        ],
+        [
+          717,
+          959
+        ],
+        [
+          718,
+          959
+        ],
+        [
+          719,
+          959
+        ],
+        [
+          721,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 10.547378352877747,
+      "stable_interior_p95_max_channel_delta": 24.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.547378352877747,
+      "missing_asset": true
+    },
+    {
+      "frame": 904,
+      "source_pts": 37.667,
+      "cel": "cel-0164",
+      "source_reference": "source_refs/src-0450-f0904.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0904-actual-source.png",
+      "source_png_sha256": "5875f103b7db4ae1707e9173bae647c60dbb75eb8d46f83cc89bde793f182bec",
+      "actual_source_bgr_sha256": "7c484ecfacea6f4dc5901d923cc6e6fc5b4e4d5f8b481bed48fd6c4a876dba4c",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 15795,
+      "current_warm_core_hits_on_donor_core": 8264,
+      "current_warm_core_outside_donor_alpha_pixels": 3106,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 267,
+      "unsupported_sample_xy": [
+        [
+          682,
+          959
+        ],
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          689,
+          959
+        ],
+        [
+          690,
+          959
+        ],
+        [
+          691,
+          959
+        ],
+        [
+          704,
+          959
+        ],
+        [
+          705,
+          959
+        ],
+        [
+          706,
+          959
+        ],
+        [
+          707,
+          959
+        ],
+        [
+          708,
+          959
+        ],
+        [
+          709,
+          959
+        ],
+        [
+          710,
+          959
+        ],
+        [
+          711,
+          959
+        ],
+        [
+          712,
+          959
+        ],
+        [
+          713,
+          959
+        ],
+        [
+          714,
+          959
+        ],
+        [
+          715,
+          959
+        ],
+        [
+          716,
+          959
+        ],
+        [
+          717,
+          959
+        ],
+        [
+          718,
+          959
+        ],
+        [
+          719,
+          959
+        ],
+        [
+          721,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          794,
+          959
+        ],
+        [
+          795,
+          959
+        ],
+        [
+          796,
+          959
+        ],
+        [
+          797,
+          959
+        ],
+        [
+          798,
+          959
+        ],
+        [
+          799,
+          959
+        ],
+        [
+          800,
+          959
+        ],
+        [
+          801,
+          959
+        ],
+        [
+          802,
+          959
+        ],
+        [
+          803,
+          959
+        ],
+        [
+          804,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 10.5945545221728,
+      "stable_interior_p95_max_channel_delta": 24.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 10.5945545221728,
+      "missing_asset": true
+    },
+    {
+      "frame": 905,
+      "source_pts": 37.708,
+      "cel": "cel-0165",
+      "source_reference": "source_refs/src-0451-f0905.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0905-actual-source.png",
+      "source_png_sha256": "85f8036c4814081843ab18610e450ea82ef01a7e9da8edfafb0841ec74e37162",
+      "actual_source_bgr_sha256": "34f027a31057943717eb37a4a457c7a58a273c40f34afefdd96384f49369719c",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 16009,
+      "current_warm_core_hits_on_donor_core": 8516,
+      "current_warm_core_outside_donor_alpha_pixels": 3517,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 570,
+      "unsupported_sample_xy": [
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          834,
+          959
+        ],
+        [
+          835,
+          959
+        ],
+        [
+          854,
+          959
+        ],
+        [
+          855,
+          959
+        ],
+        [
+          856,
+          959
+        ],
+        [
+          857,
+          959
+        ],
+        [
+          858,
+          959
+        ],
+        [
+          859,
+          959
+        ],
+        [
+          860,
+          959
+        ],
+        [
+          879,
+          959
+        ],
+        [
+          880,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          959,
+          959
+        ],
+        [
+          968,
+          959
+        ],
+        [
+          969,
+          959
+        ],
+        [
+          970,
+          959
+        ],
+        [
+          971,
+          959
+        ],
+        [
+          978,
+          959
+        ],
+        [
+          979,
+          959
+        ],
+        [
+          980,
+          959
+        ],
+        [
+          981,
+          959
+        ],
+        [
+          982,
+          959
+        ],
+        [
+          983,
+          959
+        ],
+        [
+          984,
+          959
+        ],
+        [
+          985,
+          959
+        ],
+        [
+          986,
+          959
+        ],
+        [
+          987,
+          959
+        ],
+        [
+          990,
+          959
+        ],
+        [
+          991,
+          959
+        ],
+        [
+          1058,
+          959
+        ],
+        [
+          1059,
+          959
+        ],
+        [
+          1060,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 8.792559644156894,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 8.792559644156894,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-030-clean.png",
+      "asset_sha256": "3330a50b2882e0ade95f7e9d872cdb3c4c8fe2e1d746636d66f9ee920fc56235",
+      "asset_source_frame": 905,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0905-current-composite.png",
+      "composite_png_sha256": "59b6dfeaacdec4eeeed53139c721acf3c141cf4f89925d5f12038a71aeb7d3c1",
+      "composite_bgr_sha256": "1af82f87af85770877e7748372d5593b3f6e7c581d853f68545488f09b215270",
+      "observed_stable_glyph_subset_pixels": 8486,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 1389,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 906,
+      "source_pts": 37.75,
+      "cel": "cel-0165",
+      "source_reference": "source_refs/src-0451-f0905.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0906-actual-source.png",
+      "source_png_sha256": "915657fd2d39d17e2605ea2c4a70ccf7979c87e7f3394f6d1320e1aa376c5b27",
+      "actual_source_bgr_sha256": "5a8bec33a7c069a31de9d2e9aa442d7e1616068dce2ab76ce3347b388b425d87",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 16008,
+      "current_warm_core_hits_on_donor_core": 8516,
+      "current_warm_core_outside_donor_alpha_pixels": 3517,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 570,
+      "unsupported_sample_xy": [
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          834,
+          959
+        ],
+        [
+          835,
+          959
+        ],
+        [
+          854,
+          959
+        ],
+        [
+          855,
+          959
+        ],
+        [
+          856,
+          959
+        ],
+        [
+          857,
+          959
+        ],
+        [
+          858,
+          959
+        ],
+        [
+          859,
+          959
+        ],
+        [
+          860,
+          959
+        ],
+        [
+          879,
+          959
+        ],
+        [
+          880,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          959,
+          959
+        ],
+        [
+          968,
+          959
+        ],
+        [
+          969,
+          959
+        ],
+        [
+          970,
+          959
+        ],
+        [
+          971,
+          959
+        ],
+        [
+          978,
+          959
+        ],
+        [
+          979,
+          959
+        ],
+        [
+          980,
+          959
+        ],
+        [
+          981,
+          959
+        ],
+        [
+          982,
+          959
+        ],
+        [
+          983,
+          959
+        ],
+        [
+          984,
+          959
+        ],
+        [
+          985,
+          959
+        ],
+        [
+          986,
+          959
+        ],
+        [
+          987,
+          959
+        ],
+        [
+          990,
+          959
+        ],
+        [
+          991,
+          959
+        ],
+        [
+          1058,
+          959
+        ],
+        [
+          1059,
+          959
+        ],
+        [
+          1060,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 8.792829222267152,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 8.792829222267152,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-030-clean.png",
+      "asset_sha256": "3330a50b2882e0ade95f7e9d872cdb3c4c8fe2e1d746636d66f9ee920fc56235",
+      "asset_source_frame": 905,
+      "composite_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0906-current-composite.png",
+      "composite_png_sha256": "42efd82db7677761cb8b165ebb8136bad7ec389dce9d4299732316c92c2a4401",
+      "composite_bgr_sha256": "a44c675e6aa5f2a14391ebea3a906707a9fa702bd089b3c7ba26a855dd2edf9b",
+      "observed_stable_glyph_subset_pixels": 8486,
+      "observed_stable_glyph_subset_not_source_exact_pixels": 0,
+      "declared_caption_pixels_outside_alpha": 1389,
+      "declared_caption_pixels_outside_alpha_and_1px_edge": 0,
+      "changed_outside_declared_masks": 0
+    },
+    {
+      "frame": 907,
+      "source_pts": 37.792,
+      "cel": "cel-0166",
+      "source_reference": "source_refs/src-0452-f0907.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0907-actual-source.png",
+      "source_png_sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e",
+      "actual_source_bgr_sha256": "077896263334271ae3bae72f2d2bf816bb8008708c291dfa3b22b1108dd7fd99",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 15994,
+      "current_warm_core_hits_on_donor_core": 8524,
+      "current_warm_core_outside_donor_alpha_pixels": 3516,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 570,
+      "unsupported_sample_xy": [
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          834,
+          959
+        ],
+        [
+          835,
+          959
+        ],
+        [
+          854,
+          959
+        ],
+        [
+          855,
+          959
+        ],
+        [
+          856,
+          959
+        ],
+        [
+          857,
+          959
+        ],
+        [
+          858,
+          959
+        ],
+        [
+          859,
+          959
+        ],
+        [
+          860,
+          959
+        ],
+        [
+          879,
+          959
+        ],
+        [
+          880,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          959,
+          959
+        ],
+        [
+          968,
+          959
+        ],
+        [
+          969,
+          959
+        ],
+        [
+          970,
+          959
+        ],
+        [
+          971,
+          959
+        ],
+        [
+          978,
+          959
+        ],
+        [
+          979,
+          959
+        ],
+        [
+          980,
+          959
+        ],
+        [
+          981,
+          959
+        ],
+        [
+          982,
+          959
+        ],
+        [
+          983,
+          959
+        ],
+        [
+          984,
+          959
+        ],
+        [
+          985,
+          959
+        ],
+        [
+          986,
+          959
+        ],
+        [
+          987,
+          959
+        ],
+        [
+          990,
+          959
+        ],
+        [
+          991,
+          959
+        ],
+        [
+          1058,
+          959
+        ],
+        [
+          1059,
+          959
+        ],
+        [
+          1060,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 8.753875185334952,
+      "stable_interior_p95_max_channel_delta": 22.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 8.753875185334952,
+      "missing_asset": true
+    },
+    {
+      "frame": 908,
+      "source_pts": 37.833,
+      "cel": "cel-0167",
+      "source_reference": "source_refs/src-0453-f0908.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0908-actual-source.png",
+      "source_png_sha256": "db273e9f090a48f9f01a52d56ea3ceebe1e61605a322d6e71863460800780f63",
+      "actual_source_bgr_sha256": "c63754adce33a04cec7ca33581c873cd8d8b5ec260f46b72bc6d19a4e3379b64",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 13606,
+      "current_warm_core_hits_on_donor_core": 8463,
+      "current_warm_core_outside_donor_alpha_pixels": 1843,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 204,
+      "unsupported_sample_xy": [
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          689,
+          959
+        ],
+        [
+          690,
+          959
+        ],
+        [
+          691,
+          959
+        ],
+        [
+          692,
+          959
+        ],
+        [
+          693,
+          959
+        ],
+        [
+          694,
+          959
+        ],
+        [
+          695,
+          959
+        ],
+        [
+          696,
+          959
+        ],
+        [
+          697,
+          959
+        ],
+        [
+          698,
+          959
+        ],
+        [
+          699,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          854,
+          959
+        ],
+        [
+          855,
+          959
+        ],
+        [
+          856,
+          959
+        ],
+        [
+          857,
+          959
+        ],
+        [
+          858,
+          959
+        ],
+        [
+          859,
+          959
+        ],
+        [
+          880,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          948,
+          959
+        ],
+        [
+          949,
+          959
+        ],
+        [
+          950,
+          959
+        ],
+        [
+          951,
+          959
+        ],
+        [
+          952,
+          959
+        ],
+        [
+          953,
+          959
+        ],
+        [
+          954,
+          959
+        ],
+        [
+          955,
+          959
+        ],
+        [
+          956,
+          959
+        ],
+        [
+          957,
+          959
+        ],
+        [
+          958,
+          959
+        ],
+        [
+          959,
+          959
+        ],
+        [
+          1038,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 7.037066990160399,
+      "stable_interior_p95_max_channel_delta": 21.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 7.037066990160399,
+      "missing_asset": true
+    },
+    {
+      "frame": 909,
+      "source_pts": 37.875,
+      "cel": "cel-0168",
+      "source_reference": "source_refs/src-0454-f0909.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0909-actual-source.png",
+      "source_png_sha256": "aea0c18297aeb5b3fdc7af48886d9277bcd1f6e58d15a8ce7b52e4772d352811",
+      "actual_source_bgr_sha256": "31774b172bc8fc5de3a741bba27fc9c48fb4a6280e440d7fcd3d9896cc170448",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 13663,
+      "current_warm_core_hits_on_donor_core": 8533,
+      "current_warm_core_outside_donor_alpha_pixels": 1843,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 204,
+      "unsupported_sample_xy": [
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          689,
+          959
+        ],
+        [
+          690,
+          959
+        ],
+        [
+          691,
+          959
+        ],
+        [
+          692,
+          959
+        ],
+        [
+          693,
+          959
+        ],
+        [
+          694,
+          959
+        ],
+        [
+          695,
+          959
+        ],
+        [
+          696,
+          959
+        ],
+        [
+          697,
+          959
+        ],
+        [
+          698,
+          959
+        ],
+        [
+          699,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          854,
+          959
+        ],
+        [
+          855,
+          959
+        ],
+        [
+          856,
+          959
+        ],
+        [
+          857,
+          959
+        ],
+        [
+          858,
+          959
+        ],
+        [
+          859,
+          959
+        ],
+        [
+          880,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          948,
+          959
+        ],
+        [
+          949,
+          959
+        ],
+        [
+          950,
+          959
+        ],
+        [
+          951,
+          959
+        ],
+        [
+          952,
+          959
+        ],
+        [
+          953,
+          959
+        ],
+        [
+          954,
+          959
+        ],
+        [
+          955,
+          959
+        ],
+        [
+          956,
+          959
+        ],
+        [
+          957,
+          959
+        ],
+        [
+          958,
+          959
+        ],
+        [
+          959,
+          959
+        ],
+        [
+          1038,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 6.806442916835153,
+      "stable_interior_p95_max_channel_delta": 21.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 6.806442916835153,
+      "missing_asset": true
+    },
+    {
+      "frame": 910,
+      "source_pts": 37.917,
+      "cel": "cel-0168",
+      "source_reference": "source_refs/src-0455-f0910.png",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\f0910-actual-source.png",
+      "source_png_sha256": "08f6e5bd035467e68bd982b3bd00b0c3df868b8c50bc89ad58ac527eabce1777",
+      "actual_source_bgr_sha256": "a217135d7faf2a6ab480f60b0ed0a4cbb46ecb34a65a4119c3007f8f7a079f38",
+      "caption_region_xyxy": [
+        628,
+        954,
+        1264,
+        1047
+      ],
+      "registered_donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png",
+      "registered_donor_sha256": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "phase_donor_sha256": {
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+      },
+      "registered_alpha_pixels": 18316,
+      "contrast_edge_support_pixels": 5714,
+      "contrast_edge_policy": "Fixed 1px dark edge only on edited low-contrast bright underlay; glyph contents/core RGB unchanged",
+      "simulated_changes_outside_alpha": 0,
+      "donor_core_pixels": 8830,
+      "current_warm_core_pixels": 13655,
+      "current_warm_core_hits_on_donor_core": 8538,
+      "current_warm_core_outside_donor_alpha_pixels": 1842,
+      "current_strong_warm_core_outside_donor_alpha_pixels": 204,
+      "unsupported_sample_xy": [
+        [
+          683,
+          959
+        ],
+        [
+          684,
+          959
+        ],
+        [
+          685,
+          959
+        ],
+        [
+          686,
+          959
+        ],
+        [
+          687,
+          959
+        ],
+        [
+          688,
+          959
+        ],
+        [
+          689,
+          959
+        ],
+        [
+          690,
+          959
+        ],
+        [
+          691,
+          959
+        ],
+        [
+          692,
+          959
+        ],
+        [
+          693,
+          959
+        ],
+        [
+          694,
+          959
+        ],
+        [
+          695,
+          959
+        ],
+        [
+          696,
+          959
+        ],
+        [
+          697,
+          959
+        ],
+        [
+          698,
+          959
+        ],
+        [
+          699,
+          959
+        ],
+        [
+          722,
+          959
+        ],
+        [
+          723,
+          959
+        ],
+        [
+          854,
+          959
+        ],
+        [
+          855,
+          959
+        ],
+        [
+          856,
+          959
+        ],
+        [
+          857,
+          959
+        ],
+        [
+          858,
+          959
+        ],
+        [
+          859,
+          959
+        ],
+        [
+          880,
+          959
+        ],
+        [
+          881,
+          959
+        ],
+        [
+          948,
+          959
+        ],
+        [
+          949,
+          959
+        ],
+        [
+          950,
+          959
+        ],
+        [
+          951,
+          959
+        ],
+        [
+          952,
+          959
+        ],
+        [
+          953,
+          959
+        ],
+        [
+          954,
+          959
+        ],
+        [
+          955,
+          959
+        ],
+        [
+          956,
+          959
+        ],
+        [
+          957,
+          959
+        ],
+        [
+          958,
+          959
+        ],
+        [
+          959,
+          959
+        ],
+        [
+          1038,
+          959
+        ]
+      ],
+      "stable_interior_pixels": 7419,
+      "stable_interior_mean_max_channel_delta": 6.7832591993530125,
+      "stable_interior_p95_max_channel_delta": 21.0,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "best_offset_mean_max_channel_delta": 6.7832591993530125,
+      "missing_asset": true
+    }
+  ],
+  "source_caption_pages": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\source-caption-page-01.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\source-caption-page-02.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\source-caption-page-03.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\source-caption-page-04.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\source-caption-page-05.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\source-caption-page-06.png"
+  ],
+  "unsupported_pages": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\unsupported-candidates-page-01.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\unsupported-candidates-page-02.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\unsupported-candidates-page-03.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\unsupported-candidates-page-04.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\unsupported-candidates-page-05.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\unsupported-candidates-page-06.png"
+  ],
+  "registered_transparent_layer_simulation_pages": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\transparent-over-dark-page-01.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\transparent-over-dark-page-02.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\transparent-over-dark-page-03.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\transparent-over-dark-page-04.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\transparent-over-dark-page-05.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\transparent-over-dark-page-06.png"
+  ],
+  "current_composite_caption_pages": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\current-composite-caption-page-01.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\current-composite-caption-page-02.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\current-composite-caption-page-03.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\current-composite-caption-page-04.png"
+  ],
+  "full_pages": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\full-source-composite-page-01.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\full-source-composite-page-02.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\full-source-composite-page-03.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\full-source-composite-page-04.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\full-source-composite-page-05.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-caption-2026-10-04\\final\\full-source-composite-page-06.png"
+  ],
+  "artistic_acceptance": false,
+  "original_speed_review": "not_performed",
+  "actual_lyric_change_frame": 897,
+  "generic_foreground_condition": "For [831,897) OR [897,911), only dilated source yellow graphics are restored generically; registered glyph layers handle lyrics.",
+  "contrast_edge_limit": "[897,911) only; fixed 1px dark edge derived from registered glyph support, edited pixels only, luminance gap <38 and max-channel gap <60. Core RGB/position untouched; edge is intentional reconstruction, not source-exact alpha.",
+  "limits": [
+    "Warm candidates include pale clothing/skin/AA, not only glyphs.",
+    "Local offset statistics do not prove source alpha or full glyph reproduction.",
+    "All full PNG source frames are actual native sequential decodes, not source-map approximations."
+  ]
+}

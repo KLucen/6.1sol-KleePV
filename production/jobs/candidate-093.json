@@ -1,0 +1,23 @@
+{
+  "id": "093",
+  "prompt": "Use case: precise-object-edit. Asset: one complete 16:9 hand-drawn PV cel. Image 1 is the original source frame and determines exact camera, character size and position, cropping, pose, eye state, mouth, hands, props and occlusion. Image 2 is ONLY Klee identity and drawing-style guidance, not pose or composition. Replace every original person in image 1 with Genshin Impact Klee in her default Shooting Spark outfit. Pale blonde bangs and short twin side ponytails, pointed ears, red beret with cream clover and white feather, red coat with cream trim, brown gloves and boots, small brown backpack when visible. Match source simplified dark loose outlines and flat color blocks, orange oval blush, at most one simple shadow color. Keep source eye state and facial expression rather than copying the anchor's closed-eye expression. Preserve background, captions, lettering, props and independent effects at their source locations. Full scene, no extra panel, no montage, no new objects, no extra body parts outside the original crop. Only replace character areas and adapt visible clothes/hair to Klee. Klee's irises are RED, not source blue: preserve source eyelids and eye-shape/openness but recolor visible upper iris patch dark red and lower iris patch warm red; no blue irises. Specific target: Klee chest/waist-up on RIGHT half, leaning torso to viewer's LEFT, arms arched over her beret. Left forearm curves behind head; RIGHT red sleeve is in front of head with elbow above forehead and hand jutting toward right, exactly image1. Head turned left at threequarter angle, half-lidded open red eyes and small oblique OPEN mouth. Blonde SHORT side ponytail sweeps to right behind sleeve; do not grow original long hair. One lower leg peeks at bottom right source crop. Keep same body placement, source yellow stars against lavender, correct front/back star layers, original two subtitles bottom. All sleeves/torso must be red Klee costume. Image3 supports adjacent Klee face/hat/ponytail identity; image1 requires much wider camera plus a bent torso/overhead arms.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-093.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-092.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-093.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-9fa240f0-9116-423d-b8a5-558c27767b79.png",
+  "status": "generated",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Threequarter tilted torso, hands above head and short ponytail moving behind right sleeve retained."
+    ],
+    "flaws": [
+      "Source eye shape simplified differently from extreme-close states; continuity needs artist review."
+    ],
+    "temporal_review": "pending"
+  },
+  "caption_cleanup_required": true
+}

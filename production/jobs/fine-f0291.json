@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-38866ba8-e724-4856-abc2-461a3c811764",
+  "canonical_cel": "cel-0044",
+  "source_frame": 291,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 replacement PV CURRENTf0291 cel image1. Image1 fullcanvas composition pose/crop/eyes/mouth/hands authority. Image2 previousKlee287 sets identity/palms/collar/color/simplePVstyle ONLY; image3 source287→291 actual2Ddifference. The KEY newdraw change is mouth: now SMALLROUNDverticalO at facecenterlower(63%,69%), NOT old wide whitehorizontalopenmouth. Preserve current halfopenrounded sleepy eye shapes redburgundyirises/orangecheeks/nearuprightface. BOTHFULL brown gloved palms cuppingcheeks, fingers upright alongsideface as exactsource silhouette, sourcewrist/cuff angles andfingerlengths noextra. Klee blonde shortTWOsideponytails/pointedears/redberetcloverwhitefeather/redcoatcreamcuffs patternedcollar. Fullsource tightchestupcrop, characteronRIGHT ~x33%-98%, no extra longrearhairwings. REMOVE ALLoriginalChinese/Japanese captions AND entire speechbubble lettering/outline onleft; lavendercleanblankleftbackground as originalcaptionswillrestoreseparately. Loose blacksourcePVoutlines/broadflatfill minimalshadows. No newprops/limbs, do notfreezeneighbormouth.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0083-f0291.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-005.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0291.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0291.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "Main character change widehorizontal white mouth→round O, plus eyeline/hand contour redraw. Mostbackgrounddifference subtitlebubble but not onlytext. Diff171021 pixels>=28.",
+  "inspection": "Correct round O mouth, halfopen red sleepy eyes, cheek-cupping palms/shorttwo ponytails. Sourceface scale inherited broadly from anchor; full source geometry/sequencecheck pending. No text or bubble."
+}

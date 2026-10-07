@@ -1,0 +1,45 @@
+{
+  "source_frame": 2811,
+  "source_cel": "cel-0515",
+  "source_candidate": "src-1601",
+  "output": "generated\\fine-f2811.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. EDIT ORIGINAL IMAGE1 IN PLACE as ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Keep image1 exact spatial layout and enormous empty margins. Replace the visible human only inside its original bounds; do not enlarge or recenter the figure. Preserve all source props at identical image1 size and positions, especially the lavender pillow; do not expand the pillow. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT ear-root side ponytails, pointed ears, RED iris with BLACK pupil and WHITE highlight when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. No long ponytails, added clovers on cuffs/hem/coat, cuff labels or extra exposed hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2811: CURRENT source small tall RIGHT-facing nearprofile floating figure on RIGHT x0.594..0.835 y0.194..0.765. Head turns further toward right than f2807, ONLY ONE visible half-open tired eye looksright, rediris blackpupil whitehighlight; do not add far eye. Shortblondebangs, exactly TWO SHORT ear-rootponytails and pointedear, compact cloverberet/feather confined to originalhead scale/top. Source shows near glove vertical beside mouth/chin and far lower glove gripping bottom edge of lavender pillow, exactly two source-visible brown glove shapes with PLAIN creamcuff at originals y0.32..0.45; narrow vertical pillow x0.714..0.734 y0.34..0.447 behind hands unchanged. Arms folded tightly; no extra hand. Current coat hip boundary y0.53, straight PLAIN creamhem, redshorts, longlegs keep source pose/downright tilt. Small PLAIN brownbackpack on rearLEFT, no clover/patch/labels. Both brownboots creamuppertrim right-facing source sideprofiles, rightboot upperright of leftboot, baseline/current x0.73..0.835 y0.682..0.765. Follow AFTER/red A/B actual changed face, shoulders, elbow, hip and foot contours. Loose source-like flatcolor blackhanddrawn lines, no lace/scallops/details. Exact enormous purple empty margins unchanged; no text.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1601-f2811.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2807-f2811-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Current right-facing nearprofile eye, two glove shapes/pillow contact, tall down-right tilted legs and two creamtrim boots reflected; source A/B and prior Klee statically inspected."
+    ],
+    "issues": [
+      "Near glove pose bends across mouth instead of source more vertical index/hand; cream cuff edge remains scalloped and hem sits below original hip. No actual-speed review."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff82-81f7-7d12-8aaf-07b931d0c1c9\\exec-868c7843-38e8-41bd-ae48-c2158fb187d4.png"
+}

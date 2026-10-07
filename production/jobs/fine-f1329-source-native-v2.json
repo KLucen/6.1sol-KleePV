@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f1329-source-native-v2",
+  "source_frame": 1329,
+  "family": "seated_title_credits",
+  "references": [
+    {"path": "source_refs/src-0826-f1329.png", "role": "Current source edit target, body scale and independent upright-head pose"},
+    {"path": "qa/title-repair-v6/source-head-f1329.png", "role": "Current upright face landmarks and tiny dot mouth"},
+    {"path": "generated/fine-f1319-source-native-v2.png", "role": "Previous Klee identity and garment continuity only; NOT head-lean authority"},
+    {"path": "qa/title-repair-v6/source-delta-f1319-f1329.png", "role": "Actual source left-lean to upright redrawing, changed sleeves and back contour"}
+  ],
+  "prompt": "Replace the current source1329 seated girl with Klee in-place in one full1920x1080 cel. Image1 and enlargedcurrenthead image2 are sole pose/eye/scale authority; image3 previous Klee is identity/costume consistency ONLY, image4 actual source difference shows new drawing. Crucial current change: head returns UPRIGHT, hat brim, eyebrows and BOTH open drooping red eyes nearly horizontal, not the prior13degree left-lean; don't freeze prior head. Source face center aroundx49%, y39%, tiny dot mouth, orange cheeks and same source sleepy gaze; iris fill entirely mutedRED, no blue. Figure stays SMALL center-bottom originalbbox aroundx39..59%, y23..73%, boot soles y72.5%, knees together raised toy53%; no enlargement or lower floor. Crossed red sleeve forearms rest across knees at y49..53%, hands fully tucked behind opposing sleeves, no extra visible glove hands above arms. Observe current source's independently redrawn sleeve widths/folds, front leg contours, right coat silhouette, bangs and back hair swing. Klee exactlytwo short blonde ponytails with stable roots, red creamclover beret/whitefeather, pointedears, redcoat creamtrim draped aroundknees, brownroundboots creamtops, restrained right backpack. Match prior simplified uneven PV outlines and flat patches, minimumshadow, no detailed game illustration. Preserve large cream Japanese title behind figure as source background; no added text/analysis panels/crop. Return current independent1329 cel, not a repeated1319 screenshot.",
+  "output": "generated/fine-f1329-source-native-v2.png",
+  "status": "reviewed_static_temporal_pending",
+  "review": "Current upright head and red drooping eyes retained, hidden hands and original floor preserved. Distinct independent current cel; exact source background/title composition and adjacent review pending.",
+  "accepted": false
+}

@@ -1,0 +1,1418 @@
+{
+  "version": 1,
+  "accepted": false,
+  "policy": "Exact current source outside character; nearest original visible background inside vacated silhouette. Generated reconstruction is limited to unobserved revealed pixels and separately identified.",
+  "assets": {
+    "fine-f1296-source-native-v2.png": {
+      "source_frame": 1296,
+      "asset": {
+        "path": "generated/fine-f1296-source-native-v2.png",
+        "sha256": "33252504151b10fcd7786775066870ab0cc122d625c609bdc616bbc60f54f9f2"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1296-plain-source_mask.png",
+        "sha256": "7b572380e7c34417ac0d2dd6bf77e89a1a69ed4666d36459a28b5848f89d207a"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1296-plain-new_mask.png",
+        "sha256": "ef8fd016052baaaf1971edffdbfc18698ead9387f39637ebe6928b7d9a24e511"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1296-plain-background.png",
+        "sha256": "63db2a1f99ec819e19a09b56edf74ba6b4523d6740205b27109ab7977f01e509"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1296-plain-background_known.png",
+        "sha256": "1c8fb3a09f9909111ccefd090f098daaf55feb18aa4e6c71e02ad16232007cf7"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1296-plain-provenance.png",
+        "sha256": "e00b2da5675df602be28be3aa44251fc99b340907aad72639b3ff502915ad031"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1296-plain-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1296-plain-spatial_donor_x.png",
+        "sha256": "bfdd3141aabf66f953291121b6f82cfd8959e7b71b823a733e41cd3f0479adcb"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "plain",
+      "background_source_frame": 1296,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 3224,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1296,
+        1497
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false,
+      "phase_variants": {
+        "title": {
+          "source_frame": 1296,
+          "asset": {
+            "path": "generated/fine-f1296-source-native-v2.png",
+            "sha256": "33252504151b10fcd7786775066870ab0cc122d625c609bdc616bbc60f54f9f2"
+          },
+          "source_mask": {
+            "path": "qa/title-source-layers/f1296-title-source_mask.png",
+            "sha256": "7a9daccc05865c28ae0d550f601372ec8d59864d700d13937efdb1668b28e8c4"
+          },
+          "new_mask": {
+            "path": "qa/title-source-layers/f1296-title-new_mask.png",
+            "sha256": "ef8fd016052baaaf1971edffdbfc18698ead9387f39637ebe6928b7d9a24e511"
+          },
+          "background": {
+            "path": "qa/title-source-layers/f1296-title-background.png",
+            "sha256": "f1690a7f51212c28f8ccdd7903e6bcb0c5fce33e9d5d99088fb888288c7ae5c8"
+          },
+          "background_known": {
+            "path": "qa/title-source-layers/f1296-title-background_known.png",
+            "sha256": "0841cc71654a8978782219eaf6f8b3d71bf2428233e99bc8ffd8d612cd6c0545"
+          },
+          "provenance": {
+            "path": "qa/title-source-layers/f1296-title-provenance.png",
+            "sha256": "8eeb666ea0fc1450847ff6401b0cff5ada712126f9a7e38fe404af305f25d727"
+          },
+          "reconstructed": {
+            "path": "qa/title-source-layers/f1296-title-reconstructed.png",
+            "sha256": "41fb019628a1955ebf1641d1e3fb798abf898acb751e00377be1875eef989d9c"
+          },
+          "spatial_donor_x": {
+            "path": "qa/title-source-layers/f1296-title-spatial_donor_x.png",
+            "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+          },
+          "unobserved_visible_pixels": 0,
+          "phase": "title",
+          "background_source_frame": 1299,
+          "reconstructed_visible_pixels": 854,
+          "spatial_donor_visible_pixels": 0,
+          "reconstruction_asset": {
+            "path": "generated/title-background-reconstruction-v1.png",
+            "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+          },
+          "donor_frames": [
+            1299,
+            1301,
+            1309,
+            1314,
+            1319,
+            1329,
+            1335,
+            1342,
+            1347,
+            1352,
+            1375,
+            1380
+          ],
+          "review": "source_donor_matte_static_pending",
+          "accepted": false
+        }
+      }
+    },
+    "fine-f1301-source-native-v2.png": {
+      "source_frame": 1301,
+      "asset": {
+        "path": "generated/fine-f1301-source-native-v2.png",
+        "sha256": "2ee0be414babbca038f1fb10e02e51861bdee63805ebcb6d29884ff2b5372002"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1301-title-source_mask.png",
+        "sha256": "4317b7d68f3f2300a47ab05e3a6eb4a316ec86bfae49d0fca61c9a63d9187fb9"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1301-title-new_mask.png",
+        "sha256": "cefa6f2b38d71ba39fc3622f180d0bedc781b8a46e59c9e82751f0bbd6e55a1d"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1301-title-background.png",
+        "sha256": "24df1b6a3ef6d90c19e25edb001ccac7c39c526d25d32a900f4e0035371486d3"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1301-title-background_known.png",
+        "sha256": "02c9c47fb8ebca962bc13a47f8d0b8a736424dcf4423b5fffa1c833c2cd06252"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1301-title-provenance.png",
+        "sha256": "4bf7615923e8bb3e65b61eaa1f3b87b3fb04bf627ccccd51c94f2cf1e5956e31"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1301-title-reconstructed.png",
+        "sha256": "261cd7aa1073f5d28f6a797d7ff99f19fca6c54b39f4f461dbb4eab2e16ed019"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1301-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1301,
+      "reconstructed_visible_pixels": 830,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1309.png": {
+      "source_frame": 1309,
+      "asset": {
+        "path": "generated/fine-f1309.png",
+        "sha256": "4672855bceac074946ffed16b50657cb225679166b4fd77571e32f38efa6f22d"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1309-title-source_mask.png",
+        "sha256": "f202ab08c42db1edf64544246a773feca0e43fa792cf431449f3799ace06e2e6"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1309-title-new_mask.png",
+        "sha256": "aeba55f0b56be67bbaac5b69c19fbffc989f29df24ca9856f85835cd478e0a1e"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1309-title-background.png",
+        "sha256": "dc5cfaec9ed7dd84ed76ef726f4618c15a4926674b1fe1993cd6a49acb3db690"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1309-title-background_known.png",
+        "sha256": "01c015459fd3e37d70e506a9689384cc057fbb157aca0e2d416a53a2d6b23ea8"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1309-title-provenance.png",
+        "sha256": "a0e13ed684fc660bf26d03cf32839f9e5332f6502219007a0cb168f3b9e88100"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1309-title-reconstructed.png",
+        "sha256": "7cf266885a02df8c68062e85c6edb64089a03662bcdb6afd398efe92bd2f7d29"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1309-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1309,
+      "reconstructed_visible_pixels": 350,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1314-arms-eyes-v7.png": {
+      "source_frame": 1314,
+      "asset": {
+        "path": "generated/fine-f1314-arms-eyes-v7.png",
+        "sha256": "8c69090fedb32fa8f0149cd0bc1f85670f0f838908ac273de548e9ea1da43839"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1314-title-source_mask.png",
+        "sha256": "a2242fc25e467c5d7843772bc3e649ca8f18b8e32638198178def4c4cd1bb56b"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1314-title-new_mask.png",
+        "sha256": "41c3c79a06f072bcf7b9642c714b8283e1cf2a4eef689d2bbe76f25129b50d4d"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1314-title-background.png",
+        "sha256": "908ce0212fc3b14704c57f8e926d94a6949dd81f973a79412d073a36a6ad73e6"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1314-title-background_known.png",
+        "sha256": "ada08170eb93f50ac60a11a2ccba0c7c810492476a95110cceb1250c732fe5a6"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1314-title-provenance.png",
+        "sha256": "7402848bc842cbced6f0a0a6b6e1e79cb90e727ddf41e0318597294436bef1c9"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1314-title-reconstructed.png",
+        "sha256": "4d76fe1b01355760f43ed34e9c896ff5abe675d877d16a02cb618c15c28e73da"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1314-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1314,
+      "reconstructed_visible_pixels": 1557,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1319-source-native-v2.png": {
+      "source_frame": 1319,
+      "asset": {
+        "path": "generated/fine-f1319-source-native-v2.png",
+        "sha256": "fa30db9dd7da1782aa4a9e09d154db81255318ced7178d8ba8ff5345844f0443"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1319-title-source_mask.png",
+        "sha256": "d95429330de2a67bc7d4543f2033058d6458384e36ae8238d23ea5d64299a2e9"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1319-title-new_mask.png",
+        "sha256": "468fe2626ffba2c41675e75bbc0c44e8452afe0301b8c5a463946456e4f0dee1"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1319-title-background.png",
+        "sha256": "2834edfd3a39b249cc171e47bb92834c1ff140790af0e26b6da725238de3fa07"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1319-title-background_known.png",
+        "sha256": "efe022017c03c2baeb5f6552a56ea6addcb46ced5a79fc6c8748893e77cf0ad9"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1319-title-provenance.png",
+        "sha256": "085c13989a77eb969e247eb0813f33118e4c9dd0b4018fb04dd54c6045d2378a"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1319-title-reconstructed.png",
+        "sha256": "80a2d25ab22f047dba18daaa71762188c51404e07d71d8815360cafe2ba83186"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1319-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1319,
+      "reconstructed_visible_pixels": 1503,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1329-source-native-v2.png": {
+      "source_frame": 1329,
+      "asset": {
+        "path": "generated/fine-f1329-source-native-v2.png",
+        "sha256": "ec1a5fb24d21969c0679ba6da6cec36c67c7dde2919a43eec6d89e78719963de"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1329-title-source_mask.png",
+        "sha256": "87665cb1a29ac70d4160c089767a2d742cf2a1d046de0e0c1e000e30593ff578"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1329-title-new_mask.png",
+        "sha256": "5d30552db53b1f04f4ae1b43c416a8dc334c2e2a476b144f92b11ed0a3f4730a"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1329-title-background.png",
+        "sha256": "1c66ab3af7219e89f7374c688c81fea90f6cb97a925c9ba833729448a17c4b68"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1329-title-background_known.png",
+        "sha256": "6cb9485994a533a824ed439f43d824d1cfdda6cdbceb7e1ea3528c8c1e6dc0bd"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1329-title-provenance.png",
+        "sha256": "c6c18e016db7ec92497bdc5ad60d1d357d6fe6c3eb35ba738fe05a666ea5bfd8"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1329-title-reconstructed.png",
+        "sha256": "0ba76b6316b0f11dc3523047cc7bde7e205f9a16dd1f08b0613621f772aaba76"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1329-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1329,
+      "reconstructed_visible_pixels": 1334,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1335-source-native-v2.png": {
+      "source_frame": 1335,
+      "asset": {
+        "path": "generated/fine-f1335-source-native-v2.png",
+        "sha256": "5af1417a74f520add364cde6622c47f0b96bc140e844136c8351e220c23157bc"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1335-title-source_mask.png",
+        "sha256": "ff7e78e6dcdef1d72063072a49a90a0ad8273cbd74bd57acd0357bc0b79b3b60"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1335-title-new_mask.png",
+        "sha256": "cd2a661027872ebdd6f359e567e6cbba2664241b1ddf7be8c5bfb816f6e6cbd1"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1335-title-background.png",
+        "sha256": "bfa4f2bd218254ca5890fef7cc3a0a6fd0c0c46a54a3a5e5bf208e24223c900c"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1335-title-background_known.png",
+        "sha256": "902677d44ea19f13a88fab51bf29f4dcd37ac2a6abd7fdbd4df647d4f484ec1c"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1335-title-provenance.png",
+        "sha256": "0a11b3c7dbbeeb8d0ef9c085163481ba622ab7a9116d8d9ecb9af08d001248bc"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1335-title-reconstructed.png",
+        "sha256": "885a755b533875af845bab2c8e326e8407d586a28abfaf89944edf5d01312cd6"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1335-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1335,
+      "reconstructed_visible_pixels": 1488,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1342-source-native-v2.png": {
+      "source_frame": 1342,
+      "asset": {
+        "path": "generated/fine-f1342-source-native-v2.png",
+        "sha256": "7bcd721f428bdef68ec72de8267ef7ab181f6d9caaeaf6fbc1b6496c1f9e62e2"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1342-title-source_mask.png",
+        "sha256": "9b898ba2636269969d3ec5cfb9670ffaf8495e294d970bee13018f7a19822f02"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1342-title-new_mask.png",
+        "sha256": "7e93ba81846257db2ee2fafb58c75684453244c88f52a68c2ad3e47fe9f470a2"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1342-title-background.png",
+        "sha256": "f0c5e5d1bd593d805de89f5d59fa4b6caaab4326cc8510e7e763ab30aa476a43"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1342-title-background_known.png",
+        "sha256": "c1bbb253554dd42e27943cb56775a3cbf03481cfcb6542426dd690987863e18b"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1342-title-provenance.png",
+        "sha256": "c936ea482aea4219cf73cf6b4b94f551c0e076a2c3cd8ed49d6c0b9d16aa28a5"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1342-title-reconstructed.png",
+        "sha256": "f7e64786da97868d3ce98eaba22b645b566968d37588f8be75da8954ec7d23e3"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1342-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1342,
+      "reconstructed_visible_pixels": 1092,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1347-source-native-v2.png": {
+      "source_frame": 1347,
+      "asset": {
+        "path": "generated/fine-f1347-source-native-v2.png",
+        "sha256": "f9f58044f74a538a593c25088f0c60af238557c4562123e048a54cb1ab391bf0"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1347-title-source_mask.png",
+        "sha256": "519301d07e91b511f04de927c3c98c4a443fcfd98f82005e7c1bc64b3eea9b6d"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1347-title-new_mask.png",
+        "sha256": "aa7fd6ba5934adadd6ad5839a078265f9dc032b1d74be83e48a5b4ed38f3fcb7"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1347-title-background.png",
+        "sha256": "a1f2c448a68e1cdf8018bb89a14325899f1918c05135be4609a8be79209b556e"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1347-title-background_known.png",
+        "sha256": "50c2a8564f9a233f27d55f1735398bdd4ef939784717f0b8bf6bbca5d3abc9fb"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1347-title-provenance.png",
+        "sha256": "2b178a5305c3b366e7ee5fc5d03931d07c4b40f94bf16f243bdd05f757751bcc"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1347-title-reconstructed.png",
+        "sha256": "278bac581730e2e97edd979f9037b4b1c35b452823c5b92facfa30d3a89ac791"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1347-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1347,
+      "reconstructed_visible_pixels": 887,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1352.png": {
+      "source_frame": 1352,
+      "asset": {
+        "path": "generated/fine-f1352.png",
+        "sha256": "b59cf1838f41ca74dcfb873e0e331f2e8d377eb2f13559cc97bd7e3959df36ca"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1352-title-source_mask.png",
+        "sha256": "0798ff8bdb1ec0cbc189e79468e7e1c098ac355523e1c906c168921bd7921860"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1352-title-new_mask.png",
+        "sha256": "2463b22e56fa443ea5eda7e071d8d6f6f674fee8f3ce49411603b201ca501ce2"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1352-title-background.png",
+        "sha256": "c48dcf8554848f2bbac10c1c64872e0831f7637cf0c7beb34172a1c705f0b23e"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1352-title-background_known.png",
+        "sha256": "2f28a74512ae9e72201c1f9191a61e45526fd245db0257951cd04e476382453c"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1352-title-provenance.png",
+        "sha256": "71b64175001b5bda7cdc3ff5943f80d8e00bdcff8f84e9b1b4651bc4caed103b"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1352-title-reconstructed.png",
+        "sha256": "06a28cce6b4391a335b0f4e69ea18314414998394e8e26f7055b82e7afceddee"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1352-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1352,
+      "reconstructed_visible_pixels": 1152,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1375.png": {
+      "source_frame": 1375,
+      "asset": {
+        "path": "generated/fine-f1375.png",
+        "sha256": "76f2ba86749305cbcfee67bd5ac037022822d1172d9eb5a3e7b5a317d48c861e"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1375-title-source_mask.png",
+        "sha256": "781c2a758ac3dd15113294e703e6e8d43a408f6f4098ae81ccb41c4056d8add9"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1375-title-new_mask.png",
+        "sha256": "bd60316ee55112dca2430dc160b983705a1a27ffde83e0a39a18226f9cbe3a5c"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1375-title-background.png",
+        "sha256": "7f18b67d20a9697e45bcb59459164cf0b2ed91938548ffb22cc868dcd28fe3f8"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1375-title-background_known.png",
+        "sha256": "b9c75c61dc03f60c81d72d1e6d6cd70ff91156064cefb968a2adb1c83105f5ff"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1375-title-provenance.png",
+        "sha256": "70be28a50c27e5ced864bd0f5dd1b3f4ba21a11f26f29c122e8284656b2e6a82"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1375-title-reconstructed.png",
+        "sha256": "df2e8fe2095fd982b2b2852c64986c0ca9a6aa183a85ce0177590d2e03a749d0"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1375-title-spatial_donor_x.png",
+        "sha256": "a7f58f2f2702ea8c279e3622b1be20d06220171cfbe55c795a977fe63d96fbac"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "title",
+      "background_source_frame": 1375,
+      "reconstructed_visible_pixels": 637,
+      "spatial_donor_visible_pixels": 0,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1299,
+        1301,
+        1309,
+        1314,
+        1319,
+        1329,
+        1335,
+        1342,
+        1347,
+        1352,
+        1375,
+        1380
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1403.png": {
+      "source_frame": 1403,
+      "asset": {
+        "path": "generated/fine-f1403.png",
+        "sha256": "78c5a94922780acd077324fe55f89f58178d6071476adc52a487736565eaf7f4"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1403-credits-source_mask.png",
+        "sha256": "9682ffca4ba65861672d594ef4a7341674f4d426ca4728723eed1588ee529019"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1403-credits-new_mask.png",
+        "sha256": "fd517f032ff4105dca7d6a24282bcbb0e02345d08cacb3627ed79d6597d053b2"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1403-credits-background.png",
+        "sha256": "e4ec15342f52b0f1d972903fceb472d4bd4d923c79a5b1400b70de952508a483"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1403-credits-background_known.png",
+        "sha256": "399ab22401f094fcbcbe717b6e9949a898faefa6849ce66efe63ee4ec5177f7e"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1403-credits-provenance.png",
+        "sha256": "2d8d0532b752d3d311d600bdbe7054524e88c80efadf6ac6372bcc329274c86c"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1403-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1403-credits-spatial_donor_x.png",
+        "sha256": "af85b5f9af05a7122c406382d6dcdfa6b736f9bb82dcda26e2c7ba221744bafe"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1403,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 66,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1404.png": {
+      "source_frame": 1404,
+      "asset": {
+        "path": "generated/fine-f1404.png",
+        "sha256": "2342bb2021b94bf8e7cf840687b0a9beb13b3d4d5c92bc071e12794245d225ad"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1404-credits-source_mask.png",
+        "sha256": "cf1b57ae680e9d036074614799b3311eb6ccb329f19bb2e4528e3ebd25c0c495"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1404-credits-new_mask.png",
+        "sha256": "0007ab1ebbef47a7ab32865ac081c56fe35dea347f1cc10d3f61fa56f223dd60"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1404-credits-background.png",
+        "sha256": "13b5f12224fd978927ef20ccdf4e94727eeb4ee0cb5fc98bfdf5df2ed7d9bdd8"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1404-credits-background_known.png",
+        "sha256": "eac711eda79eeac84b7efc83bc5a76514be9201427f9def4e47dbd01e0d67601"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1404-credits-provenance.png",
+        "sha256": "e061481d5f6d19f7521bedc6f1a790fb20904b38ce2742e55dbd4571f494e98c"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1404-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1404-credits-spatial_donor_x.png",
+        "sha256": "84d5be73d57fa5eb59560dcd3d6ed7540f498ab1f86474da83020ddbb36ec33b"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1404,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 890,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1409.png": {
+      "source_frame": 1409,
+      "asset": {
+        "path": "generated/fine-f1409.png",
+        "sha256": "a26d958ee4cb562bb23ee4ed6bfe8cd91120e383fbcbc4444112299c27b5f3c6"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1409-credits-source_mask.png",
+        "sha256": "6b5626fdd432cda4aeedfb6e2c31ecf62d242456dc98279becb3e7d75367ce1c"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1409-credits-new_mask.png",
+        "sha256": "f7ff9310e4dd461df3d95b2da36c02419a684f4d4acf9c6ae82236d5b86ae973"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1409-credits-background.png",
+        "sha256": "ad478722b98660259537b9ddac1d83dcc28714bd578fd2dff365ae72cabc6537"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1409-credits-background_known.png",
+        "sha256": "5563ffa5252ec6531b21be2278103920e2f45d54816655d43fc8dea2a8ddc79c"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1409-credits-provenance.png",
+        "sha256": "cbcf855ec21745c0cecae2e9364675fb3ed7ebf53c0477e4b64f078962a6672a"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1409-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1409-credits-spatial_donor_x.png",
+        "sha256": "a2b9d27842f9a6a382140584bd999f9b81ad3f2f0e099eae9894ab80779bd2af"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1409,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 666,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1414.png": {
+      "source_frame": 1414,
+      "asset": {
+        "path": "generated/fine-f1414.png",
+        "sha256": "0d6b9cfe3100f3506c88b3326ac3be6c1741e011ed7a0ace3a5f4e7d45fca6ec"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1414-credits-source_mask.png",
+        "sha256": "16c68124ce421bb902114867faa6896ec64e2b71c9a23cca67907004fe797193"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1414-credits-new_mask.png",
+        "sha256": "c7f42dcb8fa9f0f8306de1fe69c981e46bf4f11174c0fffe38d121e21aa76f75"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1414-credits-background.png",
+        "sha256": "7059d63a6c8d752d97ec34bd8e4f428c1d8b7149af4c413c7a5a5fdbd88b8194"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1414-credits-background_known.png",
+        "sha256": "715634a34892a77c66a05e91b721c5d6e096f035b49f684564017b4e95552b0c"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1414-credits-provenance.png",
+        "sha256": "81ae57c1e21b41b1fda707f80016dbd3885f44a79061d6436e965dbba9b0ed8c"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1414-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1414-credits-spatial_donor_x.png",
+        "sha256": "591bd9fd572eb27ff8889b61dfd92d9112c72075054449339869bff374522309"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1414,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 2131,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1424.png": {
+      "source_frame": 1424,
+      "asset": {
+        "path": "generated/fine-f1424.png",
+        "sha256": "1b375e7659394e6c1c4cbdd851fc7f48ff3d3b32478888c5d8626a741f508223"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1424-credits-source_mask.png",
+        "sha256": "022919ca109458dce48c4f88fdd1bdfeb1c81688018642a6946b0d022cc7cba6"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1424-credits-new_mask.png",
+        "sha256": "b432581b7a809ca8dc35763b71dc9eca74f67077fadcd9bf89393a47f15a9b86"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1424-credits-background.png",
+        "sha256": "e91413e2496c6516a4be87bcc29fa2facd6f6fb415633fd7dafeb8a331fc50da"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1424-credits-background_known.png",
+        "sha256": "b4587d6a540603bd3e0a82188d075ce50ba43d96d72951ef0a1325550c5f7029"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1424-credits-provenance.png",
+        "sha256": "8556d0124b4a754aa1e9b8b304905455d3d7dc51aa9a9cd2e309f757cabac06d"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1424-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1424-credits-spatial_donor_x.png",
+        "sha256": "67df31d32ec1d1a11b4050c1b14ed5fed478a98fa1efac55bf2a711275997cdf"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1424,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 73,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1429.png": {
+      "source_frame": 1429,
+      "asset": {
+        "path": "generated/fine-f1429.png",
+        "sha256": "1d04334b99c3cf1c3761b0e362391f61ecde54da4f85798ab0d5564fa1dcf9a3"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1429-credits-source_mask.png",
+        "sha256": "ea2268be3833a3cb033a05d2265161ba6b9d43a03624b8e8153ee8363b1486f7"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1429-credits-new_mask.png",
+        "sha256": "9e4d6c27af02dea7240fb6e07000a2d9ba50432297cbc2eef9e28c293bbc4a13"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1429-credits-background.png",
+        "sha256": "ef562ba181ea95bbc7686381afd8d67f7ed9e568733030dce0cc770ab4bbb5fb"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1429-credits-background_known.png",
+        "sha256": "1cfc80bf4fbdb98c4a60acbc12fdd49d8b57ef154c89fd556581b6d787546297"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1429-credits-provenance.png",
+        "sha256": "7e0c29ec06b8c52d24e7da3dd890a38c84080c5ca1623776d676c75c16e961df"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1429-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1429-credits-spatial_donor_x.png",
+        "sha256": "1cffb71d9e7a5638234a81649ab311bdab7f500c79fd686e48633c990e594aed"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1429,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 1460,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1437.png": {
+      "source_frame": 1437,
+      "asset": {
+        "path": "generated/fine-f1437.png",
+        "sha256": "5f9289fafdb5a61f2787f6f39457769f68a9196b39245703e3d463ce9f71dacf"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1437-credits-source_mask.png",
+        "sha256": "4a805019b67c73df237ea6aa5d11ddc6d2a84a0ebdb92cd9a4e1ffd2ebb819cb"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1437-credits-new_mask.png",
+        "sha256": "3982499e3555c58cab67b27ba33928800922c491e2d4ee370843ebf578451846"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1437-credits-background.png",
+        "sha256": "22829c7ba57003a4fc2334b41414e48bf167adfd6bad513612e5dcb4b5ce7d92"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1437-credits-background_known.png",
+        "sha256": "4d7c4859d942e6c83a79850d839e1d7cf6966b182894007501d6e6a2474d7437"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1437-credits-provenance.png",
+        "sha256": "0a6c90eaf02b623a4f2deb2b0a67452d4172af845b06a1e34c1c6b1f48c8a688"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1437-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1437-credits-spatial_donor_x.png",
+        "sha256": "614a8f45ab14aa29bb7eaf6764afa6dbeb2fa507f2a7de7b759cb17eb0db3ba3"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1437,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 109,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1442.png": {
+      "source_frame": 1442,
+      "asset": {
+        "path": "generated/fine-f1442.png",
+        "sha256": "e14a2d7f4e1d6473563a1cce73b6f01d5829d8e4168a2151a17dbd907a5a99a6"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1442-credits-source_mask.png",
+        "sha256": "6dbdbcc18311e85670ef882762efa7b7a675fb8e20512ab5c4fa60bf901870e4"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1442-credits-new_mask.png",
+        "sha256": "02a945510b8a30d93c8c8a6e142b0291671c7caba7d4a790e3f737f08e0c8b7a"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1442-credits-background.png",
+        "sha256": "5cd99492aed9d8c8d5b7312956a84cd5063ba41499c8595efdecbed0ae69fc19"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1442-credits-background_known.png",
+        "sha256": "50735b33cda5d29c4bb5ec5401e173f182154220bab70bcdab3c4490b4a858a1"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1442-credits-provenance.png",
+        "sha256": "dbdc795baaa25987c9db9ebceeb4dcb97cd57c63e5bb1f2d9d5bdb228203e49b"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1442-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1442-credits-spatial_donor_x.png",
+        "sha256": "f883a0b180876639fe8d9d5fcd6d4e40713125efae10f0363597e13184649f60"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1442,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 730,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1447.png": {
+      "source_frame": 1447,
+      "asset": {
+        "path": "generated/fine-f1447.png",
+        "sha256": "66a59129b288b26655d05e1996d1e46ff3dbe541cffc0d8b85c527609751d21c"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1447-credits-source_mask.png",
+        "sha256": "180eb4052f58d1a1d3bc8a2f8e6894114c4512522062417510bb271a59c1b8ab"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1447-credits-new_mask.png",
+        "sha256": "06b2d117706fa5d94e9fe48ba7a9565fa5e28093492c7d2fcf2e65d6db4c3902"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1447-credits-background.png",
+        "sha256": "5cb67b2ef1f5a8744f92a77ce211607296d1766607cbc3d40fc76d7129ab83b7"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1447-credits-background_known.png",
+        "sha256": "f27634c6f8ae20b77221f4d8ca593ea8c9d1b684ce4b28c5e4ce24da7f8a4033"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1447-credits-provenance.png",
+        "sha256": "47811078475ba37be72bfeb78b3db31677f796fc67ad912147404a7756c1f349"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1447-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1447-credits-spatial_donor_x.png",
+        "sha256": "37da4d6f9226835612d3bb6ddbf0258d811438d2a5362d10f532b9ac74f7b888"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1447,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 577,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1457.png": {
+      "source_frame": 1457,
+      "asset": {
+        "path": "generated/fine-f1457.png",
+        "sha256": "612ab0425bf74eb6b26c395fb0ebe1808e598f0cd67dd7c4a1964ab3bd7fdacc"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1457-credits-source_mask.png",
+        "sha256": "cf48339d6a22bd98dcaf25e24e7c1108b0f0a0e94ebb3860ef3341dcc81dc277"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1457-credits-new_mask.png",
+        "sha256": "f43d170615f986e695e87bd622fe5523a16ef58f2fd4c3460304aa579f4a541a"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1457-credits-background.png",
+        "sha256": "2e975f03e259d9bc90abd969f4538ed3b7da27c1b87cde8f5090d67a034a38d1"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1457-credits-background_known.png",
+        "sha256": "57c144baa4bea780a016b729b988ad66aa8f2ff76339b2348b485a9232b2ef44"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1457-credits-provenance.png",
+        "sha256": "f2ed66a23962467b1e2d87343511827f5b6016d7b7dc5cae6f968ad6758ca7b8"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1457-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1457-credits-spatial_donor_x.png",
+        "sha256": "dac28b08837a26872b45ffa92b4e2ba02bb14446f3d7008bc3443d2ac4ddbc92"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1457,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 1319,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1463.png": {
+      "source_frame": 1463,
+      "asset": {
+        "path": "generated/fine-f1463.png",
+        "sha256": "3fcbcc91f9b9576bd02245f830dd78517a465c74aa37661ba3eef78f9c2377cf"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1463-credits-source_mask.png",
+        "sha256": "f3c2af34f76f582487ecff8d95972ba779085b395ba2d607c69e02c7c279f3af"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1463-credits-new_mask.png",
+        "sha256": "1934963d8f93cb3d3261541aef1a49d8a276e706e3e8754d3ea9d007bd889a8f"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1463-credits-background.png",
+        "sha256": "1d36c075c6876a12452ea485465c581ce251934308504ad7a1029861e85dfef7"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1463-credits-background_known.png",
+        "sha256": "cb1860293e4515849e046606f1b03da4bee2a8fdd35ca905c5652f809ad90090"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1463-credits-provenance.png",
+        "sha256": "aaf297d5dfbf7551eb6d2cc3f0d7117aa0a79fd06f413d934d00067eef0e8845"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1463-credits-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1463-credits-spatial_donor_x.png",
+        "sha256": "a7361ac76196ed92771cbc617408bc4dadb819c45d6ec35fad016800d58b6ad8"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "credits",
+      "background_source_frame": 1463,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 717,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1403,
+        1404,
+        1409,
+        1414,
+        1424,
+        1429,
+        1437,
+        1442,
+        1447,
+        1457,
+        1463
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    },
+    "fine-f1497-source-native-v3.png": {
+      "source_frame": 1497,
+      "asset": {
+        "path": "generated/fine-f1497-source-native-v3.png",
+        "sha256": "3eb78464a5c6c5df80940cca30b7b3937b58fd94d75cbb3510f615045782c00a"
+      },
+      "source_mask": {
+        "path": "qa/title-source-layers/f1497-plain-source_mask.png",
+        "sha256": "a81188ad36d2ee84f71640e23253d4da5f47b30c850f8b6bddbc464cf23eca57"
+      },
+      "new_mask": {
+        "path": "qa/title-source-layers/f1497-plain-new_mask.png",
+        "sha256": "8cd5b8e42d407c848b8667c7bc805ddec4739c001b8ce31244b17c8f6c0a690f"
+      },
+      "background": {
+        "path": "qa/title-source-layers/f1497-plain-background.png",
+        "sha256": "d728432b584b855521d6a9d19d453086bd7e03e2a1d6b114669fedbe4eb63180"
+      },
+      "background_known": {
+        "path": "qa/title-source-layers/f1497-plain-background_known.png",
+        "sha256": "5bae1a53a1fc776bff8667ada91f2065d17f2d0635190fdf3e5ed37fb711ee81"
+      },
+      "provenance": {
+        "path": "qa/title-source-layers/f1497-plain-provenance.png",
+        "sha256": "7ce5f73262ea0b20f1165fa46f96388c83909e1b03fae526287cfcf62642f2cf"
+      },
+      "reconstructed": {
+        "path": "qa/title-source-layers/f1497-plain-reconstructed.png",
+        "sha256": "f5fd445dac2a9559cfbfb66637efa6966a7ed4e1c18081c51695e854eb245461"
+      },
+      "spatial_donor_x": {
+        "path": "qa/title-source-layers/f1497-plain-spatial_donor_x.png",
+        "sha256": "bc5e2750dd115ab81cda8394600f9a717d20ccbc1cae54aa32765bac5dbe5d19"
+      },
+      "unobserved_visible_pixels": 0,
+      "phase": "plain",
+      "background_source_frame": 1497,
+      "reconstructed_visible_pixels": 0,
+      "spatial_donor_visible_pixels": 2940,
+      "reconstruction_asset": {
+        "path": "generated/title-background-reconstruction-v1.png",
+        "sha256": "4405e19da2a546205c06b424a2964d5a5cd808c307fd146965cf7f8ea480071b"
+      },
+      "donor_frames": [
+        1296,
+        1497
+      ],
+      "review": "source_donor_matte_static_pending",
+      "accepted": false
+    }
+  }
+}

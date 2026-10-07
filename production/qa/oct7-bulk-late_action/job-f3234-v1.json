@@ -1,0 +1,77 @@
+{
+  "source_frame": 3234,
+  "cel": "cel-0586",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Images 3 and 4 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output. No adjacent Klee pose template is supplied because its anatomy was flawed; current original is the sole pose authority.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: CURRENT3234 original PERSON and big foreground stars HELD from3232 confirmed RGB/native; only small background star phase changes: top-left star almost exits upward and right/lower-right stars slide right. Full BACK VIEW no eyes/mouth/cheeks/front buttons. Exact two brown mitten hands: farx600-740/y250-333 left of head with ONE cream cuffx740-840/y237-378; nearx970-1110/y235-325 laid IN FRONT of back blond hair with ONE cuffx1090-1225/y215-385, red forearm extending RIGHT tox1425/y330-425 then curved upper arm down to shoulderx1310/y600. Short twin blond ponytails roots behind arms, not source long back hair and no extra third tuft. Back beret round, simple cream collar/red coat back; no new cream scallop/pom/invented extra glove at waist. Upper big star just clips crown right edge and bottom big star covers lower-right coat, leave exact source occlusion. Flat handdrawn no text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1775-f3234.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3232-f3234-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3234-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "a8647daaefbf6129ed199d00074db4dbe6b9e2b76a8f810b30e55ec74f02954b",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "0bba27f7a505e77068ead444bfffaf112be68b223bfb0172f02ab43880db2b4c",
+    "8f14e0557f82a80283a84c20e9ff8626eb3f4f39b073dcbe8aa194fdb01c77a1"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3234-v1.png",
+  "source_exposures": [
+    {
+      "start": 3234,
+      "end": 3235,
+      "pts": 134.75,
+      "end_pts": 134.792,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "CURRENT3234 original PERSON and big foreground stars HELD from3232 confirmed RGB/native; only small background star phase changes: top-left star almost exits upward and right/lower-right stars slide right. Full BACK VIEW no eyes/mouth/cheeks/front buttons. Exact two brown mitten hands: farx600-740/y250-333 left of head with ONE cream cuffx740-840/y237-378; nearx970-1110/y235-325 laid IN FRONT of back blond hair with ONE cuffx1090-1225/y215-385, red forearm extending RIGHT tox1425/y330-425 then curved upper arm down to shoulderx1310/y600. Short twin blond ponytails roots behind arms, not source long back hair and no extra third tuft. Back beret round, simple cream collar/red coat back; no new cream scallop/pom/invented extra glove at waist. Upper big star just clips crown right edge and bottom big star covers lower-right coat, leave exact source occlusion. Flat handdrawn no text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-ae2834bf-b8a5-4315-924f-33ea24108365.png",
+  "output_sha256": "8f78b871794e31a4278d4f9ed29256cd3d9b1e11dd5292544f8d2e38dc014a2a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: full BACK view, TWO brown mitten ends with single cream cuffs, near red forearm across back head connecting right elbow/upper arm, two short tail roots and no extra waist glove/scallop. Upper/right and lower front stars current phase. Head/hat/collar and ear/short-tail shape drift slightly from adjacent draft despite held source, source stylization replacement changes back coat extent. Static draft accepted=false, no continuous-frame/compositor artistic approval.",
+    "accepted": false
+  }
+}

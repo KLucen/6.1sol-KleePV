@@ -1,0 +1,34 @@
+{
+  "job_id": "fullpv-early-f0815-source-v1",
+  "source_frame": 815,
+  "canonical_cel": "cel-0142",
+  "source_candidate": "src-0361",
+  "family": "star_dance",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0815-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE independent16:9 Klee PV cel CURRENT815. Image1 source EDIT TARGET alone determines pose/native geometry/crop/head/eye/hands/limb joints. Image2 Klee identity/color/costume ONLY, never its front pose/size; Image3 source814/815 RGB/contours CURRENT changed pose. Girl has MOVED LEFT and changed from split stride into ONE planted straight leg and rear BENT raised leg. LEFT profile head centerx69%,y28%, visible red eye nearx67%,y30% retains BLACK hooked pupil/WHITE highlight, tiny O mouth. Torso centerx72%,y53%, coathem y64%. Forward arm angles DOWN-left to open brown glovex59%,y57%; rear arm DOWN-right to open glovex85%,y52%. Planted front leg vertical, brown boot centerx70%,y95%, toe points LEFT. Rear leg knee bends RIGHT with shin nearly horizontal, raised boot centerx83%,y78%, toe points down-right. Exact2hands/legs and source joint placement. Full body visible, NO giant corner foreground polygons remain in current source. Source lavender white sketch-stars and2yellow small rear wrist particles retained. Klee exactly2 SHORT blonde ear-root ponies swept mildlyRIGHT (far pony occluded), pointed ear/red cream-clover beretONEwhitefeather; remove entire rabbit forehead mask and all pink long hair. Red cream-trim coat with one lower coat clover, plain cream collar/cuffs, browngloves/creamhem/redshorts/barepaleknees/compact brownboots creamtopcuffs. Preserve source proportions, no torso shortening/longpony/thirdtuft/badgedanglers/sleeveclovers. Flat unshaded PV color blocks and irregular black outlines, flat lavender no gradient. Omit subtitles. CURRENT source pose is mandatory: NOT previous split stride or frontstanding; redraw independently, no hold/morph/panels.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0361-f0815.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0745-contour-v2.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0815-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source815 exclusive geometry/crop/expression/occlusion",
+    "Klee identity/color/costume ONLY; front pose forbidden",
+    "Actual source814/815 RGB and contours"
+  ],
+  "continuity_status": "static_source_and_consecutive_contours_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-84fa832d-5184-4fbe-a444-44081a76b2e5.png",
+  "static_review": "Source814/815 and consecutive Klee814/815 contour contact reviewed. Source leftward move, lowered diagonal arms, planted leg/rear knee bend present. Visible profile red iris/pupil, mask removal and short pony checked.",
+  "known_issues": [
+    "Hat/head still too tall vs source and new pony orientation differs",
+    "Boots/cuffs larger and now fluffy vs previous814 compact flat cuffs",
+    "Coat clover shifts side and extra tiny cream hem crosses appear",
+    "Source star/bg drift and shading"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0815-source-v1-source-static-contact.jpg",
+  "whole_source_draft_difference": "qa/full-early-worker/fullpv-early-f0815-source-v1-whole-source-draft-difference.png"
+}

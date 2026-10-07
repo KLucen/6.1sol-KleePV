@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f2029",
+  "source_frame": 2029,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1099-f2029.png",
+  "prompt": "Edit image1 CURRENT original into a true independent strict-source Klee f2029 PV cel. Current source sole pose/expression/crop/camera/occlusion authority. Image2 f2024Klee identity and costume/shortpony continuity ONLY, not frozen pose; image3actualsource2024->2029 RGBdifference and contours RIGHTcurrent. Current enlargedfrontface shiftedslightlyleft, mouth moreovalwithtwo tinybottomlobes, cheek/jaw/bangs/closedeyelidstrokes redrawn. Matchsource mouth/eyelid/jaw coordinates notcopyprior. TWO fully CLOSED eyes as hugeblack>< inwardchevrons, zero visibleirises/pupils or eyehighlights. Two orangecheeks, BIG allpinkopenshoutmouth exactcurrentoutline. Topberet/crown croppedTOP, shoulders/collar/onlysourceknuckle slivers BOTTOMcropped; don't invent fullgloves/handsbody. Redcloverberet brownband ONEwhitefeather attachedanatomicalleft/viewerRIGHT, two SHORT paleblondeponies by singlepointedear eachside where actuallyvisible. No oldrabbitmask/headband/longpeachhair/pajamas, no doubleear or sourcehumanearwedgebesidecheek. Redcoat creamfoldedcollar/simplepompom plaincreamcuffs brownGLOVES onlyactualsourceknuckles. Lavender1920x1080NOcaptions. Wobblythicksourceblackline andFLATbroadfills/hardshadow ONLY, no gradientglossdetailclovercuffs/newactorsprops. Independently draw currentminorpressurechanges, no heldpose/morph/tween/mirror.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1099-f2029.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2024.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/source-delta-f2024-f2029.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression camera crop occlusion",
+    "previous Klee identity style continuity only not pose",
+    "actual source RGBdifference contours right current"
+  ],
+  "output": "generated/fine-f2029.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-7c711c55-0b76-44a8-b79c-7ee877e9bf54.png",
+  "output_sha256": "caaaaa125d9c61375d10256455f6de2f80d3fa9f687b87634f68362979186eb3",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

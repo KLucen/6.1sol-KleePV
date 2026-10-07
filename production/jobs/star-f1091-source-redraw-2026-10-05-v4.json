@@ -1,0 +1,76 @@
+{
+  "id": "star-f1091-source-redraw-2026-10-05-v4",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1091,
+  "source_cel": "cel-0229",
+  "source_reference": "source_refs/src-0623-f1091.png",
+  "source_exposures": [
+    {
+      "start": 1091,
+      "end": 1097,
+      "pts": 45.458,
+      "end_pts": 45.708,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+      "role": "Exact current original f1091; sole authority for full-body framing, half-open eyelids, upright head, bent screen-right sleeve with hidden hand, visible left hand and grounded feet."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+      "role": "Native current eyelids and tiny CLOSED caret mouth; no closed-eye or wide-eye substitution."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+      "role": "Klee identity/costume ONLY: red beret/feather, TWO compact rooted pale ponytails, plain cream collar/red coat/cream hem/red shorts and brown boots. No complete face or previous pose."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE entire landscape hand-drawn PV frame from the ORIGINAL SOURCE in Image1, replacing the whole original girl with Klee, not preserving any part of the original girl's hair or clothing. This is a FRESH WHOLE CHARACTER redraw, not a small patch to earlier Klee artwork. Image2 is the CURRENT ORIGINAL half-open eyelids and tiny CLOSED caret mouth. Image3 supplies Klee identity/costume only, no pose. Highest-priority silhouette rule: Klee has only TWO compact shoulder-height pale-blond ponytails rooted beside elf ears, with both hair ends ABOVE the lower edge of the cream collar. The PURPLE GAP beneath the screen-left upper sleeve and beside the red torso must be ENTIRELY clear purple, no pink sliver, black U-shape, detached hair, pale skin, tuft, tassel or original long hair tip. In the ORIGINAL Image1 the long pink hair passes behind the left sleeve and has a point around x842..865,y444..483 of1920x1080; DELETE this old tail from the new character. Do not preserve, recolor or outline it. No back hair anywhere below shoulder level or underneath either arm. Klee identity: red beret, cream four-leaf clover, white feather/brown badge, short pale-blond bangs, elf ears, two rooted compact ponytails; plain RED coat with two-lobed cream collar, cream cuffs and single cream COAT hem above RED shorts, brown gloves and brown boots. No original buttonrow/pockets, no cream shorts bands, backpack, pompom or decorative coat trim. Maintain ORIGINAL CURRENT pose and positions: grounded frontal full-body, upright slightly tired half-open narrow heavy flat eyelids and CLOSED caret mouth, head/face about(960,230); LEFT arm diagonally down/out to visible brown glove about(680,520). RIGHT sleeve/elbow bends UP with camera-facing cream cuff opening about(1155,435); RIGHT HAND completely HIDDEN within that sleeve, not a visible mitten/palm/fingers/object. Two slender legs and two grounded boots about(875,1015),(1060,1015), retain original total height/framing not smaller chibi. Simple hand-drawn largely flat color blocks, no rich rendering/shading. Preserve original purple starry background arrangement, no extra stars, no lyrics/text/watermark. Background and original bilingual captions will be independently restored. One full frame, never a collage, crop, mirrored pose or paste. Do not use or reproduce any earlier Klee whole-frame edit target. Explicitly redraw the left underarm opening as clean PURPLE SKY with zero disconnected original pink hair outline.",
+  "output": "generated/star-f1091-source-redraw-v4.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "repair_reason": "Reset source/identity references and redraw from original after two actual failed scoped hair-removal edits. Earlier Klee whole-frame targets excluded.",
+  "source_delta_evidence": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-locals-native.png"
+  ],
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8565ea4f-3075-4393-8484-fee8b60a9ec0.png",
+  "static_review": {
+    "passed_static_structure": [
+      "Fresh original-source redraw removes the disconnected original pink underarm hair; gap is clear purple.",
+      "Half-open flat eyelids, CLOSED caret mouth, bent screen-right camera-facing empty sleeve opening with fingers hidden.",
+      "Two short rooted hair groups ending above collar edge, coherent full body with two grounded boots."
+    ],
+    "flaws": [
+      "Head/eye vertical registration and coat/cuff opening shape approximate original; hand detail and new knee/boot shading differ.",
+      "Costume/hat/collar simplification changes relative to earlier standing cels; deferred nonblocking draft consistency review."
+    ],
+    "composite_review": "not_performed",
+    "original_speed_review": "not_performed",
+    "accepted": false
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816"
+}

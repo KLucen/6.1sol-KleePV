@@ -1,0 +1,526 @@
+{
+  "scope": [
+    911,
+    1008
+  ],
+  "helper_sha256": {
+    "compose.py": "accdc5260867891caba73b9cbff3b3047c6c2f806157c1318d3d49214bf98181",
+    "cyan_profile_layers.py": "3b963c58783f7695cef1657243e0b6740a678a4ccefd5a877158db50596346e2",
+    "cyan_caption_layers.py": "d74784cf0f41137d9a28418b54038d64b123ec4e2904767e90fcaa956f0b3d71",
+    "night_transition_layers.py": "746a0e2c6b586a108c4cb8f35902184ee8327232acc0ea808f9e5aa197921ac7",
+    "dance_caption_layers.py": "b00988faaab15a3282c05e39483ca114152e2325be0e3e964fac7391c727eda8",
+    "raised_caption_layers.py": "f097da91b65ff5b3406e9e0e5e24761fea02fb924dcb3c11a4e91bbd2d745cf9"
+  },
+  "raw_audit_sha256": "468c4f480189a09586aaf03a345cf949e983a02fb8cbb1dc15861d026e795210",
+  "source_origin_audit_sha256": "68bd597621eee75b8d031dc69f8c2fd21ebd38185a25b8bc933bf80d108dce5c",
+  "all97_registered_current_source_glyph_core_rgb_exact": true,
+  "all97_outside_registered_subject_and_caption_support_source_exact": true,
+  "old_green_ink_rows": [
+    {
+      "source_frame": 911,
+      "old_green_ink_outside_new_subject_checked": 12414,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 912,
+      "old_green_ink_outside_new_subject_checked": 12310,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 913,
+      "old_green_ink_outside_new_subject_checked": 12272,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 914,
+      "old_green_ink_outside_new_subject_checked": 13080,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 915,
+      "old_green_ink_outside_new_subject_checked": 12682,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 916,
+      "old_green_ink_outside_new_subject_checked": 12763,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 917,
+      "old_green_ink_outside_new_subject_checked": 12422,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 918,
+      "old_green_ink_outside_new_subject_checked": 12528,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 919,
+      "old_green_ink_outside_new_subject_checked": 12837,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 920,
+      "old_green_ink_outside_new_subject_checked": 12938,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 921,
+      "old_green_ink_outside_new_subject_checked": 13063,
+      "unchanged_old_green_ink_outside_new_subject": 2
+    },
+    {
+      "source_frame": 922,
+      "old_green_ink_outside_new_subject_checked": 13097,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 923,
+      "old_green_ink_outside_new_subject_checked": 12726,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 924,
+      "old_green_ink_outside_new_subject_checked": 12748,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 925,
+      "old_green_ink_outside_new_subject_checked": 12856,
+      "unchanged_old_green_ink_outside_new_subject": 1
+    },
+    {
+      "source_frame": 926,
+      "old_green_ink_outside_new_subject_checked": 13000,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 927,
+      "old_green_ink_outside_new_subject_checked": 13567,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 928,
+      "old_green_ink_outside_new_subject_checked": 13583,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 929,
+      "old_green_ink_outside_new_subject_checked": 13215,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 930,
+      "old_green_ink_outside_new_subject_checked": 13241,
+      "unchanged_old_green_ink_outside_new_subject": 1
+    },
+    {
+      "source_frame": 931,
+      "old_green_ink_outside_new_subject_checked": 13493,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 932,
+      "old_green_ink_outside_new_subject_checked": 13659,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 933,
+      "old_green_ink_outside_new_subject_checked": 22377,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 934,
+      "old_green_ink_outside_new_subject_checked": 22370,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 935,
+      "old_green_ink_outside_new_subject_checked": 22366,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 936,
+      "old_green_ink_outside_new_subject_checked": 22329,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 937,
+      "old_green_ink_outside_new_subject_checked": 22280,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 938,
+      "old_green_ink_outside_new_subject_checked": 6700,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 939,
+      "old_green_ink_outside_new_subject_checked": 14128,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 940,
+      "old_green_ink_outside_new_subject_checked": 14132,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 941,
+      "old_green_ink_outside_new_subject_checked": 13996,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 942,
+      "old_green_ink_outside_new_subject_checked": 6543,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 943,
+      "old_green_ink_outside_new_subject_checked": 6512,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 944,
+      "old_green_ink_outside_new_subject_checked": 6410,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 945,
+      "old_green_ink_outside_new_subject_checked": 13795,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 946,
+      "old_green_ink_outside_new_subject_checked": 13711,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 947,
+      "old_green_ink_outside_new_subject_checked": 13494,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 948,
+      "old_green_ink_outside_new_subject_checked": 5376,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 949,
+      "old_green_ink_outside_new_subject_checked": 5426,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 950,
+      "old_green_ink_outside_new_subject_checked": 5229,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 951,
+      "old_green_ink_outside_new_subject_checked": 14552,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 952,
+      "old_green_ink_outside_new_subject_checked": 14457,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 953,
+      "old_green_ink_outside_new_subject_checked": 14261,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 954,
+      "old_green_ink_outside_new_subject_checked": 5327,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 955,
+      "old_green_ink_outside_new_subject_checked": 5410,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 956,
+      "old_green_ink_outside_new_subject_checked": 5195,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 957,
+      "old_green_ink_outside_new_subject_checked": 4654,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 958,
+      "old_green_ink_outside_new_subject_checked": 4655,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 959,
+      "old_green_ink_outside_new_subject_checked": 4699,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 960,
+      "old_green_ink_outside_new_subject_checked": 3676,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 961,
+      "old_green_ink_outside_new_subject_checked": 3692,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 962,
+      "old_green_ink_outside_new_subject_checked": 3557,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 963,
+      "old_green_ink_outside_new_subject_checked": 3350,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 964,
+      "old_green_ink_outside_new_subject_checked": 3318,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 965,
+      "old_green_ink_outside_new_subject_checked": 3365,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 966,
+      "old_green_ink_outside_new_subject_checked": 3402,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 967,
+      "old_green_ink_outside_new_subject_checked": 3196,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 968,
+      "old_green_ink_outside_new_subject_checked": 3262,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 969,
+      "old_green_ink_outside_new_subject_checked": 2960,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 970,
+      "old_green_ink_outside_new_subject_checked": 2992,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 971,
+      "old_green_ink_outside_new_subject_checked": 2817,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 972,
+      "old_green_ink_outside_new_subject_checked": 2864,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 973,
+      "old_green_ink_outside_new_subject_checked": 2990,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 974,
+      "old_green_ink_outside_new_subject_checked": 3056,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 975,
+      "old_green_ink_outside_new_subject_checked": 2709,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 976,
+      "old_green_ink_outside_new_subject_checked": 2750,
+      "unchanged_old_green_ink_outside_new_subject": 1
+    },
+    {
+      "source_frame": 977,
+      "old_green_ink_outside_new_subject_checked": 2741,
+      "unchanged_old_green_ink_outside_new_subject": 1
+    },
+    {
+      "source_frame": 978,
+      "old_green_ink_outside_new_subject_checked": 2648,
+      "unchanged_old_green_ink_outside_new_subject": 1
+    },
+    {
+      "source_frame": 979,
+      "old_green_ink_outside_new_subject_checked": 2633,
+      "unchanged_old_green_ink_outside_new_subject": 1
+    },
+    {
+      "source_frame": 980,
+      "old_green_ink_outside_new_subject_checked": 2832,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 981,
+      "old_green_ink_outside_new_subject_checked": 5032,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 982,
+      "old_green_ink_outside_new_subject_checked": 4948,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 983,
+      "old_green_ink_outside_new_subject_checked": 4628,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 984,
+      "old_green_ink_outside_new_subject_checked": 5627,
+      "unchanged_old_green_ink_outside_new_subject": 2
+    },
+    {
+      "source_frame": 985,
+      "old_green_ink_outside_new_subject_checked": 5570,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 986,
+      "old_green_ink_outside_new_subject_checked": 5467,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 987,
+      "old_green_ink_outside_new_subject_checked": 234,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 988,
+      "old_green_ink_outside_new_subject_checked": 250,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 989,
+      "old_green_ink_outside_new_subject_checked": 221,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 990,
+      "old_green_ink_outside_new_subject_checked": 164,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 991,
+      "old_green_ink_outside_new_subject_checked": 180,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 992,
+      "old_green_ink_outside_new_subject_checked": 229,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 993,
+      "old_green_ink_outside_new_subject_checked": 2508,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 994,
+      "old_green_ink_outside_new_subject_checked": 2542,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 995,
+      "old_green_ink_outside_new_subject_checked": 2404,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 996,
+      "old_green_ink_outside_new_subject_checked": 2412,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 997,
+      "old_green_ink_outside_new_subject_checked": 2643,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 998,
+      "old_green_ink_outside_new_subject_checked": 2035,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 999,
+      "old_green_ink_outside_new_subject_checked": 1959,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1000,
+      "old_green_ink_outside_new_subject_checked": 1880,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1001,
+      "old_green_ink_outside_new_subject_checked": 1887,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1002,
+      "old_green_ink_outside_new_subject_checked": 1739,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1003,
+      "old_green_ink_outside_new_subject_checked": 1295,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1004,
+      "old_green_ink_outside_new_subject_checked": 1303,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1005,
+      "old_green_ink_outside_new_subject_checked": 1258,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1006,
+      "old_green_ink_outside_new_subject_checked": 1823,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    },
+    {
+      "source_frame": 1007,
+      "old_green_ink_outside_new_subject_checked": 1876,
+      "unchanged_old_green_ink_outside_new_subject": 0
+    }
+  ],
+  "all97_no_unchanged_old_green_ink_outside_new_subject": false,
+  "caption_donor_sha256": {
+    "0": {
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0456-f0911.png": "68cf959cd3afed4d2213c97198b50418129cfd6ec4ea40b499556ddb622d58ab",
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png": "f53b3451946961dcefb5eb602bdb0c82bb88356c35e22e75b0563854d697234d",
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0461-f0919.png": "79aef2d0ea9279d6ce438e6181ac9272c9ee5166998b001a5e589968945252dd"
+    },
+    "1": {
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0503-f0967.png": "8a59d2bc00f968843521ddda021da3d6bc3b64bea2e0e0affbd8e8d7cd1e8b79",
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0509-f0973.png": "cbf1b4cec346f1962f1df09d68913b2870d73217d71ddc3898973296a2d2e261",
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0516-f0981.png": "6635e3736bc2d9cd2f9de3b7b8032cae5bb0851dff158c391c917fa674c638c2",
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0526-f0993.png": "e3c86cb5967eb444b018e591ea7d4ce91a63aa0e8b2ae977953066b11d6ef0a7"
+    }
+  },
+  "source_visible_pixels": "outside registered old/new anatomy and glyph support stay actual-source exact",
+  "hidden_source_plate": "fit from current visible source sky; unobserved gradient and glyph antialias are reconstruction",
+  "static_native_source_caption_pages_viewed": 13,
+  "static_raw_native_caption_pages_viewed": "pending",
+  "static_raw_canonical_body_pages_viewed": "pending",
+  "original_speed_artistic_review": "pending",
+  "artistic_acceptance": false
+}

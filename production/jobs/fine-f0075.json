@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0075",
+  "source_frame": 75,
+  "source_candidate": "src-0025",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0025-f0075.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0068.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0075.png"
+  ],
+  "prompt": "ONE full16:9 Klee replacement PV cel. Image1 CURRENT original exclusively determines pose, framing, crop, eye/mouth and hand/clock/pillow geometry; image2 preceding Klee determines the SAME character/outfit/hair/hat/style only; image3 exact source A/B differences, upper-right CURRENT, no analysis panel output. Major pose change: BOTH ELBOWS BEND and HANDS lift the small cream clock UP near the LEFT side of her forehead (current source x1080,y370), clock tilted with its display facing toward viewer. One glove at upper-right clock corner, other under the clock. Do NOT keep prior extended horizontal arms. Near arm bends across upper chest with raised cream cuff next to forehead, far sleeve bends underneath clock; both red sleeves follow original joint/cuff contours. Head turns from strict left profile to downward THREE-QUARTER FRONT so BOTH sleepy OPEN RED irises are visible, not closed eyes or a side-only eye. Tiny short nearly closed mouth, orange cheeks, head tilts diagonally down toward clock. Keep source current torso lean, bent knees cropped bottom, Klee redcreamcoat/capelet/backpack and same garment length. Same redberet/creamclover/whitefeather side, pointed ears, pale blonde bangs and TWO SHORT side ponytails, rotate naturally with head. Original diagonal lavender pillow remains behind head, original clock dimensions/tilt retained. NO subtitles/titles/credits/lettering/labels at all; clock display no digits for source restoration. Source flat handdrawn dark irregular contours/simple flat patches and one shadow, no gray pajamas/rabbit hood/hip pockets, no extra limb, no zoom out.",
+  "output": "../generated/fine-f0075.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

@@ -1,0 +1,979 @@
+{
+  "version": 1,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "review_scope": "single-frame and adjacent static inspection only",
+  "acceptance": "no artistic or actual-speed acceptance granted",
+  "assets": [
+    {
+      "frame": 129,
+      "asset": "generated/fine-f0129-geometry-repair.png",
+      "asset_sha256": "b39c79688ca81e1abd86cab72931d98b6f83cebaf6d4097120b1d72a863c92c7",
+      "source": "source_refs/src-0044-f0129.png",
+      "display_roi": [
+        850,
+        460,
+        965,
+        608
+      ],
+      "source_display": {
+        "bbox": [
+          868,
+          482,
+          950,
+          592
+        ],
+        "center": [
+          908.019137866964,
+          537.6473429951691
+        ],
+        "pixels": 5382
+      },
+      "generated_display": {
+        "bbox": [
+          862,
+          482,
+          945,
+          596
+        ],
+        "center": [
+          902.5167863380555,
+          539.0166893071997
+        ],
+        "pixels": 5153
+      },
+      "display_delta_xy": [
+        -5.502,
+        1.369
+      ],
+      "display_distance": 5.67,
+      "display_iou": 0.79809,
+      "clock_source_components": [
+        {
+          "bbox": [
+            852,
+            462,
+            1030,
+            622
+          ],
+          "pixels": 19191,
+          "center": [
+            938.2193215569798,
+            551.8382575165442
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            850,
+            463,
+            1030,
+            623
+          ],
+          "pixels": 20229,
+          "center": [
+            936.8499678679124,
+            553.0444411488457
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 133,
+      "asset": "generated/fine-f0133-geometry-repair.png",
+      "asset_sha256": "7c7c65917c21b9dd958ed0200d518b312e555e79eccee197f29953cfefc8d3fd",
+      "source": "source_refs/src-0046-f0133.png",
+      "display_roi": [
+        850,
+        460,
+        965,
+        608
+      ],
+      "source_display": {
+        "bbox": [
+          872,
+          480,
+          952,
+          592
+        ],
+        "center": [
+          910.3035849056604,
+          535.7009433962264
+        ],
+        "pixels": 5300
+      },
+      "generated_display": {
+        "bbox": [
+          864,
+          477,
+          944,
+          588
+        ],
+        "center": [
+          902.8250425572159,
+          531.4705882352941
+        ],
+        "pixels": 5287
+      },
+      "display_delta_xy": [
+        -7.479,
+        -4.23
+      ],
+      "display_distance": 8.592,
+      "display_iou": 0.72652,
+      "clock_source_components": [
+        {
+          "bbox": [
+            852,
+            458,
+            1030,
+            622
+          ],
+          "pixels": 19264,
+          "center": [
+            937.7986399501661,
+            547.375415282392
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            850,
+            453,
+            1030,
+            618
+          ],
+          "pixels": 20632,
+          "center": [
+            934.7444746025591,
+            546.4319503683598
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 157,
+      "asset": "generated/fine-f0157-glove-repair.png",
+      "asset_sha256": "1ec40ef8df5c1999ececaa2bc963deec59355dbd2b75ae2eec27290ce548c1b7",
+      "source": "source_refs/src-0049-f0157.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          484,
+          990,
+          571
+        ],
+        "center": [
+          943.0043330821402,
+          527.4287867370008
+        ],
+        "pixels": 5308
+      },
+      "generated_display": {
+        "bbox": [
+          894,
+          481,
+          991,
+          572
+        ],
+        "center": [
+          941.5780802292263,
+          526.0728868194842
+        ],
+        "pixels": 5584
+      },
+      "display_delta_xy": [
+        -1.426,
+        -1.356
+      ],
+      "display_distance": 1.968,
+      "display_iou": 0.93361,
+      "clock_source_components": [
+        {
+          "bbox": [
+            870,
+            467,
+            1030,
+            620
+          ],
+          "pixels": 16953,
+          "center": [
+            946.0687194006961,
+            540.9201321300064
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            873,
+            466,
+            1007,
+            621
+          ],
+          "pixels": 15205,
+          "center": [
+            938.2526142716212,
+            542.2155212101283
+          ]
+        },
+        {
+          "bbox": [
+            996,
+            487,
+            1030,
+            554
+          ],
+          "pixels": 1587,
+          "center": [
+            1016.6212980466289,
+            519.5047258979206
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": false,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Released open hand enters upper-right corner of full clock bounding rectangle; use a clock silhouette mask, not whole rectangle."
+    },
+    {
+      "frame": 162,
+      "asset": "generated/fine-f0162.png",
+      "asset_sha256": "042ba188ff710b8e804939b45b98414e4d216f3a449896101e5b9c7fabf4c98f",
+      "source": "source_refs/src-0050-f0162.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          484,
+          990,
+          571
+        ],
+        "center": [
+          943.0092209258562,
+          527.4753481369966
+        ],
+        "pixels": 5314
+      },
+      "generated_display": {
+        "bbox": [
+          894,
+          484,
+          991,
+          571
+        ],
+        "center": [
+          941.9612649700599,
+          527.5464071856287
+        ],
+        "pixels": 5344
+      },
+      "display_delta_xy": [
+        -1.048,
+        0.071
+      ],
+      "display_distance": 1.05,
+      "display_iou": 0.96208,
+      "clock_source_components": [
+        {
+          "bbox": [
+            870,
+            467,
+            1008,
+            620
+          ],
+          "pixels": 15335,
+          "center": [
+            938.650929246821,
+            543.2596022171504
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            870,
+            468,
+            1009,
+            621
+          ],
+          "pixels": 15259,
+          "center": [
+            937.894488498591,
+            543.6586932302248
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 167,
+      "asset": "generated/fine-f0167.png",
+      "asset_sha256": "bf382f440cc3258825935e46ac76d06b70e231ee56ae199f0c8b42c27b47ece5",
+      "source": "source_refs/src-0051-f0167.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          484,
+          990,
+          571
+        ],
+        "center": [
+          942.9971762048193,
+          527.4591490963855
+        ],
+        "pixels": 5312
+      },
+      "generated_display": {
+        "bbox": [
+          892,
+          483,
+          992,
+          570
+        ],
+        "center": [
+          941.7427017225748,
+          526.1662737987307
+        ],
+        "pixels": 5515
+      },
+      "display_delta_xy": [
+        -1.254,
+        -1.293
+      ],
+      "display_distance": 1.801,
+      "display_iou": 0.94102,
+      "clock_source_components": [
+        {
+          "bbox": [
+            870,
+            466,
+            1008,
+            620
+          ],
+          "pixels": 15341,
+          "center": [
+            938.6341829085458,
+            543.2626295547878
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            870,
+            466,
+            1009,
+            620
+          ],
+          "pixels": 15262,
+          "center": [
+            937.9144279910889,
+            542.2284104311361
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 172,
+      "asset": "generated/fine-f0172.png",
+      "asset_sha256": "9d547fc42e8ae3b9225377cb679a6bebdebf4531759d1075d69bad1a88c7afae",
+      "source": "source_refs/src-0053-f0172.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          484,
+          990,
+          571
+        ],
+        "center": [
+          942.9992467043314,
+          527.4431261770245
+        ],
+        "pixels": 5310
+      },
+      "generated_display": {
+        "bbox": [
+          892,
+          483,
+          991,
+          571
+        ],
+        "center": [
+          941.0969106289077,
+          526.8883780801765
+        ],
+        "pixels": 5438
+      },
+      "display_delta_xy": [
+        -1.902,
+        -0.555
+      ],
+      "display_distance": 1.982,
+      "display_iou": 0.93797,
+      "clock_source_components": [
+        {
+          "bbox": [
+            870,
+            466,
+            1008,
+            620
+          ],
+          "pixels": 15343,
+          "center": [
+            938.6333833018315,
+            543.2547741641139
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            869,
+            467,
+            1007,
+            621
+          ],
+          "pixels": 15280,
+          "center": [
+            937.092997382199,
+            543.0653141361256
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 176,
+      "asset": "generated/fine-f0176-hair-cuff-repair.png",
+      "asset_sha256": "64fa207a7cbbffbee1f0fef37416b096e29524089a7376b556733cc0adc1f05a",
+      "source": "source_refs/src-0054-f0176.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          484,
+          990,
+          571
+        ],
+        "center": [
+          942.9992467043314,
+          527.4431261770245
+        ],
+        "pixels": 5310
+      },
+      "generated_display": {
+        "bbox": [
+          892,
+          481,
+          993,
+          570
+        ],
+        "center": [
+          941.7199788397108,
+          525.6572033151119
+        ],
+        "pixels": 5671
+      },
+      "display_delta_xy": [
+        -1.279,
+        -1.786
+      ],
+      "display_distance": 2.197,
+      "display_iou": 0.91307,
+      "clock_source_components": [
+        {
+          "bbox": [
+            870,
+            466,
+            1008,
+            620
+          ],
+          "pixels": 15342,
+          "center": [
+            938.6297092947465,
+            543.2506192152262
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            869,
+            466,
+            1010,
+            620
+          ],
+          "pixels": 15491,
+          "center": [
+            937.9819895423149,
+            541.7353301917242
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 180,
+      "asset": "generated/fine-f0180.png",
+      "asset_sha256": "4c8896978bce978d3400533a13c160e0b83949afcc164811bc69b65de47657a4",
+      "source": "source_refs/src-0055-f0180.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          484,
+          990,
+          571
+        ],
+        "center": [
+          942.9826611383339,
+          527.458914436487
+        ],
+        "pixels": 5306
+      },
+      "generated_display": {
+        "bbox": [
+          891,
+          482,
+          989,
+          571
+        ],
+        "center": [
+          939.6826150474799,
+          526.3685171658144
+        ],
+        "pixels": 5476
+      },
+      "display_delta_xy": [
+        -3.3,
+        -1.09
+      ],
+      "display_distance": 3.476,
+      "display_iou": 0.89657,
+      "clock_source_components": [
+        {
+          "bbox": [
+            870,
+            466,
+            1008,
+            620
+          ],
+          "pixels": 15333,
+          "center": [
+            938.6848627144068,
+            543.2795278158221
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            867,
+            466,
+            1006,
+            620
+          ],
+          "pixels": 15386,
+          "center": [
+            935.7191602755752,
+            542.4910958013779
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 185,
+      "asset": "generated/fine-f0185.png",
+      "asset_sha256": "97dbf306c00df457fd7099b4664d6c04f8335ef111f3587f1044f3fb376a9011",
+      "source": "source_refs/src-0057-f0185.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          483,
+          992,
+          570
+        ],
+        "center": [
+          943.0419868791003,
+          527.2721649484536
+        ],
+        "pixels": 5335
+      },
+      "generated_display": {
+        "bbox": [
+          894,
+          483,
+          991,
+          571
+        ],
+        "center": [
+          941.8872767857143,
+          527.0980282738095
+        ],
+        "pixels": 5376
+      },
+      "display_delta_xy": [
+        -1.155,
+        -0.174
+      ],
+      "display_distance": 1.168,
+      "display_iou": 0.96316,
+      "clock_source_components": [
+        {
+          "bbox": [
+            871,
+            467,
+            1008,
+            620
+          ],
+          "pixels": 15287,
+          "center": [
+            938.7809249689278,
+            543.1997121737423
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            870,
+            467,
+            1009,
+            620
+          ],
+          "pixels": 15343,
+          "center": [
+            937.9288926546308,
+            543.0162940754742
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 190,
+      "asset": "generated/fine-f0190.png",
+      "asset_sha256": "ced9ef8d9344f394dfa7f666598aebf333f058d86c87218b44017a5acf4b3394",
+      "source": "source_refs/src-0059-f0190.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          483,
+          992,
+          570
+        ],
+        "center": [
+          943.0419868791003,
+          527.2721649484536
+        ],
+        "pixels": 5335
+      },
+      "generated_display": {
+        "bbox": [
+          892,
+          483,
+          990,
+          571
+        ],
+        "center": [
+          940.7387604070306,
+          526.7239592969473
+        ],
+        "pixels": 5405
+      },
+      "display_delta_xy": [
+        -2.303,
+        -0.548
+      ],
+      "display_distance": 2.368,
+      "display_iou": 0.92923,
+      "clock_source_components": [
+        {
+          "bbox": [
+            871,
+            467,
+            1008,
+            620
+          ],
+          "pixels": 15288,
+          "center": [
+            938.77799581371,
+            543.2023155416013
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            868,
+            466,
+            1007,
+            620
+          ],
+          "pixels": 15387,
+          "center": [
+            936.6367713004485,
+            542.6256580230064
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    },
+    {
+      "frame": 194,
+      "asset": "generated/fine-f0194.png",
+      "asset_sha256": "189b90edd45fc1f1b631a3a89dd95f1ab019e35b7cdd660a43071360b8696740",
+      "source": "source_refs/src-0060-f0194.png",
+      "display_roi": [
+        870,
+        465,
+        1006,
+        585
+      ],
+      "source_display": {
+        "bbox": [
+          896,
+          483,
+          992,
+          570
+        ],
+        "center": [
+          943.0419868791003,
+          527.2721649484536
+        ],
+        "pixels": 5335
+      },
+      "generated_display": {
+        "bbox": [
+          891,
+          482,
+          990,
+          570
+        ],
+        "center": [
+          939.9990839135214,
+          526.196408941004
+        ],
+        "pixels": 5458
+      },
+      "display_delta_xy": [
+        -3.043,
+        -1.076
+      ],
+      "display_distance": 3.227,
+      "display_iou": 0.90622,
+      "clock_source_components": [
+        {
+          "bbox": [
+            871,
+            467,
+            1008,
+            620
+          ],
+          "pixels": 15289,
+          "center": [
+            938.7746746026555,
+            543.2043953168945
+          ]
+        }
+      ],
+      "clock_generated_components": [
+        {
+          "bbox": [
+            867,
+            466,
+            1007,
+            620
+          ],
+          "pixels": 15496,
+          "center": [
+            936.2236060918947,
+            542.2068275684047
+          ]
+        }
+      ],
+      "proposed_copy_rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ],
+      "rectangle_supported": true,
+      "rectangle_scope": "same asset source frame, identity source canvas only",
+      "rectangle_reason": "Clock is isolated from source and generated hands/character; source and generated full clock fall within rectangle."
+    }
+  ],
+  "glove_repair_comparison": {
+    "parent": "generated\\fine-f0157-geometry-repair.png",
+    "repair": "generated\\fine-f0157-glove-repair.png",
+    "manual_edit_rois": [
+      [
+        985,
+        450,
+        1078,
+        570
+      ],
+      [
+        1625,
+        345,
+        1772,
+        438
+      ]
+    ],
+    "channel_difference_threshold": 8,
+    "inside_roi_changed_pixels": 10609,
+    "outside_roi_changed_pixels": 107426,
+    "outside_mean_abs_channel_delta": 2.86678,
+    "outside_max_channel_delta": 210,
+    "pixel_locked": false,
+    "heatmap": "qa/opening-new-review/f0157-glove-repair-difference-x4.png"
+  },
+  "hair_cuff_repair_comparison": {
+    "parent": "generated\\fine-f0176.png",
+    "repair": "generated\\fine-f0176-hair-cuff-repair.png",
+    "manual_edit_rois": [
+      [
+        1370,
+        375,
+        1475,
+        512
+      ],
+      [
+        1542,
+        482,
+        1672,
+        591
+      ]
+    ],
+    "channel_difference_threshold": 8,
+    "inside_roi_changed_pixels": 18604,
+    "outside_roi_changed_pixels": 83006,
+    "outside_mean_abs_channel_delta": 3.13972,
+    "outside_max_channel_delta": 255,
+    "pixel_locked": false,
+    "heatmap": "qa/opening-new-review/f0176-hair-cuff-repair-difference-x4.png"
+  },
+  "released_clock_mask_recommendation": {
+    "mask": "qa/opening-new-review/f0157-clock-mask-from-source-f0162.png",
+    "asset_specific_guarded_mask": "qa/opening-new-review/f0157-clock-mask-glove-guarded.png",
+    "raw_mask_overlap_with_brown_glove_pixels": 2,
+    "guarded_mask_overlap_with_glove_guard_pixels": 0,
+    "geometry_reference_frame": 162,
+    "pixels_to_copy_reference_frame": 157,
+    "basis": "Same stationary source clock drawing verified in full-resolution source frames; mask excludes open hand.",
+    "limits": "Mask is for source-frame identity geometry only; generated glove guard and composed boundary check remain required."
+  }
+}

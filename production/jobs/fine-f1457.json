@@ -1,0 +1,28 @@
+{
+  "source_frame": 1457,
+  "prompt": "Use case: identity-preserve. Edit Image1 CURRENT ORIGINAL PV into Klee in-place, one full original 1920x1080 canvas. Image2 is SAME CURRENT SOURCE HEAD enlarged and has sole head/eye/tilt geometry authority. Image3 supplies ONLY the red clover beret, feather and pale-blonde identity, NO facial/pose authority. Image4 is actual source A/B, RGB difference and contour overlay, no output panels. No other pose template: source forearms geometry must be kept. Preserve the small original seated centered figure occupying x39..60%, y23..73%, boot soles at original y72%, knees raised together, crossed forearms across knees around y48..53%, both hands tucked FULLY behind opposing sleeves, never visible extra glove pairs on top. Exactly TWO short pale-blonde ponytails with roots by pointed ears, restrained volumes replacing original long hair. Red cream-clover beret, white feather, redcoat creamtrim folding around raised knees, pale bare knees and cream socktops, two round brown boots, modest brown backpack partly behind viewer-right shoulder. REMOVE original rabbit sleep mask completely. Original sleepy dot mouth and orangecheeks. If irises visible their WHOLE fill is muted RED, no blue source iris carried over. Loose uneven dark PV contours, flat patches, minimal shadow, not polished game art. Keep current source backdrop/text/credits layout; compositor restores exact already-visible original pixels. No new text/caption/crop/panels/characters, no enlarged or lowered body. Independently redraw current sleeves, coat folds, legs, boots and head landmarks shown by current source, no frozen template. Current f1457: head returns UPRIGHT, both eyes fully CLOSED with horizontal short eyelid lines, tiny horizontal brows and dotmouth. Only source defines arm placement: left elbow at x42%y48%, left red forearm rises diagonally to hand HIDDEN at x54%y45%; right elbow x57%y46%, right forearm angles down across it to hand HIDDEN x46%y51%. Thus two DIAGONAL CROSSED RED SLEEVES, not two level side-by-side forearms. Keep upper sleeve crossing, knee heights, source floor y780, original small body extent. Outfit includes redcoat creamhem and one creamclover lower right skirt, brown backpack behind right shoulder, creamsocktops and brown roundbootstwo, modest fluffywhiteboottrim. TWO short blondeponytails. White feathercompact. Full originalcanvas, no pan/crop.",
+  "name": "fine-f1457.png",
+  "output": "generated/fine-f1457.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0874-f1457.png",
+      "role": "Current source pose/canvas"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1457.png",
+      "role": "Current source head"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only Klee identity"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1447-f1457.png",
+      "role": "Actual source spatial delta"
+    }
+  ],
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Upright closed eyes and true diagonal crossed sleeves improved by source-only arm geometry. Boots/backpack cream emblems/pom design drift from adjacent selected costume, clover boots new. Static draft only; costume/temporal repair pending."
+}

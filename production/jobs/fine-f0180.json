@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0180",
+  "source_frame": 180,
+  "source_candidate": "src-0055",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0055-f0180.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0180.png"
+  ],
+  "prompt": "ONE full16:9 Klee replacement animation cel, edit originalperson ONLY in CURRENT image1. Image1 exclusively determines exact fullcanvas coordinates, pose, crop, original pillow/clock shape/size/position and occlusion. Crop2Kleehat/identity ONLY does NOT authorize a face, crop3coat SAMEstructure/colors only, image4source actual before/current changes upperrightcurrent no panels. KEY NEW POSE: pillow turned HORIZONTAL facing camera, broad flatlavender rectangle at x60..86%, y23..55% with cream scalloped LEFT/RIGHTfringes. Pillow blocks ENTIRE FACE, EYES NOSE MOUTH and chest/forearms. NO eyes or cheek below/above it. Only TOP portion of Klee redberet/clover and whitefeather/bangs peeks above pillow in originalheadvisible area x65..80%,y14..25%; TWO shortponytails both occluded, do not add hair tufts below pillow or at waist. Brown gloves grip opposite sidefringes: viewer-left glove small curved fingers overlapfront of LEFTfringe at x61%,y36%; viewer-rightsmall curvedglove overlaps FRONT of RIGHTfringe at x86%,y35%. Fingers curled around edges, NOT fully open splayed palm above pillow. Creamcuffs/forearms mostlyhidden behind pillow. Body angledright, SAME lowerredcoat angular splitpanels lowerleftclover, broadcreamangularunderskirt fainttinyclovers/pinkruffle/REDshorts, oneleftwaistdanglepom/smallbrownbackpackright ifactuallyvisible, straightlegs down-rightcroppedbottom. Floatingoriginalcreamclock isolatedLEFT exact x49%,y50%,width7%, blanklavenderdisplay. SOURCE loose darkoutlines flatpatches singleflatsmallshade, no polishedrendering. NO captions/title/credits/subtitles/letters/numbers. No sleepmask/pajamas/rabbitears, addedface/hand/hairwing/extra limbs, zoom/mirror.",
+  "output": "../generated/fine-f0180.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

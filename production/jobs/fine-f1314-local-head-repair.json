@@ -1,0 +1,15 @@
+{
+  "job_id": "fine-f1314-local-head-repair",
+  "source_frame": 1314,
+  "canonical_cel": "cel-0283",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1309.png"
+  ],
+  "prompt": "Edit THIS SAME Klee animation cel in place. ONE change ONLY: gently tilt her HEAD toward viewer-LEFT (counterclockwise in image coordinates) about 13degrees. Her LEFT EYE must be 18pixels LOWER than her RIGHT EYE on this 1672px-wide canvas. The two half-lidded open red eyes, tiny dot mouth, cheek ovals, bangs, pointed ears and red beret with clover/feather all lean together. Do NOT rotate torso, crossed arms or legs. The cheek/chin can come a little closer to the left glove. Keep the EXACT SAME scale, placement and shape of the seated body, knees, crossed brown gloves and red forearms, cream cuffs, coat trim, short twin side ponytail lengths, brown backpack, two boots and boot pom-poms. Do NOT change clothes ornaments. Preserve every pixel below the forearms as closely as possible: boot bottom stays y679, not lower; top of knees around y515. Keep head/hat volume unchanged, only redraw the mild left-leaning orientation, no rescale of character. This is a local head-tilt drawing, NOT whole-body rotation or a new pose. Current eyelids tilt slightly down to image-right: new eyelids instead tilt UP to image-right visibly but modestly, not 25degrees. Keep the lavender background, loose flat-color hand-drawn style and all other elements unchanged. NO TEXT or lettering, no new object or character. Return the one complete 16:9 cel.",
+  "output": "../generated/fine-f1314-v4.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-ff667091-0e80-4b7d-ad82-aa51dc7a7a62.png",
+  "status": "generated_pending_review",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

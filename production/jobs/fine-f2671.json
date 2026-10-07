@@ -1,0 +1,49 @@
+{
+  "source_frame": 2671,
+  "source_cel": "cel-0504",
+  "source_candidate": "src-1556",
+  "output": "generated\\fine-f2671.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2671: MAJOR pose change: face-down DIVE landing on lavender pillow. Head atx0.66 y0.57, whole face/crown aroundx0.595..0.73 y0.47..0.65; face frontal but pitched downward. BOTH eyes tightly CLOSED angular inward-squeezed eyelids, NO open red irises, wide O crying mouth fully visible just above pillow atx0.654 y0.631. BOTH arms stretch down/out toward pillow edges, brown gloved palms pressing top atx0.565 y0.634 andx0.731 y0.658, plain straight cream cuffs. Torso prone angled fromneckx0.70 y0.58 tohipsx0.77 y0.49. BOTH legs kick UP behind to upper right, knees bent; brown boots atx0.73 y0.285 andx0.803 y0.347. Follow exact current leg bends, not old raised arms: what points upward is FEET not fists. Red folded coat/cream hem aroundhips, small brown backpack on upperback, exactlytwo short blonde ear-root ponytails thrown up/back. Cream puff left of headx0.56 y0.485 returns. Source separate lavenderpillow now under face/hands x0.54..0.73 y0.635..0.748. Preserve mouth above pillow and correct hand/prop overlap, sole Klee beret removes mask, no text.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1556-f2671.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2667-f2671-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2667.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Static source pose check: eyes tightly squeezed closed, mouth visible, both gloves pressing pillow and feet up behind correctly differentiated. Generated figure/pillow enlarged and shifted left compared source; preserved as unresolved geometry issue, no artistic acceptance."
+    ],
+    "issues": [
+      "Whole figure and pillow enlarged/shifted left relative source."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-4f190269-1d7b-4804-82fe-35a1ed4c4e29.png"
+}

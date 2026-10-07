@@ -1,0 +1,28 @@
+{
+  "source_frame": 1463,
+  "prompt": "Use case: identity-preserve. Edit Image1 CURRENT ORIGINAL PV into Klee in-place, one full original 1920x1080 canvas. Image2 is SAME CURRENT SOURCE HEAD enlarged and has sole head/eye/tilt geometry authority. Image3 supplies ONLY the red clover beret, feather and pale-blonde identity, NO facial/pose authority. Image4 is actual source A/B, RGB difference and contour overlay, no output panels. No other pose template: source forearms geometry must be kept. Preserve the small original seated centered figure occupying x39..60%, y23..73%, boot soles at original y72%, knees raised together, crossed forearms across knees around y48..53%, both hands tucked FULLY behind opposing sleeves, never visible extra glove pairs on top. Exactly TWO short pale-blonde ponytails with roots by pointed ears, restrained volumes replacing original long hair. Red cream-clover beret, white feather, redcoat creamtrim folding around raised knees, pale bare knees and cream socktops, two round brown boots, modest brown backpack partly behind viewer-right shoulder. REMOVE original rabbit sleep mask completely. Original sleepy dot mouth and orangecheeks. If irises visible their WHOLE fill is muted RED, no blue source iris carried over. Loose uneven dark PV contours, flat patches, minimal shadow, not polished game art. Keep current source backdrop/text/credits layout; compositor restores exact already-visible original pixels. No new text/caption/crop/panels/characters, no enlarged or lowered body. Independently redraw current sleeves, coat folds, legs, boots and head landmarks shown by current source, no frozen template. Current f1463: upright with slight CLOCKWISE head/eyelid axis about2degrees, both eyes fully CLOSED, short horizontal black strokes separate from brows. Source independently redraws bangs, eye corners, sleeve crossing, bent knees, calf/boot edges, do not freeze1457. Diagonal crossed redforearms: leftelbow lowerleft at42%49%, forearm rises to HIDDEN hand54%45%, rightelbow57%46%, forearm to HIDDEN hand46%51%. Match original floor y780 and source small extent. Klee redcoat creamhem and creamclover on lowercoat only; plain roundbrownboots WITH small creamwhite trim poms each outerupper side, NO bootclovers/no backpackclovers. Modest brown backpack and singlecream pom behindrightshoulder. Redberetcreamcloverwhitefeather twoSHORT blondponytails. Loose PV flat colors, currentsourcepose/canvas unchanged.",
+  "name": "fine-f1463.png",
+  "output": "generated/fine-f1463.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0876-f1463.png",
+      "role": "Current source pose/canvas"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1463.png",
+      "role": "Current source head"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only Klee identity"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1457-f1463.png",
+      "role": "Actual source spatial delta"
+    }
+  ],
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Closed-eye near-upright source arms crossed and floor close. Plain boots+poms restored without clovers, but coat becomes longer/rectilinear and cream forearm trim differs vs earlier cels. Eye-axis slightly different. Temporal/costume shape review pending."
+}

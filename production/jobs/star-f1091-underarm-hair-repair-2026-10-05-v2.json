@@ -1,0 +1,68 @@
+{
+  "id": "star-f1091-underarm-hair-repair-2026-10-05-v2",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1091,
+  "source_cel": "cel-0229",
+  "source_reference": "source_refs/src-0623-f1091.png",
+  "source_exposures": [
+    {
+      "start": 1091,
+      "end": 1097,
+      "pts": 45.458,
+      "end_pts": 45.708,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-fast-continuation-v1.png",
+      "role": "Whole-frame edit target: preserve Klee's half-open-eyes, upright frontal body, bent camera-facing right cuff hiding hand, left glove, costume and rooted short hair."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+      "role": "Exact original f1091 pose/framing/visible regions only; original long hair is replaced, not retained."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+      "role": "Existing Klee compact rooted shoulder ponytails and plain red costume only; no underarm/back long hair."
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Redraw ONE entire independent PV cel. Image1 is the complete edit target; keep its Klee identity, two compact rooted pale-blond ponytails ending near shoulders, red beret/white feather, half-open heavy flat eyelids, tiny CLOSED caret mouth, upright full-body grounded stance, screen-left lowered brown glove and screen-right BENT CREAM CUFF with right hand completely HIDDEN. Image2 is original source for CURRENT pose/framing only; original long hair must not survive. Image3 confirms compact short-hair topology and plain collar/coat/hem/shorts/boots, not pose. SINGLE critical correction: in Image1 the tiny detached pale-pink triangular spike with dark outline behind the SCREEN-LEFT UPPER ARM, near x745..757,y414..433 on1672x941 (about x855..870,y475..497 on1920canvas), is a leftover ORIGINAL LONG HAIR tip, not Klee's ponytail, costume, hand, prop or star. Remove that pink underarm spike and its dark outline completely, restoring the actual purple sky there. Do NOT connect it to a new long ponytail, retain it, add another tuft below the arm, erase the real compact ponytails, sleeve or glove, or invent right fingers. Keep the whole existing pose/expression/framing and all clothing as close as possible outside that single region, without claiming exact pixel locking. Do not modify the face into closed or wide eyes. No source pockets/buttons/cream shorts cuffs. No text/lyrics/watermark; source captions restored separately. Simple hand-drawn largely flat style, no extra shaded details, no added background stars. One landscape entire frame, not crop or collage.",
+  "output": "generated/star-f1091-underarm-hair-v2.png",
+  "status": "generated_failed_underarm_hair_preserved_unselected",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "repair_reason": "Remove identifiable original underarm hair retained in raw PNG, not a compositor mask problem.",
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-20ebc91f-f869-4b51-87a9-58925cbfca7c.png",
+  "static_review": {
+    "flaws": [
+      "Whole-frame repair retained the detached pale-pink underarm spike; native nearest6x locator confirms no correction."
+    ],
+    "blocking": [
+      "Original underarm hair fragment remains."
+    ],
+    "accepted": false,
+    "composite_review": "not_performed"
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "44676c47cf9bf6e7c21622d096e177548186eca357c7e84de89abf5ea9390198"
+}

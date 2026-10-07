@@ -1,0 +1,544 @@
+{
+  "accepted": false,
+  "selections": [
+    {
+      "source_frame": 3267,
+      "path": "generated/oct7-bulk-ending-f3267-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole single Klee chest-up cel, both source curled hands replaced by brown gloves, plain cream cuffs and short twin tails. Draft eye opening and front bang curvature differ slightly; lower-right cream motif added near crop; defer to full-film feedback. Exact pose fidelity and temporal speed unaccepted.",
+      "known_issues": [
+        "Whole single Klee chest-up cel, both source curled hands replaced by brown gloves, plain cream cuffs and short twin tails. Draft eye opening and front bang curvature differ slightly; lower-right cream motif added near crop; defer to full-film feedback. Exact pose fidelity and temporal speed unaccepted."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3267-v1.json",
+      "sha256": "9ce737addfab8673c436aaabc6373da86c71ee208b1f553c32247ccb4191eb15"
+    },
+    {
+      "source_frame": 3271,
+      "path": "generated/oct7-bulk-ending-f3271-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Single whole cropped Klee cel with plain cuffs, two curled brown gloves and two short ponytails; source shoulder/hand shift represented approximately. Eyelid opening narrower than source and large curled frontal bang retained. Deferred pose-detail and speed review, accepted false.",
+      "known_issues": [
+        "Single whole cropped Klee cel with plain cuffs, two curled brown gloves and two short ponytails; source shoulder/hand shift represented approximately. Eyelid opening narrower than source and large curled frontal bang retained. Deferred pose-detail and speed review, accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3271-v1.json",
+      "sha256": "b704fb0dac597a73c97b74ea5dc73e02aa8cebc82c3b5b371337eadf157c59fa"
+    },
+    {
+      "source_frame": 3277,
+      "path": "generated/oct7-bulk-ending-f3277-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole cropped Klee cel retains two dark gloves and short tails, no source person or text. Approximate lower wrist and shoulder redraw; sleeve bends and eyelid aperture still differ slightly from actual source, front bang and cream torso motif retained pending feedback. No speed acceptance.",
+      "known_issues": [
+        "Whole cropped Klee cel retains two dark gloves and short tails, no source person or text. Approximate lower wrist and shoulder redraw; sleeve bends and eyelid aperture still differ slightly from actual source, front bang and cream torso motif retained pending feedback. No speed acceptance."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3277-v1.json",
+      "sha256": "62ee4775b5610e7e83d589b109349060fd675ab68e545a1bab1023c2707fcbb1"
+    },
+    {
+      "source_frame": 3279,
+      "path": "generated/oct7-bulk-ending-f3279-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Full Klee draft holds curled-glove pose with no letters or old person. Eyelids and collar geometry differ mildly and front bang remains large; source held pose has small draft line variation. User deferred refinement and temporal review.",
+      "known_issues": [
+        "Full Klee draft holds curled-glove pose with no letters or old person. Eyelids and collar geometry differ mildly and front bang remains large; source held pose has small draft line variation. User deferred refinement and temporal review."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3279-v1.json",
+      "sha256": "b7711e89407b29c71357fc3071f3fed8f8056fa247d87a130fba35ce6ca7bb85"
+    },
+    {
+      "source_frame": 3287,
+      "path": "generated/oct7-bulk-ending-f3287-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Two cropped brown boots and light legs, near up-right toe and far top-right foot; no unwanted body. Cream top height and original slipper-to-boot silhouette differ; draft continuity and final layer mattes pending.",
+      "known_issues": [
+        "Two cropped brown boots and light legs, near up-right toe and far top-right foot; no unwanted body. Cream top height and original slipper-to-boot silhouette differ; draft continuity and final layer mattes pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3287-v1.json",
+      "sha256": "e14cd4ce79fcb6a7f31148b1bb663995283a54d05611e5d54b9ae69392a36138"
+    },
+    {
+      "source_frame": 3291,
+      "path": "generated/oct7-bulk-ending-f3291-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Two cropped boots with near horizontal sole and far angled descending boot; no face or body invented. Bare shin length and boot cuff volume approximate, generated brown solid and source pose accepted false.",
+      "known_issues": [
+        "Two cropped boots with near horizontal sole and far angled descending boot; no face or body invented. Bare shin length and boot cuff volume approximate, generated brown solid and source pose accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3291-v1.json",
+      "sha256": "46e81d74990af17cc2df7c6a5060d494541b02a05852c5cdf88319992db41a84"
+    },
+    {
+      "source_frame": 3295,
+      "path": "generated/oct7-bulk-ending-f3295-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Crossing Klee boot foreground correctly covers back boot and ankle; no extra body. Source slipper-to-boot silhouette adapted, cream top and front ankle overlap need final video feedback; temporal unaccepted.",
+      "known_issues": [
+        "Crossing Klee boot foreground correctly covers back boot and ankle; no extra body. Source slipper-to-boot silhouette adapted, cream top and front ankle overlap need final video feedback; temporal unaccepted."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3295-v1.json",
+      "sha256": "8de778f8ba66b4149a59c9839974cd746266469aa96d6b4eee7c748c181da18c"
+    },
+    {
+      "source_frame": 3299,
+      "path": "generated/oct7-bulk-ending-f3299-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole feet-only cel, moving left boot clipped by left edge and separated from right boot; correct two legs no torso. Brown boot shape source-pose approximation, front/heel lengths and cream cuff height drift pending user feedback; not artistically accepted.",
+      "known_issues": [
+        "Whole feet-only cel, moving left boot clipped by left edge and separated from right boot; correct two legs no torso. Brown boot shape source-pose approximation, front/heel lengths and cream cuff height drift pending user feedback; not artistically accepted."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3299-v1.json",
+      "sha256": "ac25acff75f144684184c9f0acab845a3539cdf00a9a0cc63135aa311d9877a5"
+    },
+    {
+      "source_frame": 3303,
+      "path": "generated/oct7-bulk-ending-f3303-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole feet-only Klee cel, left boot retreats off left edge and right boot remains low-right. Near bare shin and heel volume differ from source, no extra person or letters. All continuity and speed review deferred.",
+      "known_issues": [
+        "Whole feet-only Klee cel, left boot retreats off left edge and right boot remains low-right. Near bare shin and heel volume differ from source, no extra person or letters. All continuity and speed review deferred."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3303-v1.json",
+      "sha256": "4edb478f897a6b7350663442859fafb6793e6fe640e144f0d97e45c08a99b59d"
+    },
+    {
+      "source_frame": 3307,
+      "path": "generated/oct7-bulk-ending-f3307-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole feet-only two-boot cel, right boot toe stays right and left fragment persists at border. Cream cuff size and near shin tilt slightly drift versus adjacent draft; unaccepted first-pass asset.",
+      "known_issues": [
+        "Whole feet-only two-boot cel, right boot toe stays right and left fragment persists at border. Cream cuff size and near shin tilt slightly drift versus adjacent draft; unaccepted first-pass asset."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3307-v1.json",
+      "sha256": "75a9d3eec9b6aeef3125557f276556ce13cafd6cb9d9cbc878c7637e6adccbf3"
+    },
+    {
+      "source_frame": 3311,
+      "path": "generated/oct7-bulk-ending-f3311-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Two brown boots with plain cream top bands, clipped feet-only view maintained. Near cuff height and boot front line approximate source; no legs or body invented beyond source crop, all temporal acceptance deferred.",
+      "known_issues": [
+        "Two brown boots with plain cream top bands, clipped feet-only view maintained. Near cuff height and boot front line approximate source; no legs or body invented beyond source crop, all temporal acceptance deferred."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3311-v1.json",
+      "sha256": "dc6fc84cfb00867dfa3e88e45fc67deac36dfc9b4973ad8b3ad046696a06aef8"
+    },
+    {
+      "source_frame": 3313,
+      "path": "generated/oct7-bulk-ending-f3313-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole right-side Klee left-facing running profile, two spread brown gloves and stride legs, short tail and no source long hair. Costume simplification and visible rear tail/hat size not artistically accepted; speed check pending.",
+      "known_issues": [
+        "Whole right-side Klee left-facing running profile, two spread brown gloves and stride legs, short tail and no source long hair. Costume simplification and visible rear tail/hat size not artistically accepted; speed check pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3313-v1.json",
+      "sha256": "6eab40eb8ce9a039c6cf95f7b3a480f8fd5086c70e66fff5ef691569669c3917"
+    },
+    {
+      "source_frame": 3316,
+      "path": "generated/oct7-bulk-ending-f3316-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole Klee left profile with near leg down and bent back knee, palms lowered as source. Coat side silhouette and feather/hat height differ slightly, source yellow FX intentionally not baked into hand. Static draft only.",
+      "known_issues": [
+        "Whole Klee left profile with near leg down and bent back knee, palms lowered as source. Coat side silhouette and feather/hat height differ slightly, source yellow FX intentionally not baked into hand. Static draft only."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3316-v1.json",
+      "sha256": "1e6ba482a9d63d34ab880110e7f2580b6a2693ca7fb9527bb86a758f1efd2c2b"
+    },
+    {
+      "source_frame": 3320,
+      "path": "generated/oct7-bulk-ending-f3320-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Whole side-profile Klee and bent rear leg, two visible gloves. Turn-away head is not as advanced as source; yellow source-like sleeve particles were baked by tool despite separate FX restoration intent, flag for compositor/user feedback; static unaccepted.",
+      "known_issues": [
+        "Whole side-profile Klee and bent rear leg, two visible gloves. Turn-away head is not as advanced as source; yellow source-like sleeve particles were baked by tool despite separate FX restoration intent, flag for compositor/user feedback; static unaccepted."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3320-v1.json",
+      "sha256": "83a87081d07279ac9224f6061ba9a08df162f5c7bacac5585fec744f1d7d68df"
+    },
+    {
+      "source_frame": 3324,
+      "path": "generated/oct7-bulk-ending-f3324-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Three-quarter rear Klee with mostly hidden face and two short tails; foreground hand and bent back ankle order preserved approximately. Source pose lean and boot position differ slightly; baked yellow FX ownership needs compositor handling, unaccepted.",
+      "known_issues": [
+        "Three-quarter rear Klee with mostly hidden face and two short tails; foreground hand and bent back ankle order preserved approximately. Source pose lean and boot position differ slightly; baked yellow FX ownership needs compositor handling, unaccepted."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3324-v1.json",
+      "sha256": "c5037b5179e89d6a13a3cb09751951424bdda240c9b5d007338851e2e00a66b4"
+    },
+    {
+      "source_frame": 3328,
+      "path": "generated/oct7-bulk-ending-f3328-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Strict rear view Klee has no face and lifted boot sole, two short tails, arms spread and legs crossing. Added rear straps and cream hem adapt source silhouette; yellow particles baked in asset and need source-FX ownership review. No temporal acceptance.",
+      "known_issues": [
+        "Strict rear view Klee has no face and lifted boot sole, two short tails, arms spread and legs crossing. Added rear straps and cream hem adapt source silhouette; yellow particles baked in asset and need source-FX ownership review. No temporal acceptance."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3328-v1.json",
+      "sha256": "4c3aa3110c0fe5d24b93fc8fb696b7f606d2b59a01fab78f447578521049c4c7"
+    },
+    {
+      "source_frame": 3332,
+      "path": "generated/oct7-bulk-ending-f3332-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: RIGHT profile closed eye and tiny O, near hand outward, two boots bent crossing. No yellow particles. Foreground arm extended more than source foreshortening, boot axis and coat-pocket details approximate. Accepted false; temporal comparison pending.",
+      "known_issues": [
+        "Actual output viewed: RIGHT profile closed eye and tiny O, near hand outward, two boots bent crossing. No yellow particles. Foreground arm extended more than source foreshortening, boot axis and coat-pocket details approximate. Accepted false; temporal comparison pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3332-v1.json",
+      "sha256": "81fe9d16b18e5b4a15fd453547cb928088ca14a4189846ea82af91d61cc2353f"
+    },
+    {
+      "source_frame": 3336,
+      "path": "generated/oct7-bulk-ending-f3336-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: closed eyes front-three-quarter, both gloves and crossed legs. No yellow particles. Right arm less foreshortened than source, hands and coat details simplified, feather raises head silhouette. Accepted false; temporal pending.",
+      "known_issues": [
+        "Actual output viewed: closed eyes front-three-quarter, both gloves and crossed legs. No yellow particles. Right arm less foreshortened than source, hands and coat details simplified, feather raises head silhouette. Accepted false; temporal pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3336-v1.json",
+      "sha256": "05731f00925525359721c0ecdfbe627bf8a5e9654e673504d451a0204278362c"
+    },
+    {
+      "source_frame": 3340,
+      "path": "generated/oct7-bulk-ending-f3340-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: front leaning left, eyes closed O mouth, spread arms, two boots. No yellow particles. Left knee/boot bend flatter and lower than original, costume outline approximate. Accepted false; temporal pending.",
+      "known_issues": [
+        "Actual output viewed: front leaning left, eyes closed O mouth, spread arms, two boots. No yellow particles. Left knee/boot bend flatter and lower than original, costume outline approximate. Accepted false; temporal pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3340-v1.json",
+      "sha256": "df4c34faf3df373ba92db596c27ec664a5a8d2942fafe96396f1bf8a7848a2ad"
+    },
+    {
+      "source_frame": 3344,
+      "path": "generated/oct7-bulk-ending-f3344-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: closed eyes O mouth, outward downward arms, two boots and short tails. Source lower left leg straightness approximated; left boot toe orientation differs and front curled bang added. No old person, letters or yellow particles visible. Accepted false; temporal review pending.",
+      "known_issues": [
+        "Actual output viewed: closed eyes O mouth, outward downward arms, two boots and short tails. Source lower left leg straightness approximated; left boot toe orientation differs and front curled bang added. No old person, letters or yellow particles visible. Accepted false; temporal review pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3344-v1.json",
+      "sha256": "6fa7e5056209a51e0ffbb03468d0e137dad36ad5feb346aea0ffa5c76069fa72"
+    },
+    {
+      "source_frame": 3349,
+      "path": "generated/oct7-bulk-ending-f3349-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: whole Klee closed eyes O mouth, spread fingers, straight left leg and folded right leg; no yellow particles or text. Hat/feather larger and eyes tilted, bang no longer overlaps mouth. Boot-toe direction approximately source, pose fidelity and temporal unaccepted.",
+      "known_issues": [
+        "Actual output viewed: whole Klee closed eyes O mouth, spread fingers, straight left leg and folded right leg; no yellow particles or text. Hat/feather larger and eyes tilted, bang no longer overlaps mouth. Boot-toe direction approximately source, pose fidelity and temporal unaccepted."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3349-v1.json",
+      "sha256": "a473944c87a27eae75edcb42d3d3ce36599bd82f83dcbef98fbaa7af27eb38ac"
+    },
+    {
+      "source_frame": 3353,
+      "path": "generated/oct7-bulk-ending-f3353-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: closed eyes bigger O, both palms raised V, left leg down and right folded; no source person or letters or yellow. Character/hat enlarged relative to source and arm raise stronger, cream collar simplification. Accepted false; defer full-film feedback.",
+      "known_issues": [
+        "Actual output viewed: closed eyes bigger O, both palms raised V, left leg down and right folded; no source person or letters or yellow. Character/hat enlarged relative to source and arm raise stronger, cream collar simplification. Accepted false; defer full-film feedback."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3353-v1.json",
+      "sha256": "6e51ea76fcc1bfa8d934da3ba92c5ea85af6ba87d0745d6c4772d4a2e76345de"
+    },
+    {
+      "source_frame": 3357,
+      "path": "generated/oct7-bulk-ending-f3357-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: closed eyes O, V palms, left straight and right folded legs. Draft mostly repeats previous arm pose despite actual source raise, figure hat scale larger. No old person or yellow particles visible. Accepted false; deferred variation accuracy and temporal review.",
+      "known_issues": [
+        "Actual output viewed: closed eyes O, V palms, left straight and right folded legs. Draft mostly repeats previous arm pose despite actual source raise, figure hat scale larger. No old person or yellow particles visible. Accepted false; deferred variation accuracy and temporal review."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3357-v1.json",
+      "sha256": "609a285c0306bc9fb91384ab7f7e25d1f4fcc4e375acf579c4be9a59fbeb0bcc"
+    },
+    {
+      "source_frame": 3364,
+      "path": "generated/oct7-bulk-ending-f3364-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: outward horizontal brown fingers, closed eyes and O, folded leg. Visible lower blonde hair tufts beneath both sleeves in addition to side tails give excess hair volume; do not propagate as identity. Bigger head/hat and limb silhouettes approximate. Deferred artistic repair, accepted false.",
+      "known_issues": [
+        "Actual output viewed: outward horizontal brown fingers, closed eyes and O, folded leg. Visible lower blonde hair tufts beneath both sleeves in addition to side tails give excess hair volume; do not propagate as identity. Bigger head/hat and limb silhouettes approximate. Deferred artistic repair, accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3364-v1.json",
+      "sha256": "ed7e1b777cfb0b569eba3217abf8c9a282f0785c13eb756d05843b88e1c0ca31"
+    },
+    {
+      "source_frame": 3369,
+      "path": "generated/oct7-bulk-ending-f3369-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: outward five-finger gloves, closed eyes O and right knee foreground hiding boot. Extra blonde hair tufts below both sleeves persist despite constraint, no original pink but silhouette excess; do not use as identity anchor. Head scale and hand spread larger. Deferred repair, accepted false.",
+      "known_issues": [
+        "Actual output viewed: outward five-finger gloves, closed eyes O and right knee foreground hiding boot. Extra blonde hair tufts below both sleeves persist despite constraint, no original pink but silhouette excess; do not use as identity anchor. Head scale and hand spread larger. Deferred repair, accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3369-v1.json",
+      "sha256": "9e924de7d16f5e627cd3f0d5d550856a5d7b63c0f97391b4e54dd515b6830f7b"
+    },
+    {
+      "source_frame": 3374,
+      "path": "generated/oct7-bulk-ending-f3374-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: correct right lean with high left open glove and low right glove, straight right kick, only two short tails. Clothing style drifts to pocketed coat, laced collar and floral boot decorations, sleeve/leg axes approximate. No old person or text/yellow particles. Accepted false.",
+      "known_issues": [
+        "Actual output viewed: correct right lean with high left open glove and low right glove, straight right kick, only two short tails. Clothing style drifts to pocketed coat, laced collar and floral boot decorations, sleeve/leg axes approximate. No old person or text/yellow particles. Accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3374-v1.json",
+      "sha256": "1f910be73ce6798dc01cac7a7ae03442cfa28e0e958e2a4e36ae0828f9e264c0"
+    },
+    {
+      "source_frame": 3381,
+      "path": "generated/oct7-bulk-ending-f3381-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: left arm higher, right lower, right kick lower and two short tails; plain boots achieved. Collar still fur-like scalloped and coat detail drift; head remains oversized and tilt approximate. No original person or yellow/text. Static only accepted false.",
+      "known_issues": [
+        "Actual output viewed: left arm higher, right lower, right kick lower and two short tails; plain boots achieved. Collar still fur-like scalloped and coat detail drift; head remains oversized and tilt approximate. No original person or yellow/text. Static only accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3381-v1.json",
+      "sha256": "2b9ca9680def83e23c56359613e726d73107ad5230ae7052ccae5a6f18066cb8"
+    },
+    {
+      "source_frame": 3388,
+      "path": "generated/oct7-bulk-ending-f3388-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: right lean, closed eyes O, highleft and lowright gloves, longlegs. Mouth redrawn smaller but hand/limb movement mostly freezes previous draft despite source variation. Collar scallop and coat details persist. No originalpink or text/yellow. Accepted false.",
+      "known_issues": [
+        "Actual output viewed: right lean, closed eyes O, highleft and lowright gloves, longlegs. Mouth redrawn smaller but hand/limb movement mostly freezes previous draft despite source variation. Collar scallop and coat details persist. No originalpink or text/yellow. Accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3388-v1.json",
+      "sha256": "54f07b445201e810c3bf5af81402b5d063d4fae829af243fe8fc5b0bd74a81ee"
+    },
+    {
+      "source_frame": 3390,
+      "path": "generated/oct7-bulk-ending-f3390-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: TWO Klee, giant foreground half-open red eyes O right/top/bottom cropped; background closedeyes right lean. Foreground does not cover as much background head as source due altered hat/hair contour; background hand remains more visible. Two identities replaced with no pinkhair. Scale/overlap and ornate collar deferred, accepted false.",
+      "known_issues": [
+        "Actual output viewed: TWO Klee, giant foreground half-open red eyes O right/top/bottom cropped; background closedeyes right lean. Foreground does not cover as much background head as source due altered hat/hair contour; background hand remains more visible. Two identities replaced with no pinkhair. Scale/overlap and ornate collar deferred, accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3390-v1.json",
+      "sha256": "d0b31522f13202fbf9ca7f5df8aad1f05f486d76ee384e84cd5abfb2b1cac80b"
+    },
+    {
+      "source_frame": 3392,
+      "path": "generated/oct7-bulk-ending-f3392-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: TWO Klee, foreground moved left and covers backgroundface/rightarm, halfopen redeyes horizontal O. No old pink person visible. Foreground lower ponytail covers more legs than source and head proportions/collar drift. Both identities and overlap approximately established, accepted false temporal pending.",
+      "known_issues": [
+        "Actual output viewed: TWO Klee, foreground moved left and covers backgroundface/rightarm, halfopen redeyes horizontal O. No old pink person visible. Foreground lower ponytail covers more legs than source and head proportions/collar drift. Both identities and overlap approximately established, accepted false temporal pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3392-v1.json",
+      "sha256": "4ddb48545880e829edbd5242a72a2a89b03195add4940505e86d833cee3fd53a"
+    },
+    {
+      "source_frame": 3395,
+      "path": "generated/oct7-bulk-ending-f3395-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: TWO Klee foreground hidesbackgroundhead, smallvertical O halfopen redeyes; no originalpink or letters. Background exposure roughlysame but big curl/ponytail reshapes occlusion and foremouth sits above source. Deferred pose amplitude/collar contours, accepted false.",
+      "known_issues": [
+        "Actual output viewed: TWO Klee foreground hidesbackgroundhead, smallvertical O halfopen redeyes; no originalpink or letters. Background exposure roughlysame but big curl/ponytail reshapes occlusion and foremouth sits above source. Deferred pose amplitude/collar contours, accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3395-v1.json",
+      "sha256": "c2d03ae97da0eccb519c7f64f4eba80a45a193dc787c915d8a22c4d785c3ef4a"
+    },
+    {
+      "source_frame": 3398,
+      "path": "generated/oct7-bulk-ending-f3398-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: giant LEFT profile one narrow redeye puckered dot, hidesbackgroundhead/rightleg; backgroundleft glove now too exposed against source finger tips only. Foregroundshorttail and identity replaced, collar/hatdecor oversize and edgepositionapproximate. No pink oldperson or yellow/text. Accepted false.",
+      "known_issues": [
+        "Actual output viewed: giant LEFT profile one narrow redeye puckered dot, hidesbackgroundhead/rightleg; backgroundleft glove now too exposed against source finger tips only. Foregroundshorttail and identity replaced, collar/hatdecor oversize and edgepositionapproximate. No pink oldperson or yellow/text. Accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3398-v1.json",
+      "sha256": "ff68346142e4629031eb7f22c181b41ce3154105de52fa631a60945c5c9a8658"
+    },
+    {
+      "source_frame": 3401,
+      "path": "generated/oct7-bulk-ending-f3401-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: strict giant rear head, no face/hands/body/backgroundperson, redberet blondebackhead and two tied sideponies croppedbottom. Source head rim geometry adapted to beret and feather large; extra hair shading generated despite flat request. Scale/crop approx, accepted false temporal pending.",
+      "known_issues": [
+        "Actual output viewed: strict giant rear head, no face/hands/body/backgroundperson, redberet blondebackhead and two tied sideponies croppedbottom. Source head rim geometry adapted to beret and feather large; extra hair shading generated despite flat request. Scale/crop approx, accepted false temporal pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3401-v1.json",
+      "sha256": "7571495958143e062b57421f624c774afc300b9b896f76c88f1c3106f91d8ad7"
+    },
+    {
+      "source_frame": 3403,
+      "path": "generated/oct7-bulk-ending-f3403-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: foregroundleft closedeyes pucker, backgroundheadedge/rightbrownfist partlyvisible. Small MAUVE source-like body strip remains behind lower foreground right hair aroundx830y760, explicitly unresolved draft defect; do not propagate. Foregroundtailslarger/morevolume/collardrift. Accepted false temporal pending.",
+      "known_issues": [
+        "Actual output viewed: foregroundleft closedeyes pucker, backgroundheadedge/rightbrownfist partlyvisible. Small MAUVE source-like body strip remains behind lower foreground right hair aroundx830y760, explicitly unresolved draft defect; do not propagate. Foregroundtailslarger/morevolume/collardrift. Accepted false temporal pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3403-v1.json",
+      "sha256": "26517295ff2b56987201042bd05c62b6ef4cd9c1a2079625e8ce7fd382115705"
+    },
+    {
+      "source_frame": 3405,
+      "path": "generated/oct7-bulk-ending-f3405-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: foregroundclosedeyespucker held; backgroundright brownfist lifted and cuffforeshortened. Small MAUVE source-like strip lowerbehindhair remains despite recolorconstraint; flagged unresolved and will not anchor nextcall. Identity/overlap approximate noartisticPASS, acceptedfalse.",
+      "known_issues": [
+        "Actual output viewed: foregroundclosedeyespucker held; backgroundright brownfist lifted and cuffforeshortened. Small MAUVE source-like strip lowerbehindhair remains despite recolorconstraint; flagged unresolved and will not anchor nextcall. Identity/overlap approximate noartisticPASS, acceptedfalse."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3405-v1.json",
+      "sha256": "e414b908d528e7b50713fb71bd3dbd2171dfbd2882b0536632ca1b3734185b21"
+    },
+    {
+      "source_frame": 3406,
+      "path": "generated/oct7-bulk-ending-f3406-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: leftforeground CLOSEDeyes triangle mouth, backgroundpartialclosedface/rightfist/redtorso. No mauve strip seen now, no sourcepinkletters. Backgroundface moreexposed and foregroundhair shape simplified/smaller than prior, hat/collar scale drift. Accepted false artistic/temporal pending.",
+      "known_issues": [
+        "Actual output viewed: leftforeground CLOSEDeyes triangle mouth, backgroundpartialclosedface/rightfist/redtorso. No mauve strip seen now, no sourcepinkletters. Backgroundface moreexposed and foregroundhair shape simplified/smaller than prior, hat/collar scale drift. Accepted false artistic/temporal pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3406-v1.json",
+      "sha256": "98732fd119ebf546c756fe59658569a4fe4b82519d2e54dec0f6fd349b9010ac"
+    },
+    {
+      "source_frame": 3409,
+      "path": "generated/oct7-bulk-ending-f3409-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actual output viewed: leftforeground closedeyes triangle, background halfopenred eyes/rightfist/bootfragment; redtorso no mauve seen. Source bang mouth overlap is not preserved due short hair so background mouth absent despite exposedface; log as draft defect. Coat ornament and collar details drift, accepted false.",
+      "known_issues": [
+        "Actual output viewed: leftforeground closedeyes triangle, background halfopenred eyes/rightfist/bootfragment; redtorso no mauve seen. Source bang mouth overlap is not preserved due short hair so background mouth absent despite exposedface; log as draft defect. Coat ornament and collar details drift, accepted false."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3409-v1.json",
+      "sha256": "43258fd0656fcf905d3648c628f139c2224a1fb9bf4e6d91ddfbaa59a9059476"
+    },
+    {
+      "source_frame": 3411,
+      "path": "generated/oct7-bulk-ending-f3411-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed exact builtin output. Two Klee identities and inward bent background right forearm achieved, fist hides small background mouth instead of blank visible lower face. Foreground held closed eyes tiny open triangle. Background face and coat much more exposed than actual source overlap because shorter hair; head scales collar details and glove contour approximations. No old mauve body seen. Unaccepted one-pass draft, speed-level adjacent temporal review still pending.",
+      "known_issues": [
+        "Actually viewed exact builtin output. Two Klee identities and inward bent background right forearm achieved, fist hides small background mouth instead of blank visible lower face. Foreground held closed eyes tiny open triangle. Background face and coat much more exposed than actual source overlap because shorter hair; head scales collar details and glove contour approximations. No old mauve body seen. Unaccepted one-pass draft, speed-level adjacent temporal review still pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3411-v1.json",
+      "sha256": "e7ab96224af7493580f8acb1e24b247b7da12003f576d22087223dd414bfb6ad"
+    },
+    {
+      "source_frame": 3412,
+      "path": "generated/oct7-bulk-ending-f3412-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Source reveal transition achieved: giant foreground face exited leaving pale hair-only fragment at far left; centered full Klee half-open red eyes closed pout, right fist chest, left arm down-left. Leg placement and body scale approximate, costume pocket clovers and upcurled stray top bang drift from prior style. No original mauve seen. Accepted false, temporal speed check pending.",
+      "known_issues": [
+        "Actually viewed. Source reveal transition achieved: giant foreground face exited leaving pale hair-only fragment at far left; centered full Klee half-open red eyes closed pout, right fist chest, left arm down-left. Leg placement and body scale approximate, costume pocket clovers and upcurled stray top bang drift from prior style. No original mauve seen. Accepted false, temporal speed check pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3412-v1.json",
+      "sha256": "67849fa56cd5ce40e32f1ca2aa616abdaa27f1ebae26b08562dd35c7655163b7"
+    },
+    {
+      "source_frame": 3416,
+      "path": "generated/oct7-bulk-ending-f3416-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Wide open red eyes and small open O implemented; left giant hair removed completely one actor. Tool largely holds prior right leg angled stance despite source straightening right leg; right cuff rotation small motion approximate. Accepted false one-pass source/static reviewed only, speed review pending.",
+      "known_issues": [
+        "Actually viewed. Wide open red eyes and small open O implemented; left giant hair removed completely one actor. Tool largely holds prior right leg angled stance despite source straightening right leg; right cuff rotation small motion approximate. Accepted false one-pass source/static reviewed only, speed review pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3416-v1.json",
+      "sha256": "f01dee5812cec4fed43fbe8ef9ed1d550e1c47fb8bc95e386bf28807ac501a36"
+    },
+    {
+      "source_frame": 3420,
+      "path": "generated/oct7-bulk-ending-f3420-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Left fist raised with bent elbow and right fist near shoulder; both legs parallel vertical now implemented, wide red eyes open O. Hand shapes and head scale approximate; previous coat ornamental pocket clovers retained. No old character fragments seen. Accepted false, actual speed continuity check pending.",
+      "known_issues": [
+        "Actually viewed. Left fist raised with bent elbow and right fist near shoulder; both legs parallel vertical now implemented, wide red eyes open O. Hand shapes and head scale approximate; previous coat ornamental pocket clovers retained. No old character fragments seen. Accepted false, actual speed continuity check pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3420-v1.json",
+      "sha256": "8e5495b13a199fc0f2d380f5e2a9b11274351079bd32033c3f0383131ad782ce"
+    },
+    {
+      "source_frame": 3424,
+      "path": "generated/oct7-bulk-ending-f3424-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Source character hold retained very closely in full Klee, wide red eyes open O raised bent fists parallel vertical legs; background stars shifted per current. Minor contour collar and face redrawing drift remains, not pixel-identical hold. Accepted false, speed review pending.",
+      "known_issues": [
+        "Actually viewed. Source character hold retained very closely in full Klee, wide red eyes open O raised bent fists parallel vertical legs; background stars shifted per current. Minor contour collar and face redrawing drift remains, not pixel-identical hold. Accepted false, speed review pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3424-v1.json",
+      "sha256": "a60a73934c73c54161fb39282beeac67fce104733d7925726bb226d2a040627e"
+    },
+    {
+      "source_frame": 3427,
+      "path": "generated/oct7-bulk-ending-f3427-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Left fist moved inward up with cuff rotation and left knee bent/shin angled left implemented. Red eye aperture became half-open versus requested source rounded open; logged expression drift. Boot toe angle and torso translation approximate. All visible actor Klee no old mauve. Accepted false, speed continuity pending.",
+      "known_issues": [
+        "Actually viewed. Left fist moved inward up with cuff rotation and left knee bent/shin angled left implemented. Red eye aperture became half-open versus requested source rounded open; logged expression drift. Boot toe angle and torso translation approximate. All visible actor Klee no old mauve. Accepted false, speed continuity pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3427-v1.json",
+      "sha256": "2e55bcc06431c56b4dcdb1e3b16531d5c0787bf7810e5db56d8c712b5b315d6b"
+    },
+    {
+      "source_frame": 3432,
+      "path": "generated/oct7-bulk-ending-f3432-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Both separate brown fists inward almost touching under chin with cuff overlaps achieved; left bent knee remains. Red eyes remain half-open inherited approximation source rounded aperture, open O retained. Sleeve orientation and pose scale approximate. No old mauve. Accepted false speed continuity pending.",
+      "known_issues": [
+        "Actually viewed. Both separate brown fists inward almost touching under chin with cuff overlaps achieved; left bent knee remains. Red eyes remain half-open inherited approximation source rounded aperture, open O retained. Sleeve orientation and pose scale approximate. No old mauve. Accepted false speed continuity pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3432-v1.json",
+      "sha256": "e128fbbb3f6ca3500879bf6879d286fc0bfe464a74ec0b80c2aed26d073efcd4"
+    },
+    {
+      "source_frame": 3437,
+      "path": "generated/oct7-bulk-ending-f3437-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Fists slightly lower and cream cuffs diagonally oriented inward; tool does not fully form source X crossing and instead side-by-side cuffs/knuckles like prior. Left leg partly straightened but still bent more than source. Eyes half-open inherited approximation, open O retained. Accepted false no artistic retry speed continuity pending.",
+      "known_issues": [
+        "Actually viewed. Fists slightly lower and cream cuffs diagonally oriented inward; tool does not fully form source X crossing and instead side-by-side cuffs/knuckles like prior. Left leg partly straightened but still bent more than source. Eyes half-open inherited approximation, open O retained. Accepted false no artistic retry speed continuity pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3437-v1.json",
+      "sha256": "06ea3ec52ae9201a72ed75efefa34c0aeab475b35a68bc0e70fe4b46f1b825b5"
+    },
+    {
+      "source_frame": 3440,
+      "path": "generated/oct7-bulk-ending-f3440-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Character held very close to3437 and stars shifted current source. Inherited side-by-side cuff rather than source fully crossed X approximation and half-open red-eye aperture remain, logged not retry. Accepted false actual speed check pending.",
+      "known_issues": [
+        "Actually viewed. Character held very close to3437 and stars shifted current source. Inherited side-by-side cuff rather than source fully crossed X approximation and half-open red-eye aperture remain, logged not retry. Accepted false actual speed check pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3440-v1.json",
+      "sha256": "19245d9c9c93a7c11e2c2a76d04b760d31c5defd556f5a86329a2ac0f4df449f"
+    },
+    {
+      "source_frame": 3443,
+      "path": "generated/oct7-bulk-ending-f3443-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Tiny closed inverted-v pout and straighter legs implemented. Clasped glove detail overlaps but hand mass still two bulky fists and extra upper brown knuckle bump unlike source slim clasp; cuffs source angle approximate. Half-open red eyes persist. Accepted false no retry, speed continuity pending.",
+      "known_issues": [
+        "Actually viewed. Tiny closed inverted-v pout and straighter legs implemented. Clasped glove detail overlaps but hand mass still two bulky fists and extra upper brown knuckle bump unlike source slim clasp; cuffs source angle approximate. Half-open red eyes persist. Accepted false no retry, speed continuity pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3443-v1.json",
+      "sha256": "f71aede0e40f0af71a84e5a39d85f144a786b2247fe91886b6020790a7011973"
+    },
+    {
+      "source_frame": 3448,
+      "path": "generated/oct7-bulk-ending-f3448-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Clasped brown gloves lifted to mouth level and hide mouth lower face correctly, half-open red eyes held; wrists/cuffs separate. Hand cluster still broad two-fist/upper-knuckle shape instead of slim native clasp, legs slight kink rather than exact straight. Accepted false one-pass draft speed continuity pending.",
+      "known_issues": [
+        "Actually viewed. Clasped brown gloves lifted to mouth level and hide mouth lower face correctly, half-open red eyes held; wrists/cuffs separate. Hand cluster still broad two-fist/upper-knuckle shape instead of slim native clasp, legs slight kink rather than exact straight. Accepted false one-pass draft speed continuity pending."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3448-v1.json",
+      "sha256": "055f6643624bf5c36305a42c4771cbdea6e15b3173ce646940b4de618acab0a9"
+    },
+    {
+      "source_frame": 3454,
+      "path": "generated/oct7-bulk-ending-f3454-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed. Blink fully closed eyes with no red irises and tiny mouth dot above mouth-level clasp achieved. Character nearly held3448, broad compact-glove knuckle silhouette differs slim original clasp and tiny knee kink remains. No old pink/mauve or subtitles visible. Accepted false source/static review only speed check pending. Ending owner last assigned frame completed without retries.",
+      "known_issues": [
+        "Actually viewed. Blink fully closed eyes with no red irises and tiny mouth dot above mouth-level clasp achieved. Character nearly held3448, broad compact-glove knuckle silhouette differs slim original clasp and tiny knee kink remains. No old pink/mauve or subtitles visible. Accepted false source/static review only speed check pending. Ending owner last assigned frame completed without retries."
+      ],
+      "job": "qa\\oct7-bulk-ending\\job-f3454-v1.json",
+      "sha256": "4da575319c18eed79647d008ff2a0965b96b0ba71caa05d8d5884a50933707f7"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "fast-fullpv-dance-f0907-source-v2",
+  "source_frame": 907,
+  "canonical_cel": "cel-0166",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0907-source-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0452-f0907.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0907-f0908-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current source907 edit target; exact current head crop/pose/positions authority",
+    "Klee short blonde ear-rooted groups/simple beret identity ONLY",
+    "Crimson eye color only for cyan profile",
+    "Actual source907→908 changes for difference context; do not draw next908/current mouth must stay907"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE full 16:9 independent PV cel at SOURCE907. Image1 CURRENT EDIT TARGET is sole authority for pose, head scale, locations, visibility, TWO people and occlusion. Image2 Klee identity short rooted neck-side twin-tails/simple clover beret ONLY, not its full-body pose or frontal proportions. Image3 crimson iris/highlight color ONLY. Image4 source907(A)-908(B) actual RGB/two-color contours is movement CONTEXT: draw CURRENT907 image1, NOT future908 shifted-left/tilted pose. Previous draft907 head was ~92 native pixels too far RIGHT causing a compensation jump next frame, so reset from original907 source. Foreground warm giant Klee face cut by TOP/LEFT, current source CLOSED near-level thick eyelids, tiny OPEN TRIANGULAR mouth at x28% of canvas/y69%, chin at x28%/y89%; current face must NOT land at x33% or the next908 x20%. Follow current eyebrows, near level eye-line, face tilt, visible face scale; source right closed lid around x35%, left around x16%. Red beret replaces all animal sleep mask, short warm blonde fringe, pointed ears and ONLY short rooted ear/neck side-groups replace long peach hair, partial plain two-leaf cream collar and red shoulder. Rear is separate cool BLUE/CYAN night-tinted Klee facing strictly RIGHT at same current location, one open RED eye with current gaze, tiny dot mouth, current nose/chin/neck profile; subdued burgundy clover beret and cropped pale feather, short blonde side hair under cyan light. Warm foreground near ponytail sits in FRONT of rear neck/chest, rear head/hat behind foreground. No hands, legs or invented complete bodies are visible; do not add any. Keep source blue night field, tiny stars/crescent, warm foreground/night rear contrast. OMIT Chinese/Japanese text for separately restored original glyphs. Simplified flat original PV blocks, irregular black outlines, minimal shading, no elaborate collar motifs/pompom. Exactly two Klee portraits; no old character hair or mask, no extra detached hair fan, no collage, hold, mirror, flow or morph.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-96cc52a3-9940-476d-adb8-97f34f18c347.png",
+  "static_review": "Foreground triangle now x27.5% and nearly level closed lids, matching current907 position instead of previous33%; source-dominant redraw retains two Klee portraits/cyan right-profile and front-on-rear order, no invented visible hands/legs. Slight shading and simplified collar remain. Composite/speed group pending.",
+  "known_issues": [
+    "Exact hair/collar/beret contour and mild shading approximate",
+    "Rear clover detail differs neighboring cels"
+  ],
+  "blocking_static_findings": []
+}

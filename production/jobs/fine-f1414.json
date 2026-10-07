@@ -1,0 +1,32 @@
+{
+  "source_frame": 1414,
+  "prompt": "Use case: identity-preserve. Edit Image1 CURRENT ORIGINAL PV into Klee in-place, one full original 1920x1080 canvas. Image2 is SAME CURRENT SOURCE HEAD enlarged and has sole head/eye/tilt geometry authority. Image3 supplies ONLY the red clover beret, feather and pale-blonde identity, NO facial/pose authority. Image4 supplies ONLY existing Klee costume design/cut/color, no head pose or joint placement. Image5 is actual source A/B, RGB difference and contour overlay, no output panels. Preserve the small original seated centered figure occupying x39..60%, y23..73%, boot soles at original y72%, knees raised together, crossed forearms across knees around y48..53%, both hands tucked FULLY behind opposing sleeves, never visible extra glove pairs on top. Exactly TWO short pale-blonde ponytails with roots by pointed ears, restrained volumes replacing original long hair. Red cream-clover beret, white feather, redcoat creamtrim folding around raised knees, pale bare knees and cream socktops, two round brown boots, modest brown backpack partly behind viewer-right shoulder. REMOVE original rabbit sleep mask completely. Original sleepy dot mouth and orangecheeks. If irises visible their WHOLE fill is muted RED, no blue source iris carried over. Loose uneven dark PV contours, flat patches, minimal shadow, not polished game art. Keep current source backdrop/text/credits layout; compositor restores exact already-visible original pixels. No new text/caption/crop/panels/characters, no enlarged or lowered body. Independently redraw current sleeves, coat folds, legs, boots and head landmarks shown by current source, no frozen template. Current f1414: BOTH EYES CLOSED as short sleepy lines. Head remains CLOCKWISE toward viewer-right on the CURRENT source axis roughly8degrees, do not increase lean beyond source. This is an independent current redraw with small eyelid, bang, crossed sleeve, coat fold, boot contour and line-pressure differences from1409 shown in the source delta. Keep a clean cream collar directly under chin, no extra red oval/pom/scarf/third arm. Both hands stay hidden behind opposing sleeves. Maintain source small figure and exact foot floor, original credits untouched. Return this separate current drawing.",
+  "name": "fine-f1414.png",
+  "output": "generated/fine-f1414.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0852-f1414.png",
+      "role": "Current source pose/canvas"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1414.png",
+      "role": "Current source head"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only Klee identity"
+    },
+    {
+      "path": "qa/root-title-worker/costume-hidden-hands.png",
+      "role": "Costume only; no visible hands"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1409-f1414.png",
+      "role": "Actual source spatial delta"
+    }
+  ],
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Closed eyes/right lean and no extra collar red lobe, diagonally crossed sleeves improved. Feather and bang silhouettes differ from previous draft; baseline/lean amplitude temporal pending."
+}

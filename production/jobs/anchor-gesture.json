@@ -1,0 +1,14 @@
+{
+  "job_id": "anchor-gesture",
+  "status": "generated",
+  "target": "../../analysis/source_cels/source-cel-040.jpg",
+  "references": [
+    {
+      "path": "../../analysis/source_cels/source-cel-040.jpg",
+      "role": "current pose, crop, expression, original background"
+    }
+  ],
+  "output": "../generated/anchor-gesture.png",
+  "prompt": "Use case: identity-preserve. Asset type: a single replacement cel for an existing hand-drawn music PV. Edit the reference 1920x1080 frame, same 16:9 canvas, preserving original composition, exact pose, face location, camera crop, violet background, sketched stars and burned-in Japanese and Chinese subtitles. Replace only the visible character with Klee from Genshin Impact in her default red Shooting Spark outfit. Klee identity: pale blonde bangs with two short side ponytails, elf-like pointed ears, red beret with pale clover emblem and white feather on its side, red coat with cream trim, small red eyes when open, brown gloves. Match the original deliberately simple hand-drawn PV style: loose bold dark outlines, large simple flat color patches, restrained one-layer shading, orange blush ovals. This exact frame has both eyes CLOSED as simple horizontal dark lids, small open oval mouth, tilted head; screen-left hand has one index finger pointing up, screen-right hand touches/points to the hat with index extended. Keep hand positions and visible-finger anatomy, wrists and sleeves correctly connected. Klee's own short blonde ponytails replace original long pink hair, do not retain any original pink hair or animal sleep mask. Her beret must be drawn in the same head perspective. Preserve only the existing visible upper body; do not invent legs or additional offscreen limbs. Character's cream collar and red coat reflect same pose. Keep all stars, lettering, background outside changed character area; no new text or watermark, no panels. Output one complete replacement animation frame, not a reference sheet.",
+  "reason": "Candidate anchor; eyes closed and both hand positions match intended gesture. Needs original geometry, compositing and temporal review."
+}

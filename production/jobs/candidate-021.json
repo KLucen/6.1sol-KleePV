@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-a73dd807-f0a4-4c68-8b77-acf4b44430b1",
+  "candidate_id": 21,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Make ONE full16:9 hand-drawn PV frame by editing reference1 source-cel-021. Source1 determines NEW further downward/tighter crop: the shut chevron eyes are LOWER than prior020, centered around y63%; cheek circles partly cut by bottom edge, only TOP ARC of giant open mouth enters at BOTTOM, and top cropped sleep-mask band/hair fills upper third. No chin, collar, torso, arms or hands in this source crop. Preserve actual new brow/bang curves and asymmetric heavy eye stroke: both eyes black inward chevrons, right eye upperstroke more steep, lower stroke comparatively thin. Replace only pink hair/mask with Klee pale blonde hair and same cropped redberet brim, stable loose source lines/simple flat fill. Image2 identity/style, image3 candidate020 continuity colors/topology only; DO NOT freeze its mouth visibility or eye height. Preserve large YELLOW black-outlined star lower-right with current slightly rotated irregular source silhouette (about x92%,y86%), in front of hair and partially close to edge. Remove all bottom lyrics/letters/credits leaving clean skin/hair, text restored separately. Same full source crop, no zoomout, no added head/body, no panels or props.",
+  "references": [
+    "analysis/source_cels/source-cel-021.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-020.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-021.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Lower/tighter head crop, only top mouth arc visible at bottom; chevrons and brows repositioned source-like. Large tilted irregular yellow star near bottom-right matched. No captions."
+}

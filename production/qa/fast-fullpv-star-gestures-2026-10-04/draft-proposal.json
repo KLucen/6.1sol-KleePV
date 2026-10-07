@@ -1,0 +1,669 @@
+{
+  "owner": "star_gestures_batch2",
+  "accepted": false,
+  "mode": "strict_source",
+  "snapshot_utc": "2026-10-04T15:31:45.908419+00:00",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "selections": [
+    {
+      "source_cel": "cel-0206",
+      "source_frame": 1009,
+      "source_reference": "source_refs/src-0542-f1009.png",
+      "source_sha256": "af0419e86b7311f23ea3df45e23c208baa22f95eab430eed1c53f87ee0d35601",
+      "source_exposures": [
+        {
+          "start": 1009,
+          "end": 1010,
+          "pts": 42.042,
+          "end_pts": 42.083,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1009-fast-v1.png",
+      "sha256": "40d507204928415a06242e6e3f5ce4294ee3c9b18f08f2fef4c548713632b274",
+      "job_document": "jobs/star-gestures-f1009-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Both visible instances replaced",
+          "Sleepy open eyes and oval mouth",
+          "Warm foreground / blue-purple rear occlusion",
+          "No visible hands or added limbs",
+          "Short ponytail topology and plain two-leaf collar"
+        ],
+        "flaws": [
+          "Background and independent stars changed by imagegen; source layers must be retained during composition",
+          "Generated subtitle absent; original subtitle must be restored independently",
+          "Hat/clover and hair contour differ from unaccepted adjacent old drafts"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Background and independent stars changed by imagegen; source layers must be retained during composition",
+        "Generated subtitle absent; original subtitle must be restored independently",
+        "Hat/clover and hair contour differ from unaccepted adjacent old drafts"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0541-f1008.png",
+        "source_after": "source_refs/src-0543-f1010.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1009-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1009-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0207",
+      "source_frame": 1010,
+      "source_reference": "source_refs/src-0543-f1010.png",
+      "source_sha256": "d5cae5f2056eb2f6fb186cbf6b040486b416986c65e8251a136a3ae94eb1be0f",
+      "source_exposures": [
+        {
+          "start": 1010,
+          "end": 1011,
+          "pts": 42.083,
+          "end_pts": 42.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1010-fast-v1.png",
+      "sha256": "b6ac6ec0788dd9ccccb575f68394a292da63278a7d92e63dd654d9a34a2b28b5",
+      "job_document": "jobs/star-gestures-f1010-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Both visible instances replaced",
+          "Sleepy open eyes and oval mouth",
+          "Warm foreground / blue-purple rear occlusion",
+          "No hands added",
+          "Short ponytail and plain two-leaf collar retained"
+        ],
+        "flaws": [
+          "Original subtitle and stars need source-layer restoration",
+          "Fine rear-eye notch/ponytail ink differs slightly from f1009, matching independent redraw intent",
+          "Old adjacent f1011 collar/pompom structure differs; not adopted as reference"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Original subtitle and stars need source-layer restoration",
+        "Fine rear-eye notch/ponytail ink differs slightly from f1009, matching independent redraw intent",
+        "Old adjacent f1011 collar/pompom structure differs; not adopted as reference"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0542-f1009.png",
+        "source_after": "source_refs/src-0544-f1011.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1010-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1010-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0209",
+      "source_frame": 1012,
+      "source_reference": "source_refs/src-0545-f1012.png",
+      "source_sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+      "source_exposures": [
+        {
+          "start": 1012,
+          "end": 1013,
+          "pts": 42.167,
+          "end_pts": 42.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1012-fast-v1.png",
+      "sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+      "job_document": "jobs/star-gestures-f1012-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Both instances replaced",
+          "Current lower-left face shift, open oval mouth and sleepy eyes",
+          "Short hair and plain two-leaf collar"
+        ],
+        "flaws": [
+          "Original subtitle and source stars must be restored",
+          "Minor extra white iris highlights versus source"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Original subtitle and source stars must be restored",
+        "Minor extra white iris highlights versus source"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0544-f1011.png",
+        "source_after": "source_refs/src-0546-f1013.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1012-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1012-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0210",
+      "source_frame": 1013,
+      "source_reference": "source_refs/src-0546-f1013.png",
+      "source_sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+      "source_exposures": [
+        {
+          "start": 1013,
+          "end": 1014,
+          "pts": 42.208,
+          "end_pts": 42.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1013-fast-v1.png",
+      "sha256": "cccc1edb308dcbf3d23fa58ebe1bb2d56d2449c7e32afe2ebd53914ef24c443f",
+      "job_document": "jobs/star-gestures-f1013-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Two Klee figures retained in source overlap",
+          "Front sleepy eyes and oval mouth",
+          "Rear small spatial shift without long source-hair topology",
+          "Plain two-leaf collar"
+        ],
+        "flaws": [
+          "Generated subtitle differs in styling; source caption restoration required",
+          "Independent source stars/background changed",
+          "Minor added iris highlights"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Generated subtitle differs in styling; source caption restoration required",
+        "Independent source stars/background changed",
+        "Minor added iris highlights"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0545-f1012.png",
+        "source_after": "source_refs/src-0547-f1014.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1013-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1013-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0211",
+      "source_frame": 1014,
+      "source_reference": "source_refs/src-0547-f1014.png",
+      "source_sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+      "source_exposures": [
+        {
+          "start": 1014,
+          "end": 1017,
+          "pts": 42.25,
+          "end_pts": 42.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1014-fast-v1.png",
+      "sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "job_document": "jobs/star-gestures-f1014-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Current left-facing profile, one visible eye",
+          "Closed tiny mouth",
+          "Rear face hidden by source overlap",
+          "No added hands",
+          "Short ponytails and plain two-leaf collar"
+        ],
+        "flaws": [
+          "Small dark-blue upper iris band remains on warm foreground profile eye; color-detail review deferred",
+          "Source subtitle and original stars need independent restoration",
+          "Hair/hat details differ from old unaccepted backview f1017"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Small dark-blue upper iris band remains on warm foreground profile eye; color-detail review deferred",
+        "Source subtitle and original stars need independent restoration",
+        "Hair/hat details differ from old unaccepted backview f1017"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0546-f1013.png",
+        "source_after": "source_refs/src-0549-f1017.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1014-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1014-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0215",
+      "source_frame": 1023,
+      "source_reference": "source_refs/src-0555-f1023.png",
+      "source_sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+      "source_exposures": [
+        {
+          "start": 1023,
+          "end": 1025,
+          "pts": 42.625,
+          "end_pts": 42.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1023-fast-v1.png",
+      "sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "job_document": "jobs/star-gestures-f1023-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Both original instances replaced",
+          "Foreground near-frontal closed eyelids and triangular mouth",
+          "One rear visible hand, lowered outward sleeve",
+          "Short ponytails and plain two-leaf collar"
+        ],
+        "flaws": [
+          "Source caption absent and source background/stars need restoration",
+          "Rear coat/boot ornamental simplification differs from old adjacent draft",
+          "Minor fore cheek/mouth scale differs from source"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Source caption absent and source background/stars need restoration",
+        "Rear coat/boot ornamental simplification differs from old adjacent draft",
+        "Minor fore cheek/mouth scale differs from source"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0554-f1022.png",
+        "source_after": "source_refs/src-0557-f1025.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1023-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1023-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0216",
+      "source_frame": 1025,
+      "source_reference": "source_refs/src-0557-f1025.png",
+      "source_sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+      "source_exposures": [
+        {
+          "start": 1025,
+          "end": 1028,
+          "pts": 42.708,
+          "end_pts": 42.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1025-fast-v1.png",
+      "sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "job_document": "jobs/star-gestures-f1025-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Foreground shifted left and tilted as source",
+          "Both instances replaced",
+          "Closed foreground eyes and triangular mouth",
+          "One exposed rear glove and visible boots",
+          "Short ponytails and plain collar"
+        ],
+        "flaws": [
+          "Rear tiny mouth appears open triangular rather than closed caret; deferred expression-detail review, not accepted",
+          "Source subtitle absent; original stars/captions must be restored",
+          "Shortened foreground hair reveals more rear leg area than old long-hair source occlusion"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Rear tiny mouth appears open triangular rather than closed caret; deferred expression-detail review, not accepted",
+        "Source subtitle absent; original stars/captions must be restored",
+        "Shortened foreground hair reveals more rear leg area than old long-hair source occlusion"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0555-f1023.png",
+        "source_after": "source_refs/src-0560-f1028.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1025-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1025-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0218",
+      "source_frame": 1033,
+      "source_reference": "source_refs/src-0565-f1033.png",
+      "source_sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+      "source_exposures": [
+        {
+          "start": 1033,
+          "end": 1037,
+          "pts": 43.042,
+          "end_pts": 43.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1033-fast-v1.png",
+      "sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "job_document": "jobs/star-gestures-f1033-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Single full-body figure after foreground exit",
+          "Closed eyes and caret mouth",
+          "Two lowered arms and gloves, two legs and boots",
+          "Short ponytails, plain two-leaf collar, continuous coat hem"
+        ],
+        "flaws": [
+          "Source subtitle absent; original source background/stars need restoration",
+          "Minor sleeve/glove contour and cuff-height differences",
+          "Leg/coat proportions differ from old long-trouser source as character outfit adaptation"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Source subtitle absent; original source background/stars need restoration",
+        "Minor sleeve/glove contour and cuff-height differences",
+        "Leg/coat proportions differ from old long-trouser source as character outfit adaptation"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0560-f1028.png",
+        "source_after": "source_refs/src-0569-f1037.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1033-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1033-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0219",
+      "source_frame": 1037,
+      "source_reference": "source_refs/src-0569-f1037.png",
+      "source_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "source_exposures": [
+        {
+          "start": 1037,
+          "end": 1038,
+          "pts": 43.208,
+          "end_pts": 43.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1037-fast-v1.png",
+      "sha256": "6ff9a817ade9dbcdb286b5bc392c2b6344fab97eb81f8716c11d6899976d4632",
+      "job_document": "jobs/star-gestures-f1037-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Single standing Klee",
+          "Source near-still pose retained with independent tiny ink redraw",
+          "Closed eyelids and caret mouth",
+          "Two lowered sleeves/gloves and both planted boots",
+          "Short hair and plain collar"
+        ],
+        "flaws": [
+          "Source caption absent and stars/background need independent restoration",
+          "Minor glove outline changes from f1033"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Source caption absent and stars/background need independent restoration",
+        "Minor glove outline changes from f1033"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0565-f1033.png",
+        "source_after": "source_refs/src-0570-f1038.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1037-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1037-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    },
+    {
+      "source_cel": "cel-0220",
+      "source_frame": 1038,
+      "source_reference": "source_refs/src-0570-f1038.png",
+      "source_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "source_exposures": [
+        {
+          "start": 1038,
+          "end": 1043,
+          "pts": 43.25,
+          "end_pts": 43.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "path": "generated/star-gestures-f1038-fast-v1.png",
+      "sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "job_document": "jobs/star-gestures-f1038-fast-v1.json",
+      "accepted": false,
+      "static_review": {
+        "status": "full_output_viewed_source_and_adjacent_checked",
+        "matches": [
+          "Single standing figure, head shifts up/right toward upright source",
+          "Both sleeves wider/higher with two gloves",
+          "Closed eyelids and caret mouth",
+          "Two legs/boots, compact twin ponytails and plain two-leaf collar"
+        ],
+        "flaws": [
+          "Coat clover ornament omitted relative to f1033/1037, nonblocking outfit-detail variation",
+          "Source captions absent and original stars/background must be restored",
+          "Head displacement amplitude slightly less than source"
+        ],
+        "blocking_character_issue_observed": false,
+        "artistic_acceptance": "not_accepted",
+        "composite_review": "pending"
+      },
+      "known_issues": [
+        "Coat clover ornament omitted relative to f1033/1037, nonblocking outfit-detail variation",
+        "Source captions absent and original stars/background must be restored",
+        "Head displacement amplitude slightly less than source"
+      ],
+      "consecutive_review": {
+        "source_before": "source_refs/src-0569-f1037.png",
+        "source_after": "source_refs/src-0575-f1043.png",
+        "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1038-source-delta.png",
+        "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1038-source-next-delta.png",
+        "status": "static_source_and_adjacent_drafts_checked",
+        "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+      },
+      "static_contact_path": "qa\\fast-fullpv-star-gestures-2026-10-04\\new-drafts-contact.jpg"
+    }
+  ],
+  "summary": {
+    "new_unique_cels": 10,
+    "source_frames_supported": 22,
+    "independent_generation_outputs": 10,
+    "targeted_repairs": 0,
+    "artistically_accepted": 0,
+    "public_mapping_mutated_by_this_agent": false,
+    "compose_mutated_by_this_agent": false
+  },
+  "review_limits": "Static only; actual composition, caption/source-background restoration and original-speed artistic review pending"
+}

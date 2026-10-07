@@ -1,0 +1,31 @@
+{
+  "job_id": "fast-fullpv-dance-f0891-source-v2",
+  "source_frame": 891,
+  "canonical_cel": "cel-0159",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0891-source-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0437-f0891.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0889-hair-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "Current edit target; sole authority for pose, cropping, background dancer concealment and limbs",
+    "Previous Klee cel identity/topology continuity only, explicitly not current background-head pose",
+    "Short rooted blonde side groups and simple beret identity only",
+    "Crimson iris/highlight colors only"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE full 16:9 PV cel, source891. Image1 is CURRENT EDIT TARGET and sole authority for camera, scale, body lean, visible parts and occlusion. REPLACE BOTH original people with KLEE from Genshin, simplified in this source's flat hand-drawn PV line style. Image2 is previous Klee889 for identity/colors/short rooted twin-tail and clothing continuity ONLY, NOT positions or current visibility. Images3/4 supply ONLY short head hair topology/beret and crimson iris color. CRITICAL CORRECTION: at CURRENT891 the small BACKGROUND DANCER'S HEAD IS ENTIRELY HIDDEN BEHIND THE HUGE FOREGROUND HEAD; do NOT show a small face/ear/beret to the left or shift small torso/neck/head left. The small body retains current source torso angle, high-left arm with one spread palm just left of giant forehead, lower-right arm is occluded, two separated source leg directions and source boot positions. All hidden anatomy stays hidden. Visible rear clothing: plain red Klee coat, two-leaf cream collar only if current source visible, continuous cream hem, plain red shorts and brown boots, high open BROWN glove/cream cuff. Rear neckline simply terminates behind foreground silhouette. Foreground is giant warm Klee face filling RIGHT side, cut by TOP/RIGHT/BOTTOM with current tilted head and current face center, HALF-OPEN eyes with red irises/dark upper fill/curl highlights, tiny OPEN narrow oval O mouth at current source lower-right position. Replace giant animal sleep mask with red clover beret plus cropped feather; blonde fringe and ONLY SHORT rooted blonde neck-side groups, no old peach long hair. Keep foreground head OVER rear head/torso exactly in source current891 ordering. No invented full torso, extra hand, floating hair fan or detached pigtail. Flat purple source field, pale rough star pattern and independent yellow hand stars preserved in same composition; OMIT all Chinese/Japanese captions for separate source-glyph compositing. Flat simple color blocks, irregular thin black outlines, minimal shading; same short Klee hairstyle and simple two-leaf collar/plain hem schema as image2. One frame only, no collage, hold, mirror, morph, flow or copied889 pose.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-a35eac08-af45-4a06-b9b1-c9dbf23a1355.png",
+  "static_review": "Rear small face is now hidden behind huge foreground beret/head; high-left open glove and current separated legs retained; giant current tilted sleepy-red-eye/O face present. Source has a tiny rear side-hair/collar sliver, identity-adapted giant-beret concealment differs in residual extent. No extra limbs visible. Composite and original-speed checks pending.",
+  "known_issues": [
+    "Exact rear residual hair/collar sliver differs",
+    "Clothing motifs/boot badges and mild shading approximate"
+  ],
+  "blocking_static_findings": []
+}

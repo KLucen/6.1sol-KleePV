@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-26365702-80a9-4403-89fe-6fe55738810d",
+  "candidate_id": 3,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset type: one complete 16:9 hand-drawn PV cel. Reference 1 source-cel-003 is the edit target and solely sets camera crop, exact pose and occlusion. The character holds a large purple pillow raised directly in front of her face; the pillow covers ALL eyes, brows, upper face and hat. Keep that major key pose and exact pillow height/outline/blue patches. Preserve two hands clasping the pillow's side edges: left-hand fingers curl over left cream border around middle-left, right-hand fingers curl over the right cream border and are clipped by right frame edge. Render the visible hands as brown Klee gloves, with anatomically same curled fingers. Pillow FRONT of head/hair/torso, gloves FRONT of pillow borders, sleeves BEHIND gloves. Replace only visible pajama torso and pink hair below/behind the pillow with Klee default red coat cream trim/cuffs and pale blonde short ponytail ends. Reference 2 sets Klee identity and simplified style; reference 3 close-up Klee pillow cel sets continued colors/hair/line weight but NOT pose. DO NOT reveal Klee eyes, add face above pillow, add visible hat/feather out of crop or move pillow to fit identity. Preserve only original visible lower face/chin as in ref 1. Maintain oversized right-side close crop and all original purple background and left Chinese/Japanese subtitle text. Loose source-like black lines, flat broad colors, orange cheek accents only if visible, restrained shading. No montage or sheet, no extra objects.",
+  "references": [
+    "analysis/source_cels/source-cel-003.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-002.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-003.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Raised pillow fully obscures eyes/head/hat as source, both gloves grip borders correctly. Klee blonde ends and coat shown only below. Source broad pose retained."
+}

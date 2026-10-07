@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-fe0363e9-62a5-46c4-be9d-16783e820554",
+  "canonical_cel": "cel-0049",
+  "source_frame": 310,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Generate ONE full 16:9 animation cel, no sheet. Reference 1 is CURRENT original PV cel f0310 and is the absolute authority for crop, head/face location, eyelid shapes, palm/finger contacts, sleeve edges and the new mouth. Reference 2 is earlier Klee f0307, IDENTITY AND flat PV drawing style only; do not freeze its mouth or move current source geometry toward it. Reference 3 is source A/B difference: CURRENT is top-right, showing genuine local contour changes, NOT the output layout. Replace only original girl with default Klee: short attached blond two side ponytails, pointed ears, red beret cream clover and white feather on viewer-right, red cream coat patterned collar, cream cuffs and entirely brown gloves. Loose black contours, broad flat colors, orange cheek circles, restrained shading, same source purple canvas. Composition current closeup head at right, upper headgear cut by top edge, coat cropped below, both open palms cup cheeks with upright fingers from current source. Half-open sleepy round eyes with burgundy/red irises; maintain their asymmetric outlines and dark upper eyelids. Critical NEW mouth: LARGE near-round PINK open O/arched oval, about current-source x59.9-65.6 percent canvas, y65-73 percent; black perimeter has a small open gap at bottom. NOT prior thin white horizontal capsule, NOT thin pink slit. Adjust current palm finger gaps, cheek pressure, eyelid/bang contour and cuff outline as reference1 and diff. One attached ponytail per side, no lower duplicate hair wings. No captions, credits, symbols, lettering, speech bubble or bubble outline anywhere: remove all source text/bubble leaving clean purple. Do not add missing hands/body or props outside current crop. Full canvas, no annotation, no montage.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0092-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0307.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0310.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0310.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0307 to f0310: 136240 pixels >=28; clear white capsule to large pink round open O; palm, eyelid and bang outline redraw.",
+  "inspection": "Large pink near-round O with bottom gap correct; sleepy red eyes and full brown cheek palms remain, no text/bubble. Neighbor copied palm/eye geometry very strongly, current source micro-contour differences underrepresented. Spatial/current outline QA pending; not accepted continuity."
+}

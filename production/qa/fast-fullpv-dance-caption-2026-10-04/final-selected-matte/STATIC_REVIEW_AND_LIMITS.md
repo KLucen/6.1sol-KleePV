@@ -1,0 +1,11 @@
+# Final Selected Matte Caption Check
+
+This is an affected-input refresh only: all 15 actual native source frames f894..899 and f902..910. It uses selected f0894-source-v2 / f0897-source-v2 plus the six registered night assets. The prior `proposed/` 24-frame audit is retained as a baseline, not overwritten. Frames f900..901 and the earlier frozen cels were not rerendered in this check.
+
+The scoped night matte now supplies the actual own `new_subject` mask to the existing registered night caption layer. Sky repair happens before captions and has an explicit diagnostic declaration; neither old nor new caption helper was changed. Pale generic source recovery remains disabled in the existing registered dance caption phases. There is still no rectangular source coat, boot, collar or face recovery.
+
+All four `current-composite-caption-page-01..04.png` pages were viewed at native 2x scale, covering all 15 final affected source/composite caption pairs. The new f894/f897 assets have readable Chinese glyphs; the new night-matte composites keep both lines and the bounded contrast edge where required. The source's pale star crosses the earlier Japanese line and remains a known original-overlap limitation, not a promise of exact hidden glyph/AA recovery.
+
+All 15 have local registration offset `[0,0]`, zero observed-core BGR mismatch, zero halo outside actual explicit new subject, zero caption changes outside registered alpha/1px support, zero caption changes to previously untouched source and zero whole-composite changes outside diagnostic support. These statistics are support/RGB guards, not artistic acceptance. The fixed 1px edge is still limited to f897..910 registered real glyph support and actual edited bright low-contrast new character pixels; it is not applied to stars or unedited source.
+
+After night integration, five protected focused tests passed: the old V8 four full-composite pixel comparisons and the four clear-phase tests. The night-matte owner ran six module-specific tests. The old 56-frame caption regression and full project suite were not rerun, and no full-PV export was performed by this task. Final corrected encoding and original-speed review belong to the root's single final preview batch.

@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-093574c8-eed2-4895-be1c-9f346ddc6a7d",
+  "candidate_id": 6,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Make one complete wide 16:9 PV cel editing image 1 source-cel-006. Replace only pink pajama character with Genshin Klee. Image 1 sets all composition/pose: close-up at right, head tilted clockwise noticeably toward screen-right, BOTH eyes closed as thick dark slits, tiny triangular open mouth, both palms turned upward beside cheeks in a shrug (left palm beside left jaw, right palm lower beside right jaw). This is a NEW distinct key pose after cheek-cupping image 3; do not repeat image 3 hands touching cheeks or open eyes. Preserve source palm orientation, fingers curled/upright and wrist bends; brown gloves and red sleeves with cream cuffs. Hands lie in front of blonde hair, but beside the face, not on face. Image 2 Klee anchor sets identity: blonde short side ponytails/pointed ears, red beret cream clover white feather, red coat cream trim. Image 3 candidate005 only sets continued character colors/hat structure/line style. Replace sleep mask fully; follow exact original head tilt with Klee hat. Keep all camera crop, lavender background and left cream subtitle/speech bubble Chinese '果然不行', Japanese 'ダメだ' unchanged. Loose source-like dark outlines, flat broad color, orange blush and simple shadows. No pillow or extra props, no added body or new fingers, no panels.",
+  "references": [
+    "analysis/source_cels/source-cel-006.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-005.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-006.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Distinct eyes-closed shrug pose and clockwise tilted head retained from 006. Both open upward gloves beside face, triangular mouth. Ref005 not frozen. Broad source pose matched."
+}

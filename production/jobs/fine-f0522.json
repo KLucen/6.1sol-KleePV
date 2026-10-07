@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0522",
+  "source_frame": 522,
+  "source_candidate": "src-0182",
+  "canonical_cel": "cel-0086",
+  "family": "sack_closeup",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0182-f0522.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-011.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0522.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE independent full-frame 16:9 hand-drawn PV animation cel, no panels. Replace ONLY the pink-haired pajama girl in image 1 with default Klee; original image1 is absolute authority for current camera, crop, exact face landmarks, pose, finger shape/position and bag geometry. Preserve lavender background and cream sack including gray shadow, creases, rope shape and source positions. Image2 is cropped Klee HAT identity/colors ONLY, not head scale. Image3 is adjacent Klee504 for stable head/hair topology and loose flat source-like line style ONLY; NEVER freeze its pose or prop positions. Image4 real source before/current/difference/blue-before/red-current contours is motion authority, current upper-right. Redraw current source variation in lids/mouth/bangs/shoulder/sleeve/cuff/fingers; no analysis panels. Klee pale blonde bangs and exactly TWO SHORT ear-rooted ponytails, pointed ears, red sleepy half-open irises where original visible, orange ovals, exact original mouth. Red beret cream clover with white feather and brown clover badge on viewer-RIGHT, same simplified cut/color. Flat red cape/coat, plain cream collar and cuffs, simple brown full gloves. One small collar pom only if not occluded. No sleeve clover ornament, no decorative seams or embroidery, no extra hanging badge, no third waist-level hairwing. Source wrist/hand positions conserved: glove fingers overlap IN FRONT OF bag, cream cuff behind wrist, red sleeve behind brown glove; bag IN FRONT of far sleeve/torso; far fingers visible only where original visible. Stay tight source closeup cropped by right and lower canvas edges, no legs invented, no enlarging head/eyes, no rendering polish/gradient/texture. No text, captions, letters, digits, watermark. Single source-current pose only.\nCURRENT522 is tightly hugging sack, notstretch-arms. Image3 adjacentKlee518 isstyle/topologyonly, redrawcurrent. OriginaleyesnowFULLY CLOSED, thick straight black horizontalpressurelids x1140..1300,y611 and1400..1580,y615, NO redirisesvisible. Originalbrowstinyjustabovelids. MouthTOTALLYHIDDEN behindsackmouth, doNOTinventmouth. Orangecheeksx1220/1480,y700 visibleabove andbesidesbag. Sackneckx1128..1346,y697..809, sackbodyx848..1520,y800..1080cutbottom, ropeloopsdiagonallyx1280..1390,y800..1010. Topbrown glove gripsfrontTOPLEFTbag x1000..1190,y785..855 with four bentfingers; lowerfrontbrown glove x865..1060,y900..1077with spreadfingers andupthumb; broadcreamcuff x1040..1250,y925..1080cutbottom, redsleevebottom/rightshoulder. Twofullbrown glovesonly. Currentlittle independent creamarc atx735..819,y556..616, notlarge518arc atleft. Do not preserve old sleeveclover/extra hatdanglingdecoration; simpleflatpanel androundbadgeonly. Keepcurrent lean/crop/eyes/cheeksandbagocclusion precise.",
+  "output": "../generated/fine-f0522.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-fa3768a6-6fe1-4fe9-a9d0-35d5f11dff83.png"
+}

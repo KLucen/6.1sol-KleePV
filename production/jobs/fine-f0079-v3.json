@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0079-v3",
+  "source_frame": 79,
+  "source_candidate": "src-0027",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0079-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0027-f0079.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0079-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0075-f0079-source-delta.png"
+  ],
+  "prompt": "Use case: identity-preserve LOCAL STRUCTURAL EDIT. ONE full 16:9 single PV cel. Ref1 current Klee79 geometry-repair is target: preserve background/pillow, beret, hair, torso/clothing/ornaments, backpack, bent knees, all scale and camera. Do NOT generate a new outfit or pose. Ref2 original CURRENT79 defines true exact clock/head/hand relative positions and lower-face visibility, never original pink hair/pajamas/sleep mask. Ref3 enlarged CURRENT79 clock+hands+lower-face is exact contact/size/occlusion reference. Ref4 actual75->79 source differences analysis only, preserve bent knees and current79 grip. CORRECT Ref1 clock and gripping gloves are about30px too LOW on normalized1920x1080 canvas. Redraw the compact cream clock, both brown gripping hands, upper wrists AND the lower cheek/mouth/chin area together 30px HIGHER and10px LEFT, without moving torso, elbows, lower sleeves, pillow or knees. SOURCE lavender display must be centered near(1272,303), within x1216..1330,y272..337; target existing center(1282,333) is WRONG. Source clock cream front overall approximately x1198..1380,y260..380, tilted up-right; preserve narrowcase and substantial cream lower band; do not enlargeclock. Current correct mouth location near source(1318,385), not currentdrawn lower mouth. Fingers curve over FRONT of both clock edges, four narrow curled fingertip shapes each, compact source spacing not broad flattened mittens. Clock solid bottom band hides BOTH EYES completely in79, NO red eyes exposed; both lower orange cheeks, tiny closed downturned mouth and chin visible below as Ref3. Hat stays BEHIND the clock/hands, lower bang edges may be locally redrawn to meet raised clock; retain TWO short blonde side ponytails and pointedears no extra lower hair. Smooth plain angular cream cuffs, never fluff/scallops. Extend original red forearm ends to raised wrists by redraw only; keep source same narrow sleevevolume. Everything else from Ref1 unchanged, loose irregular dark PV contours flatcolors one simple shadow. No letters, digits, writing, clockglyphs, captions, watermark.",
+  "output": "../generated/fine-f0079-v3.png",
+  "repair_of": "fine-f0079-geometry-repair.png",
+  "prior_failed": "fine-f0079-v2.png had display offset (+16,+56), rejected",
+  "status": "generated_draft",
+  "accepted": false,
+  "static_review": "pending",
+  "temporal_review": "pending",
+  "prop_restoration": "not enabled; held clock needs validated finger protection"
+}

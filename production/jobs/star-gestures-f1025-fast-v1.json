@@ -1,0 +1,113 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0216",
+  "source_frame": 1025,
+  "source_reference": "source_refs/src-0557-f1025.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1025,
+      "end": 1028,
+      "pts": 42.708,
+      "end_pts": 42.833,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve. Edit Image 1 into one independent completed 16:9 PV Klee replacement cel f1025 / cel-0216.\nOrdered reference roles: 1 CURRENT original f1025 solely controls pose, crop, expression and foreground/rear visibility. 2 Klee head identity crop solely controls blonde SHORT twin side ponytails rooted just behind pointed ears, compact cheek locks, red beret/cream clover and exactly ONE white feather per figure. It has no current head-angle authority. 3 Klee clothing crop solely controls exactly TWO PLAIN cream leaf collar panels, continuous red coat and cream trim, short bloomers/brown gloves/brown boots/backpack straps where visible; no pompom, bow, extra petals, scalloped/patterned collar, source rabbit pocket or hanging plush. 4 f1023 -> CURRENT f1025 original A/B/RGB x4/contour sheet controls true change: front head tilts slightly counterclockwise and moves LEFT about 150px on the 1920px source canvas, mouth also moves left; the rear standing figure becomes more exposed. 5 newly generated f1023 provides only checked short-hair/plain-collar/drawing-color continuity. It is unaccepted; draw the changed CURRENT f1025 pose rather than copying it.\nScene: flat lavender background and cream hand-drawn star outlines. Large warm foreground Klee on screen-left, cropped at left/top/bottom, face turned with current modest counterclockwise tilt. TWO fully closed black eyelids, their current source slope changed from f1023, big orange blush ovals, tiny open outlined TRIANGULAR mouth. Keep current mouth/chin placement and head scale. Front has no visible hands, do not invent them.\nSmaller warm Klee stands BEHIND foreground at current original rear position. More rear face/torso is visible than in f1023, but foreground still conceals left arm and body. Replace actual visible rear head, source closed-eye/caret-mouth expression, shoulder/red coat fragments, screen-right downward/outward sleeve and exactly ONE visible brown gloved hand at current source hand/cuff position. Replace visible leg/foot fragments with matching Klee bare leg/boot structure at source foot locations. Keep front head and short ponytail occluding rear where they overlap. Do not add extra rear hand, reveal a complete rear body beyond source visibility, or leave original pink hat/hair/gray costume fragments.\nEvery visible original animal hood and long pink hair becomes Klee. Short twin side ponytails only; never inherit long source hair sheet, waist-length tail or third ponytail. Use loose source-like dark ink, flat colors, orange cheeks, sparse shading, no game splash detail.\nKeep full canvas, current stars and original subtitle position if feasible; subtitle is restored separately, so do not invent text. No extra character, object, feather duplicates or new props. One standalone complete cel, no contact sheet or generated motion.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0557-f1025.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1025-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "a64f9a1bb3c9a7cd2f2bb5d892d29125543d5f49871d582e06fbeee8593e5c64",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "generated/star-gestures-f1023-fast-v1.png",
+      "role": "Checked adjacent short-hair plain-collar palette/drawing continuity only, unaccepted, no pose authority",
+      "sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1025-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Foreground shifted left and tilted as source",
+      "Both instances replaced",
+      "Closed foreground eyes and triangular mouth",
+      "One exposed rear glove and visible boots",
+      "Short ponytails and plain collar"
+    ],
+    "flaws": [
+      "Rear tiny mouth appears open triangular rather than closed caret; deferred expression-detail review, not accepted",
+      "Source subtitle absent; original stars/captions must be restored",
+      "Shortened foreground hair reveals more rear leg area than old long-hair source occlusion"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1025-fast-v1.png",
+  "output_sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-07d258af-fa8d-41ea-9ed4-f01eef781fc6.png",
+  "source_sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0555-f1023.png",
+    "source_after": "source_refs/src-0560-f1028.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1025-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1025-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Rear tiny mouth appears open triangular rather than closed caret; deferred expression-detail review, not accepted",
+    "Source subtitle absent; original stars/captions must be restored",
+    "Shortened foreground hair reveals more rear leg area than old long-hair source occlusion"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}

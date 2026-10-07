@@ -1,0 +1,1135 @@
+{
+  "accepted": false,
+  "source_interval": [
+    1008,
+    1043
+  ],
+  "frames": 35,
+  "unique_cels": 16,
+  "exposures": 16,
+  "source_boundary_seconds": 1.458,
+  "caption_rect": [
+    610,
+    950,
+    1310,
+    1055
+  ],
+  "assets": {
+    "cel-0205": {
+      "path": "generated/candidate-033-clean.png",
+      "sha256": "a373e42cd1466d32fcba2a54cdf2924aae5a079952f03cd17d3c30fd800a136a",
+      "source_frame": 1008,
+      "source_reference": "source_refs/src-0541-f1008.png",
+      "source_reference_sha256": "79aa070610ce8680ef584e7d03a92624e3ad3a33b23c2648f4dc88d2bf4c7f2e",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0206": {
+      "path": "generated/star-gestures-f1009-fast-v1.png",
+      "sha256": "40d507204928415a06242e6e3f5ce4294ee3c9b18f08f2fef4c548713632b274",
+      "source_frame": 1009,
+      "source_reference": "source_refs/src-0542-f1009.png",
+      "source_reference_sha256": "af0419e86b7311f23ea3df45e23c208baa22f95eab430eed1c53f87ee0d35601",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0207": {
+      "path": "generated/star-gestures-f1010-fast-v1.png",
+      "sha256": "b6ac6ec0788dd9ccccb575f68394a292da63278a7d92e63dd654d9a34a2b28b5",
+      "source_frame": 1010,
+      "source_reference": "source_refs/src-0543-f1010.png",
+      "source_reference_sha256": "d5cae5f2056eb2f6fb186cbf6b040486b416986c65e8251a136a3ae94eb1be0f",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0208": {
+      "path": "generated/candidate-034-clean.png",
+      "sha256": "3fa0f19089ce922e512d0c242c91a0cfcfeba5257b563ad5333bbe010add59a4",
+      "source_frame": 1011,
+      "source_reference": "source_refs/src-0544-f1011.png",
+      "source_reference_sha256": "051cde419f062e0867866535b9a6d09cfd273f756fda9986f4481d6159652f6d",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0209": {
+      "path": "generated/star-gestures-f1012-fast-v1.png",
+      "sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+      "source_frame": 1012,
+      "source_reference": "source_refs/src-0545-f1012.png",
+      "source_reference_sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0210": {
+      "path": "generated/star-gestures-f1013-fast-v1.png",
+      "sha256": "cccc1edb308dcbf3d23fa58ebe1bb2d56d2449c7e32afe2ebd53914ef24c443f",
+      "source_frame": 1013,
+      "source_reference": "source_refs/src-0546-f1013.png",
+      "source_reference_sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0211": {
+      "path": "generated/star-gestures-f1014-fast-v1.png",
+      "sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "source_frame": 1014,
+      "source_reference": "source_refs/src-0547-f1014.png",
+      "source_reference_sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0212": {
+      "path": "generated/star-gestures-f1017-rear-hair-v2.png",
+      "sha256": "c3b58d3167debcd3521c1ca236a5da5b07e16bb913b9f9b8fb46f30683b776df",
+      "source_frame": 1017,
+      "source_reference": "source_refs/src-0549-f1017.png",
+      "source_reference_sha256": "0adca735aa85b3ef374d2a3e366a1815eb25aa5694fba01aa928bac5d537a402",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0213": {
+      "path": "generated/candidate-036.png",
+      "sha256": "694fcd87714120c3ee5ec9b49070ca5c4bcaa17cbaa534c514646187dddb1596",
+      "source_frame": 1019,
+      "source_reference": "source_refs/src-0551-f1019.png",
+      "source_reference_sha256": "466ea6e0409b29f6efbc769b08891688d90698cd85d19a60558e7b507c922295",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0214": {
+      "path": "generated/candidate-037.png",
+      "sha256": "c0967540cc09dca5e9c17b08019576a71588c1a9400a5558cd8870f9cb9b2955",
+      "source_frame": 1022,
+      "source_reference": "source_refs/src-0554-f1022.png",
+      "source_reference_sha256": "a0c0987842900c5f87865e2b06d584553796cb5f4ec4365492967d5f062bc08c",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0215": {
+      "path": "generated/star-gestures-f1023-fast-v1.png",
+      "sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "source_frame": 1023,
+      "source_reference": "source_refs/src-0555-f1023.png",
+      "source_reference_sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0216": {
+      "path": "generated/star-gestures-f1025-fast-v1.png",
+      "sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "source_frame": 1025,
+      "source_reference": "source_refs/src-0557-f1025.png",
+      "source_reference_sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0217": {
+      "path": "generated/candidate-038.png",
+      "sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "source_frame": 1028,
+      "source_reference": "source_refs/src-0560-f1028.png",
+      "source_reference_sha256": "3fdaa482f2cf5a8d59a78b370748bee9ba2b4c5d831055c78b5d9307741ab7d8",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0218": {
+      "path": "generated/star-gestures-f1033-fast-v1.png",
+      "sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "source_frame": 1033,
+      "source_reference": "source_refs/src-0565-f1033.png",
+      "source_reference_sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0219": {
+      "path": "generated/star-gestures-f1037-fast-v1.png",
+      "sha256": "6ff9a817ade9dbcdb286b5bc392c2b6344fab97eb81f8716c11d6899976d4632",
+      "source_frame": 1037,
+      "source_reference": "source_refs/src-0569-f1037.png",
+      "source_reference_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    },
+    "cel-0220": {
+      "path": "generated/star-gestures-f1038-fast-v1.png",
+      "sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "source_frame": 1038,
+      "source_reference": "source_refs/src-0570-f1038.png",
+      "source_reference_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "review": "draft_static_inspected_temporal_pending",
+      "accepted": false
+    }
+  },
+  "frozen_sha256_before": {
+    "compose.py": "d7c8a077c47d1668e4eb247cc6c3e774331e8e67a03f5635318379d9a0e64f79",
+    "star_gestures_layers.py": "bac52c90a0f325e113093545fa76cba088dd39a926af959ba917fff9f9cdb370",
+    "star_caption_alternate.py": "01c4720b290a05e5b54228dde0f0a53f1792406c756446eb9d89f2a2f9ff12bc",
+    "cyan_profile_layers.py": "213d873776cd64414338c9a5f5c1a5e05c6a4935135b58b1f591c85a55e03533",
+    "cyan_caption_layers.py": "d74784cf0f41137d9a28418b54038d64b123ec4e2904767e90fcaa956f0b3d71",
+    "night_transition_layers.py": "746a0e2c6b586a108c4cb8f35902184ee8327232acc0ea808f9e5aa197921ac7",
+    "dance_caption_layers.py": "b00988faaab15a3282c05e39483ca114152e2325be0e3e964fac7391c727eda8",
+    "raised_caption_layers.py": "f097da91b65ff5b3406e9e0e5e24761fea02fb924dcb3c11a4e91bbd2d745cf9",
+    "layers/star-caption-f3402-authorized-v1.npz": "a588071c0f94ff1697baf468cf9a7a8b13867d9cb5c36b8adc5318c13b7d09f6",
+    "timeline-star-1008-1043-authorized-draft-v1.json": "306fe0ae7e64617627e154cb66e9d4a541b3afc963fe908612618ef397e537fb",
+    "output/klee-star-1008-1043-authorized-draft-v1.mp4": "427301ecd0745feb4f3b067186a26b6413de167b9f32fb684ca026fd6bd3641a",
+    "output/klee-star-1008-1043-authorized-comparison-draft-v1.mp4": "2a5ecb0ad6d083d6082b400cb1010cd5a6ab4849f88988566c9fdd7cce98b658",
+    "qa/star-caption-source-recovery-2026-10-05/authorized-candidate-post-static-freeze.json": "98b5c689baaf2eb6b77b84ff55616c932747c2c7c47b844e839ec2b60a06b025",
+    "qa/star-final-integration-2026-10-05/shared-35-cyan97-old74-regression.json": "0bec3e638a5281bbf591cfeca6d7f975c81d25dedbb750b1331bc8a3f80993d4"
+  },
+  "frozen_sha256_after": {
+    "compose.py": "d7c8a077c47d1668e4eb247cc6c3e774331e8e67a03f5635318379d9a0e64f79",
+    "star_gestures_layers.py": "bac52c90a0f325e113093545fa76cba088dd39a926af959ba917fff9f9cdb370",
+    "star_caption_alternate.py": "01c4720b290a05e5b54228dde0f0a53f1792406c756446eb9d89f2a2f9ff12bc",
+    "cyan_profile_layers.py": "213d873776cd64414338c9a5f5c1a5e05c6a4935135b58b1f591c85a55e03533",
+    "cyan_caption_layers.py": "d74784cf0f41137d9a28418b54038d64b123ec4e2904767e90fcaa956f0b3d71",
+    "night_transition_layers.py": "746a0e2c6b586a108c4cb8f35902184ee8327232acc0ea808f9e5aa197921ac7",
+    "dance_caption_layers.py": "b00988faaab15a3282c05e39483ca114152e2325be0e3e964fac7391c727eda8",
+    "raised_caption_layers.py": "f097da91b65ff5b3406e9e0e5e24761fea02fb924dcb3c11a4e91bbd2d745cf9",
+    "layers/star-caption-f3402-authorized-v1.npz": "a588071c0f94ff1697baf468cf9a7a8b13867d9cb5c36b8adc5318c13b7d09f6",
+    "timeline-star-1008-1043-authorized-draft-v1.json": "306fe0ae7e64617627e154cb66e9d4a541b3afc963fe908612618ef397e537fb",
+    "output/klee-star-1008-1043-authorized-draft-v1.mp4": "427301ecd0745feb4f3b067186a26b6413de167b9f32fb684ca026fd6bd3641a",
+    "output/klee-star-1008-1043-authorized-comparison-draft-v1.mp4": "2a5ecb0ad6d083d6082b400cb1010cd5a6ab4849f88988566c9fdd7cce98b658",
+    "qa/star-caption-source-recovery-2026-10-05/authorized-candidate-post-static-freeze.json": "98b5c689baaf2eb6b77b84ff55616c932747c2c7c47b844e839ec2b60a06b025",
+    "qa/star-final-integration-2026-10-05/shared-35-cyan97-old74-regression.json": "0bec3e638a5281bbf591cfeca6d7f975c81d25dedbb750b1331bc8a3f80993d4"
+  },
+  "frozen_files_unchanged": true,
+  "pages": {
+    "native_source_encoded": [
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-ENCODED-page-01.png",
+        "sha256": "413688d3350672f339649bfa45494384c77b392267243175e1dd1c0e11e4faf3",
+        "frames": [
+          1008,
+          1009,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-ENCODED-page-02.png",
+        "sha256": "9d45da13777f1b54c63bdf58439e25135d24c9e5e6990aa2b7ef6aa92558f6ad",
+        "frames": [
+          1015,
+          1016,
+          1017,
+          1018,
+          1019,
+          1020,
+          1021
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-ENCODED-page-03.png",
+        "sha256": "528bf26b07a08d634f44729f9cc1e1b600442351814adbddc25040e167943a42",
+        "frames": [
+          1022,
+          1023,
+          1024,
+          1025,
+          1026,
+          1027,
+          1028
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-ENCODED-page-04.png",
+        "sha256": "64ff7017d6b88c907f92975622e424dc3ec84a731be8567a395e3fd0a28718ea",
+        "frames": [
+          1029,
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1035
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-ENCODED-page-05.png",
+        "sha256": "727d305616628c3e7bb06ebcbfedbc14968cf8c3aa17dad00f58e5f8eea2870d",
+        "frames": [
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042
+        ],
+        "native_crop_pixels_not_scaled": true
+      }
+    ],
+    "native_raw_encoded": [
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/RAW-ENCODED-page-01.png",
+        "sha256": "3cef7e8e8f99cc0a14cf31d02c2b525090d71fe014bd613e7d336f2518d91fac",
+        "frames": [
+          1008,
+          1009,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/RAW-ENCODED-page-02.png",
+        "sha256": "e9d749ae51e0d79e58296d902a84f3c116d8d2bda8e6b1ef762017b12c31f960",
+        "frames": [
+          1015,
+          1016,
+          1017,
+          1018,
+          1019,
+          1020,
+          1021
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/RAW-ENCODED-page-03.png",
+        "sha256": "51a251e7e1f1cfb8e20c396a0f42ab5c3c5c7c958e59fec719bec1ff7eec7058",
+        "frames": [
+          1022,
+          1023,
+          1024,
+          1025,
+          1026,
+          1027,
+          1028
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/RAW-ENCODED-page-04.png",
+        "sha256": "2ed44f6b3fcc27e5abb712510ecb255187cdaf590b5518c4c96faef7cd8309b4",
+        "frames": [
+          1029,
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1035
+        ],
+        "native_crop_pixels_not_scaled": true
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/RAW-ENCODED-page-05.png",
+        "sha256": "56bd26391851f8a790d499bf6716c341150eeb87066c17482e95f7e52100edd0",
+        "frames": [
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042
+        ],
+        "native_crop_pixels_not_scaled": true
+      }
+    ],
+    "canonical_bodies": [
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-RAW-ENCODED-BODY-page-01.png",
+        "sha256": "2b44381bb873285cd247b16edd31e5ba72faf479ff51390c2a87719abe2749ce",
+        "frames": [
+          1008,
+          1009,
+          1010,
+          1011
+        ],
+        "native_crop_pixels_not_scaled": false
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-RAW-ENCODED-BODY-page-02.png",
+        "sha256": "2e778a3f106b584e6316a249788caf4d8de757201df986e88b2e79dc507ccc2e",
+        "frames": [
+          1012,
+          1013,
+          1014,
+          1017
+        ],
+        "native_crop_pixels_not_scaled": false
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-RAW-ENCODED-BODY-page-03.png",
+        "sha256": "dc766ecd43d56b0664048ec8a91d468ac8edad637dab35e0ef8ba43fa698826b",
+        "frames": [
+          1019,
+          1022,
+          1023,
+          1025
+        ],
+        "native_crop_pixels_not_scaled": false
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-RAW-ENCODED-BODY-page-04.png",
+        "sha256": "a23d4d28bcbcbbfb9190b1251d4b38acab4705756c9faa9f183aa09a3ec13826",
+        "frames": [
+          1028,
+          1033,
+          1037,
+          1038
+        ],
+        "native_crop_pixels_not_scaled": false
+      },
+      {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/SOURCE-RAW-ENCODED-BODY-page-05.png",
+        "sha256": "a76177a89d47e4921b32d72187a18948425ca1c4fc87b466edd60e8f95d9dc47",
+        "frames": [
+          1042
+        ],
+        "native_crop_pixels_not_scaled": false
+      }
+    ]
+  },
+  "rows": [
+    {
+      "source_frame": 1008,
+      "accepted": false,
+      "source_bgr_sha256": "fc9120e67bc06dda14ce7c3c7524bdda95be145ca6c4284e2b142be1c0a779ce",
+      "raw_bgr_sha256": "d9b3f0305e90eb26ca4186c6029cc245eb4ebd09c31b0b20739837abeb7463a6",
+      "encoded_bgr_sha256": "1db07906fea534bcfb97e86cb1e60a363c59e2eb0fe6747a553aab977ed40edc",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1008-source-encoded-caption.png",
+        "sha256": "522cd1fc8e8675a901b415941f97ea2a8e60b0c8a21ac1eedfba02ac7574e5f7"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1008-raw-encoded-caption.png",
+        "sha256": "8eb0fec519be41bc2dcb1f4c5ad15e888c88ccb620770ebd35a12051459c8429"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.1782993197278913,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1008-encoded.png",
+        "sha256": "535cb78bdee792771255f6dc6c70efe4972b813f7623455e0320d3f2bd71ef62"
+      }
+    },
+    {
+      "source_frame": 1009,
+      "accepted": false,
+      "source_bgr_sha256": "04f6ebb7d6502084056b07aef5ef8e7382bdb8886b440a00ccad089bd02341a7",
+      "raw_bgr_sha256": "0c7eda5076a459552b65eccc8fa25e072965fc3a56bc7aa9719b22fc260b7871",
+      "encoded_bgr_sha256": "423d3f01e237c0b7526617119c97070314b6d5f040d437d1275fb0e8279fd43f",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1009-source-encoded-caption.png",
+        "sha256": "f613a4e176b1d196eb5a7717c48fbf6f252a4710790c2a6e1a2d5091a976b8a0"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1009-raw-encoded-caption.png",
+        "sha256": "2dfee9ab1b45a7dd903c614cb14fa29b71a9c45938d1a0536f3fe2f1a3de691d"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 4.2168480725623585,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1009-encoded.png",
+        "sha256": "fe2a2c191a1a3a0555afec3f190e3d334a39823241013be2a645693c20f0ab6a"
+      }
+    },
+    {
+      "source_frame": 1010,
+      "accepted": false,
+      "source_bgr_sha256": "e217f5c5f012cd306f4aa632050468c38cf6694f88af619ce7d375ee5e6aede9",
+      "raw_bgr_sha256": "455a7acc27e4f985c43cdd31763effe2429e3cedac40991178b2df427c988d3d",
+      "encoded_bgr_sha256": "de1e48fff7548572ee1e9a1ab0d7dd7132d09309da329aae0dcf7459d2b1368b",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1010-source-encoded-caption.png",
+        "sha256": "a8a789e493f759099e31fbd74ff61fea95f77ca7903c5e21b37cfaaef21df11e"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1010-raw-encoded-caption.png",
+        "sha256": "3a6d2a47d7926864d1ba43a15dd8ac61ef181ed3107540c1017ad2cd9c0e75e1"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.4611746031746033,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1010-encoded.png",
+        "sha256": "60298c39238dd03c3d3ed4b4c1d1198c762e4e638dfc70cc052d3ffee9c99ec3"
+      }
+    },
+    {
+      "source_frame": 1011,
+      "accepted": false,
+      "source_bgr_sha256": "74dc6902ef636b56301a35fe81f88867b35ffb302cbb47baebe3ce271954f19e",
+      "raw_bgr_sha256": "87ef6bc61901f1995a9a01e5e13aa0851ee33aca58827836cff570cd45e370ac",
+      "encoded_bgr_sha256": "0b9362118ad52a9c40eced1e8914c768b25b19bdef1747f1c3ce6be06d36bf4e",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1011-source-encoded-caption.png",
+        "sha256": "5e02a6c1f8f750e5bf071537358b3ae326123e8baa9742f84867d10f164b9848"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1011-raw-encoded-caption.png",
+        "sha256": "6b295166ffb1daa8aee71e6989da66f13dba682109f0f9d66389aab7ca6bc9c1"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 4.730253968253968,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1011-encoded.png",
+        "sha256": "44d8caef33a3749e66cec2dc70a2ab72253683d5e7564c9c12094c769282335e"
+      }
+    },
+    {
+      "source_frame": 1012,
+      "accepted": false,
+      "source_bgr_sha256": "f939b8e6ed5d875ff520502aeb34c4e5f09391e2da1290a61b30810bf8aa39ed",
+      "raw_bgr_sha256": "21c30ca6ed621591c9eea39ebe045b81910980f3ecf79798bde6df1b92ad6dbb",
+      "encoded_bgr_sha256": "671915eaf43e425d13ae7f3b913990d6a178350190897cf5a0cf054cd9e8b174",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1012-source-encoded-caption.png",
+        "sha256": "def899c07a0021225eb1d341d3d84846971b659ba19a4b04f5a089176110e7e7"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1012-raw-encoded-caption.png",
+        "sha256": "75be2f20d212566e4810ac34bf5903f9684265575be152f14520f7201b8eb92c"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 4.592852607709751,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1012-encoded.png",
+        "sha256": "5d1f0fc396cd5a832731541581bc90f7d12e13c9c34a20a6558192c701f264e0"
+      }
+    },
+    {
+      "source_frame": 1013,
+      "accepted": false,
+      "source_bgr_sha256": "416d2cb36ae65e8f0fcef7f8f4f8201774e7804145523563e74ad524024f73d1",
+      "raw_bgr_sha256": "79bc18a7a7ac8c655f478dd57cb74d95ecae340a7e760eb3c441140ea0cf2f47",
+      "encoded_bgr_sha256": "408b5f8ebc4e9cce22c6003095e345b47d0e96f5a143fb25b60ef0600b63d653",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1013-source-encoded-caption.png",
+        "sha256": "713d79b1d861ed8a81daa4768ea22b70cae1d995728c843ff7ab80c1cbe6e104"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1013-raw-encoded-caption.png",
+        "sha256": "ce8b1c1f3d013e736108df4878c37bd8bb40f5927d30bc951e9e431df5a23dbc"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.798721088435374,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1013-encoded.png",
+        "sha256": "4c3bd682c2a30c8c7c99ecd7597167231c63049618fcbc213ec9ad01799c8386"
+      }
+    },
+    {
+      "source_frame": 1014,
+      "accepted": false,
+      "source_bgr_sha256": "26e62339398d3f8b336aa50a22f4ecb7ead0c2bc611e7082cf4693511e117af0",
+      "raw_bgr_sha256": "c7f39247399bb31693b8fc7f5f9683ee8ad088b85d9f4d98e78b767856da735e",
+      "encoded_bgr_sha256": "11c71c041aea6381d7fbe60a8acf82d3ac3d9fc77d35422a410460bf8b3b2d85",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1014-source-encoded-caption.png",
+        "sha256": "b767e7561a90aab2986414ec8f34f1e3b607a774d9c925567187fdab0db86380"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1014-raw-encoded-caption.png",
+        "sha256": "489e4ef9126050a18f561998cedabf1fc36ee3b006ac85ecf00ed54842dd2d8c"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.2908798185941044,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1014-encoded.png",
+        "sha256": "da090097341ee9b57e072b43b86c4a8725254f1d0078ee45392e95c8456b7f43"
+      }
+    },
+    {
+      "source_frame": 1015,
+      "accepted": false,
+      "source_bgr_sha256": "4a509f52651c0f2b70f0e50e0043e3d902a54a03b29afc86a1d59378bc99d025",
+      "raw_bgr_sha256": "3fd47d8e8f9d9fa4a5c75923d2c8710351d41aabef5c6f349c7bfe3c1e4c5e8b",
+      "encoded_bgr_sha256": "d7ef7c7f0f3ad571085ceca0fcfd9e2224d12f0f9ee1113fb0adfc17b2762fad",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1015-source-encoded-caption.png",
+        "sha256": "756444f026bee291f60f15c858f5d0812e3bb30958dd2ea72faa0a2783484cb9"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1015-raw-encoded-caption.png",
+        "sha256": "5746b8a52c6e16eea238099dd537b35f0d4689007e6787e75e90f23732198cec"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.2889433106575963,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1016,
+      "accepted": false,
+      "source_bgr_sha256": "73c41883553aedb78e5e6b23064647775e95dc07c22b8421ebc264cb57f496a1",
+      "raw_bgr_sha256": "d1eb2996db3203215674bd5ab4810f1d9b890b9f6a9edafb9b317f8f7c28c452",
+      "encoded_bgr_sha256": "5c21d4b3d9a0dd3f235617e839258dfc33d521c207f2e2ec1cbb096e9f2ef1b1",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1016-source-encoded-caption.png",
+        "sha256": "8772bdec8d17b97da02cafd59c46b8dc7b43c8456be799597b8ec1757aaf38e5"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1016-raw-encoded-caption.png",
+        "sha256": "70e10aa382e026ef4f6d4f1993f4b2e711f6fc72058f51bf6205e9e8d73c9800"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.2879818594104306,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1017,
+      "accepted": false,
+      "source_bgr_sha256": "17c14baac962a8ecb069c779005b8b87e5b8386d89c2f4d3e6830807fe8cb46d",
+      "raw_bgr_sha256": "d44151512ef1550e2d3f944161a9cb54081d44dae100dd255fdec00ae31a4b50",
+      "encoded_bgr_sha256": "9d1ae0f6202412158465764cefa805c59c56befdcb9978b6b33a977267e64f0d",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1017-source-encoded-caption.png",
+        "sha256": "7d582f27dd19ff6c4ef6b210eb932c0c168ed2276af61f1ec89963ddd77eb588"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1017-raw-encoded-caption.png",
+        "sha256": "f2769582da01ced5b9f2c88b4f3b6faea91c15ea2788815b9e32045cbc4200e2"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.022036281179138,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1017-encoded.png",
+        "sha256": "34a7d6d491644cf16dec861c3fe37d8bcf65ca7cd66457495e4ac7cf41e8fc05"
+      }
+    },
+    {
+      "source_frame": 1018,
+      "accepted": false,
+      "source_bgr_sha256": "635635ad45733e845e71dfc78f34d41ed3377a4cdaf91574d3732e2143470b15",
+      "raw_bgr_sha256": "179e1a6eb0231a2b82c85478ae682846ec8de71de0f5446bf2ba6f7f8619be0a",
+      "encoded_bgr_sha256": "628b76993bf0b678755f1fb5c832ef7c8af07b11c8f343278649fcc7c91807c7",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1018-source-encoded-caption.png",
+        "sha256": "15c19d09257767b16106b801269c1c154006b3415fae63059f3aa4da7f0e0081"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1018-raw-encoded-caption.png",
+        "sha256": "db7db92282743c601d83b9203fee38a4b7aafbd6607976835e3939516e65ffc4"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.0130521541950115,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1019,
+      "accepted": false,
+      "source_bgr_sha256": "edad5de631523fde900ba77a5b8a40af0f7857262b09ab81d4991759c5388440",
+      "raw_bgr_sha256": "2032a2e38601e69c45f69b617da24b03be809311b28d50485946f306f01901a6",
+      "encoded_bgr_sha256": "356ec1dd3e37ef9db58decec03e08f44751fb3d083936c732ae071e1330b5dc9",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1019-source-encoded-caption.png",
+        "sha256": "288848b06ea29a3d40292ce8edb40d5a90be4334063e44c06c72601a2f6658d5"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1019-raw-encoded-caption.png",
+        "sha256": "c98045f4af54446882b2285bc635d05ad401fe000a43b078fb61f82239f67234"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 4.114938775510204,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1019-encoded.png",
+        "sha256": "d721be7f7bad24ee3b3587c17f76e8d87f1531555990238ecb2ea4c30f2fafb2"
+      }
+    },
+    {
+      "source_frame": 1020,
+      "accepted": false,
+      "source_bgr_sha256": "f9713b56d2eef2e53fc557abbd646b248f993375b9bfd403bd680f3f33f3075b",
+      "raw_bgr_sha256": "28228bbb2574178ce0c686394e790d5e4bf9c7e3a06071922351e0af55e1cc99",
+      "encoded_bgr_sha256": "fd8b91e6d236d0c054fccb6c5d68f79e78255281916ff1420707a70e307d4bac",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1020-source-encoded-caption.png",
+        "sha256": "b46a393bf67034ae9caec43013bebf27888dce8afd200d53abdeb42f60ceae78"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1020-raw-encoded-caption.png",
+        "sha256": "d05c2010d16b1a9838f1ce3b2ac999896bf9c1127217189b52e3b6d4cd2ecc2c"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.5448934240362813,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1021,
+      "accepted": false,
+      "source_bgr_sha256": "6919e1db060596fc6d1d521b04244bd0545e49d907bd2107214bd1a5475c3621",
+      "raw_bgr_sha256": "b65ecf5b0c7fe96faf00c6603895d0f99d4cc42dd5c60dd75444b9e4ab9a84f2",
+      "encoded_bgr_sha256": "07fca49e0820191267ed20fd82ea57d2ed58a37a3e7b90e90389d10245e64e5a",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1021-source-encoded-caption.png",
+        "sha256": "829ac26f00476a52b5f563f296c2fcc48b50be80f52fb190fead5d7d189a5dd7"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1021-raw-encoded-caption.png",
+        "sha256": "c99f0596400677fb81c163a2a6f6b7bdd6d65d7778f274c77b8a3ed6fa3e9e3a"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.5682947845804986,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1022,
+      "accepted": false,
+      "source_bgr_sha256": "e0d4acce5eec539aa6bfa7d1e5653b24923bc9628278713f8fb46ba1222252d9",
+      "raw_bgr_sha256": "9fc0f0682f60c4771b5ae3e725af22f9370ee9085d89586bbcb8c30063750869",
+      "encoded_bgr_sha256": "2fdf0d7db24a20a8e663800e4dcfd4ad6ce071574506488b0b551663e58686ac",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1022-source-encoded-caption.png",
+        "sha256": "462a9f739d81e79f46304fedb19d5737f06247e65a9e8de985fff694d95ecc0d"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1022-raw-encoded-caption.png",
+        "sha256": "7fc04933170d27390b7a9db0fccddaf9aa32892e0bd12162e969a256b52aeafc"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.4917732426303854,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1022-encoded.png",
+        "sha256": "86c7901f4a23c6161dcced3e202dfb9af499e2bfc1c5991b9f4987930f7586da"
+      }
+    },
+    {
+      "source_frame": 1023,
+      "accepted": false,
+      "source_bgr_sha256": "612f2b97d63e7a2cb408cdead047b85d0fb6e1f19d8f41877271c6dbe1375d90",
+      "raw_bgr_sha256": "232d96b3983e05c974cf5c673e284535e4c2d4ce70a71b9f8920492c1c63e527",
+      "encoded_bgr_sha256": "0b37cf4bd79caf5dfa7665ebbf95eec6bf12375e9e463ac11efc5a6aa87a9bcf",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1023-source-encoded-caption.png",
+        "sha256": "cfe22e8c38c5144361a540f9108fac2a7c09980becbd52c286e804f607b95a42"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1023-raw-encoded-caption.png",
+        "sha256": "054b028f7a1e8a6cdb8429080305a52c7cd776f5b7f477e4ef0411335a3d6f22"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.7547120181405895,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1023-encoded.png",
+        "sha256": "61d376ef31b656f538eb8405bfa424058943ec9805cfa5d0fc09ea79f81a000c"
+      }
+    },
+    {
+      "source_frame": 1024,
+      "accepted": false,
+      "source_bgr_sha256": "e7f44ec52bba3566df4b4bb9d7a958559f752a33d50aeed435d8b9dd8bea5214",
+      "raw_bgr_sha256": "e0109584390078151f42134b5edc7cf839dceb3aa7a6b286b9083511edf528bf",
+      "encoded_bgr_sha256": "e41e667bfb46137973aa2e4c53433b07b125deb8326651d6bfd0cad9ca1e643f",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1024-source-encoded-caption.png",
+        "sha256": "644b3d6b3ea928968f2e02b3578eb4d6a9712b089c95f7bedafd7e7c9d44810d"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1024-raw-encoded-caption.png",
+        "sha256": "078f56ef1b26409ba5e56a65b0c211f940120b33fac16af810e3c95d6b9f4822"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.1119410430839003,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1025,
+      "accepted": false,
+      "source_bgr_sha256": "1a15c46413f853b37c0d6c15f1dbd59a6a5f0484647960cada519d2b8474f103",
+      "raw_bgr_sha256": "3e57ad783b63293919ce24008eef7a22ff7037d0033b38db2ed24b57561d4dcf",
+      "encoded_bgr_sha256": "e1c4c284f4eb07f37529e471f9bed845c21a3e72e34093d4af6315988d073af2",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1025-source-encoded-caption.png",
+        "sha256": "0d896e564c8ca27761f60019e9b0d03ac7ada359eac3600d883043743387e2b2"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1025-raw-encoded-caption.png",
+        "sha256": "17e0832a22af64e52f70af272bce8d7f5ab9cf2e16908456104c1a9658e3d7ae"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.3999954648526076,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1025-encoded.png",
+        "sha256": "8938342973ff9c26db86bebf7a7b48c2569dd887ec526313ccb36df0621011f8"
+      }
+    },
+    {
+      "source_frame": 1026,
+      "accepted": false,
+      "source_bgr_sha256": "3732c359789b2fd5301046f51ffd54e1e85b537ca725c10e572523ccb7369e20",
+      "raw_bgr_sha256": "d00a0bf61613c302dd687b645e68dad88b5c205fbea587f17a0f4547fd3a71fb",
+      "encoded_bgr_sha256": "b27ad7eead2635cdfb0e4fc7cbf7f98fd4d91c039688f7926f3c0a3341ae976f",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1026-source-encoded-caption.png",
+        "sha256": "3a972b2cd779dde8f09fde8f21c4f15d630b8c0d44fbe38b7214c433b65c7a03"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1026-raw-encoded-caption.png",
+        "sha256": "755ceb76c41f0e93978d0b0e40a51195a14cf85cfb252f33dfb24a578fd31b43"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.1935827664399095,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1027,
+      "accepted": false,
+      "source_bgr_sha256": "c058a916d39c36997dbbb3e518f639af5265ba9de071b35c91a6ba6358013d92",
+      "raw_bgr_sha256": "fe12bd27f8e6498f9f1381b88613ba4723211bc66abdd7df70cb930adc069196",
+      "encoded_bgr_sha256": "b3e4550416673031a1cc121b1601571e15ab7a74e072bdfb9e64c0423d3e55c6",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1027-source-encoded-caption.png",
+        "sha256": "9986f03992d2aba03a06aec84b8d2a64ad0f6e09e542363402e512d79e3b16de"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1027-raw-encoded-caption.png",
+        "sha256": "013beabc5b1182d5092ff587287880c41e8af2f61f48e78fcdbf830912a9cfe9"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.215297052154195,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1028,
+      "accepted": false,
+      "source_bgr_sha256": "a2648a399fa7ab8ced131cbbe1caf1d2972d4d21d171d3c8d51a6dd5ab9b8f91",
+      "raw_bgr_sha256": "44c7c500ccc7c140bce950b584aa38940f6dcb248fb514d47e7d8dfb80c4384d",
+      "encoded_bgr_sha256": "5844d9fc184a1c221d25f4ae2eabbefc4cc7965921a1a639800a22e177a92a28",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1028-source-encoded-caption.png",
+        "sha256": "e8d981d654d4fad4b0ab447c6607a4615da57bf56338e86db09b10b2db3dee69"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1028-raw-encoded-caption.png",
+        "sha256": "9ee11e1e453a31d675df7450885f728534442815129cdf3a436fcb796a9eeecd"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.060829931972789,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1028-encoded.png",
+        "sha256": "90e18dcfc069e75aa31d1aa22edeb676e19361215217ea5699022f7ac31ae528"
+      }
+    },
+    {
+      "source_frame": 1029,
+      "accepted": false,
+      "source_bgr_sha256": "717c3da2b17eb775c233456757ae7aa25be4e924a0ecaec6d54c8fad9b28626f",
+      "raw_bgr_sha256": "5695f2162df30cd0857354204b66480d3dcf1cc4d8cd68d2ead389b7e5f35559",
+      "encoded_bgr_sha256": "87ada62f2a68aaf29a3ffb7deeba7bac0838f0134b84ae7fca90c7667e6ca08a",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1029-source-encoded-caption.png",
+        "sha256": "0ea02ad7a58c286bc901dfb7ab410cdd00953b474e9eb165d2a5db7d4daca47a"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1029-raw-encoded-caption.png",
+        "sha256": "ba56f89d09fd4a5ef567c7fdc5e1c05d09a6a06c5d9e06544c004f2fbf18c592"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.9804126984126986,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1030,
+      "accepted": false,
+      "source_bgr_sha256": "9552bce9ab6a0ff1d1e47e9de318c22e3f60128f7a236364537dc24cd353ca2f",
+      "raw_bgr_sha256": "22c35b1221494e73cd2adc49c211951c044c92efa5d1edd0a386d9d171e56c82",
+      "encoded_bgr_sha256": "94d99589a9003f483b7956a04cec0a50d1e7af2266775a7667f8944f8a984faf",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1030-source-encoded-caption.png",
+        "sha256": "7db017e8a942e1b17891d5f14cfeb87a64e95c923e9da5c97142a805d25e1809"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1030-raw-encoded-caption.png",
+        "sha256": "c8b27ef02154297f0b2a786a8af459f37ba5ef1d9e4ddd6c637b7f51379aab12"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.978544217687075,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1031,
+      "accepted": false,
+      "source_bgr_sha256": "ee50a084045c1b967665e0b8680d113e4d4c148795f7d8539d8dbb31da6899c2",
+      "raw_bgr_sha256": "68ad922aadb68850d5876c21eca76db3e27c2eab359f1fb9fbc330dea9be9372",
+      "encoded_bgr_sha256": "feefbcbe0ccf22b57ffe3a9b708cef91e3a5494d9db2a87b0e4ed81ff625a778",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1031-source-encoded-caption.png",
+        "sha256": "834abf00a4ef8d63871e78e72a70c94da79183789dcc0af53122d0fb09df52aa"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1031-raw-encoded-caption.png",
+        "sha256": "b7e9a65367a95c0d0244c02d1a326f7bf4bd4ef47c8feb2f84b62bb0b77cf669"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.982893424036281,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1032,
+      "accepted": false,
+      "source_bgr_sha256": "af3d567a8f87137288ece62c31651fb95ea96d926d150bfdef21ee4aab564aee",
+      "raw_bgr_sha256": "e9c8a6b7df23a7d7401007536f5365910e9ac087a5357443fef85c4c829cba9d",
+      "encoded_bgr_sha256": "df08db4325e86c7674b01d85b5d8fe5e8af65ea274f482a97effa03dbf103cb5",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1032-source-encoded-caption.png",
+        "sha256": "c7ba31f734f5bce5340009d693462380ab51c5b2262220f672cb400b96411e46"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1032-raw-encoded-caption.png",
+        "sha256": "b873b8de7158cbd06179ee45ead659039b1c3e2686f1cf1899aae4b58c68f4d2"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.9809115646258504,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1033,
+      "accepted": false,
+      "source_bgr_sha256": "8d8c5f3c5952dd9e50202d794957f30ce9c7b87732d7857ceeb41845364b6b23",
+      "raw_bgr_sha256": "fa2a54b6601b7df3c4d480f9eca0bc833351777b0bcebf833816ae7c61058875",
+      "encoded_bgr_sha256": "756828fbb2e1e832b725ef931778eb0060895fc8bdff302fefcf43eb8901482d",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1033-source-encoded-caption.png",
+        "sha256": "85f4cfd044f1f56280d584a7534a4bce156a06e39cda26d0884635da44843854"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1033-raw-encoded-caption.png",
+        "sha256": "6662f70a44dd1811e85d3b8ae93d1769cc99d46e86e47c34a36e751efd2341ae"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.829219954648526,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1033-encoded.png",
+        "sha256": "7ac5c2861fa56e950263d376013280ca748ecc06f7639bfd46b69f3fc0cfbeb4"
+      }
+    },
+    {
+      "source_frame": 1034,
+      "accepted": false,
+      "source_bgr_sha256": "9d46daed212701eb71a184cd5bb4bce02d16b827d1fddb2c32afc734960f777b",
+      "raw_bgr_sha256": "f0663b50e4c1cb2e5d317a82dd8362af06414a6ccadd1bea780417baac01741a",
+      "encoded_bgr_sha256": "b65a7887edb441990afc50830e7e7a9022dc6a548fbadf7eddc435691ca6a946",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1034-source-encoded-caption.png",
+        "sha256": "f0e52e937c506c85d117ac5e70f68ee0878b938d088d4cfb1d9caab91b7d54fa"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1034-raw-encoded-caption.png",
+        "sha256": "a70fb7c0efffa1a90d811069a364a56049f03ed51460d1e996539aef0c89e780"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.799156462585034,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1035,
+      "accepted": false,
+      "source_bgr_sha256": "c7b529d91a1b988b3714ad766c4de0db8fd34a7a8f5b8d63e730f052c5aa761c",
+      "raw_bgr_sha256": "74bf62059fc6280c3ee961ab5a28e0f335fcb527c14fccc3892ec2c5c9bf3578",
+      "encoded_bgr_sha256": "8c6278441886519fc6f39d0cbd8c0a7a732520a761987e53534c6e5ae8bb2733",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1035-source-encoded-caption.png",
+        "sha256": "8bd6b0b6b891bc8f623c052f1ff377164a43f293bda90ff765eccad2356848b0"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1035-raw-encoded-caption.png",
+        "sha256": "794bd900436b53255f41d247323f1e42a401fffa48165d558cdec1a48e70d1fa"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.8023265306122447,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1036,
+      "accepted": false,
+      "source_bgr_sha256": "9812b6e03b80d15ad9c2c6a4389ffbae1c5c301e45b16cef72f419595743639e",
+      "raw_bgr_sha256": "66f5990dcce50cd7dddf8b08dc383de8e3975f9b890877213848a9311e8c30b3",
+      "encoded_bgr_sha256": "eac10e197daea33d0ccd1c93a911d770b73e5f28bef19828ab60b86a06437138",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1036-source-encoded-caption.png",
+        "sha256": "7eafcf8d324acfbc247f6e932a5c23bdffd6ac8ec5145b136a99138b17f98c43"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1036-raw-encoded-caption.png",
+        "sha256": "85a0d185ab49ef9e6c25ca664e1f4dd3c2a7fb8a2ff589aa2a39244a9b9edd13"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 2.796625850340136,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": false
+    },
+    {
+      "source_frame": 1037,
+      "accepted": false,
+      "source_bgr_sha256": "ea71b4a95bd5efcc4b58977e04e6a72715c46863dc7c96a612c5c64206abeb9c",
+      "raw_bgr_sha256": "c3daeb19674f8e1dafa23f5a0bd11b79dc403efcbc93515ea37ab57aed98ebd3",
+      "encoded_bgr_sha256": "2f90a6b0afad2663d5ed6ba44c7d0d5eebb3f93502c692354c86d1066c90c0fe",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1037-source-encoded-caption.png",
+        "sha256": "aa634a069ab0a24d8278c1693822f74993aa80289d2633b6a5eacabfa188fa60"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1037-raw-encoded-caption.png",
+        "sha256": "f177a630bbf9a811b455a6aa9d9c46a8b328c182da5e29124d242d0ee008e9ba"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.337310657596372,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": true,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1037-encoded.png",
+        "sha256": "1b916d38d97cd3ba43ce91bafb98207c21f81199af3b88c9cc02f829e7908c0e"
+      }
+    },
+    {
+      "source_frame": 1038,
+      "accepted": false,
+      "source_bgr_sha256": "91073f66df64d6795af4356a39d930d1198b574de752c145be06b415a488cb63",
+      "raw_bgr_sha256": "7e6d3f71657d04e766b42e77cd2269bdffe294cf81ecfaf85ea5e9c402f03a1b",
+      "encoded_bgr_sha256": "65583678a16d85daf0dba59ff1d8546a0fba059aff95cf6566352343607f93b9",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1038-source-encoded-caption.png",
+        "sha256": "881b7ab875067768577998f5c1803cdae3effa60cf454fc6a0dbc91e6b29d74c"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1038-raw-encoded-caption.png",
+        "sha256": "39d05b7f8be679a0e3be581b57ac96e4f8c5ca4c4ddb3e3e4906c3f6aa327af1"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.4405850340136053,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": true,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1038-encoded.png",
+        "sha256": "04c36136de1acec4f105468077bdf648adff35a031929859bafa3142da4f537e"
+      }
+    },
+    {
+      "source_frame": 1039,
+      "accepted": false,
+      "source_bgr_sha256": "5d9f9933db5e1e6bacf54864da160be68d7fe3dfe16aa10a10fb8d165c7c14ff",
+      "raw_bgr_sha256": "b3bb45f05a018be6970a1ab2a8f858614aa667124b3e96a0132e0d8e3e1f7090",
+      "encoded_bgr_sha256": "137e2b31e6441df59abd1cd27f1682f2db1f4642713a50158f33a1cf59c21f94",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1039-source-encoded-caption.png",
+        "sha256": "ab93ebafa529f1f88a3641d4c50d2dd2aa73962560ea112709ee181350cb4ed5"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1039-raw-encoded-caption.png",
+        "sha256": "881896ab903b0aa0dfb0f30fa18d24d495e7812bb80e9b18ac92b0911f358093"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.438113378684807,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": true
+    },
+    {
+      "source_frame": 1040,
+      "accepted": false,
+      "source_bgr_sha256": "6075d80aa6b1bcd4b70ab0604af02153ee4bbf6808023818c8471f233615cd4c",
+      "raw_bgr_sha256": "577a61329a0bdcd2e6f88d5670f0c149a43a331349d22e244c3214d2c0baac2a",
+      "encoded_bgr_sha256": "cf5296bc80a060d12932d9b55df5c4e08d497bb5f642c2d3acdededa3ed89655",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1040-source-encoded-caption.png",
+        "sha256": "2d06d8c90fcb73bf3c82578e0975fb34550c0df2d01aef591ad9d60349add625"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1040-raw-encoded-caption.png",
+        "sha256": "d38b33e4185f2ccc2155ef09d027b4948204174d2d3aa8338846d021e5c9f6aa"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.4256145124716553,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": true
+    },
+    {
+      "source_frame": 1041,
+      "accepted": false,
+      "source_bgr_sha256": "f1e82c5f2c653e39f853afa3d4c086971281f631b8b5c27e9b66fb8b2acf306a",
+      "raw_bgr_sha256": "c4b61c13f372de2011a29ca16484712c68d946abf7f06038e439cfd9c825956e",
+      "encoded_bgr_sha256": "ad746728d1148ecc35cfabe1827b0726855c5d4b0401bdeefa83b52347065583",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1041-source-encoded-caption.png",
+        "sha256": "08cc8966499bbd30022bee1de86a1ba69e63c06b789bde4f2905bbea2892460d"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1041-raw-encoded-caption.png",
+        "sha256": "a444ece79bb3b23c125154066ec4ea3c23c1e5210575b7adae90aaef3a9b2d5d"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.4307709750566895,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": true
+    },
+    {
+      "source_frame": 1042,
+      "accepted": false,
+      "source_bgr_sha256": "411b762fb1e38c1bccdf57ec5be553e7f12818605747a3fa74197c1614dc9cfe",
+      "raw_bgr_sha256": "580c47056a1bba8e8359f2650019958c3708b23a43418ffde14e066799d996e3",
+      "encoded_bgr_sha256": "1e3fce16c44ab0cc5645db44709e7cce3bb67d2b71dc0ce63d8577115f41c6c5",
+      "source_raw_unchanged_from_regression": true,
+      "native_source_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1042-source-encoded-caption.png",
+        "sha256": "91f0e0e609b125358d9efe82fedae27288439a79f67e234776e73a4c2319095a"
+      },
+      "native_raw_encoded_caption_pair": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1042-raw-encoded-caption.png",
+        "sha256": "3f9ff4f1f2c87b584738520fd5c3321ef54633bf910ca63a63f6c8e4a8d01558"
+      },
+      "raw_encoded_caption_mean_abs_channel_delta": 3.4285396825396823,
+      "metric_scope": "Compression diagnostic only; not a glyph readability or art acceptance test.",
+      "real_glyph_alternate_applied": true,
+      "full_encoded": {
+        "path": "qa/star-final-integration-2026-10-05/encoded-native-evidence/f1042-encoded.png",
+        "sha256": "73d2bced398964f37b45d3377a5557e118b85b53e3501305d7bce9d4c0a31d83"
+      }
+    }
+  ],
+  "static_native_review": "pending_separate_manual_record",
+  "actual_speed_review": "not_performed",
+  "artistic_acceptance": false,
+  "limitations": "Source-exact frame PTS and independent glyph timing are technical checks. f3402 real glyph alpha, AA and target ink are an authorized reconstruction, not exact recovery of invisible original strokes. Encoded pages are static only."
+}

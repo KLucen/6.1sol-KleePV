@@ -1,0 +1,4386 @@
+{
+  "scope": [
+    1500,
+    2399
+  ],
+  "snapshot_utc": "2026-10-03T02:04:51.427348+00:00",
+  "manifest_snapshot_utc": "2026-10-03T01:56:28.047375+00:00",
+  "assigned_cels": 161,
+  "manifest_missing_cels": 95,
+  "private_proposals": 62,
+  "saved_but_manifest_missing": [],
+  "queue": [
+    {
+      "cel": "cel-0370",
+      "source_candidate": "src-1110",
+      "canonical_source_frame": 2040,
+      "source_reference": "source_refs/src-1110-f2040.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2040,
+          "end": 2041,
+          "pts": 85.0,
+          "end_pts": 85.042,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2041,
+          "end": 2042,
+          "pts": 85.042,
+          "end_pts": 85.083,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0003924369812012,
+                -1.0983273568854202e-05,
+                -0.3711949586868286
+              ],
+              [
+                1.0983273568854202e-05,
+                1.0003924369812012,
+                -0.2076503038406372
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2042,
+          "end": 2043,
+          "pts": 85.083,
+          "end_pts": 85.125,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0008105488434118,
+                -4.167113103617634e-06,
+                -0.780009542216057
+              ],
+              [
+                4.167113103617634e-06,
+                1.0008105488434118,
+                -0.4375271548964066
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0371",
+      "source_candidate": "src-1113",
+      "canonical_source_frame": 2043,
+      "source_reference": "source_refs/src-1113-f2043.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2043,
+          "end": 2044,
+          "pts": 85.125,
+          "end_pts": 85.167,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2044,
+          "end": 2045,
+          "pts": 85.167,
+          "end_pts": 85.208,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.000413417816162,
+                -2.8390436455083545e-06,
+                -0.3996126055717468
+              ],
+              [
+                2.8390436455083545e-06,
+                1.000413417816162,
+                -0.22001871466636658
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0372",
+      "source_candidate": "src-1115",
+      "canonical_source_frame": 2045,
+      "source_reference": "source_refs/src-1115-f2045.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2045,
+          "end": 2046,
+          "pts": 85.208,
+          "end_pts": 85.25,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2046,
+          "end": 2047,
+          "pts": 85.25,
+          "end_pts": 85.292,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0004050731658936,
+                1.4481232028629165e-05,
+                -0.38002312183380127
+              ],
+              [
+                -1.4481232028629165e-05,
+                1.0004050731658936,
+                -0.1970585286617279
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2047,
+          "end": 2048,
+          "pts": 85.292,
+          "end_pts": 85.333,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0007819269836478,
+                2.3387090937807562e-05,
+                -0.7561957633365685
+              ],
+              [
+                -2.3387090937807562e-05,
+                1.0007819269836478,
+                -0.40273798622529317
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0373",
+      "source_candidate": "src-1118",
+      "canonical_source_frame": 2048,
+      "source_reference": "source_refs/src-1118-f2048.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2048,
+          "end": 2049,
+          "pts": 85.333,
+          "end_pts": 85.375,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2049,
+          "end": 2050,
+          "pts": 85.375,
+          "end_pts": 85.417,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.00040864944458,
+                4.399130557430908e-05,
+                -0.39203840494155884
+              ],
+              [
+                -4.399130557430908e-05,
+                1.00040864944458,
+                -0.211975559592247
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2050,
+          "end": 2051,
+          "pts": 85.417,
+          "end_pts": 85.458,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0007962371663492,
+                6.202843449163407e-05,
+                -0.7876368945455792
+              ],
+              [
+                -6.202843449163407e-05,
+                1.0007962371663492,
+                -0.4271966436988439
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0374",
+      "source_candidate": "src-1121",
+      "canonical_source_frame": 2051,
+      "source_reference": "source_refs/src-1121-f2051.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2051,
+          "end": 2052,
+          "pts": 85.458,
+          "end_pts": 85.5,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2052,
+          "end": 2053,
+          "pts": 85.5,
+          "end_pts": 85.542,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0003774166107178,
+                -3.6040801205672324e-05,
+                -0.28010839223861694
+              ],
+              [
+                3.6040801205672324e-05,
+                1.0003774166107178,
+                -0.19248080253601074
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2053,
+          "end": 2054,
+          "pts": 85.542,
+          "end_pts": 85.583,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0007369682975829,
+                -3.5240538948243206e-05,
+                -0.6666607665256279
+              ],
+              [
+                3.5240538948243206e-05,
+                1.0007369682975829,
+                -0.3446824156655429
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0375",
+      "source_candidate": "src-1124",
+      "canonical_source_frame": 2054,
+      "source_reference": "source_refs/src-1124-f2054.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2054,
+          "end": 2055,
+          "pts": 85.583,
+          "end_pts": 85.625,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2055,
+          "end": 2056,
+          "pts": 85.625,
+          "end_pts": 85.667,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0002341270446777,
+                4.4822725612903014e-05,
+                -0.3410247564315796
+              ],
+              [
+                -4.4822725612903014e-05,
+                1.0002341270446777,
+                -0.10903356969356537
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0376",
+      "source_candidate": "src-1126",
+      "canonical_source_frame": 2056,
+      "source_reference": "source_refs/src-1126-f2056.png",
+      "canonical_family": "shout_zoom",
+      "exposure_families": [
+        "shout_zoom"
+      ],
+      "source_exposures": [
+        {
+          "start": 2056,
+          "end": 2057,
+          "pts": 85.667,
+          "end_pts": 85.708,
+          "family": "shout_zoom",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0377",
+      "source_candidate": "src-1127",
+      "canonical_source_frame": 2057,
+      "source_reference": "source_refs/src-1127-f2057.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2057,
+          "end": 2058,
+          "pts": 85.708,
+          "end_pts": 85.75,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0378",
+      "source_candidate": "src-1128",
+      "canonical_source_frame": 2058,
+      "source_reference": "source_refs/src-1128-f2058.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2058,
+          "end": 2059,
+          "pts": 85.75,
+          "end_pts": 85.792,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0379",
+      "source_candidate": "src-1129",
+      "canonical_source_frame": 2059,
+      "source_reference": "source_refs/src-1129-f2059.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2059,
+          "end": 2061,
+          "pts": 85.792,
+          "end_pts": 85.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0380",
+      "source_candidate": "src-1131",
+      "canonical_source_frame": 2061,
+      "source_reference": "source_refs/src-1131-f2061.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2061,
+          "end": 2065,
+          "pts": 85.875,
+          "end_pts": 86.042,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0381",
+      "source_candidate": "src-1135",
+      "canonical_source_frame": 2065,
+      "source_reference": "source_refs/src-1135-f2065.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2065,
+          "end": 2069,
+          "pts": 86.042,
+          "end_pts": 86.208,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0382",
+      "source_candidate": "src-1139",
+      "canonical_source_frame": 2069,
+      "source_reference": "source_refs/src-1139-f2069.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2069,
+          "end": 2073,
+          "pts": 86.208,
+          "end_pts": 86.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0383",
+      "source_candidate": "src-1143",
+      "canonical_source_frame": 2073,
+      "source_reference": "source_refs/src-1143-f2073.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2073,
+          "end": 2077,
+          "pts": 86.375,
+          "end_pts": 86.542,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0384",
+      "source_candidate": "src-1147",
+      "canonical_source_frame": 2077,
+      "source_reference": "source_refs/src-1147-f2077.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2077,
+          "end": 2081,
+          "pts": 86.542,
+          "end_pts": 86.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0385",
+      "source_candidate": "src-1151",
+      "canonical_source_frame": 2081,
+      "source_reference": "source_refs/src-1151-f2081.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2081,
+          "end": 2085,
+          "pts": 86.708,
+          "end_pts": 86.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0386",
+      "source_candidate": "src-1155",
+      "canonical_source_frame": 2085,
+      "source_reference": "source_refs/src-1155-f2085.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2085,
+          "end": 2090,
+          "pts": 86.875,
+          "end_pts": 87.083,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0387",
+      "source_candidate": "src-1160",
+      "canonical_source_frame": 2090,
+      "source_reference": "source_refs/src-1160-f2090.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2090,
+          "end": 2094,
+          "pts": 87.083,
+          "end_pts": 87.25,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0388",
+      "source_candidate": "src-1164",
+      "canonical_source_frame": 2094,
+      "source_reference": "source_refs/src-1164-f2094.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2094,
+          "end": 2098,
+          "pts": 87.25,
+          "end_pts": 87.417,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0389",
+      "source_candidate": "src-1168",
+      "canonical_source_frame": 2098,
+      "source_reference": "source_refs/src-1168-f2098.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2098,
+          "end": 2105,
+          "pts": 87.417,
+          "end_pts": 87.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0390",
+      "source_candidate": "src-1175",
+      "canonical_source_frame": 2105,
+      "source_reference": "source_refs/src-1175-f2105.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2105,
+          "end": 2110,
+          "pts": 87.708,
+          "end_pts": 87.917,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0391",
+      "source_candidate": "src-1180",
+      "canonical_source_frame": 2110,
+      "source_reference": "source_refs/src-1180-f2110.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2110,
+          "end": 2115,
+          "pts": 87.917,
+          "end_pts": 88.125,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0392",
+      "source_candidate": "src-1185",
+      "canonical_source_frame": 2115,
+      "source_reference": "source_refs/src-1185-f2115.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2115,
+          "end": 2121,
+          "pts": 88.125,
+          "end_pts": 88.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0393",
+      "source_candidate": "src-1191",
+      "canonical_source_frame": 2121,
+      "source_reference": "source_refs/src-1191-f2121.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2121,
+          "end": 2122,
+          "pts": 88.375,
+          "end_pts": 88.417,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0394",
+      "source_candidate": "src-1192",
+      "canonical_source_frame": 2122,
+      "source_reference": "source_refs/src-1192-f2122.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2122,
+          "end": 2129,
+          "pts": 88.417,
+          "end_pts": 88.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0395",
+      "source_candidate": "src-1199",
+      "canonical_source_frame": 2129,
+      "source_reference": "source_refs/src-1199-f2129.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2129,
+          "end": 2130,
+          "pts": 88.708,
+          "end_pts": 88.75,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0396",
+      "source_candidate": "src-1200",
+      "canonical_source_frame": 2130,
+      "source_reference": "source_refs/src-1200-f2130.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2130,
+          "end": 2132,
+          "pts": 88.75,
+          "end_pts": 88.833,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0397",
+      "source_candidate": "src-1202",
+      "canonical_source_frame": 2132,
+      "source_reference": "source_refs/src-1202-f2132.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2132,
+          "end": 2135,
+          "pts": 88.833,
+          "end_pts": 88.958,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0398",
+      "source_candidate": "src-1205",
+      "canonical_source_frame": 2135,
+      "source_reference": "source_refs/src-1205-f2135.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2135,
+          "end": 2136,
+          "pts": 88.958,
+          "end_pts": 89.0,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0399",
+      "source_candidate": "src-1206",
+      "canonical_source_frame": 2136,
+      "source_reference": "source_refs/src-1206-f2136.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2136,
+          "end": 2138,
+          "pts": 89.0,
+          "end_pts": 89.083,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0400",
+      "source_candidate": "src-1208",
+      "canonical_source_frame": 2138,
+      "source_reference": "source_refs/src-1208-f2138.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2138,
+          "end": 2141,
+          "pts": 89.083,
+          "end_pts": 89.208,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0401",
+      "source_candidate": "src-1211",
+      "canonical_source_frame": 2141,
+      "source_reference": "source_refs/src-1211-f2141.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2141,
+          "end": 2143,
+          "pts": 89.208,
+          "end_pts": 89.292,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0402",
+      "source_candidate": "src-1213",
+      "canonical_source_frame": 2143,
+      "source_reference": "source_refs/src-1213-f2143.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2143,
+          "end": 2145,
+          "pts": 89.292,
+          "end_pts": 89.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0403",
+      "source_candidate": "src-1214",
+      "canonical_source_frame": 2145,
+      "source_reference": "source_refs/src-1214-f2145.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2145,
+          "end": 2146,
+          "pts": 89.375,
+          "end_pts": 89.417,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0404",
+      "source_candidate": "src-1215",
+      "canonical_source_frame": 2146,
+      "source_reference": "source_refs/src-1215-f2146.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2146,
+          "end": 2149,
+          "pts": 89.417,
+          "end_pts": 89.542,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0405",
+      "source_candidate": "src-1217",
+      "canonical_source_frame": 2149,
+      "source_reference": "source_refs/src-1217-f2149.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2149,
+          "end": 2151,
+          "pts": 89.542,
+          "end_pts": 89.625,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0406",
+      "source_candidate": "src-1219",
+      "canonical_source_frame": 2151,
+      "source_reference": "source_refs/src-1219-f2151.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2151,
+          "end": 2152,
+          "pts": 89.625,
+          "end_pts": 89.667,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0407",
+      "source_candidate": "src-1220",
+      "canonical_source_frame": 2152,
+      "source_reference": "source_refs/src-1220-f2152.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2152,
+          "end": 2154,
+          "pts": 89.667,
+          "end_pts": 89.75,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0408",
+      "source_candidate": "src-1221",
+      "canonical_source_frame": 2154,
+      "source_reference": "source_refs/src-1221-f2154.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2154,
+          "end": 2155,
+          "pts": 89.75,
+          "end_pts": 89.792,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0409",
+      "source_candidate": "src-1222",
+      "canonical_source_frame": 2155,
+      "source_reference": "source_refs/src-1222-f2155.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2155,
+          "end": 2157,
+          "pts": 89.792,
+          "end_pts": 89.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0410",
+      "source_candidate": "src-1224",
+      "canonical_source_frame": 2157,
+      "source_reference": "source_refs/src-1224-f2157.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2157,
+          "end": 2163,
+          "pts": 89.875,
+          "end_pts": 90.125,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0411",
+      "source_candidate": "src-1226",
+      "canonical_source_frame": 2163,
+      "source_reference": "source_refs/src-1226-f2163.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2163,
+          "end": 2169,
+          "pts": 90.125,
+          "end_pts": 90.375,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0412",
+      "source_candidate": "src-1227",
+      "canonical_source_frame": 2169,
+      "source_reference": "source_refs/src-1227-f2169.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2169,
+          "end": 2176,
+          "pts": 90.375,
+          "end_pts": 90.667,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0413",
+      "source_candidate": "src-1229",
+      "canonical_source_frame": 2176,
+      "source_reference": "source_refs/src-1229-f2176.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2176,
+          "end": 2182,
+          "pts": 90.667,
+          "end_pts": 90.917,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0414",
+      "source_candidate": "src-1231",
+      "canonical_source_frame": 2182,
+      "source_reference": "source_refs/src-1231-f2182.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2182,
+          "end": 2188,
+          "pts": 90.917,
+          "end_pts": 91.167,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0415",
+      "source_candidate": "src-1232",
+      "canonical_source_frame": 2188,
+      "source_reference": "source_refs/src-1232-f2188.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2188,
+          "end": 2194,
+          "pts": 91.167,
+          "end_pts": 91.417,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0416",
+      "source_candidate": "src-1233",
+      "canonical_source_frame": 2194,
+      "source_reference": "source_refs/src-1233-f2194.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2194,
+          "end": 2200,
+          "pts": 91.417,
+          "end_pts": 91.667,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0417",
+      "source_candidate": "src-1234",
+      "canonical_source_frame": 2200,
+      "source_reference": "source_refs/src-1234-f2200.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2200,
+          "end": 2206,
+          "pts": 91.667,
+          "end_pts": 91.917,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0418",
+      "source_candidate": "src-1236",
+      "canonical_source_frame": 2206,
+      "source_reference": "source_refs/src-1236-f2206.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2206,
+          "end": 2213,
+          "pts": 91.917,
+          "end_pts": 92.208,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0419",
+      "source_candidate": "src-1237",
+      "canonical_source_frame": 2213,
+      "source_reference": "source_refs/src-1237-f2213.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2213,
+          "end": 2219,
+          "pts": 92.208,
+          "end_pts": 92.458,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0420",
+      "source_candidate": "src-1238",
+      "canonical_source_frame": 2219,
+      "source_reference": "source_refs/src-1238-f2219.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2219,
+          "end": 2225,
+          "pts": 92.458,
+          "end_pts": 92.708,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0421",
+      "source_candidate": "src-1239",
+      "canonical_source_frame": 2225,
+      "source_reference": "source_refs/src-1239-f2225.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2225,
+          "end": 2231,
+          "pts": 92.708,
+          "end_pts": 92.958,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0422",
+      "source_candidate": "src-1241",
+      "canonical_source_frame": 2231,
+      "source_reference": "source_refs/src-1241-f2231.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2231,
+          "end": 2237,
+          "pts": 92.958,
+          "end_pts": 93.208,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0423",
+      "source_candidate": "src-1242",
+      "canonical_source_frame": 2237,
+      "source_reference": "source_refs/src-1242-f2237.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2237,
+          "end": 2244,
+          "pts": 93.208,
+          "end_pts": 93.5,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0424",
+      "source_candidate": "src-1243",
+      "canonical_source_frame": 2244,
+      "source_reference": "source_refs/src-1243-f2244.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2244,
+          "end": 2250,
+          "pts": 93.5,
+          "end_pts": 93.75,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0425",
+      "source_candidate": "src-1244",
+      "canonical_source_frame": 2250,
+      "source_reference": "source_refs/src-1244-f2250.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2250,
+          "end": 2252,
+          "pts": 93.75,
+          "end_pts": 93.833,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0426",
+      "source_candidate": "src-1245",
+      "canonical_source_frame": 2252,
+      "source_reference": "source_refs/src-1245-f2252.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2252,
+          "end": 2253,
+          "pts": 93.833,
+          "end_pts": 93.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0427",
+      "source_candidate": "src-1246",
+      "canonical_source_frame": 2253,
+      "source_reference": "source_refs/src-1246-f2253.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2253,
+          "end": 2254,
+          "pts": 93.875,
+          "end_pts": 93.917,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0428",
+      "source_candidate": "src-1247",
+      "canonical_source_frame": 2254,
+      "source_reference": "source_refs/src-1247-f2254.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2254,
+          "end": 2255,
+          "pts": 93.917,
+          "end_pts": 93.958,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0429",
+      "source_candidate": "src-1248",
+      "canonical_source_frame": 2255,
+      "source_reference": "source_refs/src-1248-f2255.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2255,
+          "end": 2258,
+          "pts": 93.958,
+          "end_pts": 94.083,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0430",
+      "source_candidate": "src-1249",
+      "canonical_source_frame": 2258,
+      "source_reference": "source_refs/src-1249-f2258.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2258,
+          "end": 2261,
+          "pts": 94.083,
+          "end_pts": 94.208,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0431",
+      "source_candidate": "src-1250",
+      "canonical_source_frame": 2261,
+      "source_reference": "source_refs/src-1250-f2261.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2261,
+          "end": 2264,
+          "pts": 94.208,
+          "end_pts": 94.333,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0432",
+      "source_candidate": "src-1251",
+      "canonical_source_frame": 2264,
+      "source_reference": "source_refs/src-1251-f2264.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2264,
+          "end": 2265,
+          "pts": 94.333,
+          "end_pts": 94.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0433",
+      "source_candidate": "src-1252",
+      "canonical_source_frame": 2265,
+      "source_reference": "source_refs/src-1252-f2265.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2265,
+          "end": 2266,
+          "pts": 94.375,
+          "end_pts": 94.417,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0434",
+      "source_candidate": "src-1253",
+      "canonical_source_frame": 2266,
+      "source_reference": "source_refs/src-1253-f2266.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2266,
+          "end": 2269,
+          "pts": 94.417,
+          "end_pts": 94.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0435",
+      "source_candidate": "src-1256",
+      "canonical_source_frame": 2269,
+      "source_reference": "source_refs/src-1256-f2269.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2269,
+          "end": 2271,
+          "pts": 94.542,
+          "end_pts": 94.625,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0436",
+      "source_candidate": "src-1258",
+      "canonical_source_frame": 2271,
+      "source_reference": "source_refs/src-1258-f2271.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2271,
+          "end": 2272,
+          "pts": 94.625,
+          "end_pts": 94.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0437",
+      "source_candidate": "src-1259",
+      "canonical_source_frame": 2272,
+      "source_reference": "source_refs/src-1259-f2272.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2272,
+          "end": 2275,
+          "pts": 94.667,
+          "end_pts": 94.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0438",
+      "source_candidate": "src-1262",
+      "canonical_source_frame": 2275,
+      "source_reference": "source_refs/src-1262-f2275.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2275,
+          "end": 2276,
+          "pts": 94.792,
+          "end_pts": 94.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0439",
+      "source_candidate": "src-1263",
+      "canonical_source_frame": 2276,
+      "source_reference": "source_refs/src-1263-f2276.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2276,
+          "end": 2281,
+          "pts": 94.833,
+          "end_pts": 95.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0440",
+      "source_candidate": "src-1268",
+      "canonical_source_frame": 2281,
+      "source_reference": "source_refs/src-1268-f2281.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2281,
+          "end": 2286,
+          "pts": 95.042,
+          "end_pts": 95.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0441",
+      "source_candidate": "src-1273",
+      "canonical_source_frame": 2286,
+      "source_reference": "source_refs/src-1273-f2286.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2286,
+          "end": 2290,
+          "pts": 95.25,
+          "end_pts": 95.417,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0442",
+      "source_candidate": "src-1277",
+      "canonical_source_frame": 2290,
+      "source_reference": "source_refs/src-1277-f2290.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2290,
+          "end": 2291,
+          "pts": 95.417,
+          "end_pts": 95.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0443",
+      "source_candidate": "src-1278",
+      "canonical_source_frame": 2291,
+      "source_reference": "source_refs/src-1278-f2291.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2291,
+          "end": 2296,
+          "pts": 95.458,
+          "end_pts": 95.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0444",
+      "source_candidate": "src-1283",
+      "canonical_source_frame": 2296,
+      "source_reference": "source_refs/src-1283-f2296.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2296,
+          "end": 2301,
+          "pts": 95.667,
+          "end_pts": 95.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2328,
+          "end": 2333,
+          "pts": 97.0,
+          "end_pts": 97.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 10,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0445",
+      "source_candidate": "src-1288",
+      "canonical_source_frame": 2301,
+      "source_reference": "source_refs/src-1288-f2301.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2301,
+          "end": 2307,
+          "pts": 95.875,
+          "end_pts": 96.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2333,
+          "end": 2339,
+          "pts": 97.208,
+          "end_pts": 97.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 12,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0446",
+      "source_candidate": "src-1294",
+      "canonical_source_frame": 2307,
+      "source_reference": "source_refs/src-1294-f2307.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2307,
+          "end": 2312,
+          "pts": 96.125,
+          "end_pts": 96.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0447",
+      "source_candidate": "src-1299",
+      "canonical_source_frame": 2312,
+      "source_reference": "source_refs/src-1299-f2312.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2312,
+          "end": 2316,
+          "pts": 96.333,
+          "end_pts": 96.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0448",
+      "source_candidate": "src-1303",
+      "canonical_source_frame": 2316,
+      "source_reference": "source_refs/src-1303-f2316.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2316,
+          "end": 2317,
+          "pts": 96.5,
+          "end_pts": 96.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0449",
+      "source_candidate": "src-1304",
+      "canonical_source_frame": 2317,
+      "source_reference": "source_refs/src-1304-f2317.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2317,
+          "end": 2323,
+          "pts": 96.542,
+          "end_pts": 96.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0450",
+      "source_candidate": "src-1310",
+      "canonical_source_frame": 2323,
+      "source_reference": "source_refs/src-1310-f2323.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2323,
+          "end": 2328,
+          "pts": 96.792,
+          "end_pts": 97.0,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0451",
+      "source_candidate": "src-1326",
+      "canonical_source_frame": 2339,
+      "source_reference": "source_refs/src-1326-f2339.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2339,
+          "end": 2340,
+          "pts": 97.458,
+          "end_pts": 97.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0452",
+      "source_candidate": "src-1327",
+      "canonical_source_frame": 2340,
+      "source_reference": "source_refs/src-1327-f2340.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2340,
+          "end": 2345,
+          "pts": 97.5,
+          "end_pts": 97.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0453",
+      "source_candidate": "src-1332",
+      "canonical_source_frame": 2345,
+      "source_reference": "source_refs/src-1332-f2345.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2345,
+          "end": 2350,
+          "pts": 97.708,
+          "end_pts": 97.917,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0454",
+      "source_candidate": "src-1337",
+      "canonical_source_frame": 2350,
+      "source_reference": "source_refs/src-1337-f2350.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2350,
+          "end": 2354,
+          "pts": 97.917,
+          "end_pts": 98.083,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0455",
+      "source_candidate": "src-1341",
+      "canonical_source_frame": 2354,
+      "source_reference": "source_refs/src-1341-f2354.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2354,
+          "end": 2361,
+          "pts": 98.083,
+          "end_pts": 98.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0456",
+      "source_candidate": "src-1348",
+      "canonical_source_frame": 2361,
+      "source_reference": "source_refs/src-1348-f2361.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2361,
+          "end": 2366,
+          "pts": 98.375,
+          "end_pts": 98.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0457",
+      "source_candidate": "src-1353",
+      "canonical_source_frame": 2366,
+      "source_reference": "source_refs/src-1353-f2366.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2366,
+          "end": 2371,
+          "pts": 98.583,
+          "end_pts": 98.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0458",
+      "source_candidate": "src-1358",
+      "canonical_source_frame": 2371,
+      "source_reference": "source_refs/src-1358-f2371.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2371,
+          "end": 2377,
+          "pts": 98.792,
+          "end_pts": 99.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0459",
+      "source_candidate": "src-1364",
+      "canonical_source_frame": 2377,
+      "source_reference": "source_refs/src-1364-f2377.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2377,
+          "end": 2382,
+          "pts": 99.042,
+          "end_pts": 99.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0460",
+      "source_candidate": "src-1369",
+      "canonical_source_frame": 2382,
+      "source_reference": "source_refs/src-1369-f2382.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2382,
+          "end": 2388,
+          "pts": 99.25,
+          "end_pts": 99.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0461",
+      "source_candidate": "src-1375",
+      "canonical_source_frame": 2388,
+      "source_reference": "source_refs/src-1375-f2388.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2388,
+          "end": 2395,
+          "pts": 99.5,
+          "end_pts": 99.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0462",
+      "source_candidate": "src-1382",
+      "canonical_source_frame": 2395,
+      "source_reference": "source_refs/src-1382-f2395.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2395,
+          "end": 2397,
+          "pts": 99.792,
+          "end_pts": 99.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0463",
+      "source_candidate": "src-1384",
+      "canonical_source_frame": 2397,
+      "source_reference": "source_refs/src-1384-f2397.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2397,
+          "end": 2399,
+          "pts": 99.875,
+          "end_pts": 99.958,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    },
+    {
+      "cel": "cel-0464",
+      "source_candidate": "src-1386",
+      "canonical_source_frame": 2399,
+      "source_reference": "source_refs/src-1386-f2399.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2399,
+          "end": 2401,
+          "pts": 99.958,
+          "end_pts": 100.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 3461,
+          "end": 3466,
+          "pts": 144.208,
+          "end_pts": 144.417,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": false,
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null
+    }
+  ],
+  "artistic_accepted": false
+}

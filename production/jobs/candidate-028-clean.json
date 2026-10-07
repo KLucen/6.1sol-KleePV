@@ -1,0 +1,15 @@
+{
+  "job_id": "candidate-028-clean",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-028.png"
+  ],
+  "prompt": "Localized cleanup ONLY of this Klee PV cel. It is the BACK OF KLEE'S HEAD, not a front view: no face is visible. Keep exact crop, head and hat outer silhouette, blonde hair contours, both short ponytails, white feather and side medallion at LEFT, cream hat rim, background lavender/cyan division, stars, tiny visible cyan outgoing head fragment at upper edge, all existing outlines and colors. The cream large four-leaf clover printed on the MIDDLE of the red hat dome is wrongly on the back. Remove ONLY that central cream clover and continue the surrounding plain red hat surface with the same flat color/shading. Do NOT remove the legitimate left-side medallion motif or feather. Also REMOVE ALL existing bottom Japanese and Chinese subtitles, replacing covered portions with the clean continuation of the SAME blonde hair. No text, labels, new objects or face. Do not redesign, move, resize, rotate, recrop or rerender the character. Maintain the identical flat hand-drawn PV treatment.",
+  "output": "../generated/candidate-028-clean.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "replaces": "candidate-028",
+  "repairs": [
+    "clover on back of hat",
+    "generated subtitles"
+  ]
+}

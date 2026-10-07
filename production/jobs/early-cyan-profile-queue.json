@@ -1,0 +1,392 @@
+{
+  "map": "source_camera_early.json",
+  "family": "cyan_profile",
+  "existing": [
+    {
+      "frame": 911,
+      "old_id": "031",
+      "output": "../generated/candidate-031-clean.png"
+    },
+    {
+      "frame": 1006,
+      "old_id": "032",
+      "output": "../generated/candidate-032-clean.png"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "src-0458",
+      "frame": 914,
+      "start": 914,
+      "end": 915,
+      "cel": "cel-0177",
+      "reference": "source_refs/src-0458-f0914.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0242",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0459",
+      "frame": 915,
+      "start": 915,
+      "end": 917,
+      "cel": "cel-0178",
+      "reference": "source_refs/src-0459-f0915.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0243",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0461",
+      "frame": 919,
+      "start": 919,
+      "end": 920,
+      "cel": "cel-0179",
+      "reference": "source_refs/src-0461-f0919.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0245",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0463",
+      "frame": 921,
+      "start": 921,
+      "end": 922,
+      "cel": "cel-0180",
+      "reference": "source_refs/src-0463-f0921.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0246",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0466",
+      "frame": 925,
+      "start": 925,
+      "end": 926,
+      "cel": "cel-0181",
+      "reference": "source_refs/src-0466-f0925.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0248",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0468",
+      "frame": 927,
+      "start": 927,
+      "end": 928,
+      "cel": "cel-0182",
+      "reference": "source_refs/src-0468-f0927.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0249",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0472",
+      "frame": 931,
+      "start": 931,
+      "end": 932,
+      "cel": "cel-0183",
+      "reference": "source_refs/src-0472-f0931.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0251",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0474",
+      "frame": 933,
+      "start": 933,
+      "end": 934,
+      "cel": "cel-0184",
+      "reference": "source_refs/src-0474-f0933.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0252",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0476",
+      "frame": 935,
+      "start": 935,
+      "end": 936,
+      "cel": "cel-0185",
+      "reference": "source_refs/src-0476-f0935.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0253",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0478",
+      "frame": 938,
+      "start": 938,
+      "end": 939,
+      "cel": "cel-0186",
+      "reference": "source_refs/src-0478-f0938.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0254",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0479",
+      "frame": 939,
+      "start": 939,
+      "end": 940,
+      "cel": "cel-0187",
+      "reference": "source_refs/src-0479-f0939.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0255",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0481",
+      "frame": 942,
+      "start": 942,
+      "end": 943,
+      "cel": "cel-0188",
+      "reference": "source_refs/src-0481-f0942.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0256",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0484",
+      "frame": 945,
+      "start": 945,
+      "end": 946,
+      "cel": "cel-0189",
+      "reference": "source_refs/src-0484-f0945.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0257",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0486",
+      "frame": 948,
+      "start": 948,
+      "end": 949,
+      "cel": "cel-0190",
+      "reference": "source_refs/src-0486-f0948.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0258",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0489",
+      "frame": 951,
+      "start": 951,
+      "end": 952,
+      "cel": "cel-0191",
+      "reference": "source_refs/src-0489-f0951.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0259",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0492",
+      "frame": 954,
+      "start": 954,
+      "end": 955,
+      "cel": "cel-0192",
+      "reference": "source_refs/src-0492-f0954.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0260",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0495",
+      "frame": 957,
+      "start": 957,
+      "end": 960,
+      "cel": "cel-0193",
+      "reference": "source_refs/src-0495-f0957.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0262",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0496",
+      "frame": 960,
+      "start": 960,
+      "end": 961,
+      "cel": "cel-0194",
+      "reference": "source_refs/src-0496-f0960.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0263",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0499",
+      "frame": 963,
+      "start": 963,
+      "end": 964,
+      "cel": "cel-0195",
+      "reference": "source_refs/src-0499-f0963.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0265",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0501",
+      "frame": 965,
+      "start": 965,
+      "end": 966,
+      "cel": "cel-0196",
+      "reference": "source_refs/src-0501-f0965.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0266",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0503",
+      "frame": 967,
+      "start": 967,
+      "end": 968,
+      "cel": "cel-0197",
+      "reference": "source_refs/src-0503-f0967.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0267",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0505",
+      "frame": 969,
+      "start": 969,
+      "end": 970,
+      "cel": "cel-0198",
+      "reference": "source_refs/src-0505-f0969.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0268",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0509",
+      "frame": 973,
+      "start": 973,
+      "end": 974,
+      "cel": "cel-0199",
+      "reference": "source_refs/src-0509-f0973.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0270",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0511",
+      "frame": 975,
+      "start": 975,
+      "end": 976,
+      "cel": "cel-0200",
+      "reference": "source_refs/src-0511-f0975.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0271",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0515",
+      "frame": 980,
+      "start": 980,
+      "end": 981,
+      "cel": "cel-0201",
+      "reference": "source_refs/src-0515-f0980.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0273",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0516",
+      "frame": 981,
+      "start": 981,
+      "end": 982,
+      "cel": "cel-0202",
+      "reference": "source_refs/src-0516-f0981.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0274",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0519",
+      "frame": 984,
+      "start": 984,
+      "end": 986,
+      "cel": "cel-0203",
+      "reference": "source_refs/src-0519-f0984.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0276",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0521",
+      "frame": 987,
+      "start": 987,
+      "end": 988,
+      "cel": "cel-0204",
+      "reference": "source_refs/src-0521-f0987.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0278",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0525",
+      "frame": 992,
+      "start": 992,
+      "end": 993,
+      "cel": "cel-0205",
+      "reference": "source_refs/src-0525-f0992.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0280",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0526",
+      "frame": 993,
+      "start": 993,
+      "end": 994,
+      "cel": "cel-0206",
+      "reference": "source_refs/src-0526-f0993.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0281",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0530",
+      "frame": 997,
+      "start": 997,
+      "end": 998,
+      "cel": "cel-0207",
+      "reference": "source_refs/src-0530-f0997.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0283",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0531",
+      "frame": 998,
+      "start": 998,
+      "end": 999,
+      "cel": "cel-0208",
+      "reference": "source_refs/src-0531-f0998.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0284",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0535",
+      "frame": 1002,
+      "start": 1002,
+      "end": 1003,
+      "cel": "cel-0209",
+      "reference": "source_refs/src-0535-f1002.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0286",
+      "status": "pending_final_map_and_generation"
+    },
+    {
+      "id": "src-0536",
+      "frame": 1003,
+      "start": 1003,
+      "end": 1004,
+      "cel": "cel-0210",
+      "reference": "source_refs/src-0536-f1003.png",
+      "review": "independent_candidate",
+      "prior_cel": "cel-0287",
+      "status": "pending_final_map_and_generation"
+    }
+  ]
+}

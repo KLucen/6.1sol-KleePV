@@ -1,0 +1,43 @@
+{
+  "id": "027-clean",
+  "prompt": "Use case: precise-object-edit. Remove ONLY the two off-white Japanese and Chinese subtitle rows along the bottom center of this existing Klee PV cel. Cleanly reconstruct lavender background, pale outlined background star, brown boot and portions of face/coat underneath the letters. No text anywhere. EVERY OTHER PIXEL AREA must retain original appearance: foreground right Klee in exact LEFT-facing PROFILE with one OPEN red eye, orange cheek, small mouth, hat, blonde hair and collar unchanged; small background Klee arm-raised and closed eyes remains exactly where currently visible behind large foreground head. Preserve precise 16:9 crop, all character outlines/poses/camera, stars and cyan corner background. No new shading, no object changes, no resizing, no redrawing, no style change. Pixel-identical outside lettering footprints as closely as tool permits.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027-clean.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-16260edd-f6da-4fb5-91c5-5b9ec836ee99.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "edit_scope": "caption removal only",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Subtitle removal complete; foreground left-facing profile and rear raised-arm figure preserved."
+    ],
+    "flaws": [
+      "No obvious pose/crop change; text-area contour reconstructed and pixel identity unmeasured.",
+      "Outside caption pixel identity is false; use original outside caption footprints."
+    ],
+    "text_check": "no visible residual captions",
+    "outside_caption_pixel_comparison": {
+      "id": "027",
+      "shape": [
+        941,
+        1672,
+        3
+      ],
+      "excluded_conservative_caption_bbox_xyxy": [
+        468,
+        799,
+        1153,
+        941
+      ],
+      "outside_caption_mean_abs_rgb": 2.2779,
+      "outside_caption_pixels_delta_gt10_fraction": 0.042305,
+      "outside_caption_pixels_delta_gt30_fraction": 0.005254,
+      "exact_outside_caption": false
+    },
+    "temporal_review": "pending"
+  },
+  "temporal_review": "pending"
+}

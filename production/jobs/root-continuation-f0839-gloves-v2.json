@@ -1,0 +1,17 @@
+{
+  "job_id": "root-continuation-f0839-gloves-v2",
+  "source_frame": 839,
+  "canonical_cel": "cel-0148",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-27b18686-f28e-4ec7-a4d8-aafb601624c6.png",
+  "static_review": "Both exposed hands now brown, original draft finger contours and pose visually preserved. Normalized1920x1080 maxRGBdelta>28:18686 changed pixels total,13509 outside requested two hand ROIs; no pixel locking. Cuff/boot/hem and added buttons still differ from source.",
+  "known_issues": ["Non-hand pixel locking not guaranteed", "Added front buttons", "Cuff/boot/hem contour drift", "Shading/gradient"],
+  "original_speed_review": "unperformed",
+  "accepted": false,
+  "output": "generated/root-continuation-f0839-gloves-v2.png",
+  "references": ["generated/root-continuation-f0839-v1.png"],
+  "reference_roles": ["Current draft edit target; exact pose and all non-hand elements to retain"],
+  "repair_budget": "One bounded local color repair; do not repeat indefinitely or claim pixel locking",
+  "prompt": "Use case: precise-object-edit. Edit this CURRENT PV cel with ONE correction only: BOTH exposed peach/skin-color hands must be Klee's BROWN GLOVES. The thin side-view hand at the far left sleeve and the upward spread palm at the far right sleeve must be brown all the way to each cream cuff. Match the compact brown boot color. Preserve every finger outline, hand shape, wrist-cuff boundary, pose and visibility exactly; do not change finger count, silhouette or add wrists. ALL non-hand pixels should remain visually unchanged: beret/clover/feather, blonde hair/twin ponytails/ears, two closed black eyelids and O mouth, collar, coat buttons/cream clover/hem, red shorts, backpack, arm and leg poses, two boots and lavender sketch-star background. No new shading, no extra pose change, no text, no crop, no repaint of the whole composition. Keep the exact same 16:9 full canvas. Only turn both skin-colored hands into brown gloves."
+}

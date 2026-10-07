@@ -1,0 +1,34 @@
+{
+  "job_id": "fast-fullpv-dance-f0903-v1",
+  "source_frame": 903,
+  "canonical_cel": "cel-0164",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0903-v1.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0449-f0903.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0902-f0903-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current two-portrait source: crop/pose/expression/light/layers",
+    "Cropped head identity only",
+    "Cropped collar/coat structure only",
+    "Crimson iris identity only",
+    "Actual 902-to-903 rear contour and disappearing star evidence"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE independent 16:9 PV replacement cel at source frame 903. Image 1 is CURRENT EDIT TARGET, sole authority for camera/crops, TWO visible people, head scale/tilt, exact expression, rear profile position and front-to-back ordering. Image 2 gives Klee HEAD IDENTITY ONLY (short ear-rooted blonde twins, pointed ears, red cream-clover beret/one feather), not a pose template. Image 3 gives TWO-leaf collar and continuous red coat structure only. Image 4 gives crimson iris/black pupil/highlight identity only. Image 5 is actual original 902-to-903 A/B/RGB delta/two-color contour evidence; rear hat/fringe changes and cream foreground star overlays disappear. Replace BOTH original portraits, no source animal masks or pink hair may remain. LEFT foreground: enormous cropped Klee head occupies the left ~two thirds, hat cut by top and left, closed nearly horizontal eyes with slight current tilt, tiny CLOSED chevron mouth (not O or tongue), orange cheek circles. Keep source chin/shoulder crop at bottom. Only her head, short side hair and naturally cropped collar/shoulder are visible: NO hands, arms, feet or body invented. Side ponytails stay rooted at ears and short relative to this giant head; front hair lies in FRONT OF the rear head/neck/coat as in source, but no long original pink bob, no floating extra clumps. RIGHT rear: separate Klee in strict RIGHT-FACING profile behind the foreground head, one visible OPEN crimson eye tinted by original cyan/blue night lighting, tiny point mouth and original nose/chin silhouette, cropped hat/neck/coat. Do not turn her face frontward or close her eye; rear visible face center near x68%/y46%, source rear hat near x63%/y16%. Match original rear blue/cyan lighting on face/blonde hair/hat/coat rather than recoloring the whole rear portrait warm daytime; Klee clover hat replaces source sleep mask. Keep the original cobalt-to-cyan night sky, tiny stars and crescent moon in the exposed RIGHT field, and left transition edge. Foreground uses muted warm Klee colors; rear has source cool scene tint. Simplified flat PV blocks with irregular thin black outlines, no 3D/polished rendering/shading. Original Chinese/Japanese text will be restored independently: omit ALL text, do not draw labels or fake glyphs. Preserve visible crop and count exactly two; no collage, mirroring, hold, optical flow or transition blending.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-aed244ef-5907-4a3f-b3bd-2c055ccd80fa.png",
+  "static_review": "Viewed source903, actual902-to-903 spatial difference and tool output. Both source people replaced. Left warm foreground closed eyes/tiny closed chevron and right cool night-tinted right-facing open crimson-eye profile remain; no hands/legs invented. Foreground short side groups overlap rear neck/coat. Exact silhouette/tint and cross-source-neighbor continuity pending batch review.",
+  "known_issues": [
+    "Forehead/hat and side-hair silhouette approximate source",
+    "Mild shading and rounded collar/clover proportions",
+    "Rear nighttime red eye and garment tint differ from source identity tint"
+  ],
+  "blocking_static_findings": [],
+  "artistic_accepted": false
+}

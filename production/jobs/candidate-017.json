@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-eaf1a16a-184c-42c1-a1c0-a382b8053ca8",
+  "candidate_id": 17,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Output ONE full16:9 PV cel editing image1 source-cel-017. Source1 controls current zoom/crop and head tilt: an even CLOSER upward-stretch view than prior016, head tilted slightly counterclockwise (screen-right eye a little higher), face huge near upper center, both arms raised beyond top frame, NO hands visible inside frame, upper hat/head also out of frame. Keep exact visible shoulder/upper arm shapes along side edges, big vertical teardrop O mouth, sleepy OPEN eye shapes and gaze. Replace girl identity/costume only with Klee: pale blonde SHORT side ponytails/pointed ears, red beret cream clover feather only if in crop, RED/BURGUNDY irises with source eyelid/pupil/highlight shapes, red cream-trim coat and cuffs. No original sleep mask, long hair, pajamas or pajama pockets. Image2 anchor identity/style; image3 candidate016 supplies consistent Klee costume/hair/red-eye color, NOT previous smaller framing or flat head. Only two compact side ponytails, no extra rear hair wings. Preserve blank lavender background where visible. REMOVE all original subtitles/credits/lettering, including bottom-center lyrics, leave clean coat/background; text restored separately. Retain source independent nontext effects if any. Loose dark source outlines, broad flat colors, orange cheek blush and restrained simple shadows. No panels, no invented visible gloves outside crop.",
+  "references": [
+    "analysis/source_cels/source-cel-017.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-016.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-017.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Closer stretched-arm crop, hat/hands clipped, slight counterclockwise tilt and vertical mouth retained. Klee red irises, short two-ponytail topology, no pajama pockets. Bottom text removed."
+}

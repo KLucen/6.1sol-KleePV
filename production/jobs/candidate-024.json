@@ -1,0 +1,11 @@
+{
+  "job_id": "candidate-024",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-024.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "prompt": "Use case: identity-preserve. Produce ONE full 16:9 PV animation cel by editing image1; image1 controls exact camera/crop/composition/source shapes, image2 controls Klee identity and loose simple dark-line PV style only. Replace the visible extreme macro-cropped face with Klee, default Genshin Impact outfit. Keep the SAME extreme zoom: a single closed eye's very thick black diagonal lid dominates screen-left, skin and orange blush fill canvas; preserve source large yellow outlined foreground star occluding lower-right and original Japanese/Chinese text at bottom. There is NO full face, NO open eye, NO mouth or complete hat visible in this macro shot; do not zoom out or add them. Replace visible top pink hair/hat-like strips only with appropriate pale blonde hair/redberet fragment consistent with Klee anchor. Single cel matching original soft macro-focus and composition, no extra framing, no multiple panels, no new letters; retain all original text and foreground star.",
+  "output": "../generated/candidate-024.png",
+  "status": "generated",
+  "review": "Extreme macro crop retained; compare foreground star in composite."
+}

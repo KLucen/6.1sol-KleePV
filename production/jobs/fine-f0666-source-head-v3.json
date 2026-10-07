@@ -1,0 +1,20 @@
+{
+  "frame": 666,
+  "name": "fine-f0666-source-head-v3",
+  "prompt": "Use case: identity-preserve. Redraw source image1 as ONE 16:9 full-frame flat PV Klee cel. Image1 is CURRENT f0666 source EDIT TARGET with ABSOLUTE authority for pose and pixel-native scale. Image2 is Klee costume/hair COLOR and identity ONLY, its head angle is WRONG and must NOT be copied. Image3 enlarges current source face: replicate its geometric face/eyelid orientation precisely while replacing old person with Klee. Critical source angle: VIEWER-LEFT cheek and closed left eyelid are LOWER on canvas; VIEWER-RIGHT cheek and closed right eyelid are HIGHER on canvas. The black eyelids each RISE as they go from left to right. The line joining two eye centers RISES to the right by about 20 degrees. The top of head leans LEFT, chin points down-right, face rests on left cheek. DO NOT make closed eyes descend toward the right. This is mandatory new head drawing. Klee blonde bangs/pointed ears/exactly TWO SHORT ear-root ponytails/red beret cream clover and white feather all share that same source counterclockwise head rotation. Remove old bunny forehead sleep mask completely. No cream tuft above hat, no dangling badge pieces. Preserve source prone body positioning with both legs almost horizontally extended right and feet at x65% canvas, small native source scale, current pillow. Red cream-trim coat with lower coat cream clover, redshorts and light angular skirt/ruffle, bare pale skin legs, brown compact boots with cream top cuffs, brown gloves. Eyes completely closed black strokes, no irises or mouth visible. Flat solid source lavender background and flat colors with thick black uneven outlines. No text, no panels, no textures/gradients/extra props.",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0284-f0666.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0666-closed-head-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0666-source-face.png"
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-3c7e5814-20ed-4bbf-a66b-c516bd8639db.png",
+  "output": "../generated/fine-f0666-source-head-v3.png",
+  "tool": "builtin imagegen",
+  "status": "failed_head_tilt_unaccepted",
+  "accepted": false,
+  "review": "Second repair changes closed eyelid centers toward source direction but enlarges head/body/pillow and does not match source face slope. Two-repair limit reached; unresolved. v2 remains private scale-preserving draft.",
+  "known_issues": [
+    "Source face tilt unresolved after two targeted repairs",
+    "Whole body/pillow enlarged"
+  ]
+}

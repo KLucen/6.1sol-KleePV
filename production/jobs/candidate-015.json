@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-33bc4725-8da8-40c7-ae84-06ce0a922c80",
+  "candidate_id": 15,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One FULL16:9 hand-drawn PV frame, edit reference1 source-cel-015. Replace only original girl with default Klee from reference2. Source1 controls the NEW deeper bow pose and crop: head/hat lower in frame than previous cel, crown about y25%, face at y72%, chin around y84%, shoulders hunched low, BOTH eyes CLOSED and slanted/curved, tiny downturned mouth. Both inward closed fists lower with knuckles only partly visible at BOTTOM EDGE, cuffs/sleeves also cropped below; do not lift fists to chest as image3. Keep source exact headbow angle, eye slopes, lower framing, asymmetrical crease and source motion of sleeves. Render visible fists brown gloves/red coat cream cuffs, retaining original hand closure. Klee red beret cream clover white feather, blonde SHORT side ponytails and pointed ears replace sleep mask/pink hair. Klee has ONLY TWO short ponytails, one rooted behind EACH EAR; let these compact tufts flare outward with motion. DO NOT copy original long rear hair wings or duplicate extra blonde tufts behind shoulders. Image3 repaired candidate014 supplies stable hat/short hair topology/colors only; it must not freeze prior head height or fist placement. Preserve blank lavender backdrop/no text and all original crop. Loose source dark lines, flat broad colors, orange cheeks/simple shadow. Single scene, no panel, props or extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-015.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-014.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-015.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Deeper bow/lower head and bottom-cropped inward fists retained. Eyes closed, small downturned mouth. Two short side ponytails only; no duplicated rear wings."
+}

@@ -1,0 +1,15 @@
+{
+  "job_id": "fine-f0129-hair-repair-v2",
+  "source_frame": 129,
+  "source_candidate": "src-0044",
+  "family": "standing_pillow",
+  "repair_of": "generated/fine-f0129-geometry-repair.png",
+  "references": [
+    {"path": "generated/fine-f0129-geometry-repair.png", "role": "Edit target; preserve pose, geometry, costume and props"}
+  ],
+  "prompt": "Precise localized cel cleanup, single full 16:9 drawing. Edit the supplied Klee PV cel only: remove the two stray narrow lavender/gray hair-like loops hanging BELOW the viewer-left outstretched red sleeve beside her left waist (one curved sideways loop under the sleeve and one thin downward pointed strand). They are old-character remnants, not Klee hair, not a pillow edge, not a backpack strap. Replace just those erroneous loops with the surrounding flat violet background. Preserve Klee's TWO genuine pale blonde short ponytails attached next to her ears, all bangs, red beret, feather, eyes, orange cheeks, pose, tilted pillow behind her head, red sleeves and cream cuffs, brown gloved hands, held clock, red coat, cream underskirt, waist pom and right backpack exactly as supplied. Do not add hair, change body position, change sleeves, enlarge or repaint the clock, or introduce text. Keep the uneven dark PV contour lines and existing color patches. Return the complete original canvas, no crops and no analysis panels.",
+  "output": "generated/fine-f0129-hair-repair-v2.png",
+  "status": "reviewed_static_targeted_repair_temporal_pending",
+  "review": "Two thin old-character hair remnants beneath the left sleeve removed; genuine blonde ponytails and source gesture preserved. Locality is not pixel-exact and adjacent review remains required.",
+  "accepted": false
+}

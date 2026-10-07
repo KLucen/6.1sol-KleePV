@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-661ca2cf-e291-49c1-aa3d-370f2f67f78e",
+  "canonical_cel": "cel-0057",
+  "source_frame": 374,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. ONE full16:9 sourcePV cel f0374, replace original girl's identity only. Reference1 exact CURRENT full source is sole authority for crop/face/current hand contours, cheek contact and cuff geometry. Ref2 HAT-ONLY Klee crop identity/color/loose line vocabulary only, no pose. Ref3 A/B source delta CURRENT top-right locates independent contour redraw, not an output sheet. Klee shorttwo attached blonde sideponytails/pointedears, red cream-clover beret viewer-right white feather with round brown clover badge and TWO short gold loop tassels, red creamcoat patterned cream collar with sparse open peach diamonds, small ROUND SCALLOPED CREAM DISK medallion (not four-lobed clover), plaincreamcuffs and FULL brown gloves/wrists. Critical current source facial coordinates: head/face center63.3%canvaswidth, CLOSED eye black strokes43.7%height, closed tiny mouth56.8%height, chin71.8%height, fingertips beside upper cheeks around45.5%height. Keep source positions, don't push facial landmarks down to fit hat; Klee hat/bangs take source mask/bangs area above current eyelids. Both palms still cup cheeks with inward-curled upper fingers, actual CURRENT f0374 palm and finger bumps/gaps mandatory: viewer-left index tip flatter and little lower bend than prior, current outer wrist/hand edge and near-front cuff rims redrawn; viewer-right upper digit and lid contact at current contours. Closed lids thicker and slightly arched, no iris/whites. Mouth short subtly crooked black bar with left down-tick and right up-tick, no open interior. Preserve source asymmetric hands, hair behind palms, top headgear/coat bottom cropped exactly current visible scope. Broad flat colors, orange oval cheeks, loose black contour pressure, restrained shading, no duplicate lower hair wings or glove-color marks on sleeve. No lyrics/captions/credits/letters/bubble/outline/watermark anywhere, clean solid purple background, no annotation/montage/extra props/anatomy.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0114-f0374.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-hat-only-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0374.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0374.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0368 to f0374: 162844 pixels >=28; local palm/finger lobes, closed lid pressure, mouth ticks, cuff/front plane and hair outline differ.",
+  "inspection": "Closed curved eyelids, short crooked closed mouth and curled cheek palms independently redrawn, no text. Round scalloped medallion returns, but hat tassels are now long hanging loops instead of short attached badge loops. Eye/mouth/finger landmarks drift down around25-30px compared source, less than f0362 but not exact. Hat-tassel, pose-position and sequence continuity repair flag."
+}

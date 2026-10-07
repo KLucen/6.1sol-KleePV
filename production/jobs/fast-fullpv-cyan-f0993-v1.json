@@ -1,0 +1,75 @@
+{
+  "job_id": "fast-fullpv-cyan-f0993-v1",
+  "source_frame": 993,
+  "canonical_cel": "cel-0199",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-35c41437-2cf5-41ba-aac1-aa46c2454fba.png",
+  "asset_sha256": "18e337768f56bb4252876fd00dc3800d43c8920bb79617732c58016b3f06d478",
+  "static_findings": ["Head moves left/up with newly wide open two eyes; closed caret mouth retained", "Short two rooted pony groups and plain collar preserved, no original mask", "Added eye lashes/shadow detail; absolute face registration approximate and artistic review pending"],
+  "output": "generated/fast-fullpv-cyan-f0993-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0993-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0993-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0980-topology-no-face-reference.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-f0993-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual993 source: head lifts/shifts LEFT, wider eyes and framing authority",
+    "Actual993 native current eye/dot nose/closed mouth",
+    "Klee cropped980 beret, short pony root/mass and plain collar identity only",
+    "True992->993 A/B RGB/contours: major face placement and eye-opening change"
+  ],
+  "prompt": "Use case: identity-preserve. ONE complete independent full16:9 CURRENT993 PV cel, source person replaced with Klee. Image1 CURRENT993 original alone decides face pose/crop/visible body. Image2 native eye/nose/mouth confirms new WIDE OPEN tall oval eyes (BOTH in full reference), gentle almost-level brows, small dot nose and tiny CLOSED caret/hook mouth. Image4 actual992->993 RGB/contours shows head LIFTS and moves LEFT toward more frontal view, while eyes open much wider; NOT continued sleepy narrow eyes, not right profile. Target centers BOTH eyes near x50% and x63%, y42%, nose59%x50%, mouth58%x56%, chin58%x66%. Preserve original shoulder/neck orientation and same overall framing, no zoom/scale compensation. Image3 cropped Klee structure only defines pale blond/lavender night hair, burgundy clover beret with ONE feather, visible pointed ear, SHORT ear-rooted pony length/compact volume and PLAIN white TWO-leaf collar/red coat. Turn those features naturally into current near-frontal view; only TWO continuous short pony groups, not source long flowing pink mane or original animal mask/ears. New wide eyes have warm amber-red lower irises, dark upper night shading and simple small white catchlights, NOT original blue irises. Keep compact bangs and Klee simplified cheeks/face. Beret/feather may crop at top, do not shift head down to fit whole hat. No third hair fan, hands/extra limb, detached throat flap, ornate collar. Bold hand-drawn simplified PV contours and few flat shading blocks. Original night/stars/crescent composition retained as closely as possible; original timed Japanese/Chinese captions are restored independently, OMIT ALL generated TEXT or scribbles. No hold/morph/flow/collage or copied unchanged previous pose. One newly redrawn major-action cel.",
+  "source_exposures": [
+    {
+      "start": 993,
+      "end": 995,
+      "pts": 41.375,
+      "end_pts": 41.458,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 995,
+      "end": 997,
+      "pts": 41.458,
+      "end_pts": 41.542,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0006680488586426,
+            -0.000010042193025583401,
+            -0.5791952610015869
+          ],
+          [
+            0.000010042193025583401,
+            1.0006680488586426,
+            -0.4287671148777008
+          ]
+        ]
+      }
+    }
+  ],
+  "source_reference": "source_refs/src-0526-f0993.png",
+  "source_review": "Root viewed actual full frame, native face and real A/B RGB/contours"
+}

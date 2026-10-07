@@ -1,0 +1,51 @@
+{
+  "source_frame": 2135,
+  "output": "generated/middle-next-f2135-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole animation cel, true original f2135, not panels or component cutouts.\nPrimary request: replace BOTH original people with Klee while preserving the exact CURRENT original composition and foreground occlusion.\nInput images in order:\n1 EDIT TARGET: original current f2135. Sole authority for pose, camera, expression, scale, visible anatomy and crop.\n2 SUPPORT: original f2132 BEFORE / f2135 CURRENT plus RGB difference and blue/red contours. It shows the giant head advancing down-left, a slightly more upright face, changed fringe contours and a small more vertical oval mouth. Follow CURRENT, do not reproduce the panels.\n3 SUPPORT: native current foreground face/hat/collar. Keep the half-lidded open eyes, heavy slanted lids, orange cheeks, tilted oval mouth and exact edge crops.\n4 SUPPORT: native currently visible small background body. Only the raised open palm/cream cuff/red sleeve, torso, spread legs and boot contacts are visible. Foreground giant head entirely hides background face and right arm; do not reveal them.\n5 IDENTITY/CONTINUITY ONLY: a HEAD-ONLY crop of the prior giant Klee f2132. Continue blonde bang/pony root language, red beret/clover/feather, red eyes, pointed ears and economical thick black drawing. Not position, tilt, expression or mouth authority. The crop intentionally contains no small body.\nSubject: two Klee depictions. Giant foreground Klee fills the right two-thirds, clipped at the top/right/bottom, in front of all covered small-body parts. Replace cap with giant Klee beret, keep foreground coverage, and redraw bangs, cheeks, ear, collar and side pony connections for CURRENT f2135. Small background Klee retains original lean, raised spread five-finger hand now brown-gloved, cream cuff, red coat with simple cream collar and hem, spread legs with cream boot tops and brown boots. Do not increase hidden anatomy visibility.\nScene/style: current original lavender sky and pale sketched stars as context, hand-drawn chibi PV flat warm fills, minimal shadow and ornament density. No realistic rendering.\nConstraints: ONE full-frame cel, no grids or borders. No added limbs, original pink hair, grey pajamas, original animal cap, hidden background head, hidden right glove or gaps exposing it. No new text, no AI captions, no watermark. Captions and original stars will be composited separately. Do not freeze f2132 face or use the identity crop as a pose template.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-source-actual.png",
+      "role": "current edit target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-f2135-source-ab-rgb-contours.png",
+      "role": "actual previous/current original difference; overview viewing only",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-foreground-native.png",
+      "role": "current foreground native pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-background-visible-native.png",
+      "role": "current visible background native occlusion",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+      "role": "head-only identity/continuity, no pose",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-46e009b1-3a05-4585-a0ea-7a2dd15e35c1.png",
+  "output_sha256": "30f0f8f994253d4e30311515a713a3001ebdb6e1f8b651a19e920ca5cad3fbd0",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole builtin cel and source current/native AB evidence. Both actors Klee, rear head/right arm hidden, connected spread brown glove and cream cuff. Giant moves down-left versus f2132; broad beret and blonde pony reduce rear torso/boot visibility. Rear near boot points more frontward than source and front collar/medallion drift; defer for full first cut. Captions absent for original-source compositing. Static draft only; no temporal or compositor review.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

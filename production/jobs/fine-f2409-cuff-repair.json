@@ -1,0 +1,31 @@
+{
+  "source_frame": 2409,
+  "source_cel": "cel-0467",
+  "source_candidate": "src-1396",
+  "output": "generated/fine-f2409-cuff-repair.png",
+  "status": "reviewed_static_targeted_repair_temporal_pending",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: precise-object-edit. Image 1 is the existing Klee PV cel to repair. Change ONLY the two scalloped frilly cuffs to PLAIN rectangular cream cuffs, removing the lower cream scallop/frill protrusions and reconnecting each underlying red sleeve smoothly. Image 2 original source establishes plain cuff outlines and sizes. Preserve all finger positions, glove edges, head, eyes CLOSED, tiny O mouth, beret, two short ponytails, shoulders, crop, stars and background unchanged. Keep same flat hand-drawn style. No text or new objects. Do not move or redesign the person. Single full frame.",
+  "references": [
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2409.png",
+      "role": "edit_target"
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1396-f2409.png",
+      "role": "source_cuff_geometry_only"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": ["Both cuffs are now plain cream rectangles, with glove finger positions, closed eyes, O mouth, crop and two short ponytails retained in static inspection.", "This is not a pixel-locality guarantee. Original sky/stars/graphics and chronological full-speed review remain pending."]
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:/Users/KLucen/.codex/generated_images/01a0fb6c-befa-7d91-aa0a-ead1cb66b8c4/exec-402526cd-d2d4-43fe-ba34-9ea66e1e44b8.png"
+}

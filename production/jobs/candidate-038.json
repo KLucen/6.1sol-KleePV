@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-ec59081a-574e-442e-a49c-d91cfdc118e1",
+  "candidate_id": 38,
+  "tool": "builtin imagegen",
+  "prompt": "Precise pose-detail repair on FULL16:9 Klee cel image1. Image1 is edit target, preserve its exact entire scene, character size/position, standing pose, closed eyes, tilted head, coat, boots, left cropped blonde foreground hair and all cream stars. Change ONLY mouth and glove closure to match original source image2's small detail shapes. Mouth should be a tiny CLOSED DOWN-TURNED CARET line (an inverted V, no enclosed triangular pink interior). Both small brown gloves at lowered arm ends should be relaxed CLOSED loose fists as source image2, fingers curled together with tiny two-knuckle/thumb contour, no splayed open fingers. Keep wrist/cuff/arm positions unchanged. Image2 is for these mouth and hand anatomy only, never original pink hair/pajamas/lettering. NO text anywhere, same full canvas, no other changes.",
+  "references": [
+    "production/generated/candidate-038-draft.png",
+    "analysis/source_cels/source-cel-038.jpg"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-038.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Targeted repair restored closed caret mouth and relaxed closed fists. Full standing height/leg pose, left blonde hair-only foreground, two ponytails, star effects unchanged. No source pajama hip pouch/rabbit retained."
+}

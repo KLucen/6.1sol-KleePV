@@ -1,0 +1,140 @@
+{
+  "owner": "early_resume",
+  "accepted": false,
+  "shared_selection_modified": false,
+  "review_scope": "Per-cel static source and adjacent contour review only; actual speed review pending.",
+  "selections": [
+    {
+      "source_frame": 666,
+      "path": "generated/fine-f0666-closed-head-v2.png",
+      "review": "First targeted repair removed extra upper hair tuft but did not restore current source counterclockwise head/closed eyelid slant; remains unaccepted.",
+      "known_issues": [
+        "Wrong clockwise head and down-right closed-eyelid slope persists",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0666-closed-head-v2-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 671,
+      "path": "generated/fine-f0671-source-native-v1.png",
+      "review": "Current independent glove/cuff, foot and garment edge redraw present; eye state correctly closed; head/eyelid slope remains opposite source. Group head issue unresolved; not accepted.",
+      "known_issues": [
+        "Closed eye/head slope differs from current source",
+        "Small shoulder/hair/pillow contour drift",
+        "Background gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0671-source-native-v1-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 724,
+      "path": "generated/fine-f0724-eye-hook-v3.png",
+      "review": "Second targeted repair restores visible lower-left black hooks/white notches in both red eyes and removes badge strips. Native small upright pose and hidden hands retained. Source/new adjacent contact pending actual-speed review; remaining costume/hair simplification and backdrop gradient unaccepted.",
+      "known_issues": [
+        "Small eye hook/white accent geometry differs from source",
+        "Costume/hair contours simplified",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0724-eye-hook-v3-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 727,
+      "path": "generated/fine-f0727-native-v1.png",
+      "review": "Current narrow halfclosed horizontal eyelid openings independently redrawn from source fine blink, hidden hands/native pose preserved. Black lower-left hook/white accents present but extra tiny center dots/iris geometry differs. No temporal acceptance.",
+      "known_issues": [
+        "Extra central dot details in eyes",
+        "Small pupil/white accent geometry drift",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0727-native-v1-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 729,
+      "path": "generated/fine-f0729-native-v1.png",
+      "review": "Full closed-eye independent blink drawing and tiny inverted-v source mouth present, current hidden arms/native body preserved. Minor eyelid curvature and costume/background differences remain unaccepted.",
+      "known_issues": [
+        "Closed eyelid curvature simplified vs source strokes",
+        "Costume/hair contours simplified",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0729-native-v1-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 740,
+      "path": "generated/fine-f0740-red-eyes-sleeves-v2.png",
+      "review": "Repair correctly restores both red irises with preserved black hooks/white notches and extends sleeves slightly. Independent down-out arms/compact glove contours retained; native wrists still several percent too high vs source, known unresolved alignment.",
+      "known_issues": [
+        "Wrists still too high vs source by about4% canvas height",
+        "Costume/body simplification",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0740-red-eyes-sleeves-v2-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 743,
+      "path": "generated/fine-f0743-contour-v2.png",
+      "review": "Source-native repair restores stable small head/body scale from prior frame and draws current cuff/fist/sleeve lines independently. Red eye hooks/white notches remain. Current wrist alignment still slightly high and source fine contours approximate, unaccepted.",
+      "known_issues": [
+        "Wrists remain slightly high vs source",
+        "Fine neck/shoulder/source contour changes approximate",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0743-contour-v2-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 745,
+      "path": "generated/fine-f0745-contour-v2.png",
+      "review": "Repair restores stable native small head/body placement and independently redrawn current sleeve/cuff/fist/coat/brow contours. Current open sleepy red eye hooks/white notches present. Fine source alignment approximate and temporal review pending.",
+      "known_issues": [
+        "Wrists somewhat high vs source",
+        "Fine contour/neck drift",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0745-contour-v2-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 755,
+      "path": "generated/fine-f0755-raised-forearms-v1.png",
+      "review": "Independent current raised forearms, shoulder-level compact fists, open round O, red eye black hooked pupils and white notches present. Slightly enlarged Klee head and lower fists relative to source; source/new adjacent contact unaccepted.",
+      "known_issues": [
+        "Fists about3% canvas lower than source",
+        "Head proportions differ modestly",
+        "Backdrop gradient persists"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0755-raised-forearms-v1-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 758,
+      "path": "generated/fine-f0758-raised-contours-v1.png",
+      "review": "Current inward fist/cuff and straighter lower sleeve contour changes independently drawn, scale stable vs755, open red eye hooks/white notches present. Mouth did not shrink as much as source and fists remain low, unaccepted.",
+      "known_issues": [
+        "Mouth larger than tiny compressed source758 shape",
+        "Fists remain about3% low vs source",
+        "Head simplification and gradient backdrop"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0758-raised-contours-v1-static-contact.jpg",
+      "accepted": false
+    },
+    {
+      "source_frame": 763,
+      "path": "generated/fine-f0763-source-fit-v3.png",
+      "review": "Second targeted repair reduces excessive zoom to about source body width and retains independent face-side curled fingers/O mouth. Eye centers and fists remain about9-12% canvas too low; head/hat too tall relative to source. Two repair limit reached, unresolved, not accepted.",
+      "known_issues": [
+        "Eye/face/collar too low vs source byabout9% canvasheight",
+        "Fists about10-12% canvas too low",
+        "Kleehead/hat proportions too tall",
+        "Backdropgradient and simplified sourcecontours"
+      ],
+      "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0763-source-fit-v3-static-contact.jpg",
+      "accepted": false
+    }
+  ]
+}

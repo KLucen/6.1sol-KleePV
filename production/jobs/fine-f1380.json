@@ -1,0 +1,28 @@
+{
+  "source_frame": 1380,
+  "prompt": "Use case: identity-preserve. One independent hand-drawn Klee character-replacement cel for the original MIMI PV, full original 1920x1080 wide composition. Image 1 CURRENT SOURCE is the edit target and sole geometry/crop/pose/eye/occlusion/floor authority. Image 2 is the enlarged CURRENT SOURCE HEAD, not a character design reference. Image 3 is adjacent Klee only for stable identity, proportions, palette, garment structure and two short blonde ponytails; do not copy its head angle or freeze its contours. Image 4 shows actual source A/B, RGB difference and contour changes; not an output collage. Replace ONLY the original seated human with Klee. No rabbit forehead sleep mask remains. Klee has muted RED irises when visible, pointed ears, exactly two short blonde ponytails, red cream-clover beret and white feather, red coat with cream edging, bare pale knees and cream sock tops, two simple brown round boots, modest brown backpack on viewer-right. Keep sleepy dot mouth and orange cheeks. SOURCE tiny seated body stays centered x39..60%, source shoe baseline around y72%, no enlarged or lowered figure. Knees raised together, red forearms cross over knees, both hands completely tucked behind opposite sleeves, NO extra visible gloves above arms. Only the source current clothing folding/linework and head pose change, not camera scaling. Loose dark PV outlines and flat patch colors, minimal flat shadows. Preserve source background/letters as far as possible; compositor restores exact visible source graphics, no new text/letters, panels, extra characters or props. Current f1380: head leans COUNTERCLOCKWISE toward viewer-left about 12 degrees, eye/brow axis slopes UP toward viewer-right, both eyes OPEN drooping and wholly red, tiny dot mouth. This is the next LEFT-LEAN extreme after near-upright f1375, not previous right lean. The entire head, red beret, bangs, pointed ears and cheeks follow CURRENT source tilt while seated body's source floor remains fixed. Independently redraw the current crossed sleeve slopes and coat/boot linework, no reuse/mirror/rotation of whole prior cel. Source current head crop is strongest geometry authority.",
+  "name": "fine-f1380.png",
+  "output": "generated/fine-f1380.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0840-f1380.png",
+      "role": "Current source pose/canvas"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1380.png",
+      "role": "Current source head"
+    },
+    {
+      "path": "generated/fine-f1375.png",
+      "role": "Adjacent Klee identity only"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1375-f1380.png",
+      "role": "Actual source spatial delta"
+    }
+  ],
+  "status": "failed_head_tilt_unaccepted",
+  "accepted": false,
+  "review": "Failed: head is upright, not source left-lean. Save for traceability, do not adopt."
+}

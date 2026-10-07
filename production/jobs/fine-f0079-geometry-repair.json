@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0079-geometry-repair",
+  "source_frame": 79,
+  "source_candidate": "src-0027",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0027-f0079.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-open-eye-identity-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0075-f0079.png"
+  ],
+  "prompt": "Use case: identity-preserve. One full 1920x1080 cel for CURRENT original79, replace ONLY sole person with Klee in simple flat sketch PV style. Image1 originalCURRENT79 decides all geometry, camera, hands, occlusion and expression. Croppedimage2ONLY identity/colors, croppedimage3ONLYgarment; image4original75/current79 actualdeltaONLY. No panels. EXACT pose: torso slightlyleanright, knees clearly BENT atbottom, BOTH armsbentandraised holding cream clock horizontally directly across BOTH EYES. Clock display center aroundx66.6%,y28.5% (1280,307px), originalclocksize/angle approx1180,255..1380,384, NOTdownatforeheady38%. Left BROWNglove fingerswrapfrontclockleftedge nearx62%,y31%, rightBROWNglovewrapfrontrightedge nearx70%,y28%, wristscuffs connectexactoriginalbigarchedarmpositions. Clock covers both eyes completely but LOWERFACE with orangecheeks, chin and tinycloseddownturned mouth MUSTbevisiblebelowclock asoriginal (mouth aroundx69%,y35.5%). Headslottracksoriginal behindclock, redberetcreamcloverwhitefeather aboveclock, blondebangs partiallybehindprop, pointedears, onlyTWOshortsideponies notoriginallonghair. Pillowstays exactlysource tilted behindhead approximatex55..83%,y14..53%, creamfringe/palebluemarks. SAMEgarment redsplitcoat lowerleftcreamclover, creamzigzagunderskirt faintclovers, narrowpinkruffle, REDshorts, onewaistleftsmallpom, rightbrownbackpack. Cuffs SIMPLEcream smoothbands, notfluffyballs; plainredsleeves noaddedclovers. Looseunevendarkcontours flatone-shadow fills only; no glossy/highlightpolish. Exactsourcecrop and knee bend, body not enlarged. Violetblankbackground. NO lyrics/captions/letters/digits, clockdisplay blankpurple. Singlefullframedrawing.",
+  "output": "../generated/fine-f0079-geometry-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0079.png",
+  "temporal_review": "pending"
+}

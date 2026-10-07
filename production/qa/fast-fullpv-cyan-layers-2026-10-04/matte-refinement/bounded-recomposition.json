@@ -1,0 +1,103 @@
+{
+  "frames": [
+    {
+      "source_frame": 921,
+      "changed_pixels": 8856,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0921.png",
+      "asset_sha256": "bb165896baf1d970d0a263dad3aece60dd9b0799c60fa145b94e08b5d32b54e4"
+    },
+    {
+      "source_frame": 925,
+      "changed_pixels": 8461,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0925.png",
+      "asset_sha256": "fb9d5c13dc4591188c04de7d6afb0f877a462a277d3918bc229775f9955a12ea"
+    },
+    {
+      "source_frame": 930,
+      "changed_pixels": 8124,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0927.png",
+      "asset_sha256": "90dcb238a2f29a1c4bf5db8b1d26ae431c130590e3b4094dec3428424805a0e1"
+    },
+    {
+      "source_frame": 933,
+      "changed_pixels": 125236,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0933.png",
+      "asset_sha256": "199ed6b8a5513e4ff85be68b6e6ebced1e7ea0180db73f79e0632e46f9cc663c"
+    },
+    {
+      "source_frame": 934,
+      "changed_pixels": 126180,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0933.png",
+      "asset_sha256": "199ed6b8a5513e4ff85be68b6e6ebced1e7ea0180db73f79e0632e46f9cc663c"
+    },
+    {
+      "source_frame": 935,
+      "changed_pixels": 168650,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0935-repair.png",
+      "asset_sha256": "8e3f5f5aa5f113bdc4e4d4ced968adcbe95ef4fcd6bafa52226e27c7acea8794"
+    },
+    {
+      "source_frame": 936,
+      "changed_pixels": 168345,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0935-repair.png",
+      "asset_sha256": "8e3f5f5aa5f113bdc4e4d4ced968adcbe95ef4fcd6bafa52226e27c7acea8794"
+    },
+    {
+      "source_frame": 937,
+      "changed_pixels": 167942,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0935-repair.png",
+      "asset_sha256": "8e3f5f5aa5f113bdc4e4d4ced968adcbe95ef4fcd6bafa52226e27c7acea8794"
+    },
+    {
+      "source_frame": 938,
+      "changed_pixels": 385,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0938-position-v2.png",
+      "asset_sha256": "becab9abfea39edb75d76080cf98ebbcb1e2a8f5470fc43f1b2c26f8331a7620"
+    },
+    {
+      "source_frame": 967,
+      "changed_pixels": 218,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0967-v1.png",
+      "asset_sha256": "dc800262544c0e6c9dcc014f6e47f4744d2c18cfe5edf004ab55e25595812a8a"
+    },
+    {
+      "source_frame": 968,
+      "changed_pixels": 27,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0967-v1.png",
+      "asset_sha256": "dc800262544c0e6c9dcc014f6e47f4744d2c18cfe5edf004ab55e25595812a8a"
+    },
+    {
+      "source_frame": 976,
+      "changed_pixels": 3152,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0975-hair-v2.png",
+      "asset_sha256": "fc7d1c851ce87eb91ca7b5a7ed19d4120da07caa8e22a790f666eb8ee76f63c7"
+    },
+    {
+      "source_frame": 977,
+      "changed_pixels": 18850,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0975-hair-v2.png",
+      "asset_sha256": "fc7d1c851ce87eb91ca7b5a7ed19d4120da07caa8e22a790f666eb8ee76f63c7"
+    },
+    {
+      "source_frame": 978,
+      "changed_pixels": 3922,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0975-hair-v2.png",
+      "asset_sha256": "fc7d1c851ce87eb91ca7b5a7ed19d4120da07caa8e22a790f666eb8ee76f63c7"
+    },
+    {
+      "source_frame": 979,
+      "changed_pixels": 2206,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0975-hair-v2.png",
+      "asset_sha256": "fc7d1c851ce87eb91ca7b5a7ed19d4120da07caa8e22a790f666eb8ee76f63c7"
+    },
+    {
+      "source_frame": 984,
+      "changed_pixels": 3235,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0984-v1.png",
+      "asset_sha256": "f2cfdde265063e3d705d523597cbc44f99c18be91ef5e4e8a4426c4e3167dcb5"
+    }
+  ],
+  "cause": "Generated S>=110 exterior flood entered pale blue hair in fine-f0933 and fine-f0935-repair. Generated threshold now S>=160; detached tiny bright generated star islands are excluded. Source green ink is included from observed HSV support.",
+  "static_technical_only": true,
+  "artistic_acceptance": false
+}

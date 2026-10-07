@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-8f7f7bfa-8169-4d19-adb1-52aed2381be8",
+  "candidate_id": 14,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One complete wide16:9 PV cel editing reference1 source-cel-014. Source1 sets exact centered chest-up crop and NEW gesture: head bowed forward, both eyes CLOSED curved dark lines, tiny downturned caret mouth, shoulders hunched, elbows outward, BOTH closed fists pointing INWARD toward one another at lower chest (left fist around x44%,y86%, right around x57%,y86%), cream cuffs around wrists. Keep source hand closure and wrist orientation, do not repeat palms beside cheeks from image3. Render as brown Klee gloves with visible thumb knuckles; fists overlap coat front, cuffs behind fists. Replace sleep mask/pink hair/pajamas with Klee from reference2: red beret cream clover white feather, pale blonde SHORT side ponytails, pointed ears, red coat cream trim/cuffs. Source hair streams outward behind shoulder silhouettes; Klee short ponytails gently flare similarly, do not convert to long hair. Image3 candidate013 only supplies continued identity/colors/style, never source pose. Preserve bowed-head body angle, all source visible crop and blank lavender background without text. Loose dark source outlines, flat patches, orange cheeks and limited shadows. No props, no extra arms, no sheet/panels, no detailed game illustration.",
+  "references": [
+    "analysis/source_cels/source-cel-014.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-013.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-014-draft.png",
+  "status": "generated",
+  "inspection": "Pose/eyes/fists correct but two extra large blonde rear shoulder tufts duplicate the short side ponytails; needs repair. Not approved."
+}

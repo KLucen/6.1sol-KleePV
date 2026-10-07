@@ -1,0 +1,29 @@
+{
+  "job_id": "fullpv-middle-f1720-red-iris-repair-v2",
+  "source_frame": 1720,
+  "tool": "built-in image_gen",
+  "source_reference": "source_refs/src-0973-f1720.png",
+  "prompt": "LOCAL COLOR REPAIR ONLY on image1, Klee PV f1720. Keep the full 1920x1080 composition and EVERY silhouette/pose/bang/eyelid/hand/coat/background/subtitle pixel unchanged. Both eyes wrongly have BLUE upper iris patches. Replace ONLY ALL BLUE inside BOTH iris shapes with dark muted MAROON RED, preserving lower warm pink-red patches and white glints, black eyelid outlines and exact source sleepy half-open shapes. Both eyes must read uniformly RED Klee eyes; no blue/cyan/teal color anywhere in iris. Do not change eye size, angle, opening, face features, head tilt, hat, hair, fingers or clothing. Exact same rough simplified PV drawing and hard-edged flat colors. This is not a new pose redraw.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1720.png"
+  ],
+  "reference_roles": [
+    "current independently generated draft local iris color correction only"
+  ],
+  "output": "generated/fine-f1720-red-iris-repair-v2.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "repair_of": "generated/fine-f1720.png",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-8098b1c5-251f-49bc-8801-f0d8596a55a4.png",
+  "output_sha256": "6084a202fd7f9664131b59a97e00b690cb8653f2dd9fcc821c0399fa8e1e1f03",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

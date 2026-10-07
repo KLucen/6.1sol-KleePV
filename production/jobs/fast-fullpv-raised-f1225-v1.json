@@ -1,0 +1,48 @@
+{
+  "owner": "raised_closeup_batch",
+  "source_frame": 1225,
+  "cel": "cel-0264",
+  "mode": "strict_source",
+  "tool_mode": "builtin_image_gen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "prompt": "Use case: identity-preserve. Asset type: one independent full-frame replacement cel for a strict-source hand-drawn Klee PV, source frame 1225. Image 1 is the edit target and exclusively controls exact pose, size, framing and purple star background. Image 2 is Klee identity and same-shot short-ponytail/hat/cuff reference only, NOT its close zoom or closed-eye pose. Image 3 is actual original 1221-to-1225 RGB difference and two-color contours, movement evidence only, never artwork. Replace the entire pink-haired girl, animal sleep-mask, bare hands and gray coat with Klee: pale blonde bangs, exactly two attached short low side ponytails, pointed ears, red beret with cream clover and one white feather, red coat, cream collar and cuffs, brown full-finger gloves. Preserve current image 1 raised wide V arms and both completely visible open spread hands: left palm centered upper-left, thumb uppermost with four fingers slanting down-left; right palm upper-right, thumb uppermost, four fingers right/down. Exactly two hands, both gloved, at source positions. Preserve source half-open sleepy rectangular eyes and tiny narrow vertical O mouth, orange blush, upright centered head, torso cropped at bottom. The difference shows closed eyes opening and mouth narrowing; DO NOT copy image 2 closed eyes or zoom. Coat simple source-like flat red blocks, two cream collar leaves and simple seam; short side ponytails must stay beside neck, no dangling waist hair. Preserve loose black outlines and original very simple flat PV drawing, no glossy rendering or decorative micro-patterns. Keep original backdrop and stars at the target frame. Remove all captions from this art cel; source Chinese/Japanese lyrics will be restored separately by exact-time compositor. No text, no new objects, no extra hands, no feet or full body added, no original pink hair or animal mask left.",
+  "referenced_image_paths": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0757-f1225.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-046.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1221-f1225.png"
+  ],
+  "reference_roles": [
+    "edit_target_current_source_pose_crop_background",
+    "identity_only_existing_same_shot_Klee_1261",
+    "original_RGB_difference_contours_1221_to_1225"
+  ],
+  "intended_output": "generated/fast-fullpv-raised-f1225-v1.png",
+  "exposure": [
+    1225,
+    1229
+  ],
+  "selected_draft_proposed": true,
+  "static_review": {
+    "source_action": "Wide raised V arms, both spread open palms, low half-open sleepy eyes, tiny vertical O, upright head.",
+    "result": "Complete Klee identity, two brown glove hands, two short rooted neck-side ponytails, simple coat/cuffs; no visible old pink hair or animal-mask residue.",
+    "blocking_confirmed": [],
+    "issues": [
+      "Eye upper color inherited source blue-gray rather than Klee red; root instructed record and do not rework within this missing-first batch.",
+      "Mild color shading is more polished than original flat source."
+    ]
+  },
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-d6d66e7f-ae0d-4464-b5b4-2db08a0bc8c5.png",
+  "observed_call_seconds": 31.2,
+  "output_sha256": "d1e5e5ad000709e401728ebb8410801a165e58bc5b85ab6f46892e3962fd9faf",
+  "output_canvas": [
+    1672,
+    941
+  ],
+  "canvas_note": "Native tool output retained; compositor normalizes to source 1920x1080 canvas",
+  "reference_sha256": {
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0757-f1225.png": "90aadbc5f07a081b9d800b194ef0994e9616623a2b3f423470d9f9ab461be57f",
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-046.png": "a194a614b082b9cdd9f9606296ab82321ad2e2a09f86f02604586008507e9374",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1221-f1225.png": "9569cb8179fc33aeefb8694e36ace784f3c305a8d9157a01c43f2ea39d90ea12"
+  }
+}

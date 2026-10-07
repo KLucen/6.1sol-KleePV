@@ -1,0 +1,21 @@
+{
+  "source_frame": 740,
+  "name": "fine-f0740-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0324-f0740.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0729-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0740.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0724-source-eyes.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent full-frame 16:9 PV Klee cel f0740. Image1 CURRENT ORIGINAL is EDIT TARGET and sole authority for screen-native scale/location/crop, posture, arms/hands/sleeves shape, eye/brow/mouth state and occlusion. Image2 prior Klee establishes costume/hair/colors/proportions ONLY; image3 source A/B RGBdiffx4/blue-before/red-current contours is required actual-change evidence; image4 SOURCE original open eye enlargement illustrates black lowerleft hooked pupil and white notch shape only. Mandatory CURRENT independent redraw: BOTH ARMS released from behind torso and extend DIAGONALLY DOWN-OUT toward lower left/right with straight source elbows and small clenched/curled hands. Sleeves angular, cream cuffs at CURRENT source wrist positions, SMALL BROWN gloves fit exact source hand contour, not giant paws or splayed fingers. BOTH EYES reopen to source sleepy halfopen tall round openings, same source gaze/brows/tiny inverted-v mouth. Red irises upper darkred/lower palecoral; BLACK LOWER-LEFT HOOK connected to eye border with WHITE notch, NO center dots, blank red discs or deleted pupils. Draw all changed current shoulder/sleeve/cuff/glove contours; never copy old hidden arms or closed eyes. Preserve source native small centered scale and bottom crop, no zoom/enlargement. Klee exactly TWO SHORT blonde ear-root ponytails, pointed ears, redcreamcloverberet whitefeather/plainroundbrownclover sidebadge NO danglingstrips/no tuft abovehat; fully remove original bunny forehead sleeping mask. Redcoat creamtrim/creamclover only coat, plain cream cuffs, creamangular skirt/pinkruffle/redshorts as previous; no pajama buttons/pockets/tubes, no sleeveclovers, no newprops. Plain lavender source backdrop, no lyrics/text/panels, flat colors/simple thick uneven PV blackoutlines, no gradient/texture/gloss. Only current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-356f806b-5858-4f9f-8ff2-29923ed3fe94.png",
+  "output": "../generated/fine-f0740-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Current down-out arms, cream cuffs/small brown fist contours and source hooked pupils present. Upper eyes incorrectly copied blue source colors and wrists are higher than source native position; repair required.",
+  "known_issues": [
+    "Blue upper irises violate Klee red eyes",
+    "Wrists/sleeves terminate too high vs source native wrist positions"
+  ]
+}

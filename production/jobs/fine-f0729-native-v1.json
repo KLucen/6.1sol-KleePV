@@ -1,0 +1,32 @@
+{
+  "source_frame": 729,
+  "name": "fine-f0729-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0727-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0321-f0729.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0729.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent full 16:9 PV drawing f0729, no captions/text. Image1 preceding small standing Klee is EDIT TARGET for exact established native screen scale, upright front pose, costume/hair/hat/color style, bottom crop and hidden arms. Image2 CURRENT ORIGINAL is absolute authority for current fine eyes/brows/mouth and visible contours; image3 actual source A/B RGBdiff and blue-before/red-current outline evidence only. CURRENT independent face change: BOTH EYES now COMPLETELY CLOSED as thick black slightly slanted source eyelid strokes; REMOVE all eye openings/redirises/white/highlights/centerdots, no hint of open eyes. Follow current lowered brow shapes and CURRENT tiny inverted-v mouth, preserved as source. Do not hold previous narrower-open blink. Keep exact source-stable body/arms behind torso, NO hands visible. Two SHORT blonde ear-root ponytails only, no long source hair/no tuft above hat; pointed ears; red creamclover beret/whitefeather/plain round brownclover badge with nothing dangling; remove old bunny forehead mask completely. Redcreamtrim coat with one cream coatclover and plain cuffs, cream angular skirt/pinkruffle/redshorts at bottom crop, no pajama buttons or pockets. Native small centered character, no zoom/enlarge; preserve prior frame outside true source changed face regions. Original solidflat lavender backdrop and thick uneven PV black outlines/flat colors. No new props, text, panels or gradients.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-d1e5055b-4bf0-4ab6-a998-40a06472e131.png",
+  "output": "../generated/fine-f0729-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "review": "Full closed-eye independent blink drawing and tiny inverted-v source mouth present, current hidden arms/native body preserved. Minor eyelid curvature and costume/background differences remain unaccepted.",
+  "known_issues": [
+    "Closed eyelid curvature simplified vs source strokes",
+    "Costume/hair contours simplified",
+    "Backdrop gradient persists"
+  ],
+  "job_id": "fine-f0729-native-v1",
+  "source_candidate": "src-0321",
+  "canonical_cel": "cel-0116",
+  "family": "front_small",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0727-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0321-f0729.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0729.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0729-native-v1-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-early-f0777-source-v1",
+  "source_frame": 777,
+  "canonical_cel": "cel-0126",
+  "source_candidate": "src-0340",
+  "family": "front_small",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0777-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE independently drawn full-frame 16:9 Klee cel for CURRENT source f777. Image1 current source EDIT TARGET exclusively determines native composition, head/face geometry, eye/mouth contours, hands/fingers/cuffs/folds and occlusion. Image2 determines ONLY stable Klee identity/color/costume/short hair and simplified PV style, NOT its wider face/lower eyes/cuff size. Image3 actual source774/777 local RGB difference/contours controls CURRENT changed details. Source777 fully CLOSED eyes are shallow upward black arcs with heavy central strokes, NO irises. Source777 mouth is smaller/narrower tall O centered x50.7%,y50.6%, with chin y57%. Two open brown gloved hands in FRONT of lower cheeks, inward-slanted fingers near y48%, wrist y68%, current thumb/finger contours independently drawn. Exactly2 hands; preserve source left/right asymmetry, cream cuffs and red sleeves held outward, elbows x24%/78%,y68%, red sleeves terminate near y80%. Native source face width19%canvas and eyes y39%, collar y61%; keep character center and torso crop. Red coat continues through BOTTOM, no legs or full body. Klee identity: exactly2 SHORT blonde ear-root ponies and pointed ears; red cream-clover beret ONE white feather, cream collar and plain cream cuffs, brown gloves. REMOVE old rabbit forehead mask and ALL long pink hair. No sleeve clovers, no extra hanging hair/third tuft, no badges/danglers. Flat solid lavender backdrop; remove all text and independent particles for source-layer composition. Flat unshaded PV color blocks and irregular black handdrawn outlines, no gradient/shading/textures. Redraw current source777 folds/neck/closed-eye/mouth/fingers, no frozen neighboring artwork, no morph or held substitute.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0340-f0777.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0774-source-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0777-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source777 exclusive geometry/crop/expression/occlusion authority",
+    "Klee identity/color/costume ONLY; prior face/cuff proportions forbidden",
+    "Actual source774/777 RGB and contour evidence"
+  ],
+  "continuity_status": "static_source_pair_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-60dab8b0-5cdc-4610-8797-7cee4ce1f8ff.png",
+  "static_review": "Current closed eyes/two open cheek-front hands/crop retained; source774/777 full/local RGB and contour evidence reviewed.",
+  "known_issues": [
+    "Source774/777 closed-eyelid arc and reduced mouth change are not fully expressed; prior face largely persists",
+    "Face wider and eye line lower than source, cuffs larger",
+    "Small yellow shoulder sliver added",
+    "Backdrop gradient and costume shading"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0777-source-v1-source-static-contact.jpg"
+}

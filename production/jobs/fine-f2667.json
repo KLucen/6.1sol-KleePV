@@ -1,0 +1,49 @@
+{
+  "source_frame": 2667,
+  "source_cel": "cel-0503",
+  "source_candidate": "src-1555",
+  "output": "generated\\fine-f2667.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2667: Independent body rotates further toward horizontal flight: head LEFT of hips, body-axis diagonally from headcenterx0.690 y0.278 tohipsx0.772 y0.46; about38degrees leaned screen-left from upright, not previous nearly vertical torso. Both knees bent back sharply toRIGHT, boot tips nearx0.80 y0.42 andx0.812 y0.45, legbottom0.542H. Both fists abovehead leftx0.60 y0.198 rightx0.754 y0.168; complete red sleeves angle in V toshoulders, plain STRAIGHT cream cuff rings no scallops. Tired half-open red eyes EACH black pupils and white highlights, tiny oval O mouth. Source figure boundx0.583..0.829 y0.157..0.542. Lavender pillow remains fixed below-left x0.55..0.748 y0.63..0.746 with no contact. Two short blonde ear-root ponytails/capelet trail rightward naturally, not longhair. Brown backpack behind shoulders, redclover beret only. Source current red contours govern changed bodyaxis/knee/arm/mouth/hair.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1555-f2667.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2662-f2667-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2662.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Static check: leaning airborne independent pose, complete raised arms, plain cuffs, short ponytails and no pillow contact retained. Figure tilts further than f2662 but lower body ends near0.60H rather than source0.54H, so precise body-axis/scale remains unresolved."
+    ],
+    "issues": [
+      "Folded lower body extends too low compared current source."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-f14644d0-5363-4aed-8203-e0cf2875505a.png"
+}

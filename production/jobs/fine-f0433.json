@@ -1,0 +1,20 @@
+{
+  "job_id": "fine-f0433",
+  "source_frame": 433,
+  "source_candidate": "src-0143",
+  "canonical_cel": "cel-0071",
+  "family": "kneeling_props",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0143-f0433.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-hat-only-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0433.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: one full-frame independent 16:9 hand-drawn PV animation cel, not a contact sheet. Replace ONLY the original pink-haired pajama girl in image 1 with default Klee from Genshin, preserving image 1 current composition, body anatomy/pose, facial landmark positions, viewpoint and all prop geometry. Image 1 is the exact current original frame and is absolute authority for pose, expression, crop, object positions and occlusion. Image 2 is a cropped Klee HAT identity reference ONLY; do not enlarge the source head or copy reference geometry or polished rendering. Image 3 is Klee costume-construction ONLY, not standing pose. Image 4 is REAL two-dimensional source delta, upper-right CURRENT source, blue-before red-current contours; use its actual changes, never draw the analysis panels. If image 5 exists, it is cropped same-shot costume continuity ONLY, not a frozen pose. Use the ORIGINAL loose uneven thick black lines, flat pale lavender background, simple flat red/cream/brown/blonde colors and orange oval cheeks, only one flat gray shadow like original. No painterly shading, gradients, textures, game-art detail or 3D. Klee has pale blonde bangs, TWO SHORT side ponytails only rooted beside her ears, pointed ears, red irises when visible, red beret with cream clover, white feather and brown circular badge on viewer-right. Keep hat feather at viewer-right even as head turns; no sleep mask. Red coat/capelet, plain cream collar and cuffs, ONE small cream collar pom, a cream lower skirt with pink ruffle and red shorts, brown gloves and simple brown boots, ONE left-waist hanging cream pom only if exposed, little brown backpack behind right shoulder with small cream charm if source space allows. Keep garment structure/color placement stable, simplify like original. No extra hair at waist, no new boot badges/poms, no clovers on chest, no extra ornaments. Kneel ON folded legs matching original head/shoulder/hip/knee floor heights, do not make standing or oversized Klee. Keep the yellow star and yellow crescent exactly at source centers, contours, tilt and contact: star and moon are ABOVE and IN FRONT OF the appropriate fingers; brown gloves grip their source base positions. Keep the blue fish, cream DUCK with yellow beak, pink heart unchanged at source floor positions (duck is not a bunny/Dodoco). Flat lavender empty left field stays empty. Entire cel contains absolutely NO text, no captions, no letters, no digits, no watermark; remove source captions cleanly without touching nearby art. Output only this single current full frame, same 16:9 framing.\nCURRENT SOURCE SPEC:\nFrame 433, centered upright kneel: original head bbox about x840..1180,y195..530 of 1920x1080; keep eyes at x950/1075,y360..410, not lower. Half-open sleepy narrow lids, small red irises, orange cheeks, NO visible mouth at all. Torso x910..1160,y490..795. Folded knees x860..1245,y780..870; floor y870. Left glove grips star base x850,y580 with star center x850,y530; right glove x1190,y560 grips crescent base with crescent center x1190,y490. Both forearms bent upright, source cuffs wrap wrists below gloves, source elbow and shoulder heights unchanged. Fish floor x660..790,y790..850; duck x1290..1408,y745..840; pink heartx1410..1495,y765..845. This is a genuine pose/position cut from previous far-left kneeling frame: follow CURRENT original, do not retain old left position.",
+  "output": "../generated/fine-f0433.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_static_and_sequence_review"
+}

@@ -1,0 +1,14 @@
+{
+  "job_id": "fullpv-middle-f1520-repair-v2",
+  "source_frame": 1520,
+  "tool": "built-in image_gen",
+  "prompt": "Precise-object-edit of IMAGE 1 Klee draft f1520, only repair HAIR and keep everything else as close as possible. Complete same 1920x1080 framing. Original source IMAGE 2 only clarifies current sideways pose and arm silhouette, not original long hair or sleep-mask costume. Image 1 erroneously has a LARGE LONG FLOWING PONYTAIL stretching across above the torso at x525..735,y470..550. REMOVE this extra long hair mass. Default Klee has TWO SHORT blonde side ponytails connected just behind pointed ears: one short ponytail at head's upper side around x475..585,y510..568, other short ponytail at lower side around x455..535,y752..815. Each ends near the head/shoulder, cannot extend along the torso. Preserve red beret/clover/white feather, existing closed eyelids and dot mouth, folded forearms/cuffs/gloves, red coat hem cut, foot positions, all source cream breathing puff and flat lavender background. Keep simple flat source-like drawing style, avoid game detail, new patterns, shadows or extra props. No bunny mask. Do not shrink/move entire character or change coat.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1520.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0898-f1520.png"
+  ],
+  "output": "generated/fine-f1520-short-hair-repair-v2.png",
+  "accepted": false,
+  "status": "generated_repair_draft",
+  "repair_round": 1
+}

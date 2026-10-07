@@ -1,0 +1,82 @@
+{
+  "source_frame": 3204,
+  "cel": "cel-0573",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Current3204 figure pose essentially HELD from3202 verified RGB/native contours: exact same two arched fully visible fists, slightly tilted low face with round half-open eyes and tiny angled O. Only background small-star phase changes: left cross star rises/right, rear crown star moves up-right, lower-left cross star and lower-center tall star shift up. Large foreground left and right stars hold exact overlap of left sleeve/hat and right chest. Do not invent head/blink/costume motion from prior. Two short Klee ponytails only, no third split tuft, plain collar no floral coat embellishments; source current determines crop/occlusion.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1757-f3204.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3202-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3202-f3204-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3204-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "515538b9c585c22c057d5ea39130db81f48373d9e4d684c6f31c8e1efd76f0ee",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "42a86fe5013f05f389911d8234b624e7088b54f3832004f098a5d242dea24036",
+    "b58cc77349c68edb19dc4a33d0eb42079cdc15544b46cd62401ff9595ec98c88",
+    "a693d33e6e0f60c07892194bc3b3028f976e66c141d7c12c35904a7dfd934c1f"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3204-v1.png",
+  "source_exposures": [
+    {
+      "start": 3204,
+      "end": 3207,
+      "pts": 133.5,
+      "end_pts": 133.625,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Current3204 figure pose essentially HELD from3202 verified RGB/native contours: exact same two arched fully visible fists, slightly tilted low face with round half-open eyes and tiny angled O. Only background small-star phase changes: left cross star rises/right, rear crown star moves up-right, lower-left cross star and lower-center tall star shift up. Large foreground left and right stars hold exact overlap of left sleeve/hat and right chest. Do not invent head/blink/costume motion from prior. Two short Klee ponytails only, no third split tuft, plain collar no floral coat embellishments; source current determines crop/occlusion.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-e41d9f08-b442-41b2-9a77-b551e984ecf1.png",
+  "output_sha256": "976a20ed4623b581e5227dacb5a556aadef86855ca4a4af54e8daafb43326952",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output actually viewed: two brown arched fists and foreground star ordering match source generally, no lyrics. Floral chest buttons removed but collar still puff and right hair appears extra third tuft, head/hat/eyes shifted slightly despite held source. First draft accepted=false with continuity/design flaws deferred to full-video feedback.",
+    "accepted": false
+  }
+}

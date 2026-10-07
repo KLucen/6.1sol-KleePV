@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0167",
+  "source_frame": 167,
+  "source_candidate": "src-0051",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0051-f0167.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0167.png"
+  ],
+  "prompt": "ONE full16:9 Klee PV replacement cel, edit originalperson ONLY of CURRENT image1. Image1 locks full-canvas crop, original pillow/floatingclock positions, pose/occlusion. Croppedface2 controls Klee identity/loosePV simplification ONLY, cropcoat3 same costume ONLY, image4 source before/current actual spatial change upper-rightcurrent no panelsoutput. Klee still hugs nearlyvertical lavender pillow left offace. Currentnewdrawing pillow creamleftfringe is more upright/forward and below it reaches y45%, left-side elbow raised/higher, a SHORT creamcuff exposed just LEFT behind fringe near x59%,y31%, hidden other glove no invented fingers. Visible brown glove at pillow upperleft x64%,y28% and its forearm crosses IN FRONT diagonally up-left across chest/face. Other forearm curls behind/under pillow, hand largely occluded by pillow. Both droopy half-open REDeyes visible to right, tiny closed caret/downturned mouth, orangecheek. Head and entire body/straightlegs inclinedright croppedbottom at EXACT sourcecoordinates, not recentered. SAME redberetcreamclover whitefeatherside, blondebangs TWO SHORT sideponytails pointedears, brown gloves, redcoat creamcapelet/chestpom, angular splitredfrontpanels lowerleftclover, angular broadcreamunderskirt fainttinyclovers/pinkruffle/REDshorts, one hanging leftwaistpom, brown backpacksmallcharm right; no exaggerated backpack/pocketpoms. Source lavenderpillow singleplane behindvisible frontglove/forearm but before hiddenarm and faceleft; floatingcreamclock isolated LEFT at x49%,y50% width7%, blankdisplay. Source flatpatches loose darkoutlines single smallflatshadow, no polished shading. NO captions/subtitles/credits/title/letters/numbers, no sleepmask/pajamas/rabbitears, extra hand, zoom/mirror.",
+  "output": "../generated/fine-f0167.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

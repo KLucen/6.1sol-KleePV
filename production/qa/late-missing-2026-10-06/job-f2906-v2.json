@@ -1,0 +1,116 @@
+{
+  "source_frame": 2906,
+  "source_cel": "cel-0524",
+  "source_candidate": "src-1630",
+  "output": "generated/late-f2906-oct6-v2.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: precise-object-edit. Produce ONE whole 16:9 animation cel by a SINGLE local correction to IMAGE 1, the generated Klee target. Keep ALL geometry, contours, exact camera framing, head, hat, closed eye lines, cheek ovals, exactly two compact rooted blonde ponies (far one source occluded), near glove, near sleeve, red coat/cream plain cuffs/hem, backpack, knees, boots, lavender pillow, cream pillow ruffle, purple backdrop and enormous margins unchanged. IMAGE2 is original current f2906 source ONLY for the far-hand pose and occlusion, not original bare-hand color or old identity. IMAGE3 is native current source crop ONLY to establish that far fingers grip the TOP-RIGHT corner of the lavender pillow while forearm is hidden behind it. ONLY CHANGE: the small far hand fingers at the pillow's TOP-RIGHT corner in IMAGE1 are currently pale bare skin. Replace those SAME fingers, same silhouettes and positions with a continuous BROWN KLEE GLOVE matching the solid brown of the near glove already on the left/middle pillow. All far visible digits and fingertips must brown, NO bare skin fingertips, no nails, no new extra finger/hand and no exposed far forearm. Maintain their black outlines, exact pose and layer ABOVE the pillow corner. Do NOT recolor nearby CREAM pillow ruffle, face, hair, collar or cuffs; those stay cream. Two source hands total. Source text stays absent; no caption, number, logo, diagram, watermark or extra detail. Final output entire target image, not a patch or cropped hand.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\late-f2906-oct6-v1.png",
+      "role": "whole target edit only far glove color keep all pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2906-source-actual.png",
+      "role": "fresh actual CURRENT original far-hand grip and occlusion not skin color"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2906-source-pose-native.png",
+      "role": "native CURRENT source grip and occlusion detail only"
+    }
+  ],
+  "all_references_actual_viewed": true,
+  "source_exposure_strategy": "strict_source",
+  "source_exposures": [
+    {
+      "start": 2906,
+      "end": 2911,
+      "pts": 121.083,
+      "end_pts": 121.292,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 2951,
+      "end": 2955,
+      "pts": 122.958,
+      "end_pts": 123.125,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 2994,
+      "end": 2999,
+      "pts": 124.75,
+      "end_pts": 124.958,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "One bounded whole-cel correction made far top-right gripping fingers continuous brown glove, near glove remains brown. Closed eyes with no irises, source upright pose, horizontal lavender pillow and cream ruffle, foreground near glove and far sleeve source-hidden, two anatomical compact ponies with far root occluded by pillow maintained. Pillow breadth/head/hat/coat hip registration and long-leg design approximate, small triangular hem points remain; no source-caption/compositor or actual-speed review, accepted false.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "bounded_repair": {
+    "attempt": 1,
+    "max_attempts": 1,
+    "reason": "Far top-right glove stayed bare source skin",
+    "prior_output": "generated/late-f2906-oct6-v1.png"
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10f41-d625-7081-823e-717bc8ebded2\\exec-b5f93bc2-3388-41d2-8d91-3308ee4ac774.png",
+  "output_sha256": "123f1174ed192fa2651ec3198da837ffdc1b1636a442b249ad1bca04e47a065b",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

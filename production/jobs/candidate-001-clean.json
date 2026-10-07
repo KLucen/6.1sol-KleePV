@@ -1,0 +1,19 @@
+{
+  "job_id": "candidate-001-clean",
+  "source_frame": 38,
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-001.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-001.jpg"
+  ],
+  "prompt": "Localized repair of IMAGE1 only, preserving the Klee replacement figure, exact composition, canvas, head silhouette, clothing, hands, bent knees, hat, ponytails, backpack, pillow and floating clock positions. IMAGE2 is original source reference ONLY for current mouth/eye state, NOT identity/clothes. In source the LEFT-facing profile lips are NEARLY CLOSED with a tiny dot/short stroke, not an open O. Repair image1's tiny round OPEN mouth to that source closed mouth. The narrow visible profile iris currently looks brown/blue; make it Klee's muted RED, same narrow size and eyelid angle. Do not change bangs, eye shape or head position. Completely REMOVE ALL Japanese/Chinese left subtitles and all lettering/digits on the small clock display, cleanly continue the same purple display. Original source subtitle/clock digits will be restored separately. Keep same Klee redberet/creamclover/whitefeather side, pale blonde TWO SHORT side ponytails, redcreamcoat/capelet/brown gloves and backpack. Flat PV outlines and colors unchanged, no extra detail/shading/objects, pose changes, recrop or zoom.",
+  "output": "../generated/candidate-001-clean.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "replaces": "candidate-001",
+  "repairs": [
+    "closed profile mouth",
+    "red iris",
+    "generated text"
+  ],
+  "temporal_review": "pending"
+}

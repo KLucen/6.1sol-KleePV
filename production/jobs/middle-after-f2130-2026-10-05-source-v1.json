@@ -1,0 +1,130 @@
+{
+  "job_id": "middle-after-f2130-2026-10-05-source-v1",
+  "resumed_date": "2026-10-06",
+  "source_frame": 2130,
+  "source_cel": "cel-0396",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1200-f2130.png",
+  "source_exposures": [
+    {
+      "start": 2130,
+      "end": 2132,
+      "pts": 88.75,
+      "end_pts": 88.833,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Create ONE full independent strict-source PV cel at same complete 16:9 frame. Replace BOTH original characters with Klee. NOT collage or comparison. Reference roles: Image1 CURRENT original is sole authority for TWO actor count, camera crop, giant foreground geometry, eye/mouth expression, background pose and occlusion. Image2 previous Klee f2129 is ONLY continuity for the small background actor, costume and simplification; retain that small actor as the original holds its pose but add the NEW giant foreground actor. Image3 cropped Klee head fixes identity/line/color only, NOT eyelids/expression or size. Image4 true original before/current A/B RGB/dual contours shows foreground entrance; CURRENT is right. Image5 current original native two-actor crops fixes giant eye/mouth/crop and small background body. Simplified flat pastel drawing, thin wobbly black original PV outlines, minimal shadow. Klee has blonde bangs, red beret brown band cream clover and white feather, pointed ears where visible, exactly TWO short rooted side ponytails per character. Cream collar separates neck from ponies, no third nape tuft. Plain red coat, continuous cream hem/cuffs/collar, whole brown gloves and plain brown boots with cream cuffs. No extra buttons, coat pockets, knot, medallion or limbs. All text must be absent for deterministic original lyric restoration later. Lavender backdrop and cream outline stars/small yellow particles are independent original effects restored later; no watermark. CURRENT f2130 has EXACTLY TWO Klee instances of very DIFFERENT scale. Small BACKGROUND Klee remains around image center x680..1285 y110..1055, leaning clockwise, both eyes CLOSED and tiny O mouth, left open brown glove steep up-left at x750..845 y120..220, right open brown glove down-right around x1230 y590 partly near occlusion edge, two straight legs: left planted toe-left boot at x680..835 y990..1050; right diagonal leg with toe-up-right boot at x1055..1185 y940..1045. Keep small actor's two compact ponies, same coat/boots and gesture as Image2, no extra pose or third actor. NEW FOREGROUND Klee is an ENORMOUS cropped face and shoulder entering from image RIGHT, not a second full standing figure. Follow giant original envelope: foreground's leftmost curved head/hat edge begins around x1090 at y0..300; head slopes down-right to cheek/hair around x1430 y760; lower right red shoulder/body occupies x1430..1920 y760..1080. Giant beret is CUT OFF by TOP and RIGHT borders, blonde bangs follow diagonal tilted forehead, not recentered and not fully fitted within frame. Giant face fills most image-right half; one full half-open red eye around x1580..1720 y340..520 with low dark diagonal upper eyelid, white lower highlight matching source shape; second half-open red eye around x1870..1920 y155..345 is mostly CUT OFF at RIGHT. Both eye IRIS RED instead of original blue, while preserving half-open original shape. Giant mouth is open O partially CUT OFF by RIGHT at x1880..1920 y535..625. Orange cheek patch around x1620..1780 y550..700 as source. Giant blonde side hair/one short pony connected near shoulder around x1490..1860 y760..900, other pony outside right crop rather than added visible tuft. No long original peach hair or rabbit sleepmask. Red coat shoulder and cream collar partly clipped at lower/right, no invented foreground hand, legs or body outside crop. Foreground IS IN FRONT of small actor and covers its upper right hat/hair and most right edge near the outstretched sleeve, exact same overlap order as original; do not put small background glove or pony on top of giant foreground face. Keep original negative space on image LEFT and giant crop on RIGHT. Do not zoom out giant head, move giant to left, add a third actor or copy small actor's closed eyes to giant. Replace BOTH actors, retain giant half-open expression versus background closed eyes.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1200-f2130.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/middle-after-f2129-2026-10-05-source-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-after2105-2026-10-05/klee-f2122-head-only-identity.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-after2105-2026-10-05/f2129-f2130-source-AB-RGB-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-after2105-2026-10-05/f2130-source-native-two-actor-keyparts.png"
+  ],
+  "reference_roles": [
+    "CURRENT full source TWO actors exact crop pose and occlusion authority",
+    "Small BACKGROUND Klee continuity only, not whole composition",
+    "Cropped Klee identity only, NOT giant expression",
+    "Original entrance AB RGB and contours",
+    "CURRENT native giant face/crop and small body"
+  ],
+  "output": "generated/middle-after-f2130-2026-10-05-source-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "reviewed_static_temporal_pending",
+  "actual_builtin_call_submitted": true,
+  "actual_speed_review": "not_performed",
+  "ordered_reference_metadata": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1200-f2130.png",
+      "sha256": "54452836a5f0a8966a8b75a3fd57c417b2f0b24dd418ff38b3cc4559a6dbf6a1",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "role": "CURRENT full source TWO actors exact crop pose and occlusion authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-after-f2129-2026-10-05-source-v1.png",
+      "sha256": "47f230f80d29785f348621fe1b17398c6be49ab5e8fc692562975f54c4aeef42",
+      "canvas": [
+        1672,
+        941
+      ],
+      "role": "Small BACKGROUND Klee continuity only, not whole composition"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-after2105-2026-10-05\\klee-f2122-head-only-identity.png",
+      "sha256": "0ed50e24e458911bbda158746cfb21a0eb47695be041b39dfe4decb689561ef2",
+      "canvas": [
+        235,
+        335
+      ],
+      "role": "Cropped Klee identity only, NOT giant expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-after2105-2026-10-05\\f2129-f2130-source-AB-RGB-contours.png",
+      "sha256": "f71338aa68b726174cd5438b02f5ce9509924c93daed3946d0dcfa390eef2f13",
+      "canvas": [
+        3840,
+        2240
+      ],
+      "role": "Original entrance AB RGB and contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-after2105-2026-10-05\\f2130-source-native-two-actor-keyparts.png",
+      "sha256": "9cee2da94e17e01fd473b387e494c5a5827326b773e5b95680052b6fc8f01edc",
+      "canvas": [
+        1475,
+        1108
+      ],
+      "role": "CURRENT native giant face/crop and small body"
+    }
+  ],
+  "ordered_reference_metadata_phase": "before_builtin_call",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10f40-ef5a-7db0-8ec7-3b25ab735ee0\\exec-3a019618-4cc2-4846-9ffb-21d119879dac.png",
+  "tool_output_metadata": {
+    "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10f40-ef5a-7db0-8ec7-3b25ab735ee0\\exec-3a019618-4cc2-4846-9ffb-21d119879dac.png",
+    "sha256": "0e2810d217d478d9a5814887ecaa3a7b3ff876413ed3e5bf0bbc17c4090d9149",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "workspace_output_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-after-f2130-2026-10-05-source-v1.png",
+    "sha256": "0e2810d217d478d9a5814887ecaa3a7b3ff876413ed3e5bf0bbc17c4090d9149",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "output_sha256": "0e2810d217d478d9a5814887ecaa3a7b3ff876413ed3e5bf0bbc17c4090d9149",
+  "known_issues": [
+    "Foreground blonde bob/pony/pointed ear differ from original long peach hair envelope; background right glove remains more visible than source near occlusion edge",
+    "Giant eye, face, hat and lower shoulder positions and sizes approximate; near eye slightly lower and giant collar has an extra cream fold",
+    "Small actor retains preceding larger head/beret/collar and approximate cuff/boot/hem placement",
+    "Both actors replaced, giant half-open red eyes differ correctly from small closed eyes; no original rabbit mask/peach hair remains",
+    "Generated background/effects and newly uncovered pixels require deterministic original-layer recovery; no AI captions present",
+    "Static full and shot-specific native source/new review only; final compositing and actual-speed artistic acceptance not performed"
+  ],
+  "source_current_observed": "Exactly two Klee actors: small closed-eyes/O-mouth right-leaning dancer remains behind, with two connected side ponies, two brown open gloves and planted-left/raised-right boots. Giant foreground Klee has half-open red eyes, top/right-clipped beret/head, right-clipped O mouth, cheek and lower-right red shoulder, one visible rooted pony and the opposite pony outside crop. Foreground correctly sits in front at upper-right background beret overlap; no foreground hand or extra full body is invented.",
+  "final_composition_review": "not_performed",
+  "static_review": "qa/middle-after2105-2026-10-05/f2130-source-new-static.png"
+}

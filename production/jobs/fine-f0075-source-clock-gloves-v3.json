@@ -1,0 +1,26 @@
+{
+  "source_frame": 75,
+  "name": "fine-f0075-source-clock-gloves-v3.png",
+  "output": "generated/fine-f0075-source-clock-gloves-v3.png",
+  "tool": "builtin_imagegen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-9cb1e124-538a-4086-a157-d2fff2988c88.png",
+  "static_review": "Both visible hands now brown gloves, raised clock 0:33 retained and cuff/contact topology unchanged visually. Outside-target raster drift and adjacent face/hat/clothing continuity remain pending.",
+  "known_issues": ["Black-hook eye anatomy differs", "Extra coat clovers/details and shading", "Clock/fingers/pillow not source pixel registered", "Consecutive costume/hat volume drift"],
+  "references": [
+    {
+      "path": "generated/fine-f0075-source-clock-v2.png",
+      "role": "Edit target; exact current pose, visible LCD, source lifted wrists"
+    },
+    {
+      "path": "source_refs/src-0025-f0075.png",
+      "role": "CURRENT pose and hand/clock occlusion only, not original skin hand color"
+    },
+    {
+      "path": "generated/fine-f0079-source-clock-v3.png",
+      "role": "Brown Klee glove color ONLY, never pose/scale"
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Edit Image1 ONLY the TWO exposed skin-colored hands into Klee's plain BROWN GLOVES. Keep their exact existing finger shapes, joints, wrist boundaries and source clock contact. The upper viewer-right hand's fingers overlap the right edge of the raised clock IN FRONT; the lower viewer-left hand supports its underside partly hidden by clock and cream cuff. Only those TWO hand surfaces become flat brown glove color, do not paint cuffs, collar or face brown. Image2 is current source f75 exact lifted hand/clock occlusion geometry ONLY, do not copy its skin hand color. Image3 is brown glove COLOR ONLY; never adopt its completely different clock pose. Preserve all other Image1 shapes/pixels as closely as possible: exact clock size/angle and clear 0:33 digits, head/two open red eyes and black pupils, mouth/cheeks, hat/feather, TWO blonde short ponies, ear, both cream cuffs, bent elbows/sleeves, red coat/shorts, backpack, original pillow and Chinese/Japanese text, lavender backdrop/canvas. No extra fingers, hand, cuff seam or props, no cropping/rescale. Return one full 16:9 cel. Only exposed hand skin becomes brown glove fill, nothing else."
+}

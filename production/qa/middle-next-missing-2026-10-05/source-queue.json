@@ -1,0 +1,332 @@
+{
+  "snapshot_utc": "2026-10-05T11:02:06.953322+00:00",
+  "manifest_sha256": "8e32d4580cf23cd31e87c91381abd641593cd3c0553ba1fcc118d0f0c8d42e11",
+  "queue": [
+    {
+      "cel": "cel-0384",
+      "source_candidate": "src-1147",
+      "canonical_source_frame": 2077,
+      "source_reference": "source_refs/src-1147-f2077.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2077,
+          "end": 2081,
+          "pts": 86.542,
+          "end_pts": 86.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "previous_frame": 2073,
+      "next_frame": 2081,
+      "actual_sequential_decode_reference_equal": true
+    },
+    {
+      "cel": "cel-0385",
+      "source_candidate": "src-1151",
+      "canonical_source_frame": 2081,
+      "source_reference": "source_refs/src-1151-f2081.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2081,
+          "end": 2085,
+          "pts": 86.708,
+          "end_pts": 86.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "previous_frame": 2077,
+      "next_frame": 2085,
+      "actual_sequential_decode_reference_equal": true
+    },
+    {
+      "cel": "cel-0386",
+      "source_candidate": "src-1155",
+      "canonical_source_frame": 2085,
+      "source_reference": "source_refs/src-1155-f2085.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2085,
+          "end": 2090,
+          "pts": 86.875,
+          "end_pts": 87.083,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "previous_frame": 2081,
+      "next_frame": 2090,
+      "actual_sequential_decode_reference_equal": true
+    },
+    {
+      "cel": "cel-0387",
+      "source_candidate": "src-1160",
+      "canonical_source_frame": 2090,
+      "source_reference": "source_refs/src-1160-f2090.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2090,
+          "end": 2094,
+          "pts": 87.083,
+          "end_pts": 87.25,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "previous_frame": 2085,
+      "next_frame": 2094,
+      "actual_sequential_decode_reference_equal": true
+    },
+    {
+      "cel": "cel-0388",
+      "source_candidate": "src-1164",
+      "canonical_source_frame": 2094,
+      "source_reference": "source_refs/src-1164-f2094.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2094,
+          "end": 2098,
+          "pts": 87.25,
+          "end_pts": 87.417,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "previous_frame": 2090,
+      "next_frame": 2098,
+      "actual_sequential_decode_reference_equal": true
+    },
+    {
+      "cel": "cel-0389",
+      "source_candidate": "src-1168",
+      "canonical_source_frame": 2098,
+      "source_reference": "source_refs/src-1168-f2098.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 2098,
+          "end": 2105,
+          "pts": 87.417,
+          "end_pts": 87.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "previous_frame": 2094,
+      "next_frame": 2105,
+      "actual_sequential_decode_reference_equal": true
+    }
+  ],
+  "source_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "source_decode_equal": [
+    2073,
+    2077,
+    2081,
+    2085,
+    2090,
+    2094,
+    2098,
+    2105
+  ],
+  "native_boxes": {
+    "head-face-hair": [
+      580,
+      125,
+      1520,
+      535
+    ],
+    "hands-cuffs": [
+      570,
+      330,
+      1550,
+      735
+    ],
+    "legs-hem-boots": [
+      650,
+      620,
+      1640,
+      1080
+    ]
+  },
+  "accepted": false
+}

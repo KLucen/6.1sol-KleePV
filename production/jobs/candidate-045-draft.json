@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-56a82df7-13f7-4114-9d60-0c40e7ddba2f",
+  "candidate_id": 45,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV frame editing ORIGINAL image1 source-cel-045. Preserve its pose EXACTLY: both arms STRAIGHT diagonally UP and outward forming broadY, FULL open spread palms at uppercorners facing viewer (left palm near x15%,y22%, rightnear x88%,y22%); five normal fingers/thumb each gloved brown, source fingersplay and wrist/cuff orientation retained. Face upright central, broadOPEN drowsy eye shapes (not closedchevrons, not tinyrectangles), redburgundyirises replacingblue, small vertical O/arched openmouth, orangecheeks. Klee identity and sourceflatstyle from image2only: blonde shorttwo sideponytails/pointedears, redberet creamclover/whitefeather, redcoat creamtrim/patterncollar, brownfullgloves. No pinklonghair/sleepmask/pajamapockets. Draw actual visiblewaistup crop, handsfullyvisible no addedbody, exactsourceYshoulders and folds. Keep lavenderstars sourcebackdrop. NO generatedsubtitles/lyrics/credits/lettering, removeoriginalcaptions cleanly. Looseblacklines/broadflatcolors restrainedshading.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-045.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045-draft.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Source Y-arm pose/open spread palms/red open eyes/arched O mouth good. Extra duplicate blond wings below both armpits creates four ponytails; repair needed."
+}

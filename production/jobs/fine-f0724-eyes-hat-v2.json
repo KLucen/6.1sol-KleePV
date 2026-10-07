@@ -1,0 +1,20 @@
+{
+  "source_frame": 724,
+  "name": "fine-f0724-eyes-hat-v2",
+  "prompt": "Use case: precise-object-edit. Image1 Klee f0724 is EDIT TARGET; preserve ALL screen scale/position/frontupright pose/crop, hidden arms/no visible hands, mouth/eyelid state, coat/skirt/body exactly. Image2 current ORIGINAL source is exact pose and eyes authority. Image3 enlarges SOURCE EYES, pupil/hook shape only. ONE full-frame 16:9 PV cel, no text. TARGETED CHANGES only: (1) Remove the cream upward curved hair tuft on viewer-left ABOVE the hat; there are exactly TWO SHORT blonde ponytails rooted behind pointed ears below hat, no third top tuft. (2) Make the round brown creamclover hat badge plain circular with NO dangling strips/sticks/tassels, retain whitefeather. (3) Restore SOURCE eye detail in BOTH eyes: small thick BLACK hooked pupil structure attached to LOWER-LEFT black eye border, curving up into a round hook with WHITE enclosed notch/highlight; the hook is about onequarter of visible eye width, not a tiny dot. Keep current sleepy upper eyelids and eye outline size/location exactly. Klee iris colors are RED, upper darker RED/lower pale coral-red, not source blue; black pupil hook and white notch remain BLACK/WHITE. Do not replace the eyes with blank red discs, dots or fullblack. Preserve tiny inverted-v mouth and orange cheek marks. Same simple PV thick outline/flat colors, no added textures or detail. Source lavender background flat. No new props or visible hands. Return ONLY full current cel, not crop/panel.",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0724-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0319-f0724.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0724-source-eyes.png"
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-56e09c63-a610-4644-bfd9-db5369364f20.png",
+  "output": "../generated/fine-f0724-eyes-hat-v2.png",
+  "tool": "builtin imagegen",
+  "status": "partial_repair_draft_unaccepted",
+  "accepted": false,
+  "review": "First targeted repair removes upper hair tuft. Black source eye hooks are still reduced to central dots; badge lower strips persist. Second eye-only repair required.",
+  "known_issues": [
+    "Missing black lower-left pupil hooks",
+    "Dangling hat badge strips persist"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "source_frame": 3177,
+  "cel": "cel-0564",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Large upper-body overhead arch; current head and shoulders drop slightly/right, eyes rounded open and mouth diagonal small oval, left sleeve arc expands left. Top foreground star now covers center crown between gloves, not whole left face; screen-right glove fully visible but left glove tip partly hidden by star. Medium star crosses right raised sleeve/neck, face unobscured. Two short ponytails with right ends down; source coat both pockets bottom-cropped, no legs. Image3 costume colors only, no duplicated third tuft or copied text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1743-f3177.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-096.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3172-f3177-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3177-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "2da70bbe1419987248d1df4662c3748c5b11e3a4e7b67f1390c2c7369a9b9514",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "01421a76e467f14c1ae444856ff30ec47e833502b9e34389ae54b297d92f6de1",
+    "9eecde3c1ed0d960f8afbe412e12f6d99a11f82452b8a49025b93b2e02b5bd59",
+    "43566dfd7026643971447ba6cac617ed2c80ccdd9b60eb64b3b6367ad678aa75"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3177-v1.png",
+  "source_exposures": [
+    {
+      "start": 3177,
+      "end": 3182,
+      "pts": 132.375,
+      "end_pts": 132.583,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Large upper-body overhead arch; current head and shoulders drop slightly/right, eyes rounded open and mouth diagonal small oval, left sleeve arc expands left. Top foreground star now covers center crown between gloves, not whole left face; screen-right glove fully visible but left glove tip partly hidden by star. Medium star crosses right raised sleeve/neck, face unobscured. Two short ponytails with right ends down; source coat both pockets bottom-cropped, no legs. Image3 costume colors only, no duplicated third tuft or copied text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-9197e894-ef17-49df-84d0-483f1957a320.png",
+  "output_sha256": "e1f84fb90477dbb1cf53f2d86c0f8a53529986fe095c736ffded0292b13d0b3c",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output inspected: top center star crosses hat, right shoulder star overlaps, both raised gloves visible. Prior ornamental collar/chest pattern reintroduced, eyes less round than source and third-looking right tuft remains. Unaccepted, record for feedback, no retry.",
+    "accepted": false
+  }
+}

@@ -1,0 +1,43 @@
+PV inspection report
+
+Source
+- File: 【中日字幕MIMI】痛痛飞走吧痛いの痛いの飛んでいけっ - feat. saewool.mp4
+- Video: H.264 High, 1920x1080, 16:9, progressive, yuv420p, BT.709
+- Rate/duration: nominal 24 fps (3,658 frames, avg about 24.0 fps), video 152.416625 s; the encoded average frame rate is 29264000/1219333.
+- Audio: AAC-LC, 44.1 kHz, stereo, 171.9 kbps, 152.555102 s. No separate subtitle stream; Chinese/Japanese captions and title/credit graphics are burned into the video.
+
+Candidate cut groups (time in seconds; use the exact source frame as the final boundary)
+- 0.00-1.58: extreme close-up, face/pillow.
+- 1.58-8.75: standing side view; arms/pillow move from forward to overhead. Keep 0.25 s key poses.
+- 8.75-16.46: pillow/blanket close and face reaction; foreground pillow occludes torso and hands.
+- 16.46-21.00: seated/kneeling mini poses with small props, then hug/close-up.
+- 21.00-22.33: bag/prop close-up into transition.
+- 22.33-32.71: prone/floating pose sequence; legs and arms change every few frames.
+- 32.71-33.83: shouted close-up with large text/impact star; keep text above the character.
+- 33.83-37.50: star-field dance/step cycle.
+- 37.50-41.92: close face and blue-lit secondary character; preserve the blue backlight if converting the person to Klee.
+- 41.92-42.46: brief transition into full-body shot.
+- 42.46-52.54: full-body/medium gesture cycle (hands up, touch head, arms spread).
+- 52.54-58.46: title card and credits; do not repaint over typography.
+- 58.46-64.13: credit/mini seated/floating inserts.
+- 64.13-73.79: close face, hands over head, hood/blanket, then seated pose; several effect cuts.
+- 73.79-83.67: seated/back view and side turn; back-facing hair silhouette needs a stable Klee model.
+- 83.67-85.71: face close-up, shout/impact star.
+- 85.71-88.83: star-field movement/dance.
+- 88.83-94.33: close face plus blue-lit secondary-character insert.
+- 94.33-100.38: full-body standing gesture cycle.
+- 100.38-105.79: medium gestures from head touch to arms open.
+- 105.79-128.63: floating/falling mini poses, side/back turns, then scroll/rectangle prop sequence; retain frame-to-frame limb and prop continuity.
+- 128.63-134.04: close-up into large yellow-star burst; stars are a foreground occlusion layer.
+- 134.04-141.25: walking/dance cycle through the star field.
+- 141.25-144.79: star-field pose, close face, then full-body.
+- 144.79-147.08: hand/face gesture close-ups.
+- 147.08-152.42: ending close-up smile/title/credits.
+
+Replacement/occlusion notes
+- Treat the source as 24 fps and process every frame; motion segments have frequent hand/leg redraws, so one replacement image per shot will cause pose popping.
+- Keep burned-in subtitles, title, and credits as the topmost text layer. Character masks should stop before bottom captions and left/center text blocks.
+- Build explicit foreground masks for the pillow/blanket (8.75-16.46), sack/prop (21.00-22.33), scroll/rectangle (roughly 120-128.63), and yellow/white stars (32.71-37.50, 83.67-88.83, 128.63-141.25).
+- Blue-lit inserts at 37.50-41.92 and 88.83-94.33 are still people and should become Klee while retaining the cyan/blue color grade.
+- Back views and hair silhouettes around 73.79-83.67 and 115-128 require consistent Klee hat/hair geometry; check neighboring frames for edge drift.
+- Suggested QA: inspect at 100% every hard-cut boundary and every key pose, then scan the full render for mask chatter, limb holes, subtitle overlap, and incorrect star/prop depth.

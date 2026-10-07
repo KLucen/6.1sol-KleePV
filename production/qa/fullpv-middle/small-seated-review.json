@@ -1,0 +1,23 @@
+{
+  "family": "small_seated",
+  "canonical_frames": [
+    1646,
+    1662,
+    1668,
+    1674
+  ],
+  "tool": "built-in image_gen",
+  "static_source_and_neighbor_review": true,
+  "actual_speed_watch": "not_performed",
+  "artistic_accepted": false,
+  "static_compare_pages": [
+    "qa/fullpv-middle/review-1646-1662-1668-1674.jpg"
+  ],
+  "findings": [
+    "1662 repaired extra-bare-knees failure from candidate051: crossed coat arms and fully covered folded lower coat mass now follow current crop, no new bare knees.",
+    "1662,1668,1674 half-open red eyes, tiny frown and visible right partial gloved hand are retained; other hand remains hidden.",
+    "Hat feather size, bang, ear, collar, clover placement and cuff shape drift between independent drafts more than source RGB differences. Group costume/face consistency is unaccepted.",
+    "1646 current O mouth and asymmetric hands lifting hat are retained, but copied peach pajama-like leg panels remain beneath red coat; do not accept.",
+    "Source background, captions and independent scene effects require original compositing restoration."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "family": "cyan_profile",
+  "scope": "bounded resume batch 5 current-source retained candidates; no cleanup restart",
+  "tool": "builtin imagegen",
+  "source_map": "source_camera_early.json",
+  "existing_fine_frames": [
+    914,
+    915,
+    919,
+    921
+  ],
+  "generated_in_batch": [
+    925,
+    927,
+    931,
+    933,
+    935
+  ],
+  "count_generated_in_batch": 5,
+  "all_fine_frames_generated": [
+    914,
+    915,
+    919,
+    921,
+    925,
+    927,
+    931,
+    933,
+    935
+  ],
+  "existing_anchor_frames": [
+    911,
+    1006
+  ],
+  "remaining_retained_frames": [
+    938,
+    939,
+    942,
+    945,
+    948,
+    951,
+    954,
+    957,
+    960,
+    963,
+    965,
+    967,
+    969,
+    973,
+    975,
+    980,
+    981,
+    984,
+    987,
+    992,
+    993,
+    997,
+    998,
+    1002,
+    1003
+  ],
+  "quota_error": false,
+  "jobs": [
+    {
+      "job": "jobs/fine-f0933.json",
+      "review": "reviewed_candidate"
+    },
+    {
+      "job": "jobs/fine-f0935.json",
+      "review": "reviewed_candidate_needs_continuity_repair"
+    }
+  ],
+  "critical_continuity_flag": "f0935 rear ponytail changes significantly from f0933 despite tiny source delta, targeted repair recommended; no automatic reuse/morph approved",
+  "temporal_review": "pending"
+}

@@ -1,0 +1,46 @@
+{
+  "job_id": "fullpv-middle-f2045",
+  "source_frame": 2045,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1115-f2045.png",
+  "prompt": "Use case: identity-preserve. Make ONE true independent strict-source Klee PV cel f2045 by editing current source image1. 1920x1080 landscape.\nReference responsibilities: image1 CURRENT source sole camera/crop/head/face/expression/visibility/occlusion/background/text/effects authority. Image2 Klee IDENTITY AND COSTUME ONLY, never copy pose, scale, facial state or composition. Image3 actual f2043 to f2045 source A/B, RGBdiff x4 and contour overlay, RIGHT current. Image4 actual source head, closed eye and lower-frame crops with local RGBdiff/contours. Model must independently draw current geometry.\nCurrent source is a sudden FURTHER extreme face zoom: head fills all edges, source left eye about x240..750 y335..605, right eye about x1040..1530 y470..740. Both completely CLOSED as thick black inward chevrons ><. No visible iris/pupil/highlights. Bangs much larger above eyes; orange cheek ovals. Very large all-pink open shout mouth occupies lower-left-center around x530..1035 y810..1080 and is CUT OFF BY BOTTOM EDGE; chin and ALL HANDS/BODY are OUTSIDE frame. Never add collar, shoulders, gloves, hands, chest. Current source tilt, scale and cropping must match; do not hold prior f2043 face registration.\nRemove rabbit forehead mask/headband fully, replace upper top-cropped region by red Klee beret with brown plain band, ONE cream clover on red crown only, one white feather at viewer-right only where its natural portion falls inside crop. Pale blonde bangs and EXACTLY TWO SHORT ear-root blonde ponytails only visible portions inside current crop. One pointed ear each side if actually visible; no rounded source human ear wedge beside another pointed ear. No long peach hair, pajama pieces, extra clovers or extra human.\nPreserve current YELLOW black-outlined five-point STAR at viewer-right around x1600..1840 y690..885 exactly as separate foreground/source effect. It is not an ear/hat ornament and must remain same place, scale, overlap. Preserve visible lavender original gradient and bottom-center small cream captions: \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\", same coordinates and complete antialiased strokes over mouth. Never duplicate stars or text.\nSource medium: loose wobbly black contours and broad FLAT cel fills; source-like orange blush, minimal hard shadows. No soft character gradients, gloss or detailed illustration. Return one cel only, no panels/strip/collage/flow/morph/mirror/held substitute.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1115-f2045.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2043-f2045.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2043-f2045-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source sole geometry camera crop expression occlusion background caption and yellow star authority",
+    "Klee costume and identity ONLY",
+    "actual source A/B RGBdiff contours right current",
+    "actual source head eye lower crop RGBdiff contours"
+  ],
+  "output": "generated/fine-f2045.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 1,
+    "eye_state": "both fully closed inward chevrons",
+    "hands": "zero; outside current crop",
+    "delta_observed": "major extreme zoom with face mouth bottom crop; yellow source foreground star at right"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-a8be76ce-e8b5-46e4-a988-c92550c80fef.png",
+  "output_sha256": "a5209d294b5e351c782d0853cb4d4a7ca77a94c4ac9d75c727e3e150b7bfc2e3",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "static_review": "qa/fullpv-middle/resume-output-review-f2045.json",
+  "known_issues": [
+    "Independent extreme-zoom f2045 draft: hands and body outside frame, shout mouth cropped bottom, closed chevrons, one source yellow star retained.",
+    "Mouth, eye and cheek registration differs from current source; pony/bang masses and beret brim move considerably relative to preceding cel. Smooth character shading remains.",
+    "Yellow star position and caption glyphs approximate, require source effect/text restoration. Original background, neighboring continuity and actual-speed review pending."
+  ]
+}

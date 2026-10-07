@@ -1,0 +1,24 @@
+{
+  "id": "094",
+  "prompt": "Use case: precise-object-edit. Asset: one complete 16:9 hand-drawn PV cel. Image 1 is the original source frame and determines exact camera, character size and position, cropping, pose, eye state, mouth, hands, props and occlusion. Image 2 is ONLY Klee identity and drawing-style guidance, not pose or composition. Replace every original person in image 1 with Genshin Impact Klee in her default Shooting Spark outfit. Pale blonde bangs and short twin side ponytails, pointed ears, red beret with cream clover and white feather, red coat with cream trim, brown gloves and boots, small brown backpack when visible. Match source simplified dark loose outlines and flat color blocks, orange oval blush, at most one simple shadow color. Keep source eye state and facial expression rather than copying the anchor's closed-eye expression. Preserve background, captions, lettering, props and independent effects at their source locations. Full scene, no extra panel, no montage, no new objects, no extra body parts outside the original crop. Only replace character areas and adapt visible clothes/hair to Klee. Klee's irises are RED, not source blue: preserve source eyelids and eye-shape/openness but recolor visible upper iris patch dark red and lower iris patch warm red; no blue irises. Specific target: medium Klee on RIGHT, arms arched over her beret: nearest right red sleeve vertical beside face, cuff and glove extend toward right at top; left arm curves behind head. Face and torso tilted left, open RED eyes and tiny oval open mouth. Source has one bent knee sweeping horizontally into lower foreground from right across bottom; show Klee's bent leg and cream sock/brown boot if within crop, keep exact knee/leg topology. Red coat falls over hip, don't stretch coat into pants. Short blonde ponytails sweep right behind sleeve. Large yellow foreground stars at BOTTOM LEFT and BOTTOM RIGHT hide much of bent leg, other stars around/behind. Match source crop and pose rather than straight body of endpoint. Preserve captions. Images3/4 same-shot Klee identity and costume only; image1 owns current squatting/bent-knee pose, head/torso tilt, hand direction and star occlusion.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-094.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-093.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-097.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-094.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-23e39b40-36df-4ff9-ab69-1931f0501ee5.png",
+  "status": "generated",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Bent knee foreground, open eyes, overhead arms and bottom-star occlusion retained."
+    ],
+    "flaws": [
+      "Bare leg replaces source pants by Klee design, exact knee shape and coat folds approximate."
+    ],
+    "temporal_review": "pending"
+  },
+  "caption_cleanup_required": true
+}

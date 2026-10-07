@@ -1,0 +1,109 @@
+{
+  "timeline": "timeline-dance-812-911-fast-draft-v11.json",
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "sequential_decode": [
+    0,
+    902
+  ],
+  "crop_roi_xyxy": [
+    1125,
+    0,
+    1490,
+    285
+  ],
+  "records": [
+    {
+      "frame": 899,
+      "asset": "generated/fast-fullpv-dance-f0897-source-v2.png",
+      "exposure": [
+        897,
+        900
+      ],
+      "review_state": "draft",
+      "accepted_by_this_check": false,
+      "changed_pixels_vs_unscoped_v2": 0,
+      "changed_outside_checked_roi": 0,
+      "unchanged_adjacent_exposure": true,
+      "source_bgr_sha256": "cb513044635809d3bee06372a3432c13732c388b60f9a1aa1a91ee7689ffb0f6",
+      "generated_bgr_sha256": "c4cfce7df5c749d777b076b7cac5805d720ab8395ce9f7ce17593ece1486b89b",
+      "composite_bgr_sha256": "2850a4797a56b8cc61ce5974e7dd6f21e62b1f1e9f5046b8509e768e0a9c681f"
+    },
+    {
+      "frame": 900,
+      "asset": "generated/fast-fullpv-dance-f0900-rearhat-v2.png",
+      "exposure": [
+        900,
+        902
+      ],
+      "review_state": "draft",
+      "accepted_by_this_check": false,
+      "changed_pixels_vs_unscoped_v2": 13393,
+      "changed_outside_checked_roi": 0,
+      "unchanged_adjacent_exposure": null,
+      "source_exact_greenish_threshold_pixels": 16,
+      "threshold_limit": "Color threshold also selects the original sky star at [1466,34,1470,38]; not anatomy evidence alone",
+      "source_bgr_sha256": "5cb627109db144b3d1f7c38fefe21af129a3b11aa57e0bed6fb15f0382cf6ec7",
+      "source_old_green_pixels": 5853,
+      "source_old_green_bounds": [
+        1143,
+        6,
+        1472,
+        269
+      ],
+      "generated_bgr_sha256": "dc30d93377c25b5cdff50d61e3891f762ab96a6290b9d37f99fed3d64b3f130a",
+      "generated_old_green_pixels": 0,
+      "generated_old_green_bounds": null,
+      "composite_bgr_sha256": "d0990e723779d2812243ae247d5f718698c3f59c84a99cd8cfee01c84ac24257",
+      "composite_old_green_pixels": 0,
+      "composite_old_green_bounds": null
+    },
+    {
+      "frame": 901,
+      "asset": "generated/fast-fullpv-dance-f0900-rearhat-v2.png",
+      "exposure": [
+        900,
+        902
+      ],
+      "review_state": "draft",
+      "accepted_by_this_check": false,
+      "changed_pixels_vs_unscoped_v2": 13391,
+      "changed_outside_checked_roi": 0,
+      "unchanged_adjacent_exposure": null,
+      "source_exact_greenish_threshold_pixels": 16,
+      "threshold_limit": "Color threshold also selects the original sky star at [1466,34,1470,38]; not anatomy evidence alone",
+      "source_bgr_sha256": "daeacf0b46e5b02e27ad58800fd3fe9a1db04dd1c7288ed0959907118b756b8f",
+      "source_old_green_pixels": 5845,
+      "source_old_green_bounds": [
+        1143,
+        6,
+        1472,
+        269
+      ],
+      "generated_bgr_sha256": "dc30d93377c25b5cdff50d61e3891f762ab96a6290b9d37f99fed3d64b3f130a",
+      "generated_old_green_pixels": 0,
+      "generated_old_green_bounds": null,
+      "composite_bgr_sha256": "454bb7f41e9a7bdd918580cf88fa1ca9a2c4b679e689f4608b019cdb1963df3e",
+      "composite_old_green_pixels": 0,
+      "composite_old_green_bounds": null
+    },
+    {
+      "frame": 902,
+      "asset": "generated/candidate-029-clean.png",
+      "exposure": [
+        902,
+        903
+      ],
+      "review_state": "draft",
+      "accepted_by_this_check": false,
+      "changed_pixels_vs_unscoped_v2": 0,
+      "changed_outside_checked_roi": 0,
+      "unchanged_adjacent_exposure": true,
+      "source_bgr_sha256": "d08e9336b9473265bed0c3efe0fa73235704a208e90709489fea7b956063b5bd",
+      "generated_bgr_sha256": "b55531c7b14cff4712c36f5eb91237272f699ba21a111fe61941ef79b60f1c2d",
+      "composite_bgr_sha256": "ac990a3280eaa260116b4cb441b81a3b092e966af203ad41d3d5ba107705be95"
+    }
+  ],
+  "scope": "Back-view repair900/901 with adjacent899/902 inspection only",
+  "inspection": "pending_actual_native_review",
+  "art_acceptance": false
+}

@@ -1,0 +1,126 @@
+{
+  "run_date": "2026-10-02",
+  "status": "partial_unaccepted_draft",
+  "original_source": "source_meta.json",
+  "mode": "strict_source",
+  "new_source_drawings": [
+    190,
+    194,
+    410,
+    417,
+    420,
+    423,
+    426,
+    429
+  ],
+  "new_imagegen_calls": 22,
+  "repair_attempts": 14,
+  "accepted_new_cels": 0,
+  "preview": {
+    "frames": 210,
+    "seconds": 8.75,
+    "used_source_cels": 31,
+    "exposure_spans": 33,
+    "timeline": "timeline-preview-0-210-v2.json",
+    "standalone": "output/klee-opening-8s75-draft-v2.mp4",
+    "comparison": "output/klee-opening-8s75-comparison-draft-v2.mp4",
+    "audio": "Original AAC prefix copied without reencoding; whole-packet audio tail about3.923ms",
+    "technical_verification": "qa/klee-opening-8s75-draft-v2-technical-verification.json",
+    "comparison_technical_verification": "qa/klee-opening-8s75-comparison-draft-v2-technical-verification.json",
+    "raw_frame_review": "qa/opening-210-review/review-report.json"
+  },
+  "source_policy": {
+    "conservative_candidates": 689,
+    "warning": "Candidates are an upper bound, not 689 artistically verified independent drawings",
+    "interpolation": "None; no optical flow, morph, mirroring or crossfade",
+    "held_frames": "Only verified source drawing reuse and original exposure boundaries"
+  },
+  "new_assets": [
+    {"png": "generated/fine-f0190.png", "job": "jobs/fine-f0190.json"},
+    {"png": "generated/fine-f0194.png", "job": "jobs/fine-f0194.json"},
+    {"png": "generated/fine-f0410.png", "job": "jobs/fine-f0410.json"},
+    {"png": "generated/fine-f0417.png", "job": "jobs/fine-f0417.json"},
+    {"png": "generated/fine-f0420.png", "job": "jobs/fine-f0420.json"},
+    {"png": "generated/fine-f0423.png", "job": "jobs/fine-f0423.json"},
+    {"png": "generated/fine-f0426.png", "job": "jobs/fine-f0426.json"},
+    {"png": "generated/fine-f0429.png", "job": "jobs/fine-f0429.json"}
+  ],
+  "repair_assets": [
+    {
+      "png": "generated/fine-f0038-eye-repair.png",
+      "job": "jobs/fine-f0038-eye-repair.json"
+    },
+    {
+      "png": "generated/fine-f0079-geometry-repair.png",
+      "job": "jobs/fine-f0079-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0083-geometry-repair.png",
+      "job": "jobs/fine-f0083-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0087-geometry-repair.png",
+      "job": "jobs/fine-f0087-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0091-geometry-repair.png",
+      "job": "jobs/fine-f0091-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0095-geometry-repair.png",
+      "job": "jobs/fine-f0095-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0099-geometry-repair.png",
+      "job": "jobs/fine-f0099-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0117-geometry-repair.png",
+      "job": "jobs/fine-f0117-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0129-geometry-repair.png",
+      "job": "jobs/fine-f0129-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0133-geometry-repair.png",
+      "job": "jobs/fine-f0133-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0157-geometry-repair.png",
+      "job": "jobs/fine-f0157-geometry-repair.json"
+    },
+    {
+      "png": "generated/fine-f0157-glove-repair.png",
+      "job": "jobs/fine-f0157-glove-repair.json"
+    },
+    {
+      "png": "generated/fine-f0176-hair-cuff-repair.png",
+      "job": "jobs/fine-f0176-hair-cuff-repair.json"
+    },
+    {
+      "png": "generated/fine-f0185-hair-repair.png",
+      "job": "jobs/fine-f0185-hair-repair.json"
+    }
+  ],
+  "prompt_location": "jobs/<asset-stem>.json",
+  "tool": "Built-in image_gen; no CLI/API fallback",
+  "checks": {
+    "single_drawing": "Source and generated static comparisons",
+    "adjacent": "Focused chronological and boundary contacts; clothing/hair failures flagged",
+    "raw_composite": "All 210 frames checked; 172 caption regions and 73 supported clock regions source-pixel equal",
+    "root_static_review": "All 5 exposure-start and 8 before/after boundary contact pages viewed; reduced panels, not original-speed viewing",
+    "technical_tests": "17 focused tests passed; both final videos fully decoded with exact video PTS and copied AAC packet checks",
+    "full_speed_visual": "Not fully watched; technical full decoding does not grant artistic acceptance"
+  },
+  "still_required": [
+    "Entire152.416625-second PV is not rendered or completed",
+    "Held-clock display size and foreground finger coverage need correction; source digits on held clocks not restored",
+    "Pillow boundaries/material are generated and need source-layer restoration with new front-pose masks",
+    "Extra thin lower hair at129/133 and third hair wings91/95 remain",
+    "Collar/pom/garment volume shifts and inconsistent drawing complexity remain",
+    "Some kneeling closed-eye/mouth landmarks drift, with outfit and boot ornaments varying",
+    "Title1314/1319/1329/1347 failed drafts explicitly blocked from auto-adoption",
+    "Final actual-speed and full-cycle artistic acceptance remains pending"
+  ]
+}

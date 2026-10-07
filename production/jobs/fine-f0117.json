@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0117",
+  "source_frame": 117,
+  "source_candidate": "src-0040",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0040-f0117.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0099.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0117.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full 16:9 hand-drawn PV cel. Replace the original pajama character in image 1 with Klee. Image 1 CURRENT SOURCE fixes pose, exact full-canvas framing, prop placement, occlusion, and the slight independent redraw. Image 2 is Klee identity/outfit/short twin ponytails/PV style continuity ONLY; do not copy its displaced clock/head/pillow geometry. Image 3 upper-right is current, upper-left before, lower panels actual spatial change guides; never include panels. Current pose: both brown-gloved hands grip the opposite ends of the cream rectangular lavender-display clock in front of BOTH eyes, eyes fully hidden. Clock center at approximately 73% canvas width and 27% height, width about 10%, tilt as current image 1. Tiny closed caret mouth and orange cheeks below it. Raised forearms form near vertical sides of the face with rounded elbows; current changes finger spread, wrist angle, sleeve outer contour/creasing and line pressure. Both legs remain straight down-right, cropped by the bottom; torso angled right with SAME Klee coat length and hem geometry, cream capelet and short red shorts. Red beret with cream clover and white feather on same side, pale-blonde bangs and TWO SHORT side ponytails, pointed ears, brown gloves/backpack. Use simple loose dark source contour lines, flat patches, single tiny shadow, no polished shading or added ornamentation. Lavender pillow BEHIND head remains exactly at original source location/angle/size, cream scalloped side trim; gloves IN FRONT of clock. NO captions/subtitles/title/credits/letters/numbers anywhere, blank clock display for original pixel restoration. Do not mirror, zoom, add sleepmask/pajamas/rabbit ears, expose eyes or invent an action.",
+  "output": "../generated/fine-f0117.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

@@ -1,0 +1,429 @@
+{
+  "owner": "star_gestures_batch2",
+  "mode": "strict_source",
+  "accepted": false,
+  "source_meta": "source_meta.json",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "public_mapping_sha256_before": "be0b533d96a1844551d15febe3269c44aff67af1ccd7607ecb557d31795ac857",
+  "targets": [
+    {
+      "source_cel": "cel-0206",
+      "source_frame": 1009,
+      "source_reference": "source_refs/src-0542-f1009.png",
+      "source_sha256": "af0419e86b7311f23ea3df45e23c208baa22f95eab430eed1c53f87ee0d35601",
+      "source_exposures": [
+        {
+          "start": 1009,
+          "end": 1010,
+          "pts": 42.042,
+          "end_pts": 42.083,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0541-f1008.png",
+      "after_source": "source_refs/src-0543-f1010.png",
+      "before_asset": {
+        "path": "generated\\candidate-033-clean.png",
+        "source_frame": 1008,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1009-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1009-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0207",
+      "source_frame": 1010,
+      "source_reference": "source_refs/src-0543-f1010.png",
+      "source_sha256": "d5cae5f2056eb2f6fb186cbf6b040486b416986c65e8251a136a3ae94eb1be0f",
+      "source_exposures": [
+        {
+          "start": 1010,
+          "end": 1011,
+          "pts": 42.083,
+          "end_pts": 42.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0542-f1009.png",
+      "after_source": "source_refs/src-0544-f1011.png",
+      "before_asset": null,
+      "after_asset": {
+        "path": "generated\\candidate-034-clean.png",
+        "source_frame": 1011,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1010-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1010-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0209",
+      "source_frame": 1012,
+      "source_reference": "source_refs/src-0545-f1012.png",
+      "source_sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+      "source_exposures": [
+        {
+          "start": 1012,
+          "end": 1013,
+          "pts": 42.167,
+          "end_pts": 42.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0544-f1011.png",
+      "after_source": "source_refs/src-0546-f1013.png",
+      "before_asset": {
+        "path": "generated\\candidate-034-clean.png",
+        "source_frame": 1011,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1012-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1012-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0210",
+      "source_frame": 1013,
+      "source_reference": "source_refs/src-0546-f1013.png",
+      "source_sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+      "source_exposures": [
+        {
+          "start": 1013,
+          "end": 1014,
+          "pts": 42.208,
+          "end_pts": 42.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0545-f1012.png",
+      "after_source": "source_refs/src-0547-f1014.png",
+      "before_asset": null,
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1013-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1013-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0211",
+      "source_frame": 1014,
+      "source_reference": "source_refs/src-0547-f1014.png",
+      "source_sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+      "source_exposures": [
+        {
+          "start": 1014,
+          "end": 1017,
+          "pts": 42.25,
+          "end_pts": 42.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0546-f1013.png",
+      "after_source": "source_refs/src-0549-f1017.png",
+      "before_asset": null,
+      "after_asset": {
+        "path": "generated\\candidate-035.png",
+        "source_frame": 1017,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1014-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1014-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0215",
+      "source_frame": 1023,
+      "source_reference": "source_refs/src-0555-f1023.png",
+      "source_sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+      "source_exposures": [
+        {
+          "start": 1023,
+          "end": 1025,
+          "pts": 42.625,
+          "end_pts": 42.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0554-f1022.png",
+      "after_source": "source_refs/src-0557-f1025.png",
+      "before_asset": {
+        "path": "generated\\candidate-037.png",
+        "source_frame": 1022,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1023-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1023-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0216",
+      "source_frame": 1025,
+      "source_reference": "source_refs/src-0557-f1025.png",
+      "source_sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+      "source_exposures": [
+        {
+          "start": 1025,
+          "end": 1028,
+          "pts": 42.708,
+          "end_pts": 42.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0555-f1023.png",
+      "after_source": "source_refs/src-0560-f1028.png",
+      "before_asset": null,
+      "after_asset": {
+        "path": "generated\\candidate-038.png",
+        "source_frame": 1028,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1025-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1025-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0218",
+      "source_frame": 1033,
+      "source_reference": "source_refs/src-0565-f1033.png",
+      "source_sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+      "source_exposures": [
+        {
+          "start": 1033,
+          "end": 1037,
+          "pts": 43.042,
+          "end_pts": 43.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0560-f1028.png",
+      "after_source": "source_refs/src-0569-f1037.png",
+      "before_asset": {
+        "path": "generated\\candidate-038.png",
+        "source_frame": 1028,
+        "selection_review": null,
+        "selection_metadata": null,
+        "verified_alias": null,
+        "selection_known_issues": []
+      },
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1033-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1033-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0219",
+      "source_frame": 1037,
+      "source_reference": "source_refs/src-0569-f1037.png",
+      "source_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "source_exposures": [
+        {
+          "start": 1037,
+          "end": 1038,
+          "pts": 43.208,
+          "end_pts": 43.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0565-f1033.png",
+      "after_source": "source_refs/src-0570-f1038.png",
+      "before_asset": null,
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1037-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1037-source-next-delta.png"
+    },
+    {
+      "source_cel": "cel-0220",
+      "source_frame": 1038,
+      "source_reference": "source_refs/src-0570-f1038.png",
+      "source_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "source_exposures": [
+        {
+          "start": 1038,
+          "end": 1043,
+          "pts": 43.25,
+          "end_pts": 43.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "selected_asset_before": null,
+      "before_source": "source_refs/src-0569-f1037.png",
+      "after_source": "source_refs/src-0575-f1043.png",
+      "before_asset": null,
+      "after_asset": null,
+      "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1038-source-delta.png",
+      "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1038-source-next-delta.png"
+    }
+  ]
+}

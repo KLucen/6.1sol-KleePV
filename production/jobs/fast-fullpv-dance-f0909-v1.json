@@ -1,0 +1,31 @@
+{
+  "job_id": "fast-fullpv-dance-f0909-v1",
+  "source_frame": 909,
+  "canonical_cel": "cel-0168",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0909-v1.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0454-f0909.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0908-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0908-f0909-source-ab-rgb-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "Current two-person crop/rear changes/light source authority",
+    "Adjacent Klee topology/foreground placement only, not frozen rear",
+    "Actual908-to909 rear head/coat contour changes",
+    "Crimson iris identity only"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE current 16:9 independent PV cel at source frame 909. Image 1 is CURRENT EDIT TARGET, sole authority for TWO source people, exact visible crop, front-head tilt, rear profile shapes and layer ordering. Image 2 is the new Klee909 predecessor frame908 ONLY for identity/color/topology and adjacent foreground placement continuity; do not freeze the rear hat/fringe contours. Image 3 is actual ORIGINAL908-to909 A/B, amplified RGB differences and blue-before/red-current contours: foreground pose is retained while rear RIGHT-profile hat slope, fringe tips, side hair and chin/neck/coat contours are re-drawn. Image 4 is crimson iris/black pupil/highlight identity only. Replace BOTH source girls, no duck sleep mask or pink source hair left anywhere. Foreground: huge warm Klee face shoved far LEFT, cut by TOP/LEFT, left closed eye partly clipped, eye-line slopes up-right, tiny OPEN TRIANGULAR mouth near x20%/y70%, no tongue/O. Preserve newly established frame908 left placement, current source eyebrows/fringe/chin/near ear. Only short blonde ear-rooted groups and partial two-leaf cream collar/red shoulder visible; front right ponytail lies in front of rear neck/chest, far-left group remains clipped. NO hands/legs or complete body added. Rear: separate cool CYAN/BLUE NIGHT-tinted Klee in strict RIGHT-facing profile, one open crimson eye with current gaze/tiny dot mouth, follow current source changed beret tilt/fringe/endpoints/nose/chin/neck. Klee clover beret and clipped feather replace source mask, short blonde hair cool-tinted, subdued burgundy coat under same cyan illumination. Rear location/light not shifted to create different framing. Keep exposed source blue night field, tiny stars/crescent and transition boundary, warm foreground vs cool rear, exactly two people. Flat simplified PV blocks/irregular thin black outline, no elaborate shading. Omit ALL Chinese/Japanese text; original glyphs handled separately. No collage, mirror, hold, flow, morph or copied unchanged rear portrait.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-0f995b18-22bb-454f-84e0-eb317b546759.png",
+  "static_review": "Current two Klee portraits, clipped far-left closed eye, triangle near20% width, rear right-facing crimson-eye cyan profile present. Foreground near908 placement retained; rear fringe/profile/neck contours independently changed visibly. No invented limbs or extra floating waist group. Exact source rear changes and cropped collar/hat continuity approximate; full batch composite/cycle/speed pending.",
+  "known_issues": [
+    "Exact rear contour/fringe/hat change magnitude approximate",
+    "Mild shading and collar/clover details differ"
+  ],
+  "blocking_static_findings": [],
+  "artistic_accepted": false
+}

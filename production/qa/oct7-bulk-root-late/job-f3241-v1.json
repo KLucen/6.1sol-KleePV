@@ -1,0 +1,84 @@
+{
+  "source_frame": 3241,
+  "source_candidate": "src-1780",
+  "source_exposures": [
+    {
+      "start": 3241,
+      "end": 3242,
+      "pts": 135.042,
+      "end_pts": 135.083,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "output": "generated/oct7-bulk-root-late-f3241-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the user's Klee PV draft. Redraw the FIRST image in the original simple hand-drawn PV style, replacing ALL visible original characters/fragments with Klee from Genshin Impact. The FIRST image alone determines camera, crop, body/head/hand pose, expression, visible extent and front/back overlap. Maintain the original blue backdrop and props. Keep any existing pillow and hand contact at source size/position. Use a red Klee cap with light feather, pale blonde short twin ponytails (exactly two, no long original hair), red simplified coat, plain cream cuffs, brown gloves/boots where visible, red eyes when source eyes are open. Preserve the source's closed eye/wink states and visible hands. Do not add hidden anatomy or extra hands. Identity/style references must NOT freeze the previous expression or pose. The source delta describes actual drawing changes, not a motion warp. Keep flat original-PV color blocks and line weight, no elaborate render, no new background decoration. Remove all source lettering from this generated cel: original Chinese/Japanese subtitles and credits are restored independently in composition. Do not generate text, labels, watermark, collage or reference panels. Produce exactly one complete 16:9 frame. Current source observation and required changes for f3241: CURRENT real redraw rear head lower and both fists turn vertically UP beside head near790,270 and1270,270. Left sleeve bows out x600,480 then elbow narrows at800,750; right elbow x1420,530. Exactly TWO arms, NO face/eyes. Native short rooted blonde twin ponytails and rear red beret clover feather replace long pink hair; brown gloves cream cuffs red sleeves coat. Do NOT keep previous outward diagonal fists, current source sole pose. Giant yellow lowerRIGHT star foreground hides lower right torso, visible lower center source crop, no added shorts/legs. Preserve all star silhouettes and overlap, loose flat PV lines omit text. Ordered input roles: Image 1: CURRENT original; sole crop, pose, visible anatomy, expression and occlusion authority; Image 2: Klee head identity only, ignore reference pose and expression; Image 3: Klee costume colors and construction only, NOT crop or pose; Image 4: Actual source AB RGB x4 and blue-before/red-current contours; not final art; Image 5: Adjacent unaccepted Klee colors/lineweight only; current source overrides pose/crop; ignore defects",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1780-f3241.png",
+      "role": "CURRENT original; sole crop, pose, visible anatomy, expression and occlusion authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "eaa2ca66070db3e6c0b7146ee40feeb64538c73b002dea4736230f48e24297ed"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee head identity only, ignore reference pose and expression",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "Klee costume colors and construction only, NOT crop or pose",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6642a7150fc8d784bf0a5300ce9b87dde979150f06abac2da55412e2c621df7a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3239-f3241-ab-rgb-contours.png",
+      "role": "Actual source AB RGB x4 and blue-before/red-current contours; not final art",
+      "actually_viewed": true,
+      "sha256_at_prepare": "2034081e2880018495e32e61c7274d36a34ae1d669fbb68b4e0bd5a0c6d7b49a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-root-late-f3239-v1.png",
+      "role": "Adjacent unaccepted Klee colors/lineweight only; current source overrides pose/crop; ignore defects",
+      "actually_viewed": true,
+      "sha256_at_prepare": "49b082a254eccccc06e53084ceae7f597b315b86a4299124f028b5a3cf5a79a8"
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "policy": "one_pass_no_artistic_repairs_before_user_full_draft_feedback",
+  "owner": "root_late",
+  "references_inspected_before_prepare": true,
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d744276d-d3e9-4c06-b087-ce91dfa67e47.png",
+  "output_sha256": "f316bd3f16ac3f8562e9fc1bfc56658187a7d0321be2c51ef70d163020b4ea9f",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actual two upright fists elbows rounded lower, rear head no eyes, star foreground. Deferred unaccepted: cream plain skirt instead of proper zigzag hem; slightly reduced rear head and sleeve proportions, cuff thickness. Exact original saved.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

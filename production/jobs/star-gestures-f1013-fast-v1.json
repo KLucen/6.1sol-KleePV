@@ -1,0 +1,112 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0210",
+  "source_frame": 1013,
+  "source_reference": "source_refs/src-0546-f1013.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1013,
+      "end": 1014,
+      "pts": 42.208,
+      "end_pts": 42.25,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve. Edit Image 1 as one independent complete 16:9 PV cel f1013 / cel-0210.\nOrdered input roles:\n1 CURRENT original f1013 controls ALL pose, crop, head/eye/mouth geometry, visibility and occlusion of BOTH character instances.\n2 Klee head crop controls identity only: pale blonde short cheek locks, exactly two SHORT side ponytails connected behind pointed ears, red beret with cream clover and exactly one white feather per character; no pose authority.\n3 Klee costume crop controls identity only: exactly two PLAIN cream leaf collar panels meeting at center, red coat and cream trim; no pompom, bow, scallops, geometric collar pattern or extra petals.\n4 Original f1012 -> CURRENT f1013 A/B, RGB x4 and two-color contours controls actual local motion only. Foreground face/hat barely changes, while the rear original hat, head and hair shift slightly RIGHT/DOWN; transfer this modest rear shift to Klee's short-hair silhouette rather than copying long source hair.\n5 Newly generated f1012 static-inspected draft provides adjacent drawing/palette and checked short-hair/collar continuity only. It is unaccepted and cannot freeze current pose.\nCurrent scene: original blue-purple star background with warm very large foreground girl on screen-right tilted diagonally and cropped at top, right and bottom; rear smaller cool blue-purple Klee on screen-left, rear right face/body occluded by front head and collar exactly as Image 1. Both original figures must be replaced entirely. Front eyes droopy half-open with current eyelid slope, red irises, white lower notches, source ink details; tiny open oval mouth and large orange cheek ovals. Rear visible eye remains droopy and cool-tinted. No hands visible, so add none.\nMaintain current original foreground face, mouth, chin and hat bounding positions. Replace animal hoods, long pink/lavender hair and old clothing completely. Do not reuse the original long hair sheet; Klee has short side ponytails only and no third tail, long braid or waist-length hair. Keep front/back overlap and cropped visible fragments. Loose simple dark outlines, flat patches, sparse source-like shading, no polished game rendering.\nKeep original stars and subtitle positions if feasible, with no invented letters; independent background/subtitle will be restored during composition. No extra objects, limbs or characters. Produce one finished standalone cel, not a contact sheet, transparency or animation.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0546-f1013.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1013-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "577bc966608141903533f246be1776188267223b68ae78c4162a9a257f4f00b9",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "generated/star-gestures-f1012-fast-v1.png",
+      "role": "static inspected adjacent draft continuity only; unaccepted; no current pose authority",
+      "sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1013-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Two Klee figures retained in source overlap",
+      "Front sleepy eyes and oval mouth",
+      "Rear small spatial shift without long source-hair topology",
+      "Plain two-leaf collar"
+    ],
+    "flaws": [
+      "Generated subtitle differs in styling; source caption restoration required",
+      "Independent source stars/background changed",
+      "Minor added iris highlights"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1013-fast-v1.png",
+  "output_sha256": "cccc1edb308dcbf3d23fa58ebe1bb2d56d2449c7e32afe2ebd53914ef24c443f",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-899d0499-fc65-4766-9318-1486e7a78ce6.png",
+  "source_sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0545-f1012.png",
+    "source_after": "source_refs/src-0547-f1014.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1013-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1013-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Generated subtitle differs in styling; source caption restoration required",
+    "Independent source stars/background changed",
+    "Minor added iris highlights"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}

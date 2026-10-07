@@ -1,0 +1,874 @@
+{
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "source_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "evidence_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\source-evidence.json",
+  "evidence_sha256": "b171d4b6aa8fecc67afd722a798660455abd2b65f91b14673011d361f742d857",
+  "sequential_decode_exact_saved_ref_frames": 56,
+  "all_saved_references_exact_bgr": true,
+  "actual_manual_source_frame_reviewed": [
+    1097,
+    1098,
+    1099,
+    1100,
+    1101,
+    1102,
+    1113,
+    1114,
+    1115,
+    1116,
+    1117,
+    1118,
+    1119,
+    1120,
+    1121,
+    1122,
+    1129,
+    1130,
+    1131,
+    1132,
+    1133,
+    1134,
+    1135,
+    1136,
+    1137,
+    1138,
+    1139,
+    1140,
+    1211,
+    1216,
+    1217,
+    1218,
+    1219,
+    1220
+  ],
+  "manual_review_scope": "Original source, canonical native AB/RGB/dual contours/locals and all candidate exposures; not generated-art acceptance or actual-speed playback.",
+  "proposal_count": 4,
+  "proposed_alias_source_frames_total": 8,
+  "proposals": [
+    {
+      "source_frame": 1100,
+      "source_cel": "cel-0231",
+      "verified_target_frame": 1097,
+      "verified_target_cel": "cel-0230",
+      "source_exposures_unchanged": [
+        {
+          "start": 1100,
+          "end": 1102,
+          "pts": 45.833,
+          "end_pts": 45.917,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1097,
+          "end": 1100,
+          "pts": 45.708,
+          "end_pts": 45.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Same half-open eyelids, tiny closed caret mouth, right hand at collar and left arm lowered outward; hat, hair roots and ends, glove contours, cuffs, button/pocket/seam/hem lines, knees and boots overlap. Actual RGB differences inside the person are isolated codec-colored one-pixel strips, not coherent new outlines. Stars move and Japanese edges vary independently. All five source frames f1097..1101 visually reviewed.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-full-native-ab.png",
+          "sha256": "7eba431aab49b2255591ab24e0c4c8fcfdc5dd81630a93193b990961bb8db31e"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-full-rgb-contours.png",
+          "sha256": "3fb38d9ffb7459fec8a20723919d49c8991f10fecf1488987c275a39d35a8ba6"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-character-native-ab.png",
+          "sha256": "7720c9142813c59f533318d809aa7f81917bc96985a9328d94e46102f865d026"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-character-rgb-contours.png",
+          "sha256": "06050e05d8b488a13949be2db1cac844cb477890daf002b04d455cf568ff9e45"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-01.png",
+          "sha256": "67c6fee51a2ff6da7426f683a492a877e8005c066a21aea5a81dcdb23dec7ef7"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-02.png",
+          "sha256": "f5638384e56e9cb09bab4e261834a342f966b3fb82bdc490e861054f67fd6b1c"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-03.png",
+          "sha256": "b9678e4db59cdd3b731ebe23ef0d750bbc53e1ecfcc72c6e77150f7e1298ab19"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1097-f1098.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1099-f1100.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1101-f1102.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-character-native-ab.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-character-rgb-contours.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-01.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-02.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-03.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "propose_original_character_identity_alias_after_root_actual_visual_review",
+      "mapping_available_only_after_target_art_selected": true
+    },
+    {
+      "source_frame": 1217,
+      "source_cel": "cel-0262",
+      "verified_target_frame": 1216,
+      "verified_target_cel": "cel-0261",
+      "source_exposures_unchanged": [
+        {
+          "start": 1217,
+          "end": 1221,
+          "pts": 50.708,
+          "end_pts": 50.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1216,
+          "end": 1217,
+          "pts": 50.667,
+          "end_pts": 50.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Same close-up drawing with horizontal closed eyelids, large open round mouth, both arms raised and all fingers spread. Hat/hair, both palms/fingers, cuff openings, shoulder/sleeve folds, scarf/collar, lower hair tips and coat seams overlap. The Japanese and Chinese lyric changes at f1217; lower coat texture below the lyrics is otherwise the same drawing. All five source frames f1216..1220 visually reviewed. f1211 has half-open eyes and a smaller mouth and is not interchangeable.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-full-native-ab.png",
+          "sha256": "c7bd8dab0cfa9dcf20a1d54388e1d15dfe1582f2be0195389c1e1af5a9c66f67"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-full-rgb-contours.png",
+          "sha256": "2363160735f737686f58de3946e4b6f1ef2d674de5e3c7d6b3864b53748e91f5"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-character-native-ab.png",
+          "sha256": "61bf4fff1c81176a73fb119fd91d218c862a2c0e86ef939274678d71c0299881"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-character-rgb-contours.png",
+          "sha256": "5ed259b253fe8b46433f9f0a137e7c2358a68ab5d77cb1c775c7edd01f72e5a0"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-01.png",
+          "sha256": "ca06cada1dc9f1263d7ad56f017bea48c818e8ef2672fa311bce005a602c0819"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-02.png",
+          "sha256": "1c6ef01cd7605eb6f9764f883e94a41ba3505795822fd9fbc55f697908cf1c16"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-03.png",
+          "sha256": "a53a801c4a31b93599c8588c0681ed363ea5c079ae26bdcf7b07423cea56ba75"
+        },
+        "locals-page-04": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-04.png",
+          "sha256": "a2a9a039be3112be2888fc1c8eb1c3c26332c93346ddbd06f53eee733cc0645a"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-01.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-02.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-03.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-f1217-locals-native-page-04.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1217-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1218-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1219-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1220-source-actual.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "propose_original_character_identity_alias_after_root_actual_visual_review",
+      "mapping_available_only_after_target_art_selected": true
+    },
+    {
+      "source_frame": 1117,
+      "source_cel": "cel-0235",
+      "verified_target_frame": 1113,
+      "verified_target_cel": "cel-0234",
+      "source_exposures_unchanged": [
+        {
+          "start": 1117,
+          "end": 1118,
+          "pts": 46.542,
+          "end_pts": 46.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1113,
+          "end": 1117,
+          "pts": 46.375,
+          "end_pts": 46.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Same small open oval mouth, half-open eyes, left outward raised palm/cuff and right hand beside collar; hat/hair, shoulders, sleeve folds, coat/pockets/hem, legs and boots overlap. Only moving stars, lyric compression and scattered codec-colored short strips change. All five source frames f1113..1117 visually reviewed. f1118 is a new both-hands-at-chest drawing.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-full-native-ab.png",
+          "sha256": "408ee37622fb5aa814b59f392c3cfeff6db52c67755bbed378bfcf8963480cac"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-full-rgb-contours.png",
+          "sha256": "5fbc1cace4eac114bbc0827832c61b4a680b94fae807e27cc96c078e1977e4d3"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-character-native-ab.png",
+          "sha256": "437d63c6261aadc9d84139ff5b0729c3e3aa5ff0cb0947fefc95d7b8b00ad0b1"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-character-rgb-contours.png",
+          "sha256": "1a9997cb225e568a50d732262b228dbc78585ed455759a2b4a8ac05b886b2845"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-01.png",
+          "sha256": "604b21312f0dc71cd41cbced0e1942f5327f216775f867fcb63e3c9a1d7a6362"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-02.png",
+          "sha256": "8b3e6a68de585b5dc8e1e5c7b1da0f53a3802750b595ce6380c3820a49016ee3"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-03.png",
+          "sha256": "7d686c21e9e8c5ab3fd71e4d6a72d0181edf4fc6f9f1ce921b344e127c4a2dde"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1113-f1114.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1115-f1116.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1117-f1118.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-character-native-ab.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-character-rgb-contours.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-01.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-02.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-03.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "propose_original_character_identity_alias_after_root_actual_visual_review",
+      "mapping_available_only_after_target_art_selected": true
+    },
+    {
+      "source_frame": 1133,
+      "source_cel": "cel-0240",
+      "verified_target_frame": 1129,
+      "verified_target_cel": "cel-0239",
+      "source_exposures_unchanged": [
+        {
+          "start": 1133,
+          "end": 1134,
+          "pts": 47.208,
+          "end_pts": 47.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1129,
+          "end": 1133,
+          "pts": 47.042,
+          "end_pts": 47.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Same tiny closed caret mouth, half-open eyes and clasped hands below chin at the collar; hat/hair, fingers, cuffs, crossed sleeve outlines, seam/pockets/hem, legs and boots overlap. A few one-pixel vertical/horizontal RGB strips coincide with codec grid lines without silhouette or fold displacement. Only moving stars and lyric compression are coherent differences. All five source frames f1129..1133 visually reviewed. f1134 is a new hands-raised-to-mouth drawing.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-full-native-ab.png",
+          "sha256": "4278821413be136b8615165a8de446472b999a9c95c18165bdb94d932cf17b8e"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-full-rgb-contours.png",
+          "sha256": "c0996c628fe661bb4c3923b19a54ec39d7247582d673d1ef9a77259a10aff57d"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-native-ab.png",
+          "sha256": "dbf952fa651e77d63b3bb33218d4128b968f4c8e5486db3fb55a52a3c6f0d347"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-rgb-contours.png",
+          "sha256": "67615e2a717ff377653ee21c73a58a5eae474846fd428d48bb918b50b4f637c3"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-01.png",
+          "sha256": "ffec23d4b285ab1a511bb15ba98f0b742df990ac071207ca8cd811779685a291"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-02.png",
+          "sha256": "a430ed1e06df01d106559ca3a2fc5732e1f20a377423a711498b2ac776a524d5"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-03.png",
+          "sha256": "6ddcc380bc12077cb4f051c580d121e57d506f66ed21300eca82dbe1c2aaf00b"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1129-f1130.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1131-f1132.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1133-f1134.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-native-ab.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-rgb-contours.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-01.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-02.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-03.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "propose_original_character_identity_alias_after_root_actual_visual_review",
+      "mapping_available_only_after_target_art_selected": true
+    }
+  ],
+  "independent_drawings": [
+    {
+      "source_frame": 1118,
+      "source_cel": "cel-0236",
+      "verified_target_frame": 1117,
+      "verified_target_cel": "cel-0235",
+      "source_exposures_unchanged": [
+        {
+          "start": 1118,
+          "end": 1123,
+          "pts": 46.583,
+          "end_pts": 46.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1117,
+          "end": 1118,
+          "pts": 46.542,
+          "end_pts": 46.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Independent drawing: left hand moves inward from an outward visible palm/open cuff to the chest, left sleeve crosses the torso diagonally, right hand and cuff redraw, head/hat and lower coat/legs also redraw. All target exposure frames f1117..1122 visually reviewed.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-full-native-ab.png",
+          "sha256": "82a5ce8d2980b908da97d969968c8a619226da16d62d8295a023f6b3c7327991"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-full-rgb-contours.png",
+          "sha256": "927bc6fc902a76772812204c2e1f750051b914eb99a0aed855fdceff6f9534e2"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-character-native-ab.png",
+          "sha256": "a8e6b575bc515cb5b9f7ff38c901b0f637b4263346c5b4ba3a372b30075b112e"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-character-rgb-contours.png",
+          "sha256": "3625777d55462dbce07550ac580b08f1013a8f120b9e289fadadaacf1b47f684"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-locals-native-page-01.png",
+          "sha256": "51d13c53392f208bfb4f67be24dd16fc3e102629861e8bf96487ef322fb50721"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-locals-native-page-02.png",
+          "sha256": "52eb93315993667e6f73fd6dd128297d0681b224a7494549249198df2cc00836"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-locals-native-page-03.png",
+          "sha256": "5c66bdfe1a1f2b8197f1039e66e1aafdcc777a3d521f86d25213b3660b6c980d"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1117-f1118.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1119-f1120.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1121-f1122.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-character-native-ab.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-character-rgb-contours.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-locals-native-page-01.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-locals-native-page-02.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1117-f1118-locals-native-page-03.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "preserve_independent_source_cels"
+    },
+    {
+      "source_frame": 1134,
+      "source_cel": "cel-0241",
+      "verified_target_frame": 1133,
+      "verified_target_cel": "cel-0240",
+      "source_exposures_unchanged": [
+        {
+          "start": 1134,
+          "end": 1140,
+          "pts": 47.25,
+          "end_pts": 47.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1133,
+          "end": 1134,
+          "pts": 47.208,
+          "end_pts": 47.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Independent drawing: clasped hands rise from collar/chest to in front of the mouth, finger/palm shapes and both sleeves/cuffs change, head/hat, hair ends, coat hem and boots also redraw. All target exposure frames f1133..1139 visually reviewed.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-full-native-ab.png",
+          "sha256": "6c04aa4aaab89964ba79459b36996bfd5d75b14a77cb448d3f33d22b929a651b"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-full-rgb-contours.png",
+          "sha256": "d8756aaa39f89c53096f33cf54aebd2eef0ca8ac9b1db7cd02ca683723cc20b0"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-character-native-ab.png",
+          "sha256": "1b9f4344781fb40f50a01354e94767b1e2cf05970771eccbf8a6d619a1a752e0"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-character-rgb-contours.png",
+          "sha256": "017ee1cdd6bbb7c0b0706f9bb54db1b7fbd0379d4181e8bdc974630f50bf3c64"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-locals-native-page-01.png",
+          "sha256": "34b69a1ce268e81f4586102b0a3348b1b0cb3931d2d8281bd478c49547891545"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-locals-native-page-02.png",
+          "sha256": "11520aa951351eaaf988baced740b333e68c418a0350e3196ce17118b896f5ca"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-locals-native-page-03.png",
+          "sha256": "4b46c1ba4e7c503a17d5b40c374658d3c6a0aa10a13e31ad4b59d9df51ed6167"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1133-f1134.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1135-f1136.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1137-f1138.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1139-f1140.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-character-native-ab.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-character-rgb-contours.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-locals-native-page-01.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-locals-native-page-02.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1133-f1134-locals-native-page-03.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "preserve_independent_source_cels"
+    },
+    {
+      "source_frame": 1216,
+      "source_cel": "cel-0261",
+      "verified_target_frame": 1211,
+      "verified_target_cel": "cel-0260",
+      "source_exposures_unchanged": [
+        {
+          "start": 1216,
+          "end": 1217,
+          "pts": 50.667,
+          "end_pts": 50.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "target_exposures_unchanged": [
+        {
+          "start": 1211,
+          "end": 1216,
+          "pts": 50.458,
+          "end_pts": 50.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "character_only_reuse": true,
+      "background_and_captions_keep_each_original_frame": true,
+      "semantic_reason": "Independent canonical poses are unambiguous in actual full-frame source AB: f1211 has half-open eyes and a small mouth, while f1216 has fully closed horizontal eyelids and a much larger round mouth; hat/hair and both sleeve/fold silhouettes also redraw. Only f1211 canonical and all f1216..1220 were visually inspected; do not claim all f1211..1215 received manual review.",
+      "proof_files": {
+        "full-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-full-native-ab.png",
+          "sha256": "537b1eba58ffb3de1d6a4dc6859709b13b54d399cfd0bec150851fe6ecaa428a"
+        },
+        "full-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-full-rgb-contours.png",
+          "sha256": "378a6b8f4a040588bfe55a5d8864aed319faf6a8aa8db9ef957aca7cad6211c8"
+        },
+        "character-native-ab": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-character-native-ab.png",
+          "sha256": "86961ec3901c26801725050c7dc8276dc0630331a07b18599752c54df4d922e8"
+        },
+        "character-rgb-contours": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-character-rgb-contours.png",
+          "sha256": "9a39510ba7f606d3fbcdea90fc1f680e911c6c7a46331d7a9b6d48b56352f208"
+        },
+        "locals-page-01": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-locals-native-page-01.png",
+          "sha256": "e56aabc830e8e25b4998d581b98c18fefc649db4ca7b067c2c9dff2e2f429818"
+        },
+        "locals-page-02": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-locals-native-page-02.png",
+          "sha256": "168e6f7717d7a94b071ec4a3daf4061c1a2c89ee64815c15da4e544b4ae9071e"
+        },
+        "locals-page-03": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-locals-native-page-03.png",
+          "sha256": "2ed5ed064c9de85a40b4b27e8931700d1468538e10e483dfaf0bc9acab5c5882"
+        },
+        "locals-page-04": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-f1216-locals-native-page-04.png",
+          "sha256": "694f804cfc2ef639914e1dc1c5e4e8da194f7eafd22d9ad7731ef465fc3e7841"
+        }
+      },
+      "actual_viewed_files": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1211-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1216-source-actual.png"
+      ],
+      "review": "worker_original_source_semantic_review_complete_root_approval_required",
+      "artistic_accepted": false,
+      "alias_created": false,
+      "recommendation": "preserve_independent_source_cels"
+    }
+  ],
+  "no_global_mapping_or_source_edit": true,
+  "aliases_adopted": false,
+  "status": "private_original_source_recommendations_complete_pending_root_visual_approval"
+}

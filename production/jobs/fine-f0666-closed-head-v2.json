@@ -1,0 +1,32 @@
+{
+  "frame": 666,
+  "name": "fine-f0666-closed-head-v2",
+  "prompt": "Use case: precise-object-edit. Return ONLY a single full 16:9 hand-drawn PV cel. Image1 is Klee EDIT TARGET; preserve its exact existing body/legs/boots/gloves/coat/pillow position and all costume design. Image2 is current ORIGINAL SOURCE whose face tilt is absolute authority. Image3 cropped current source face is POSE ONLY: eyelids rise diagonally toward viewer RIGHT, left cheek rests LOWER and right cheek HIGHER. TARGETED REPAIR of head only: actually draw Klee whole face/head tilted COUNTERCLOCKWISE by about 18 degrees from current draft so BOTH COMPLETELY CLOSED BLACK eyelids slope UP-RIGHT rather than down-right; bangs/cheeks/pointed ears/hat follow this same head orientation. Preserve closed eyes, NO red irises, NO mouth since it is hidden against pillow. Hair exactly TWO SHORT blonde ear-root ponytails; remove extra cream upward curved tuft on viewer-left above hat, no third lock floating above hat. Only Klee red cream-clover beret with white feather and plain round brown clover badge, no sleeping animal forehead mask or dangling ornaments. Keep coat small cream clover, compact brown boots and bare pale skin legs unchanged. Flat lavender background equal to current SOURCE hue, no gradient, no texture. Thick simple PV outlines, no new props, captions or panels.",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0666-source-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0284-f0666.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0666-source-face.png"
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-4ae954bf-827e-40cb-a39b-f0d40fafc2f2.png",
+  "output": "../generated/fine-f0666-closed-head-v2.png",
+  "tool": "builtin imagegen",
+  "status": "partial_repair_draft_unaccepted",
+  "accepted": false,
+  "review": "First targeted repair removed extra upper hair tuft but did not restore current source counterclockwise head/closed eyelid slant; remains unaccepted.",
+  "known_issues": [
+    "Wrong clockwise head and down-right closed-eyelid slope persists",
+    "Backdrop gradient persists"
+  ],
+  "job_id": "fine-f0666-closed-head-v2",
+  "source_frame": 666,
+  "source_candidate": "src-0284",
+  "canonical_cel": "cel-0110",
+  "family": "prone_pillow",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0666-source-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0284-f0666.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0666-source-face.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0666-closed-head-v2-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

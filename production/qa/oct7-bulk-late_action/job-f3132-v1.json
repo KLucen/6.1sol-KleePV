@@ -1,0 +1,82 @@
+{
+  "source_frame": 3132,
+  "cel": "cel-0551",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Medium shot actor on right leans diagonally LEFT, both arms bent OVER head framing red hat. Image-right upper sleeve in FRONT of head/cheek hair; right glove extends near upper-right. Image-left sleeve arcs behind/above head and its glove partly hidden above hat. Half-open eyes gaze left-down and wide slanted open oval mouth. Torso diagonal down-right ending bottom-cropped thighs; one foot fragment at extreme bottom-right only as original. Short Klee ponytails flow RIGHT behind raised arms, no long curtain. Preserve independent yellow star positions/foreground layering; source f3132 differs fine FX/edge from f3130, not an excuse to duplicate earlier low bow. No text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1710-f3132.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-093.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3130-f3132-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3132-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "5001e7ca5aac0e8ae2e468b95a4e7cb6581b9e820d02517b78e20d5f6276468d",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "5e7523e699ffc217ed1987555e77a933cc370bc9d26e0a43e94df54b20f85774",
+    "08a451a2afc6b66bd8ee8fa2e3e3846b067a1bd372dff5b32a59a69523cc6f1f",
+    "4d319f2766d8f566523816151099716c48039736efbeec016d814bb757cbb748"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3132-v1.png",
+  "source_exposures": [
+    {
+      "start": 3132,
+      "end": 3134,
+      "pts": 130.5,
+      "end_pts": 130.583,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Medium shot actor on right leans diagonally LEFT, both arms bent OVER head framing red hat. Image-right upper sleeve in FRONT of head/cheek hair; right glove extends near upper-right. Image-left sleeve arcs behind/above head and its glove partly hidden above hat. Half-open eyes gaze left-down and wide slanted open oval mouth. Torso diagonal down-right ending bottom-cropped thighs; one foot fragment at extreme bottom-right only as original. Short Klee ponytails flow RIGHT behind raised arms, no long curtain. Preserve independent yellow star positions/foreground layering; source f3132 differs fine FX/edge from f3130, not an excuse to duplicate earlier low bow. No text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-78e1fae8-7715-472e-94f8-febd123298c3.png",
+  "output_sha256": "1f16ae3f7728e1bda0ced667d5e888fe0319a68b299af9dd83834f2c480b9f6c",
+  "dimensions": [
+    1673,
+    940
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: overhead bent arms and left-diagonal torso, two brown gloves, red eyes/open mouth, no lyrics. Extra right-side blond tuft behind raised sleeve may read as duplicate ponytail; collar/pockets embellished. Record for user feedback, no repair this pass; original FX composition pending.",
+    "accepted": false
+  }
+}

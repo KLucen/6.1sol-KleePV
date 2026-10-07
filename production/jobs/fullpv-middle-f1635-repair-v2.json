@@ -1,0 +1,32 @@
+{
+  "job_id": "fullpv-middle-f1635-repair-v2",
+  "source_frame": 1635,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0942-f1635.png",
+  "prompt": "Use case: identity-preserve. Source-based repair/redraw f1635 Klee strict-source PV cel. IMAGE 1 current original edit target exclusively determines composition, pose, hands, occlusion, head/body proportions and floor. Image 2 ONLY Klee beret identity, image 3 ONLY red/cream coat brown gloves plain cream cuffs costume structure/color, NO moon/star/backpack toy insert. COMPLETE SAME 1920x1080 flat lavender canvas. One SEATED CURLED PERSON at x692..1224,y181..918, tiny compared with preceding closeup; do not output closeup or re-center. Head around x944,y360, BOTH EYES COMPLETELY OCCLUDED as the red beret is PULLED DOWN over them; brown gloved hands hold brim at x784 y390 and x1050 y390, fingers curled exactly as source and IN FRONT of hat. NO bunny sleeping mask, replace original character headwear with Klee beret cream clover white feather. Orange cheeks and tiny downturned mouth visible y455..505. Forearms nearly VERTICAL, elbows source at x725 y595 and x1110 y603, preserve source raised cream cuffs/vertical sleeve outlines, don't spread elbows sideways. Both knees drawn up tightly together y605..786, natural red coat/cream hem folds draped OVER the bent knees as source clothed contours, no excessively exposed elongated bare thighs. Paired brown BOOTS on exact source floor y915, viewer-left x772..890 and right x880..1077. Coat hem tucks/folds around knees and hip, not compressed whole torso. Klee pale blond pointed fringe and TWO SHORT side ponytails behind face/shoulders, no long original hair. Loose hand-drawn black outlines, very simple flat colors in source style, not game rendering; no invented details shadows floor line or props. Preserve canvas background and pose absolute coordinates, no geometric warping from prior drawing. Output one full-frame independently redrawn cel.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0942-f1635.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png"
+  ],
+  "reference_roles": [
+    "current source geometry, floor and occlusion",
+    "hat identity only",
+    "costume identity only"
+  ],
+  "output": "generated/fine-f1635-arm-knee-repair-v2.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-ca53a10a-e8d8-4247-b3ee-3c4f5f8800dc.png",
+  "output_sha256": "8afdd7e7dfc1da4ba89f92583f71d3c6e5757aa7abb3a36bc3afbe99491ca613",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

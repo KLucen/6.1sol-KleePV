@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0087-v2",
+  "source_frame": 87,
+  "source_candidate": "src-0030",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0087-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0030-f0087.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0087-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0083-f0087-source-delta.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/identity-collar-only-f0091.png"
+  ],
+  "prompt": "Use case: identity-preserve LOCAL STRUCTURAL EDIT. ONE full16:9 PVcel. Ref1 current Klee87 is target, preserve camera/scale/pillow/body/legs/hat/two shortponies/backpack/coathem. Ref2 original CURRENT87 alone decides exact currentclock/grip/head/facevisiblearea, no originalpinkhair/pajamas/mask. Ref3 enlarged CURRENT87 clock hands lowerface is exact structure reference. Ref4 actual83->87 delta analysis only: current87clock higher/right, vertical/narrow forearms, distinct f87 finger/cuff shape not83. Ref5 cropped collar supplies ONLY consistent collar ornament layout: two flat plain cream lapels, ONE smallcream chestpom with smallpalediamond badge below, not its print or pose. Repair87 clockgrip: existingpurple interior far too WIDE143px versus actual SOURCE visible96px, and display center22pxtooLEFT/7pxtooLOW. Move compactcream clock + brown grippinggloves + lower face22pxRIGHT and7pxUP by redraw, withoutmovingpillow/torso/lowerarms. SOURCE displaycenter(1389,275),bounds(1344,252)..(1440,304) normalized1920x1080; creamfrontoverallx1300..1463,y240..339tiltup-right. Keeporiginalnarrowcase/thicklowerband; BOTHbrown fingers curl MORE INWARD over displaycorner edges, four narrowcurvedtipshapes inFRONT asRef3. Onlyapprox96pxcentralpurpleexposed width, NOTwidescreenclock andNOTpalmsonfaroutercorners. Upperwrists/cuffsredrawn to meet sourcehands, lowerelbowpositions retainednarrow. Clocklowerband hidesupper eyes, ONLYtinyREDloweriris slivers atbottomcorners like source, orangecheekfragments/downturnedclosedmouth/chin below. Redberetbehindhands/case,faceinfrontpillow. Creamcuffsplain smooth angularbandsno fluff. Fixedcollar asRef5layout butcreamflat not crosshatchpattern, redcapelet,onechestpom smalldiamondbelow,oneleftwaistpom oncord;noextras. Otherredsplitcoat/creamangularkloverunderskirt/narrowpinkruffle/REDshorts sameRef1. TWOshortsideblondeponytails exactly no extra lowerwing. LoosedarkPVlines flatpatches oneflatshadow. Emptyvioletbackground,blankclockdisplay,no letters/digits/writing/captions/watermark,nopanels.",
+  "output": "../generated/fine-f0087-v2.png",
+  "repair_of": "fine-f0087-geometry-repair.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "static_review": "pending",
+  "temporal_review": "pending",
+  "prop_restoration": "not enabled; held clock needs validated finger protection"
+}

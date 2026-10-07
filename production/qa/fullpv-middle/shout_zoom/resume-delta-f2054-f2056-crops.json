@@ -1,0 +1,40 @@
+{
+  "source_frame": 2056,
+  "before_frame": 2054,
+  "boxes": {
+    "huge_face": [
+      0,
+      0,
+      1450,
+      1080
+    ],
+    "inset_head": [
+      1320,
+      120,
+      1820,
+      540
+    ],
+    "inset_eye": [
+      1350,
+      220,
+      1550,
+      430
+    ],
+    "inset_left_hand": [
+      1130,
+      440,
+      1340,
+      620
+    ],
+    "inset_right_hand": [
+      1720,
+      390,
+      1920,
+      600
+    ]
+  },
+  "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1126-f2056.png",
+  "source_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\shout_zoom\\resume-delta-f2054-f2056.png",
+  "local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\shout_zoom\\resume-delta-f2054-f2056-head-eye-hands.png",
+  "role": "Source spatial evidence only; current is pose authority"
+}

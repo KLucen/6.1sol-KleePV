@@ -1,0 +1,33 @@
+{
+  "metric": {
+    "pixels": 1279,
+    "coherent": 579,
+    "largest": 43,
+    "mean": 2.7854069286714704
+  },
+  "matrix": [
+    [
+      0.9997162818908691,
+      6.522950570797548e-06,
+      1.973134994506836
+    ],
+    [
+      -6.522950570797548e-06,
+      0.9997162818908691,
+      0.35860657691955566
+    ]
+  ],
+  "ecc": 0.9940186671287179,
+  "scale": 0.9997162521098272,
+  "rotation_degrees": -0.0003738436150188188,
+  "confirmed": false,
+  "kind": "confirmed_source_rigid_similarity",
+  "enlarged_region_proof": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\source-audit-f0671-f0682-local-regions.png",
+  "gray_paint_proof": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\source-audit-f0671-f0682-gray-paint.png",
+  "source_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0288-f0671.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0291-f0682.png"
+  ],
+  "proof": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\source-audit-f0671-f0682.png",
+  "manual_disposition": "pending_visual_review_not_automatic_alias"
+}

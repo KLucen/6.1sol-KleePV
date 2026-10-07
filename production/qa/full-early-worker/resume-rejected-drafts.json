@@ -1,0 +1,20 @@
+{
+  "owner": "early_resume",
+  "accepted": false,
+  "do_not_auto_select": [
+    {"source_frame": 666, "path": "generated/fine-f0666-source-native-v1.png", "reason": "Extra cream upward tuft, wrong head/closed-eye slant. Superseded by v2 scale-preserving draft, itself unresolved."},
+    {"source_frame": 666, "path": "generated/fine-f0666-source-head-v3.png", "reason": "Second repair enlarges body/head/pillow; source head slope remains unresolved. Reject."},
+    {"source_frame": 724, "path": "generated/fine-f0724-native-v1.png", "reason": "Pupil hooks missing, extra head tuft and dangling badge strips; superseded by eye-hook-v3."},
+    {"source_frame": 724, "path": "generated/fine-f0724-eyes-hat-v2.png", "reason": "Pupil hooks missing and badge strips persist; superseded by eye-hook-v3."},
+    {"source_frame": 740, "path": "generated/fine-f0740-native-v1.png", "reason": "Incorrect blue upper irises and wrists too high; superseded by red-eyes-sleeves-v2, itself unaccepted."},
+    {"source_frame": 743, "path": "generated/fine-f0743-native-v1.png", "reason": "Head and body enlarged/raised beyond source; superseded by contour-v2."},
+    {"source_frame": 745, "path": "generated/fine-f0745-native-v1.png", "reason": "Head and body enlarged/raised beyond source; superseded by contour-v2."},
+    {"source_frame": 763, "path": "generated/fine-f0763-face-side-fists-v1.png", "reason": "Excessive invented portrait zoom, large head/body/low hands/coat crop; superseded by source-fit-v3, itself unresolved."},
+    {"source_frame": 763, "path": "generated/fine-f0763-native-scale-v2.png", "reason": "First repair copies preceding758 shoulder-level fists and scale; fails current763 raised-face-side hands and source camera."}
+  ],
+  "unresolved_private_proposals": [
+    {"source_frame": 666, "path": "generated/fine-f0666-closed-head-v2.png", "reason": "Native scale retained and third tuft removed but source head/closed-eye slant remains opposite after two repairs. Do not treat as accepted."},
+    {"source_frame": 671, "path": "generated/fine-f0671-source-native-v1.png", "reason": "Source current contours independently redrawn but closed-eye/head slant remains opposite. Do not treat as accepted."},
+    {"source_frame": 763, "path": "generated/fine-f0763-source-fit-v3.png", "reason": "Two repair limit reached. Source body width restored, current curled fingers/O drawn, but eye centers and fists are about9-12% canvas too low and head/hat too tall. Unresolved, not accepted."}
+  ]
+}

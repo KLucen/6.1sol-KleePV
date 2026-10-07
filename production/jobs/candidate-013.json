@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-5f9ebaaf-40cd-4b73-9221-7df8bacc801d",
+  "candidate_id": 13,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Create one complete 16:9 PV cel by editing image1 source-cel-013. Replace only pink-haired pajama girl with default Genshin Klee. Image1 sets EXACT centered waist-up frontal framing, upright head, sleepy half-open eyes, LARGE vertical oval O mouth, and both raised hands beside cheeks with fingers vertical and palms near cheek sides. Elbows point outward to left/right; source wrists/cuffs angle up from lower sides. Keep this key pose, original body scale and fingers, render brown gloves/red sleeves/cream cuffs. Hands in front of cheek/hair, ears/ponytails behind. Image2 Klee anchor sets identity with blonde SHORT side ponytails, pointed ears, red beret cream clover white feather, red coat cream trim. Image3 candidate005 sets continued colors/hat/hair, NOT horizontal mouth or larger head camera scale. Preserve image1 O mouth and centered framing. Keep huge cream Chinese/Japanese words behind character exactly positioned on purple backdrop, allow body to occlude their middle as original. Preserve all visible text; no invented lettering or new props. Loose dark hand-drawn source lines, broad flat patches, orange cheeks, restrained source-style shadows, no game-render detail. Single whole scene, no sheet or panels.",
+  "references": [
+    "analysis/source_cels/source-cel-013.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-005.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-013.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Centered upright cheek-side palms and vertical O-mouth source pose retained. Both gloves and ears/pony tails layered coherently; subtitles behind middle occlusion. Source pupil shape/color translated to Klee identity."
+}

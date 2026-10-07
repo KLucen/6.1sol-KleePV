@@ -1,0 +1,38 @@
+{
+  "source_frame": 758,
+  "name": "fine-f0758-raised-contours-v1",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0755-raised-forearms-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0332-f0758.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\early-full-f0758.png"
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE full independent adjacent anime PV cel758,16:9. Image1 preceding Klee755 is ONLY identity, color and persistent hair/hat/clothes continuity. Image2 CURRENT original source758 is absolute authority for current small head, eye, mouth, hands, cuffs, sleeve geometry and canvas crop. Image3 actual755/758 A/B RGBdiffx4 plus blue-before/red-current contours specifies a true small redrawn exposure, NOT a freeze of755. Retain755 Klee design and current source-native camera: face eye centers about48%canvas, chin58%, collar62%, both elbowsdown~84%. Source758 both forearms stillUP with compact fists near shoulders, x38% and60%,y64%; left fist/cuff moves slightly inward/right, right glove turns slightly and inward/left; current cuffs more level, new wrist folds, straighter outer lower left sleeve and changed right sleeve/coat shoulder contours. Copy source758 fine eyebrow, eyelid and cheek/chin contours. Sleepy tall rounded open eye bottoms, heavy horizontal upper lids, dark red upper/coral lower irises with BLACK hooked pupils attached at lower-left black border and WHITE enclosed notches, no blue and no extra central dots. Mouth becomes current758 very tiny compressed round O, smaller than755. These are independent CURRENT lines, not morph/mirror or held previouspose. Keep exactly2 SHORT blonde ear-root ponytails, pointed ears, redcreamcloverberet one whitefeather plainroundbrownsidebadge, nothing dangling/no extra abovehatcreamtuft. Remove oldsourceforeheadbunnysleepmask. Redcoatcreamtrimcoatclover, brown compactgloves and plaincreamcuffs, no sourcepajamatubes/buttons/pockets, no sleeveclovers. Keep original current bodycutatbottom, no knees/boots/props. Same simple handdrawn bold irregularblackoutlines flatlimitedcolor. Flat sourceperiwinklebackground without gradient, no text/particles. Preserve scale from755, do not enlarge/raise character. Produce current full drawing, not components.",
+  "output": "generated/fine-f0758-raised-contours-v1.png",
+  "accepted": false,
+  "provenance": {
+    "tool": "builtin_imagegen",
+    "original_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-13521f30-35e7-4dbe-80fd-39fe907c441a.png"
+  },
+  "reference_roles": [
+    "Previous Klee755 identity/design continuity",
+    "Current758 pose eye mouth cuff/hand contour authority",
+    "Actual source755/758 spatial A/B RGBdiffx4 contours"
+  ],
+  "review": "Current inward fist/cuff and straighter lower sleeve contour changes independently drawn, scale stable vs755, open red eye hooks/white notches present. Mouth did not shrink as much as source and fists remain low, unaccepted.",
+  "known_issues": [
+    "Mouth larger than tiny compressed source758 shape",
+    "Fists remain about3% low vs source",
+    "Head simplification and gradient backdrop"
+  ],
+  "job_id": "fine-f0758-raised-contours-v1",
+  "source_candidate": "src-0332",
+  "canonical_cel": "cel-0121",
+  "family": "front_small",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0755-raised-forearms-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0332-f0758.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\early-full-f0758.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0758-raised-contours-v1-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

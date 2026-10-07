@@ -1,0 +1,37 @@
+{
+  "frames": [
+    1050,
+    1051
+  ],
+  "direct": {
+    "pixels": 0,
+    "coherent": 0,
+    "largest": 0,
+    "mean": 0.02315552683849044
+  },
+  "rigid_similarity": {
+    "metric": {
+      "pixels": 0,
+      "coherent": 0,
+      "largest": 0,
+      "mean": 0.12131626181644131
+    },
+    "matrix": [
+      [
+        0.9999963045120239,
+        9.760159628058318e-06,
+        0.003904307959601283
+      ],
+      [
+        -9.760159628058318e-06,
+        0.9999963045120239,
+        0.005112346261739731
+      ]
+    ],
+    "ecc": 0.9999146092178709,
+    "scale": 0.9999963343619769,
+    "rotation_degrees": -0.0005592180169889739,
+    "confirmed": true,
+    "kind": "confirmed_source_rigid_similarity"
+  }
+}

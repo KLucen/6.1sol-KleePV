@@ -1,0 +1,16 @@
+{
+  "job_id": "root-continuation-f0839-v1",
+  "source_frame": 839,
+  "canonical_cel": "cel-0148",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-97b6d0a4-722a-4600-b029-669ba6588fb2.png",
+  "static_review": "Current closed-eye T arms and kicking sole drawn without extra forelock; two skin-color hands were not converted to gloves. Front buttons, larger cuff volume and boot/hem placement still differ.",
+  "known_issues": ["Both hands skin-colored instead of brown gloves", "Added front buttons", "Cuff/boot/hem contour drift", "Shading/gradient"],
+  "original_speed_review": "unperformed",
+  "accepted": false,
+  "output": "generated/root-continuation-f0839-v1.png",
+  "references": ["source_refs/src-0385-f0839.png", "qa/root-dance-continuation/hat-color-clover-feather-only.png", "qa/full-early-worker/resume-f0839-source-local.png"],
+  "reference_roles": ["Current original edit target; native pose/expression/visible hands and occlusion", "Cropped hat identity ONLY; no hair/body or face authority", "Actual original 835-to-839 RGB difference and contour evidence"],
+  "prompt": "Use case: identity-preserve. Edit Image1 current original PV frame839 into ONE full16:9 cel starring Klee. Source1 is sole authority for native geometry/framing/expression/pose/visibility/occlusion. Image2 only cropped red beret cream clover white feather identity; no body/hair/face pose. Image3 actual original835-to839 differences. Replace entire original girl, rabbit forehead mask and all pink long hair, keeping CURRENT nearly FRONT-facing T-pose arms. TWO CLOSED thin black eyelids, round open O mouth, orange blush; chin leans slightly left under forehead. Head center x42% y24%, crown y13%, shoulder center x43% y36%, hip x46% y59%. Arms spread wide: left-in-image arm slopes down-left to thin SIDE-VIEW brown hand x22% y42%, fingers pointing left, NOT open palm toward viewer; right-in-image arm horizontal to UPWARD OPEN brown palm x58% y38%. Exactly two attached hands preserve original finger exposure. Left-in-image leg drops to rounded boot x45% y86%, knee bent; other leg kicks forward down-right to boot x64% y79%, sole narrow and almost vertical, overlaps neither hand nor body. Match current thigh crossing and source knee/ankle angles. Plain simplified Klee: short blonde twin ponytails rooted by pointed ears swept with current head, simple red clover beret ONE white feather, red coat with plain cream collar/cuffs/hem and ONE cream lower front clover, plain red shorts, pale bare knees, compact brown boots with plain cream top cuffs, compact brown backpack mostly occluded behind torso. NO extra upward forelock, no third ponytail, no dangling badges, no tiny ornaments, no shoulder ballooning, no fluffy/ruffled cuffs or shorts. Do not reuse the previous closed-profile pose or shorten current arms/legs. Muted FLAT source-PV color patches with irregular thin dark outlines, NO gradient/no polished shading/no realistic highlights. Keep lavender white sketch-stars as original independent background; omit subtitles and yellow star particles for source recomposition. No new people, no montage, no frames/panels, no morph or mirror. Preserve source character native scale and full canvas."
+}

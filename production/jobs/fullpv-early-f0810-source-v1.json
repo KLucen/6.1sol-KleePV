@@ -1,0 +1,32 @@
+{
+  "job_id": "fullpv-early-f0810-source-v1",
+  "source_frame": 810,
+  "canonical_cel": "cel-0138",
+  "source_candidate": "src-0356",
+  "family": "shout_closeup",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0810-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE complete independently model-drawn 16:9 PV cel for CURRENT original f810 EXTREME MACRO. Image1 is current source EDIT TARGET and absolute authority for composition/crop/scale/current edges. Image2 is continued Klee pale BLONDE hair/skin palette ONLY, not its exact edges or geometry. Image3 is actual source809/810 spatial RGB/contour proof; draw current source1 details independently. This frame is mostly face SKIN with only ONE immense thick black upper-eyelid stroke ascending from LOWER-LEFT canvas edge toward x57%,y27%; no lower eyelid or whole eye visible. Narrow connected old pink hair strip crosses top diagonally toward lower right with thin black edge and gray/tan shadow; replace ONLY this visible strip with pale blonde Klee bangs following current SOURCE strip connections and line positions. Large partial orange cheek circle clipped BOTTOM LEFT. Giant solid yellow star with black outline covers lower RIGHT quadrant, clipped right and bottom. Keep source current star points/crop/eyelid/skin geometry and flat PV drawing, do not copy image2 whole geometry. No red iris because NO iris in crop. No whole face, second eye, mouth, hat, ears, ponytails, hands, sleeves or torso may be invented. Remove ALL bottom subtitle glyphs from skin/star. Keep one full canvas macro, do not zoom out. Flat colors and source loose black outlines, no gradients/shading texture, no panels or added objects. Rabbit forehead mask is completely absent and must not be invented. Existing cropped star is the source independent effect; retain its current visible silhouette for later source-layer verification.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0356-f0810.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-023.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0810-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source810 exclusive extreme macro crop/line geometry authority",
+    "Klee blonde hair/skin color continuity ONLY; prior geometry forbidden",
+    "Actual source809/810 RGB and contour evidence"
+  ],
+  "continuity_status": "static_source_pair_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-684e1672-5043-41b5-94d9-393d31276ec5.png",
+  "static_review": "Macro current source/draft and source809/810 RGB/contours checked. Only source-visible eyelid/hair/skin/cheek/star fragments retained; captions removed, no invented face or costume.",
+  "known_issues": [
+    "Blonde bang contour expanded beyond source narrow strip, prior candidate geometry strongly persists",
+    "Star point/cheek/eyelid fine contours differ from source current",
+    "Skin/hair gradient and shadow persist"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0810-source-v1-source-static-contact.jpg"
+}

@@ -1,0 +1,51 @@
+{
+  "job_id": "fullpv-middle-f2040",
+  "source_frame": 2040,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1110-f2040.png",
+  "prompt": "Use case: identity-preserve. Asset type: one true independent strict-source Klee PV animation cel, source f2040, 1920x1080 landscape.\nEdit image 1 CURRENT source. Image 1 alone determines camera, head/face registration, crop, expression, visible body/hand fragments, occlusion, background and text. Image 2 Klee costume and identity ONLY: red/cream beret, pale blonde short ear-root ponytails, pointed ears, red coat cream collar, brown gloves. Do not copy its pose, scale, facial expression, extra costume clovers or background. Image 3 actual previous/current source RGB difference and blue-before/red-current contours; RIGHT image current. Image 4 enlarged current/previous head, eyes and hands source evidence.\nCURRENT performance: enormous front-facing head with upper headwear cropped at top, face leaning slightly clockwise, two fully CLOSED black inward-chevron eyes (><), orange cheek ovals, large ALL-PINK open rounded rectangular shout mouth with almost flat bottom. Closed eyes have NO visible irises, pupils or highlights. Match current source black-chevron endpoints, jaw left edge about x400 and jaw right about x1320; mouth around x700..1020, y780..1040. Current little redraw pressure changes in eyelids, mouth and jaw from f2039 are authoritative; do not hold/copy a prior pose.\nReplace old rabbit forehead mask entirely with Klee's red beret cream clover above the plain brown band. Exactly ONE small cream clover on red beret; no circular side clover badge and no other decorative clovers. ONE white feather at viewer-right side. Exactly TWO SHORT blonde ponytails rooted immediately behind the pointed ears; compact, not shoulder-length flowing hair. One pointed ear per actual side, never add original human ear wedge alongside it. No peach long hair, rabbit headband or source pajama pieces.\nBody visibility is confined to current source lower shoulder/collar and very small knuckle/sleeve fragments at BOTTOM crop; do not invent full gloves, large hands, arms or chest. Brown glove color on visible knuckle fragments, red coat and plain cream folded collar. Keep all original background visible lavender gradient and current cream captions at same bottom-center coordinates and over foreground: \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\". Preserve every glyph stroke and antialiased edge, no relocation.\nStyle: same loose slightly wobbly dark outline, large flat color fills, restrained hard source shadow, no gloss/gradient on character or fine costume detailing. One image only, no panel, collage, held substitute, morph, flow or mirror.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1110-f2040.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2039-f2040.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2039-f2040-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source sole pose expression crop occlusion background caption authority",
+    "Klee identity/costume ONLY not pose scale expression or extra clovers",
+    "actual source RGB difference and contours; right current",
+    "actual source enlarged head eye hand RGB difference and contours"
+  ],
+  "output": "generated/fine-f2040.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 1,
+    "eye_state": "both closed black inward chevrons; no iris visible",
+    "hands": "only bottom knuckle and sleeve fragments",
+    "known_drift_prevented": [
+      "extra side clover",
+      "long voluminous ponies",
+      "expanded bottom hands"
+    ]
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-149756b4-7569-468f-8623-4cce3becae64.png",
+  "output_sha256": "d068bd5b265873c64ec27f8dfca8e909a8bd8e290891a716f6a3b818b1bed112",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "static_review": "qa/fullpv-middle/resume-output-review-f2040.json",
+  "known_issues": [
+    "New independent source-led f2040 draft saved. Both eyes fully closed, pink open shout mouth and single front beret clover present.",
+    "Right side retains a rounded skin ear wedge above the pointed ear; extra ear topology unresolved. Ponytails and lower front hair masses exceed required compact short ear-root silhouette.",
+    "Source eyelid, jaw and mouth registration remains approximate; gloves extend beyond tiny source lower slivers. Character gradient shading smoother than source flat fills.",
+    "Source captions and background need restoration; sequence continuity and actual-speed review pending."
+  ]
+}

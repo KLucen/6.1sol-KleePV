@@ -1,0 +1,38 @@
+{
+  "scope": "Root actual native encoded static review, not art acceptance",
+  "video": "output/klee-star-1008-1225-oct6-draft-v3.mp4",
+  "video_sha256": "ce41f5d22fe05fcd58b9a48cb02d4ba9222383b82db297634247b90d688c031c",
+  "source_interval": [
+    1008,
+    1225
+  ],
+  "encoded_total_frames": 217,
+  "actually_viewed_changed_cn_frames": [
+    1037,
+    1144
+  ],
+  "actually_viewed_native_pages": [
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-01.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-02.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-03.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-04.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-05.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-06.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-07.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-08.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-09.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-10.png",
+    "qa/caption-clear-v3-six-2026-10-06/encoded-changed107-cn-native-page-11.png"
+  ],
+  "cn_static_result": "Complete donor-derived 人 character visible across all 107 changed frames, no same missing stroke after encoding; no blanket claim for JP, other chapter captions or speed.",
+  "known_risks": [
+    "Old 1037..1042 Japanese remains low contrast against cream boot ornaments.",
+    "1129..1143 寂 and 1144..1160 分/う remain camouflaged against cream clover ornaments; not resolved.",
+    "Nonfinal costume/head pose approximation and no actual-speed art acceptance."
+  ],
+  "technical_pass": true,
+  "technical_report": "qa/caption-clear-v3-six-2026-10-06/star-217-v3-technical-verification.json",
+  "regression": "200 frozen outputs unchanged plus six expected CN-only changes; historical 206 report retained.",
+  "accepted": false,
+  "actual_speed_review": "not_performed"
+}

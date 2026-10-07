@@ -1,0 +1,16 @@
+{
+  "job_id": "fullpv-middle-f1502",
+  "tool": "built-in image_gen",
+  "source_frame": 1502,
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0895-f1502.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0895-f1502.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset type: strict-source hand-drawn music PV replacement cel, target f1502. EDIT IMAGE 1 ONLY, preserve its complete 1920x1080 canvas, flat lavender background, current pose, scale and absolute position. Image 1 is CURRENT ORIGINAL SOURCE and exclusively decides pose, camera, expression, proportions, visible body, occlusion and cropping. Image 2 is ONLY Klee beret/clover/feather identity and simplified flat drawing reference, not scale or pose. Image 3 is ONLY Klee red/cream coat, plain cream cuffs, brown gloves and simplified costume identity, never add its star/moon props or pose. Replace the one original person with default Genshin Klee: pale blond bangs and TWO SHORT connected side ponytails, pointed ears, red beret with cream clover and white feather behind source forehead bunny sleep-mask, red coat with cream hem, plain cream cuffs, brown gloves, brown short boots. KEEP the original cream bunny sleep-mask as a separate prop over forehead with its pink cheeks and oval nose. Source image character occupies approximately x368..918,y314..782, floating/resting diagonally head upper-left and feet lower-right; follow source exactly, not a centered upright pose. Both eyes closed as two simple source-matching eyelid lines, orange oval cheek patches, tiny dot mouth. Forearms crossed tightly across front of body: front forearm diagonally from x500 y630 toward x650 y430; hands hidden under sleeves, do NOT invent fingers. Keep paired foot positions, coat sleeve and torso lengths of current source. Rest of canvas stays empty lavender. Loose source-like dark outlines, minimal flat colors, NO game rendering, gradients, textures, extra detail or shadows. This is one independently REDRAWN cel, not a sprite sheet, montage or interpolated frame. All source current-pose geometry takes priority over identity reference geometry.",
+  "accepted": false,
+  "status": "rejected_headwear_semantics",
+  "output": "generated/fine-f1502-eye-mask-rejected.png",
+  "rejection_reason": "Original rabbit sleep-mask incorrectly stacked over Klee beret. It is replaced original headwear, not a separate prop. Later r1 job independently redraws source without it."
+}

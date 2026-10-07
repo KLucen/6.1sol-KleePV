@@ -1,0 +1,205 @@
+{
+  "snapshot_utc": "2026-10-06T15:47:17.514864+00:00",
+  "tool": "builtin_imagegen",
+  "jobs": [
+    {
+      "source_frame": 2155,
+      "cel": "cel-0409",
+      "tool": "builtin_imagegen",
+      "use_case": "identity-preserve",
+      "output": "generated/middle-profile-f2155-oct6-v1.png",
+      "accepted": false,
+      "status": "reviewed_static_temporal_pending",
+      "prompt": "Use case: identity-preserve. Asset type: one complete 16:9 hand-drawn animation cel for the existing Klee replacement PV, source f2155, not a contact sheet or collage. Input 1 is the CURRENT original full frame: it alone determines camera, right-facing side-profile head/eye/mouth position, shoulder crop, character count and visible extent. Input 2 is the preceding Klee f2152 drawing: it determines only the simplified Klee identity, cool palette, thin dark ink, red beret with cream clover and one feather, short tied ponytails, red coat and simple two-part cream collar. Do not freeze its visibility: the warm foreground hair at the left has now fully left the frame. Inputs 3/4/5 are actual previous-to-current source differences, with previous/current on top and RGB/contours below; they are evidence, not separate scenes to copy. Current f2155 contains exactly ONE cool-night Klee, facing right, with one half-open visible eye, relaxed flat eyebrow and tiny dot mouth. Keep the same calm held profile expression and head pose as the current original; do not close the eye, smile, add tears, turn frontal or add another face. The upper beret/feather may be cropped by the top edge as in the prior drawing. There is absolutely no warm hair, warm hand, warm hat, second body or orange foreground fragment remaining at the left. Both of Klee's ponytail roots belong to the same head and remain short: do not inherit the original's very long sweeping hair. Preserve the established short wind-directed back ponytail, near cheek lock and their connections to the red ties. Rear short ponytail is to the left of the ear; near lock curves toward the collar. Match the current camera scale and source right-facing eye/nose/chin/shoulder locations approximately; do not enlarge the face beyond the crop. Night treatment is pale blue/periwinkle hair and skin, a muted cool-red beret/coat, a muted mauve cheek and cool dark-purple contours. No animal sleep hat, green source outlines or old long hair. Draw the ENTIRE cel, including all actual visible head, hat, hair, ear, neck, collar and shoulder regions. Do not generate anatomy patches or a cutout. Retain the blue-purple original starry backdrop layout approximately; original background/stars/moon will be source-owned in final composition. NO text, subtitles, logo or watermark. In particular omit all Japanese and Chinese text, which will be restored from the actual original separately. Plain low-frame-rate cartoon PV line art, no 3D, no realistic render, no added texture, no invented body outside the original crop.",
+      "reference_roles": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-source-actual.png",
+          "role": "CURRENT full original: pose, camera, one-character visibility and crop authority"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/middle-cold-f2152-oct6-v1.png",
+          "role": "Existing simplified cool Klee identity/style only; left warm fragment no longer exists"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2154-f2155-source-ab-rgb-contours.png",
+          "role": "Actual source overview AB/RGB/contours; disappearance of warm foreground fragment"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-eyes-mouth-bangs-native-ab-rgb-contours.png",
+          "role": "Native observed held eye, eyebrow, mouth, nose and chin"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-rear-hair-tip-native-ab-rgb-contours.png",
+          "role": "Native visibility change; source long hair is not a Klee identity requirement"
+        }
+      ],
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-a8168a6b-a27e-4f11-8e8e-6e7b16cc4320.png",
+      "output_sha256": "76b920ad38374e98abcc2f61ecfb2ba647ddbe6fdcd15b5f4a947316968967a6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Single cool Klee only; all warm-left foreground fragment removed. Half-open eye, dot mouth and short tied ponytails retained. Approximately held head pose and cropped shoulder; slight head/hat position and two-part collar proportions remain draft-only. Wholecel static checked; compositor, native encoded captions and actual-speed continuity pending.",
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2157,
+      "cel": "cel-0410",
+      "tool": "builtin_imagegen",
+      "use_case": "identity-preserve",
+      "output": "generated/middle-profile-f2157-oct6-v1.png",
+      "accepted": false,
+      "status": "reviewed_static_temporal_pending",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete wide 16:9 hand-drawn Klee PV animation cel, current source f2157. Input 1 is the CURRENT original frame, the sole authority for camera, right-facing profile, one visible half-open eye, tiny dot mouth, pose, visible shoulder and head crop. Input 2 is the immediately preceding Klee f2155 wholecel: retain its simplified Klee identity, short tied ponytails, blue/periwinkle night treatment, muted red beret/coat, cream clover, ONE feather, cool dark ink and simple two-part collar; do not copy its hair in a frozen pose. Input 3 is the original f2155-to-f2157 full AB/RGB/contours overview, and inputs 4/5 are native eye/bangs and hair-motion AB/RGB/contours. Top-right of each difference reference is the CURRENT target; these are motion evidence, not a layout to reproduce. Actual target change: the original's front locks turn outward over the upper collar, its rear lower tips drop and fan downward, the bangs at the eye move slightly forward/down, while the nose, tiny dot mouth, cheek, neck, shoulder crop and calm right-facing head remain nearly held. Translate this wind response into Klee's EXISTING SHORT hair, not the original's long hair length: keep the red tie and ponytail roots stable, lower/fan the rear short ponytail tips modestly, and turn the bottom of the near-cheek lock slightly outward toward the upper collar. Do not increase ponytail length or add a third ponytail/neck strip. Retain one visible eye, gently half-open rather than closed or wide-open, and the same quiet dot mouth. Allow the small observed eyebrow/bang changes; do not tilt/rotate the whole head into a new pose. Current frame contains exactly one cool Klee; no warm hair/body/hat/hand fragment at the left, no original animal sleep hat or green outlines, no original long hair. Full existing cropped head, hat, ear, connected hair, neck, collar and shoulder must be drawn as one complete cel. NO anatomy patches, no collage, no contact sheet, no extra characters, no invented hands or lower body. Keep approximate original blue-purple starry backdrop and crescent positions; those will be restored from the actual source during composition. NO Japanese text, Chinese subtitles, lettering, logo or watermark; real lyrics are a separate source-owned layer. Simple low-frame-rate cartoon PV line art, plain fills, no realism, 3D, extra rendering or decorative additions.",
+      "reference_roles": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2157-source-actual.png",
+          "role": "CURRENT actual original: pose, visibility, head/shoulder crop and expression authority"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/middle-profile-f2155-oct6-v1.png",
+          "role": "Immediately preceding whole Klee: stable identity, short-hair roots and simplification, not frozen tips"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-f2157-source-ab-rgb-contours.png",
+          "role": "Actual full source AB/RGB/contours overview: hair motion versus held face/body"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2157-eyes-mouth-bangs-native-ab-rgb-contours.png",
+          "role": "Native current eyelid/bang/eyebrow change with held dot mouth/profile"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2157-rear-hair-tip-native-ab-rgb-contours.png",
+          "role": "Native downward/outward hair response; do not inherit source long-hair length"
+        }
+      ],
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      },
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-f2a0bc21-e5e1-4037-a537-721754f368a4.png",
+      "output_sha256": "47dbe49c20664c4299d9a0e32117be4347509320c502207998a126916e88cf4c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Single cool Klee with gently shifted bangs and lower/fanned rear short-ponytail tips; stable tie and held calm right profile, one half-open visible eye and dot mouth. Near-cheek lock motion is small and approximate, not asserted exact source amplitude. No warm foreground or inherited original long hair. Collar/hat proportions and actual-speed continuity remain draft-only; raw wholecel static checked, compositor and encoded text pending.",
+        "accepted": false
+      }
+    }
+  ],
+  "integrity": [
+    {
+      "source_frame": 2155,
+      "output": "generated/middle-profile-f2155-oct6-v1.png",
+      "sha256": "76b920ad38374e98abcc2f61ecfb2ba647ddbe6fdcd15b5f4a947316968967a6",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-source-actual.png",
+          "role": "CURRENT full original: pose, camera, one-character visibility and crop authority",
+          "actually_viewed": null,
+          "sha256_at_archive": "45561717ea7012cebbea506f0be89803efe780c396eb485a7d8a3e0c24ff55c7"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/middle-cold-f2152-oct6-v1.png",
+          "role": "Existing simplified cool Klee identity/style only; left warm fragment no longer exists",
+          "actually_viewed": null,
+          "sha256_at_archive": "5d85eddaefd78f8eec07f6e4e61dededf1382e3ef6d49d1a7bb3a36fbce258a4"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2154-f2155-source-ab-rgb-contours.png",
+          "role": "Actual source overview AB/RGB/contours; disappearance of warm foreground fragment",
+          "actually_viewed": null,
+          "sha256_at_archive": "2c397fe3a453674be150fcc9e396b7db1ca0b50fa1d4cb30f746ac242410b460"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-eyes-mouth-bangs-native-ab-rgb-contours.png",
+          "role": "Native observed held eye, eyebrow, mouth, nose and chin",
+          "actually_viewed": null,
+          "sha256_at_archive": "38d7bfaf804c3d016f695863958e0ab5a20727406b6498007cbc3827670b8abc"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-rear-hair-tip-native-ab-rgb-contours.png",
+          "role": "Native visibility change; source long hair is not a Klee identity requirement",
+          "actually_viewed": null,
+          "sha256_at_archive": "d1372892dbe2a110f96afef8f4eddd31bff7fc3e6951cbb44f35b157feb8c07b"
+        }
+      ]
+    },
+    {
+      "source_frame": 2157,
+      "output": "generated/middle-profile-f2157-oct6-v1.png",
+      "sha256": "47dbe49c20664c4299d9a0e32117be4347509320c502207998a126916e88cf4c",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2157-source-actual.png",
+          "role": "CURRENT actual original: pose, visibility, head/shoulder crop and expression authority",
+          "actually_viewed": null,
+          "sha256_at_archive": "4dd4cdc590fd9c090b76ea1504cfd13bfaf5474e6d86478c7abac5db81f2b28e"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/middle-profile-f2155-oct6-v1.png",
+          "role": "Immediately preceding whole Klee: stable identity, short-hair roots and simplification, not frozen tips",
+          "actually_viewed": null,
+          "sha256_at_archive": "76b920ad38374e98abcc2f61ecfb2ba647ddbe6fdcd15b5f4a947316968967a6"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2155-f2157-source-ab-rgb-contours.png",
+          "role": "Actual full source AB/RGB/contours overview: hair motion versus held face/body",
+          "actually_viewed": null,
+          "sha256_at_archive": "1e6b7f56146b08a077a7afe4e26703a355b55b19d041f08167845aeceba32837"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2157-eyes-mouth-bangs-native-ab-rgb-contours.png",
+          "role": "Native current eyelid/bang/eyebrow change with held dot mouth/profile",
+          "actually_viewed": null,
+          "sha256_at_archive": "1f8239c44c2cdb4bea1cd3cf3da32837d02da134e404d101e64accfe8117a8b8"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/middle-profile-next-2026-10-06/f2157-rear-hair-tip-native-ab-rgb-contours.png",
+          "role": "Native downward/outward hair response; do not inherit source long-hair length",
+          "actually_viewed": null,
+          "sha256_at_archive": "081eed1da31c6f4edd6a92438be392e15257f326b8b53ecdd12771a56d519b71"
+        }
+      ]
+    }
+  ],
+  "successful_builtin_outputs": 2,
+  "requested_queue_cels": 2,
+  "unique_generated_source_cels": 2,
+  "private_selected_drafts": 2,
+  "source_exposure_frames_of_private_drafts": 8,
+  "requested_but_ungenerated_frames": [],
+  "argument_validation_attempts_with_no_generated_output": 0,
+  "accepted": false,
+  "shared_selection_edited_at_seal": false,
+  "temporal_speed_review": "not_performed",
+  "art_acceptance": "Not performed; static drafts only"
+}

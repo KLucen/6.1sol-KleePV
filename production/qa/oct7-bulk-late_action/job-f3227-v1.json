@@ -1,0 +1,77 @@
+{
+  "source_frame": 3227,
+  "cel": "cel-0583",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Images 3 and 4 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output. No adjacent Klee pose template is supplied because its anatomy was flawed; current original is the sole pose authority.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: CURRENT3227 is BACK-VIEW side turning right, no face eyes/mouth/cheek. Source3224-to3227 PERSON HELD but foreground stars move: top star UP-RIGHT more reveals near raised arm and back crown, bottom star RIGHT more covers lower coat. Two horizontal brown mitten gloves point left: farx660-795/y195-280, nearx600-750/y280-375. Near red sleeve has precise L-SHAPE: cream cuffx800-900/y175-315; horizontal red forearm fromx900/y175 tox1195/y315; elbowx1110/y310; upper RED ARM VERTICAL x1010-1200 fromy315 toy650, IN FRONT OF HEAD/HAT/HAIR, ending at shoulder. Do not make hat fill the arm region. Far lower sleeve behind near arm. Back hat crown little arc above arm; two short blond ponytails flow down-left behind arm, no front long locks. Flat simple cream collar/red coat, sparse small buttons only far right edge, no lyrics.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1771-f3227.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3224-f3227-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3227-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "e075b08c06946e3d0f24c5e0751386b824c00133e2a340170f4fd0811b011d05",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "c57e0483bd2ffe47b03e2572f2a6dc4047387bfd3652a12d7a3bb24f6a36ae48",
+    "e270ef6d70c3ce4f42879e8b14dc280b242e5a6ca8f769660c4d1e533682fc85"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3227-v1.png",
+  "source_exposures": [
+    {
+      "start": 3227,
+      "end": 3229,
+      "pts": 134.458,
+      "end_pts": 134.542,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "CURRENT3227 is BACK-VIEW side turning right, no face eyes/mouth/cheek. Source3224-to3227 PERSON HELD but foreground stars move: top star UP-RIGHT more reveals near raised arm and back crown, bottom star RIGHT more covers lower coat. Two horizontal brown mitten gloves point left: farx660-795/y195-280, nearx600-750/y280-375. Near red sleeve has precise L-SHAPE: cream cuffx800-900/y175-315; horizontal red forearm fromx900/y175 tox1195/y315; elbowx1110/y310; upper RED ARM VERTICAL x1010-1200 fromy315 toy650, IN FRONT OF HEAD/HAT/HAIR, ending at shoulder. Do not make hat fill the arm region. Far lower sleeve behind near arm. Back hat crown little arc above arm; two short blond ponytails flow down-left behind arm, no front long locks. Flat simple cream collar/red coat, sparse small buttons only far right edge, no lyrics.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-8c0c6b54-64e1-4c2e-86e0-c64653d40462.png",
+  "output_sha256": "7fd6d3b100a5ca1d8b6e8092034c211bf9626824cf34dc72a855fe8e77b42d5a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: TWO leftward brown mittens connect to source-correct RED near L-shaped forearm/vertical upper arm in FRONT of hat/hair, no exposed face. Omitting flawed prior removed repeated arm-ordering error in this NEW cel. Foreground upper/lower star positions source-following, costume/head/hair design and tail spread still differ, side feather/clover visible; unaccepted static draft no temporal/compositor approval.",
+    "accepted": false
+  }
+}

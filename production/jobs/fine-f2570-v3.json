@@ -1,0 +1,39 @@
+{
+  "source_frame": 2570,
+  "source_cel": "cel-0499",
+  "source_candidate": "src-1532",
+  "output": "generated/fine-f2570-v3.png",
+  "status": "generated_repair_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Redraw image1 CURRENT ORIGINAL as Klee. Image1 is sole geometry/framing/crop/pillow authority. Image2 is cropped Klee identity ONLY. ONE wide16:9 entire frame, plain purple field. Keep small full-body figure on RIGHT, exact original bounds x0.57..0.785, y0.255..0.735, not a larger figure. Torso folded into two knees hugged tightly up to chest, short dangling shins, two compact BROWN boots at same original feet coordinates and sizes (bottom about0.735H). Both brown gloved hands grip original lavender pillow across chest, cream plain cuffs. Head rolled15degrees with right eye higher, half-lidded red eyes visible above pillow EACH visible small BLACK pupil and white catchlight. Pillow is opaque and hides mouth/chin. Replace forehead rabbit mask completely with ONE Klee redcreamcloverberet with small whitefeather. Exactlytwo SHORT blonde ear-root ponytails, pointedears. Redcoat cream trim folds tightly over raised thighs, simple cream hem, brown backpack behind shoulders. Do not add long hair, standing legs, multiple hats, puff, characters, text, watermark. Loose black source contours, flat colors and limited simple shadows. Current source character scale MUST match image1, especially very compact raised knees and boots; no enlargement.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1532-f2570.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Second source-first repair restored small right-side scale and bootbottom about0.735H, visible pupils and lavender pillow occlusion. Finite two repairs reached. Costume shows scalloped cuffs and knee folding less explicit than source; unresolved for root review."
+    ],
+    "issues": [
+      "Scalloped cuffs need plain cream shape.",
+      "Raised knee folding needs artistic review."
+    ],
+    "scope": "single-cel static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "repair_of": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2570.png",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-9db33568-92c0-48a2-b0e3-6936cb15c534.png"
+}

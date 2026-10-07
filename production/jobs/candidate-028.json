@@ -1,0 +1,11 @@
+{
+  "job_id": "candidate-028",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-028.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-027.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 animationframe. Reference1 is CURRENT exact crop/position/back-of-head/occlusion source; references2-3 fix Klee identity and PV line style, do not copy their facepose. Replace visible foreground enormous BACK OF HEAD with default Klee from Genshin Impact: back of redberet with cream bottom band, white feather at consistent side, pale blonde SHORT paired sideponytails with stable roots. Source shows NO foreground face, NO eyes or mouth: DO NOT reveal any foreground face. Same giant head center/size and crop at top/bottom/right. Replace pink long curtain hair entirely with Klee blond back hair and short ponytails, redhat sits atop head. Do not create a long blonde curtain: use proper short Klee hair, allow original underlying violet/night background to show in vacated hair area if necessary. Behind foreground head only a small cyan-lit character fragment at upper-right remains visible; change that visible fragment to cyan-graded Klee redberet silhouette, maintain foreground occlusion, don't add extra face. Source violet sketchstar field at left transitions into blue/cyan nightstar field at right; KEEP same background boundary/gradient, tiny white dots and crescent, exact Japanese/Chinese subtitles bottom. Loose dark PVoutlines, very flat patches, one simple shade, no detailed gameart, no panels. Klee back-of-hat/hair topology must connect correctly.",
+  "output": "../generated/candidate-028.png",
+  "status": "generated"
+}

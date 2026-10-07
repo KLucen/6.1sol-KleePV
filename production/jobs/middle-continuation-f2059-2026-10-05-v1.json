@@ -1,0 +1,135 @@
+{
+  "job_id": "middle-continuation-f2059-2026-10-05-v1",
+  "source_frame": 2059,
+  "source_cel": "cel-0379",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1129-f2059.png",
+  "source_exposures": [
+    {
+      "start": 2059,
+      "end": 2061,
+      "pts": 85.792,
+      "end_pts": 85.875,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Edit image 1 into ONE full independent strict-source Klee PV cel f2059, landscape same source canvas 1920x1080 aspect ratio. This is character replacement, NOT a new illustration.\nREFERENCE ROLES: image1 CURRENT original alone determines camera, screen placement, pose, expression, visible range, occlusion, all background stars, yellow particles and caption geometry. Image2 adjacent Klee actor IDENTITY/costume/simplified style only, never freeze its pose or copy its background. Image3 source f2058->2059 actual A/B RGBdiff and contour reference; image4 CURRENT native head/eye/hands/boots; image5 original native A/B RGBdiff/contours.\nImportant transition: CURRENT has EXACTLY ONE human, fullbody left-facing profile at the RIGHT half. Prior giant closed-eye face fragments at the edges are GONE. Do NOT add any edge skin, face, black frame, old hair, mask, second actor.\nCurrent main pose head x1230..1620 y195..450, open narrow left-profile eye under hanging bangs, far eye not visible, LEFT gaze, tiny O mouth and orange cheek. Red iris BLACK pupil and WHITE tiny highlight. Arms lowered/outspread diagonal: leftmost palm x1105..1175 y587..644 with source splayed fingers; right palm x1590..1665 y540..600 with fingers extended to right and thumb down. Exactly TWO brown gloves. One straight planted leg ending foot x1245..1420 y1000..1050; rear right knee BENT back horizontally and foot vertical x1550..1620 y790..900. Precisely source current limb directions, balance and source sole occlusion.\nReplace peach flowing longhair/rabbit forehead-mask/pajamas/bunny pocket fully. Klee red beret plain brown band ONE cream crown clover ONE white feather, pale blonde bangs EXACTLY TWO compact short ear-rooted ponies, pointed ear only visible side, no long blown hair. Continuous same short-poney topology as image2 without extending volume. Plain red coat cream folded collar/cuffs/hem, plain brown gloves/boots; small plain brown backpack only if source view implies it. No coat buttons/bunny pockets, no clovers on coat/cuffs/boots/backpack, no ornate collar embroidery.\nPreserve exact CURRENT lavender flat source backdrop and all cream outlined stars and yellow black-outline particles at their current positions. Bottom center keep source Japanese \"\u611b\u3057\u3066\u305f\u3044\" above Chinese \"\u60f3\u8981\u53bb\u7231\" with complete clear source strokes, size/position/cream color unchanged. Do not paint character over text. Original thin wobbly blackink and flat broad fills, minimal shadow; no gradients/gloss/3D/realistic detail. Same current crop and head/body proportions, no collage, mirror, warp, morph, held-template substitute. All other regions unchanged.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1129-f2059.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/klee-f2058-main-identity-only-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/actual-source-f2058-f2059-AB-RGB-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2059-source-native-keyparts.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2059-keyparts-AB-RGB-contours.png"
+  ],
+  "reference_roles": [
+    "CURRENT full source: sole pose/crop/camera/background/text/effect authority",
+    "Adjacent Klee main actor crop: identity, simplified costume and short rooted hair topology only; NOT pose",
+    "Original previous/current A/B RGB x4 and contours: giant face boundary disappears; current main pose persists",
+    "CURRENT original keyparts native 1:1: eye, both hands/cuffs, legs/feet",
+    "Actual original previous/current native keyparts A/B RGB x4 contours: not generated motion"
+  ],
+  "output": "generated/middle-continuation-f2059-2026-10-05-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "reviewed_static_temporal_pending",
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "actual_sequential_decode_reference_equal": true,
+    "visible_people": 1,
+    "transition": "prior edge giantface disappears; main pose unchanged",
+    "eye": "narrow open profile leftgaze",
+    "hands": "exactly2 splayed",
+    "leg": "one planted one rear bent knee"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-774b5e10-d72b-490e-9df5-a381f311cab7.png",
+  "tool_output_metadata": {
+    "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-774b5e10-d72b-490e-9df5-a381f311cab7.png",
+    "sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "workspace_output_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2059-2026-10-05-v1.png",
+    "sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "output_sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef",
+  "known_issues": [
+    "Head/hat taller and profile eye more exposed than source; near cheek slightly lower",
+    "Glove fingers simplified and planted/rear boot contours wider",
+    "Coat hem edge and collar obscuration differ; light clothing shading",
+    "Generated background/stars/captions need source-layer compositor restoration; no pixel-lock claim",
+    "Consecutive static comparison performed; actual-speed and final composition not performed"
+  ],
+  "source_current_observed": "One full left-facing profile actor, no giant edge-face remnants. Main source two diagonal open palms and planted/bent-back legs represented; red iris black pupil tiny white highlight and exactly two rooted short blonde ponies. f2058->2059 has main pose unchanged but edge-face removal; no full-camera move.",
+  "static_review": "qa/middle-missing-continuation-2026-10-05/f2059-source-new-static.png",
+  "ordered_reference_metadata": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1129-f2059.png",
+      "sha256": "3ccaf1e8a48f0993ee63c13749824332d1544d494cb7eac809a8a7f213b65b06",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "role": "CURRENT full source: sole pose/crop/camera/background/text/effect authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-f2058-main-identity-only-crop.png",
+      "sha256": "9a756b338160544d3e421695f72d2b46f5338d6ba9d8307ccbaadf7e69517727",
+      "canvas": [
+        670,
+        945
+      ],
+      "role": "Adjacent Klee main actor crop: identity, simplified costume and short rooted hair topology only; NOT pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2058-f2059-AB-RGB-contours.png",
+      "sha256": "feb702fd842ed3d9f7aca0036fd147968733a54220b182686993d7e37a8438d4",
+      "canvas": [
+        3840,
+        2240
+      ],
+      "role": "Original previous/current A/B RGB x4 and contours: giant face boundary disappears; current main pose persists"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2059-source-native-keyparts.png",
+      "sha256": "8569a9ce6b9cd523c7ceb2a6494af76fd2c9a945f6f0743053808f8dca5f3070",
+      "canvas": [
+        750,
+        1214
+      ],
+      "role": "CURRENT original keyparts native 1:1: eye, both hands/cuffs, legs/feet"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2059-keyparts-AB-RGB-contours.png",
+      "sha256": "91d4c864b9bed47aeeca143231fba3be23b47b389c2b41992f043d97fd89a2d7",
+      "canvas": [
+        3000,
+        1214
+      ],
+      "role": "Actual original previous/current native keyparts A/B RGB x4 contours: not generated motion"
+    }
+  ],
+  "ordered_reference_metadata_phase": "after_output_saved; original full prompt/ordered roles were saved before call",
+  "actual_builtin_call_submitted": true
+}

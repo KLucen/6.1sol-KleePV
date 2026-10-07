@@ -1,0 +1,16 @@
+{
+  "job_id": "root-continuation-f0827-v1",
+  "source_frame": 827,
+  "canonical_cel": "cel-0145",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-dd7de606-9f8a-4052-a1a0-d47ba1eb2ab9.png",
+  "static_review": "Back view hides all facial features; open arms and raised rear sole independently drawn. Cream cuff volume, feather handedness through turn, short ruffled hem and backpack contour need adjacent review.",
+  "known_issues": ["Cuff/hem contour and backpack volume differ from source", "Shading/gradient exceeds flat source style", "Feather orientation needs turn continuity check"],
+  "original_speed_review": "unperformed",
+  "accepted": false,
+  "output": "generated/root-continuation-f0827-v1.png",
+  "references": ["source_refs/src-0373-f0827.png", "generated/fullpv-early-f0823-source-v1.png", "qa/full-early-worker/resume-f0827-source-local.png"],
+  "reference_roles": ["Current source edit target; exclusive geometry, visibility and pose", "Unaccepted prior Klee draft, identity/color only, not a pose template", "Actual original 823-to-827 RGB differences and contours"],
+  "prompt": "Use case: identity-preserve. Produce ONE 16:9 full PV character-replacement cel, current source frame 827. Image 1 is the CURRENT EDIT TARGET, exclusive authority for composition, native character extent, head/body angle, hand pose, limb lengths, visible surfaces and occlusion. Image 2 is only Klee identity and simplified colors/costume; do not copy its face, side view, limb pose or background. Image 3 documents actual original 823-to-827 changes. Replace the entire original girl with Klee, retaining the source pose: strictly BACK VIEW, NO face/eyes/mouth visible; head center 61% x, 37% y, head top 24%, torso center 62% x, 60% y. Both arms spread outward, left glove center 43% x/54% y, right glove center 78% x/52% y, relaxed fingers matching current source. Torso leans slightly right; straight leg slopes down right to heel at 68% x/97% y, other knee folded with raised boot sole facing the camera at 68% x/81% y. Exactly two arms/two hands/two legs, preserve source overlap of thighs and raised shoe. Klee short pale-blonde twin ponytails attached near pointed ears, only back of red cream clover beret and one white feather, no face peek and no front hat logo visible from back. Plain red coat with cream collar/cuffs/hem, plain red shorts, bare knees, compact brown boots with plain cream top cuffs. Small compact brown backpack anchored on back without replacing or widening torso; NO front coat clover on her back, no dangling badges, no extra coat ornaments. Source canvas/framing and floor extent must not shift. Flat muted PV color blocks and irregular thin black outline, no gradient, no light/shadow shading, no polished rendered illustration. Preserve source lavender background and white sketch stars as separate source elements; omit all text because original Japanese/Chinese captions will be restored independently. Never reuse preceding side-face pose, never invent hidden fingers or mirror a prior cel. No collage, no panels, no motion blur, no interpolation. This is one independently drawn back-turn key pose."
+}

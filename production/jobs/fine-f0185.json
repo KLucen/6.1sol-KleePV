@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0185",
+  "source_frame": 185,
+  "source_candidate": "src-0057",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0057-f0185.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0185.png"
+  ],
+  "prompt": "ONE full16:9 Klee PV replacement cel. Edit ONLY originalcharacter of current image1, source1 fixes fullcanvas coordinates/crop/pose/prop positions/visibility. Crop2 Klee identity/style ONLY not forced face; crop3 SAMEcoatstructure only; image4 actual before/current source changes upperrightcurrent no panels. Key change: horizontal frontpillow LOWERS a little and tilts counterclockwise (upper edge rises viewer-right), spans x61..89%,y26..62%. ONLY tiny DARK horizontal UPPER EYELID SLIVERS with minute mutedrediris slivers peek immediately above topedge beneathbangs. Do NOT show full red eyes, nose, cheeks or mouth: face still almost entirely HIDDEN behind pillow. Headgear/bangs visible above, same redKleeberet creamclover whitefeather SAMEside. Two shortponytails hidden behind pillow, no extra side/lowerhair wings. Both SMALL brown gloves grip outer creamLEFT/RIGHTfringes curvedfingers overfront, matching sourcehand positions x62%,y46% andx88%,y39%, wrists mostlybehindpillow. No fullyopen hands overpillowcenter yet. Samebody righttilt and straightlegs down-rightcroppedbottom, same lower redsplitangularcoat lowerleftclover, broadangularcreamunderskirt tinyclovers/pinkruffle/REDshorts, oneleftwaistdanglepom, smallbrownbackpackcharmright. Pillow singleflatlavender plane creamscallopedfringes EXACTsource shape/size/angle/location, floatingclock separateLEFT exact x49%,y50%,width7%,blanklavenderdisplay. LooseSOURCEdarkoutlines flatpatches onesmallflatshade, no gameartpolish. NO subtitle/captions/title/credits/letters/numbers, sleepmask/pajamas/rabbitears, addedface/limbs/ponytails, zoom/mirror.",
+  "output": "../generated/fine-f0185.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "source_frame": 2143,
+  "output": "generated/middle-next-f2143-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE full 16:9 whole PV animation cel for actual f2143.\nPrimary request: replace BOTH original characters with Klee, preserving CURRENT warm closed-eye giant foreground and cold one-eye right profile in background. It is no longer a rear-head frame. Redraw the real distinct key pose.\nInput roles ordered:\n1 EDIT TARGET actual f2143: sole camera, expression, facing, proportions and depth authority.\n2 Actual BEFORE f2141 rear / CURRENT f2143 closed face + RGB contours: giant turns all the way to three-quarter frontal and moves screen-left revealing the night actor at screen-right. Do not copy the previous giant rear view.\n3 Actual current native overlap crop: night actor has EXACTLY ONE small half-lidded OPEN eye in right-facing profile, ONE pale mauve cheek, tiny nearly closed line/dot mouth under the nose. Warm foreground bangs/ponytail overlap the left side of night actor. Do not expose the occluded far eye or complete torso.\n4 Warm Klee identity/style head crop ONLY: blonde bangs, compact connected side ponies, pointed ear, red beret with cream clover and feather, flat PV outlines. Current giant must have TWO fully CLOSED thick eyelid lines, TWO orange cheeks and a very small upward-pointing pout, not the crop's open eyes or singing mouth.\n5 Cold Klee identity/palette crop ONLY: same red Klee beret, clover and tapered feather, pale blonde hair with cold blue/lavender cast and navy/greenish outline. NOT expression authority: its closed eye must become current source's partly OPEN one visible profile eye.\nSubjects/composition: warm giant Klee fills left 0..1300, head and beret clipped top/left; giant face angles slightly screen-right with closed eyelids, curved brows and tiny centered pout, warm cheeks. Compact ponies and bangs follow current left-to-right head turn and source overlap. Cold night Klee behind occupies source x1000..1480 and head/right nose at y300..700; right profile, nose projecting right, one partly open narrow red iris in source eye slot, pale mauve cheek, tiny mouth. Its left/back head and shoulder are occluded by warm foreground. Replace old animal cap completely with Klee hat/clover/pointed feather, no rounded animal ears, no muzzle badge. Do not create a third standing character.\nScene/style: original lavender scribbled stars remain only at far left; most right is rich blue night with small high-right crescent, preserving actual target wipe. Match economical low-frame hand-drawn PV: broad flat red/cream/blonde colors, heavy wobbly outline, simplified details; cold actor subdued blue-purple cast without photorealism.\nConstraints: ONE wholecel only, no panels, labels, lettering, captions or watermark. No old pink hair, pajamas, animal cap, invented hands/legs or exposed far eye. No open foreground eyes, no closed background eye, no rear giant head. Source backgrounds/subtitles preserved separately. Keep correct warm-foreground-over-cold-background occlusion.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2143-source-actual.png",
+      "role": "current edit target; warm closed face over cold right profile",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-f2143-source-ab-rgb-contours.png",
+      "role": "actual rear to closed face and night face revealed; overview",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2143-foreground-native.png",
+      "role": "current actual cold profile and foreground overlap; native inspected",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+      "role": "warm Klee head identity/style only, not eyes/mouth/pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+      "role": "cold Klee identity/palette only, source dictates eye expression",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1e30e52a-3c57-47f2-9400-40f412d2fee4.png",
+  "output_sha256": "e26fed6d8612240c3442116ca1e75b0da4cf298464de8706bfcadfb352bfb23b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole builtin and actual current source/native: two Klee depictions, warm foreground has two closed eyelids/tiny pout and occludes cold right profile with one half-open red eye. Both animal hats replaced. Giant scale/tilt, cold eye/nose position and ornament/pigtail geometry approximate; defer first-cut refinement. No invented limbs or third figure. Static only, accepted false, compositor/temporal pending.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

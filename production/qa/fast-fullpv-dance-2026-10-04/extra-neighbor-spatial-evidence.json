@@ -1,0 +1,404 @@
+{
+  "scope": "Source-only 889-to-891 occlusion evidence and source/artwork 907-to-908 spatial changes",
+  "source_decode_provenance": "prepare_missing_refs.py sequentially decoded the original MP4 from frame 0 to 911 inclusive; these unchanged files were not seek approximations",
+  "actual_source_evidence": "missing-source-reference-queue.json#source_decoded_frames",
+  "queue_sha256": "1a57edd926cadd5822a3e8bc8b14ee48f7897d073754ffcee27e2716d3f8b652",
+  "source_pairs": [
+    {
+      "frames": [
+        889,
+        891
+      ],
+      "source_paths": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-source-actual.png"
+      ],
+      "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-f0891-source-extra-ab-rgb-contours.png",
+      "delta_sha256": "64f3e47497cb2d6444643e0bb75aec27b8cc27699394f6fd9fc31e120772bc60",
+      "local": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-f0891-source-extra-local-ab.png",
+        "sha256": "10fd75df2dc11bb674c3be3be2124147c9cc029f2eb1ccf9c922adb23fa0df7d",
+        "actual_pixels_max_rgb_gt_28": 566243,
+        "box_roles": [
+          {
+            "role": "rear-head-occluded-by-foreground",
+            "xyxy": [
+              850,
+              180,
+              1210,
+              580
+            ]
+          },
+          {
+            "role": "rear-head-left-hair-collar-sliver",
+            "xyxy": [
+              860,
+              240,
+              1040,
+              580
+            ]
+          },
+          {
+            "role": "raised-hand-cuff",
+            "xyxy": [
+              680,
+              70,
+              960,
+              400
+            ]
+          },
+          {
+            "role": "rear-torso-lower-hand",
+            "xyxy": [
+              780,
+              430,
+              1360,
+              790
+            ]
+          },
+          {
+            "role": "foreground-face-hat",
+            "xyxy": [
+              900,
+              0,
+              1920,
+              1080
+            ]
+          }
+        ]
+      },
+      "crops": [
+        {
+          "frame": 889,
+          "role": "rear-head-occluded-by-foreground",
+          "xyxy": [
+            850,
+            180,
+            1210,
+            580
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-extra-rear-head-occluded-by-foreground.png",
+          "sha256": "d4d2217908f8906438a4d7105f623c5528b3b72e9d586ecce0f7b6940d4f488a"
+        },
+        {
+          "frame": 889,
+          "role": "rear-head-left-hair-collar-sliver",
+          "xyxy": [
+            860,
+            240,
+            1040,
+            580
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-extra-rear-head-left-hair-collar-sliver.png",
+          "sha256": "9de4688dffdc87a38934e432e37f94d093bc2e83353886a6f27ed5fb466ac4dd"
+        },
+        {
+          "frame": 889,
+          "role": "raised-hand-cuff",
+          "xyxy": [
+            680,
+            70,
+            960,
+            400
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-extra-raised-hand-cuff.png",
+          "sha256": "d4be3da03d1ffdb1e71328f7fd074261f213c33972c10fe8a47f022040547229"
+        },
+        {
+          "frame": 889,
+          "role": "rear-torso-lower-hand",
+          "xyxy": [
+            780,
+            430,
+            1360,
+            790
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-extra-rear-torso-lower-hand.png",
+          "sha256": "4ef896d3d6a7930f2dbff3ddb96a91a2fad558b26d255cc443fc0c1b14980b5d"
+        },
+        {
+          "frame": 889,
+          "role": "foreground-face-hat",
+          "xyxy": [
+            900,
+            0,
+            1920,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-extra-foreground-face-hat.png",
+          "sha256": "b2d1fc744b1a096512d15c895b68080967e297fe45af13b6e796d049f36a0d3c"
+        },
+        {
+          "frame": 891,
+          "role": "rear-head-occluded-by-foreground",
+          "xyxy": [
+            850,
+            180,
+            1210,
+            580
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-extra-rear-head-occluded-by-foreground.png",
+          "sha256": "fee889808799124b984c1b48600155ffaa7667612ef9556c11336f7116770156"
+        },
+        {
+          "frame": 891,
+          "role": "rear-head-left-hair-collar-sliver",
+          "xyxy": [
+            860,
+            240,
+            1040,
+            580
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-extra-rear-head-left-hair-collar-sliver.png",
+          "sha256": "abf852f457cc622fbea716a4821f7807c09a009b20703682adf1c2fac06fbb43"
+        },
+        {
+          "frame": 891,
+          "role": "raised-hand-cuff",
+          "xyxy": [
+            680,
+            70,
+            960,
+            400
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-extra-raised-hand-cuff.png",
+          "sha256": "b191141e1dc8abae51501d0584497560adb7670923ba3157f43906f21fad1b86"
+        },
+        {
+          "frame": 891,
+          "role": "rear-torso-lower-hand",
+          "xyxy": [
+            780,
+            430,
+            1360,
+            790
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-extra-rear-torso-lower-hand.png",
+          "sha256": "0ac50bc5b0a0c13ca97b964a367e8c0cfaa7798640faa5958d23b4a91526772c"
+        },
+        {
+          "frame": 891,
+          "role": "foreground-face-hat",
+          "xyxy": [
+            900,
+            0,
+            1920,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-extra-foreground-face-hat.png",
+          "sha256": "3d1562a30d542ca46303114ca2e3883a2094754bdff960f810af426ad1bc34cd"
+        }
+      ]
+    },
+    {
+      "frames": [
+        907,
+        908
+      ],
+      "source_paths": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-source-actual.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-source-actual.png"
+      ],
+      "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-f0908-source-extra-ab-rgb-contours.png",
+      "delta_sha256": "eb34137475d3c8c25e2b398b67fd23ba5bffdc8ddfba54fb5fb2aea1e7d2538c",
+      "local": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-f0908-source-extra-local-ab.png",
+        "sha256": "ad311b3123f0032ca759d3fc8363089424699214377a55e0dc8ae24943347117",
+        "actual_pixels_max_rgb_gt_28": 399752,
+        "box_roles": [
+          {
+            "role": "foreground-head-hat-crop",
+            "xyxy": [
+              0,
+              0,
+              1300,
+              1080
+            ]
+          },
+          {
+            "role": "foreground-eyes-mouth",
+            "xyxy": [
+              0,
+              240,
+              1000,
+              960
+            ]
+          },
+          {
+            "role": "rear-night-profile-head",
+            "xyxy": [
+              850,
+              0,
+              1510,
+              930
+            ]
+          },
+          {
+            "role": "coat-hair-caption-occlusion",
+            "xyxy": [
+              0,
+              730,
+              1370,
+              1080
+            ]
+          },
+          {
+            "role": "left-edge-previous-background",
+            "xyxy": [
+              0,
+              0,
+              280,
+              1080
+            ]
+          }
+        ]
+      },
+      "crops": [
+        {
+          "frame": 907,
+          "role": "foreground-head-hat-crop",
+          "xyxy": [
+            0,
+            0,
+            1300,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-extra-foreground-head-hat-crop.png",
+          "sha256": "3ff1b1f2211140c1da3e2e217f26d2031377ad3f711dbd68ddc90ed4e6682c28"
+        },
+        {
+          "frame": 907,
+          "role": "foreground-eyes-mouth",
+          "xyxy": [
+            0,
+            240,
+            1000,
+            960
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-extra-foreground-eyes-mouth.png",
+          "sha256": "016bd478f7b4ead2041b754366a45b530df7d96d3d15cdb118f183803abf05c1"
+        },
+        {
+          "frame": 907,
+          "role": "rear-night-profile-head",
+          "xyxy": [
+            850,
+            0,
+            1510,
+            930
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-extra-rear-night-profile-head.png",
+          "sha256": "60750482a9121bf955da347a700b6ef76f19f4fd3ae76e1153502bab3b002cc7"
+        },
+        {
+          "frame": 907,
+          "role": "coat-hair-caption-occlusion",
+          "xyxy": [
+            0,
+            730,
+            1370,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-extra-coat-hair-caption-occlusion.png",
+          "sha256": "c2162490c0512282a2654226df58b93de7d37259d8b74d2ef40268a0d9075e15"
+        },
+        {
+          "frame": 907,
+          "role": "left-edge-previous-background",
+          "xyxy": [
+            0,
+            0,
+            280,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-extra-left-edge-previous-background.png",
+          "sha256": "fec9f79780c66dd21db37ebbe8bb2d86514da7a3a06dcd0f21c33546f538bc47"
+        },
+        {
+          "frame": 908,
+          "role": "foreground-head-hat-crop",
+          "xyxy": [
+            0,
+            0,
+            1300,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-extra-foreground-head-hat-crop.png",
+          "sha256": "6cd497d4a4b0b395aafc01683b2724be321c3f1be53fc380f54a368a8615447d"
+        },
+        {
+          "frame": 908,
+          "role": "foreground-eyes-mouth",
+          "xyxy": [
+            0,
+            240,
+            1000,
+            960
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-extra-foreground-eyes-mouth.png",
+          "sha256": "eade92a7d74d24836e45cd35e1f5d9932fc73d90def35fa0d23685aebf61f5ef"
+        },
+        {
+          "frame": 908,
+          "role": "rear-night-profile-head",
+          "xyxy": [
+            850,
+            0,
+            1510,
+            930
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-extra-rear-night-profile-head.png",
+          "sha256": "9f4a57f16b487ffdc2c045a222273967aba8a08f4487facf85ba857aadf98826"
+        },
+        {
+          "frame": 908,
+          "role": "coat-hair-caption-occlusion",
+          "xyxy": [
+            0,
+            730,
+            1370,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-extra-coat-hair-caption-occlusion.png",
+          "sha256": "d59bc795dce152c2dcd4fb28a0b30194343861e9dbd3bc0864f94d5a2c7fcca4"
+        },
+        {
+          "frame": 908,
+          "role": "left-edge-previous-background",
+          "xyxy": [
+            0,
+            0,
+            280,
+            1080
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-extra-left-edge-previous-background.png",
+          "sha256": "12123503fcc0d24b7f9d2305b67d73fe5d79e42615234faf537f48300e06d6c9"
+        }
+      ]
+    }
+  ],
+  "generated_pair": {
+    "frames": [
+      907,
+      908
+    ],
+    "paths": [
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0907-v1.png",
+      "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0908-v1.png"
+    ],
+    "hashes": [
+      "90e2a27b837f5ed1e21f343bef15b3df3ad1ac6c288cd02c2b46f52265e11ec1",
+      "3c82816ab10f795ea4e5c6af71656aa74c35749db3dc0ad60bfd15646f10351b"
+    ],
+    "delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-f0908-generated-ab-rgb-contours.png",
+    "delta_sha256": "43b3a6595f1f77c057566786b868d83d69f445b7d4ca82357cf8982079920cc9",
+    "same_native_size": [
+      1672,
+      941
+    ]
+  },
+  "actual_speed_acceptance": false,
+  "artwork_modified": false,
+  "global_selection_changed": false,
+  "aliases_created": false
+}

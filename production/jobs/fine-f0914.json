@@ -1,0 +1,26 @@
+{
+  "job_id": "fine-f0914",
+  "source_frame": 914,
+  "source_candidate": "src-0458",
+  "family": "cyan_profile",
+  "prompt": "Use case: precise-object-edit. Asset: ONE full 16:9 hand-drawn PV replacement cel for SOURCE FRAME 914. Image1 is exact CURRENT TARGET source frame: its composition, camera/crop, pose, eyes, mouth, position, occlusion and color grade are authoritative. Image2 is nearest same-shot Klee cel for identity, outfit, line style and continuity ONLY, not camera/pose. Image3 is actual BEFORE/CURRENT source spatial difference sheet; use CURRENT TARGET panel and red contours to understand true change, NOT as output illustration. Replace original character with Genshin Impact Klee default Shooting Spark outfit, pale blonde short twin side ponytails, pointed ears, red beret creamclover whitefeather, redcreamtrim coat, brown backpack if visible. Apply original scene's cool blue/cyan nightgrade to her whole design: red coat/hat dark muted purple-red, blonde hair cool pale blue, irises muted RED under bluegrade not green/source blue. Preserve RIGHT-facing strict PROFILE, exactly one OPEN eye slender foreshortened shape, tiny DOT closed mouth and upward/forward gaze; no front face, no smile, no closed eyes. Head in right/center original placement, body cropped below, no hands or legs invented. Original foreground warm hair sliver at far left present in image2 has EXITED frame in target image1; remove it entirely. Only current main Klee profile remains. Her short rear ponytail lifts/flows LEFT with original wind state but no long original hair retained. Preserve source simple flat shapes, thick uneven dark lines, original blue sky/tiny stars/crescent moon. REMOVE ALL subtitle/lettering completely; clean scarf and coat under them. No captions or title, no extra panel, no delta diagrams, no new objects. Do not use a uniform happy expression.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0458-f0914.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-031-clean.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\cyan-f0911-f0914.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0914.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-8a2c5597-eeca-4f46-a7e8-c18f448f2302.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Right-facing profile with one open muted-red eye and dot mouth; warm foreground fragment removed; no lettering."
+    ],
+    "flaws": [
+      "Wind ponytail contour and exact head/camera alignment need source-mask review."
+    ],
+    "temporal_review": "pending"
+  }
+}

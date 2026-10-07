@@ -1,0 +1,20 @@
+{
+  "source_frame": 743,
+  "name": "fine-f0743-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0325-f0743.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0740-red-eyes-sleeves-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0743.png"
+  ],
+  "prompt": "Use case: identity-preserve. Independently redraw CURRENT ORIGINAL image1 f0743 as ONE 16:9 PV Klee cel with exact source native small screen scale/location/crop, shoulder/elbow/wrist/fist and current open sleepy eyelid/brow/inverted-v mouth contours. Image2 is preceding Klee identity/design/short-twin-hair continuity ONLY; its wrists are too high, draw current SOURCE wrists. Image3 actual source A/B RGBdiffx4 and blue-before/red-current contours shows coherent independent line changes in current head, collars, shoulders, sleeves/cuffs/fingers, coat hems. Reproduce current changes, no held previous cel. Both arms extend diagonal DOWN-OUT; source small curled BROWN gloves centered x34% andx66%, y94%canvas, angular cream cuffs, shoulderstays source. Sourceeyes open with BLACK hooked detail at lower-left border/WHITE notch. Klee upper irises DARK RED and lowercoral RED, absolutely NO BLUE copied from source, no blankdiscs/dots, preserve hooked pupils. Exactly TWO SHORT blonde ponytails directly ear-root, pointedears, red creamclover beret whitefeather/plainroundbrowncloverbadge NOTHING dangling, no topcreamtuft; REMOVE original bunny forehead sleepmask. Same redcreamtrimcoat/creamcloveremblem/plaincreamcuffs/creamangular skirt narrowpinkruffle/redshorts; no pajamas/buttons/pockets/tubes/sleeveclovers. Native source upright body centered and legs cut atbottom, no enlargedhead or zoom. No props. Source solid lavender background, FLAT colors/thickrough PV blackline, no text/captions/panels/gradient/texture. Only current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-1485c56b-9b8d-4b77-8562-0d250511480a.png",
+  "output": "../generated/fine-f0743-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "not_adopted_body_alignment_and_excessive_tilt",
+  "accepted": false,
+  "review": "Independent sleeve/cuff/fist redraw and red eyes/hooks present, but character head/body enlarged and raised relative to preceding Klee/source. Base rejected for alignment; source-native repair needed.",
+  "known_issues": [
+    "Head/body enlargement and upward drift",
+    "Wrists still too high vs source"
+  ]
+}

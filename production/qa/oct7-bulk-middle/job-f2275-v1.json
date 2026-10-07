@@ -1,0 +1,76 @@
+{
+  "source_frame": 2275,
+  "cel": "cel-0438",
+  "source_candidate": "src-1262",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2275-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility.\nCurrent source frame f2275; original predecessor f2272. Actual observed current pose and changes: Centered full-body warm Klee standing with CLOSED eyes and tiny inverted-chevron puckered mouth; arms extend diagonally down/out with small curled fists, feet apart and full boots visible. Source rear actor is now completely visible. Second foreground actor only HUGE hair-tip fragment at far LEFT edge, no foreground face/head/body allowed; convert fragment into cropped short blonde Klee ponytail and do not keep pink original. Match current standing position and arm/leg silhouette. Red Klee coat cream collar/cuffs, bare thighs/brown boots rather than original long pyjama trousers. Violet sky with outline stars preserved no text.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1262-f2275.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-upper-head-hand-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1262-f2275.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-upper-head-hand-native.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2275,
+      "end": 2276,
+      "pts": 94.792,
+      "end_pts": 94.833,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "Centered full-body warm Klee standing with CLOSED eyes and tiny inverted-chevron puckered mouth; arms extend diagonally down/out with small curled fists, feet apart and full boots visible. Source rear actor is now completely visible. Second foreground actor only HUGE hair-tip fragment at far LEFT edge, no foreground face/head/body allowed; convert fragment into cropped short blonde Klee ponytail and do not keep pink original. Match current standing position and arm/leg silhouette. Red Klee coat cream collar/cuffs, bare thighs/brown boots rather than original long pyjama trousers. Violet sky with outline stars preserved no text.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-2240f658-0c61-44df-a0a7-1871e89d50b9.png",
+  "output_sha256": "c37bd872dbcf30f10b7783c97d8942716f280890f1a75560b5e1998ba473a053",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed centered standing closed-eye Klee puckered mouth, down-out arms fists full boots; left foreground blonde ponytail fragment but also extra feather/hat sliver not in original crop. Clothing detail denser and coat collar plush; unaccepted temporal check pending.",
+    "accepted": false
+  }
+}

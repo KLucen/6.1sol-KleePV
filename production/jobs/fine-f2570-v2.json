@@ -1,0 +1,42 @@
+{
+  "source_frame": 2570,
+  "source_cel": "cel-0499",
+  "source_candidate": "src-1532",
+  "output": "generated/fine-f2570-v2.png",
+  "status": "generated_repair_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Repair image1 full-body Klee drawing to EXACT CURRENT SOURCE SIZE AND CURL in image2. Image2 original is sole pose/framing authority; image3 identity only. Keep head at x0.65 y0.34, hat crown y0.255, but redraw raised knee/thigh folds and short dangling lower legs so BOTH brown boots end no lower than y0.735, screen-left boot lower than right. Source figure excluding tiny feather spans x0.57..0.785 y0.255..0.735. Current image1 boots end at0.815H, too low by0.08H: lift the legs and curl them closer toward the pillow, shorten visible exposed lower-leg segment to current source. Hands/pillow at y0.43, raised knee tops aroundy0.475 and cream hems aroundy0.61. Follow image2 skeleton and precise boundaries; preserve Klee red folded coat/cream simple hem, brown gloves and plain cream cuffs, small backpack, same two short blonde ear-root ponytails, redcreamclover beret whitefeather pointedears. Half-open red eyes EACH keep visible black pupil and white highlight. Lavender pillow hides mouth/chin, no puff. Plain purple background, no text or watermark. One independent full-frame16:9 cel.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2570.png",
+      "role": "edit_target_geometry_and_color_invariants"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1532-f2570.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "First repair kept pupil/occlusion but moved figure left and retained oversized lower body. Not adopted; a second source-first regeneration will be attempted."
+    ],
+    "issues": [
+      "Still oversized; shifted left from source."
+    ],
+    "scope": "single-cel static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "repair_of": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2570.png",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-7ec15141-ed2a-43b6-ae73-e58dcbc70a61.png"
+}

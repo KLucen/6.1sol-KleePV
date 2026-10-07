@@ -1,0 +1,251 @@
+{
+  "owner": "root_standing_missing_oct5",
+  "accepted": false,
+  "mode": "strict_source",
+  "selections": [
+    {
+      "source_frame": 1043,
+      "path": "generated/standing-f1043-fast-v1.png",
+      "review": "Root viewed current full source, native face, actual1038-to1043 AB/RGB/contours and full new output. Closed eyes/caret mouth, two gloves/two boots and connected short twin ponytails retained; independent small line differences visible. Head/hand placement approximates source; equal-height generated glove tips vs source slight asymmetry and costume simplification remain pending. No original-speed/compositing acceptance.",
+      "known_issues": [
+        "Source-to-new exact head/hand registration and amplitude, clothing proportion/style remain approximate draft.",
+        "Glove fingers, bootclover, collar and shade simplification differ across cels; originalspeed and final layered composite review not performed."
+      ],
+      "accepted": false,
+      "job": "jobs/standing-f1043-fast-2026-10-05-v1.json",
+      "output_sha256": "be34b32feaa6795a0f5a4b4372a5182d443d81b9a793c51d5cb5c43218f4f2bf",
+      "source_exposures": [
+        {
+          "start": 1043,
+          "end": 1048,
+          "pts": 43.458,
+          "end_pts": 43.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 1075,
+          "end": 1080,
+          "pts": 44.792,
+          "end_pts": 45,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "consecutive_review": "Exact current, previous/current actual spatial difference and immediate generated neighbor inspected statically; batch contact review below remains separate."
+    },
+    {
+      "source_frame": 1048,
+      "path": "generated/standing-f1048-fast-v1.png",
+      "review": "Viewed current full source/native closed eyes/caret face, actual1043-to1048 AB/RGB/contours and returned output. Left glove now higher than right, slight right/down head redrawing retained, two rooted short hair groups, two legs/boots coherent. Exact amplitude, head/hat size, extra knee shading and source-to-new foot placement remain draft issues; no composed/original-speed acceptance.",
+      "known_issues": [
+        "Source-to-new exact head/hand registration and amplitude, clothing proportion/style remain approximate draft.",
+        "Glove fingers, bootclover, collar and shade simplification differ across cels; originalspeed and final layered composite review not performed."
+      ],
+      "accepted": false,
+      "job": "jobs/standing-f1048-fast-2026-10-05-v1.json",
+      "output_sha256": "df5ce2e7034e69274abcddfbc28feeffb803ae2a065ab9318557aec0c08ac436",
+      "source_exposures": [
+        {
+          "start": 1048,
+          "end": 1053,
+          "pts": 43.667,
+          "end_pts": 43.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "consecutive_review": "Exact current, previous/current actual spatial difference and immediate generated neighbor inspected statically; batch contact review below remains separate."
+    },
+    {
+      "source_frame": 1053,
+      "path": "generated/standing-f1053-fast-v1.png",
+      "review": "Viewed current full source/native face, actual1048-to1053 spatial differences and new whole frame. Head descends; both sleeves/gloves move down and inward, closed eyes/caret mouth and fixed grounded boots retained. Exact amplitude and source-to-Klee silhouette remain approximate; no compositing/original-speed acceptance.",
+      "known_issues": [
+        "Source-to-new exact head/hand registration and amplitude, clothing proportion/style remain approximate draft.",
+        "Glove fingers, bootclover, collar and shade simplification differ across cels; originalspeed and final layered composite review not performed."
+      ],
+      "accepted": false,
+      "job": "jobs/standing-f1053-fast-2026-10-05-v1.json",
+      "output_sha256": "aa23ab855099fc9264e40b0c33b052c563640c5cc6229f0969f5b959c20d5dc2",
+      "source_exposures": [
+        {
+          "start": 1053,
+          "end": 1059,
+          "pts": 43.875,
+          "end_pts": 44.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "consecutive_review": "Exact current, previous/current actual spatial difference and immediate generated neighbor inspected statically; batch contact review below remains separate."
+    },
+    {
+      "source_frame": 1059,
+      "path": "generated/standing-f1059-fast-v1.png",
+      "review": "Viewed current full source/native tilted closed-eye face, actual1053-to1059 AB/RGB/contours, no-whole-face topologyboard and new output. Head tilts counterclockwise with shortponyroots/beret, moves up-left, both gloves open wider/up, boots grounded. Returned coat adds source-like buttons/pockets and moves cream hem onto shorts despite requested plain costume; registered as nonblocking cross-cel costume continuity issue for first complete draft, not artistic approval. Exact tilt/location amplitude approximate; final compositing/original-speed unperformed.",
+      "known_issues": [
+        "Source-like pockets/buttonrow/shorthem costume drift instead of continuous plaincoat; pending first-full-draft rework.",
+        "Glove fingers, bootclover, collar and shade simplification differ across cels; originalspeed and final layered composite review not performed."
+      ],
+      "accepted": false,
+      "job": "jobs/standing-f1059-fast-2026-10-05-v1.json",
+      "output_sha256": "ad8b9925a0de361ed51a4e82a6fe4b40d65e25d3fc20f13760a8a7d021ef8aa5",
+      "source_exposures": [
+        {
+          "start": 1059,
+          "end": 1064,
+          "pts": 44.125,
+          "end_pts": 44.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "consecutive_review": "Exact current, previous/current actual spatial difference and immediate generated neighbor inspected statically; batch contact review below remains separate."
+    },
+    {
+      "source_frame": 1064,
+      "path": "generated/standing-f1064-fast-v1.png",
+      "review": "Viewed full/native current source, actual1059-to1064 spatialdelta and full returned frame. Tilted closedeyes/caret retained; hands lower/inward; plainredcoat/continuouscreamcoathem restored, no buttons/pockets/creamshortbands. Exact furtherleft head amplitude weak, hem/shorts separation higher than upright1053 and glove fingers simplified; nonblocking draft continuity issues. No composed/originalspeed acceptance.",
+      "known_issues": [
+        "Source-to-new exact head/hand registration and amplitude, clothing proportion/style remain approximate draft.",
+        "Glove fingers, bootclover, collar and shade simplification differ across cels; originalspeed and final layered composite review not performed."
+      ],
+      "accepted": false,
+      "job": "jobs/standing-f1064-fast-2026-10-05-v1.json",
+      "output_sha256": "b660ff002f2dcf02ecb85340fd20081b6c6437825569015ce66d5fceb7587e69",
+      "source_exposures": [
+        {
+          "start": 1064,
+          "end": 1069,
+          "pts": 44.333,
+          "end_pts": 44.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "consecutive_review": "Exact current, previous/current actual spatial difference and immediate generated neighbor inspected statically; batch contact review below remains separate."
+    },
+    {
+      "source_frame": 1069,
+      "path": "generated/standing-f1069-fast-v1.png",
+      "review": "Viewed exact current full source/native tiltedclosedface, actual1064-to1069 AB/RGB/contours and full generated output. Both gloves descend subtly with redrawn edges; counterclockwise closedeyehead, two compactrootedpony groups, plainredcoat/creamcoathem and grounded boots maintained. Source head descent/leftshift amplitude remains approximate, glove fingers reduced, richer kneemark/bootclover retained, source-to-new clothinglength style differences pending. No originalspeed/compositing artacceptance.",
+      "known_issues": [
+        "Source-to-new exact head/hand registration and amplitude, clothing proportion/style remain approximate draft.",
+        "Glove fingers, bootclover, collar and shade simplification differ across cels; originalspeed and final layered composite review not performed."
+      ],
+      "accepted": false,
+      "job": "jobs/standing-f1069-fast-2026-10-05-v1.json",
+      "output_sha256": "e9ebf9d672cd11928bef91810c7d57a02bac1815dff01240d115c0cc1782330d",
+      "source_exposures": [
+        {
+          "start": 1069,
+          "end": 1075,
+          "pts": 44.542,
+          "end_pts": 44.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "consecutive_review": "Exact current, previous/current actual spatial difference and immediate generated neighbor inspected statically; batch contact review below remains separate."
+    }
+  ]
+}

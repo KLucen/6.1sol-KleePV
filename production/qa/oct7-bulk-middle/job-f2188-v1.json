@@ -1,0 +1,76 @@
+{
+  "source_frame": 2188,
+  "cel": "cel-0415",
+  "source_candidate": "src-1232",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2188-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility.\nCurrent source frame f2188; original predecessor f2182. Actual observed current pose and changes: One cool right-facing profile, heavy half-open eye tiny dot mouth held. Near cheek lock forms a broad angular outward bow to right with pointed tip lower near collar. Original long rear hair settles much closer to neck; replace its long mass with short Klee ponytail whose tips likewise settle inward, not long copied source hair. Face is in right-middle, hat fits at top, shoulders cropped by lower edge. No hands or second actor. Simple thin original PV lines and flat cyan-violet lighting, not a polished oversized portrait.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1232-f2188.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-eye-mouth-bangs-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1232-f2188.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-eye-mouth-bangs-native.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2188,
+      "end": 2194,
+      "pts": 91.167,
+      "end_pts": 91.417,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "One cool right-facing profile, heavy half-open eye tiny dot mouth held. Near cheek lock forms a broad angular outward bow to right with pointed tip lower near collar. Original long rear hair settles much closer to neck; replace its long mass with short Klee ponytail whose tips likewise settle inward, not long copied source hair. Face is in right-middle, hat fits at top, shoulders cropped by lower edge. No hands or second actor. Simple thin original PV lines and flat cyan-violet lighting, not a polished oversized portrait.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fb-e34c-7e51-87f3-7279e0fb6fa1\\exec-1055c584-83c5-4c89-a9a8-543c1f623708.png",
+  "output_sha256": "e6a8eedd99bbb93756462f3e48adfc89582972f76ff1ecf25b4c953c4e18e8bf",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Viewed output: cool Klee right profile, half-open eye dot mouth, short ponytail, hat dome inside frame though feather clipped; near lock current-phase curve responds. Profile and hat scale differ from prior draft; collar is scalloped/fur-like despite plain constraint and shading complexity increases. Deferred user feedback, compositor and temporal pending.",
+    "accepted": false
+  }
+}

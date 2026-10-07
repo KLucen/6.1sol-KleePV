@@ -1,0 +1,20 @@
+{
+  "job_id": "exec-bc7c0d5d-efcf-4d2f-9605-e00f8d4545d0",
+  "canonical_cel": "cel-0055",
+  "source_frame": 362,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. Create ONE full16:9 sourcePV animation replacement cel f0362. Reference1 CURRENT full source is absolute source geometry: keep face center at63.3 percent canvaswidth, closed eyelids near44.5 percentheight, mouth center59.3 percentheight, chin74 percentheight. Do not shift left or preserve earlier lower mouth. Ref2 cropped Klee head identity/color/line style only. Ref3 cropped cream cuffs/sparse peach-diamond collar/round scalloped medallion clothing vocabulary only, not geometry. Ref4 A/B source delta CURRENT top-right showing actual changes, not an output sheet. Klee default redcreamcoat/plaincreamcuffs/fullbrown gloves/redcreamcloverberet viewer-right feather/shorttwo blonde sideponytails/pointedears. Current changes: eyes NOW COMPLETELY CLOSED as two narrow black nearly-horizontal strokes, no visible iris/color/white eye. Mouth now short CLOSED horizontal black bar with tiny vertical up/down end ticks, no pink/open interior, NOT triangle or smile. Both hands still cup cheeks but fingers bend MORE inward and higher beside CLOSED eyelids, left inner digit curls around upper orange cheek at about54%x/48%y; right leading digit enters near74%x/47%y. Match exact source curl/finger-palm pressure and source wrist/cuff arrangement, left/right asymmetric. Current neck shorter, cuff rims raised and become larger frontal planes, torso cropped below. Top headgear cropped, source same right-side closeup with broad purple left space; face must stay63.3 percentwidth. Hair behind gloves, palms fingers FULLY brown, wrists within cream cuffs, two attached short ponytails only, no lower extra hair or stray brown artifacts. Source-style loose black contour and flat broad patches, orange cheek ovals, restrained small shadows, no gradients/game illustration. Remove ALL captions/lyrics/credits/speech bubbles/outline/letters/watermarks, clean purple everywhere outside character. No additions, missing-body invention, annotation or montage.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0110-f0362.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-head-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-collar-f0307.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0362.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0362.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0356 to f0362: 307006 pixels >=28; eyes fully close, tiny closed horizontal end-ticked mouth replaces triangle; inward fingers/cuffs rise.",
+  "inspection": "Fully closed black eye strokes, closed short horizontal end-ticked mouth, current inward curled palms correct semantically, no text. Face center x broadly correct, but mouth at67.2 percent height vs source59.3 and eyelids52.7 vs44.5, about70px down; gloves/cuffs similarly lower. Major source vertical-position drift flagged, not accepted; explicit numeric placement ignored."
+}

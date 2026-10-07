@@ -1,0 +1,16 @@
+{
+  "job_id": "exec-2b516c02-712c-4d00-9d5b-322163f8d4de",
+  "candidate_id": 47,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV source-cel-047 edit. Reference1 current source defines enlargedface/sleevecrop and newpose: head CLOCKWISEtilt, both eyelids slope DOWN toscreenRIGHT, RIGHTeye visibly LOWER than left, TWOeyes NOWOPEN tallrounded drowsyshapes, redburgundyirises insteadblue; narrowarched verticalO mouth; orangecheeks. Keep original tilt/framing and eye gaze/highlight positions, notpreviousclosedslits oruprighthead. Both diagonalraised sleeves/creamcuffs/partialbrown glovebases cutbysides, NO completehands/fingers visible insideframe. Klee identity ref2 and accepted046ref3STYLEONLY: redberetcreamfrontclover whitefeather, blondebob/SHORT exactlytwo attachedsideponytails atneck, pointedears, redcreamcoat patternedcollar/cuffs, brownFULLgloves. Sourcepose wins over previousneighbortemplate. No extra longblondrearhairwings/fourponytails. Loose darksourcePV lines, broadflatfill/orangecheeks/restrainedshadows, full lavenderstarbackdrop. Remove ALL originalcaptions/lyrics/text, no lettering. No unseen anatomy or props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-047.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-046.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-047.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "inspection": "Distinct tall open red eyes with right eye lower, clockwise tilt, narrow O mouth; source cropped raised sleeves/cuffs/glove bases, no invented hands. Tilt somewhat stronger than source; no text."
+}

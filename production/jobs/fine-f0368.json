@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-a0f63bd3-f9db-4f6d-9f99-a47a9ebce609",
+  "canonical_cel": "cel-0056",
+  "source_frame": 368,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. Edit ONLY reference1 CURRENT source PV cel f0368: replace original girl's character identity with default Klee, preserve exact source facial landmarks, current hands and all framing. ONE full16:9 canvas, no sheet. Reference2 is SMALL HAT-ONLY crop for Klee hat/hair color/loose-outline vocabulary only, contains no pose authority. Reference3 source A/B delta CURRENT top-right locates small actual redraw changes; do not render panels. Source current eyelids are COMPLETELY CLOSED two thick slightly curved black strokes at about43.7% imageheight, not eyes at53%; mouth CLOSED short horizontal black line with left tiny down-turn/right up-turn at57.7%height, not open triangle. Source head/face center63.3%width and chin72.5%height. Maintain original current source eye and mouth positions and cheek centers absolutely, not 'typical Klee portrait' proportions; keep hat/bangs ABOVE original source eyelids, don't push face down to fit hat. Red beret cream clover/viewer-right white feather takes source mask/headgear space, short blonde bangs replace current pink bangs in same upperface space, two attached short pale blonde ponytails/pointedears at source head sides. Red/cream coat, simple sparse peach diamond cream collar/roundscallopedcreammedallion, plaincreamcuffs, entirelybrown gloves and wrists. Current brown palms STILL cup both cheeks: fingers curl high inward at original source positions beside eyelids, left internaldigit wraps upper cheek, right upperdigit hooks inward, source asymmetric outline/currentfingerlobes/gaps and cuff rims mandatory. Follow current local lid stroke thickness, mouth end ticks, inner palm edge and slightly raised cuff/front sleeve outline according to source current and delta, don't freeze prior cel. Hair behind gloves, no duplicate lower hair wings. Source flat broad patches, loose black contour pressure, orange cheek ovals/limited shadows, no gradients/game shading. Remove all text/lyrics/credits/bubbles/outline/watermark leaving original clean purple canvas. Only character and current-source crop, no extra anatomy or props, no annotation.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0111-f0368.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-hat-only-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0368.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0368.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0362 to f0368: 187862 pixels >=28; closed eyelids slightly curved/thicker and higher, mouth shorter with altered end ticks, palms/cuffs subtly redrawn.",
+  "inspection": "Hat-only reference removes downward face drift: eyelids43.8 percent and mouth57.8 percent match source43.7/57.7; face center63.3 percent, both curled palms contacts broadly correct. Closed eyes/mouth and no text good. Collar medallion became four-lobed cream clover rather than established round scalloped disk and hat badge tassels omitted, clothing identity continuity repair flagged; draft."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "086-repair",
+  "prompt": "Use case: precise-object-edit. Edit IMAGE 1 ONLY. This is already a Klee replacement cel. Make exactly TWO changes: (1) Recolor the blue upper iris patches in both open eyes to Klee dark RED, lower iris patches warm red, matching color example in image 2. Preserve every eye contour, eyelid, pupil/highlight shape and openness from image1. (2) REMOVE the bottom Japanese and Chinese captions completely and reconstruct the red coat/brown panel underneath seamlessly. No text anywhere. Everything else must remain the same as image1: do not move or resize head, pose, arms, hands behind head, sleeves, hat, clover, feather, blonde hair, pointed ears, backpack, orange cheeks, large oval mouth, character outline, camera crop, lavender background or yellow stars. Image 2 is iris COLOR ONLY, not pose, face size or composition. Keep original full 16:9 image1 and exact pixel geometry as closely as possible. No new objects, no new shading, no restyling.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-086.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-087.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-086-red-eyes.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-f1647ad4-1d48-466c-a60c-6f544019bc3e.png",
+  "status": "generated",
+  "replaces_candidate": "086",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Open RED irises and caption removal accomplished.",
+      "Arms behind head and large oval mouth retained."
+    ],
+    "flaws": [
+      "Imagegen altered coat central detail and some head/hat contours slightly; not pixel-exact repair."
+    ],
+    "temporal_review": "pending"
+  }
+}

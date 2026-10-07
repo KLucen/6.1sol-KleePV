@@ -1,0 +1,12 @@
+{
+  "job_id": "fine-f1335-source-native-v2", "source_frame": 1335, "family": "seated_title_credits",
+  "references": [
+    {"path": "source_refs/src-0828-f1335.png", "role": "Current source edit target, exact pose and floor"},
+    {"path": "qa/title-repair-v6/source-head-f1335.png", "role": "Current head, eye, mouth and bangs landmarks"},
+    {"path": "generated/fine-f1329-source-native-v2.png", "role": "Klee identity and costume continuity only, not frozen pose"},
+    {"path": "qa/title-repair-v6/source-delta-f1329-f1335.png", "role": "Actual independent source contour and fabric changes"}
+  ],
+  "prompt": "Replace sole current source1335 seated human with Klee in-place, full1920x1080. Image1 current source and image2 currenthead own geometry; image3 only Klee identity/color/costume continuity, image4 actual source difference not output panels. Compared1329, current head shifts a little RIGHT, nearly upright with very slight clockwise lean; match current eye-axis, cheek, bangs and neck position, independently redraw current sleeve/coat/leg outlines and folds, not freeze previous cel. Both sleepy drooping eyes OPEN, mutedRED irises throughout no blue, tiny dot mouth, orange cheeks. Same small seated center-bottom figure x39..59%, y23..73%, boot soles y72.5%, both knees together raised, crossed red forearms over knees, BOTH HANDS HIDDEN behind opposing sleeves, no extra glove pair. ExactlyTWO blonde short ponytails stable roots and volume, pointed ears, red creamclover beret whitefeather; redcoat creamtrim draped aroundknees, brownroundboots creamtops, modest right backpack, same existing simple designs. Preserve source floor and body scale, source unequal handdrawn contours, flat patches, restrained PV shading. Keep large cream Japanese title behind figure unchanged as background, no added captions/text/crop. Return independent current1335 fullcel.",
+  "output": "generated/fine-f1335-source-native-v2.png", "status": "reviewed_static_temporal_pending", "accepted": false,
+  "review": "Current near-upright face, red eyes, tucked hands and consistent outfit retained; current sleeve, skirt and footwear redrawn. Source title pixels and temporal group acceptance pending."
+}

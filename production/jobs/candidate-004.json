@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-fa6e3358-fda3-4eb5-8b36-0c9222cefbe4",
+  "candidate_id": 4,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Edit reference image 1 source-cel-004 into one full 16:9 PV cel. Keep exact wide empty lavender canvas and SMALL central character scale: occupied silhouette about 22% of frame width and 49% of height, centered at x52%, y52%. Do not zoom in. Source pose is curled up sitting/floating with both knees tightly raised in front, both boots together under knees, elbows bent and two hands gripping a lavender pillow at the mouth. Preserve those exact folded legs and arms, drooping half-open sleepy eyes peeking above pillow, body hunched, pillow hiding mouth and torso. Both hands/front gloves overlap pillow side borders; knees sit in front of hidden torso below pillow. Replace pink hair/sleep mask/pajamas with default Klee from reference 2: red beret cream clover white feather, pale blonde short side ponytails/pointed ears, red cream-trim coat, brown gloves and boots. Coat folds naturally around raised knees; do not change crouch into standing. Reference 3 prior Klee pillow close-up sets colors and simplified rendering, not pose or size. Loose thick dark hand-drawn outlines, broad flat fills, source-like restrained shadows; no detailed embellishment. Preserve blank purple background and no text as in source. SINGLE full scene, no panels, no extra props.",
+  "references": [
+    "analysis/source_cels/source-cel-004.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-002.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-004.png",
+  "status": "generated",
+  "inspection": "Small centered folded-knees pose, both boots together, eyes above pillow retained. Two gloves on foreground pillow edges. Klee coat hem responds to raised knees; source pose/scale broadly matched."
+}

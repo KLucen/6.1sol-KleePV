@@ -1,0 +1,19 @@
+{
+  "job_id": "fine-f0570-coat-clover-v3",
+  "source_frame": 570,
+  "source_candidate": "src-0216",
+  "canonical_cel": "cel-0095",
+  "family": "prone_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0570-source-native-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0562-skin-shin-v3.png"
+  ],
+  "prompt": "Use case precise-object-edit. Image1 EDITTARGET KleePV570. Image2 continuityONLYsmallcreamcloverlocationoncoat. ChangeONLY one missingcostume identitymark: restore smallplainCREAM four-heartclover onthe RED LOWER sidecoatpanel belowbackpack, samepositionand4heartshapeassmallmarkinimage2 (aboutx825,y636of1920x1080, nothat norarm norboots). It waswronglyerased. Preserveimage1 entirecurrentdrawing unchanged: currentbothraisedfootrotation, crossedbarelegs, redshorts/creamruffle, brownbackpack, head/face/ponies/hat/eyes, brownfullgloves/plaincreamcuffs,pillow/canvasgeometry, rightemptylavender, lineweight/colors. Do notaddany otherclover/badge/charm, no resizing/poseediting. Onefull16:9cel, NOtext.",
+  "output": "../generated/fine-f0570-coat-clover-v3.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-7c16e869-44f2-4fa6-baed-ad243dc969b5.png"
+}

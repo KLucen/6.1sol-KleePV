@@ -1,0 +1,983 @@
+{
+  "owner": "full_early_resume",
+  "accepted": false,
+  "shared_selection_modified": false,
+  "assigned_cels": 208,
+  "missing_at_start": 107,
+  "first_missing": 766,
+  "last_missing": 1282,
+  "source_manifest_snapshot": "2026-10-03T09:56:28.047375+08:00",
+  "queue": [
+    {
+      "frame": 766,
+      "cel": "cel-0123",
+      "source_candidate": "src-0334",
+      "source_reference": "source_refs/src-0334-f0766.png",
+      "family": "front_small",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0766-source-v1.png"
+    },
+    {
+      "frame": 774,
+      "cel": "cel-0125",
+      "source_candidate": "src-0338",
+      "source_reference": "source_refs/src-0338-f0774.png",
+      "family": "front_small",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0774-source-v1.png"
+    },
+    {
+      "frame": 777,
+      "cel": "cel-0126",
+      "source_candidate": "src-0340",
+      "source_reference": "source_refs/src-0340-f0777.png",
+      "family": "front_small",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0777-source-v1.png"
+    },
+    {
+      "frame": 787,
+      "cel": "cel-0130",
+      "source_candidate": "src-0346",
+      "source_reference": "source_refs/src-0346-f0787.png",
+      "family": "shout_closeup",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0787-source-v1.png"
+    },
+    {
+      "frame": 810,
+      "cel": "cel-0138",
+      "source_candidate": "src-0356",
+      "source_reference": "source_refs/src-0356-f0810.png",
+      "family": "shout_closeup",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0810-source-v1.png"
+    },
+    {
+      "frame": 812,
+      "cel": "cel-0140",
+      "source_candidate": "src-0358",
+      "source_reference": "source_refs/src-0358-f0812.png",
+      "family": "star_dance",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0812-source-v1.png"
+    },
+    {
+      "frame": 814,
+      "cel": "cel-0141",
+      "source_candidate": "src-0360",
+      "source_reference": "source_refs/src-0360-f0814.png",
+      "family": "star_dance",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0814-source-v1.png"
+    },
+    {
+      "frame": 815,
+      "cel": "cel-0142",
+      "source_candidate": "src-0361",
+      "source_reference": "source_refs/src-0361-f0815.png",
+      "family": "star_dance",
+      "status": "saved_unaccepted",
+      "accepted": false,
+      "saved_asset": "generated/fullpv-early-f0815-source-v1.png"
+    },
+    {
+      "frame": 819,
+      "cel": "cel-0143",
+      "source_candidate": "src-0365",
+      "source_reference": "source_refs/src-0365-f0819.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 823,
+      "cel": "cel-0144",
+      "source_candidate": "src-0369",
+      "source_reference": "source_refs/src-0369-f0823.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 827,
+      "cel": "cel-0145",
+      "source_candidate": "src-0373",
+      "source_reference": "source_refs/src-0373-f0827.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 831,
+      "cel": "cel-0146",
+      "source_candidate": "src-0377",
+      "source_reference": "source_refs/src-0377-f0831.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 835,
+      "cel": "cel-0147",
+      "source_candidate": "src-0381",
+      "source_reference": "source_refs/src-0381-f0835.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 839,
+      "cel": "cel-0148",
+      "source_candidate": "src-0385",
+      "source_reference": "source_refs/src-0385-f0839.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 843,
+      "cel": "cel-0149",
+      "source_candidate": "src-0389",
+      "source_reference": "source_refs/src-0389-f0843.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 848,
+      "cel": "cel-0150",
+      "source_candidate": "src-0394",
+      "source_reference": "source_refs/src-0394-f0848.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 852,
+      "cel": "cel-0151",
+      "source_candidate": "src-0398",
+      "source_reference": "source_refs/src-0398-f0852.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 856,
+      "cel": "cel-0152",
+      "source_candidate": "src-0402",
+      "source_reference": "source_refs/src-0402-f0856.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 863,
+      "cel": "cel-0153",
+      "source_candidate": "src-0409",
+      "source_reference": "source_refs/src-0409-f0863.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 868,
+      "cel": "cel-0154",
+      "source_candidate": "src-0414",
+      "source_reference": "source_refs/src-0414-f0868.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 873,
+      "cel": "cel-0155",
+      "source_candidate": "src-0419",
+      "source_reference": "source_refs/src-0419-f0873.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 880,
+      "cel": "cel-0156",
+      "source_candidate": "src-0426",
+      "source_reference": "source_refs/src-0426-f0880.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 887,
+      "cel": "cel-0157",
+      "source_candidate": "src-0433",
+      "source_reference": "source_refs/src-0433-f0887.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 889,
+      "cel": "cel-0158",
+      "source_candidate": "src-0435",
+      "source_reference": "source_refs/src-0435-f0889.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 903,
+      "cel": "cel-0164",
+      "source_candidate": "src-0449",
+      "source_reference": "source_refs/src-0449-f0903.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 907,
+      "cel": "cel-0166",
+      "source_candidate": "src-0452",
+      "source_reference": "source_refs/src-0452-f0907.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 908,
+      "cel": "cel-0167",
+      "source_candidate": "src-0453",
+      "source_reference": "source_refs/src-0453-f0908.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 909,
+      "cel": "cel-0168",
+      "source_candidate": "src-0454",
+      "source_reference": "source_refs/src-0454-f0909.png",
+      "family": "star_dance",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 938,
+      "cel": "cel-0179",
+      "source_candidate": "src-0478",
+      "source_reference": "source_refs/src-0478-f0938.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 942,
+      "cel": "cel-0181",
+      "source_candidate": "src-0481",
+      "source_reference": "source_refs/src-0481-f0942.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 948,
+      "cel": "cel-0183",
+      "source_candidate": "src-0486",
+      "source_reference": "source_refs/src-0486-f0948.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 954,
+      "cel": "cel-0185",
+      "source_candidate": "src-0492",
+      "source_reference": "source_refs/src-0492-f0954.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 957,
+      "cel": "cel-0186",
+      "source_candidate": "src-0495",
+      "source_reference": "source_refs/src-0495-f0957.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 960,
+      "cel": "cel-0187",
+      "source_candidate": "src-0496",
+      "source_reference": "source_refs/src-0496-f0960.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 963,
+      "cel": "cel-0188",
+      "source_candidate": "src-0499",
+      "source_reference": "source_refs/src-0499-f0963.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 965,
+      "cel": "cel-0189",
+      "source_candidate": "src-0501",
+      "source_reference": "source_refs/src-0501-f0965.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 967,
+      "cel": "cel-0190",
+      "source_candidate": "src-0503",
+      "source_reference": "source_refs/src-0503-f0967.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 969,
+      "cel": "cel-0191",
+      "source_candidate": "src-0505",
+      "source_reference": "source_refs/src-0505-f0969.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 973,
+      "cel": "cel-0192",
+      "source_candidate": "src-0509",
+      "source_reference": "source_refs/src-0509-f0973.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 975,
+      "cel": "cel-0193",
+      "source_candidate": "src-0511",
+      "source_reference": "source_refs/src-0511-f0975.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 980,
+      "cel": "cel-0194",
+      "source_candidate": "src-0515",
+      "source_reference": "source_refs/src-0515-f0980.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 981,
+      "cel": "cel-0195",
+      "source_candidate": "src-0516",
+      "source_reference": "source_refs/src-0516-f0981.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 984,
+      "cel": "cel-0196",
+      "source_candidate": "src-0519",
+      "source_reference": "source_refs/src-0519-f0984.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 987,
+      "cel": "cel-0197",
+      "source_candidate": "src-0521",
+      "source_reference": "source_refs/src-0521-f0987.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 992,
+      "cel": "cel-0198",
+      "source_candidate": "src-0525",
+      "source_reference": "source_refs/src-0525-f0992.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 993,
+      "cel": "cel-0199",
+      "source_candidate": "src-0526",
+      "source_reference": "source_refs/src-0526-f0993.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 997,
+      "cel": "cel-0200",
+      "source_candidate": "src-0530",
+      "source_reference": "source_refs/src-0530-f0997.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 998,
+      "cel": "cel-0201",
+      "source_candidate": "src-0531",
+      "source_reference": "source_refs/src-0531-f0998.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1002,
+      "cel": "cel-0202",
+      "source_candidate": "src-0535",
+      "source_reference": "source_refs/src-0535-f1002.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1003,
+      "cel": "cel-0203",
+      "source_candidate": "src-0536",
+      "source_reference": "source_refs/src-0536-f1003.png",
+      "family": "cyan_profile",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1009,
+      "cel": "cel-0206",
+      "source_candidate": "src-0542",
+      "source_reference": "source_refs/src-0542-f1009.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1010,
+      "cel": "cel-0207",
+      "source_candidate": "src-0543",
+      "source_reference": "source_refs/src-0543-f1010.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1012,
+      "cel": "cel-0209",
+      "source_candidate": "src-0545",
+      "source_reference": "source_refs/src-0545-f1012.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1013,
+      "cel": "cel-0210",
+      "source_candidate": "src-0546",
+      "source_reference": "source_refs/src-0546-f1013.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1014,
+      "cel": "cel-0211",
+      "source_candidate": "src-0547",
+      "source_reference": "source_refs/src-0547-f1014.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1023,
+      "cel": "cel-0215",
+      "source_candidate": "src-0555",
+      "source_reference": "source_refs/src-0555-f1023.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1025,
+      "cel": "cel-0216",
+      "source_candidate": "src-0557",
+      "source_reference": "source_refs/src-0557-f1025.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1033,
+      "cel": "cel-0218",
+      "source_candidate": "src-0565",
+      "source_reference": "source_refs/src-0565-f1033.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1037,
+      "cel": "cel-0219",
+      "source_candidate": "src-0569",
+      "source_reference": "source_refs/src-0569-f1037.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1038,
+      "cel": "cel-0220",
+      "source_candidate": "src-0570",
+      "source_reference": "source_refs/src-0570-f1038.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1043,
+      "cel": "cel-0221",
+      "source_candidate": "src-0575",
+      "source_reference": "source_refs/src-0575-f1043.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1048,
+      "cel": "cel-0222",
+      "source_candidate": "src-0580",
+      "source_reference": "source_refs/src-0580-f1048.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1053,
+      "cel": "cel-0223",
+      "source_candidate": "src-0585",
+      "source_reference": "source_refs/src-0585-f1053.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1059,
+      "cel": "cel-0224",
+      "source_candidate": "src-0591",
+      "source_reference": "source_refs/src-0591-f1059.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1064,
+      "cel": "cel-0225",
+      "source_candidate": "src-0596",
+      "source_reference": "source_refs/src-0596-f1064.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1069,
+      "cel": "cel-0226",
+      "source_candidate": "src-0601",
+      "source_reference": "source_refs/src-0601-f1069.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1080,
+      "cel": "cel-0227",
+      "source_candidate": "src-0612",
+      "source_reference": "source_refs/src-0612-f1080.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1085,
+      "cel": "cel-0228",
+      "source_candidate": "src-0617",
+      "source_reference": "source_refs/src-0617-f1085.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1091,
+      "cel": "cel-0229",
+      "source_candidate": "src-0623",
+      "source_reference": "source_refs/src-0623-f1091.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1097,
+      "cel": "cel-0230",
+      "source_candidate": "src-0629",
+      "source_reference": "source_refs/src-0629-f1097.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1100,
+      "cel": "cel-0231",
+      "source_candidate": "src-0632",
+      "source_reference": "source_refs/src-0632-f1100.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1102,
+      "cel": "cel-0232",
+      "source_candidate": "src-0634",
+      "source_reference": "source_refs/src-0634-f1102.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1106,
+      "cel": "cel-0233",
+      "source_candidate": "src-0638",
+      "source_reference": "source_refs/src-0638-f1106.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1113,
+      "cel": "cel-0234",
+      "source_candidate": "src-0645",
+      "source_reference": "source_refs/src-0645-f1113.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1117,
+      "cel": "cel-0235",
+      "source_candidate": "src-0649",
+      "source_reference": "source_refs/src-0649-f1117.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1118,
+      "cel": "cel-0236",
+      "source_candidate": "src-0650",
+      "source_reference": "source_refs/src-0650-f1118.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1123,
+      "cel": "cel-0237",
+      "source_candidate": "src-0655",
+      "source_reference": "source_refs/src-0655-f1123.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1125,
+      "cel": "cel-0238",
+      "source_candidate": "src-0657",
+      "source_reference": "source_refs/src-0657-f1125.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1129,
+      "cel": "cel-0239",
+      "source_candidate": "src-0661",
+      "source_reference": "source_refs/src-0661-f1129.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1133,
+      "cel": "cel-0240",
+      "source_candidate": "src-0665",
+      "source_reference": "source_refs/src-0665-f1133.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1134,
+      "cel": "cel-0241",
+      "source_candidate": "src-0666",
+      "source_reference": "source_refs/src-0666-f1134.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1140,
+      "cel": "cel-0242",
+      "source_candidate": "src-0672",
+      "source_reference": "source_refs/src-0672-f1140.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1144,
+      "cel": "cel-0243",
+      "source_candidate": "src-0676",
+      "source_reference": "source_refs/src-0676-f1144.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1147,
+      "cel": "cel-0244",
+      "source_candidate": "src-0679",
+      "source_reference": "source_refs/src-0679-f1147.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1154,
+      "cel": "cel-0245",
+      "source_candidate": "src-0686",
+      "source_reference": "source_refs/src-0686-f1154.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1162,
+      "cel": "cel-0247",
+      "source_candidate": "src-0694",
+      "source_reference": "source_refs/src-0694-f1162.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1164,
+      "cel": "cel-0248",
+      "source_candidate": "src-0696",
+      "source_reference": "source_refs/src-0696-f1164.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1172,
+      "cel": "cel-0250",
+      "source_candidate": "src-0704",
+      "source_reference": "source_refs/src-0704-f1172.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1187,
+      "cel": "cel-0254",
+      "source_candidate": "src-0719",
+      "source_reference": "source_refs/src-0719-f1187.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1195,
+      "cel": "cel-0256",
+      "source_candidate": "src-0727",
+      "source_reference": "source_refs/src-0727-f1195.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1199,
+      "cel": "cel-0257",
+      "source_candidate": "src-0731",
+      "source_reference": "source_refs/src-0731-f1199.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1203,
+      "cel": "cel-0258",
+      "source_candidate": "src-0735",
+      "source_reference": "source_refs/src-0735-f1203.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1211,
+      "cel": "cel-0260",
+      "source_candidate": "src-0743",
+      "source_reference": "source_refs/src-0743-f1211.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1216,
+      "cel": "cel-0261",
+      "source_candidate": "src-0748",
+      "source_reference": "source_refs/src-0748-f1216.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1217,
+      "cel": "cel-0262",
+      "source_candidate": "src-0749",
+      "source_reference": "source_refs/src-0749-f1217.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1221,
+      "cel": "cel-0263",
+      "source_candidate": "src-0753",
+      "source_reference": "source_refs/src-0753-f1221.png",
+      "family": "star_gestures",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1225,
+      "cel": "cel-0264",
+      "source_candidate": "src-0757",
+      "source_reference": "source_refs/src-0757-f1225.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1229,
+      "cel": "cel-0265",
+      "source_candidate": "src-0761",
+      "source_reference": "source_refs/src-0761-f1229.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1234,
+      "cel": "cel-0266",
+      "source_candidate": "src-0766",
+      "source_reference": "source_refs/src-0766-f1234.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1241,
+      "cel": "cel-0267",
+      "source_candidate": "src-0773",
+      "source_reference": "source_refs/src-0773-f1241.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1248,
+      "cel": "cel-0268",
+      "source_candidate": "src-0780",
+      "source_reference": "source_refs/src-0780-f1248.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1256,
+      "cel": "cel-0269",
+      "source_candidate": "src-0788",
+      "source_reference": "source_refs/src-0788-f1256.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1264,
+      "cel": "cel-0271",
+      "source_candidate": "src-0796",
+      "source_reference": "source_refs/src-0796-f1264.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1267,
+      "cel": "cel-0272",
+      "source_candidate": "src-0799",
+      "source_reference": "source_refs/src-0799-f1267.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1274,
+      "cel": "cel-0274",
+      "source_candidate": "src-0806",
+      "source_reference": "source_refs/src-0806-f1274.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1278,
+      "cel": "cel-0275",
+      "source_candidate": "src-0810",
+      "source_reference": "source_refs/src-0810-f1278.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    },
+    {
+      "frame": 1282,
+      "cel": "cel-0276",
+      "source_candidate": "src-0814",
+      "source_reference": "source_refs/src-0814-f1282.png",
+      "family": "raised_arms_closeup",
+      "status": "pending",
+      "accepted": false
+    }
+  ]
+}

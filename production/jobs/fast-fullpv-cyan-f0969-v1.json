@@ -1,0 +1,75 @@
+{
+  "job_id": "fast-fullpv-cyan-f0969-v1",
+  "source_frame": 969,
+  "canonical_cel": "cel-0191",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-cyan-f0969-v1.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-7e0c0881-4433-4b73-8465-bb5714c39b85.png",
+  "asset_sha256": "83008c7de39177b3e22342a4d40929608b408fc9850acc38d6022fcd8174352a",
+  "static_review": "Actual current source/face/2D delta and complete tool output viewed. Near short rooted group visibly lifts/back-left from967, no huge long source hair sheet or detached third group. One fully closed eye and tiny mouth, two-leaf collar, source right-facing crop. Hair wind amplitude adapted to short Klee group, not source-long-hair geometry claimed exact.",
+  "known_issues": ["Near short group extends further than prompt20-30px expectation; static root remains attached, original-speed severity pending", "High-face registration versus source remains approximate", "Minimal source expression/hair/stroke differences and extra shading remain draft"],
+  "blocking_static_findings": [],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0967-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-f0969-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual current source full cel: pose/crop/current facial position",
+    "Actual current native face: expression only",
+    "Previous newly drawn Klee: short rooted identity/collar topology only, unaccepted and not pose registration authority",
+    "Actual previous/current source A/B RGB and contours: current wind and stroke changes"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 independent Klee replacement cel. Image1 CURRENT ORIGINAL EDIT TARGET exclusively decides current right-facing profile pose, head/neck/shoulder geometry, HIGH facial landmark placement and top/bottom crop. Image2 CURRENT native face decides visible eye/mouth expression only. Image3 previous Klee cel decides short EAR-ROOTED hair, beret/feather and plain TWO-LEAF collar topology/color ONLY; do not freeze its pose, do not copy its approximate low face registration. Image4 actual original previous/current A/B RGB difference and two-color contour overlay decides current changes. Keep source eye near x65.5% y38.5%, nose74%x41%y, mouth71%x51%y, chin70%x59%y; beret/feather crop OFF TOP, do not lower or shrink head to fit accessories. One Klee under cyan/lavender night light: cool pale-blonde hair, two SHORT neck/collar-length ear-rooted side groups with far group occluded correctly, one pointed near ear, muted burgundy red cream-clover beret with one clipped feather, simple cream two-leaf collar and burgundy coat shoulders exiting bottom. No original animal mask/animal ears or long pink hair sheet, curled forelock, third detached fan, ornate diamonds/pompoms, invented hands/legs/second face. Preserve original purple-left/blue-cyan-right sky and tiny stars/crescent framing. Simple flat hand-drawn PV color areas, irregular thin dark lines, minimal shading. OMIT ALL TEXT for separate original glyph composition. ONE CURRENT cel, no collage, hold, mirror, morph, optical flow or crossfade. CURRENT SPECIFIC CHANGES: Frame969, original967->969 wind clearly strengthens BACK/LEFT and lifts: source huge long rear-hair outline sweeps up/left, fringe shifts slightly left, collar shoulder bends with same wind. Adapt to SAME SHORT Klee near group: root fixed beside ear, tip lifted up/left by a visibly moderate amount (about20-30px at1920width), no long hair growth/third fan. Near front fringe tips respond subtly, collar/shoulder edge tilts a little, do not freeze967. Current eye FULLY CLOSED: thicker near-horizontal dark eyelid slightly higher with gently upward-tilted thin brow. Tiny hooked-dot mouth, no iris/open eye/smile. Source jaw/chin corner slightly sharper, head remains high and facing right.",
+  "source_exposures": [
+    {
+      "start": 969,
+      "end": 971,
+      "pts": 40.375,
+      "end_pts": 40.458,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 971,
+      "end": 973,
+      "pts": 40.458,
+      "end_pts": 40.542,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.000617504119873,
+            -0.00010010008554672822,
+            -0.49446260929107666
+          ],
+          [
+            0.00010010008554672822,
+            1.000617504119873,
+            -0.45020511746406555
+          ]
+        ]
+      }
+    }
+  ]
+}

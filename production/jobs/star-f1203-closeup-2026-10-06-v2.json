@@ -1,0 +1,74 @@
+{
+  "id": "star-f1203-closeup-2026-10-06-v2",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1203,
+  "source_cel": "cel-0258",
+  "source_reference": "source_refs/src-0735-f1203.png",
+  "source_exposures": [
+    {
+      "start": 1203,
+      "end": 1207,
+      "pts": 50.125,
+      "end_pts": 50.292,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+      "role": "Current whole pose and framing, lower head/arms."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+      "role": "Closed angular eyes; tiny closed caret/check/W mouth, not prior horizontal mouth."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+      "role": "Actual lower hands/cuffs, altered mouth and shoulder redraw."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+      "role": "Current lower forehead gestures, cuffs/elbows/body and overlap."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE WHOLE independent landscape16:9 original-PV replacement cel. Image1 current original f1203 decides framing, exact current pose, contour, scale. Image2 exact native facial expression; image3 actual AB RGB and contours source redraw; image4 current native hands and body. Replace original animal-hat pink-haired character with Klee: red beret/cream clover/white feather/brown badge, short blonde bangs/pointed ears, EXACTLY TWO short shoulder ponytails, simple red coat/cream diamond-patterned collar/chest clover medallion/cream cuffs/brown gloves. Dark organic linework, mostly flat pastel handdrawn colors matching original PV. CURRENT mouth is a tiny tilted CLOSED checkmark/W at face center: short left descending diagonal, right rising diagonal, little left downward spur, asymmetrical shallow V. It is NOT a horizontal line with pinched vertical ends. Faithfully follow image2 current mouth. Both eyes fully closed angular > < strokes/no iris, orange cheeks. Head centered upright crowny210/chiny765. Both forehead-pointing gloved hands lower than previous cel: LEFT fingertipx918,y525 diagonal UP-RIGHT, knucklesx820,y650,cuffx620..780,y605..795. RIGHT fingertipx1130,y480 diagonal UP-LEFT, knucklesx1240,y600,cuffx1260..1450,y575..755. Two continuous red sleeves with broad elbowsleftx450,y820 andrightx1530,y840, shoulders lower. Foreground gloves overlap bangs, not eyes. Exactly two coherent brown-gloved hands/source visible fingers; no extra arms/hair/long pink locks. Independently redraw current source with current tilted W-mouth, not previous expression. Purple source backdrop/currentstars, NO lyrics/text/watermark; exact source layers restored separately. No collage, morph, flip, paste or extra objects.",
+  "output": "generated/star-f1203-closeup-v2.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Same current source/native refs actually viewed; first call retained prior horizontal mouth. One fresh-source correction without whole Klee anchor, current native tilted check/W controls expression.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c6ed0ec3-40bf-466b-8d2d-af5a99e6db7f.png",
+  "output_sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "passed": [
+      "Current V/check-shaped mouth replaces frozen horizontal pinched expression",
+      "Two inward index gestures, coherent sleeves and two ponies"
+    ],
+    "deferred": [
+      "Mouth short spur absent, cuff/hand/head registration approximate",
+      "Costume/hat detail drift relative to neighboring ornate coat; defer first-cut rework",
+      "Real source layers and actual-speed review pending"
+    ],
+    "accepted": false
+  }
+}

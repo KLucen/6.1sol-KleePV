@@ -1,0 +1,129 @@
+{
+  "job_id": "middle-continuation-f2065-2026-10-05-v1",
+  "source_frame": 2065,
+  "source_cel": "cel-0381",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1135-f2065.png",
+  "source_exposures": [
+    {
+      "start": 2065,
+      "end": 2069,
+      "pts": 86.042,
+      "end_pts": 86.208,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Edit CURRENT image1 into ONE full independent Klee PV cel f2065, strict-source 1920x1080 landscapeaspect. Change only the actor into Klee.\nREF ROLES: Image1 current source governs pose/facing/expression/crop/visibility/occlusion and all background/captions/particles. Image2 Klee identity redberet/brown band/oneclover/onefeather, two SHORT rooted blonde ponies and plainredcoat only NOT stance/face visibility. Image3 actual original f2061->2065 A/B RGBdiff contours, RIGHT current. Image4 CURRENT original native keyparts; image5 original native keyparts A/B RGBdiff/contours. Exactly one actor; no giantface/fragments/border.\nThis is a clear TURN farther AWAY toward rear 3/4, not prior side profile. Head x1055..1385 y235..540, viewer sees mostly rear hair/near pointedear, only extremely narrow left face sliver aroundx1105..1150 y340..405 partly hidden by bang. Keep current dark eyelid/eye slit as source; no big red exposed eye, no second eye, do not invent smile or new mouth beyond source visibility. Current head moves LEFT and DOWN vs previous and body strongly leans down-right from head to plantedfoot. Never copy image2 priorupright face.\nNEAR hand is foreshortened prominent OPEN palm atx1050..1160 y562..637, fingers fan towardUP-LEFT, palm facesviewer, broad cream cuff aroundx1080..1195 y542..625; this arm bends towardcamera and must NOT extend diagonally down-left. FAR/right hand mostly HIDDEN behind body/hair; only tiny cream cuff/short fingertip wedge nearx1310..1368 y508..565; do NOT invent full second spread palm. Exactly2 hands with original farhand occlusion.\nPlanted leg points steeply down-right fromhip x1150..1250 y710 tofootx1240..1415 y1000..1050. Rear leg curls UP-back: bentknee x1290..1340 y775; raisedshoe x1370..1465 y690..843 shows broad tilted sole facing viewer, overlaps rear shin. Preserve bend, supportfootplacement, foreshortening and occlusion. No generic skip pose.\nKlee pale blonde bangs and EXACTLY TWO short compact earroot ponies, connected through current turn, not long peach windhair. Redberet plain brownband ONE cream crown clover ONEwhitefeather follows turnedhead. Visible near pointedear only. Plain red coat folded creamcollar/cuffs/hem, plainbrowngloves/boots; small plain brown backpack on rearbody if currentview permits. Remove mask/headband/pajamas/bunny pocket and source longhair. No coatbuttons/pockets, no decorative clovers on clothes/boots/bag, no ornate embroidery.\nAll original current lavender flatbackground, cream outlinedstars, yellow particles remain atcurrentpositions including near mouth and behindbody, bottomcenter Japanese \"\u611b\u3057\u3066\u305f\u3044\" above Chinese \"\u60f3\u8981\u53bb\u7231\" completeclear original strokes. Keep current thin loose handdrawn blacklines/broadflatfills minimalshadow no gradients/gloss/3D. Complete wholecel, no collage/mirror/morph/warp, no heldearlierstance.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1135-f2065.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/klee-f2058-main-identity-only-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/actual-source-f2061-f2065-AB-RGB-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2065-source-native-keyparts.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2065-keyparts-AB-RGB-contours.png"
+  ],
+  "reference_roles": [
+    "CURRENT full original sole pose/view/expression/occlusion/background/caption authority",
+    "Klee identity/costume/short blonde hair topology only, not stance/visibility",
+    "Source actual previous/current A/B RGBdiff contours current on RIGHT",
+    "CURRENT original native head-face, palms/cuffs, knee-boots",
+    "Original native keyparts previous/current A/B RGB x4 contours"
+  ],
+  "output": "generated/middle-continuation-f2065-2026-10-05-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_blocking_extra_pony_unselected",
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "actual_sequential_decode_reference_equal": true,
+    "visible_people": 1,
+    "face": "narrow leftface sliver rear3/4view mostlyhair; darkeyelidslit",
+    "hands": "nearopenforeshortenedpalm upperleft, farcuff/tinyfingers mostlyoccluded",
+    "legs": "strongdownright support, raisedrear sole facesviewer"
+  },
+  "ordered_reference_metadata": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1135-f2065.png",
+      "sha256": "f2cf69940032d9d41f10585c0b19d45fffdc376069578585d615f752a19367e7",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "role": "CURRENT full original sole pose/view/expression/occlusion/background/caption authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-f2058-main-identity-only-crop.png",
+      "sha256": "9a756b338160544d3e421695f72d2b46f5338d6ba9d8307ccbaadf7e69517727",
+      "canvas": [
+        670,
+        945
+      ],
+      "role": "Klee identity/costume/short blonde hair topology only, not stance/visibility"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2061-f2065-AB-RGB-contours.png",
+      "sha256": "db3c5777253905cd45d445656333053e6560c129c0e527a81a51caf2d7532980",
+      "canvas": [
+        3840,
+        2240
+      ],
+      "role": "Source actual previous/current A/B RGBdiff contours current on RIGHT"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2065-source-native-keyparts.png",
+      "sha256": "97d5fe9da21f60563731c63895318854b5c3d3a25538879dabf4d13f2a3a4881",
+      "canvas": [
+        1120,
+        1384
+      ],
+      "role": "CURRENT original native head-face, palms/cuffs, knee-boots"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2065-keyparts-AB-RGB-contours.png",
+      "sha256": "1ca9452d0cdbfb14fb51213f4ddb76cde6e301a607f553d0c8e1b1731ffe224d",
+      "canvas": [
+        4480,
+        1384
+      ],
+      "role": "Original native keyparts previous/current A/B RGB x4 contours"
+    }
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-94757690-73e8-47b2-9b59-7bcd302f4a38.png",
+  "tool_output_metadata": {
+    "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-94757690-73e8-47b2-9b59-7bcd302f4a38.png",
+    "sha256": "34dd6d596bdffbf6fb81d2c505703e08647f018bb435a3e1584c08d8fc57b411",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "workspace_output_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-v1.png",
+    "sha256": "34dd6d596bdffbf6fb81d2c505703e08647f018bb435a3e1584c08d8fc57b411",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "output_sha256": "34dd6d596bdffbf6fb81d2c505703e08647f018bb435a3e1584c08d8fc57b411",
+  "static_review_reason": "Extra third descending blonde cluster; superseded by targeted hair-v2 repair",
+  "known_issues": [
+    "Blocking extra third pony; unselected baseline preserved"
+  ],
+  "ordered_reference_metadata_phase": "before_builtin_call",
+  "actual_builtin_call_submitted": true
+}

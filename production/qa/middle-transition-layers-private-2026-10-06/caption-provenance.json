@@ -1,0 +1,799 @@
+{
+  "accepted": false,
+  "authorization": "User allows clear same-line original glyph reconstruction with original wording, position and timing, and minor glyph differences.",
+  "source_interval": [
+    2121,
+    2145
+  ],
+  "japanese": "\u30db\u30f3\u30c8\u306f\u3053\u306e\u307e\u307e\u611b\u3057\u3066\u305f\u3044",
+  "chinese": "\u5176\u5b9e\u662f\u60f3\u5c31\u8fd9\u6837\u7231\u4e0b\u53bb",
+  "layer": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-transition-layers-private-2026-10-06\\middle-same-line-f2141-real-caption.npz",
+    "sha256": "5b1b67b934ec79683118bd08a94c5f6abbab253f1afb61691f2c1a739ce39f4e",
+    "region": [
+      695,
+      950,
+      1225,
+      1052
+    ],
+    "lines": [
+      {
+        "frame": 2141,
+        "source_region": [
+          700,
+          954,
+          1220,
+          994
+        ],
+        "integer_translation": [
+          0,
+          0
+        ],
+        "destination_region": [
+          700,
+          954,
+          1220,
+          994
+        ],
+        "core_pixels": 1603,
+        "foreground_bgr": [
+          201.0,
+          220.0,
+          253.0
+        ],
+        "source_sha256": "537d8c827437a22bda7a9d4e121804f2b47cd68f130dcce593368558961a92b9"
+      },
+      {
+        "frame": 2141,
+        "source_region": [
+          744,
+          1002,
+          1176,
+          1047
+        ],
+        "integer_translation": [
+          0,
+          0
+        ],
+        "destination_region": [
+          744,
+          1002,
+          1176,
+          1047
+        ],
+        "core_pixels": 3971,
+        "foreground_bgr": [
+          205.0,
+          222.0,
+          246.0
+        ],
+        "source_sha256": "537d8c827437a22bda7a9d4e121804f2b47cd68f130dcce593368558961a92b9"
+      }
+    ]
+  },
+  "registration": {
+    "2121": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.4672489082969432,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.4672489082969432,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.753210778141526,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.753210778141526,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2122": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6444167186525265,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6444167186525265,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7637874590783178,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7637874590783178,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2123": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6812227074235808,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6812227074235808,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7564845127171997,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7564845127171997,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2124": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.662507797878977,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.662507797878977,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7590027700831025,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7590027700831025,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2125": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.678727386150967,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.678727386150967,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7597582472928733,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7597582472928733,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2126": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.670617592014972,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.670617592014972,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7630319818685469,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7630319818685469,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2127": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6512788521522146,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6512788521522146,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.759506421556283,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.759506421556283,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2128": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6431690580162196,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6431690580162196,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7605137245026442,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7605137245026442,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2129": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6481597005614473,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6481597005614473,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7600100730294637,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7600100730294637,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2130": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6699937616968185,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6699937616968185,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7579954671367414,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7579954671367414,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2131": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6631316281971303,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6631316281971303,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7602618987660539,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7602618987660539,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2132": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6593886462882096,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6593886462882096,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7630319818685469,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7630319818685469,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2133": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6687461010605116,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6687461010605116,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7726013598589776,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7726013598589776,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2134": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6381784154709919,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6381784154709919,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7746159657516998,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7746159657516998,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2135": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6519026824703681,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6519026824703681,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7907328128934777,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7907328128934777,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2136": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6132252027448534,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6132252027448534,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7647947620246789,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7647947620246789,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2137": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.620711166562695,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.620711166562695,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7713422311760262,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7713422311760262,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2138": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6506550218340611,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6506550218340611,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7824225635859985,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7824225635859985,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2139": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6568933250155957,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6568933250155957,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7856962981616721,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7856962981616721,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2140": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.6519026824703681,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.6519026824703681,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.7778897003273735,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.7778897003273735,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2141": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.9993761696818465,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.9993761696818465,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.9879123646436666,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.9879123646436666,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2142": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.9993761696818465,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.9993761696818465,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.9879123646436666,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.9879123646436666,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2143": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.8615096693699313,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.8615096693699313,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.8914631075295896,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.8914631075295896,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    },
+    "2144": {
+      "japanese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.8615096693699313,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.8615096693699313,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      },
+      "chinese": {
+        "integer_translation": [
+          0,
+          0
+        ],
+        "observed_real_core_match": 0.8914631075295896,
+        "noisy_best_translation": [
+          0,
+          0
+        ],
+        "noisy_best_match": 0.8914631075295896,
+        "best_over_identity_difference": 0.0,
+        "identity_noise_tolerance": 0.012
+      }
+    }
+  },
+  "method": "Imported real_line/build only with private HERE. JP and CN independently checked against each actual target; integer translation only. Alpha estimated from real donor ink and an inpainted donor plate. No AI text, guessed strokes, scale, or warp.",
+  "donor_actual_static_view": "Root and this agent viewed full f2141 source before extraction; native extracted glyph preview still requires actual view.",
+  "actual_speed_review": "not performed"
+}

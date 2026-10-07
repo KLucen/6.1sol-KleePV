@@ -1,0 +1,12 @@
+{
+  "job_id": "opening-f0028",
+  "source_frame": 28,
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0007-f0028.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\opening-f0025.png"
+  ],
+  "prompt": "Edit one 16:9 animation cel. Image 1 is the CURRENT ORIGINAL PV drawing and determines the exact framing, eye state, pose and occlusion. Image 2 is the immediately preceding Klee cel and determines Klee identity and drawing style only. Replace the original partial head at the RIGHT with Klee from Genshin Impact, keeping the exact same extreme crop and diagonal lavender pillow. This current cel has ONE OPEN EYE near the bottom edge, a narrow vertical RED iris beneath a thick dark upper eyelid, with its upper part partially covered by blonde bangs. Do not copy the previous closed eye. Match the current source eye placement, angle, visible eye white, eyebrow and tiny cheek fragment. No mouth, shoulder, arms or body is visible; do not invent them or reveal the second eye. Keep Klee's red beret, cream clover and white feather on the same side as the preceding Klee image, pale blonde bangs, short side ponytails and pointed ear clipped by the right edge. Follow the original pillow's diagonal boundary, cream border and blue patches; do not move or reshape the pillow. Flat hand-drawn PV colors, loose dark outlines, orange cheek, restrained single flat shadow; avoid detailed game rendering. Entire frame with NO text, subtitles, titles, credits, lettering or labels whatsoever. The original text will be restored separately. Preserve background composition, no new objects, no additional hair tufts.",
+  "output": "../generated/opening-f0028.png",
+  "status": "generated",
+  "caption_cleanup_required": false
+}

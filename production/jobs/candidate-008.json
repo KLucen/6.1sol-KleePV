@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-567ae075-4fb5-40b3-8ddb-f2fb5ad00a1d",
+  "candidate_id": 8,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One full wide 16:9 hand-drawn PV cel, edit image1 source-cel-008. IMPORTANT crop: character has fallen almost COMPLETELY OUT OF FRAME. There is NO visible face, eyes, hat, torso, hands, legs or coat in the source. Only a trailing section of pink hair enters along bottom edge and bottom-right, with curved tips reaching upward around x43%,y54%; a tiny cream outlined puff floats around x29%,y63%. Replace only that visible trailing hair region with Klee's PALE BLONDE short side-ponytail tips in the same movement direction, loose dark source-style line/flat cream fill and restrained gray/tan shadow. The identity reference2 and continuity reference3 only specify blonde color and hair topology; DO NOT force recognizable full Klee into frame, do not invent a head/beret/face/body above bottom boundary. Follow source crop and downward/right exit; hair roots remain out of frame, visible tips connected to bottom-right offscreen head. Preserve original empty purple upper 70% and tiny cream puff exactly. No text in this cel. No new props, no panels, no characters inserted into empty space. A sparse partial hair-only transition is the intended finished image.",
+  "references": [
+    "analysis/source_cels/source-cel-008.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-007.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-008.png",
+  "status": "generated",
+  "inspection": "Correct sparse hair-only crop, no invented face/hat/limbs. Blonde hair tips at bottom retain source movement/puff. Large trailing silhouette may imply longer hair than adjacent Klee ponytail, needs continuity review in exit sequence."
+}

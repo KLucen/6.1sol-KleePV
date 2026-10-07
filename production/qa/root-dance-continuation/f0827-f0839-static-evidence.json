@@ -1,0 +1,75 @@
+{
+  "scope": "Static source and generated-draft neighbors only",
+  "shared_selections_modified": false,
+  "core_files_modified": false,
+  "artistically_accepted": false,
+  "actual_speed_playback_performed": false,
+  "limitation": "Helper relied on manifest/private ledger and initially omitted 827/831/835 predecessors. These private supplemental boards explicitly use the actual root draft predecessors without changing production selections.",
+  "group_contact": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-continuation\\f0827-f0839-source-and-draft-group.jpg",
+  "evidence": [
+    {
+      "frame": 827,
+      "source_before_frame": 823,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0369-f0823.png",
+      "source_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0373-f0827.png",
+      "draft_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0823-source-v1.png",
+      "draft_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0827-v1.png",
+      "draft_sha256": [
+        "b03a432222d4272a2ec72741bcd5774906844a4821c42815aa2e8c14928e6f0a",
+        "6ba211f9c256ed90b0bee2476367efbce9a2c06bcd23780daa15a5f68b563930"
+      ],
+      "helper_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\root-continuation-f0827-v1-source-static-contact.jpg",
+      "explicit_neighbor_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-continuation\\f0827-explicit-neighbor-static-contact.jpg",
+      "explicit_predecessor_override": true,
+      "accepted": false
+    },
+    {
+      "frame": 831,
+      "source_before_frame": 827,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0373-f0827.png",
+      "source_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "draft_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0827-v1.png",
+      "draft_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0831-v1.png",
+      "draft_sha256": [
+        "6ba211f9c256ed90b0bee2476367efbce9a2c06bcd23780daa15a5f68b563930",
+        "7b6205910e42af1eb1758e54bb8c156fe38a00fa741e39f5b3252feb4f725ae0"
+      ],
+      "helper_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\root-continuation-f0831-v1-source-static-contact.jpg",
+      "explicit_neighbor_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-continuation\\f0831-explicit-neighbor-static-contact.jpg",
+      "explicit_predecessor_override": true,
+      "accepted": false
+    },
+    {
+      "frame": 835,
+      "source_before_frame": 831,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0377-f0831.png",
+      "source_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png",
+      "draft_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0831-v1.png",
+      "draft_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0835-v1.png",
+      "draft_sha256": [
+        "7b6205910e42af1eb1758e54bb8c156fe38a00fa741e39f5b3252feb4f725ae0",
+        "a36e406bef06b0de000cd134089406a58738164229974f0674d7b03506fcfd0d"
+      ],
+      "helper_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\root-continuation-f0835-v1-source-static-contact.jpg",
+      "explicit_neighbor_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-continuation\\f0835-explicit-neighbor-static-contact.jpg",
+      "explicit_predecessor_override": true,
+      "accepted": false
+    },
+    {
+      "frame": 839,
+      "source_before_frame": 835,
+      "source_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0381-f0835.png",
+      "source_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0385-f0839.png",
+      "draft_before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0835-v1.png",
+      "draft_current": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0839-gloves-v2.png",
+      "draft_sha256": [
+        "a36e406bef06b0de000cd134089406a58738164229974f0674d7b03506fcfd0d",
+        "ef3d26dd077a7416ba6bc90681cad56cc6725768afdcafde94f4817ccd22d28a"
+      ],
+      "helper_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\root-continuation-f0839-gloves-v2-source-static-contact.jpg",
+      "explicit_neighbor_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-continuation\\f0839-explicit-neighbor-static-contact.jpg",
+      "explicit_predecessor_override": true,
+      "accepted": false
+    }
+  ]
+}

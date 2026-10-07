@@ -1,0 +1,134 @@
+{
+  "job_id": "middle-continuation-f2069-2026-10-05-v1",
+  "source_frame": 2069,
+  "source_cel": "cel-0382",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1139-f2069.png",
+  "source_exposures": [
+    {
+      "start": 2069,
+      "end": 2073,
+      "pts": 86.208,
+      "end_pts": 86.375,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Edit CURRENT image1 into ONE complete independent strict-source Klee PV cel f2069, 1920x1080 landscape aspect. Same original performance, replace ONLY actor.\nREF ROLES: image1 alone dictates CURRENT full BACK view, body and hand/feet pose, occlusion, screenplacement, crop and all backdrop/particles/text. Image2 is REAR HAT + SHORT HAIR topology ONLY, not pose/scale, no costume parts outside croppedhead. Image3 adjacent repaired Klee costume/colors/two short pony identity and continuity ONLY, not earlier profile/face/stance. Image4 actual original f2065->2069 A/B RGBdiff contours RIGHTCURRENT; image5 current nativekeyparts.\nExactly ONE FULL BACKVIEW actor with NO FACE, NO EYES, NO MOUTH, NO CHEEK, NO exposed headband/rabbit. Current head x935..1370 y250..545 leans slightly left; back hair outline swings towardRIGHT but replace with Klee compact short backhair + EXACTLY TWO separately rooted SHORT ear-root ponies. Do not retain source long peach/red hair. Solid RED rear beret follows current head angle with only plainbrown lowerband and ONEwhitefeather, NO clover on rear center because frontbadge hidden. Near shoulder/hair may show tiny pointedear on each side only if rearhead geometry permits.\nCurrent backbody slopes DOWN-RIGHT. Both arms spread sideways/downward: viewer-left cuffx850..947 y545..635, palmx788..868 y555..610 fingersfanLEFT slightlyup; viewer-rightcuffx1395..1456 y532..608 palmx1450..1525 y535..595 fingersfanRIGHT/up. Exactly TWO fully brown GLOVES, preserve source finger gaps and palm direction, not bare/fingerlesshands. Keep atsourcecurrentlocations. Compact plain brown backpack oncenter back, simplethin straps sameplain topology asimage3, no new ornaments, not oversized.\nCurrent planted/support leg steep diagonal fromhipx1100..1180 y735 tofootx1255..1365 y1000..1065, foot seenfromback tilted slightdown-left. Other knee bent backward/crosses inFRONT ofsupportleg in screen projection; raised bootSOLES facesviewer x1235..1355 y818..952, flattened oval, bootshaft top partlyhidden by cuff. Match exactly original crossedrearleg occlusion and soleview, do not repeat prior side-facing horizontalrearleg.\nPlain redcoat broadflatfills foldedcreamcollar/creamcuffs/hem, plainbrowngloves/boots. Same garment length responding to leaningpose, no shortsfrills, clovers, buttons, pockets, embroidery or glove/pouchprops.\nPreserve CURRENT lavender flatbackground with fullcream outlinedstars/yellowparticles all originalpositions, and clear complete bottomcenter Japanese \"\u611b\u3057\u3066\u305f\u3044\" over Chinese \"\u60f3\u8981\u53bb\u7231\". Original thin wobbly blackink broadflatfills minimalhardshadow, no gradients/gloss/3D. Noedgefaces/borders/additionalactors, no collage/mirror/warp/morph orheldtemplate; wholecel only.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1139-f2069.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/klee-back-hat-hair-only-f0827.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/middle-continuation-f2065-2026-10-05-hair-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/actual-source-f2065-f2069-AB-RGB-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2069-source-native-keyparts.png"
+  ],
+  "reference_roles": [
+    "CURRENT source sole backview pose/crop/camera/limbvisibility/background/captionauthority",
+    "Klee rear hat/hair only topology reference, no stance/costume/scale",
+    "Adjacent repaired Klee two ponies/plaincoat/boots identity and motion continuity only, not stance/facing",
+    "Actual previous/current source A/B RGBdiff and contours current on RIGHT",
+    "CURRENT native original head/backhair bothhands legs and sole"
+  ],
+  "output": "generated/middle-continuation-f2069-2026-10-05-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "reviewed_static_temporal_pending",
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "actual_sequential_decode_reference_equal": true,
+    "visible_people": 1,
+    "face": "fullback noface noeyes",
+    "hands": "bothspreadsideways fingersup/rightorleft",
+    "legs": "crossed rearbent sole viewerfront occludes support"
+  },
+  "ordered_reference_metadata": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1139-f2069.png",
+      "sha256": "25d5d7160a39f8b2db985bf1a940c077de1d2befdf46ba990295f11bec647cf8",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "role": "CURRENT source sole backview pose/crop/camera/limbvisibility/background/captionauthority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-back-hat-hair-only-f0827.png",
+      "sha256": "72f1b04b1bded561f84fcbabb8795562d0da2fe418485692601ad07f4aff6413",
+      "canvas": [
+        390,
+        325
+      ],
+      "role": "Klee rear hat/hair only topology reference, no stance/costume/scale"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-hair-v2.png",
+      "sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+      "canvas": [
+        1672,
+        941
+      ],
+      "role": "Adjacent repaired Klee two ponies/plaincoat/boots identity and motion continuity only, not stance/facing"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2065-f2069-AB-RGB-contours.png",
+      "sha256": "9fc107c7e55722e9db6f6902fae44e6c61575543b5a7c43d4d7f635e9c3e371f",
+      "canvas": [
+        3840,
+        2240
+      ],
+      "role": "Actual previous/current source A/B RGBdiff and contours current on RIGHT"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2069-source-native-keyparts.png",
+      "sha256": "3c5e36c17b97ec53ea199214253d9d3b291c88ec0acb521a8b858a9a95ab3b6e",
+      "canvas": [
+        1120,
+        1384
+      ],
+      "role": "CURRENT native original head/backhair bothhands legs and sole"
+    }
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-1447ee8f-da92-4118-adb1-819e0aaf2934.png",
+  "tool_output_metadata": {
+    "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-1447ee8f-da92-4118-adb1-819e0aaf2934.png",
+    "sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "workspace_output_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2069-2026-10-05-v1.png",
+    "sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "output_sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed",
+  "known_issues": [
+    "Head/hat slightly high/large; new nape ink detail absent in source",
+    "Backpack is larger/simple rectangular, coat hem contours and short-leg proportions approximate",
+    "Both gloved palms broader; current finger count/AA simplified",
+    "Rear sole drawn facing viewer and in front of support leg, but larger/rounder than source",
+    "Generated background/stars/captions require original-layer restoration; actual-speed/composition pending"
+  ],
+  "source_current_observed": "Fullback noface/eyes/mouth. Both arms spread independently at originalsidepositions, exactly2 brown gloved palms. Short two rooted ponies connect underrearberet; rearwhitefeather visible and frontclover hidden. Crossed bentback bootsole occludes plantedleg as source.",
+  "static_review": "qa/middle-missing-continuation-2026-10-05/f2069-source-new-static.png",
+  "ordered_reference_metadata_phase": "before_builtin_call",
+  "actual_builtin_call_submitted": true
+}

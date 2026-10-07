@@ -1,0 +1,45 @@
+{
+  "source_frame": 2798,
+  "source_cel": "cel-0512",
+  "source_candidate": "src-1598",
+  "output": "generated\\fine-f2798.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. EDIT ORIGINAL IMAGE1 IN PLACE as ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Keep image1 exact spatial layout and enormous empty margins. Replace the visible human only inside its original bounds; do not enlarge or recenter the figure. Preserve all source props at identical image1 size and positions, especially the lavender pillow; do not expand the pillow. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT ear-root side ponytails, pointed ears, RED iris with BLACK pupil and WHITE highlight when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. No long ponytails, added clovers on cuffs/hem/coat, cuff labels or extra exposed hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2798: One small tall FULL REAR figure on RIGHT. Exact source head starts x0.59 y0.20 and ends near y0.45; source torso hip end y0.54; current body leans more clockwise than prior f2793 and legs/boots fartherRIGHT. NO face/eye/nose/mouth visible. Replace all oldhair with two SHORT blonde ear-root ponytails and small beret, blonde backhead between roots, pointedears only wherevisible. Two tucked arms hugging vertical pillow entirely behind torso; source shows left cuff/glove sliver and raised right hand sliver beside head only; preserve every original visible hand sliver and do not reveal opaque pillow/front. Redcoat rear panel plus PLAIN straight CREAM band ending exactly original hip y0.54, NOT lowered to y0.60; no scallops/lace/clovers on hem. SMALL plain brown backpack centered back, source-like loose black lines flat colors without detailed shiny buckles. Long legs preserve original endpoints x0.65..0.765 y0.80..0.87; brownboots rearward with leftboot lowerleft/rightboot upperright separated as source. Follow AFTER/red A/B for shoulder and elbow shifts, boot rotation and lean. Keep enormous empty purple margins; remove text glyphs; no added clovers/labels/longponytails. NUMERIC CORRECTION FROM FULL CURRENT SOURCE: leg/boot lower endpoint is y0.807, not y0.87. Figure bounds x0.593..0.770 y0.199..0.808; retain source-current bottom margin precisely. Coat lower band ends near y0.538. Both shoulder arm contours and boot separation must match current original.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1598-f2798.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2793-f2798-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Current full-rear head and clockwise floating lean, both short ponytails, two arm slivers and boots redrawn from source; plain straight coat band now present; source A/B and prior Klee checked statically."
+    ],
+    "issues": [
+      "Generated backpack contains added cream clover; coat hem lower than source hip boundary; silhouette lacks source lower-head length after short-hair substitution and needs adjacent proportion review."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff82-81f7-7d12-8aaf-07b931d0c1c9\\exec-0aa789cc-817b-4b42-841e-4be7eed54d94.png"
+}

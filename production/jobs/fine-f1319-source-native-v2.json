@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f1319-source-native-v2",
+  "source_frame": 1319,
+  "family": "seated_title_credits",
+  "references": [
+    {"path": "source_refs/src-0824-f1319.png", "role": "Current source edit target; pose and small hand-drawn contour changes"},
+    {"path": "qa/title-repair-v6/source-head-f1319.png", "role": "Current source enlarged head, not previous-head authority"},
+    {"path": "generated/fine-f1314-arms-eyes-v7.png", "role": "Previous Klee cel for stable identity, body scale and costume only"},
+    {"path": "qa/title-repair-v6/source-delta-f1314-f1319.png", "role": "Actual current source drawing differences; independent f1319 contours"}
+  ],
+  "prompt": "Current original PV frame1319, replace sole seated human with Klee. Image1 CURRENT source defines this drawing's geometry and exposure. Image2 enlarges CURRENT head and must control eyelids, bangs, mouth, lean. Image3 previous Klee drawing provides identity/costume/proportions ONLY; not a frozen pose template. Image4 actual1314-to1319 source difference and blue/red contours identifies current redrawing. Full1920x1080 framing, small center-bottom seated figure, boot baseline y72.5%, knees held together aroundy53%. Current head still counterclockwise left-leaning but slightly less than1314, both drooping eyes open with red irises throughout, tiny dot mouth. Observe CURRENT source's changed left cheek/bangs outline, slightly shifted eyelids, right back hair curve and red sleeves' folds, independent hand-drawn line pressure. Exactly TWO short blonde ponytails with stable roots, red creamclover beret and whitefeather. Crossed red forearms lie over raised knees, BOTH HANDS HIDDEN behind opposing sleeves, no extra glove pair above arms, small cream neck collar. Same simple redcoat creamtrim draped aroundknees, brownroundboots creamtops, modest right backpack as Klee ref. Preserve source position/scale and restrained loose PV style, flat patches, orange cheeks, minimum shading. Keep source large cream title as background, no new text, no analysis panels. Do NOT simply repeat previous Klee cel or enlarge body. Return one complete current1319 cel.",
+  "output": "generated/fine-f1319-source-native-v2.png",
+  "status": "reviewed_static_temporal_pending",
+  "review": "Both red irises and tucked hands retained; current small left-leaning head, sleeve and hair outlines independently redrawn. Source pixel title restoration and adjacent review pending.",
+  "accepted": false
+}

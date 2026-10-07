@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-cbba9f2d-2e8e-43e0-8e20-b7c176285212",
+  "candidate_id": 35,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One complete FULL16:9 hand-drawn PV cel editing reference1 source-cel-035. Source1 determines a HUGE REAR VIEW of the BACK OF HEAD, no face/eyes/mouth/hands/torso. Preserve exact head center, backward-facing orientation and macro crop: crown is clipped by top and nape/hair by bottom, silhouette occupies central/right majority. Replace pink rear hair and cream sleep-mask strap with Klee default: red beret BACK dome with dark brown lower hat band, pale blonde SHORT bob and TWO short side ponytails rooted behind ears at sides, all cropped according to source. Beret covers upper crown; rear band follows original cross-head strap position. This is hat seen FROM BEHIND: front clover emblem is NOT on back; side feather may appear only on screen-left (character's left) if within crop. No face turned toward viewer, no added shoulders/body to fit shorter hair. Keep simple source loose black outlines, large flat color patches and restrained shadows, not detailed game art. Reference2 supplies Klee identity/style only, NOT frontal pose. Preserve original left blue/purple starfield glow and faint source nontext effect shapes, lavender right background. REMOVE all bottom subtitles/credits/lettering, leave clean hair/background for source text composition. ONE frame, no panels or new props.",
+  "references": [
+    "analysis/source_cels/source-cel-035.jpg",
+    "production/generated/anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-035.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Rear-head macro, no face/body invented. Red rear beret with no back clover, white feather screen-left and two blonde side ponytails. Left blue glow/effect retained. Macro silhouette shorter than long source hair by Klee design."
+}

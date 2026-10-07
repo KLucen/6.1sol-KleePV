@@ -1,0 +1,595 @@
+{
+  "snapshot_utc": "2026-10-06T15:08:08.516546+00:00",
+  "tool": "builtin_imagegen",
+  "jobs": [
+    {
+      "source_frame": 2911,
+      "output": "generated/late-next-f2911-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE whole 16:9 hand-drawn PV animation cel for actual f2911.\nPrimary request: replace the original pillow-holding figure with Klee, keeping the CURRENT source pose, long standing proportions, small figure on screen-right and huge lavender margins.\nInput roles: image1 current source sole pose/camera/crop/visible-anatomy authority; image2 actual f2906 BEFORE/f2911 CURRENT with RGB and dual contours is motion support only, do not draw panels; image3 actual native closed-eye head/pillow grip; image4 actual native full-body pose, knee/boot changes; image5 previous Klee identity/glove-color and low-complexity style ONLY, do not freeze its body.\nCurrent figure: frontal upright head, TWO fully closed thick horizontal eyelid lines, curved brows, two orange cheeks, tiny mouth mostly covered by pillow/neck scarf. Short blonde bob, exactly TWO compact low side ponies with coherent roots, far root/pigtail may be hidden by pillow; pointed ears, red Klee beret, cream clover and one feather. Red coat with plain cream cuffs and continuous cream hem, compact brown backpack on left/back, bare legs and cream-topped brown boots.\nGesture/occlusion: lavender rectangular pillow slopes up towards screen-right and lies BEFORE chest, covering scarf/mouth area as source. Near screen-left BROWN GLOVE palm and spread fingers are OVER the lower-left/front pillow; near cream cuff connected to red sleeve. Far small BROWN GLOVE fingers grip the top-right edge OVER its cream ruffle while entire far forearm/sleeve is source-hidden behind the pillow. Exactly two hands, no bare fingertips, no extra fingers/arm. Do not recolor cream ruffle to brown.\nActual new drawing: trace current source torso angle, pillow corner positions, near elbow and palm rotation, hat/head contour/line pressure. Both legs near vertical, knees slightly bent inward, current feet separate and toes front-facing with current right toe turned outward more; retain actual boot-sole tilt and ankle positions, not prior Klee feet. Do not exaggerate new crouch or change dress length.\nStyle: economical original PV chibi with dark wobbly contours and simple flat warm red/cream/blonde color, sparse minimal shadows, not game-render detail. Same uniform lavender backdrop, preserve source visible camera scale and huge blank left region.\nConstraints: output exactly one complete illustration, no captions or text (original left CN/JP will be retained separately), labels, panels, contact sheet, watermark, animal cap/ears, pink long hair/pajamas, extra third hair lock or ornamental split hem. Do not expose hidden far forearm or make fingers cream skin.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-actual.png",
+          "role": "current whole source edit target",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2906-f2911-source-ab-rgb-contours.png",
+          "role": "actual previous/current spatial change; overview only",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-face-native.png",
+          "role": "current closed eyelids/hat/pillow grip native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-pose-native.png",
+          "role": "current coat/knees/boot toes and pillow overlap native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\late-f2906-oct6-v2.png",
+          "role": "Klee simplified identity and glove continuity only; not new pose template",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-446b11cf-96d0-4040-b387-16dfde6e590e.png",
+      "output_sha256": "f5d4f5b2ebab7aa84f3a2ee421ad7a726e8bf87698ae8df99c00e2385b5fb602",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole builtin with actual source/native. One Klee, two closed eyes, exactly two brown gloves gripping/covering pillow with far sleeve hidden, two compact ponies. Mostly retains2906 head/torso/pillow silhouette; knee/boot redrawing amplitude and original jitter small, not exact source. Minor hem/long-leg/collar drift deferred; no temporal/compositor acceptance. Next changing pose uses cropped identity instead of held whole anchor.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2916,
+      "output": "generated/late-next-f2916-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE whole 16:9 PV animation cel for f2916, a NEW sideways swaying pillow pose.\nPrimary request: replace original with Klee and redraw CURRENT f2916 geometry. Image1 is actual target sole pose/camera authority; image2 actual2911 BEFORE/2916 CURRENT plus RGB/contours shows HEAD/UPPER TORSO SWING TO THE RIGHT while ankles stay left; image3 current head/closed eyes; image4 current fullbody/hand/pillow/knees detail; image5 small HEAD-ONLY Klee identity/style, not body or location.\nMotion to execute: the head and torso now center around x1310 instead ofx1230 on1920 canvas. Keep figure size, DO NOT recenter at previous x1230. Both bent legs slant down LEFT from hips, ankles stay nearx1240, knees shifted left relative to hips; both boots turn diagonal right with near-left toe lower and far-right toe overlapping lightly behind. This is a tilted sideways sway, not upright vertical legs.\nCurrent closed-eyed Klee: two thick fully closed eyelid lines, two orange cheeks, small mouth mostly hidden by pillow/scarf; red beret cream clover/feather, blonde bob, exactlytwo short rooted low pony tails (far one hidden if covered), pointed ears. Simple red coat with plain cream cuffs/hem, brown backpack left/back; preserve source long proportions and actual hip/hem length, no new frilly split skirt.\nPillow and hands: pillow is currently flatter/narrower in perspective, nearly horizontal but rises gently right at chest, x1280..1515; it occludes chest and far forearm. Near elbow is lifted and bent more sharply than previous, near cream cuff and BROWN GLOVE fingers splayed OVER the center-left FRONT of pillow, source hand rotates to morevertical orientation. Far hand tiny BROWN gripping fingers OVER top-right corner, far forearm/sleeve stays BEHIND pillow and unseen. Cream pillow ruffle onlyatrightedge. Exactlytwo gloves, no bare fingertips and no extra hand.\nComposition: figure remains small on right with extremely broad empty lavender left field, same source margins/scale. Original plain purple backdrop and sourceleftlyrics retained separately later, NO generatedtext.\nPV flat hand-drawn economical style: wobbly black contours, simple warm red/cream/blonde and lavender pillow, minimal sparse shadows. ONE fullcel, no panel, captions, labels, watermark, original pink hair/pajamas/animalcap or third pony. Do not freeze last upright pose or crop reference's headlocation.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-actual.png",
+          "role": "current whole source edit target",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-f2916-source-ab-rgb-contours.png",
+          "role": "actual rightward head/torso and left-leaning legs motion; overview",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-face-native.png",
+          "role": "current closed eyelids and head tilt native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-pose-native.png",
+          "role": "current raised elbow/palm and narrower pillow, bent legs native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "cropped Klee head identity/style only; no full held pose",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d0ab1ab0-90e7-4df1-8116-cd98a400e024.png",
+      "output_sha256": "3bd39014a448937fd487a927e85b49b7fcc4a4b593b6e1d954f6c97f4d8374c5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole generated and current source/native/AB: real rightward upperbody sway, both legs slant down-left, closed eyes, two compact ponies, two brown gloves and hidden far sleeve, nearer elbow/palm lifted, pillow before torso. Pose and pupil count correct. Coat pockets/buttons/hem and boot clovers/backpack ornament vary, pillow/head registration approximate. Deferred first-cut costume drift; static only, acceptedfalse, compositor/temporal pending.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2921,
+      "output": "generated/late-next-f2921-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset type: ONE whole16:9 PV animation cel for actualf2921.\nPrimary request: redraw CURRENT original pillow-holding figure as Klee. Inputs1currentwhole sole pose/camera authority;2actual2916BEFORE/2921CURRENT plus RGB/dualcontours motion only;3native current closedeyehead;4native current complete body/pillow/hands/knees;5tiny head-only Klee identity/style, not previous upright body.\nExecute new keypose: sourcehead/torso stay on far right aroundx1330. Both legs now SEPARATE, no longer two parallel left-sloping legs as2916. Screen-left leg slopes diagonally down-left to planted front-facing toe atx1230. Screen-right leg nearlyvertical below right hip; its boot is full SIDE-ON pointingRIGHT with a horizontal long visible sole. Preserve this asymmetrical wide boot stance; don't draw both boots frontal or touching. Knees/ankles and coathem current positions exactaspossible, preserve long standing proportions.\nPillow now angles moresteeply up-right atchest, near-left bottom atx1360y490 andfaruppercorner atx1530y300. Near elbow curves from leftside into raised near creamcuff; BROWN near glove fingers spread horizontallyOVER center/front of pillow. Far BROWN glove grips top-right cornerOVER creamruffle; far forearm completely occluded behind pillow. Exactlytwo brown gloves, no bare fingertips or extra arm. Pillow beforetorso, not behind nearpalm.\nKlee identity: warmblondebob with exactlytwo compact low ponytails, far one hidden naturally by pillow, pointedears, redberet creamclover/onefeather, TWOfullyclosed thick eyelids, twoorangecheeks, tinymouth mostlycovered by pillow/scarf. Simple redcoat, plaincreamcuffs/continuoushem, compactbrownbackpack behindleftshoulder, barelegs, creamtoppedbrownboots. Do not invent original pinklonghair, animalears or pajamas.\nMaintain currentoriginal tiny figure placement/scale, huge plainlavender leftmargin anduniformbackdrop. Flat simplified hand-drawn PVeconomy, wobbly black contours and sparse minimal shadows, not highdetailgameart.\nONE fullcel only, no panels/labels/lettering/captions/watermark; sourceleft CN/JPlines restoredseparately. No third pony or extra limb. Do not freeze previous2916 stance.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-actual.png",
+          "role": "current whole source edit target",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-f2921-source-ab-rgb-contours.png",
+          "role": "actual open-legged sway and steeper pillow motion; overview",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-face-native.png",
+          "role": "current closed eyelids/tiny mouth native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-pose-native.png",
+          "role": "current near palm, pillow tilt and separated boot orientation native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "cropped Klee identity/style only",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-22150a9d-f3a8-4437-a839-9f6e209eaa4d.png",
+      "output_sha256": "d88b5c409c6d4cbe0df49222ca3531a666ee2f00451644fa3f450dd97afacad8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole generated/current source/native AB. New spread legs: left slopes down-left/front toe and right vertical/right profile sole; both closed eyelids, pillow steeper up-right, near brown palm/cuff continuous. Small far brown gripping tips visible beside cream ruffle, cream upper corner ownership needs native clarification, not asserted fully glove-accepted. Source pillow/head registration approximate, coat/boot ornaments and scarf drift deferred; no temporal/compositor acceptance.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2926,
+      "output": "generated/late-next-f2926-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nAsset: ONE whole 16:9 hand-drawn PV cel, actual original frame 2926.\nRedraw the current original pillow-holding figure as Klee, preserving current pose, camera, scale, position and all limb/pillow occlusion. Reference 1 is the sole current whole pose authority; 2 is actual 2921-before / 2926-current motion, not a composition template; 3 shows closed eyes; 4 is the true current complete native body, pillow, hands and legs; 5 is tiny Klee HEAD-only identity/style. Never freeze the previous standing body.\nActual changed pose: head and upper torso move farther screen-right than 2921, head at about x1375 in 1920-wide canvas, two entirely CLOSED thick eyelids, orange cheeks, very small mouth mostly hidden at pillow edge. Pillow front of chest slopes up-right; far upper corner around x1585 y270. Near elbow curves into the raised cream cuff and brown spread-finger palm on the pillow front. The farther BROWN glove wraps over the top-right pillow corner with two small rounded gripping fingers, above the cream side ruffle. Far forearm is entirely hidden behind pillow. Exactly two brown gloves, no bare fingertips or third arm. Keep the cream ruffle separate from the far brown glove.\nLegs now widely separated: screen-left leg leans diagonally down-left with rounded front-facing boot toe around x1220; screen-right lower leg is close to vertical, knee slightly outward, boot full side-profile pointing RIGHT with a long nearly horizontal sole around x1410. Preserve distinct ankle connections and this asymmetric stance, not two parallel leaning legs. Near palm covers pillow, pillow covers torso and far forearm; backpack behind left shoulder.\nKlee identity: warm blonde bob, exactly two low compact ponytails with far pony naturally occluded, pointed ears, red beret with cream clover and one feather, simple red coat with plain cream cuffs and continuous plain hem, compact brown backpack, bare legs, cream-topped brown boots. Sparse flat colors and wobbly black PV contours, no game-render detail. Plain lavender canvas with huge empty left margin, retain original tiny figure placement and proportions. No original long pink hair, animal ears or pajamas. Do not add facial features hidden in source.\nOne full cel only. No panels, labels, subtitles, letters or watermark. Original text will be restored separately.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-actual.png",
+          "role": "Current whole source; sole pose, scale and layout authority",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-f2926-source-ab-rgb-contours.png",
+          "role": "Actual adjacent motion, overview only",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-face-native.png",
+          "role": "Current head and fully closed eyes at native scale",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-wide-pose-native.png",
+          "role": "Current complete body, spread leg stance and both pillow grips; wider crop includes far hand",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "Klee head identity and simplified style only; not standing pose",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-720c8dd7-2cca-47ee-b4ee-85b3f8ca417c.png",
+      "output_sha256": "72bff105d117f9358b3ed8027d707ab7617ec73ca654ca356a8a700756c72829",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed current whole/native wide pose/far grip and generated whole: two fully closed eyes, two brown gripping hands, far forearm hidden, spread asymmetric legs and right profile sole retained. Head/pillow farther right supported. Hat/feather and coat/boot ornament drift remains; positional match approximate; static only, not temporal or compositor accepted.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2932,
+      "output": "generated/late-next-f2932-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nCreate ONE whole 16:9 hand-drawn cel for actual source frame 2932, replacing original character with Klee. Ref1 CURRENT is sole pose, visibility, placement and proportions authority. Ref2 actual 2926-before and 2932-current motion evidence, not a collage target. Ref3 current full native face; ref4 current full native pose and both gripping hands; ref5 HEAD-only Klee identity/style, NOT a standing pose.\nImportant new keypose: figure head/upper torso at far right around x1390 in 1920 canvas, body leans slightly right. Legs have COME TOGETHER, not the prior widely split 2926 stance. Both knees bend screen-right and both lower legs angle down-left. Screen-left/front ankle and rounded boot overlap in front of the back leg/boot around x1350 y900. Back boot to screen-right around x1440 y900 is also more front-facing, not the previous long right-facing profile. Preserve visible ankle separations and grounded soles; no wide spread stance or missing leg.\nPillow moved right, now its upper edge is flatter and less steep than 2926; far corner around x1600 y290, near corner around x1400 y340. Near upper arm/elbow rounds forward to nearly horizontal forearm and raised cream cuff; BROWN near palm splayed over the pillow center/front. Far BROWN glove wraps two rounded tips over top-right corner, distinct from cream side ruffle; far forearm entirely hidden by pillow. Pillow over chest, near palm over pillow. Exactly two hands, no bare fingertips, no extra arm.\nBoth eyelids are FULLY CLOSED horizontal thick lines, cheek blush orange and tiny mouth mostly hidden by scarf/pillow. Klee warm blonde bob, exactly two compact low pigtails, red beret with cream clover and one feather, pointed ears; red coat, cream cuffs and plain continuous cream hem, compact brown backpack behind left shoulder, bare legs and cream-topped brown boots. Keep simplified sparse flat fills, wobbly black PV linework and original tall standing proportions. Do not invent original long pink hair, animal ears, trousers or pajama costume.\nPreserve huge empty lavender left side, original small far-right figure scale, uniform lavender backdrop. One complete cel, no panels or text/captions/labels/watermarks; source wording will be restored separately. Pose motion authority is current SOURCE, not former Klee body.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-actual.png",
+          "role": "Current source whole, sole current pose and layout authority",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-f2932-source-ab-rgb-contours.png",
+          "role": "Actual changed closer-legged bent-knee sway; overview",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-current-face-native.png",
+          "role": "Current complete closed-eye head native, corrected crop",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-wide-pose-native.png",
+          "role": "Current pillow grips, near raised forearm, bent-knee and overlapping boot stance native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "Klee head-only identity/style, not former standing pose",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-413af8f6-66db-4fc5-9ccb-505da9cd1b5e.png",
+      "output_sha256": "088289f9659f46004d42768071ecc1bd3dd1be40ce7689cb0332d47afe82a9a5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Actually viewed full source/actual delta and corrected native face/wide pose. Closed eyelids, two brown grips, far arm hidden; closer overlapping boots and bent knees reflect changed source stance. Coat pockets/buttons/backpack charm and boot ornaments drift from adjacent drafts, mouth slightly more visible; spatial motion amplitude approximate. Static draft only, no temporal/compositor acceptance.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    },
+    {
+      "source_frame": 2938,
+      "output": "generated/late-next-f2938-oct6-v1.png",
+      "tool": "builtin_imagegen",
+      "status": "reviewed_static_temporal_pending",
+      "accepted": false,
+      "prompt": "Use case: identity-preserve\nONE whole16:9 simple hand-drawn PV cel for actual frame2938. Replace current original figure with Klee, preserve source pose, placement, scale and occlusion. Input1 currentwhole source is sole authority. Input2 actual2932-before/2938-current AB/RGB/dualcontours indicates small real line changes; do not invent big motion. Input3 currentclosed-eyehead. Input4 currentnativewholebody/pillowhands/knees. Input5 tinyKleehead identity/style only, not prior standingpose.\nCurrent figure on far right, headcenter aboutx1400 in1920canvas. Both eyes fully CLOSED thickhorizontal lines; orangepink cheeks, tiny mouth mostlyhidden at pillow/scarf. The slight changed near upperarm now has a fuller rounded underside, elbow down-left of cuff with slightly higher upward-curving forearm into brown palm. Fingers are spread over pillow front, near thumb pointsup. Pillow upperedge slopes modestlyup-right, loweredge curved, creamrufflealong far right. Far brown glove grips top-right edge with two small rounded tips, far forearm entirely occluded. Exactly two BROWN gloves, creamcuffs distinct from gloves, no bare finger patches or extra arm.\nBoth legs close together and bent at knees toscreenright, lowerlegs slope gentlydown-left. Screen-left/front calf crosses infrontof the back calf at ankles; leftrounded frontal boot overlaps slightlyinfrontof rightback frontal boot. Not the wide2926 stance, no side-pointing stretched rightboot. Preservecurrent small hem/leg/ankle contour changes and tall original standing proportions.\nKlee: warm blonde bob with two lowcompact pigtails (far hidden naturally by pillow), pointed ears, redberet creamclover and onefeather, simple redcoat with plaincreamcuffs/continuousplainhem, smallbrownbackpack behindleftshoulder, barelegs and creamtopped brownboots. Flat minimal PV colors, wobblyblack outlines, sparse shadows. No original longpinkhair/animalears/pajamatrousers. Small character in original far-right position, huge uniform lavender leftmargin.\nNo panels/labels/letters/subtitles/watermarks. Source text restored separately. Full wholecel only; don't copy previous unchangedbody or add unseen parts.",
+      "reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-actual.png",
+          "role": "Current whole source, sole pose, contour and camera authority",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-f2938-source-ab-rgb-contours.png",
+          "role": "Actual slight forearm/pillow/hem contour change, overview",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-current-face-native.png",
+          "role": "Current closed eyes/bangs/mouth native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-wide-pose-native.png",
+          "role": "Current rounded near elbow, both pillow grips and overlapping knees/ankles native",
+          "actually_viewed": true
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "Klee head identity and simplified style only",
+          "actually_viewed": true
+        }
+      ],
+      "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-41eb8367-79a0-4768-8585-6065794af0de.png",
+      "output_sha256": "a9a3ca5538f69b422864840cb680cd2260f540f387e019c8e3e99a8642cf6582",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "static_review": {
+        "performed": true,
+        "scope": "single cel and adjacent source/Klee static only",
+        "notes": "Root actually viewed whole current source, native corrected face/full pose/far grip and generated whole. Closed eyelids, two brown grips and hidden far forearm, rounded near elbow and close overlapping frontal boots retained. Small source-to-draft displacement amplitude approximate; coat/backpack/boot/clover details vary across cels. No continuous speed or compositor review, accepted false.",
+        "accepted": false
+      },
+      "temporal_review": {
+        "performed": false,
+        "accepted": false
+      }
+    }
+  ],
+  "integrity": [
+    {
+      "source_frame": 2911,
+      "output": "generated/late-next-f2911-oct6-v1.png",
+      "sha256": "f5d4f5b2ebab7aa84f3a2ee421ad7a726e8bf87698ae8df99c00e2385b5fb602",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-actual.png",
+          "role": "current whole source edit target",
+          "actually_viewed": true,
+          "sha256_at_archive": "d68de7e4c10e09962f841d41ad6ed96fe74717279c2d6938b94daddfdee75c37"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2906-f2911-source-ab-rgb-contours.png",
+          "role": "actual previous/current spatial change; overview only",
+          "actually_viewed": true,
+          "sha256_at_archive": "0d0909c94b60c8ed32c3bd0fa5814b56726703ba83f17f76e6b25d1d8e198735"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-face-native.png",
+          "role": "current closed eyelids/hat/pillow grip native",
+          "actually_viewed": true,
+          "sha256_at_archive": "fd30ea342d03e9f77d4eded6cd118e495862d9854571f95f9d776906c138ec72"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-source-pose-native.png",
+          "role": "current coat/knees/boot toes and pillow overlap native",
+          "actually_viewed": true,
+          "sha256_at_archive": "049161bfbb3522f9a58702dcb054ad664afe8e1e2e3bc24d94e886653c5ca13a"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\late-f2906-oct6-v2.png",
+          "role": "Klee simplified identity and glove continuity only; not new pose template",
+          "actually_viewed": true,
+          "sha256_at_archive": "123f1174ed192fa2651ec3198da837ffdc1b1636a442b249ad1bca04e47a065b"
+        }
+      ]
+    },
+    {
+      "source_frame": 2916,
+      "output": "generated/late-next-f2916-oct6-v1.png",
+      "sha256": "3bd39014a448937fd487a927e85b49b7fcc4a4b593b6e1d954f6c97f4d8374c5",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-actual.png",
+          "role": "current whole source edit target",
+          "actually_viewed": true,
+          "sha256_at_archive": "4f09d801771b666de19c1b4c3c78acad6ff1653521b77e38f3a525fb65e97ace"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-f2916-source-ab-rgb-contours.png",
+          "role": "actual rightward head/torso and left-leaning legs motion; overview",
+          "actually_viewed": true,
+          "sha256_at_archive": "4b4bcf465653fd537e18cb65104985bb72266c0d253c73df861b005c1a0662af"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-face-native.png",
+          "role": "current closed eyelids and head tilt native",
+          "actually_viewed": true,
+          "sha256_at_archive": "2f663fe472bad35d27f9848fe93416feb1dc8efb8dd1cb176a9d99ee7d8705b2"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-pose-native.png",
+          "role": "current raised elbow/palm and narrower pillow, bent legs native",
+          "actually_viewed": true,
+          "sha256_at_archive": "d580f477acc7f67f91d2914a68d2ee77d3f433639064488ca5a91b3b7c32db5b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "cropped Klee head identity/style only; no full held pose",
+          "actually_viewed": true,
+          "sha256_at_archive": "abb08c305a6a1339c78a5b561f2e654d5c97cf165427144fcc12a7f71e7a9eb4"
+        }
+      ]
+    },
+    {
+      "source_frame": 2921,
+      "output": "generated/late-next-f2921-oct6-v1.png",
+      "sha256": "d88b5c409c6d4cbe0df49222ca3531a666ee2f00451644fa3f450dd97afacad8",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-actual.png",
+          "role": "current whole source edit target",
+          "actually_viewed": true,
+          "sha256_at_archive": "cecc46209d2715dac65b8ac28fe5a5a6e8a32b9f2b4963d9c01e72e943159af6"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-f2921-source-ab-rgb-contours.png",
+          "role": "actual open-legged sway and steeper pillow motion; overview",
+          "actually_viewed": true,
+          "sha256_at_archive": "eb69348a1f230217ac2db45748d852ba57f56e62c32aaee220d459a1fe021679"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-face-native.png",
+          "role": "current closed eyelids/tiny mouth native",
+          "actually_viewed": true,
+          "sha256_at_archive": "9ef0e5a83dbd6f50e9787dcc72ba1f70c50a8407003389cad57d704b208e470f"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-pose-native.png",
+          "role": "current near palm, pillow tilt and separated boot orientation native",
+          "actually_viewed": true,
+          "sha256_at_archive": "8a87daafa0905698b8987c06687f11bd4b1c0afa591730402f6f3ca4ae083d29"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "cropped Klee identity/style only",
+          "actually_viewed": true,
+          "sha256_at_archive": "abb08c305a6a1339c78a5b561f2e654d5c97cf165427144fcc12a7f71e7a9eb4"
+        }
+      ]
+    },
+    {
+      "source_frame": 2926,
+      "output": "generated/late-next-f2926-oct6-v1.png",
+      "sha256": "72bff105d117f9358b3ed8027d707ab7617ec73ca654ca356a8a700756c72829",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-actual.png",
+          "role": "Current whole source; sole pose, scale and layout authority",
+          "actually_viewed": true,
+          "sha256_at_archive": "2576932ffe2a65cd3fdc0dee4dbd8d00694942ef2f0029eac35553448522fbb7"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-f2926-source-ab-rgb-contours.png",
+          "role": "Actual adjacent motion, overview only",
+          "actually_viewed": true,
+          "sha256_at_archive": "aaed47a53c4fcf8376b2c1b7242d61a34b6393c562cfdd72e863e757cef01a5e"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-face-native.png",
+          "role": "Current head and fully closed eyes at native scale",
+          "actually_viewed": true,
+          "sha256_at_archive": "9920499b4788b0f903ca0e5bc454eccfdb52375b19ca74b9018813973b17c253"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-source-wide-pose-native.png",
+          "role": "Current complete body, spread leg stance and both pillow grips; wider crop includes far hand",
+          "actually_viewed": true,
+          "sha256_at_archive": "8fa55dbda2e9b163d7d06c2d8d9714bf562bba356bae4b705f5c64e864059280"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "Klee head identity and simplified style only; not standing pose",
+          "actually_viewed": true,
+          "sha256_at_archive": "abb08c305a6a1339c78a5b561f2e654d5c97cf165427144fcc12a7f71e7a9eb4"
+        }
+      ]
+    },
+    {
+      "source_frame": 2932,
+      "output": "generated/late-next-f2932-oct6-v1.png",
+      "sha256": "088289f9659f46004d42768071ecc1bd3dd1be40ce7689cb0332d47afe82a9a5",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-actual.png",
+          "role": "Current source whole, sole current pose and layout authority",
+          "actually_viewed": true,
+          "sha256_at_archive": "4abbc96b3b70633a586a11a207a62894ddce921b2bcafb4fb2678706a2c3b246"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-f2932-source-ab-rgb-contours.png",
+          "role": "Actual changed closer-legged bent-knee sway; overview",
+          "actually_viewed": true,
+          "sha256_at_archive": "7fcd8a945eff22527533e74ecf755d99b338eed5e295ff9d35e5444ccc6e6b25"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-current-face-native.png",
+          "role": "Current complete closed-eye head native, corrected crop",
+          "actually_viewed": true,
+          "sha256_at_archive": "a262a72d352e69cbbbe806746e2e214bc85ddcd9589bb1fabad84be8f63b2f46"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-wide-pose-native.png",
+          "role": "Current pillow grips, near raised forearm, bent-knee and overlapping boot stance native",
+          "actually_viewed": true,
+          "sha256_at_archive": "f1b3ac0af28ddff292d835ea16347a74882c4956eac1e4cfd9152a552e74f8ba"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "Klee head-only identity/style, not former standing pose",
+          "actually_viewed": true,
+          "sha256_at_archive": "abb08c305a6a1339c78a5b561f2e654d5c97cf165427144fcc12a7f71e7a9eb4"
+        }
+      ]
+    },
+    {
+      "source_frame": 2938,
+      "output": "generated/late-next-f2938-oct6-v1.png",
+      "sha256": "a9a3ca5538f69b422864840cb680cd2260f540f387e019c8e3e99a8642cf6582",
+      "recorded_sha_exact": true,
+      "builtin_origin_byte_exact": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "selected_private": true,
+      "accepted": false,
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-actual.png",
+          "role": "Current whole source, sole pose, contour and camera authority",
+          "actually_viewed": true,
+          "sha256_at_archive": "09edee5c91d1cb27f563d14c5d3cc79f066e054a6e0cf2dd0cc251fe2dc8a247"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-f2938-source-ab-rgb-contours.png",
+          "role": "Actual slight forearm/pillow/hem contour change, overview",
+          "actually_viewed": true,
+          "sha256_at_archive": "b90f0d9243ba1b2185cdc3ffbdd479bbea91dad1968fb13b43155b496191d717"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-current-face-native.png",
+          "role": "Current closed eyes/bangs/mouth native",
+          "actually_viewed": true,
+          "sha256_at_archive": "6eebc479c02d5bbd9f707aaef4b3857fb9d092a74cce7b5c521aa8d7c82b9efd"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-wide-pose-native.png",
+          "role": "Current rounded near elbow, both pillow grips and overlapping knees/ankles native",
+          "actually_viewed": true,
+          "sha256_at_archive": "2955407111b8e6b566cf3c977ce6afb42cdb583dfeb9d07d6f29c0253d9ecd8b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+          "role": "Klee head identity and simplified style only",
+          "actually_viewed": true,
+          "sha256_at_archive": "abb08c305a6a1339c78a5b561f2e654d5c97cf165427144fcc12a7f71e7a9eb4"
+        }
+      ]
+    }
+  ],
+  "successful_builtin_outputs": 6,
+  "requested_queue_cels": 6,
+  "unique_generated_source_cels": 6,
+  "private_selected_drafts": 6,
+  "source_exposure_frames_of_private_drafts": 93,
+  "requested_but_ungenerated_frames": [],
+  "argument_validation_attempts_with_no_generated_output": 0,
+  "accepted": false,
+  "shared_selection_edited_at_seal": false,
+  "temporal_speed_review": "not_performed",
+  "art_acceptance": "Not performed; static drafts only"
+}

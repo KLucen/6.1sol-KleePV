@@ -1,0 +1,138 @@
+{
+  "scope": "Reference contact sheets only, not artwork edits or acceptance",
+  "normalization": "Generated draft is resized to 1920x1080 for QA side-by-side only; source pixels not edited",
+  "manual_review": "not implied by contact construction",
+  "global_selection_changed": false,
+  "generation_called": false,
+  "artistic_acceptance": false,
+  "overview": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\static-source-generated-contact-v1.png",
+  "overview_sha256": "a300f18054f559323ec3de37e0483d4a668c2a0a88d7562af2a2ea779525cf95",
+  "pairs": [
+    {
+      "source_frame": 887,
+      "ownership": "new",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0887-source-actual.png",
+      "source_sha256": "45af14e0865991b1502d609eb4000837eb56ac11a3a40a7b76ba382637a16ca8",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0887-v1.png",
+      "generated_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0887-source-generated-static-v1.png",
+      "pair_board_sha256": "8ca5c7f9dcc63998430608b2f34661e19522054698fe910345a87b46db09d757"
+    },
+    {
+      "source_frame": 889,
+      "ownership": "new",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-source-actual.png",
+      "source_sha256": "a9f75abbc1bb7daf79fdf5f14c007345e9ab433acf8f8058910388efee3dfffc",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0889-hair-v2.png",
+      "generated_sha256": "31615b6c5a1a13920e0d886b9f62d38d2dd06db5b40735d01039679469b20d4b",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0889-source-generated-static-v1.png",
+      "pair_board_sha256": "4472371d956473013b14babe4c9081af3957b1ec7f016a6d11ded07691d60cce"
+    },
+    {
+      "source_frame": 891,
+      "ownership": "existing_neighbor",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-source-actual.png",
+      "source_sha256": "53f87c8aed8e602b287b6ed99d7772e3df047c5c9ee1b815b4a76f97f872fc7a",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-025-clean.png",
+      "generated_sha256": "cff21148ea5499f785a3338664598decef262784076d83274ea6cac696a7d477",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-source-generated-static-v1.png",
+      "pair_board_sha256": "90677bfce87da4e20e983ab40800b4f9e86c28902f950d4f46115ff124a1401e"
+    },
+    {
+      "source_frame": 902,
+      "ownership": "existing_neighbor",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0902-source-actual.png",
+      "source_sha256": "fd58ec86d7810d763f9ea82fda1af9e257e003b2919beb5b397d931992340d80",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-029-clean.png",
+      "generated_sha256": "f6a27af81143168a27eb9645b781610a4b88006b1d0d98cc135c22993f582d41",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0902-source-generated-static-v1.png",
+      "pair_board_sha256": "d78fd32a47e179ca01d00273b82b7970befd905b4adb71654b4dcf1bc6084ebd"
+    },
+    {
+      "source_frame": 903,
+      "ownership": "new",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0903-source-actual.png",
+      "source_sha256": "e92a061bb2563cfe8263b8f7584e624b098a3ba0dd40eb45acd48700c6f4b79a",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0903-v1.png",
+      "generated_sha256": "c35e9404a3b9bdb892b6fd61f741df7a230d9e55f3c7b15d00c72f73b8dd3b32",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0903-source-generated-static-v1.png",
+      "pair_board_sha256": "cf0b7d19cbf96c04ea35156cfe26f83c3ee1aeedfe2f1b43e9f9ec1c59a6a56a"
+    },
+    {
+      "source_frame": 905,
+      "ownership": "existing_neighbor",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0905-source-actual.png",
+      "source_sha256": "85f8036c4814081843ab18610e450ea82ef01a7e9da8edfafb0841ec74e37162",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-030-clean.png",
+      "generated_sha256": "3330a50b2882e0ade95f7e9d872cdb3c4c8fe2e1d746636d66f9ee920fc56235",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0905-source-generated-static-v1.png",
+      "pair_board_sha256": "ef3ea9ef4fc9648bcc9a29d2bc9b3de9b6475f004437979597a9d72ed17d213e"
+    },
+    {
+      "source_frame": 907,
+      "ownership": "new",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-source-actual.png",
+      "source_sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0907-v1.png",
+      "generated_sha256": "90e2a27b837f5ed1e21f343bef15b3df3ad1ac6c288cd02c2b46f52265e11ec1",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-source-generated-static-v1.png",
+      "pair_board_sha256": "1cd8c601159f5e7dbcd413fee042a750eb97f623256d7f899a1bcf0deba6f63d"
+    }
+  ]
+}

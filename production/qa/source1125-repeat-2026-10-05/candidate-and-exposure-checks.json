@@ -1,0 +1,428 @@
+[
+  {
+    "source_frame": 1100,
+    "target_frame": 1097,
+    "source_candidate": {
+      "id": "src-0632",
+      "frame": 1100,
+      "start": 1100,
+      "end": 1101,
+      "pts": 45.833,
+      "end_pts": 45.875,
+      "reference": "source_refs/src-0632-f1100.png",
+      "change": {
+        "pixels": 20499,
+        "coherent_pixels": 18221,
+        "largest_region": 366,
+        "masked_mean_delta": 5.648455575535922,
+        "frame": 1100,
+        "pts": 45.833,
+        "foreground_pixels": 247891
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0231",
+      "family": "star_gestures",
+      "character_bbox": [
+        672,
+        97,
+        486,
+        953
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0348"
+    },
+    "target_candidate": {
+      "id": "src-0629",
+      "frame": 1097,
+      "start": 1097,
+      "end": 1098,
+      "pts": 45.708,
+      "end_pts": 45.75,
+      "reference": "source_refs/src-0629-f1097.png",
+      "change": {
+        "pixels": 126565,
+        "coherent_pixels": 124648,
+        "largest_region": 117721,
+        "masked_mean_delta": 48.408941178995256,
+        "frame": 1097,
+        "pts": 45.708,
+        "foreground_pixels": 249851
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0230",
+      "family": "star_gestures",
+      "character_bbox": [
+        672,
+        97,
+        488,
+        953
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0346"
+    },
+    "source_cel": "cel-0231",
+    "target_cel": "cel-0230",
+    "source_exposures": [
+      {
+        "start": 1100,
+        "end": 1102,
+        "pts": 45.833,
+        "end_pts": 45.917,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    ],
+    "target_exposures": [
+      {
+        "start": 1097,
+        "end": 1100,
+        "pts": 45.708,
+        "end_pts": 45.833,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    ],
+    "previous_proposal_metadata_matches": true,
+    "metadata_check_only_not_new_semantic_approval": true
+  },
+  {
+    "source_frame": 1117,
+    "target_frame": 1113,
+    "source_candidate": {
+      "id": "src-0649",
+      "frame": 1117,
+      "start": 1117,
+      "end": 1118,
+      "pts": 46.542,
+      "end_pts": 46.583,
+      "reference": "source_refs/src-0649-f1117.png",
+      "change": {
+        "pixels": 11630,
+        "coherent_pixels": 9715,
+        "largest_region": 174,
+        "masked_mean_delta": 4.194572479474143,
+        "frame": 1117,
+        "pts": 46.542,
+        "foreground_pixels": 236035
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0235",
+      "family": "star_gestures",
+      "character_bbox": [
+        775,
+        101,
+        369,
+        953
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0357"
+    },
+    "target_candidate": {
+      "id": "src-0645",
+      "frame": 1113,
+      "start": 1113,
+      "end": 1114,
+      "pts": 46.375,
+      "end_pts": 46.417,
+      "reference": "source_refs/src-0645-f1113.png",
+      "change": {
+        "pixels": 80068,
+        "coherent_pixels": 77726,
+        "largest_region": 57230,
+        "masked_mean_delta": 38.629482434764206,
+        "frame": 1113,
+        "pts": 46.375,
+        "foreground_pixels": 234315
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0234",
+      "family": "star_gestures",
+      "character_bbox": [
+        775,
+        101,
+        373,
+        953
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0355"
+    },
+    "source_cel": "cel-0235",
+    "target_cel": "cel-0234",
+    "source_exposures": [
+      {
+        "start": 1117,
+        "end": 1118,
+        "pts": 46.542,
+        "end_pts": 46.583,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    ],
+    "target_exposures": [
+      {
+        "start": 1113,
+        "end": 1117,
+        "pts": 46.375,
+        "end_pts": 46.542,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    ],
+    "previous_proposal_metadata_matches": true,
+    "metadata_check_only_not_new_semantic_approval": true
+  },
+  {
+    "source_frame": 1125,
+    "target_frame": 1123,
+    "source_candidate": {
+      "id": "src-0657",
+      "frame": 1125,
+      "start": 1125,
+      "end": 1126,
+      "pts": 46.875,
+      "end_pts": 46.917,
+      "reference": "source_refs/src-0657-f1125.png",
+      "change": {
+        "pixels": 24264,
+        "coherent_pixels": 22271,
+        "largest_region": 590,
+        "masked_mean_delta": 6.423804842459316,
+        "frame": 1125,
+        "pts": 46.875,
+        "foreground_pixels": 230781
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0238",
+      "family": "star_gestures",
+      "character_bbox": [
+        824,
+        100,
+        314,
+        956
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0361"
+    },
+    "target_candidate": {
+      "id": "src-0655",
+      "frame": 1123,
+      "start": 1123,
+      "end": 1124,
+      "pts": 46.792,
+      "end_pts": 46.833,
+      "reference": "source_refs/src-0655-f1123.png",
+      "change": {
+        "pixels": 81002,
+        "coherent_pixels": 78568,
+        "largest_region": 59208,
+        "masked_mean_delta": 43.42344082107348,
+        "frame": 1123,
+        "pts": 46.792,
+        "foreground_pixels": 229839
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0237",
+      "family": "star_gestures",
+      "character_bbox": [
+        813,
+        100,
+        326,
+        956
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0360"
+    },
+    "source_cel": "cel-0238",
+    "target_cel": "cel-0237",
+    "source_exposures": [
+      {
+        "start": 1125,
+        "end": 1129,
+        "pts": 46.875,
+        "end_pts": 47.042,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    ],
+    "target_exposures": [
+      {
+        "start": 1123,
+        "end": 1125,
+        "pts": 46.792,
+        "end_pts": 46.875,
+        "family": "star_gestures",
+        "source_transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ]
+        }
+      }
+    ],
+    "previous_proposal_metadata_matches": null,
+    "metadata_check_only_not_new_semantic_approval": false
+  }
+]

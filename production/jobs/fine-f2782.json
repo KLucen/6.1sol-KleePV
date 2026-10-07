@@ -1,0 +1,45 @@
+{
+  "source_frame": 2782,
+  "source_cel": "cel-0508",
+  "source_candidate": "src-1594",
+  "output": "generated\\fine-f2782.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. EDIT ORIGINAL IMAGE1 IN PLACE as ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Keep image1 exact spatial layout and enormous empty margins. Replace the visible human only inside its original bounds; do not enlarge or recenter the figure. Preserve all source props at identical image1 size and positions, especially the lavender pillow; do not expand the pillow. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2782: Despite inherited family tag this CURRENT SOURCE is NEW SIDE STANDING floating shot, NOT prone. Tall small full-body person on RIGHT facing LEFT in three-quarter nearprofile, boundx0.590..0.746 y0.20..0.828. Preserve original tall head/body/legproportions, not shorterchibi. Head bows slightlyleft, only ONE source-visible eye shown as tired half-open red with tinyblackpupil/whitehighlight; do not invent far eye or frontalface. Both arms hug lavenderpillow vertically against frontchest atx0.606..0.649 y0.35..0.493; small brown glove nearcheek and lowergrip with plaincream cuffs follow actualsource visibility. Long nearly straight legs endfeetx0.62..0.71 y0.80..0.828, left-facing brownboots with exact source footalignment. Redcoat and creamtrim endat originalhipy0.54, creamhem, redshorts/creamthighs andbrownboots, smallbrownbackpack behindrightshoulder. TWO SHORT blondeear-rootponytails one eachside consistent nearprofile, no oldlonghair. Sole redcloverberet whitefeather replaces rabbitforeheadmask. No pillow on ground, no puffs. Plainpurplefield originalemptymargins, no text. HARD DETAIL LOCK: Exactly two SHORT blonde ear-root ponytails, pointed ears, visible red iris with black pupil and white highlight. No added clovers on coat, hem, sleeves or cuffs; no cuff lettering, labels, long ponytails, original rabbit forehead mask or extra exposed hands. Preserve the current-source huge empty margins and left-profile tall silhouette.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1594-f2782.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2684-f2782-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Source standing left-profile vertical-pillow hug, tall legs and empty margins are independently redrawn; source rabbit mask and long pink hair removed, red iris/black pupil/white highlight and plain cuffs visible. Static single-cel review only."
+    ],
+    "issues": [
+      "Source pillow lies x0.606..0.649 y0.35..0.493; generated pillow is slightly taller and lower. Generated head/hat shifts upward and coat hem extends lower relative to source hip; requires paired geometry review."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff82-81f7-7d12-8aaf-07b931d0c1c9\\exec-3d496f10-75f1-42ea-8b09-28db1e9057ee.png"
+}

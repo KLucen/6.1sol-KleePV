@@ -1,0 +1,40 @@
+{
+  "source_frame": 2532,
+  "source_cel": "cel-0495",
+  "source_candidate": "src-1519",
+  "output": "generated/fine-f2532-v2.png",
+  "status": "generated_repair_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: precise-object-edit. Edit image1 only in the TWO eye irises: add exactly one clearly visible small BLACK oval pupil centered in each red iris below the heavy upper lid, and preserve white corner catchlights. The pupil must remain visibly black in the open red band, not be entirely covered by eyelid. Keep the eye opening width/height and half-lidded tired expression unchanged. Image2 is current original source authority for huge tilted crop and lavender foreground pillow occlusion. Image3 is Klee identity only. All other pixels/composition remain as image1: same enormous counterclockwise tilted face, beret crop, two short blonde ear-root ponytails, pointed ears, orange cheeks, exact lavender pillow hiding mouth and chin, two cropped brown gripping gloves and cream cuffs. Do not add a mouth, chin, body or feet; no sleep mask, no text or watermark. Return one full 16:9 finished cel, no diagram.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2532.png",
+      "role": "edit_target_geometry_and_color_invariants"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1519-f2532.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": [
+      "Targeted pupil repair succeeded: each red iris now contains one visible black oval while white corner highlights, tilted crop, foreground pillow and glove/hand occlusion persist. Static comparison only, unaccepted pending actual speed."
+    ],
+    "issues": [],
+    "scope": "single-cel static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "repair_of": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2532.png",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-cdb7c82b-c1ff-4813-9419-e11c25fd5be7.png"
+}

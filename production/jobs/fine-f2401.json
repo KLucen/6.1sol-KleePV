@@ -1,0 +1,28 @@
+{
+  "source_frame": 2401,
+  "source_cel": "cel-0465",
+  "source_candidate": "src-1388",
+  "output": "generated/fine-f2401.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image 1 is the CURRENT original PV cel and the sole authority for framing, pose, facial expression, eye state, limb positions, cropping and occlusion. Identity/costume cropped references ONLY define Klee's design and simplified flat palette, never override the current pose. Replace EVERY visible part of the original person with Genshin Klee in this source's loose dark hand-drawn outlines and flat color areas; keep source head/body size and body length, not an enlarged chibi figure. Klee has pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, a red beret with cream clover, white feather and side badge, red cream-trim coat/capelet with angular cream cuffs and cream skirt hem, brown gloves and brown boots, small brown backpack when visible, one waist pom. Preserve current source expression and gesture. Do not retain pink long hair, sleep mask, gray pajamas or bare original hands. Keep original purple field and original pale hand-drawn stars and objects in their current layout. No added objects or changed camera. No captions, Japanese/Chinese/English text, logos, credits, letters, numbers or watermarks anywhere. Any bottom source captions should be omitted to plain matching background; compositor restores exact source graphics later. This is one independent drawing, not a contact sheet. CURRENT f2401: centered tall full standing body, both eyes closed relaxed thin lines, tiny dot mouth. Both elbows close to torso, forearms raised with both index fingers tilted slightly INWARD toward head, hands about x805 and1100 y315 in1920source. Cuffs and sleeves turn inward more than f2402. Source eye/bang/outline nuances must be independently drawn, not reuse neighboring cel. Image3 is NEXT Klee f2402 continuity only, retain its hat/clover/badge, exactly two short ponies, same long leg and coat/skirt proportions and flat palette, but do NOT copy its wider outward gloves. Difference image4 has BEFORE f2401 / AFTER f2402: target the BEFORE/blue arms, not red. Image5 AFTER/red is currentf2401, tiny line-pressure/bang/sleeve differences from preceding source. Do not reproduce diagrams.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1388-f2401.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2402.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\star-gestures-2401-2402-delta.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\star-gestures-2399-2401-delta.png"
+  ],
+  "static_review": {
+    "performed": false,
+    "pass": false,
+    "notes": []
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fa51-4599-7241-911f-9c4ef31bc14a\\exec-04019b6f-9d04-4660-9696-23a6c4c7df70.png"
+}

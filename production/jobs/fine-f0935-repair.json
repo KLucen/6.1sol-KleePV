@@ -1,0 +1,33 @@
+{
+  "job_id": "fine-f0935-repair",
+  "source_frame": 935,
+  "source_candidate": "src-0476",
+  "source_cel": "cel-0178",
+  "family": "cyan_profile",
+  "repair_of": "fine-f0935",
+  "prompt": "Use case: precise-object-edit. Asset: localized continuity repair of ONE full16:9 hand-drawn Klee PV cel. Image1 is EDIT TARGET frame935 replacement. Image2 is exact CURRENT935 original PV source; it determines current crop, eye/mouth, hair wind direction and occlusion. Image3 is adjacent Klee frame933 for persistent hair volume and topology ONLY. Image4 is actual SOURCE933-to935 spatial delta, showing only TINY changes, NOT output art. Correct ONLY the rear short ponytail's excessive unexpected shape drift in Image1: restore its contour, continuous two/tip lobes, narrow internal gap and same root/volume to closely match Image3; do not replace with new spiky outline or invent wind swing. Preserve the actual frame935 front cheek-lock hook, rounded rightward sweep and collar overlap/crop from Image1; preserve hat feather/clover/badge, hair at forehead/pointed ear, single OPEN narrow muted-red iris, dot mouth, cheek/face geometry, coat collar/pom details, shoulder placement. Keep all other image1 pixels visually unchanged as far as tool accuracy permits. Source935 wind has no substantive rear-hair change versus933, so the repair must be very close to adjacent933 rear ponytail, no new pose. Cool blue/cyan sourcegrade, Klee hair lightblue and coat/hat mutedredpurple, simple uneven darklines flatcolor. Output full clean16:9 scene, no text, no subtitles/credits, no montage, no extra character/hands. Source geometry authoritative, but Klee identity stays.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0935.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0476-f0935.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0933.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\cyan-f0933-f0935.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0935-repair.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-61c9085c-c3bc-4739-9a13-90e4f36ec2ab.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Rear ponytail restored to continuous curved lobes closer to f0933; excess extra upper spike removed",
+      "Frame935 front hooked lock, open muted-red iris/dot mouth and crop retained",
+      "No captions, extra actors/hands"
+    ],
+    "flaws": [
+      "Rear ponytail still slightly narrower and root/lower tip offsets from f0933; no claim of pixel identity",
+      "Minor hat, foreground curl and collar-line drift from original935 remains",
+      "Actual-speed temporal review and original background/text restore pending"
+    ]
+  },
+  "temporal_review": "pending"
+}

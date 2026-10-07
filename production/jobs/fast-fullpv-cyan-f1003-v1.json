@@ -1,0 +1,75 @@
+{
+  "job_id": "fast-fullpv-cyan-f1003-v1",
+  "source_frame": 1003,
+  "canonical_cel": "cel-0203",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-bb22ff92-1fc3-4b92-a8cd-82b1dfa1c890.png",
+  "asset_sha256": "d5e716f6c0d02e74b8ec9b1d18034df8331d3163a7214a18e66b706d2662710f",
+  "static_findings": ["Wide eyes/open small oval mouth and short rooted two pony groups retained", "Small independent line changes; exact source left-motion amplitude not asserted", "Approximate face/pose registration and original-speed artistic review pending"],
+  "output": "generated/fast-fullpv-cyan-f1003-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1003-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1003-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f1002-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-f1003-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual1003 full source: current head/eyes/neck and crop authority",
+    "Actual1003 native wide eye/dot nose/open small oval",
+    "1002 Klee identity and rooted short hair/collar continuity only",
+    "True1002->1003 spatial A/B RGB/contours: small leftward head outline/eye/coat redraw"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent complete full16:9 CURRENT1003 Klee PV cel. Image1 actual1003 full source alone decides new mild head angle, frame crop and visible body; image2 confirms BOTH WIDE OPEN oval eyes with gently curved upper lids, dot nose and tiny OPEN oval/teardrop mouth, not closed caret, no teeth/tongue. Image4 true1002->1003 A/B RGB/contours shows a small leftward head/face outline movement (about1-2%width), slightly changed upper eye/bang contours and redrawn neck/collar/shoulder/hair tips, not a large new turn or drop. Apply those current differences with independently redrawn linework. Image3 preceding1002 Klee sets only identity/style/colors, short rooted pony length/mass and plain collar continuity, NOT frozen pose. Two wide warm amber-red lower irises/dark upper night shading/simple white highlight, minimal worried/lifted brows, tiny oval mouth. Same scale, preserve two SHORT compact ear-rooted pony groups, no elongation or third fan. Pale lavender-tinted blond hair, pointed ears, burgundy clover beret with ONE feather, PLAIN white TWO-leaf collar and red coat below crop. Top hat/feather crop allowed, don't push face down. No source animal mask/ears, long pink mane, detached throat flap, ornate collar, hands/extra limb. Rough simplified bold PV contours/few flat shadows, no added portrait decoration. Original blue-violet night/stars/crescent context stays close; actual timed Japanese/Chinese captions restored separately, OMIT ALL TEXT/scribbles. No copied held pose, flow, morph, collage. One newly redrawn current cel.",
+  "source_exposures": [
+    {
+      "start": 1003,
+      "end": 1005,
+      "pts": 41.792,
+      "end_pts": 41.875,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 1005,
+      "end": 1006,
+      "pts": 41.875,
+      "end_pts": 41.917,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0006369352340698,
+            0.000031476000003749505,
+            -0.5847693681716919
+          ],
+          [
+            -0.000031476000003749505,
+            1.0006369352340698,
+            -0.3457416296005249
+          ]
+        ]
+      }
+    }
+  ],
+  "source_reference": "source_refs/src-0536-f1003.png",
+  "source_review": "Root viewed actual full source, native face and true spatial A/B RGB/contours"
+}

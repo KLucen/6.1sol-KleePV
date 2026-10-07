@@ -1,0 +1,28 @@
+{
+  "source_frame": 2048,
+  "before_frame": 2045,
+  "boxes": {
+    "head": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "eyes": [
+      180,
+      250,
+      1570,
+      840
+    ],
+    "hands": [
+      350,
+      850,
+      1450,
+      1080
+    ]
+  },
+  "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1118-f2048.png",
+  "source_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\shout_zoom\\resume-delta-f2045-f2048.png",
+  "local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fullpv-middle\\shout_zoom\\resume-delta-f2045-f2048-head-eye-hands.png",
+  "role": "Source spatial evidence only; current is pose authority"
+}
