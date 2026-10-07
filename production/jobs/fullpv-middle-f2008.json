@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f2008",
+  "source_frame": 2008,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1078-f2008.png",
+  "prompt": "Strict-source independent true PV drawing f2008, a CUT from right-profile into enlarged THREE-QUARTER FRONT close-up. EDIT image1 current original sole authority for EXACT enlarged head angle, eye apertures/gaze, closed tiny horizontal capped mouth, crop, both clenched hands, pose and occlusion. Image2 Klee profile IDENTITY ONLY, never its smaller profile pose. Image3 Klee coat collar and brown glove costume only, IGNORE its stars/moon/props and pose. Image4 actual source2006->2008 RGBdifference and contour right CURRENT, confirms scale jump. Full1920x1080 lavender background, NO captions in this current source. Current actor occupies righttwo-thirds: crown cropped at TOP, cheek/chin ~x1350y700, torso and TWO clenched fists cropped by bottom nearx1090..1330. Face slightly turns toward viewer and downward, TWO sleepy half-open eyes sourceasymmetry and tilted eyelids retained; convert blueupper/pinklower iris to deepREDupper/pinkREDlower, retaining sourceblackpupils/darksmallstrokes and whitehighlights, never redsolid discs. Preserve orange cheeks and exact tiny capped sourcemouth, NOT smiling or shouting yet. Replace ALL peach longhair, old rabbit sleepmask/headband and pajamas with defaultKlee: short paleBLONDEbangs and TWO SHORT side ponytails by pointedears, redclover beret brownband singlewhitefeather, TOP-CROPPED as sourcehead. Rabbitmask completely removed not doublehat. Redcoat creamcollar/simplepompom, PLAINcreamcuffs and brownGLOVES matching visible tightlyclenched sourcehands at same bottomcrop; no clovercuffs/extraarms/props/backpack. Currentoriginal longhair backsheet MUST disappear, shortKleepigtails not stretch tobody. Preserve currentsource facewidth/eyes/handcoordinates and zoom, don't shrink actor or invent tophead outsideframe. Thick wobbly blackcontours, flatbroadPV fills and simple hardshadow ONLY, no gradient/gloss/airbrush/texture. No mirroring/morph/tween/heldpose. One drawing at actual source framing.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1078-f2008.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1995.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f2006-f2008.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression camera crop and occlusion authority",
+    "prior Klee identity only, not smaller profile pose",
+    "coat collar plain cuff brown glove identity only, ignore props and pose",
+    "actual source RGBdifference and contours, right current enlarged close-up"
+  ],
+  "output": "generated/fine-f2008.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-be8a49f5-497f-4a97-864d-fbc9d444b6ad.png",
+  "output_sha256": "6aa5b635d3fe26f12645b99803b246f9339ad701b9d7b231d7cdeae2544c445b",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

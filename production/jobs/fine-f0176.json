@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0176",
+  "source_frame": 176,
+  "source_candidate": "src-0054",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0054-f0176.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0176.png"
+  ],
+  "prompt": "ONE full16:9 Klee PV replacement drawing. CURRENT original image1 fixes full-canvas framing/crop, pose, exact pillow/clock coordinates and visibility; replace originalperson only. CroppedKlee2 identity/hat/style ONLY, does NOT require showing a face or eye. Crop3 same coatstructure/color only, image4 actualsourcebefore/currentdifference upperrightcurrent no panels. NEW KEY OCCLUSION: raised lavender pillow swings ACROSS face in foreground, near-vertical diagonal rounded lavender plane at x61..74%,y18..53%; cream scalloped RIGHT fringe lies directly before face. BOTH EYES/NOSE/MOUTH HIDDEN, NO exposed red pupil. ONLY thin orange cheek/skin sliver and sidehair at viewer-right behind fringe. Klee redberet creamclover whitefeather can peek above/behind pillow exactly in source head-visible region; do not uncover face for recognizability. Viewer-right brown glove grips cream RIGHT fringe at x71%,y37%, fingers overlap FRONT of fringe; creamcuff and bent rightforearm go almosthorizontally in front of upperchest toward this hand, elbow at x81%,y43%. Other hand and most other arm behind pillow, don't invent visible fingers. Body and straight legs righttilt/croppedbottom exactsource. SAMEpale blonde TWO SHORTsideponytails/pointedear if actuallyvisible, redcoat creamcapelet smallchestpom partlyoccluded, angular splitredpanels lowerleftclover, broadcreamangularunderskirt fainttinyclovers/pinkruffle/REDshorts, oneleftwaistdanglepom, smallbrownrightbackpack/charm, brown gloves. Floatingcreamclock isolatedLEFT at x49%,y50%, width7%, blankdisplay, keep originalgeometry. Source loose darkoutline flatpatches oneflatshade; NO captions/subtitles/title/credits/letters/digits, sleepmask/pajamas/rabbitears, addedface/eyes/hands, mirrored/zoomedview.",
+  "output": "../generated/fine-f0176.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

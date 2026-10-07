@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0121-costume-repair",
+  "source_frame": 121,
+  "source_candidate": "src-0041",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0121.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png"
+  ],
+  "prompt": "Precise local animation costume-continuity edit. Image 1 is the EDIT TARGET. Preserve the entire 16:9 image, exact character placement, pillow, blank clock, open red eyes, caret mouth, hat/hair, spread raised arms, fingers, legs and all colors outside the LOWER COAT/SHORTS region. Image 2 is a CROPPED established coat/hem/shorts detail, not pose/framing. Change ONLY the lower coat and shorts of image 1 to the same garment as image 2: two angular separated red front coat panels with small split between, one cream clover near bottom viewer-left panel, below panels broad cream angular scalloped underskirt strip with subtle tiny outline clovers, pale pink small ruffled trim above RED shorts. Remove the TWO new cream pom-poms at left/right hip pockets; keep a SINGLE dangling cream pom at viewer-left waist as established (image2 partly clipped left). Keep same small round red buttons and brown backpack/rabbit charm on viewer-right, no new pocket ornaments. No change to body size, limb pose, coat length or thigh exposure. Same flat loose dark outlined hand-drawn PV, no captions/lettering/digits or extra details. Exact localized edit ONLY, not a new design.",
+  "output": "../generated/fine-f0121-costume-repair.png",
+  "status": "generated_repair",
+  "replaces": "fine-f0121.png",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

@@ -1,0 +1,29 @@
+{
+  "job_id": "fullpv-early-f0823-source-v1",
+  "source_frame": 823,
+  "canonical_cel": "cel-0144",
+  "source_candidate": "src-0369",
+  "family": "star_dance",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "generated_by": "root after delegated model usage-limit failure",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-eadc9072-e43c-4d2c-bf2c-84259e77eb83.png",
+  "static_review": "Source lean, near palm facing camera, far hand mostly occluded and raised sole facing camera are independently drawn. Face/eye more exposed than current source; cuffs/hem and stars drift remain.",
+  "known_issues": ["Profile eye and mouth more exposed than source bangs", "Near glove fingers enlarged", "Hem/cuff contour differs and clover side badge retained", "Backdrop/white stars not pixel exact before layering"],
+  "accepted": false,
+  "output": "generated/fullpv-early-f0823-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE independently redrawn16:9 Klee PV cel CURRENT823. Image1 current source EDIT TARGET exclusively decides native pose/camera/head angle/expression/current limb outlines/occlusion. Image2 ONLY Klee identity/color/twoSHORTblondeponies/costume, never priorpose/camera. Image3 actual source819/823 RGBdiff+contours CURRENT majorchanges. Source body now LEANS with head towardLEFT and hips/leg downRIGHT (axis about10degrees), upperheadcenterx62%,y32%, bodycenterx64%,y58%. Face facesLEFT with mostly hidden eye behind bangs; only original visible eyelid/narrow eye fragment, do NOT invent secondeye or enlarge iris. If any irisvisible red with blackpupil/whitehighlight. Near brown gloved hand palm facesCAMERA with source finger fan atx58%,y55%, creamcuffcenterx60%,y54%; bent forearm extends out towardviewer, not previous hangingarm. Reararm/hand stays source OCCLUDED behind upperbody/hair plane, only source-visible cream cuff nearx69%,y50%; never invent missing fingers. EXACT2hands. One leg slantsDOWN-RIGHT to planted bootx69%,y95%; other leg bentUP/RIGHT with boot nearx74%,y73%, sole facescamera/current source ankleangle. EXACT2legs. Native source torso length/coathem64%, no shortening/zoom. Klee2SHORT earrootblondeponies rotated/sweptwith head, pointedears, redcreamcloverberetONEwhitefeather; remove entire rabbitmask/allpinklonghair. Redcreamtrimcoat one cream lowerfrontclover (NOT onback), plaincreamcollar/cuffs/creamhem/redshorts/bareknees/compactbrownboots plaincreamtopcuffs; no fluffy cuffs/tinyhempatterns/sleeveclovers/thirdtuft/badgedanglers. Keep source lavender white sketchstar BG and yellowparticles as independent sourceelements, no edgeforegroundpolygons. Remove subtitles. Flat PV colors/irregularblackoutlines, no gradient/shading. Current source823 handfanning/tilt/knee mandatory, no frozen819/815pose, no hold/morph/panels.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0369-f0823.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0815-source-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0823-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source823 exclusive geometry/crop/expression/occlusion",
+    "Klee identity/color/costume ONLY; prior pose forbidden",
+    "Actual source819/823 RGB and contours"
+  ],
+  "visible_character_inventory": "One full girl, near open palm toward viewer, far hand largely occluded; original white sketch-stars/yellow particles/caption are independent layers.",
+  "continuity_status": "pending_static_and_consecutive_review",
+  "original_speed_review": "unperformed"
+}

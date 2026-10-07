@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "scope": "clock-only technical pixel-copy audit",
+  "status": "technical_only_not_artistic_acceptance",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "camera_policy": "exact 2x3 identity only; None is identity default",
+  "input_policy": "same normalized source coordinates; current source pixels copied",
+  "unsupported": [
+    "held clocks",
+    "pillow restoration",
+    "old shifted frame-157 clock eraser",
+    "unknown filename/frame pairs",
+    "nonidentity camera transforms"
+  ],
+  "released_clock_provenance": {
+    "asset_sha256": "1ec40ef8df5c1999ececaa2bc963deec59355dbd2b75ae2eec27290ce548c1b7",
+    "mask_sha256": "71d23bdfe9ac32ec9d83f1a6c63b0b9d1f50ba7bd0e6378f7df4e0866058cbd4",
+    "mask": "qa\\opening-new-review\\f0157-clock-mask-glove-guarded.png",
+    "geometry_reference_frame": 162,
+    "pixels_reference": "current source frame, not mask-reference frame"
+  },
+  "assets": [
+    {
+      "source_frame": 38,
+      "asset": "generated/candidate-001-clean.png",
+      "generated_sha256": "ec9632bf3f4b6f6b270366ee9e3ca5be0de9cfc2c0240e040c7350ee77d628e9",
+      "source": "source_refs/src-0013-f0038.png",
+      "source_sha256": "b40e7fcb99734c71c13694357aa6d9ad668c05a0e74930c33da152a8a7aa3ef9",
+      "restored_pixels": 30968,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        854,
+        375,
+        1050,
+        533
+      ]
+    },
+    {
+      "source_frame": 38,
+      "asset": "generated/fine-f0038-eye-repair.png",
+      "generated_sha256": "f70bf6098143e59fb5ddee3a61d5b237e546ff71d8d103539895264a06e81486",
+      "source": "source_refs/src-0013-f0038.png",
+      "source_sha256": "b40e7fcb99734c71c13694357aa6d9ad668c05a0e74930c33da152a8a7aa3ef9",
+      "restored_pixels": 30968,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        854,
+        375,
+        1050,
+        533
+      ]
+    },
+    {
+      "source_frame": 50,
+      "asset": "generated/fine-f0050.png",
+      "generated_sha256": "bd36a06abfcfe01bdeb0021071cd3e015062e402d1267e005eadc362e408c18b",
+      "source": "source_refs/src-0015-f0050.png",
+      "source_sha256": "2b1de46113649ece70e6023f4b06124747f4ded92c798e955679eeabae645613",
+      "restored_pixels": 30968,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        854,
+        375,
+        1050,
+        533
+      ]
+    },
+    {
+      "source_frame": 54,
+      "asset": "generated/fine-f0054.png",
+      "generated_sha256": "1286bb0515b5126bff7cf51845cd4702773ee10f08c95a3ced148598f8646b9a",
+      "source": "source_refs/src-0016-f0054.png",
+      "source_sha256": "3526215bc9ac98814ac9aa6eb77d727004598f13983af5c15344789933dddfef",
+      "restored_pixels": 30968,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        854,
+        375,
+        1050,
+        533
+      ]
+    },
+    {
+      "source_frame": 162,
+      "asset": "generated/fine-f0162.png",
+      "generated_sha256": "042ba188ff710b8e804939b45b98414e4d216f3a449896101e5b9c7fabf4c98f",
+      "source": "source_refs/src-0050-f0162.png",
+      "source_sha256": "2eda077b4f2dd360d7b4e0b1f222da2bc72b8300d2d21c8fab1dcfc8bb105cbd",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 167,
+      "asset": "generated/fine-f0167.png",
+      "generated_sha256": "bf382f440cc3258825935e46ac76d06b70e231ee56ae199f0c8b42c27b47ece5",
+      "source": "source_refs/src-0051-f0167.png",
+      "source_sha256": "0ac5f42a5b94d40a5f825bc337115d2b8b390215f2876eba184289ee2519f2b9",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 172,
+      "asset": "generated/fine-f0172.png",
+      "generated_sha256": "9d547fc42e8ae3b9225377cb679a6bebdebf4531759d1075d69bad1a88c7afae",
+      "source": "source_refs/src-0053-f0172.png",
+      "source_sha256": "28f45086f30ef8c4196e84ab58c6ca4ced1fd071e689f11d316f5754e2a24586",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 176,
+      "asset": "generated/fine-f0176.png",
+      "generated_sha256": "300287dd55ed324f7b15e39f5748d3d4f969c236b931655fec9a92fe869c9c5e",
+      "source": "source_refs/src-0054-f0176.png",
+      "source_sha256": "cd94df179c2690153a21f9d2465ddaa98a80dbdab1c40e34d47099ab1f9d78bb",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 180,
+      "asset": "generated/fine-f0180.png",
+      "generated_sha256": "4c8896978bce978d3400533a13c160e0b83949afcc164811bc69b65de47657a4",
+      "source": "source_refs/src-0055-f0180.png",
+      "source_sha256": "b1de4045a2bcf744934e919341fcf04bcbd2fae83cd4b2f1c6bd18d42ceb002e",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 185,
+      "asset": "generated/fine-f0185.png",
+      "generated_sha256": "97dbf306c00df457fd7099b4664d6c04f8335ef111f3587f1044f3fb376a9011",
+      "source": "source_refs/src-0057-f0185.png",
+      "source_sha256": "90638da4d521510cd9beb5c7fb9a119bd8cdb6dd66522bc1096ff6f80d8d45a6",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 190,
+      "asset": "generated/fine-f0190.png",
+      "generated_sha256": "ced9ef8d9344f394dfa7f666598aebf333f058d86c87218b44017a5acf4b3394",
+      "source": "source_refs/src-0059-f0190.png",
+      "source_sha256": "2d2b9fbebae7abcecc7cb64f380ad51cf17b728fee5dfd757250868149b19c42",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 194,
+      "asset": "generated/fine-f0194.png",
+      "generated_sha256": "189b90edd45fc1f1b631a3a89dd95f1ab019e35b7cdd660a43071360b8696740",
+      "source": "source_refs/src-0060-f0194.png",
+      "source_sha256": "29efa56f559eb9c44b0a317cbb68091cee0853f915eefacfeac64d8d1431be24",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 176,
+      "asset": "generated/fine-f0176-hair-cuff-repair.png",
+      "generated_sha256": "64fa207a7cbbffbee1f0fef37416b096e29524089a7376b556733cc0adc1f05a",
+      "source": "source_refs/src-0054-f0176.png",
+      "source_sha256": "cd94df179c2690153a21f9d2465ddaa98a80dbdab1c40e34d47099ab1f9d78bb",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 185,
+      "asset": "generated/fine-f0185-hair-repair.png",
+      "generated_sha256": "1684558297118193ed81a3657064319e77eb7bc42500cd2902a8a153d76b721c",
+      "source": "source_refs/src-0057-f0185.png",
+      "source_sha256": "90638da4d521510cd9beb5c7fb9a119bd8cdb6dd66522bc1096ff6f80d8d45a6",
+      "restored_pixels": 24320,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": [
+        866,
+        464,
+        1018,
+        624
+      ]
+    },
+    {
+      "source_frame": 157,
+      "asset": "generated/fine-f0157-glove-repair.png",
+      "generated_sha256": "1ec40ef8df5c1999ececaa2bc963deec59355dbd2b75ae2eec27290ce548c1b7",
+      "source": "source_refs/src-0049-f0157.png",
+      "source_sha256": "1b8f9621a19830b724cd44e5247f068867faa6e405a5520ff649fc9009bd0ee6",
+      "restored_pixels": 15911,
+      "source_mismatch_inside_mask": 0,
+      "outside_mask_changed_pixels": 0,
+      "rectangle": null,
+      "guarded_glove_mask_overlap_pixels": 0,
+      "glove_changed_pixels": 0
+    }
+  ],
+  "all_supported_pixel_copies_verified": true
+}

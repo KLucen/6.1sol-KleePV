@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f0079-v2",
+  "source_frame": 79,
+  "source_candidate": "src-0027",
+  "family": "standing_pillow",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0027-f0079.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0079-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0075-f0079-source-delta.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full 16:9 original PV animation cel replacing ONLY the sole girl with DEFAULT Klee, not a sheet. Ref1 CURRENT source79 alone decides camera, character/prop coordinates, pose, visible face and crop. Ref2 Klee HAT-ONLY supplies red/cream beret, brown band, white feather and clover, NOT pose. Ref3 lower garment crop supplies red split coat, cream angular faint-clover underskirt, narrow pink ruffle and RED shorts ONLY. Ref4 CURRENT SOURCE clock/hand/lowerface enlargement is the exact relative-size and contact reference, NOT a Klee identity or old-girl reference. Ref5 before/current/RGB x4/double-color source contours are analysis only, NO panels or markings in output. Retain original diagonal lavender pillow with cream fringes/pale blue patches behind head at exact original position, flat violet background, no lyrics/text/letters/numbers anywhere, clock display blank. Source f79 has BENT knees, feet cropped. Clock must be the original compact cream rectangular clock at x1198..1380,y260..380 in normalized1920x1080 source coordinates, tilted upward-right, approximately180px wide and110px tall including thick lower cream band. It must NOT widen to head width. Source-like narrow purple display partly hidden on both sides by FRONT fingers. Four visible curved brown-glove fingertips on each edge curl inward as CURRENT enlargement, palms and wrists meet original-position raised red forearms and smooth cream cuffs. Clock front covers BOTH EYES COMPLETELY; BOTH lower orange cheek fragments, tiny CLOSED downturned mouth and chin ARE visible BELOW case as source. No full eyes or nose. Do not shift face to accommodate a larger clock. Red beret/cream clover/white feather behind hands/clock; pale blonde bangs and pointed ears, EXACTLY TWO short blonde side ponytails, one each side ending around shoulders, no third low wing or original long hair below arms. Fixed costume across group: red cape collar with two flat cream lapels, ONE small cream chest pom and a simple small pale diamond badge below, ONE cream dangling viewer-left waist pom on slender cord. Smooth angular cream cuffs, plain red sleeves NO added symbols, small brown backpack/Dodoco behind viewer-right. Preserve source torso length/shoulder width and original narrow sleeve shapes, no blown-up bulky arms. Red split coat with lower-left cream clover, angular cream underskirt faint clovers, narrow pink ruffle, RED shorts. Loose uneven dark source-like outlines, big flat colors and one simple flat shadow, orange cheeks; no gloss/highlights/detailed fabric pattern. Single fullframe drawing of this unique current bent-knee/clock grip state, no mirroring, no interpolation, no copying another pose.",
+  "output": "../generated/fine-f0079-v2.png",
+  "repair_of": "fine-f0079-geometry-repair.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "temporal_review": "pending",
+  "prop_restoration": "pending_glove_aware_registration",
+  "prior_attempt": "Six references rejected by tool schema; revised to supported five references before generation."
+}

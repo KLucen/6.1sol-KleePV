@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0058",
+  "source_frame": 58,
+  "source_candidate": "src-0018",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0018-f0058.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0054.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0058.png"
+  ],
+  "prompt": "ONE full 16:9 Klee replacement cel. Image1 CURRENT source controls pose/crop, eyes/mouth, visible hands, pillow and clock positions. Image2 preceding Klee controls SAME identity, costume, two short blonde ponytails, red beret/cream clover/white feather side, colors/proportions and flat PV style only. Image3 contains actual source BEFORE and CURRENT differences: upper-right is CURRENT; never put analysis panels/labels in artwork. BOTH arms remain extended LEFT, but now the wrists are lifted UP and slightly LEFT toward the clock, near current source x995,y505, not at the preceding lower x1025,y560. Extended forearms slope upward toward hands; sleeve bottoms and cuffs rise and curve differently, follow current source outlines rather than freezing prior straight sleeves. The nearer brown glove overlaps the lower clock edge as in source; other wrist/hand behind, cream cuffs. Keep elbow connection to shoulders and coat, red sleeve fabric bends coherently. Head profile left, one OPEN narrow RED iris, tiny closed dot mouth, orange cheek; same head identity but current source head/bang/ear/cheek contours followed. Keep bent knees and lower crop, Klee redcreamcoat/capelet/shorts/backpack, no gray pajamas or rabbit hood. Pillow diagonally behind head, do not make blanket/bag; source prop geometry retained. NO captions, subtitles, titles, credits, labels or lettering at all, clock digits removed for original restoration. Flat loose dark outlines, simple one shade, no extra hair tufts/limbs, no zoom out.",
+  "output": "../generated/fine-f0058.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

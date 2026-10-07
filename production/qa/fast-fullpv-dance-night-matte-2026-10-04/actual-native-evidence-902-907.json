@@ -1,0 +1,52 @@
+{
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "sequential_decode": [
+    0,
+    907
+  ],
+  "timeline": "timeline-dance-812-911-fast-draft-v10.json",
+  "scope": [
+    902,
+    911
+  ],
+  "records": [
+    {
+      "frame": 902,
+      "asset": "generated/candidate-029-clean.png",
+      "range": [
+        902,
+        903
+      ],
+      "source_rgb_sha256": "b578f29f5ef85868a0d00a9fb29267cff377dc9b8adff3717f65ad7f06dd19a3",
+      "generated_bgr_sha256": "b55531c7b14cff4712c36f5eb91237272f699ba21a111fe61941ef79b60f1c2d",
+      "fixed_bgr_sha256": "ac990a3280eaa260116b4cb441b81a3b092e966af203ad41d3d5ba107705be95",
+      "new_matte_pixels": 1475469,
+      "source_matte_pixels": 1433343,
+      "repair_pixels": 1492681,
+      "changed_pixels": 41407,
+      "changed_outside_support": 0,
+      "source_visible_background_preserved": true,
+      "inspection": "pending_actual_native_review"
+    },
+    {
+      "frame": 907,
+      "asset": "generated/fast-fullpv-dance-f0907-source-v2.png",
+      "range": [
+        907,
+        908
+      ],
+      "source_rgb_sha256": "133bcf496ce6817204453f13b4fb804e83d6e6c988acefad898bc1c50176699c",
+      "generated_bgr_sha256": "634bbebdf202cac92902d7352785727222afb75d3b628f2e4eb7ddf05d83f4b4",
+      "fixed_bgr_sha256": "2f81118fac4c9c172fdf4ee82fd4fd6998d00e964df7c21b5b6b152990ee9e82",
+      "new_matte_pixels": 1409426,
+      "source_matte_pixels": 1418894,
+      "repair_pixels": 1455878,
+      "changed_pixels": 58848,
+      "changed_outside_support": 0,
+      "source_visible_background_preserved": true,
+      "inspection": "pending_actual_native_review"
+    }
+  ],
+  "reconstruction": "Current-source visible sky robust smooth gradient, only vacated old support",
+  "not_a_cleanplate_donor": "Source1007 actually contains two huge people and different scene"
+}

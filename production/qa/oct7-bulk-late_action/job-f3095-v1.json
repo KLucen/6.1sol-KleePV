@@ -1,0 +1,82 @@
+{
+  "source_frame": 3095,
+  "cel": "cel-0540",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Head dips further down about 90 source pixels and bends forward toward chest, centered-right, face more frontal, BOTH EYES CLOSED and large open oval mouth. Crown now at y360, cheeks/chin near y900. Torso leans into lower edge; BOTH arms descend OUTSIDE bottom frame, only a sliver of image-left cuff/fist at bottom is allowed and right hand is NOT visible. Do not add two complete fists from previous Klee. Keep current top negative space and bottom cutoff. Short twin ponytails bow down/out following head, red beret compressed by bowed angle, collar partly mouth-adjacent. No pillow or legs.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1689-f3095.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3091-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3091-f3095-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3095-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "f4a3b9a21e3ac4546b7029a8f1626e20e71600e97cf6dfbe78afddbf98f84d70",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "71904f3f8e8f2ac9a8606b9b6f1343aeca097ea82229be63a7ec6754e629dc3a",
+    "94f90ac592a5976d6c15bd0040b02de9760e4fb75f7ae4819364ae025d700aa2",
+    "5aa8861fb58a0eddcf254e62f34a80b5bbbd721966ac44a832537983ac599588"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3095-v1.png",
+  "source_exposures": [
+    {
+      "start": 3095,
+      "end": 3099,
+      "pts": 128.958,
+      "end_pts": 129.125,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Head dips further down about 90 source pixels and bends forward toward chest, centered-right, face more frontal, BOTH EYES CLOSED and large open oval mouth. Crown now at y360, cheeks/chin near y900. Torso leans into lower edge; BOTH arms descend OUTSIDE bottom frame, only a sliver of image-left cuff/fist at bottom is allowed and right hand is NOT visible. Do not add two complete fists from previous Klee. Keep current top negative space and bottom cutoff. Short twin ponytails bow down/out following head, red beret compressed by bowed angle, collar partly mouth-adjacent. No pillow or legs.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-9e6baa4d-9326-4442-ad33-073cdb9c91c0.png",
+  "output_sha256": "47febe308ba5540f78457981a0676efa5988dd6ce5d56fcffe56a43614b759d2",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: deep closed-eye bow, hands mostly outside bottom with small left cuff/glove fragment. Hat tilt/face perspective only approximate and large collar remains. Unaccepted first-pass draft; no new variant.",
+    "accepted": false
+  }
+}

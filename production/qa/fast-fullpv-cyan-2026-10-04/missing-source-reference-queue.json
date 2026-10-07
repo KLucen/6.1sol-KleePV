@@ -1,0 +1,1310 @@
+{
+  "package": "shot-11-cyan_profile-f0911-f1008",
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "sequential_decode": [
+    0,
+    1004
+  ],
+  "queue": [
+    {
+      "source_frame": 938,
+      "cel": "cel-0179",
+      "source_reference": "source_refs/src-0478-f0938.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0938-source-actual.png",
+        "decoded_bgr_sha256": "6d49ef547a320d038809710c6493ceb462f05998118add147ba97c2f6948e795",
+        "png_sha256": "fe77d6858781cf9c4ba29c870a5b3cf5fa98afd4dded6a77462a778cb687c1b7",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 935,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0935-source-actual.png",
+        "decoded_bgr_sha256": "d0ae82a6fee7cf174c52941137925dd315ecc5997f9740781c8938270056f97d",
+        "png_sha256": "16b518168562e99df8e8056f11540d687acefb71cd204e3d4b98cabd2eca2628",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0935-f0938-source-ab-rgb-contours.png",
+      "delta_sha256": "faf86834097f1c6374ed073deb62bf9925d69887228f0c6e5a4b6cfe2b6186d7",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0938-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 938,
+          "end": 939,
+          "pts": 39.083,
+          "end_pts": 39.125,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 942,
+      "cel": "cel-0181",
+      "source_reference": "source_refs/src-0481-f0942.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0942-source-actual.png",
+        "decoded_bgr_sha256": "15918183858508fc9a24feb4669779e9acf3378d376a1a282afaef346d3326ea",
+        "png_sha256": "8a968c05bb1cb415aab2ae0cb2b14677f4c5dc479404bbfbb4fe472ffe0c2347",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 939,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0939-source-actual.png",
+        "decoded_bgr_sha256": "726a336409e71256937779c6c3542af0ca8b958670b200271378049d24717e65",
+        "png_sha256": "9ceb9474fa1d4a84dc9ebd7c706df33cbda25ab985a4483d75db9ffef81eab2f",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0939-f0942-source-ab-rgb-contours.png",
+      "delta_sha256": "eb26bc9091abe9f7ca091bfdaeec232df268b710aea40ec59c03b4351a40f5c5",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0942-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 942,
+          "end": 944,
+          "pts": 39.25,
+          "end_pts": 39.333,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 944,
+          "end": 945,
+          "pts": 39.333,
+          "end_pts": 39.375,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.08685150742530823
+              ],
+              [
+                0.0,
+                1.0,
+                -0.24386996030807495
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 948,
+      "cel": "cel-0183",
+      "source_reference": "source_refs/src-0486-f0948.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0948-source-actual.png",
+        "decoded_bgr_sha256": "971614e2fa2bf08a33f45c85a9e98559934056df05deaab6ddddf02842d4fc17",
+        "png_sha256": "0700c16b52799c45314d50b341eaab8bd6168c8b137139970255f17477892ce2",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 945,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0945-source-actual.png",
+        "decoded_bgr_sha256": "e473eb5121ad7d83a7610c84e3d84661161561f0ae23aab52f1f73657b35170b",
+        "png_sha256": "73861b4cb00c207721382a7989e89dae7dd514ea7e7c416744761ab1d5c97faa",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0945-f0948-source-ab-rgb-contours.png",
+      "delta_sha256": "cb67a790a4bbcaaa1d72075b3d867c3e9c506bd2642df40aaa41b1947af8021d",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0948-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 948,
+          "end": 950,
+          "pts": 39.5,
+          "end_pts": 39.583,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 950,
+          "end": 951,
+          "pts": 39.583,
+          "end_pts": 39.625,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.09480643272399902
+              ],
+              [
+                0.0,
+                1.0,
+                -0.24948172271251678
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 954,
+      "cel": "cel-0185",
+      "source_reference": "source_refs/src-0492-f0954.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-source-actual.png",
+        "decoded_bgr_sha256": "e3cf516edf45f7e3bee267f5831a81b60038cf817aa7112059ddd0001ba06869",
+        "png_sha256": "dd45e6bc4bdc81c0ecc12e5eabbc562af1bbdefd3cf5e9dfe5d3ad0ad0a25139",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 951,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0951-source-actual.png",
+        "decoded_bgr_sha256": "4c7481957ec4329da58521a8f179287d14dece0f5c8a846db794c8730ceb2dc6",
+        "png_sha256": "6eab00a123d9ad42dcde913bd252679a82cbd35d33fd1210d73c2c4ec023013f",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0951-f0954-source-ab-rgb-contours.png",
+      "delta_sha256": "852f1bb4ffa029beab1e199b6632a7910ccf97832998aeff4c91b2d7cffe9ed8",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 954,
+          "end": 956,
+          "pts": 39.75,
+          "end_pts": 39.833,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 956,
+          "end": 957,
+          "pts": 39.833,
+          "end_pts": 39.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0006458759307861,
+                -3.579668828024296e-06,
+                -0.7266827821731567
+              ],
+              [
+                3.579668828024296e-06,
+                1.0006458759307861,
+                -0.3829655051231384
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 957,
+      "cel": "cel-0186",
+      "source_reference": "source_refs/src-0495-f0957.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-source-actual.png",
+        "decoded_bgr_sha256": "681a4d1250c7ad684184a5177dbce458a34f52cbcb3238c06b12af0801ab6f4b",
+        "png_sha256": "35636af7edadede95e824734c80e6515bff3446cc439214fac71751d8c7a2a65",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 954,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-source-actual.png",
+        "decoded_bgr_sha256": "e3cf516edf45f7e3bee267f5831a81b60038cf817aa7112059ddd0001ba06869",
+        "png_sha256": "dd45e6bc4bdc81c0ecc12e5eabbc562af1bbdefd3cf5e9dfe5d3ad0ad0a25139",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-f0957-source-ab-rgb-contours.png",
+      "delta_sha256": "d44f7756699ee08d1062bef61209d193d0b6ed37d8c6fd6d76a12c15f1aa7496",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 957,
+          "end": 960,
+          "pts": 39.875,
+          "end_pts": 40.0,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 960,
+      "cel": "cel-0187",
+      "source_reference": "source_refs/src-0496-f0960.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-actual.png",
+        "decoded_bgr_sha256": "d24a7e04027f1b983f9009f8a0061343425f2d4b5da104c4f89dc3d1a461295b",
+        "png_sha256": "5d8c343fc00ee9125b7cf09a74372d0f9e82e248f1dbf05d8cb84e9468347130",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 957,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-source-actual.png",
+        "decoded_bgr_sha256": "681a4d1250c7ad684184a5177dbce458a34f52cbcb3238c06b12af0801ab6f4b",
+        "png_sha256": "35636af7edadede95e824734c80e6515bff3446cc439214fac71751d8c7a2a65",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-f0960-source-ab-rgb-contours.png",
+      "delta_sha256": "576f24152e74fa0e824814f00385f3a579d4f775b3063d5295423dae51bc0edf",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 960,
+          "end": 962,
+          "pts": 40.0,
+          "end_pts": 40.083,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 962,
+          "end": 963,
+          "pts": 40.083,
+          "end_pts": 40.125,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0005319118499756,
+                -3.7940892070764676e-05,
+                -0.5378252267837524
+              ],
+              [
+                3.7940892070764676e-05,
+                1.0005319118499756,
+                -0.37531137466430664
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 963,
+      "cel": "cel-0188",
+      "source_reference": "source_refs/src-0499-f0963.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-source-actual.png",
+        "decoded_bgr_sha256": "6e505f6a2a8f41ecca0f64bcec67f8685744efe0ba0d76fd7bbd05e6f9192a89",
+        "png_sha256": "d34162f82c5d1465fc67c0ba9ced4f45f72b327bf9a40df7f78106de976f14d3",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 960,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-actual.png",
+        "decoded_bgr_sha256": "d24a7e04027f1b983f9009f8a0061343425f2d4b5da104c4f89dc3d1a461295b",
+        "png_sha256": "5d8c343fc00ee9125b7cf09a74372d0f9e82e248f1dbf05d8cb84e9468347130",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-f0963-source-ab-rgb-contours.png",
+      "delta_sha256": "f5fe873722b82fc380048dd948ca13375387ea69cf9307a61aebc9605aaa81dd",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 963,
+          "end": 965,
+          "pts": 40.125,
+          "end_pts": 40.208,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 965,
+      "cel": "cel-0189",
+      "source_reference": "source_refs/src-0501-f0965.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0965-source-actual.png",
+        "decoded_bgr_sha256": "12b78d1b3200e95f0b96ee9125622942747a64f47e30a8392511e6eb6b471622",
+        "png_sha256": "6c861fbda10635f958477823445482720344f27ff02f09cca38b598b735fc564",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 963,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-source-actual.png",
+        "decoded_bgr_sha256": "6e505f6a2a8f41ecca0f64bcec67f8685744efe0ba0d76fd7bbd05e6f9192a89",
+        "png_sha256": "d34162f82c5d1465fc67c0ba9ced4f45f72b327bf9a40df7f78106de976f14d3",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-f0965-source-ab-rgb-contours.png",
+      "delta_sha256": "f9962b4b40ed4eda2d03a8f7b58124f596ef390af3c948a489b878b76bfb9959",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0965-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 965,
+          "end": 967,
+          "pts": 40.208,
+          "end_pts": 40.292,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 967,
+      "cel": "cel-0190",
+      "source_reference": "source_refs/src-0503-f0967.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-source-actual.png",
+        "decoded_bgr_sha256": "0bfc5f43bd1b77b2c1431863470c86f1bca437aa7d5fd071d1f0c1b7cf5626f9",
+        "png_sha256": "8a59d2bc00f968843521ddda021da3d6bc3b64bea2e0e0affbd8e8d7cd1e8b79",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 965,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0965-source-actual.png",
+        "decoded_bgr_sha256": "12b78d1b3200e95f0b96ee9125622942747a64f47e30a8392511e6eb6b471622",
+        "png_sha256": "6c861fbda10635f958477823445482720344f27ff02f09cca38b598b735fc564",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0965-f0967-source-ab-rgb-contours.png",
+      "delta_sha256": "77824bf7aac9af6dc52cf9c7ddc83065d354ff608565668c521befd1e510a996",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 967,
+          "end": 969,
+          "pts": 40.292,
+          "end_pts": 40.375,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 969,
+      "cel": "cel-0191",
+      "source_reference": "source_refs/src-0505-f0969.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-source-actual.png",
+        "decoded_bgr_sha256": "4eff8fd83a944c6a247d2d1de868ab5910aec60b910cdfb9464c629088751ef9",
+        "png_sha256": "56045ebb276346e34e326eec66fe945c4f097e44d330cb07d985e52beb6cd13b",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 967,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-source-actual.png",
+        "decoded_bgr_sha256": "0bfc5f43bd1b77b2c1431863470c86f1bca437aa7d5fd071d1f0c1b7cf5626f9",
+        "png_sha256": "8a59d2bc00f968843521ddda021da3d6bc3b64bea2e0e0affbd8e8d7cd1e8b79",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-f0969-source-ab-rgb-contours.png",
+      "delta_sha256": "95df7c9813602b7f90e6f673791e6af43fbbcfcf9839bcaea668052a3de7095a",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 969,
+          "end": 971,
+          "pts": 40.375,
+          "end_pts": 40.458,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 971,
+          "end": 973,
+          "pts": 40.458,
+          "end_pts": 40.542,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.000617504119873,
+                -0.00010010008554672822,
+                -0.49446260929107666
+              ],
+              [
+                0.00010010008554672822,
+                1.000617504119873,
+                -0.45020511746406555
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 973,
+      "cel": "cel-0192",
+      "source_reference": "source_refs/src-0509-f0973.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-source-actual.png",
+        "decoded_bgr_sha256": "1cb68a91992802cf12623b7b87b1641336cc600ba0360650ae2e0b4ad958b789",
+        "png_sha256": "cbf1b4cec346f1962f1df09d68913b2870d73217d71ddc3898973296a2d2e261",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 969,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-source-actual.png",
+        "decoded_bgr_sha256": "4eff8fd83a944c6a247d2d1de868ab5910aec60b910cdfb9464c629088751ef9",
+        "png_sha256": "56045ebb276346e34e326eec66fe945c4f097e44d330cb07d985e52beb6cd13b",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0969-f0973-source-ab-rgb-contours.png",
+      "delta_sha256": "a6bb0a48fad7282f9273d2c959163034e5cedafb826ec6b8a175a6e43b4c653b",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 973,
+          "end": 975,
+          "pts": 40.542,
+          "end_pts": 40.625,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 975,
+      "cel": "cel-0193",
+      "source_reference": "source_refs/src-0511-f0975.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-source-actual.png",
+        "decoded_bgr_sha256": "f17a188926bc35acea7ff740b740e5b1cb431e07e2176586505834f1015e8f7b",
+        "png_sha256": "7e38cc2f9b027731b6d610499d38fc7018591321e49b8ed772fecb9a36d0bcce",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 973,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-source-actual.png",
+        "decoded_bgr_sha256": "1cb68a91992802cf12623b7b87b1641336cc600ba0360650ae2e0b4ad958b789",
+        "png_sha256": "cbf1b4cec346f1962f1df09d68913b2870d73217d71ddc3898973296a2d2e261",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-f0975-source-ab-rgb-contours.png",
+      "delta_sha256": "7054e3c2c40b5fef23df8bb834f83d0fb6712ddd381dc3f17a5e40c25f574356",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 975,
+          "end": 978,
+          "pts": 40.625,
+          "end_pts": 40.75,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 978,
+          "end": 980,
+          "pts": 40.75,
+          "end_pts": 40.833,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0010631084442139,
+                -8.568673365516588e-06,
+                -0.9812138080596924
+              ],
+              [
+                8.568673365516588e-06,
+                1.0010631084442139,
+                -0.5378986597061157
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 980,
+      "cel": "cel-0194",
+      "source_reference": "source_refs/src-0515-f0980.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-source-actual.png",
+        "decoded_bgr_sha256": "d49cd02aefa3351c7b2b33696b8ae26e8f882a0e804008e4c456cdbfef0bd946",
+        "png_sha256": "13c65148e15aff756e023b52f5dc310c831088ea3ef57fcbd2d45dffe0701d79",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 975,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-source-actual.png",
+        "decoded_bgr_sha256": "f17a188926bc35acea7ff740b740e5b1cb431e07e2176586505834f1015e8f7b",
+        "png_sha256": "7e38cc2f9b027731b6d610499d38fc7018591321e49b8ed772fecb9a36d0bcce",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-f0980-source-ab-rgb-contours.png",
+      "delta_sha256": "41564f908b4d91022b1c8e5aeacbbc21f33e7e670a3cf67a50f42c8390e6e4f7",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 980,
+          "end": 981,
+          "pts": 40.833,
+          "end_pts": 40.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 981,
+      "cel": "cel-0195",
+      "source_reference": "source_refs/src-0516-f0981.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-actual.png",
+        "decoded_bgr_sha256": "8347c03acfc82e8e288d0a40436bab741bb864fe7fcd1a3a9f11ad749fdf7685",
+        "png_sha256": "6635e3736bc2d9cd2f9de3b7b8032cae5bb0851dff158c391c917fa674c638c2",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 980,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-source-actual.png",
+        "decoded_bgr_sha256": "d49cd02aefa3351c7b2b33696b8ae26e8f882a0e804008e4c456cdbfef0bd946",
+        "png_sha256": "13c65148e15aff756e023b52f5dc310c831088ea3ef57fcbd2d45dffe0701d79",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-f0981-source-ab-rgb-contours.png",
+      "delta_sha256": "37cf9351edbdacef67adce9a0a439432bad14e4396d5e76258789f6deb36c6de",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 981,
+          "end": 983,
+          "pts": 40.875,
+          "end_pts": 40.958,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 983,
+          "end": 984,
+          "pts": 40.958,
+          "end_pts": 41.0,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0006134510040283,
+                -0.00010519158968236297,
+                -0.5572144389152527
+              ],
+              [
+                0.00010519158968236297,
+                1.0006134510040283,
+                -0.46388089656829834
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 984,
+      "cel": "cel-0196",
+      "source_reference": "source_refs/src-0519-f0984.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-source-actual.png",
+        "decoded_bgr_sha256": "19e5325473e7020f4d2643aca68d19501ac73b0fb4ebc940cc86f665d71c91e1",
+        "png_sha256": "3615256087cd509a1af74e42d7f33738f3eb596266777b117e66c8480ba676e9",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 981,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-actual.png",
+        "decoded_bgr_sha256": "8347c03acfc82e8e288d0a40436bab741bb864fe7fcd1a3a9f11ad749fdf7685",
+        "png_sha256": "6635e3736bc2d9cd2f9de3b7b8032cae5bb0851dff158c391c917fa674c638c2",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-f0984-source-ab-rgb-contours.png",
+      "delta_sha256": "fa06fc3fb6fe472746e8a1e30b034ee00c2968d382de50a0b15c85c9b324464d",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 984,
+          "end": 986,
+          "pts": 41.0,
+          "end_pts": 41.083,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 986,
+          "end": 987,
+          "pts": 41.083,
+          "end_pts": 41.125,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0004903078079224,
+                -4.650195114663802e-05,
+                -0.5041556358337402
+              ],
+              [
+                4.650195114663802e-05,
+                1.0004903078079224,
+                -0.27401113510131836
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 987,
+      "cel": "cel-0197",
+      "source_reference": "source_refs/src-0521-f0987.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-source-actual.png",
+        "decoded_bgr_sha256": "aed75681dbc053d67e21a1284ef4180790dd4171587004904cd55dbbf42ab6ec",
+        "png_sha256": "ed9a0711145395aefbdbf0dc6d7f9ede8a15cf0034b874a0a59878fca5351d73",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 984,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-source-actual.png",
+        "decoded_bgr_sha256": "19e5325473e7020f4d2643aca68d19501ac73b0fb4ebc940cc86f665d71c91e1",
+        "png_sha256": "3615256087cd509a1af74e42d7f33738f3eb596266777b117e66c8480ba676e9",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-f0987-source-ab-rgb-contours.png",
+      "delta_sha256": "73daa2427296ec8047759fdb4a496672e1d2127ba32d72616956723d87af30a8",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 987,
+          "end": 990,
+          "pts": 41.125,
+          "end_pts": 41.25,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 990,
+          "end": 992,
+          "pts": 41.25,
+          "end_pts": 41.333,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.000985860824585,
+                -6.18953927187249e-05,
+                -0.9119306802749634
+              ],
+              [
+                6.18953927187249e-05,
+                1.000985860824585,
+                -0.6202077865600586
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 992,
+      "cel": "cel-0198",
+      "source_reference": "source_refs/src-0525-f0992.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-source-actual.png",
+        "decoded_bgr_sha256": "ad6ce04df819c1746b6c73aa50f27d45c0744bddb35a79db0e7fb9c8c6bd45c1",
+        "png_sha256": "6ce781fae27704889b8c1d518e84e90040aad7813c4d941afbb8e8ebb2f5807e",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 987,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-source-actual.png",
+        "decoded_bgr_sha256": "aed75681dbc053d67e21a1284ef4180790dd4171587004904cd55dbbf42ab6ec",
+        "png_sha256": "ed9a0711145395aefbdbf0dc6d7f9ede8a15cf0034b874a0a59878fca5351d73",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-f0992-source-ab-rgb-contours.png",
+      "delta_sha256": "80f048c0bca740c586846206ac2b3c6f12303ed8ebc7a8d03a06124f44a48134",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 992,
+          "end": 993,
+          "pts": 41.333,
+          "end_pts": 41.375,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 993,
+      "cel": "cel-0199",
+      "source_reference": "source_refs/src-0526-f0993.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0993-source-actual.png",
+        "decoded_bgr_sha256": "46cca0bcaddd806a8f7f8852a7a84a04c03b1c94ec71ca45f5fce5af7124ffdf",
+        "png_sha256": "e3c86cb5967eb444b018e591ea7d4ce91a63aa0e8b2ae977953066b11d6ef0a7",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 992,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-source-actual.png",
+        "decoded_bgr_sha256": "ad6ce04df819c1746b6c73aa50f27d45c0744bddb35a79db0e7fb9c8c6bd45c1",
+        "png_sha256": "6ce781fae27704889b8c1d518e84e90040aad7813c4d941afbb8e8ebb2f5807e",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0992-f0993-source-ab-rgb-contours.png",
+      "delta_sha256": "7a53cab2e78e290990943749a06b58b5265c480d62fbb52989082cf4852e824b",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0993-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 993,
+          "end": 995,
+          "pts": 41.375,
+          "end_pts": 41.458,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 995,
+          "end": 997,
+          "pts": 41.458,
+          "end_pts": 41.542,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0006680488586426,
+                -1.0042193025583401e-05,
+                -0.5791952610015869
+              ],
+              [
+                1.0042193025583401e-05,
+                1.0006680488586426,
+                -0.4287671148777008
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 997,
+      "cel": "cel-0200",
+      "source_reference": "source_refs/src-0530-f0997.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0997-source-actual.png",
+        "decoded_bgr_sha256": "4f72a380156fce7daf5175ea65594391babd19865f6316ba98baa9b615b89b43",
+        "png_sha256": "5f394a2d68b8c336be810f294f4a8d6f9b97a1a4d5cad235086ce97166cbef6a",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 993,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0993-source-actual.png",
+        "decoded_bgr_sha256": "46cca0bcaddd806a8f7f8852a7a84a04c03b1c94ec71ca45f5fce5af7124ffdf",
+        "png_sha256": "e3c86cb5967eb444b018e591ea7d4ce91a63aa0e8b2ae977953066b11d6ef0a7",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0993-f0997-source-ab-rgb-contours.png",
+      "delta_sha256": "1ea0e8897cc11d208c2697ef21d612db6f1388d12e2a8ce4bce970d30f3bdc38",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0997-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 997,
+          "end": 998,
+          "pts": 41.542,
+          "end_pts": 41.583,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 998,
+      "cel": "cel-0201",
+      "source_reference": "source_refs/src-0531-f0998.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0998-source-actual.png",
+        "decoded_bgr_sha256": "9ba49b5aeb72eb3fb9d10475dfbc421eab07b376818349cef15227f910eb182e",
+        "png_sha256": "4b5081abe76b67baccfabc8f200667d21fc12f007502333d0e9ba3104521a378",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 997,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0997-source-actual.png",
+        "decoded_bgr_sha256": "4f72a380156fce7daf5175ea65594391babd19865f6316ba98baa9b615b89b43",
+        "png_sha256": "5f394a2d68b8c336be810f294f4a8d6f9b97a1a4d5cad235086ce97166cbef6a",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0997-f0998-source-ab-rgb-contours.png",
+      "delta_sha256": "ce336c12b1c16d48c66b26185799ed6c9c282496f6fd344d70f952544d1056f3",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0998-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 998,
+          "end": 1000,
+          "pts": 41.583,
+          "end_pts": 41.667,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 1000,
+          "end": 1002,
+          "pts": 41.667,
+          "end_pts": 41.75,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0007779598236084,
+                -2.7090154617326334e-05,
+                -0.7507861852645874
+              ],
+              [
+                2.7090154617326334e-05,
+                1.0007779598236084,
+                -0.5002682209014893
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 1002,
+      "cel": "cel-0202",
+      "source_reference": "source_refs/src-0535-f1002.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-source-actual.png",
+        "decoded_bgr_sha256": "8f9237dda7bfd79e3f76abce4c97a1ae6085ad02355c28776e0992d76d6d92d4",
+        "png_sha256": "9d4fe6998ec1f3d4b750a64bae8ea5f8bf3e25049b3043ec953329ae6293b3da",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 998,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0998-source-actual.png",
+        "decoded_bgr_sha256": "9ba49b5aeb72eb3fb9d10475dfbc421eab07b376818349cef15227f910eb182e",
+        "png_sha256": "4b5081abe76b67baccfabc8f200667d21fc12f007502333d0e9ba3104521a378",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0998-f1002-source-ab-rgb-contours.png",
+      "delta_sha256": "9d6752f1ab6681efc4fe03fc7eb7417f5a7d23e8e17eb507a1a9ebefab094f0a",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 1002,
+          "end": 1003,
+          "pts": 41.75,
+          "end_pts": 41.792,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    },
+    {
+      "source_frame": 1003,
+      "cel": "cel-0203",
+      "source_reference": "source_refs/src-0536-f1003.png",
+      "current_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1003-source-actual.png",
+        "decoded_bgr_sha256": "8efbb7356799258b7deca0e91a1a6ca21f9eca863478102017d14ebaa484b0a6",
+        "png_sha256": "298ee1b05acf50477c9adafd016565669a5e8b4cb530ec420e9b5ac1144e816d",
+        "canonical_reference_exact": true
+      },
+      "before_source_frame": 1002,
+      "before_source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-source-actual.png",
+        "decoded_bgr_sha256": "8f9237dda7bfd79e3f76abce4c97a1ae6085ad02355c28776e0992d76d6d92d4",
+        "png_sha256": "9d4fe6998ec1f3d4b750a64bae8ea5f8bf3e25049b3043ec953329ae6293b3da",
+        "canonical_reference_exact": true
+      },
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1002-f1003-source-ab-rgb-contours.png",
+      "delta_sha256": "075a5c68c253ec499c6dd0a982e3b8864755bf78e4fa2272097e0c1f999ff76d",
+      "native_face_crop": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f1003-source-eyes-nose-mouth.png",
+      "source_exposures": [
+        {
+          "start": 1003,
+          "end": 1005,
+          "pts": 41.792,
+          "end_pts": 41.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 1005,
+          "end": 1006,
+          "pts": 41.875,
+          "end_pts": 41.917,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "verified_original_rigid_motion",
+            "matrix": [
+              [
+                1.0006369352340698,
+                3.1476000003749505e-05,
+                -0.5847693681716919
+              ],
+              [
+                -3.1476000003749505e-05,
+                1.0006369352340698,
+                -0.3457416296005249
+              ]
+            ]
+          }
+        }
+      ],
+      "manual_source_and_delta_review": "pending",
+      "alias_created": false
+    }
+  ],
+  "exposures_changed": false,
+  "artwork_generated": false
+}

@@ -1,0 +1,401 @@
+{
+  "source_interval": [
+    911,
+    1008
+  ],
+  "scope": "Independent single-shot and comparison-right static native caption review; each 97 frames and 13 pages",
+  "raw_freeze": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\raw-layer-freeze.json",
+  "raw_freeze_sha256": "a2cd763bb2cbe98f68671c199aff986c095a06684ff7b404f7e9e97beb3b6c0f",
+  "helpers_sha256": {
+    "compose.py": "accdc5260867891caba73b9cbff3b3047c6c2f806157c1318d3d49214bf98181",
+    "cyan_profile_layers.py": "213d873776cd64414338c9a5f5c1a5e05c6a4935135b58b1f591c85a55e03533",
+    "cyan_caption_layers.py": "d74784cf0f41137d9a28418b54038d64b123ec4e2904767e90fcaa956f0b3d71"
+  },
+  "helpers_unchanged_from_raw_freeze": true,
+  "encoded_reviews": [
+    {
+      "role": "encoded-single",
+      "video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-cyan-911-1008-fast-draft-v1.mp4",
+      "video_sha256": "d6fc2c5829ad263403af221669a2d28890cc52900963bf1f1ffd2cad8c887386",
+      "audit": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-audit.json",
+      "audit_sha256": "6c18dd884bf96cb7f10995ce4d32fc110f57f95f760395ab6aa107344a479476",
+      "static_review": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\static-review.md",
+      "static_review_sha256": "4cfd0cecdb8df2fbf115bf72b0a9d132665a55c6ff3995a499a0c0331b95e363",
+      "native_frames_reviewed": 97,
+      "native_caption_pages_viewed": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-01.png",
+          "sha256": "4efcaab1cc3c8930c7a9254e98b57671d139dda5d24bb029fffe4529c423a916",
+          "frames": [
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-02.png",
+          "sha256": "7b568d09d83fe1e80b003f73857d44c61ca4d0c30da0c34c6c595050f4260972",
+          "frames": [
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-03.png",
+          "sha256": "48be85f0c78aab16b7a43cf18ef48dd639de036f5e239a8a175ac6e3082cf9e9",
+          "frames": [
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-04.png",
+          "sha256": "d2214dea1da328873d8dd01e717926e9c8aed09ad73509c6fb50f8de6a77a44a",
+          "frames": [
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-05.png",
+          "sha256": "183fc92c4d9c0bb8d947c4545faf5b7e7b1d10707cc94f8cf4b0708f1ee83f35",
+          "frames": [
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-06.png",
+          "sha256": "1856e25afa656588c65dcb2a629ede93aa43365fafb83c92f2cec8aa267f9657",
+          "frames": [
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-07.png",
+          "sha256": "a831e5b998db6d80413a9637cb4d4e97cae859a9e71038d74ef84286514753a9",
+          "frames": [
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-08.png",
+          "sha256": "72feaa45376d6a112344f1fc9fb73821c91346d36c7ab6a7dcfd6668fddf02d1",
+          "frames": [
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-09.png",
+          "sha256": "58cd9c76222b870d67c8a46c6d9bb2b01526c2275b8ba8df95f1e48f2019e0e0",
+          "frames": [
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-10.png",
+          "sha256": "16f73b516cc9cbe04e4789a9d3898a88d275053fc68543112c9c00775006398a",
+          "frames": [
+            983,
+            984,
+            985,
+            986,
+            987,
+            988,
+            989,
+            990
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-11.png",
+          "sha256": "2334da0b368c176ce811f9a6f0fd5f6b50713e078751291993b0316e2a8fb40e",
+          "frames": [
+            991,
+            992,
+            993,
+            994,
+            995,
+            996,
+            997,
+            998
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-12.png",
+          "sha256": "9b646efcd094cc335fae511ac3c7efe6bfc3e78f459766671cb2cba69641c29e",
+          "frames": [
+            999,
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-single\\final-encoded-caption-page-13.png",
+          "sha256": "0b11116b62d50a3c2464a262db2e39ecadb9bd2f02b99c93e154bb1d3658468f",
+          "frames": [
+            1007
+          ]
+        }
+      ],
+      "mean_core_rgb_abs_error": 4.145228531336165,
+      "max_core_rgb_abs_error": 88,
+      "max_core_luma_drop": 34.772003173828125,
+      "caption_layer_blockers": []
+    },
+    {
+      "role": "encoded-comparison-right",
+      "video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-cyan-911-1008-comparison-fast-draft-v1.mp4",
+      "video_sha256": "7b6a51b6db42306075ffb122d37c4926f886918306853dce06223995a6c1b0a2",
+      "audit": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-audit.json",
+      "audit_sha256": "6c98221c5c53e17802036ebebc0bc6e1a47729f380151a8f00fd74a1acbe8240",
+      "static_review": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\static-review.md",
+      "static_review_sha256": "23ee8acc5acb22f2740688c41e517cda943bde4ca6bc6c368b66ce420839c353",
+      "native_frames_reviewed": 97,
+      "native_caption_pages_viewed": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-01.png",
+          "sha256": "e1fe98152707ca988adc5d96f6271d0017800dd126193f7829237fb9480ca9b6",
+          "frames": [
+            911,
+            912,
+            913,
+            914,
+            915,
+            916,
+            917,
+            918
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-02.png",
+          "sha256": "a0b462665efafcff1261c6caad4ba0ab55768451c13e5265412332b6af10c34b",
+          "frames": [
+            919,
+            920,
+            921,
+            922,
+            923,
+            924,
+            925,
+            926
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-03.png",
+          "sha256": "02b42dbc456a3a05c26035523d3144f3096fb1c9264bd62d8249828e782d2b58",
+          "frames": [
+            927,
+            928,
+            929,
+            930,
+            931,
+            932,
+            933,
+            934
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-04.png",
+          "sha256": "40d862c52b26645915926e186e58a5f4de00e5ad218cbaa37ee5b46fa80e50b1",
+          "frames": [
+            935,
+            936,
+            937,
+            938,
+            939,
+            940,
+            941,
+            942
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-05.png",
+          "sha256": "9232b08c735c8cce098190fcc8c56c920da617c212532701adb7350093c85683",
+          "frames": [
+            943,
+            944,
+            945,
+            946,
+            947,
+            948,
+            949,
+            950
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-06.png",
+          "sha256": "583dac0f8f969df5f6e183802894e977ba898c54daae7102c527b68e0a8da94f",
+          "frames": [
+            951,
+            952,
+            953,
+            954,
+            955,
+            956,
+            957,
+            958
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-07.png",
+          "sha256": "392a80f3867608ec87dc3cc6ce510c552e87680cca25c974ff0a5040d8016e57",
+          "frames": [
+            959,
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-08.png",
+          "sha256": "27d5924b63c397ae670f6d2d2394882abb590ba5f9930ff103e7ec79073759f5",
+          "frames": [
+            967,
+            968,
+            969,
+            970,
+            971,
+            972,
+            973,
+            974
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-09.png",
+          "sha256": "e2dff59899ee25dbc55425b8b14cddb078ebc180d243b54bf657bd2b0a439b90",
+          "frames": [
+            975,
+            976,
+            977,
+            978,
+            979,
+            980,
+            981,
+            982
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-10.png",
+          "sha256": "e2c9c2e7e6157dc1a90010c1d4e75ca371ed80357f4f6075cca033de5e733292",
+          "frames": [
+            983,
+            984,
+            985,
+            986,
+            987,
+            988,
+            989,
+            990
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-11.png",
+          "sha256": "17ad23032642da93c354885d40543aba73dc547536ca6782eee2b66e4119f277",
+          "frames": [
+            991,
+            992,
+            993,
+            994,
+            995,
+            996,
+            997,
+            998
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-12.png",
+          "sha256": "a7fea915b3751630d90afd7aa77f0c8490bc31bd65ae4267be6d42719f15e1e6",
+          "frames": [
+            999,
+            1000,
+            1001,
+            1002,
+            1003,
+            1004,
+            1005,
+            1006
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-05\\encoded-comparison-right\\final-encoded-caption-page-13.png",
+          "sha256": "2d9cf912634d87f0875232e8a2377b06e4d990938ec4fb2da6621ba547e3beae",
+          "frames": [
+            1007
+          ]
+        }
+      ],
+      "mean_core_rgb_abs_error": 3.940416441463359,
+      "max_core_rgb_abs_error": 84,
+      "max_core_luma_drop": 34.748992919921875,
+      "caption_layer_blockers": []
+    }
+  ],
+  "original_speed_artistic_review": "pending",
+  "artistic_acceptance": false
+}

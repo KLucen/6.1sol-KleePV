@@ -1,0 +1,38 @@
+{
+  "accepted": false,
+  "authorization": "允许先重建清晰字幕，看片后再指定返工",
+  "interval": [
+    1043,
+    1144
+  ],
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1905-f3402.png",
+  "source_sha256": "786a457f83d47493e9954cfb0b7a3a7f5bd913577d942cf5e00c5f3cdb0de700",
+  "original_chinese": "深爱着 把寂寞两人各分一半",
+  "donor_region": [
+    690,
+    1002,
+    1218,
+    1047
+  ],
+  "integer_translation": [
+    -15,
+    0
+  ],
+  "destination_region": [
+    676,
+    954,
+    1213,
+    1047
+  ],
+  "registration": {
+    "basis": "clear left Chinese phrase only, excluding cream original cuff",
+    "best_dice": 0.850910957146523,
+    "next_dx": -16,
+    "next_dice": 0.8016401845207586
+  },
+  "layer_sha256": "38ae00ae0480ca8077554a26e343315cfaa9d7da72e92b135bb543389bb4198e",
+  "method": "Full same-phrase original donor; estimated AA from real pale pixels and inpainted donor plate; integer translation only. No AI text, scaling, or invented glyph strokes.",
+  "japanese": "unchanged authorized f3402 alternate",
+  "observed_current_source_core": "Chinese disabled; cream original cuff is not a glyph oracle",
+  "review": "pending native viewing"
+}

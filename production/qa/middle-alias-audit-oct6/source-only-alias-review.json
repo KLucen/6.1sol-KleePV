@@ -1,0 +1,54 @@
+{
+  "scope": "Independent read-only source drawing review, f2115 -> f2121",
+  "recommended": true,
+  "recommendation": "Reuse the f2115 character drawing at f2121 with an identity transform, preserving the f2121 original background, independent effects and captions. This does not approve the generated replacement or compositor output.",
+  "target_exposure": {
+    "start": 2121,
+    "end": 2122,
+    "frames": 1,
+    "pts": 88.375,
+    "end_pts": 88.417
+  },
+  "transform": {
+    "kind": "identity",
+    "matrix": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0]]
+  },
+  "actual_viewed_source_images": [
+    {"frame": 2115, "file": "../middle-next-2026-10-06/f2115-source-actual.png", "sha256": "a5ead6e82cbd4e72915e5cda744a7872ad5d1dbdad2b09ef631ddd0f8deb15c3", "dimensions": [1920, 1080]},
+    {"frame": 2121, "file": "../middle-next-2026-10-06/f2121-source-actual.png", "sha256": "2a571c831242edda2ef72b56a8d7d13dd5ec05b9047d4c4b590449fc94348124", "dimensions": [1920, 1080]}
+  ],
+  "source_decode_provenance": "Prepared queue states exact sequential original decode [0,2146), source target src-1191-f2121. This reviewer inspected prepared exact PNGs and verified their PNG SHA256 values, not an independent second video decode.",
+  "actual_viewed_previous_evidence": [
+    {"file": "../middle-next-2026-10-06/f2115-f2121-source-ab-rgb-contours.png", "role": "Overview only; tool resized 3840x2240 to 2048x1195"},
+    {"file": "../middle-next-2026-10-06/f2121-foreground-eyes-mouth-cheeks-native-ab-rgb-contours.png", "role": "Native raised hand, cuff and sleeve despite filename"},
+    {"file": "../middle-next-2026-10-06/f2121-foreground-hat-bangs-native-ab-rgb-contours.png", "role": "Native upper-body, head, hat and raised arm"},
+    {"file": "../middle-next-2026-10-06/f2121-background-visible-hand-coat-legs-native-ab-rgb-contours.png", "role": "Native middle/lower character, extended hand, coat, trousers and boots"}
+  ],
+  "actual_viewed_supplementary_native_evidence": [
+    "f2115-f2121-face-hat-hair-native-ab-rgb-contours.png",
+    "f2115-f2121-raised-fingers-cuff-sleeve-native-ab-rgb-contours.png",
+    "f2115-f2121-extended-hand-cuff-hair-native-ab-rgb-contours.png",
+    "f2115-f2121-torso-collar-pockets-hem-native-ab-rgb-contours.png",
+    "f2115-f2121-legs-boots-native-ab-rgb-contours.png"
+  ],
+  "drawing_observations": [
+    "The current source has one complete standing character, not the later giant foreground head plus partially occluded standing character. Character count, screen position, scale and crop are unchanged from f2115.",
+    "Closed eyelids, angled brow/eye line pressure, oval O mouth, two cheek patches, cap outline/details, bangs, near jaw strand and long right trailing hair tip coincide in actual native before/current panels. RGBx4 changes are at the independent star behind the cap, not coherent face or hair contours.",
+    "Raised left-side spread fingers, palm, cream cuff and cuff/sleeve connection coincide. The moving lavender-background star crosses behind this hand; its blue/red edges must not be classified as a hand redraw.",
+    "The extended right-side hand fingers, wrist/cuff, sleeve seams, hair behind the sleeve and the separate small yellow effect shapes retain their character contours and pose.",
+    "Collar curve, button line, left pocket, right pocket with protruding prop, coat hem and leg junction coincide; no new connected clothing fold or shifted outline is visible in native difference/contour evidence.",
+    "Both trouser folds, planted boot, lifted boot tilt, cream lower cuffs, soles and skin ankles coincide. Japanese glyph differences in this area arise from shifting background star overlap and source compression; subtitle preservation remains a separate compositor responsibility. Chinese phrase, slot and timing are not to be copied from f2115 as a flattened image."
+  ],
+  "excluded_changes": [
+    "Lavender background outlined stars move coherently between f2115 and f2121.",
+    "Independent text and effects remain owned by each original source exposure, even when their source raster is visually similar.",
+    "Low-amplitude blockwise RGB differences without coherent character edge changes are not an independent drawing proof. No whole-frame scalar similarity threshold was used to decide this alias."
+  ],
+  "evidence_metadata_warning": "The old f2121 local evidence names and queue source_boxes do not accurately describe their actual local content. The five supplementary pages have explicitly correct source coordinates in prepared-source-alias-evidence.json.",
+  "shared_files_modified": false,
+  "alias_created": false,
+  "replacement_art_reviewed": false,
+  "compositor_reviewed": false,
+  "temporal_playback_reviewed": false,
+  "accepted": false
+}

@@ -1,0 +1,47 @@
+{
+  "source_frame": 2526,
+  "source_cel": "cel-0494",
+  "source_candidate": "src-1513",
+  "output": "generated\\fine-f2526.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2526: Independent subtle rebound drawing: upright head top is slightly HIGHER about 0.115H, chin about 0.638H rather than previous 0.649H, eyelids and cheek centers slightly higher. Bang parting and cheek/jaw contour follow current red contour diagram. Tiny round O mouth, not previous triangular mouth. Both sleeves hang down beside torso and hands/cuffs fully off bottom crop. Half-lidded tired red eyes with small black pupils hidden partly by upper eyelids and white highlights. Keep same two short ear-root ponytails, current small shoulder and sleeve-fold redraw changes.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1513-f2526.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2520-f2526-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2520.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": [
+      "Static source check: independent raised rebound head and round tiny mouth represented, sleeves stay down and no missing-crop anatomy added. Both short ponytails persist; temporal inspection pending."
+    ],
+    "issues": [],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-16850c1e-038f-4309-a3c4-2976e8615fed.png"
+}

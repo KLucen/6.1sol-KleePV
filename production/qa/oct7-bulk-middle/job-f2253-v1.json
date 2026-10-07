@@ -1,0 +1,81 @@
+{
+  "source_frame": 2253,
+  "cel": "cel-0427",
+  "source_candidate": "src-1246",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2253-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility. Image 5: Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop.\nCurrent source frame f2253; original predecessor f2252. Actual observed current pose and changes: Two overlapping copies of performer: enormous warm foreground head enters from top RIGHT, tilted diagonally, right facial side cropped off edge, half-open eyes and small O mouth; foreground shoulder at lower RIGHT. Behind is cool side-profile actor with closed eyes and raised hand at face mostly occluded. Replace BOTH people; rear short blonde ponytail rather than full long hair silhouette; rear beret and face may stay hidden behind foreground. Current contour is a new cut versus 2252, do not keep previous framing. Preserve layered occlusion and empty left sky; no invented rear face or hands.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1246-f2253.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-foreground-eye-mouth-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2252-v1.png",
+      "role": "Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1246-f2253.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-foreground-eye-mouth-native.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2252-v1.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2253,
+      "end": 2254,
+      "pts": 93.875,
+      "end_pts": 93.917,
+      "family": "wink_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "Two overlapping copies of performer: enormous warm foreground head enters from top RIGHT, tilted diagonally, right facial side cropped off edge, half-open eyes and small O mouth; foreground shoulder at lower RIGHT. Behind is cool side-profile actor with closed eyes and raised hand at face mostly occluded. Replace BOTH people; rear short blonde ponytail rather than full long hair silhouette; rear beret and face may stay hidden behind foreground. Current contour is a new cut versus 2252, do not keep previous framing. Preserve layered occlusion and empty left sky; no invented rear face or hands.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-e48360ed-7a30-4d90-a01a-a975fe94c4ac.png",
+  "output_sha256": "9f3f018c10df49840e7da050297fd69ff7a4449ebf0f360676c4c420b49a8c79",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed output: two Klee performers, front huge head crop and rear cool profile behind. Front half-open red eye and O mouth, rear glove to closed-eye face. Rear head/hat becomes more visible than source and face/coat detail is more ornate; preserve as unaccepted one-pass draft, temporal review pending.",
+    "accepted": false
+  }
+}

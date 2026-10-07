@@ -1,0 +1,79 @@
+{
+  "id": "star-f1129-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1129,
+  "source_cel": "cel-0239",
+  "source_reference": "source_refs/src-0661-f1129.png",
+  "source_exposures": [
+    {
+      "start": 1129,
+      "end": 1133,
+      "pts": 47.042,
+      "end_pts": 47.208,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1129-source-actual.png",
+      "role": "Current original1129 fullbody framing and pose; hands clasp raised below chin, closed tiny caret mouth."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1129-source-face-native.png",
+      "role": "Current native narrow open eyes, closed caret mouth, clasped hands under chin."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1125-f1129-source-ab-rgb-contours.png",
+      "role": "Actual1125->1129 source AB/RGB/contours; raised clasp vs low touching gloves, changed cuffs and sleeves."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1129-source-body-native.png",
+      "role": "Current native sleeve/cuff overlap, nearly vertical grounded legs and boots."
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/generated/star-f1123-fast-continuation-v1.png",
+      "role": "Previous Klee identity, simplified PV style and costume only, not frozen low separate fists or O mouth."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE independent WHOLE Klee cel for original PV. Image1 exact CURRENT source1129 determines whole framing and visible pose; Image2 native current face determines eyelids/mouth/hands; Image3 real source previous/current AB RGB delta and contours determines independent redraw; Image4 native current body defines cuff and sleeve occlusion and legs. Image5 previous Klee determines ONLY identity, simple hand drawn flat PV style, colors and garment consistency, do not freeze prior pose. Replace entire original girl with Klee: red beret, cream clover, white feather and brown badge; pale blonde short bangs, pointed elf ears, EXACTLY TWO compact rooted shoulder ponytails ending above lower collar; red coat, two-lobed cream collar, cream cuffs and one continuous cream COAT hem above red shorts; brown gloves and boots. No original long pink hair, animal hat, old button/pocket garment, pajama legs, extra hair bundle, backpack or ornament. Current1129 head nearly upright, narrow open red eyes, TINY CLOSED caret mouth (not O). BOTH curled brown hands CLASP together VERTICALLY just BELOW CHIN at x950 y340, one tiny glove in front of other; raised from previous low separate knuckles. Wrists overlap closely beneath collar, left sleeve diagonally up-right and right sleeve diagonally up-left, current two cream cuffs meet near x930/990 y395 and overlap in front of chest. Left cuff foreground over far cuff, two coherent shoulder-elbow-wrist paths, only two hands. Keep fingertips partly hidden in clasp and cuffs, not prayer open palms and not four fingers invented atop separate fists. Elbows bend inward at x885/1035 y465. Nearly upright grounded legs and boots at original lower positions; left lower leg only slightly outward, right nearly upright, both soles near horizontal, no high jump or crossed legs. Match source fullbody slender total height, redraw current collar/cuff/head/hem/leg contours. Exactly two short rooted outer ponies, CLEAN purple sky between underarm and hip, no dangling original hair below collar. Retain purple source stars layout; NO text/lyrics (source captions restored independently), no watermark. One landscape whole frame, no collage, crop, flip, nonrigid warp or transformed previous-frame paste. Actually draw this independent raised clasp and closed mouth pose.",
+  "output": "generated/star-f1129-fast-continuation-v1.png",
+  "status": "blocked_pose_unselected",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root actually viewed full source, native face/body, AB/RGB/contours and locals.1125->1129 clasp lifts belowchin, cuffs narrow/raise, mouth closes tinycaret.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1125-f1129-source-locals-native.png",
+  "output_dimensions": [
+    1672,
+    940
+  ],
+  "output_sha256": "b6680db55b0a1dcbe7df35728783e8076ef3084e15dedce568ee09fb1ec7ac30",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1c778b8b-160d-4286-b9ab-c3716c7e8b44.png",
+  "static_review": {
+    "passed": [
+      "two rooted shoulder ponytails, closed caret mouth and near-upright legs"
+    ],
+    "blocking": [
+      "Source vertically clasped gloves below chin NOT drawn; previous two separate low curled fists retained. Do not adopt as corrected key gesture."
+    ],
+    "deferred": [
+      "hat/head/hem position and knee shading approximate"
+    ],
+    "accepted": false
+  }
+}

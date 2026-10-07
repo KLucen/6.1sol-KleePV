@@ -1,0 +1,51 @@
+{
+  "source_frame": 2932,
+  "output": "generated/late-next-f2932-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nCreate ONE whole 16:9 hand-drawn cel for actual source frame 2932, replacing original character with Klee. Ref1 CURRENT is sole pose, visibility, placement and proportions authority. Ref2 actual 2926-before and 2932-current motion evidence, not a collage target. Ref3 current full native face; ref4 current full native pose and both gripping hands; ref5 HEAD-only Klee identity/style, NOT a standing pose.\nImportant new keypose: figure head/upper torso at far right around x1390 in 1920 canvas, body leans slightly right. Legs have COME TOGETHER, not the prior widely split 2926 stance. Both knees bend screen-right and both lower legs angle down-left. Screen-left/front ankle and rounded boot overlap in front of the back leg/boot around x1350 y900. Back boot to screen-right around x1440 y900 is also more front-facing, not the previous long right-facing profile. Preserve visible ankle separations and grounded soles; no wide spread stance or missing leg.\nPillow moved right, now its upper edge is flatter and less steep than 2926; far corner around x1600 y290, near corner around x1400 y340. Near upper arm/elbow rounds forward to nearly horizontal forearm and raised cream cuff; BROWN near palm splayed over the pillow center/front. Far BROWN glove wraps two rounded tips over top-right corner, distinct from cream side ruffle; far forearm entirely hidden by pillow. Pillow over chest, near palm over pillow. Exactly two hands, no bare fingertips, no extra arm.\nBoth eyelids are FULLY CLOSED horizontal thick lines, cheek blush orange and tiny mouth mostly hidden by scarf/pillow. Klee warm blonde bob, exactly two compact low pigtails, red beret with cream clover and one feather, pointed ears; red coat, cream cuffs and plain continuous cream hem, compact brown backpack behind left shoulder, bare legs and cream-topped brown boots. Keep simplified sparse flat fills, wobbly black PV linework and original tall standing proportions. Do not invent original long pink hair, animal ears, trousers or pajama costume.\nPreserve huge empty lavender left side, original small far-right figure scale, uniform lavender backdrop. One complete cel, no panels or text/captions/labels/watermarks; source wording will be restored separately. Pose motion authority is current SOURCE, not former Klee body.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-actual.png",
+      "role": "Current source whole, sole current pose and layout authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2926-f2932-source-ab-rgb-contours.png",
+      "role": "Actual changed closer-legged bent-knee sway; overview",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-current-face-native.png",
+      "role": "Current complete closed-eye head native, corrected crop",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-source-wide-pose-native.png",
+      "role": "Current pillow grips, near raised forearm, bent-knee and overlapping boot stance native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+      "role": "Klee head-only identity/style, not former standing pose",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-413af8f6-66db-4fc5-9ccb-505da9cd1b5e.png",
+  "output_sha256": "088289f9659f46004d42768071ecc1bd3dd1be40ce7689cb0332d47afe82a9a5",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed full source/actual delta and corrected native face/wide pose. Closed eyelids, two brown grips, far arm hidden; closer overlapping boots and bent knees reflect changed source stance. Coat pockets/buttons/backpack charm and boot ornaments drift from adjacent drafts, mouth slightly more visible; spatial motion amplitude approximate. Static draft only, no temporal/compositor acceptance.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

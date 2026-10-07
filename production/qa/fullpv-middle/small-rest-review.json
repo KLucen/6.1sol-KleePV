@@ -1,0 +1,18 @@
+{
+  "scope": "canonical source cels 1502 1508 1514 1520 1526",
+  "tool": "built-in image_gen",
+  "exposure_strategy": "strict_source",
+  "source_delta_directory": "qa/fullpv-middle/small_rest_pose",
+  "static_source_and_neighbor_review": true,
+  "actual_speed_watch": "not_performed",
+  "artistic_accepted": false,
+  "suggested_draft_assets": [
+    {"frame": 1502, "path": "generated/fine-f1502.png", "findings": ["Bunny mask removed in a source-based redraw to match Klee baseline.", "Closed eyes and point mouth retained; coat hem, glove visibility and ponytail volume need group continuity repair."]},
+    {"frame": 1508, "path": "generated/fine-f1508.png", "findings": ["Independent closed-eye diagonal pose redraw, no source breathing puff at this frame.", "Hat/feather and figure footprint somewhat broader; patterned hem and cuff edges differ from neighboring drafts."]},
+    {"frame": 1514, "path": "generated/fine-f1514-geometry-repair-v2.png", "findings": ["Source-based repair reduced enlarged first draft; current rounded breathing puff retained.", "Front arm folds/clasp and chest ornament differ from current source and neighboring drafts; not accepted."]},
+    {"frame": 1520, "path": "generated/fine-f1520-short-hair-repair-v2.png", "findings": ["Long erroneous hair mass removed; two short head-side ponytails remain. Current flatter breathing puff retained.", "Hem panel cut and clover continuity differ from 1514 and 1526; needs further costume/arm continuity work."]},
+    {"frame": 1526, "path": "generated/fine-f1526.png", "findings": ["Closed sideways eyes and two separated source breathing shapes retained.", "Glove exposure and sleeve overlap approximate; costume hem and ponytail topology must be harmonized."]}
+  ],
+  "rejected": ["generated/fine-f1502-eye-mask-rejected.png"],
+  "note": "Draft suggestions only. No substitution for missing original cels, no generated morphs, no artistic acceptance. Original independent effects and background should be restored from current source frames by compositing."
+}

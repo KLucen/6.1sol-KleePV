@@ -1,0 +1,81 @@
+{
+  "source_frame": 2213,
+  "cel": "cel-0419",
+  "source_candidate": "src-1237",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2213-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility. Image 5: Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop.\nCurrent source frame f2213; original predecessor f2206. Actual observed current pose and changes: One cool right-facing profile, closed thick eyelid no iris, tiny chevron mouth held. Near cheek lock moves further diagonally down-left with broad low tip; rear hair blows further left and up, lower points fan. Klee short ponytail should fan left-up, cheek lock short and displaced left from neck, collar exposed. Current face position and body held, original little re-ink on bangs and hat. Do not change expression or add hands/second actor.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1237-f2213.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-eye-mouth-bangs-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2206-v1.png",
+      "role": "Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1237-f2213.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-eye-mouth-bangs-native.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2206-v1.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2213,
+      "end": 2219,
+      "pts": 92.208,
+      "end_pts": 92.458,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "One cool right-facing profile, closed thick eyelid no iris, tiny chevron mouth held. Near cheek lock moves further diagonally down-left with broad low tip; rear hair blows further left and up, lower points fan. Klee short ponytail should fan left-up, cheek lock short and displaced left from neck, collar exposed. Current face position and body held, original little re-ink on bangs and hat. Do not change expression or add hands/second actor.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fb-e34c-7e51-87f3-7279e0fb6fa1\\exec-c9ac4985-398e-4241-b2a8-fc00bd1dc2d4.png",
+  "output_sha256": "125f44ca65036624f44ae71e160895869f156d903a78c8a0771f3d105eb537aa",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Viewed full output: closed-eye chevron and short ponytail fans left-up as phase requested. Near lock amplitude remains weaker, lighting gets progressively warm and ink more polished than source; scalloped collar persists. Draft accepted false, defer user feedback, compositor/speed pending.",
+    "accepted": false
+  }
+}

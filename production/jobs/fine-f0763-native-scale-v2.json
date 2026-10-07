@@ -1,0 +1,21 @@
+{
+  "source_frame": 763,
+  "name": "fine-f0763-native-scale-v2",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0758-raised-contours-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0333-f0763.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\early-full-f0763.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE complete source-native animation cel763,16:9. Reference1 Klee758 continuity design. Reference2 CURRENTsource763 is EXACT camera, head, face, hand, sleeve pose and crop authority. Reference3 actual758/763 A/B RGBdiff contours. Edit Klee758 into current763 pose and ONLY source's modest closer framing. VERY IMPORTANT character stays a MEDIUM SMALL lower-center figure, NOT an oversized face closeup. Full character leftmost elbowx30%,rightmostelbowx73%; head/hair/hat width ONLYabout29%canvas, face width17%canvas. HatTOParound15%canvas, featherTOParound10%, eyescenters42%,mouth51%,chin56%,collar60%. Show red coat from collar all theway tobottom, body edges x40% and62% reachbottom; no hugeheadoccupyingmostscreen. Both fists raise to cheekHEIGHT near x38% and63%,y54%, clearlyoutsideface nottouchingcheeks. Compactbrownfiststhreeshortfingerlines. Plaincreamcuffsat61% angleupinward, elbowsdown/outaty78%, forearmsangleUP-IN. Current763 mouthOPENroundO biggerthan758, sleepyopenroundedeyes redirisesblacklowerleftborder-attachedhookswhitenotches, noblue/noblankeyes/no centraldot. Draw actualcurrentheadbroweyemouthchin/collar/cufffingers/sleevefoldcoat outlines independently fromsource2; not held/morph/mirror. Exactly2 shortblondeear-rootponytails, pointedears, redcreamcloverberet withonewhitefeather plainroundbrownsidebadge nodanglers/nouppercreamtuft; remove sourcebunnyforeheadsleepmask entirely. Same simple boldirregularPVoutlines/flatcolors Klee758; redcreamtrimcoatcoatclover/browngloves/plaincreamcuffs. No sourcepajamatubes/buttons/pockets orcloversonsleeves. No legsbootsprops. Flatperiwinklebackground, no text/particles/gradient. Do not generate an enlarged portrait; follow given normalized positions and keep original763 medium-small composition.",
+  "output": "generated/fine-f0763-native-scale-v2.png",
+  "accepted": false,
+  "provenance": {
+    "tool": "builtin_imagegen",
+    "original_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-fee9c477-8000-4cc1-99e4-299fc327c656.png"
+  },
+  "review": "Rejected first repair: copies prior758 scale and shoulder fists; fails current763 raised face-side hands and closer source camera.",
+  "known_issues": [
+    "Prior758 pose/scale largely copied",
+    "Hands not raised to currentface-side position"
+  ]
+}

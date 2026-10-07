@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-abefd108-f0a8-4dd9-9925-66b8c4b2319b",
+  "candidate_id": 19,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Single FULL16:9 PV cel editing reference1 source-cel-019. Source1 controls the closest FACE-ONLY shot: huge face fills almost whole frame, closed inward-pointing chevron eyes now near middle height, eyebrows angular/slanted, left eye lower than right (counterclockwise head tilt), giant oval open mouth reaching and partially clipped at bottom edge, chin/collar barely inside bottom-right, hat/sleep-mask upper part clipped by TOP. NO arms or hands in frame. Replace original pink hair and sleep-mask remnant with Klee blonde SHORT hair and only cropped red beret/brim at top where visible. DO NOT zoom out or add full hat/face body. Pointed ear at screen-right follows original visible ear. Preserve original bright YELLOW five-point STAR effect with black outline beside right ear around x87%,y70%, in FRONT of hair, exactly source position/size. Image2 Klee identity/style, image3 candidate018 gives continuous blonde/face palette but NOT previous smaller framing. Keep squeezed chevron expression, orange source cheeks, mouth shape and source framing. Remove ALL bottom subtitles/credits/lettering from character, leave clean colored scene; text restored separately. Loose dark source outlines, flat broad patches and simple shadows. No new props, panels, limbs or detailed illustration.",
+  "references": [
+    "analysis/source_cels/source-cel-019.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-018.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-019.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Closest face shot with shut chevrons, sloped brows, bottom-clipped huge mouth matched. Yellow right-ear star retained foreground. Cropped red hat remnant replaces sleep mask, no subtitles."
+}

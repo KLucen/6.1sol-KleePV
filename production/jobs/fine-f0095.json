@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0095",
+  "source_frame": 95,
+  "source_candidate": "src-0033",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0033-f0095.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0091.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0095.png"
+  ],
+  "prompt": "ONE full16:9 Klee animation cel. CURRENT source image1 controls exact separately redrawn line contours, same held pose/framing/occlusion. Image2 preceding Klee supplies SAME identity, outfit/proportions, hatfeather orientation, short two blonde ponytails and flat PV style. Image3 original before/current/difference with upper-right CURRENT, no panels in output. Maintain clock held across eyes by raised brown gloves, fingertips overlap clockfront, both forearms nearvertical, tiny caret mouth and orange cheeks. Upperface/eyes occluded by clock, no exposed irises. This small source redrawing changes cuff/hand linepressure and contour, bangs/hat/head outline, near sleeve crease/shoulder contour and coat hem line slightly, as actually shown in difference. Redraw those subtle lines while keeping coherent SAME pose, not a new action or exact frozen previous drawing. Torso upright with source gentle right diagonal lean, straight legs extended down-right cropped bottom, preserve actual coat length/cream hem and shorts. Same redberet/clover/whitefeather side, pointedears/TWO SHORT ponytails/redcreamcoat/capelet/brown backpack. Pillow diagonal behindhead, hands frontofclock, sameclockdimensions. NO subtitles/titles/credits/labels/lettering, blankclockdisplay. Flat handdrawn dark irregular lines/simple patches/one shade, no source pajamas/bunnyhood/pockets, no newlimbs or camera reframing.",
+  "output": "../generated/fine-f0095.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

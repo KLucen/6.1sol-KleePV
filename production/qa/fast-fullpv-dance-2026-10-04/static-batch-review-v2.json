@@ -1,0 +1,35 @@
+{
+  "scope": "Final static six-new-draft scope plus three existing neighbors; no original-speed acceptance",
+  "reviewer": "/root/dance_missing_refs",
+  "new_drafts_viewed": [887,889,903,907,908,909],
+  "existing_selected_neighbors_viewed": [891,902,905],
+  "source_generated_pair_boards_viewed": 9,
+  "evidence": "static-contact-evidence-v2.json",
+  "supplementary_spatial_evidence": "extra-neighbor-spatial-evidence.json",
+  "findings_documents": ["static-batch-review-v1.md","static-batch-review-v2.md"],
+  "v1_seven_source_and_artwork_hashes_unchanged": true,
+  "blocking": [
+    {"frame":891,"asset":"candidate-025-clean.png","status":"existing_neighbor_pending_root_source_led_repair","finding":"Rear face/eyes/mouth are source-hidden; a thin left hair/head arc and collar piece remain. Existing draft instead reveals a complete rear small face to the left."}
+  ],
+  "new_908_909_confirmed_blocking_anatomy": [],
+  "nonblocking_draft_approximations": [
+    {"frame":908,"finding":"Both persons, left head shift/crop, closed eyes and triangle mouth present; hat/hair/profile contours approximate."},
+    {"frame":909,"finding":"Foreground expression/crop stable versus 908, rear night profile changed approximately; both persons and depth order present."}
+  ],
+  "unconfirmed": [
+    {"frames":[907,908],"kind":"extra_compensating_left_jump","manual_source_mouth_x_1920":[537,386],"manual_generated_mouth_x_1672":[552,320],"source_left_shift_at_artwork_scale_approx":132,"generated_left_shift_approx":232,"measurement_method":"manual visual landmark estimate, not detector or whole-frame RGB score","actual_speed_assessment_required":true},
+    {"frames":[902,903,905,907],"kind":"patterned_pompom_to_plain_two_leaf_collar_and_ponytail_flash"},
+    {"frames":[903,907],"kind":"exact_short_twin_tail_root_topology"},
+    {"frames":[887,889,903,907,908,909],"kind":"final_composite_captions_effects_and_mattes"}
+  ],
+  "source891_precise_occlusion": {"face_eyes_mouth_visible":false,"thin_left_head_hair_arc_visible":true,"small_collar_piece_visible":true,"entire_head_outline_zero_residue":false},
+  "artistically_accepted": false,
+  "actual_speed_review_performed": false,
+  "generation_called": false,
+  "shared_selection_changed": false,
+  "artwork_modified": false,
+  "compose_modified": false,
+  "exposures_modified": false,
+  "full_video_exported": false,
+  "whole_test_suite_run": false
+}

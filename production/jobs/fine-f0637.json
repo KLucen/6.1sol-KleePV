@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0637",
+  "source_frame": 637,
+  "source_candidate": "src-0265",
+  "canonical_cel": "cel-0107",
+  "family": "prone_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0633.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0265-f0637.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0637.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0637-source-legs.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full 16:9 independent hand-drawn PV cel, no captions/text. Image1 is the preceding Klee cel EDIT TARGET: preserve identity, flat colors, short twin ponies, red beret cream clover and white feather, plain brown round clover badge (nothing dangling), pointed ears, face scale, backpack/garment design, both gloves and original pillow scene placement. Image2 CURRENT ORIGINAL is absolute authority for exact pose/scale/crop/anatomy/eye and mouth state/current leg and sleeve contours/props/occlusion. Image3 REAL original before/current/spatial difference sheet, upper-right current; blue before/red current contour. Image4 CURRENT original leg close-up, posing only. Replace the old character fully with default Klee, not pajamas: red coat with one small cream clover ONLY lower side coat, plain cream angular skirt and pink ruffle over RED shorts, bare PALE SKIN thighs/knees/shins up to plain cream boot top bands, BROWN BOOTS beyond those bands, no brown shins, no sleeve/boot clovers. Redraw all current changed contours at ORIGINAL scale, not hold/copy previous motion. Follow current source face visible eye state; red irises ONLY if source eyes open; no invented mouth if not visible. Body remains prone on same cream/purple pillow; two forward brown full gloves, sleeves behind wrists; knees/feet behind hip as current. Keep preceding character screen size, pillow size and placement, no camera zoom. Simple thick uneven PV outlines and completely flat areas, no textures/gradient/extra shadows/game art. Only current full-frame cel, never analysis panel/sheet. TARGET retained current f0637: near same crossed shin phase but current front boot outlines tilt subtly right and upper toe shape changes, rear cream cuff opening is slightly more diagonal and heel lower. Redraw the current minor knee-crease/forearm/pillow contact line changes seen delta, no extra wide leg spread. Keep both boots COMPACT current-source-foot length, don't grow brown shoe/skin shins; face and torso scale stable. Half-open sleepy red eyes, no mouth. Preserve coat small clover, no hat sticks.",
+  "output": "../generated/fine-f0637.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-30c16513-54bd-4944-8279-7d8a0181916d.png"
+}

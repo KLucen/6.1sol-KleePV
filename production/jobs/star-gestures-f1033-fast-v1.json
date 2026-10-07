@@ -1,0 +1,112 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0218",
+  "source_frame": 1033,
+  "source_reference": "source_refs/src-0565-f1033.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1033,
+      "end": 1037,
+      "pts": 43.042,
+      "end_pts": 43.208,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve. Edit Image 1 into one independent finished 16:9 hand-drawn PV cel f1033 / cel-0218.\nOrdered inputs: Image 1 CURRENT f1033 original is exclusive authority for pose, scale, crop, expression, arm/hand/foot positions and visible subject count. Image 2 Klee head identity only: red beret, cream clover, exactly ONE white feather, pale blonde compact cheek-length locks, exactly TWO SHORT side ponytails joined behind pointed ears. Its pose and face expression do not apply. Image 3 Klee clothing structure only: two PLAIN cream leaf collar panels meeting centrally, simple continuous red coat/cream hem, short bloomers, brown gloves, brown boots, brown backpack straps. No pompom, bow, patterned/scalloped collar, extra petals, long source trousers, rabbit pocket or plush. Image 4 f1028 -> CURRENT f1033 original A/B, RGB x4 and blue/red contours shows large foreground hair fragment leaving the left edge and modest standing head/arms redraw. CURRENT f1033 contains only ONE full-body figure, no foreground remnant. Image 5 CURRENT f1033 -> f1037 source difference is boundary evidence only, do not draw future text phase.\nCURRENT composition: full source canvas, lavender flat backdrop and cream outlined hand-drawn stars. One Klee stands centered near the original source figure position, approximately original occupied bounds x667..1200, y110..1045 on 1920x1080 canvas; no zoom, no reposition. Full head, both lowered outward arms, two small hands, two slightly separated straight legs and both planted feet are visible. Match current original slightly tilted head, shoulders/sleeve slopes, cuff heights, hand silhouettes and foot spacing. Eyes both CLOSED as two short sloped black eyelids, orange cheek ovals. Mouth is tiny CLOSED CARET ink line ^, NOT an open triangular mouth or oval. Exactly two arms and two hands, one brown glove at each original hand location. No waving or fists raised.\nReplace original animal hood, long pink hair and all gray pajama costume entirely with correct Klee. Klee has short hair ending near shoulder, short coat with a continuous broad cream hem, short bloomers, bare lower legs and brown boots aligned to source feet. Preserve source performance/proportions without turning into a detailed game portrait. Long source hair space becomes lavender background/stars, no third tail, long back sheet or braid. Do not carry forward old standing draft's patterned collar, pompom or extra hem layers.\nSimple loose black outlines, large flat patches, only restrained source-like shading. Keep current independent stars and subtitle position if feasible, original captions will be restored independently; no invented text. No extra character, object, props or limbs. One standalone whole cel, no contact sheet, transparency or interpolated motion.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0565-f1033.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1033-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "4eababe34742164b9677536fa5e925d6a00c26aee8b13baf1b89041e3468ce34",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1033-source-next-delta.png",
+      "role": "Source current to next A/B RGB contour evidence only; no pose authority",
+      "sha256": "24eb80702bc10ba6b05b0b94af981191f730e7bbbab0e633021cb54b41d1577d",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1033-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Single full-body figure after foreground exit",
+      "Closed eyes and caret mouth",
+      "Two lowered arms and gloves, two legs and boots",
+      "Short ponytails, plain two-leaf collar, continuous coat hem"
+    ],
+    "flaws": [
+      "Source subtitle absent; original source background/stars need restoration",
+      "Minor sleeve/glove contour and cuff-height differences",
+      "Leg/coat proportions differ from old long-trouser source as character outfit adaptation"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1033-fast-v1.png",
+  "output_sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-0084f1fe-a52e-41b2-a1a5-036c61287e39.png",
+  "source_sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0560-f1028.png",
+    "source_after": "source_refs/src-0569-f1037.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1033-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1033-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Source subtitle absent; original source background/stars need restoration",
+    "Minor sleeve/glove contour and cuff-height differences",
+    "Leg/coat proportions differ from old long-trouser source as character outfit adaptation"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}

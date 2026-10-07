@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0133-geometry-repair",
+  "source_frame": 133,
+  "source_candidate": "src-0046",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0046-f0133.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0129-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0129-f0133.png"
+  ],
+  "prompt": "Use case: identity-preserve. New independent full 1920x1080 PV cel for CURRENT source133. Image1 controls CURRENT geometry, image2 previous Klee129 controls same identity/color/garment proportions, image3 source129/current133 spatialdiff controls where the local redraw changes. Do not freeze previous. No panels. Maintain original near-straight wide diagonal armline, clock in LEFT BROWN glove original position approximately x48%,y50%, viewer-right hand atx97%,y36%. Original current clock is a little higher and contours/leftthumb grip different from129; cream cuff nearx54%,y52% slightlyreshaped, rightcuffslightlyup and morevertical. Red sleeve crease and outline weight distinctlyredrawn fromCURRENT source, hem/underskirtedge andsourcehead/lidcontours subtlychange. Same two halfopen RED drooping eyes and smalldownturnedmouth, blondebangs pointedears redberetcloverwhitefeather. ONLY one short ponytail per side; any source original-character thin lower hair strands below sleeves must NOT be carried over as Klee hair, background is empty violet there. Keep Klee's two roundshortsideponies above shoulder only, no extralower blond spikes below leftarm. Source pillow same behindhead tiltedup-rightx55..83%,y14..52%, originalfringes/bluepatches. SAME lower redsplitcoatwithleftcreamclover, creamzigzagunderskirt faintclovers/pinkruffle, REDshorts, ONEleftdanglepom, rightbrownbackpack. Simplecreamcuffbands, brown hands, oneflatsource-style shadow, looseblackPVsketchline. Currentbody andlegs cropfixed, no enlargement/no camera move. NO text letterslyricscreditsor digitsanywhere; blankpurpleclockdisplay. Single full-frame replacement drawing.",
+  "output": "../generated/fine-f0133-geometry-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0133.png",
+  "temporal_review": "pending"
+}

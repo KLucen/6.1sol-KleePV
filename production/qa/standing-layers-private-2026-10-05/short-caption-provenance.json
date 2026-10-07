@@ -1,0 +1,58 @@
+{
+  "accepted": false,
+  "authorization": "允许先重建清晰字幕，看片后再指定返工",
+  "chinese_source_frame": 1161,
+  "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-layers-private-2026-10-05\\source\\f1161.png",
+  "source_sha256": "9c480d0b154cad00da5cc4dbe16ff1d638a9d5fa0383c8425fc36019d8c4f24f",
+  "japanese_source_frame": 3504,
+  "japanese_source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-layers-private-2026-10-05\\source\\f3504.png",
+  "japanese_source_sha256": "68e742fb22163468f3184e31832b2d8ee5115f13e64479767d0b2d15af0aa0b1",
+  "japanese_donor_region": [
+    650,
+    954,
+    820,
+    992
+  ],
+  "japanese_destination_region": [
+    864,
+    954,
+    1034,
+    992
+  ],
+  "region": [
+    850,
+    954,
+    1040,
+    1047
+  ],
+  "chinese_translation": [
+    0,
+    0
+  ],
+  "japanese_translation": [
+    214,
+    0
+  ],
+  "interval": [
+    1144,
+    1162
+  ],
+  "japanese": "分け合う",
+  "chinese": "彼此分担",
+  "donor_status": "Actual f3504 original Japanese prefix and same-phase f1161 Chinese; sequential native decode exact",
+  "core_pixels_japanese": 674,
+  "core_pixels_chinese": 1608,
+  "visible_alpha_pixels": 4663,
+  "foreground_bgr": [
+    212.0,
+    222.0,
+    242.0
+  ],
+  "npz_sha256": "1ee15adf338b32e451e767f929e7b076357dfc25ade3f66a6bdcb114d218a56c",
+  "outline_policy": "Observed warm outline support receives minimum .85 opacity; no shape growth or guessed pixels.",
+  "limitations": [
+    "Donor plate and antialias alpha are estimated, not recovered invisible f1144 pant strokes.",
+    "Only original real glyph pixels determine shape; no AI lettering or guessed strokes.",
+    "Native static and original-speed acceptance remain pending."
+  ]
+}

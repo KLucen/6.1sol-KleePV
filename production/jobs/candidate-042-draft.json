@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-0b931b2d-d6b7-4e82-b660-9f1c3457f304",
+  "candidate_id": 42,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel editing reference1 source-cel-042. Source1 defines changed pose/eye/bang drawing: head now leans slightly CLOCKWISE toward screen-right (right eye lower than left), both NARROW OPEN sleepy rectangular eye shapes, larger vertical O mouth. Left forearm/glove is higher than041, left singleindex UP near x18%,y25%, rest fingers curled and thumb forms angularV. Right arm bent at side, glove singleindex UP beside right hat around x65%,y13%, right elbow farther right/down. Preserve source exact wrist/thumb/cuff and current eye opening, gaze/pupil crescent, eyebrow positions. Klee brown gloves, RED/BURGUNDY irises, same blonde SHORT two ponytails/pointedears/redberet creamclover whitefeather/redcoat creamcollar/trim/cuffs as image2 anchor. Image3 candidate041 continuity identity/colors ONLY, DO NOT freeze counterclockwise tilt/left lowerhand/smallermouth from041. Glove overlaps hat/feather coherently in front; do not add extra fingers. Source fullcrop, lavender backdrop and outlinedcream stars retained. Remove ALL original subtitles/lyrics/credits/letters, clean coat/background for originaltext restoration. Loose dark source lines, flatfills/orangecheeks/restrainedshadows, no panels/props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-042.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-041.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-042-draft.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Draft: source right eye should be slightly lower than left, but generation makes left eye lower by ~50px. Left index tip wrongly skin-colored. Targeted repair required."
+}

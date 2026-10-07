@@ -1,0 +1,80 @@
+{
+  "id": "star-f1097-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1097,
+  "source_cel": "cel-0230",
+  "source_reference": "source_refs/src-0629-f1097.png",
+  "source_exposures": [
+    {
+      "start": 1097,
+      "end": 1100,
+      "pts": 45.708,
+      "end_pts": 45.833,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-actual.png",
+      "role": "Exact current original controls eye opening, head framing, screen-right hand now visibly resting against collar/chest and tilted right foot; do not copy previous bent empty cuff pose."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-face-native.png",
+      "role": "Native current heavy half-open eyes with larger narrow eye openings than1091 and CLOSED caret mouth."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-f1097-source-ab-rgb-contours.png",
+      "role": "True original1091→1097 AB/RGB/contours: right forearm rotates inward/up to chest, left glove lower, right leg/boot angled."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-body-native.png",
+      "role": "Native current visible glove/cream cuff against chest, elbow bend, sleeve fold, two legs and tilted right boot. Sole occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-source-redraw-v4.png",
+      "role": "Previous fresh Klee identity/style and costume only; short rooted shoulder ponytails and clear purple underarm gap. Do not freeze its face, empty right cuff, straight legs or palm shape."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE whole independent Klee PV cel from CURRENT ORIGINAL Image1. Image2 controls CURRENT heavy half-open eyelids, with visibly larger narrow eye openings than previous1091 and tiny CLOSED caret mouth. Image3 actual source before/current RGB/contours gives true changes. Image4 is native CURRENT hand/cuff/leg evidence. Image5 ONLY supplies existing Klee identity/flat drawing style/costume, not a frozen pose. Replace the entire original girl with Klee, red beret/cream clover/white feather/brown badge, pale short bangs/elf ears/TWO compact rooted ponytails ending ABOVE lower collar, plain red coat with two-lobed cream collar, cream sleeve cuffs and continuous cream COAT hem above RED shorts, brown gloves and boots. NO old buttonrow/pockets, cream shorts cuffs, backpack, pompom, extra ornaments or long original hair. Keep original simple outlines/mostly flat blocks and original slender full-body framing/total height. Current source1097: RIGHT forearm curls diagonally INWARD and UP across upper chest; RIGHT brown gloved hand is now VISIBLE against upper chest/collar near(958,365) on1920x1080, preserve source small curled/back-of-glove shape and tiny thumb tip, with cream cuff beneath it and right elbow near(1030,455). Not the previous camera-facing empty cuff or an open palm. LEFT arm slopes down/out to small glove near(687,561), slightly lower than1091. Head/hat moves slightly LEFT with current eyelid opening, red iris slivers only within source narrow openings, no wide/chibi eyes. LEFT leg/boot vertical grounded near(872,1020); RIGHT leg angles diagonally down/out with slightly bent knee and RIGHT BOOT tilted to match original slanted cuff/sole, toe toward screen-left and heel toward screen-right near(1055,1020), not two identical straight boots. Retain two legs/two hands, coherent shoulder-elbow-cuff connections and foreground sleeve crossing chest. Crucial: original long pink hair tail behind left arm must be completely removed; beneath left upper sleeve and beside torso is CLEAN PURPLE SKY ONLY, no detached pale/pink/black-outlined sliver, tuft or skin. Both rooted new ponytails end at shoulders above collar bottom; no hair under either arm. Original purple stars retain their arrangement, no extra stars or new objects. No text/lyrics/watermark; source Japanese/Chinese captions restored separately. One landscape whole frame, not collage/crop/mirror/rigid transformed paste, and actually redraw CURRENT chest-hand/tilted-foot pose.",
+  "output": "generated/star-f1097-fast-continuation-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root viewed exact source/full/native eyes/body and actualAB/RGB/contours plus native local delta; current visible chest glove and tilted leg/boot differ from1091. Original-source microcopy1100 not automatically adopted.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-f1097-source-locals-native.png",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5fcf2cbe-0089-4a86-8209-3bfbb24361d9.png",
+  "static_review": {
+    "passed": [
+      "visible right curled chest glove/cuff coherent",
+      "heavy half-open eyes and closed caret mouth",
+      "two rooted short ponytails and clean underarm gap",
+      "left down/out glove and right bent tilted boot"
+    ],
+    "deferred": [
+      "hand/cuff shape and head placement approximate",
+      "added boot/skin shading differs from original flat cel"
+    ],
+    "accepted": false
+  }
+}

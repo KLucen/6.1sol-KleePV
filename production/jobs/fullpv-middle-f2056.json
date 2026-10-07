@@ -1,0 +1,47 @@
+{
+  "job_id": "fullpv-middle-f2056",
+  "source_frame": 2056,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1126-f2056.png",
+  "prompt": "Use case: identity-preserve. Edit CURRENT image1 into ONE true independent strict-source Klee PV f2056 cel, 1920x1080. This is a TWO-PERSON transition, replace BOTH visible human representations.\nImage1 sole authority for each person's camera/pose/eye/mouth/crop/size, star-shaped portal MASK, layer order, source effects/background/caption. Image2 Klee IDENTITY/COSTUME ONLY not its pose/extent. Image3 real source f2054->f2056 RGBdiff/contours rightcurrent. Image4 enlarged CURRENT inset head/eye, both hands and huge backface source crops.\nBACK LAYER: giant original CLOSED-chevron eye and cheek face fragment zooms further and fills entire background. Its huge >/< eye strokes run across top-left/middle-left and vanish BEHIND portal. Keep exact current thick black strokes and orange cheek curve bottomleft. Top of face/hat/ears/ponies/mouth/body all outside current camera crop; no invented full face or body. Only visible source fringe at top becomes pale blonde. Closed eye means no visibleiris.\nFRONT STAR PORTAL: large lavender black-outlined five-point window occupies x~830..1920 and y~0..1070, clipped RIGHT. Preserve its current exact outline, underlying cream outline star patterns and all tiny yellow stars/effects. Inside it is a SECOND much smaller LEFT-FACING PROFILE GIRL, head x~1380..1770 y~180..460, arms stretched sideways with open splayed fingers: viewer-left glove x~1180..1250 y~485..550 and viewer-right glove x~1820..1880 y~465..520. Exactly TWO visible hands, preserve fingers' current 2D bends. Wide stride/legs with left boot partly hidden by lower-left portal boundary, right boot nearx1700 y~880. All figure portions clip cleanly INSIDE current star border; do not draw over portal mask or turn this into a full-frame profile.\nReplace inset girl's rabbit foreheadmask/longpeachhair/pajamas by Klee: redcream beret with ONE smallcreamclover onRED crown/plainbrownband/onewhitefeather, EXACTLY TWO SHORT blonde ear-rootponies. Her visible near eye is OPEN looking LEFT: RED iris, BLACK pupil and WHITE highlight, same source eyelid slope and gaze. Far eye occluded by profile, don't add it. Single pointed ear wherevisible, no duplicate roundedear wedge. Small open round profile mouth, orangecheek. Red coat with creamtrim/foldedcollar, brown gloves/boots, small backpack only if naturally visible; NO source rabbit clothing patch and no extra clovers. Follow actual source current head, fingers, sleeves and legs, no identity pose copy.\nKeep original bottomcenter cream captions \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\" exactly at sourceposition over giant face, all AA strokes. Preserve lavender patterns and tiny yellow effects in front of relevant hand/sleeves. No extra humans/limbs. Same loose wobbly black ink FLAT source cel broadfills and hard minimalshadows, no charactergradient/gloss. Onecel only, no panel/collage/morph/flow/mirror/hold.\nCurrent f2056 source keeps same two-human transition geometry, with current subtle line pressure/effect edge changes. Match current source; do not add expansion movement. Simplify Klee outfit to plain red coat/cream collar and trim, plain brown boots and gloves, plain small brown backpack. EXACTLY ONE cream clover on red hat only. Absolutely no circular side clover badge, no clovers on coat, cuffs, backpack or boots. Two compact SHORT ear-root ponies only, not huge flowing rear pony.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1126-f2056.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2054-f2056.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2054-f2056-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source sole TWO human geometry occlusion star mask background caption effects authority",
+    "Klee costume/identity ONLY",
+    "source actual A/B RGBdiff contours right current",
+    "source huge face and inset head eyes both hands RGBdiff contours"
+  ],
+  "output": "generated/fine-f2056.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 2,
+    "eye_state": "backface closed; inset near eye open leftgaze, redblackwhite details required",
+    "hands": "inset exactly 2; backface 0",
+    "delta_observed": "same main portal geometry; small current ink/effect edge differences",
+    "occlusion": "portal foreground masks giant face; actor clipped inside"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-5250cdc9-6b64-4ad4-a958-6ebea72f6ea3.png",
+  "output_sha256": "22aa3cfba30790fa1c200c2cb87bec4d14236b3184366d06761bfd9bb6c70cc0",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "static_review": "qa/fullpv-middle/resume-output-review-f2056.json",
+  "known_issues": [
+    "Independent current-source two-human transition. Giant face remains behind star portal, inset Klee open red eye with black pupil and highlight, exactly two open gloves.",
+    "Coat and boots simplified but extra circular hat clover persists. Inset pony volume, head size/registration, collar and glove splay differ from preceding draft and source; group repair required.",
+    "Current source portal boundary, effect stars, captions and background still require layered pixel restoration; sequence and actual-speed review pending."
+  ]
+}

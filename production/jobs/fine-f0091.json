@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0091",
+  "source_frame": 91,
+  "source_candidate": "src-0032",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0032-f0091.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0087.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0091.png"
+  ],
+  "prompt": "ONE16:9 Klee replacement PV cel. Image1 CURRENT original sets exact silhouette, crop, occlusion and separately redrawn contours. Image2 preceding Klee keeps SAME character identity, proportion, hat/feather side, two short blonde ponytails, redcreamoutfit/backpack/style only. Image3 original before/current/difference panels, upper-right CURRENT, never output panels. This is a small independent line-redraw hold: both forearms raised nearly vertical, brown gloves grip LEFT and RIGHT clock ends with spread fingers onto display front, clock hides upper face/eyes, tiny closed caret mouth beneath. Keep current clock/head slighttilt and current small hand/cuff/sleeve/eyebrow-bang line variations shown by difference, do not freeze preceding drawing or change action. NO clearly visible irises below clock. Head and body retain current diagonal lean toward right, both legs extended straight down-right cropped below canvas, same actual garment length and cream hem/shorts connection. Klee red beret/clover/whitefeather consistent side, pointedears/TWO SHORT pale blonde side ponytails and capelet maintained. Pillow diagonal behindhead with exactsourcecream border/bluepatches, hands infrontofclock. Flat loose handdrawn dark irregular lines/orangecheeks/one flat shade, no source gray pajamas/bunnyhood/pockets. ALL lettering/subtitles/titles/credits/labels removed, blank clock display, no addedlimb/zoom/mirror/recrop.",
+  "output": "../generated/fine-f0091.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

@@ -1,0 +1,52 @@
+{
+  "source_frame": 2132,
+  "output": "generated/middle-next-f2132-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: one complete 16:9 hand-drawn animation cel for a Klee replacement of the original MIMI PV, true source cel f2132.\nPrimary request: redraw BOTH original people as Klee from Genshin Impact, with the current f2132 camera, expressions, scale and exact foreground/background visibility. Produce one full whole-frame illustration, not a contact sheet or components.\nInput images, in order:\n1. EDIT TARGET, actual source f2132: sole authority for composition, crop, body pose, visible anatomy and occlusion.\n2. SUPPORT, actual f2130/f2132 original A/B, RGB x4 and two-color contour comparison: change authority only, not a scene to reproduce. The giant foreground head moves inward/down-left and covers the previously visible small background face and right arm.\n3. SUPPORT, native current giant foreground: half-lidded open eyes with heavy slanted upper lids, a small tilted oval open mouth, orange cheeks, head tilted diagonally. Preserve this expression and crop, not the identity reference's closed eyes.\n4. SUPPORT, native current visible background: only the raised open left hand and cream cuff, leaning torso and coat, parted standing legs and boots are visible. The small background head and right arm are COMPLETELY HIDDEN behind the giant foreground head/hair. Do not reveal or invent them.\n5. KLEE IDENTITY/STYLE ONLY, head crop from a prior simplified Klee cel: blonde bangs and side ponytails, pointed ears, red beret with cream clover and feather, simple thick black linework and warm flat fills. This crop sets identity, not pose, scale, expression or feather screen side.\nScene/backdrop: original lavender sky and pale scribbled stars. Keep the current source shot's scale and star arrangement as context; final compositor will retain original background and original bilingual captions separately.\nSubject: TWO Klee depictions, one giant foreground closeup filling the right two-thirds and clipped at top/right/bottom, one small background body left of it. Giant Klee's beret replaces the original padded cap; make the large head/beret/blonde silhouette maintain the source foreground occlusion. Show no small background face or right glove through hair gaps. Preserve the current raised background palm's five-finger silhouette, now with Klee's brown glove, connected to cream cuff and red sleeve.\nStyle/medium: match the PV's economical chibi hand-drawn black contour, simple flat red coat, cream collar/cuffs, blonde hair, brown gloves/boots, cream boot tops. Minimal shadow, no realistic anatomy, no extra ornament density.\nComposition/framing: full 1920x1080-equivalent landscape canvas. Giant face and collar remain obliquely tilted exactly as source; do not center it, zoom out, lift it, or expose the hidden background head. Small body retains current source lean, spread legs and boot contacts. The giant foreground is in FRONT of every covered background body part.\nChanges versus previous source: advance the giant head position/crop/eye shape/mouth tilt to f2132; keep only currently visible small-body parts. Update bangs, ear, collar and ponytail connections to the target pose instead of freezing an earlier cel.\nConstraints: redraw all characters as Klee; exactly two subjects and no extra limbs or disembodied hands. No original pink hair, grey pajamas or animal cap. No new readable text, no regenerated captions, no watermark. Do not add invisible arms, background faces, uncovered eyes or transparent body holes. Do not reproduce panels, labels or comparison borders. Output one complete cel only.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-source-actual.png",
+      "role": "edit target; current source composition and occlusion",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2130-f2132-source-ab-rgb-contours.png",
+      "role": "support; actual previous/current original spatial differences; overview resized during viewing",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-foreground-native.png",
+      "role": "support; current giant face and crop, native actual viewing",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2132-background-visible-native.png",
+      "role": "support; current visible small body, native actual viewing",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\klee-f2073-head-only-identity-v2.png",
+      "role": "identity/style only; no pose authority",
+      "actually_viewed": true
+    }
+  ],
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "authority": "User: missing-first complete first cut; defer minor style drift; no exposure changes.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-b93e7e78-3020-4b80-891f-2b395b114464.png",
+  "output_sha256": "4cca1da6a045c86930d23b8d7c2f29d7fc1889e1b0f38c0a61f5ccdc121f6b58",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed builtin whole cel; both actors are Klee, background head and right arm stay hidden, raised glove/cuff is connected. Giant beret widens foreground silhouette and hides more rear torso/boot than source; defer amplitude and costume drift for first cut. Captions omitted for separate original-source composition. Static draft only, temporal and compositor review pending.",
+    "accepted": false
+  }
+}

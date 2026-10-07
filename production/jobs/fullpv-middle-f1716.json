@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f1716",
+  "source_frame": 1716,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0972-f1716.png",
+  "prompt": "Identity-preserve PV cel f1716. Edit ONLY CURRENT ORIGINAL SOURCE image1 into Klee, entire 1920x1080 frame unchanged coordinate system. Source owns pose, view/crop, position and hand overlap. Image2 only Klee red beret clover feather identity, image3 only Klee red coat/cream cuffs/brown glove identity; do not add its star/moon props. Image4 actual RGB differences and two-color contours between neighboring original cels; preserve current independent redraw variations, never hold or freeze a prior cel. Entry cel, head gently tilts clockwise while crossed forearms hold fixed. Character huge RIGHT x880..1860 y130..1080, LEFT Chinese/Japanese lyrics untouched. Head x1430 y450/face x1440 y655, half-open sleepy red eyes with current slanted thick black lids and white glint; orange circular cheeks; tiny current downturned mouth. Replace original bunny forehead sleep-mask with Klee RED BERET brown band cream clover white feather, don't stack both. Short pale blonde bob with TWO SHORT side ponytails connected to head, pointed ears where visible. Crossed folded arms retain current geometric silhouette and folds: front red coat forearm crosses from bottom-left of character toward right face lower edge; plain cream cuff at lower right; only partial right brown glove fingers on opposing shoulder at x1640..1740 y780..870, other hand fully hidden. Lower coat/knees entirely covered and cropcut, no bare knees pants thighs or boots. Coat uses very simple few flat red/cream/brown patches, no extra jewelry, avoid decorative sleeve clovers. All outlines thick wobbly source-like. ONLY flat fills and source's simple HARD-EDGED flat shadows, no gradients, airbrush, texture, glossy polish or fine game artwork. Source low-framerate rough PV style is the target; no new props/effects.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0972-f1716.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/blanket_closeup/source-delta-f1716-f1720.png"
+  ],
+  "reference_roles": [
+    "current original source geometry pose expression occlusion",
+    "hat identity only",
+    "coat/cuff/glove identity only",
+    "actual adjacent source RGB difference and blue/red contours"
+  ],
+  "output": "generated/fine-f1716.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-ff1c6f1e-3548-4811-8ca6-8348d2e0137f.png",
+  "output_sha256": "60c1570939afc6328d70c90157d8102e17d5817d960202c5427dc9e0f6620ad9",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

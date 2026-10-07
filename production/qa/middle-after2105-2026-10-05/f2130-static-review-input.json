@@ -1,0 +1,14 @@
+{
+  "blocking": false,
+  "observed": "Exactly two Klee actors: small closed-eyes/O-mouth right-leaning dancer remains behind, with two connected side ponies, two brown open gloves and planted-left/raised-right boots. Giant foreground Klee has half-open red eyes, top/right-clipped beret/head, right-clipped O mouth, cheek and lower-right red shoulder, one visible rooted pony and the opposite pony outside crop. Foreground correctly sits in front at upper-right background beret overlap; no foreground hand or extra full body is invented.",
+  "findings": [
+    "Foreground blonde bob/pony/pointed ear differ from original long peach hair envelope; background right glove remains more visible than source near occlusion edge",
+    "Giant eye, face, hat and lower shoulder positions and sizes approximate; near eye slightly lower and giant collar has an extra cream fold",
+    "Small actor retains preceding larger head/beret/collar and approximate cuff/boot/hem placement",
+    "Both actors replaced, giant half-open red eyes differ correctly from small closed eyes; no original rabbit mask/peach hair remains",
+    "Generated background/effects and newly uncovered pixels require deterministic original-layer recovery; no AI captions present",
+    "Static full and shot-specific native source/new review only; final compositing and actual-speed artistic acceptance not performed"
+  ],
+  "viewed": ["full current source", "full generated output", "shot-specific native foreground source/new", "shot-specific native background source/new"],
+  "shot_specific_review_paths": ["qa/middle-after2105-2026-10-05/f2130-source-new-foreground-shot-specific.png", "qa/middle-after2105-2026-10-05/f2130-source-new-background-shot-specific.png"]
+}

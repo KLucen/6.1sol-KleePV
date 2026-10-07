@@ -1,0 +1,18 @@
+{
+  "accepted": false,
+  "video": "output/klee-middle-2121-2145-oct6-comparison-draft-v1.mp4",
+  "video_sha256": "91b2e7a23acdc5024495f500bd8daf224a67857d50e9a2265b8651d9b22e3556",
+  "source_interval": [2121, 2145],
+  "actual_native_encoded_caption_pages_viewed": [1, 2, 3],
+  "encoded_caption_frames_viewed": 24,
+  "actual_native_encoded_failure_locations_viewed": ["f2135 warm head", "f2143 cool face", "f2122 source star/glove edge"],
+  "observations": [
+    "Two source-derived lyric lines remain complete and readable across all 24 actual encoded frames. The two-pixel source-glyph ring and alpha are declared reconstruction, not exact original text pixels.",
+    "Warm face/hair and rear cool face/cheek/ink no longer contain the large sky holes seen in the retained failed composites.",
+    "Yellow star fill and black outline survive encoding, including the original star next to/overlapping the glove edge.",
+    "Small cool boundary flecks, two hat-edge subpixels and existing cel costume/approximate pose differences remain draft review items; no whole-art or original-speed acceptance claimed."
+  ],
+  "actual_speed_review": "not performed",
+  "full_pv_completed": false,
+  "checks_are_not_artistic_acceptance": true
+}

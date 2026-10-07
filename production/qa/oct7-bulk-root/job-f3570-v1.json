@@ -1,0 +1,82 @@
+{
+  "source_frame": 3570,
+  "source_candidate": "src-2072",
+  "source_exposures": [
+    {
+      "start": 3570,
+      "end": 3574,
+      "pts": 148.75,
+      "end_pts": 148.917,
+      "family": "ending_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "output": "generated/oct7-bulk-root-f3570-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the user's Klee PV draft. Redraw the FIRST image in the original simple hand-drawn PV style, replacing ALL visible original characters/fragments with Klee from Genshin Impact. The FIRST image alone determines camera, crop, body/head/hand pose, expression, visible extent and front/back overlap. Maintain the original blue backdrop and props. Keep any existing pillow and hand contact at source size/position. Use a red Klee cap with light feather, pale blonde short twin ponytails (exactly two, no long original hair), red simplified coat, plain cream cuffs, brown gloves/boots where visible, red eyes when source eyes are open. Preserve the source's closed eye/wink states and visible hands. Do not add hidden anatomy or extra hands. Identity/style references must NOT freeze the previous expression or pose. The source delta describes actual drawing changes, not a motion warp. Keep flat original-PV color blocks and line weight, no elaborate render, no new background decoration. Remove all source lettering from this generated cel: original Chinese/Japanese subtitles and credits are restored independently in composition. Do not generate text, labels, watermark, collage or reference panels. Produce exactly one complete 16:9 frame. Current source observation and required changes for f3570: Both eyes remain fully CLOSED relaxed curved lines, small closed V-upward smile. Major hand change: NO side fists. Both wrists move INWARD and hands lift beside cheeks; index fingers curve toward cheeks, other fingers bent in delicate loose open C gestures, palms face inward. Hands in FRONT of side hair, left near left cheek and right near right cheek, cream cuffs at bottom. Render exactly two coherent brown gloves, thin bent fingers following source, no extra hands. Current source head/neck crop authority; Klee short blonde twin ponytails behind hands. Ordered input roles: Image 1: CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority; Image 2: Klee head identity only; ignore pose and expression, use source eyes and mouth; Image 3: Klee costume colors only; not framing or pose authority; Image 4: Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation; Image 5: Adjacent unaccepted Klee cel: palette, line weight and persistent two short ponytails only; NOT pose/expression/framing authority, do not copy collar/button drift",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-2072-f3570.png",
+      "role": "CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "9d4ff34c6b6582730c7abcb318b21e359dbb162ccf2326d548f43c82dd766042"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee head identity only; ignore pose and expression, use source eyes and mouth",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "Klee costume colors only; not framing or pose authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6642a7150fc8d784bf0a5300ce9b87dde979150f06abac2da55412e2c621df7a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-root\\f3566-f3570-source-ab-rgb-contours.png",
+      "role": "Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b4ac4edee76b0013fb06035c073aef3cc4fd35a3aeae8c76e6a2a0e50190f13f"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-root-f3566-v1.png",
+      "role": "Adjacent unaccepted Klee cel: palette, line weight and persistent two short ponytails only; NOT pose/expression/framing authority, do not copy collar/button drift",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6887106bf13ab05db42f978bf9e6e729fd134c80f0c2aca0d725aac79591610e"
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "policy": "one_pass_no_artistic_repairs_before_user_full_draft_feedback",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c2bdb191-ae44-4830-bd7a-74ae3a360f53.png",
+  "output_sha256": "06c159029b8a1befa0298982f2242b301b60e7f26309bcb4955d7426ef0d9937",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actual output inspected: closed smiling expression, two inward bent-finger brown hands beside cheeks, palms in front of hair, two short ponytails. Finger topology/detail and head/hand registration differences deferred; no artistic or temporal acceptance.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

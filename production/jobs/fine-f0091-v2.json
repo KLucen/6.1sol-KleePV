@@ -1,0 +1,20 @@
+{
+  "job_id": "fine-f0091-v2",
+  "source_frame": 91,
+  "source_candidate": "src-0032",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0091-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0032-f0091.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0091-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0087-f0091-source-delta.png"
+  ],
+  "prompt": "Use case: identity-preserve localized edit. OUTPUT ONE full 16:9 cel, not panels. Ref1 is current Klee f91 artwork to edit; keep its present camera, bent-up arm positions, hands, held clock, lower face, hat, pillow, costume, legs and scale. Ref2 CURRENT source f91 determines this unique source pose and hidden/visible facial area only, never original pink hair or pajamas. Ref3 current source clock/hand/face detail establishes occlusion: glove fingers in front of compact cream frame, cream clock band in front of upper eyes, orange cheeks/downturned closed mouth/chin below; ONLY tiny red lower-iris slivers peeking below both clock corners like source, not full visible eyes. Ref4 actual before/current RGB and double contours are analysis only: retain CURRENT f91 rather than freeze f87. Repair f91 HAIR TOPOLOGY: exactly TWO short pale blonde side ponytails, upper one on each side of head ending at shoulder height, retain their shapes. DELETE the erroneous THIRD lower blonde wing dangling below the viewer-left elbow at x65%-69%,y49%-60% of full frame, alongside torso. Restore surrounding lavender pillow/purple background as appropriate behind that removed wing, with a clean red coat edge. No additional blonde hair at either waist or below elbows. Preserve every unrelated contour and outfit ornament from Ref1: plain angular cream cuff bands, red split coat, cream angular clover underskirt, narrow pink ruffle, RED shorts, ONE left-waist pom, ONE chest pom, existing chest badge and brown backpack/Dodoco. Do not rescale clock or move its contact geometry during this hair/corner-iris repair. Keep flat source-like colors, loose dark outlines, simple orange cheeks. No new text/numbers/letters/glyphs/captions/watermark.",
+  "output": "../generated/fine-f0091-v2.png",
+  "repair_of": "fine-f0091-geometry-repair.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "static_review": "pending",
+  "temporal_review": "pending",
+  "prop_restoration": "not enabled; held clock needs validated finger protection"
+}

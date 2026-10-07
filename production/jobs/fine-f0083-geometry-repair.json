@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0083-geometry-repair",
+  "source_frame": 83,
+  "source_candidate": "src-0029",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0029-f0083.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-open-eye-identity-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0079-f0083.png"
+  ],
+  "prompt": "Use case: identity-preserve. Full1920x1080 independentPVcel CURRENT original83. Replace personwithKlee, sourceimage1 ONLY authoritypose/framing/occlusion/camera. Cropimage2ONLYidentityface/hatcolor;crop3ONLYcostume;image4source79/current83 changes ONLY. ONEdrawingnopanels. Compared79 torso rises and LEGSSTRAIGHTEN, clock moves upward/right and both elbows become narrower/higher. CURRENTclock displaycenter approximatelyx68.5%,y26.5% (1315,286px), creamclockextent about1225,238..1417,350 tiltedup-right. Do NOTcopyolderclock atforeheady35%. Left BROWNglove atx65%,y29%wrapsfrontleftedge, rightBROWNglove atx73%,y27%wrapsfrontrightedge; wrists inplaincreamcuffbands, redarmsbentuporiginalangles. Bottomedgeclock atupperface: very SMALL lower half-open red-eye fragments/slivers directly belowthecorners ifvisibleasSOURCE, orangecheeks andtinycloseddownturnedmouth fullyvisiblelowerface aboutx70.5%,y34.5%. Neverfullyexposeeyesaboveclock, neverhidecheeksmouth. Redberetcreamcloverwhitefeatherabovebrow behindclock, blondbangs,pointedears andTWOshortsideponies only. Sourcepillowfixedbehindheadapproxx55..83%,y14..53%, originalcreamfringes andbluepatches. Samelean/view/crop andstraightbottomlegs original, no bodyenlargement. Fixedredsplitcoatlowerleftcreamclover, creamzigzagunderskirtfaintclovers, pinkruffle, REDshorts, ONEleftwaistsmallpom, rightbrownbackpack; NOnewclovers onsleeves, smoothsimplecreamcuffs notfluffy. LooseunevenPVdarklines, flatcolors singlemutedshadow, no glossyhighlight. Blankvioletbackground. NOlyrics/captions/letters/digitsanywhere;clockdisplayblankpurple. Onefullframe.",
+  "output": "../generated/fine-f0083-geometry-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0083.png",
+  "temporal_review": "pending"
+}

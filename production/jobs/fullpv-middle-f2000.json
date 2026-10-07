@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f2000",
+  "source_frame": 2000,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1070-f2000.png",
+  "prompt": "Identity-preserve strict-source independent PV f2000. Edit image1 CURRENT ORIGINAL as sole pose/camera/crop/eye/mouth/arm visibility authority. Image2 previousKlee f1995 identity/style/costume continuity ONLY, not frozen drawing. Image3 source1998->2000 actualRGBdifference/two-colorcontours RIGHTcurrent. Full1920x1080 lavender frame, bothleft/rightsourcecaptions. RIGHT-facing strictprofile with ONE sleepy halfopen eye, tiny downward mouth/orangecheek, noseandchin at exactsource current registration. Keep source thin eye aperture/darkpupil/sourcehighlights/gaze; convert irisblue to darkREDupper/pinkREDlower retaining blackpupil (no solidreddisc). Current source small bangs/eyelid/sidehairlineand bent frontclosearm outline/redraw pressure changes must be redrawn independently. Replace ALL original longpeachhair/rabbitmask/headband/pajamas: Klee TWO SHORT blonde sideponytails by pointedear, farpony/ear occluded in strictprofile; single redcloverberet brownband singlewhitefeather attachedanatomicalLEFT/farside partlybehindcrown; do not enlarge head/ear/costume beyond current source framing. Redcoat creamcollar/simplepompom plaincreamcuff, brown gloveonlywhere source shows hand. Source torso narrowprofile bottomcropped, exactarm/forearm projection. No hidden second eye, no addedhands/legs/backpack/props/actors/longhairsheet. Thick sourcewobbly blackcontours broadFLATfills/simplehardshade only, no gradient/gloss/texture or detailedgamerender. No heldpose/morph/tween/flip/reuse. Preserve sourcecaptionlocations for compositor.\nSpecific currentchanges: source face/chin sits slightlyhigher, eye'slower outline slightlynarrower, cheek and bangs shift with head, near sleevebottom liftsandcurves differently. REDRAW those current contours at sourcecoordinates, avoid generic previousprofile. Keep two shortponyroots, sameclover/feather topology and source currentmouth.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1070-f2000.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1995.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1998-f2000.png"
+  ],
+  "reference_roles": [
+    "current original rightprofile pose/expression/crop/oneeye and armocclusion",
+    "Klee profile identity/style/costume continuity only",
+    "actual source RGBdiff/contours; RIGHT current"
+  ],
+  "output": "generated/fine-f2000.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-aa245fab-5f78-44b4-ae98-582f8c8f8511.png",
+  "output_sha256": "cb103708bb1f36ebacf52be5b7c81bf76407ed7aa9814e2e2c31a48e9f8e88d3",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

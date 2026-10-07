@@ -1,0 +1,24 @@
+{
+  "id": "095",
+  "prompt": "Use case: precise-object-edit. Asset: one complete 16:9 hand-drawn PV cel. Image 1 is the original source frame and determines exact camera, character size and position, cropping, pose, eye state, mouth, hands, props and occlusion. Image 2 is ONLY Klee identity and drawing-style guidance, not pose or composition. Replace every original person in image 1 with Genshin Impact Klee in her default Shooting Spark outfit. Pale blonde bangs and short twin side ponytails, pointed ears, red beret with cream clover and white feather, red coat with cream trim, brown gloves and boots, small brown backpack when visible. Match source simplified dark loose outlines and flat color blocks, orange oval blush, at most one simple shadow color. Keep source eye state and facial expression rather than copying the anchor's closed-eye expression. Preserve background, captions, lettering, props and independent effects at their source locations. Full scene, no extra panel, no montage, no new objects, no extra body parts outside the original crop. Only replace character areas and adapt visible clothes/hair to Klee. Klee's irises are RED, not source blue: preserve source eyelids and eye-shape/openness but recolor visible upper iris patch dark red and lower iris patch warm red; no blue irises. Specific target: medium Klee centered slightly right, torso tilts left, both arms bend in arc over head. Right forearm angles diagonally up-right and is covered at upper edge by HUGE yellow foreground star, left arm arches behind beret. OPEN RED eyes and small oval singing mouth with tired lids. Source top-right huge star hides wrist and upper ponytail; bottom center/right giant star hides lower coat and waist. Keep these source stars fully IN FRONT, exact positions. Preserve smaller stars left/back and lavender background. Short blonde ponytails, no original long hair. Use original image1's exact head/arms/torso pose, not neighboring bentknee. Images3/4 constrain adjacent character costume/hair geometry, but all new local eye, mouth, arm angle, torso angle, star masks and crop must follow image1.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-095.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-094.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-097.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-095.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-8578e193-ea31-4c45-9c4c-739d2a1eb193.png",
+  "status": "generated",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Arched arms, glove occlusion by upper-right star and lower-body foreground star retained."
+    ],
+    "flaws": [
+      "Exact cloak/hair contour differs from source and endpoint; needs same-shot review."
+    ],
+    "temporal_review": "pending"
+  },
+  "caption_cleanup_required": true
+}

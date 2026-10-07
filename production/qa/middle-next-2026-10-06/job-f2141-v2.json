@@ -1,0 +1,47 @@
+{
+  "source_frame": 2141,
+  "output": "generated/middle-next-f2141-oct6-v2.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: precise-object-edit\nAsset type: ONE complete whole PV animation cel, targeted structural repair of f2141.\nEDIT IMAGE 1. Preserve the giant rear-facing Klee with red beret, cream brim, blonde bob and two low pony tails, all giant head contour/crop/location and background unchanged. DO NOT add any face, eyes, mouth, hands or standing actor.\nONE NECESSARY CHANGE ONLY: the small light-cyan, dark-green outlined SHAPE at upper-right behind the giant beret currently has the OLD CHARACTER'S TWO ROUNDED ANIMAL EARS. Replace that tiny visible shape completely with the next NIGHT KLEE'S HAT FRAGMENT. It must NOT have ANY rounded ear-shaped lobes, bear muzzle, head, body or human face.\nReference2 actual source tells ONLY its position and amount exposed (roughly x1100..1430 y0..260 on original 1920 frame); it is not an identity reference. Reference3 locates the same actual tiny fragment. Reference4 shows the correct NIGHT KLEE hat identity and cold palette: dark purple-red beret dome, pale blue-cream pointed feather with tapered tip and angled notches, dark navy/greenish hand-drawn contour.\nIn this rear pose the giant foreground hides almost all of night Klee. Draw ONLY the sliver of cold purple-red beret and ONE slim pale-blue POINTED feather tip peeking above/behind the giant red hat at upper right. Cut them off naturally where the giant foreground covers them. The feather is a tapered leaf shape, not two round ears. No clover badge needs to be shown if hidden; no new face, hair or whole small character. Do not widen the region of visible night actor.\nKeep image1 giant foreground untouched and the same lavender left scribbled stars/blue right night/crescent. No texts, panels, labels, watermark. Output one full illustration, not a patch or collage.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2141-oct6-v1.png",
+      "role": "edit target; keep giant rear Klee and entire scene; replace ONLY cold upper-right original animal fragment",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-source-actual.png",
+      "role": "source current actual occlusion and tiny fragment extent only, not animal identity",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2141-foreground-native.png",
+      "role": "source upper-right tiny exposed region; current native inspected",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f0973-cold-head-identity-only.png",
+      "role": "cold Klee hat/red-purple beret/pointed feather identity; no face exposed",
+      "actually_viewed": true
+    }
+  ],
+  "repair_scope": "one targeted original-animal-hat residue fix; no silhouette polish",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d02f3eb4-f2ea-4ed3-a752-cfd68f49076e.png",
+  "output_sha256": "06755f821b4ba0d417def7284443ddbe580d808ab8d4b7ca47252cd9b9539e9a",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole output: targeted cold fragment is now red-purple Klee beret sliver with pointed pale-blue feather and no rounded animal ears. Giant rear view has no face/limbs; previous actor hidden. Whole giant body and scene visually retained fromv1. Feather visible height and giant pony/hat silhouette remain approximate, defer first cut. Static only, no compositor/temporal acceptance.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

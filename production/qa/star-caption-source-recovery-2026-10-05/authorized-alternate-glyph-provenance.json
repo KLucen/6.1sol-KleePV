@@ -1,0 +1,340 @@
+{
+  "accepted": false,
+  "authorization": {
+    "user_message": "允许先重建清晰字幕，看片后再指定返工",
+    "relay": "Root explicitly relayed the human authorization on 2026-10-05",
+    "scope": [
+      1037,
+      1043
+    ],
+    "allowance": "Real original glyph alternate with minor stroke differences"
+  },
+  "kind": "alternate_real_original_glyph_donor",
+  "lyric": "愛してる 寂しさ2分の1ずつを",
+  "source_frame": 3402,
+  "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1905-f3402.png",
+  "source_file_sha256": "786a457f83d47493e9954cfb0b7a3a7f5bd913577d942cf5e00c5f3cdb0de700",
+  "source_bgr_sha256": "09ff7860bd24433734c829f5e249ccfadce9f4be3bc7f18a7f6b803b12cdc4b1",
+  "source_crop_matches_independent_sequential_decode": true,
+  "native_canvas": [
+    1920,
+    1080
+  ],
+  "donor_region": [
+    688,
+    954,
+    1225,
+    992
+  ],
+  "destination_region": [
+    676,
+    954,
+    1213,
+    992
+  ],
+  "registration": {
+    "kind": "integer_translation_only",
+    "matrix": [
+      [
+        1,
+        0,
+        -12
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "scale": 1,
+    "rotation": 0,
+    "baseline_y": 959,
+    "explanation": "Register the same-word original line origin x688 to original target line origin x676. Handwritten stroke extrema vary slightly; no glyph morph or resizing."
+  },
+  "per_glyph": [
+    {
+      "text": "愛",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        700,
+        954,
+        738,
+        992
+      ],
+      "destination_bounds": [
+        688,
+        954,
+        726,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "し",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        746,
+        954,
+        772,
+        992
+      ],
+      "destination_bounds": [
+        734,
+        954,
+        760,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "て",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        782,
+        954,
+        812,
+        992
+      ],
+      "destination_bounds": [
+        770,
+        954,
+        800,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "る",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        824,
+        954,
+        852,
+        992
+      ],
+      "destination_bounds": [
+        812,
+        954,
+        840,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "寂",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        870,
+        954,
+        909,
+        992
+      ],
+      "destination_bounds": [
+        858,
+        954,
+        897,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "し",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        918,
+        954,
+        943,
+        992
+      ],
+      "destination_bounds": [
+        906,
+        954,
+        931,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "さ",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        954,
+        954,
+        984,
+        992
+      ],
+      "destination_bounds": [
+        942,
+        954,
+        972,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "2",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        990,
+        954,
+        1008,
+        992
+      ],
+      "destination_bounds": [
+        978,
+        954,
+        996,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "分",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        1009,
+        954,
+        1048,
+        992
+      ],
+      "destination_bounds": [
+        997,
+        954,
+        1036,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "の",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        1050,
+        954,
+        1085,
+        992
+      ],
+      "destination_bounds": [
+        1038,
+        954,
+        1073,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "1",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        1089,
+        954,
+        1106,
+        992
+      ],
+      "destination_bounds": [
+        1077,
+        954,
+        1094,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "ず",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        1110,
+        954,
+        1143,
+        992
+      ],
+      "destination_bounds": [
+        1098,
+        954,
+        1131,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "つ",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        1150,
+        954,
+        1183,
+        992
+      ],
+      "destination_bounds": [
+        1138,
+        954,
+        1171,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    },
+    {
+      "text": "を",
+      "donor_frame": 3402,
+      "donor_bounds": [
+        1191,
+        954,
+        1221,
+        992
+      ],
+      "destination_bounds": [
+        1179,
+        954,
+        1209,
+        992
+      ],
+      "pixel_source": "src-1905-f3402.png",
+      "status": "real source alternate; unaccepted"
+    }
+  ],
+  "donor_foreground_bgr_estimate": [
+    202.0,
+    223.0,
+    254.0
+  ],
+  "target_foreground_bgr_observed_median": [
+    209.0,
+    224.0,
+    238.0
+  ],
+  "target_palette_probe": {
+    "frame": 1037,
+    "bounds": [
+      686,
+      959,
+      806,
+      989
+    ],
+    "observed_pixels": 596
+  },
+  "palette_policy": "Extract the real donor shape, then compose using observed target-phase cream ink. Decoded donor warm pink-plate chroma is not copied onto target boots.",
+  "observed_alpha_pixels": 7351,
+  "observed_core_pixels": 1581,
+  "donor_plate_reconstruction_mean_absolute_bgr": 1.544114589691162,
+  "donor_plate_reconstruction_max_absolute_bgr": 10.0,
+  "npz_sha256": "a588071c0f94ff1697baf468cf9a7a8b13867d9cb5c36b8adc5318c13b7d09f6",
+  "limitations": [
+    "Not restoration of the unobservable original f1037 stroke alpha.",
+    "Donor ink is genuinely observed; alpha and donor plate are estimated.",
+    "Chinese is not replaced by this alternate Japanese donor.",
+    "Actual-speed and encoded review still pending."
+  ]
+}

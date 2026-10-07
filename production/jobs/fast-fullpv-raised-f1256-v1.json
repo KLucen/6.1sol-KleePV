@@ -1,0 +1,47 @@
+{
+  "owner": "raised_closeup_batch",
+  "source_frame": 1256,
+  "cel": "cel-0269",
+  "mode": "strict_source",
+  "tool_mode": "builtin_image_gen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "prompt": "Use case: identity-preserve. Asset type: independent full-frame Klee PV cel f1256. Image 1 edit target alone controls pose, facial action, zoom/cropping and exact purple-star backdrop. Image 2 existing Klee f1225 is same-shot identity and drawing continuity only, NOT eye/mouth/action reference. Image 3 actual source 1248-to-1256 difference, original A/B and red/blue contours governs real changes. Replace the original pink-haired human and animal-mask completely with the same Klee: red clover beret and one white feather, pale blonde bangs and exactly two attached short neck-side ponytails, pointed ears, cream two-leaf collar, simple red coat with cream wide cuffs and brown gloves. Keep all source current image 1 proportions, both fully visible raised V arms and spread open palms and their source wrist/cuff angles. The original difference moves left forearm/cuff slightly down-left and right forearm slightly right, and closes the large mouth to a tiny round O; follow those positions. BOTH eyes are thick CLOSED horizontal dark slits, eyebrows thin above; tiny circle O mouth, large orange cheek patches; keep upright centered head, not zoomed-in image 2. Both hands gloved brown with five digits including thumb, no bare hands, no extra limbs. Retain f1225 hat/short-hair topology and simple coat/collar exactly in spirit while allowing the source new hair/sleeve contour motion; no waist-length hair or additional third ponytail. Very simple loose black source-PV outlines, flat red/cream/blonde blocks, minimal one shadow only; no realism, painted gradients or ornate fabric. Remove all text from the generated art; exact-time original Chinese/Japanese lyrics will be composited afterwards. Preserve image 1 background and stars; no new objects, no original animal hat or pink hair, no added lower body below crop.",
+  "referenced_image_paths": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0788-f1256.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1225-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1248-f1256.png"
+  ],
+  "reference_roles": [
+    "edit_target_current_source_pose_crop_background",
+    "same_shot_Klee_1225_identity_continuity_not_eyes_pose",
+    "actual_original_RGB_contours_1248_to_1256"
+  ],
+  "intended_output": "generated/fast-fullpv-raised-f1256-v1.png",
+  "exposure": [
+    1256,
+    1261
+  ],
+  "selected_draft_proposed": true,
+  "static_review": {
+    "source_action": "Closed eye slits, tiny round O mouth, wide raised arms and both full palms.",
+    "result": "Distinct small O versus 1248 large mouth, complete open gloves and rooted short blonde twin ponytails, no original long tail remnants.",
+    "blocking_confirmed": [],
+    "issues": [
+      "Mild shaded palette beyond source flatness."
+    ]
+  },
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-94a6f157-56a2-4887-9ef4-4c6d52f8069b.png",
+  "observed_call_seconds": 33.6,
+  "output_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+  "output_canvas": [
+    1672,
+    941
+  ],
+  "canvas_note": "Native tool output retained; compositor normalizes to source 1920x1080 canvas",
+  "reference_sha256": {
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0788-f1256.png": "4b1a2a6df84eb4ebdea7ad55ed6f69290539cc17a7770ae1ba66b4c9307d8ea6",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1225-v1.png": "d1e5e5ad000709e401728ebb8410801a165e58bc5b85ab6f46892e3962fd9faf",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1248-f1256.png": "22183717600f53976f04896bbc18be001672dcde31c06fe5eadfe12114633227"
+  }
+}

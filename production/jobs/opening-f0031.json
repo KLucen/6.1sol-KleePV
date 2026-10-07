@@ -1,0 +1,12 @@
+{
+  "job_id": "opening-f0031",
+  "source_frame": 31,
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0010-f0031.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\opening-f0028.png"
+  ],
+  "prompt": "Edit ONE 16:9 animation cel. Image 1 is the current original PV drawing: use its exact extreme crop, head position, eye state and contour variations. Image 2 is the immediately previous Klee cel: preserve the SAME Klee design, colors, hat and feather side, hairstyle and drawing style, but follow the current source drawing. Replace only the original cropped head at RIGHT with Klee. Only ONE OPEN EYE with a narrow vertical RED iris is visible near the lower edge, partly behind pale blonde bangs, with a thick black upper lid, tiny eyebrow and clipped orange cheek. The eyelid/bang and head-outline shapes subtly differ from the preceding cel; redraw according to current source rather than freeze them. No visible mouth, second eye, shoulder, arms or torso. Maintain identical extreme close framing, partly cropped red beret at top/right with cream clover and white feather. Short side ponytails and pointed ear remain clipped. Keep diagonal lavender pillow with cream border and blue patches exactly as in source. Source flat hand-drawn PV treatment, irregular dark outlines and simple flat color, no detailed game rendering. Remove ALL subtitles, titles, labels, credits, lettering and text from the output frame. Do not create new objects, extra hair tufts, different expression, or zoom out.",
+  "output": "../generated/opening-f0031.png",
+  "status": "generated",
+  "caption_cleanup_required": false
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "fast-fullpv-dance-f0894-source-v2",
+  "source_frame": 894,
+  "canonical_cel": "cel-0160",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0894-source-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0440-f0894.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0891-source-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-occlusion-repairs/f0891-f0894-source-ab-rgb-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "Current894 edit target, sole crop/pose/occlusion authority",
+    "Klee891 topology and hidden background-face continuity ONLY",
+    "Actual original891→894 giant head rotation/crop and mouth changes",
+    "Crimson iris identity ONLY"
+  ],
+  "prompt": "Use case: identity-preserve. One independent full16:9 PV cel, SOURCE894. Image1 CURRENT EDIT TARGET sets exact crop, current tilted giant face, two people, visible arms/legs, background and occlusion. Image2 new Klee891 is ONLY identity/simple costume/short rooted neck-side twin-tail continuity, not frozen891 pose. Image3 actual original891→894 A/B+RGB+contours sets larger giant-head turn/crop, eyelid tilt/fringe/mouth/hat shift. Image4 iris red ONLY. Replace BOTH source girls with Klee, flat simplified source-style uneven black-outline cel. CRITICAL rear small dancer's FACE IS COMPLETELY CONCEALED by giant foreground head, as CURRENT894. DO NOT reveal small face, eyes, beret or shift rear torso/neck left. Only visible current rear high-left open BROWN glove and cream cuff/red sleeve, torso fragment, source-position two legs/brown boots remain; small source hair/collar sliver may remain only if visible at edge, never a complete head. Foreground HUGE warm Klee head occupies RIGHT, cut TOP/RIGHT/BOTTOM, follow CURRENT894 stronger clockwise/diagonal source eye-line and face turn, sleepy half-open crimson eyes with dark top fill and curl highlights, small oval O with source contour gap near x82%/y78%. NOT copied previous891 mouth/head. Red clover beret replaces animal mask; current tilted beret/cropped feather, short blonde fringe and TWO SHORT rooted ear-side/neck-side groups replace all peach long hair. Foreground hair/head layers IN FRONT of rear head/neck/arm. Partial simple two-leaf cream collar, red coat shoulder only; continuous plain cream hem and plain red shorts on rear. No invented hands/third limb/extra floating hair fan; no complete foreground body. Source purple rough star field and yellow hand stars stay in composition; OMIT all Chinese/Japanese text for separate original glyph layer. Flat minimal shaded color blocks, simple clover only, no pompom/many diamond ornaments. Full redraw894, no hold, morph, flow, mirror or collage.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-09547fa3-0005-4d29-9e8f-8f2fab84dd2e.png",
+  "static_review": "Rear small face remains concealed; visible high-left brown glove, red body and separated legs remain. Giant source eye-line slopes up-right more steeply than891 and current O gap is drawn; source reference takes precedence over ambiguous clockwise word in prompt. No extra hands/legs confirmed. Actual compositor/caption join pending.",
+  "known_issues": [
+    "Approximate small body/boot geometry",
+    "Mild shading, clover/collar/hair contours differ"
+  ],
+  "blocking_static_findings": []
+}

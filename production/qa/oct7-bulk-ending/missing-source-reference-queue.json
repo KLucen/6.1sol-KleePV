@@ -1,0 +1,3176 @@
+{
+  "owner": "oct7_bulk_ending",
+  "accepted": false,
+  "queue": [
+    {
+      "cel": "cel-0601",
+      "source_candidate": "src-1795",
+      "canonical_source_frame": 3267,
+      "source_reference": "source_refs/src-1795-f3267.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3267,
+          "end": 3271,
+          "pts": 136.125,
+          "end_pts": 136.292,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3267,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1795-f3267.png",
+      "before_source_frame": 3265,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3265-f3267-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3265-f3267-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0602",
+      "source_candidate": "src-1797",
+      "canonical_source_frame": 3271,
+      "source_reference": "source_refs/src-1797-f3271.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3271,
+          "end": 3277,
+          "pts": 136.292,
+          "end_pts": 136.542,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3271,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1797-f3271.png",
+      "before_source_frame": 3267,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3267-f3271-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3267-f3271-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0603",
+      "source_candidate": "src-1802",
+      "canonical_source_frame": 3277,
+      "source_reference": "source_refs/src-1802-f3277.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3277,
+          "end": 3279,
+          "pts": 136.542,
+          "end_pts": 136.625,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3277,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1802-f3277.png",
+      "before_source_frame": 3271,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3271-f3277-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3271-f3277-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0604",
+      "source_candidate": "src-1803",
+      "canonical_source_frame": 3279,
+      "source_reference": "source_refs/src-1803-f3279.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3279,
+          "end": 3283,
+          "pts": 136.625,
+          "end_pts": 136.792,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3279,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1803-f3279.png",
+      "before_source_frame": 3277,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3277-f3279-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3277-f3279-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0606",
+      "source_candidate": "src-1806",
+      "canonical_source_frame": 3287,
+      "source_reference": "source_refs/src-1806-f3287.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3287,
+          "end": 3291,
+          "pts": 136.958,
+          "end_pts": 137.125,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3287,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1806-f3287.png",
+      "before_source_frame": 3283,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3283-f3287-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3283-f3287-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0607",
+      "source_candidate": "src-1808",
+      "canonical_source_frame": 3291,
+      "source_reference": "source_refs/src-1808-f3291.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3291,
+          "end": 3295,
+          "pts": 137.125,
+          "end_pts": 137.292,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3291,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1808-f3291.png",
+      "before_source_frame": 3287,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3287-f3291-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3287-f3291-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0608",
+      "source_candidate": "src-1811",
+      "canonical_source_frame": 3295,
+      "source_reference": "source_refs/src-1811-f3295.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3295,
+          "end": 3299,
+          "pts": 137.292,
+          "end_pts": 137.458,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3295,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1811-f3295.png",
+      "before_source_frame": 3291,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3291-f3295-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3291-f3295-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0609",
+      "source_candidate": "src-1812",
+      "canonical_source_frame": 3299,
+      "source_reference": "source_refs/src-1812-f3299.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3299,
+          "end": 3303,
+          "pts": 137.458,
+          "end_pts": 137.625,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3299,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1812-f3299.png",
+      "before_source_frame": 3295,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3295-f3299-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3295-f3299-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0610",
+      "source_candidate": "src-1814",
+      "canonical_source_frame": 3303,
+      "source_reference": "source_refs/src-1814-f3303.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3303,
+          "end": 3307,
+          "pts": 137.625,
+          "end_pts": 137.792,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3303,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1814-f3303.png",
+      "before_source_frame": 3299,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3299-f3303-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3299-f3303-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0611",
+      "source_candidate": "src-1815",
+      "canonical_source_frame": 3307,
+      "source_reference": "source_refs/src-1815-f3307.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3307,
+          "end": 3311,
+          "pts": 137.792,
+          "end_pts": 137.958,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3307,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1815-f3307.png",
+      "before_source_frame": 3303,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3303-f3307-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3303-f3307-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0612",
+      "source_candidate": "src-1816",
+      "canonical_source_frame": 3311,
+      "source_reference": "source_refs/src-1816-f3311.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3311,
+          "end": 3313,
+          "pts": 137.958,
+          "end_pts": 138.042,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3311,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1816-f3311.png",
+      "before_source_frame": 3307,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3307-f3311-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3307-f3311-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0613",
+      "source_candidate": "src-1817",
+      "canonical_source_frame": 3313,
+      "source_reference": "source_refs/src-1817-f3313.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3313,
+          "end": 3316,
+          "pts": 138.042,
+          "end_pts": 138.167,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3313,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1817-f3313.png",
+      "before_source_frame": 3311,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3311-f3313-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3311-f3313-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0614",
+      "source_candidate": "src-1820",
+      "canonical_source_frame": 3316,
+      "source_reference": "source_refs/src-1820-f3316.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3316,
+          "end": 3318,
+          "pts": 138.167,
+          "end_pts": 138.25,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 3319,
+          "end": 3320,
+          "pts": 138.292,
+          "end_pts": 138.333,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3316,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1820-f3316.png",
+      "before_source_frame": 3313,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3313-f3316-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3313-f3316-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0615",
+      "source_candidate": "src-1824",
+      "canonical_source_frame": 3320,
+      "source_reference": "source_refs/src-1824-f3320.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3320,
+          "end": 3324,
+          "pts": 138.333,
+          "end_pts": 138.5,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3320,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1824-f3320.png",
+      "before_source_frame": 3316,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3316-f3320-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3316-f3320-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0616",
+      "source_candidate": "src-1828",
+      "canonical_source_frame": 3324,
+      "source_reference": "source_refs/src-1828-f3324.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3324,
+          "end": 3328,
+          "pts": 138.5,
+          "end_pts": 138.667,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3324,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1828-f3324.png",
+      "before_source_frame": 3320,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3320-f3324-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3320-f3324-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0617",
+      "source_candidate": "src-1832",
+      "canonical_source_frame": 3328,
+      "source_reference": "source_refs/src-1832-f3328.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3328,
+          "end": 3332,
+          "pts": 138.667,
+          "end_pts": 138.833,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3328,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1832-f3328.png",
+      "before_source_frame": 3324,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3324-f3328-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3324-f3328-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0618",
+      "source_candidate": "src-1836",
+      "canonical_source_frame": 3332,
+      "source_reference": "source_refs/src-1836-f3332.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3332,
+          "end": 3336,
+          "pts": 138.833,
+          "end_pts": 139.0,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3332,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1836-f3332.png",
+      "before_source_frame": 3328,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3328-f3332-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3328-f3332-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0619",
+      "source_candidate": "src-1840",
+      "canonical_source_frame": 3336,
+      "source_reference": "source_refs/src-1840-f3336.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3336,
+          "end": 3340,
+          "pts": 139.0,
+          "end_pts": 139.167,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3336,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1840-f3336.png",
+      "before_source_frame": 3332,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3332-f3336-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3332-f3336-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0620",
+      "source_candidate": "src-1844",
+      "canonical_source_frame": 3340,
+      "source_reference": "source_refs/src-1844-f3340.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3340,
+          "end": 3344,
+          "pts": 139.167,
+          "end_pts": 139.333,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3340,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1844-f3340.png",
+      "before_source_frame": 3336,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3336-f3340-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3336-f3340-source-locals-native.png",
+      "accepted": false
+    },
+    {
+      "cel": "cel-0621",
+      "source_candidate": "src-1848",
+      "canonical_source_frame": 3344,
+      "source_reference": "source_refs/src-1848-f3344.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3344,
+          "end": 3349,
+          "pts": 139.333,
+          "end_pts": 139.542,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3344,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1848-f3344.png",
+      "before_source_frame": 3340,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3340-f3344-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3340-f3344-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          600,
+          200,
+          860,
+          410
+        ],
+        [
+          330,
+          290,
+          500,
+          500
+        ],
+        [
+          970,
+          280,
+          1150,
+          510
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0622",
+      "source_candidate": "src-1853",
+      "canonical_source_frame": 3349,
+      "source_reference": "source_refs/src-1853-f3349.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3349,
+          "end": 3353,
+          "pts": 139.542,
+          "end_pts": 139.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3349,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1853-f3349.png",
+      "before_source_frame": 3344,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3344-f3349-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3344-f3349-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          600,
+          200,
+          860,
+          410
+        ],
+        [
+          330,
+          290,
+          500,
+          500
+        ],
+        [
+          970,
+          280,
+          1150,
+          510
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0623",
+      "source_candidate": "src-1857",
+      "canonical_source_frame": 3353,
+      "source_reference": "source_refs/src-1857-f3353.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3353,
+          "end": 3357,
+          "pts": 139.708,
+          "end_pts": 139.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3353,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1857-f3353.png",
+      "before_source_frame": 3349,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3349-f3353-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3349-f3353-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          600,
+          200,
+          860,
+          410
+        ],
+        [
+          330,
+          290,
+          500,
+          500
+        ],
+        [
+          970,
+          280,
+          1150,
+          510
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0624",
+      "source_candidate": "src-1861",
+      "canonical_source_frame": 3357,
+      "source_reference": "source_refs/src-1861-f3357.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3357,
+          "end": 3364,
+          "pts": 139.875,
+          "end_pts": 140.167,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3357,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1861-f3357.png",
+      "before_source_frame": 3353,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3353-f3357-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3353-f3357-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          600,
+          270,
+          850,
+          460
+        ],
+        [
+          320,
+          270,
+          490,
+          430
+        ],
+        [
+          970,
+          290,
+          1130,
+          460
+        ],
+        [
+          690,
+          710,
+          960,
+          1080
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0625",
+      "source_candidate": "src-1868",
+      "canonical_source_frame": 3364,
+      "source_reference": "source_refs/src-1868-f3364.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3364,
+          "end": 3369,
+          "pts": 140.167,
+          "end_pts": 140.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3364,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1868-f3364.png",
+      "before_source_frame": 3357,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3357-f3364-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3357-f3364-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          600,
+          240,
+          850,
+          430
+        ],
+        [
+          330,
+          250,
+          500,
+          390
+        ],
+        [
+          950,
+          280,
+          1130,
+          430
+        ],
+        [
+          690,
+          700,
+          930,
+          1080
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0626",
+      "source_candidate": "src-1873",
+      "canonical_source_frame": 3369,
+      "source_reference": "source_refs/src-1873-f3369.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3369,
+          "end": 3374,
+          "pts": 140.375,
+          "end_pts": 140.583,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3369,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1873-f3369.png",
+      "before_source_frame": 3364,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3364-f3369-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3364-f3369-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          600,
+          230,
+          850,
+          420
+        ],
+        [
+          310,
+          220,
+          500,
+          370
+        ],
+        [
+          950,
+          250,
+          1110,
+          410
+        ],
+        [
+          680,
+          670,
+          940,
+          1080
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0627",
+      "source_candidate": "src-1878",
+      "canonical_source_frame": 3374,
+      "source_reference": "source_refs/src-1878-f3374.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3374,
+          "end": 3381,
+          "pts": 140.583,
+          "end_pts": 140.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3374,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1878-f3374.png",
+      "before_source_frame": 3369,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3369-f3374-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3369-f3374-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          870,
+          240,
+          1130,
+          440
+        ],
+        [
+          640,
+          120,
+          820,
+          300
+        ],
+        [
+          1150,
+          500,
+          1320,
+          660
+        ],
+        [
+          680,
+          800,
+          1310,
+          1080
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0628",
+      "source_candidate": "src-1885",
+      "canonical_source_frame": 3381,
+      "source_reference": "source_refs/src-1885-f3381.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3381,
+          "end": 3388,
+          "pts": 140.875,
+          "end_pts": 141.167,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3381,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1885-f3381.png",
+      "before_source_frame": 3374,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3374-f3381-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3374-f3381-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          930,
+          270,
+          1170,
+          480
+        ],
+        [
+          650,
+          90,
+          950,
+          300
+        ],
+        [
+          1140,
+          540,
+          1330,
+          730
+        ],
+        [
+          960,
+          830,
+          1250,
+          1080
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0629",
+      "source_candidate": "src-1892",
+      "canonical_source_frame": 3388,
+      "source_reference": "source_refs/src-1892-f3388.png",
+      "canonical_family": "star_dance",
+      "exposure_families": [
+        "star_dance"
+      ],
+      "source_exposures": [
+        {
+          "start": 3388,
+          "end": 3390,
+          "pts": 141.167,
+          "end_pts": 141.25,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3388,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1892-f3388.png",
+      "before_source_frame": 3381,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3381-f3388-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3381-f3388-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          930,
+          270,
+          1170,
+          480
+        ],
+        [
+          710,
+          90,
+          960,
+          290
+        ],
+        [
+          1160,
+          540,
+          1340,
+          720
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0630",
+      "source_candidate": "src-1894",
+      "canonical_source_frame": 3390,
+      "source_reference": "source_refs/src-1894-f3390.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3390,
+          "end": 3392,
+          "pts": 141.25,
+          "end_pts": 141.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3390,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1894-f3390.png",
+      "before_source_frame": 3388,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3388-f3390-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3388-f3390-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          1390,
+          200,
+          1900,
+          750
+        ],
+        [
+          890,
+          220,
+          1170,
+          450
+        ],
+        [
+          710,
+          90,
+          940,
+          300
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0631",
+      "source_candidate": "src-1896",
+      "canonical_source_frame": 3392,
+      "source_reference": "source_refs/src-1896-f3392.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3392,
+          "end": 3395,
+          "pts": 141.333,
+          "end_pts": 141.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3392,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1896-f3392.png",
+      "before_source_frame": 3390,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3390-f3392-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3390-f3392-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          1190,
+          330,
+          1830,
+          930
+        ],
+        [
+          750,
+          100,
+          1010,
+          460
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0632",
+      "source_candidate": "src-1898",
+      "canonical_source_frame": 3395,
+      "source_reference": "source_refs/src-1898-f3395.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3395,
+          "end": 3398,
+          "pts": 141.458,
+          "end_pts": 141.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3395,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1898-f3395.png",
+      "before_source_frame": 3392,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3392-f3395-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3392-f3395-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          1170,
+          360,
+          1820,
+          970
+        ],
+        [
+          710,
+          90,
+          950,
+          330
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0633",
+      "source_candidate": "src-1901",
+      "canonical_source_frame": 3398,
+      "source_reference": "source_refs/src-1901-f3398.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3398,
+          "end": 3401,
+          "pts": 141.583,
+          "end_pts": 141.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3398,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1901-f3398.png",
+      "before_source_frame": 3395,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3395-f3398-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3395-f3398-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          450,
+          1410,
+          1070
+        ],
+        [
+          740,
+          90,
+          970,
+          270
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0634",
+      "source_candidate": "src-1904",
+      "canonical_source_frame": 3401,
+      "source_reference": "source_refs/src-1904-f3401.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3401,
+          "end": 3403,
+          "pts": 141.708,
+          "end_pts": 141.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3401,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1904-f3401.png",
+      "before_source_frame": 3398,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3398-f3401-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3398-f3401-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          330,
+          240,
+          800,
+          700
+        ],
+        [
+          1010,
+          240,
+          1560,
+          710
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0635",
+      "source_candidate": "src-1906",
+      "canonical_source_frame": 3403,
+      "source_reference": "source_refs/src-1906-f3403.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3403,
+          "end": 3405,
+          "pts": 141.792,
+          "end_pts": 141.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3403,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1906-f3403.png",
+      "before_source_frame": 3401,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3401-f3403-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3401-f3403-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          270,
+          300,
+          930,
+          890
+        ],
+        [
+          930,
+          80,
+          1270,
+          660
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0636",
+      "source_candidate": "src-1908",
+      "canonical_source_frame": 3405,
+      "source_reference": "source_refs/src-1908-f3405.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3405,
+          "end": 3406,
+          "pts": 141.875,
+          "end_pts": 141.917,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3405,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1908-f3405.png",
+      "before_source_frame": 3403,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3403-f3405-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3403-f3405-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          910,
+          70,
+          1240,
+          670
+        ],
+        [
+          450,
+          450,
+          910,
+          850
+        ],
+        [
+          910,
+          820,
+          1080,
+          1020
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0637",
+      "source_candidate": "src-1909",
+      "canonical_source_frame": 3406,
+      "source_reference": "source_refs/src-1909-f3406.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3406,
+          "end": 3409,
+          "pts": 141.917,
+          "end_pts": 142.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3406,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1909-f3406.png",
+      "before_source_frame": 3405,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3405-f3406-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3405-f3406-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          150,
+          420,
+          810,
+          990
+        ],
+        [
+          860,
+          70,
+          1240,
+          660
+        ],
+        [
+          840,
+          750,
+          1090,
+          1040
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0638",
+      "source_candidate": "src-1912",
+      "canonical_source_frame": 3409,
+      "source_reference": "source_refs/src-1912-f3409.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3409,
+          "end": 3411,
+          "pts": 142.042,
+          "end_pts": 142.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3409,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1912-f3409.png",
+      "before_source_frame": 3406,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3406-f3409-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3406-f3409-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          0,
+          450,
+          750,
+          1020
+        ],
+        [
+          830,
+          80,
+          1230,
+          640
+        ],
+        [
+          950,
+          850,
+          1130,
+          1050
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0639",
+      "source_candidate": "src-1913",
+      "canonical_source_frame": 3411,
+      "source_reference": "source_refs/src-1913-f3411.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3411,
+          "end": 3412,
+          "pts": 142.125,
+          "end_pts": 142.167,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3411,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1913-f3411.png",
+      "before_source_frame": 3409,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3409-f3411-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3409-f3411-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          820,
+          80,
+          1120,
+          560
+        ],
+        [
+          0,
+          470,
+          750,
+          990
+        ],
+        [
+          940,
+          820,
+          1140,
+          1050
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0640",
+      "source_candidate": "src-1914",
+      "canonical_source_frame": 3412,
+      "source_reference": "source_refs/src-1914-f3412.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3412,
+          "end": 3416,
+          "pts": 142.167,
+          "end_pts": 142.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3412,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1914-f3412.png",
+      "before_source_frame": 3411,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3411-f3412-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3411-f3412-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          790,
+          85,
+          1110,
+          490
+        ],
+        [
+          660,
+          300,
+          1110,
+          700
+        ],
+        [
+          0,
+          360,
+          405,
+          1080
+        ],
+        [
+          820,
+          850,
+          1140,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0641",
+      "source_candidate": "src-1918",
+      "canonical_source_frame": 3416,
+      "source_reference": "source_refs/src-1918-f3416.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3416,
+          "end": 3420,
+          "pts": 142.333,
+          "end_pts": 142.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3416,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1918-f3416.png",
+      "before_source_frame": 3412,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3412-f3416-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3412-f3416-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          790,
+          85,
+          1110,
+          490
+        ],
+        [
+          660,
+          330,
+          1100,
+          650
+        ],
+        [
+          820,
+          830,
+          1140,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0642",
+      "source_candidate": "src-1922",
+      "canonical_source_frame": 3420,
+      "source_reference": "source_refs/src-1922-f3420.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3420,
+          "end": 3424,
+          "pts": 142.5,
+          "end_pts": 142.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3420,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1922-f3420.png",
+      "before_source_frame": 3416,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3416-f3420-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3416-f3420-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          790,
+          85,
+          1110,
+          370
+        ],
+        [
+          690,
+          320,
+          1110,
+          560
+        ],
+        [
+          820,
+          830,
+          1140,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0643",
+      "source_candidate": "src-1926",
+      "canonical_source_frame": 3424,
+      "source_reference": "source_refs/src-1926-f3424.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3424,
+          "end": 3427,
+          "pts": 142.667,
+          "end_pts": 142.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3424,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1926-f3424.png",
+      "before_source_frame": 3420,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3420-f3424-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3420-f3424-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          790,
+          85,
+          1110,
+          560
+        ],
+        [
+          820,
+          830,
+          1140,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0644",
+      "source_candidate": "src-1929",
+      "canonical_source_frame": 3427,
+      "source_reference": "source_refs/src-1929-f3427.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3427,
+          "end": 3432,
+          "pts": 142.792,
+          "end_pts": 143.0,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3427,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1929-f3427.png",
+      "before_source_frame": 3424,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3424-f3427-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3424-f3427-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          790,
+          85,
+          1110,
+          370
+        ],
+        [
+          700,
+          300,
+          1110,
+          560
+        ],
+        [
+          810,
+          720,
+          1120,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0645",
+      "source_candidate": "src-1934",
+      "canonical_source_frame": 3432,
+      "source_reference": "source_refs/src-1934-f3432.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3432,
+          "end": 3437,
+          "pts": 143.0,
+          "end_pts": 143.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3432,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1934-f3432.png",
+      "before_source_frame": 3427,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3427-f3432-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3427-f3432-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          95,
+          1110,
+          360
+        ],
+        [
+          770,
+          310,
+          1120,
+          500
+        ],
+        [
+          810,
+          720,
+          1120,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0646",
+      "source_candidate": "src-1939",
+      "canonical_source_frame": 3437,
+      "source_reference": "source_refs/src-1939-f3437.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3437,
+          "end": 3440,
+          "pts": 143.208,
+          "end_pts": 143.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3437,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1939-f3437.png",
+      "before_source_frame": 3432,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3432-f3437-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3432-f3437-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          95,
+          1110,
+          360
+        ],
+        [
+          800,
+          320,
+          1120,
+          530
+        ],
+        [
+          810,
+          720,
+          1120,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0647",
+      "source_candidate": "src-1942",
+      "canonical_source_frame": 3440,
+      "source_reference": "source_refs/src-1942-f3440.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3440,
+          "end": 3443,
+          "pts": 143.333,
+          "end_pts": 143.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3440,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1942-f3440.png",
+      "before_source_frame": 3437,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3437-f3440-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3437-f3440-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          95,
+          1110,
+          360
+        ],
+        [
+          800,
+          320,
+          1120,
+          530
+        ],
+        [
+          810,
+          720,
+          1120,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0648",
+      "source_candidate": "src-1945",
+      "canonical_source_frame": 3443,
+      "source_reference": "source_refs/src-1945-f3443.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3443,
+          "end": 3448,
+          "pts": 143.458,
+          "end_pts": 143.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3443,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1945-f3443.png",
+      "before_source_frame": 3440,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3440-f3443-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3440-f3443-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          95,
+          1110,
+          360
+        ],
+        [
+          820,
+          305,
+          1100,
+          510
+        ],
+        [
+          820,
+          750,
+          1120,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0649",
+      "source_candidate": "src-1950",
+      "canonical_source_frame": 3448,
+      "source_reference": "source_refs/src-1950-f3448.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3448,
+          "end": 3454,
+          "pts": 143.667,
+          "end_pts": 143.917,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3448,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1950-f3448.png",
+      "before_source_frame": 3443,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3443-f3448-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3443-f3448-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          95,
+          1110,
+          360
+        ],
+        [
+          830,
+          275,
+          1080,
+          510
+        ],
+        [
+          820,
+          830,
+          1140,
+          1060
+        ]
+      ]
+    },
+    {
+      "cel": "cel-0650",
+      "source_candidate": "src-1956",
+      "canonical_source_frame": 3454,
+      "source_reference": "source_refs/src-1956-f3454.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 3454,
+          "end": 3461,
+          "pts": 143.917,
+          "end_pts": 144.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 3454,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1956-f3454.png",
+      "before_source_frame": 3448,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3448-f3454-source-ab-rgb-contours.png",
+      "native_local_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3448-f3454-actual-focus-native.png",
+      "accepted": false,
+      "native_focus_boxes": [
+        [
+          800,
+          95,
+          1110,
+          360
+        ],
+        [
+          830,
+          275,
+          1080,
+          510
+        ],
+        [
+          820,
+          830,
+          1140,
+          1060
+        ]
+      ]
+    }
+  ]
+}

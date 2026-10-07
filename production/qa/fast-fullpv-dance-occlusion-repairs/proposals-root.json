@@ -1,0 +1,29 @@
+{
+  "owner": "root_fast_fullpv_dance_occlusion_repairs",
+  "accepted": false,
+  "scope": "Two already-covered neighboring cels repaired only for confirmed visibility/occlusion blocking errors, not counted as new missing cels.",
+  "selections": [
+    {
+      "source_frame": 894,
+      "cel": "cel-0160",
+      "path": "generated/fast-fullpv-dance-f0894-source-v2.png",
+      "accepted": false,
+      "review": "Rear small face remains concealed; visible high-left brown glove, red body and separated legs remain. Giant source eye-line slopes up-right more steeply than891 and current O gap is drawn; source reference takes precedence over ambiguous clockwise word in prompt. No extra hands/legs confirmed. Actual compositor/caption join pending.",
+      "known_issues": [
+        "Approximate small body/boot geometry",
+        "Mild shading, clover/collar/hair contours differ"
+      ]
+    },
+    {
+      "source_frame": 897,
+      "cel": "cel-0161",
+      "path": "generated/fast-fullpv-dance-f0897-source-v2.png",
+      "accepted": false,
+      "review": "Huge foreground left-facing Klee profile with one red sleepy eye and small mouth dot; rear face concealed, high hand/body fragment and only source-visible left boot drawn. No extra right leg/hand or small visible face. Source major profile turn retained; precise eye/chin/boot positions approximate. Actual source-caption/composite and speed pending.",
+      "known_issues": [
+        "Profile nose/chin/eye/dot positions approximate",
+        "Mild shading and contour/cropped collar variation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "f0185": {
+    "parent": "generated\\fine-f0185.png",
+    "repair": "generated\\fine-f0185-hair-repair.png",
+    "manual_edit_rois": [
+      [
+        1180,
+        180,
+        1305,
+        317
+      ]
+    ],
+    "channel_difference_threshold": 8,
+    "inside_roi_changed_pixels": 6009,
+    "outside_roi_changed_pixels": 76601,
+    "outside_mean_abs_channel_delta": 2.92423,
+    "outside_max_channel_delta": 255,
+    "pixel_locked": false,
+    "heatmap": "qa/opening-new-review/f0185-hair-repair-difference-x4.png"
+  },
+  "f0038": {
+    "parent": "generated\\candidate-001-clean.png",
+    "repair": "generated\\fine-f0038-eye-repair.png",
+    "manual_edit_rois": [
+      [
+        1235,
+        360,
+        1320,
+        455
+      ]
+    ],
+    "channel_difference_threshold": 8,
+    "inside_roi_changed_pixels": 3174,
+    "outside_roi_changed_pixels": 95180,
+    "outside_mean_abs_channel_delta": 1.87666,
+    "outside_max_channel_delta": 172,
+    "pixel_locked": false,
+    "heatmap": "qa/opening-new-review/f0038-eye-repair-difference-x4.png"
+  }
+}

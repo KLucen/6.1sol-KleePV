@@ -1,0 +1,77 @@
+{
+  "source_frame": 3229,
+  "cel": "cel-0584",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Images 3 and 4 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output. No adjacent Klee pose template is supplied because its anatomy was flawed; current original is the sole pose authority.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: MAJOR current turn to FULL BACK VIEW. NO eyes/mouth/cheeks/front coat/buttons. BOTH forearms now horizontal across back head toward screen-left, no previous near L arm. Two distinct BROWN mitten hand ends: far hand fully at originalx600-740/y250-333 screen-left of head; near hand atx970-1110/y235-325 IN FRONT OF back blond hair mid-head, cream near cuffx1090-1225/y245-385 then red forearm extends right/down to screen-right elbowy425, upper arm curves down to shoulderx1290/y600. Far cream cuffx740-840/y237-378 and far red sleeve behind back hair. Back hat round arc originalx907-1210/y83-238, no face. Two SHORT Klee tails rooted back/left/right sway down-left, shorten original broad long pink hair. Upper foreground star covers upper RIGHT sleeve/crown-right and lower front star hides lower body; positions mostly held, smallstars shift. Current/source diagnostics sole anatomy authority. Flat plain cream collar/red coat, no text.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1772-f3229.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3227-f3229-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3229-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "685ed138072d122b38eb6e8f94dc6592e7618fb50c47b959fc7f94faecf76909",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "06dedc2a2b0e995390ada36b0c6707728077414582f3c09a2f1fb7cee4cc0101",
+    "e7b437b80a314cde4e4653ea74dbbf6a1500d7efa0a693998aeb33f753f9a2f6"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3229-v1.png",
+  "source_exposures": [
+    {
+      "start": 3229,
+      "end": 3232,
+      "pts": 134.542,
+      "end_pts": 134.667,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "MAJOR current turn to FULL BACK VIEW. NO eyes/mouth/cheeks/front coat/buttons. BOTH forearms now horizontal across back head toward screen-left, no previous near L arm. Two distinct BROWN mitten hand ends: far hand fully at originalx600-740/y250-333 screen-left of head; near hand atx970-1110/y235-325 IN FRONT OF back blond hair mid-head, cream near cuffx1090-1225/y245-385 then red forearm extends right/down to screen-right elbowy425, upper arm curves down to shoulderx1290/y600. Far cream cuffx740-840/y237-378 and far red sleeve behind back hair. Back hat round arc originalx907-1210/y83-238, no face. Two SHORT Klee tails rooted back/left/right sway down-left, shorten original broad long pink hair. Upper foreground star covers upper RIGHT sleeve/crown-right and lower front star hides lower body; positions mostly held, smallstars shift. Current/source diagnostics sole anatomy authority. Flat plain cream collar/red coat, no text.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-3e39f4c3-5d8e-4524-9b64-fef009f54452.png",
+  "output_sha256": "424f7cdf4c0cb1df9b4b7e589d81675e04f11effeade1889bff40343e14ce9f8",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: FULL BACK facing, no face/front buttons, two brown hand ends and distinct near horizontal red sleeve over back head curving to right shoulder. Foreground stars preserve target phase generally. Near glove/cuff lies farther screen-left than source, far glove has extra small cream wrist band adjacent normal cuff, hair/hat scale shifts and side feather/clover overexposed. Unaccepted one-pass draft, no temporal/compositor acceptance.",
+    "accepted": false
+  }
+}

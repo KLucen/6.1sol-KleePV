@@ -1,0 +1,16 @@
+{
+  "source_frame": 1380,
+  "prompt": "Precise local color repair, edit ONLY Image1. The current LEFT tilted head, sleepy eyelids, pupil/highlight positions, bangs, beret/feather, cheeks, face contour, dot mouth, two short ponytails, hidden hands, coat, knees, boots, background text and complete canvas must remain exactly where they are. Change BOTH visible iris fills to Klee's muted brick RED throughout the whole iris shape beneath each dark eyelid: replace the gray-blue upper iris bands with red too, not just the lower half. Dark outlines, black pupils, cream sclera and highlights stay intact. No blue, gray or cyan iris fill anywhere. Do not straighten the head, do not change expression or redraw the body. One complete current cel, no crop.",
+  "name": "fine-f1380-red-eyes-v3.png",
+  "output": "generated/fine-f1380-red-eyes-v3.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "generated/fine-f1380-source-native-v2.png",
+      "role": "Edit target; preserve current geometry and all non-iris pixels"
+    }
+  ],
+  "status": "failed_pupil_details_unaccepted",
+  "accepted": false,
+  "review": "Upper blue bands removed but black pupil and white highlights were lost. Not adopted; source-copy audit may allow correct earlier cel instead."
+}

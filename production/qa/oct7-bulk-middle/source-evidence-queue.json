@@ -1,0 +1,3147 @@
+{
+  "owner": "middle",
+  "accepted": false,
+  "queue": [
+    {
+      "cel": "cel-0411",
+      "source_candidate": "src-1226",
+      "canonical_source_frame": 2163,
+      "source_reference": "source_refs/src-1226-f2163.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2163,
+          "end": 2169,
+          "pts": 90.125,
+          "end_pts": 90.375,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2163,
+      "before_source_frame": 2157,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1226-f2163.png",
+      "source_sha256": "12b05be14faa04b560f75a6169a735461795cfd167618e9e5f89723d62396b82",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2157-f2163-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2157-f2163-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2157-f2163-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2157-f2163-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2157-f2163-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2157-f2163-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0412",
+      "source_candidate": "src-1227",
+      "canonical_source_frame": 2169,
+      "source_reference": "source_refs/src-1227-f2169.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2169,
+          "end": 2176,
+          "pts": 90.375,
+          "end_pts": 90.667,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2169,
+      "before_source_frame": 2163,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1227-f2169.png",
+      "source_sha256": "fa7ff3ba5561f815482122956686f70146cc6028cd308cf1c450919e10ba572e",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2163-f2169-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2163-f2169-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2163-f2169-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2163-f2169-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2163-f2169-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2163-f2169-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0413",
+      "source_candidate": "src-1229",
+      "canonical_source_frame": 2176,
+      "source_reference": "source_refs/src-1229-f2176.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2176,
+          "end": 2182,
+          "pts": 90.667,
+          "end_pts": 90.917,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2176,
+      "before_source_frame": 2169,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1229-f2176.png",
+      "source_sha256": "e226e37fc8818b9f0b44cd1f9105b082eb131bb23313d36e43e1e0c5b2da1a44",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2169-f2176-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2169-f2176-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2169-f2176-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2169-f2176-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2169-f2176-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2169-f2176-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0414",
+      "source_candidate": "src-1231",
+      "canonical_source_frame": 2182,
+      "source_reference": "source_refs/src-1231-f2182.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2182,
+          "end": 2188,
+          "pts": 90.917,
+          "end_pts": 91.167,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2182,
+      "before_source_frame": 2176,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1231-f2182.png",
+      "source_sha256": "51aa5e0a52a89c165a4a5c83f726e717b854f3c794173627d5f7beda414c7e53",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2176-f2182-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2176-f2182-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2176-f2182-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2176-f2182-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2176-f2182-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2176-f2182-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0415",
+      "source_candidate": "src-1232",
+      "canonical_source_frame": 2188,
+      "source_reference": "source_refs/src-1232-f2188.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2188,
+          "end": 2194,
+          "pts": 91.167,
+          "end_pts": 91.417,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2188,
+      "before_source_frame": 2182,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1232-f2188.png",
+      "source_sha256": "ce6e26e652b6a45fb9d8660b708d62d20cadee9c39a035393a05fe05a38ceadb",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2182-f2188-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0416",
+      "source_candidate": "src-1233",
+      "canonical_source_frame": 2194,
+      "source_reference": "source_refs/src-1233-f2194.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2194,
+          "end": 2200,
+          "pts": 91.417,
+          "end_pts": 91.667,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2194,
+      "before_source_frame": 2188,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1233-f2194.png",
+      "source_sha256": "36ecf3a5a700e6f5c56bc6fe1827c29dc65326eea463803840a36dd43ec2327b",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2188-f2194-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2188-f2194-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2188-f2194-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2188-f2194-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2188-f2194-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2188-f2194-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0417",
+      "source_candidate": "src-1234",
+      "canonical_source_frame": 2200,
+      "source_reference": "source_refs/src-1234-f2200.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2200,
+          "end": 2206,
+          "pts": 91.667,
+          "end_pts": 91.917,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2200,
+      "before_source_frame": 2194,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1234-f2200.png",
+      "source_sha256": "d8b78b31ee1b9d066d68ebc7c85f6ac2584092eeb795b67542abf288cdd5f6b6",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2194-f2200-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2194-f2200-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2194-f2200-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2194-f2200-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2194-f2200-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2194-f2200-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0418",
+      "source_candidate": "src-1236",
+      "canonical_source_frame": 2206,
+      "source_reference": "source_refs/src-1236-f2206.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2206,
+          "end": 2213,
+          "pts": 91.917,
+          "end_pts": 92.208,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2206,
+      "before_source_frame": 2200,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1236-f2206.png",
+      "source_sha256": "e771100ce288f754e25df31fa611b94b622a407b0c05886827651ddc640d53d0",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2200-f2206-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2200-f2206-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2200-f2206-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2200-f2206-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2200-f2206-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2200-f2206-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0419",
+      "source_candidate": "src-1237",
+      "canonical_source_frame": 2213,
+      "source_reference": "source_refs/src-1237-f2213.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2213,
+          "end": 2219,
+          "pts": 92.208,
+          "end_pts": 92.458,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2213,
+      "before_source_frame": 2206,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1237-f2213.png",
+      "source_sha256": "e1be0f7166d289242e8db585beae921165b2e2621a9275e09d61acd481c34ea7",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2206-f2213-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0420",
+      "source_candidate": "src-1238",
+      "canonical_source_frame": 2219,
+      "source_reference": "source_refs/src-1238-f2219.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2219,
+          "end": 2225,
+          "pts": 92.458,
+          "end_pts": 92.708,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2219,
+      "before_source_frame": 2213,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1238-f2219.png",
+      "source_sha256": "88f0738ca071fb37f8d2a5e2ec6dd4a318f3447d36b81e4d92fa4a2eed13c7ae",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2213-f2219-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2213-f2219-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2213-f2219-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2213-f2219-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2213-f2219-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2213-f2219-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0421",
+      "source_candidate": "src-1239",
+      "canonical_source_frame": 2225,
+      "source_reference": "source_refs/src-1239-f2225.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2225,
+          "end": 2231,
+          "pts": 92.708,
+          "end_pts": 92.958,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2225,
+      "before_source_frame": 2219,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1239-f2225.png",
+      "source_sha256": "d24e17a09e6aa5b7997990a3e43a7b83e67a38715c1b0c33de9e275610c089a6",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2219-f2225-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2219-f2225-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2219-f2225-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2219-f2225-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2219-f2225-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2219-f2225-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0422",
+      "source_candidate": "src-1241",
+      "canonical_source_frame": 2231,
+      "source_reference": "source_refs/src-1241-f2231.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2231,
+          "end": 2237,
+          "pts": 92.958,
+          "end_pts": 93.208,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2231,
+      "before_source_frame": 2225,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1241-f2231.png",
+      "source_sha256": "11e57f17712e7de8767b9a2616545327a1389afe9b747a558358a6a4a6251457",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2225-f2231-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2225-f2231-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2225-f2231-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2225-f2231-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2225-f2231-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2225-f2231-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0423",
+      "source_candidate": "src-1242",
+      "canonical_source_frame": 2237,
+      "source_reference": "source_refs/src-1242-f2237.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2237,
+          "end": 2244,
+          "pts": 93.208,
+          "end_pts": 93.5,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2237,
+      "before_source_frame": 2231,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1242-f2237.png",
+      "source_sha256": "6d11da3e59ad0902c6d6f27de82fb183b336d0e92bb29119e41cb18af1f6b72d",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2231-f2237-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2231-f2237-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2231-f2237-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2231-f2237-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2231-f2237-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2231-f2237-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0424",
+      "source_candidate": "src-1243",
+      "canonical_source_frame": 2244,
+      "source_reference": "source_refs/src-1243-f2244.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2244,
+          "end": 2250,
+          "pts": 93.5,
+          "end_pts": 93.75,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2244,
+      "before_source_frame": 2237,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1243-f2244.png",
+      "source_sha256": "8050de16bdd22a6b56d75d86acdf182cb75f306631e9f43b40a8393f72006a45",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2237-f2244-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2237-f2244-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2237-f2244-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2237-f2244-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2237-f2244-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2237-f2244-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0425",
+      "source_candidate": "src-1244",
+      "canonical_source_frame": 2250,
+      "source_reference": "source_refs/src-1244-f2250.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2250,
+          "end": 2252,
+          "pts": 93.75,
+          "end_pts": 93.833,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2250,
+      "before_source_frame": 2244,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1244-f2250.png",
+      "source_sha256": "fde15e1ce40cdafbe09a4470a77fc9a71de3b67034b342b23b4f732987d70d28",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0426",
+      "source_candidate": "src-1245",
+      "canonical_source_frame": 2252,
+      "source_reference": "source_refs/src-1245-f2252.png",
+      "canonical_family": "cyan_profile",
+      "exposure_families": [
+        "cyan_profile"
+      ],
+      "source_exposures": [
+        {
+          "start": 2252,
+          "end": 2253,
+          "pts": 93.833,
+          "end_pts": 93.875,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2252,
+      "before_source_frame": 2250,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1245-f2252.png",
+      "source_sha256": "73a8cf3a52d51c0858cb923353b256f5db5fb71400354cb387067cee18c075db",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2250-f2252-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2250-f2252-eye-mouth-bangs-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2250-f2252-rear-hair-tip-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2250-f2252-collar-near-hair-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2250-f2252-visible-hands-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2250-f2252-visible-hands-wide-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0427",
+      "source_candidate": "src-1246",
+      "canonical_source_frame": 2253,
+      "source_reference": "source_refs/src-1246-f2253.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2253,
+          "end": 2254,
+          "pts": 93.875,
+          "end_pts": 93.917,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2253,
+      "before_source_frame": 2252,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1246-f2253.png",
+      "source_sha256": "b57681597b69eaad841abe6821a07b452d5921f105028809f6164099903b669e",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-foreground-eye-mouth-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2252-f2253-foreground-hair-rear-actor-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0428",
+      "source_candidate": "src-1247",
+      "canonical_source_frame": 2254,
+      "source_reference": "source_refs/src-1247-f2254.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2254,
+          "end": 2255,
+          "pts": 93.917,
+          "end_pts": 93.958,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2254,
+      "before_source_frame": 2253,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1247-f2254.png",
+      "source_sha256": "210e27bd984073859fa5d82759212af37443e9acc191febc7f580a29bc160b70",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2253-f2254-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2253-f2254-foreground-eye-mouth-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2253-f2254-foreground-hair-rear-actor-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0429",
+      "source_candidate": "src-1248",
+      "canonical_source_frame": 2255,
+      "source_reference": "source_refs/src-1248-f2255.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2255,
+          "end": 2258,
+          "pts": 93.958,
+          "end_pts": 94.083,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2255,
+      "before_source_frame": 2254,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1248-f2255.png",
+      "source_sha256": "ff076ceaf205f37a8439cfae15b3ef30f3f7e20861a76cbc60b3df56f67d9947",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2254-f2255-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2254-f2255-foreground-eye-mouth-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2254-f2255-foreground-hair-rear-actor-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0430",
+      "source_candidate": "src-1249",
+      "canonical_source_frame": 2258,
+      "source_reference": "source_refs/src-1249-f2258.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2258,
+          "end": 2261,
+          "pts": 94.083,
+          "end_pts": 94.208,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2258,
+      "before_source_frame": 2255,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1249-f2258.png",
+      "source_sha256": "e63815e14500f25ae86336bb5847765b640309f2ab4b9aaa110efd774254d25e",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2255-f2258-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2255-f2258-foreground-eye-mouth-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2255-f2258-foreground-hair-rear-actor-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0431",
+      "source_candidate": "src-1250",
+      "canonical_source_frame": 2261,
+      "source_reference": "source_refs/src-1250-f2261.png",
+      "canonical_family": "wink_closeup",
+      "exposure_families": [
+        "wink_closeup"
+      ],
+      "source_exposures": [
+        {
+          "start": 2261,
+          "end": 2264,
+          "pts": 94.208,
+          "end_pts": 94.333,
+          "family": "wink_closeup",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2261,
+      "before_source_frame": 2258,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1250-f2261.png",
+      "source_sha256": "09f28a75d24c08d331e1771a104fba456180f401c54015d1112ac1945b26f573",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-foreground-eye-mouth-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-foreground-hair-rear-actor-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0432",
+      "source_candidate": "src-1251",
+      "canonical_source_frame": 2264,
+      "source_reference": "source_refs/src-1251-f2264.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2264,
+          "end": 2265,
+          "pts": 94.333,
+          "end_pts": 94.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2264,
+      "before_source_frame": 2261,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1251-f2264.png",
+      "source_sha256": "25fc8c5f639720c891663bd769aceedf95160c791ac1e49734caf13825e456fd",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2261-f2264-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2261-f2264-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2261-f2264-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0433",
+      "source_candidate": "src-1252",
+      "canonical_source_frame": 2265,
+      "source_reference": "source_refs/src-1252-f2265.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2265,
+          "end": 2266,
+          "pts": 94.375,
+          "end_pts": 94.417,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2265,
+      "before_source_frame": 2264,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1252-f2265.png",
+      "source_sha256": "d34c646a2c5e885ad396cafca8d5f6227307c758e7c3449ea89ef3091c6cb2a7",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2264-f2265-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2264-f2265-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2264-f2265-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0434",
+      "source_candidate": "src-1253",
+      "canonical_source_frame": 2266,
+      "source_reference": "source_refs/src-1253-f2266.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2266,
+          "end": 2269,
+          "pts": 94.417,
+          "end_pts": 94.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2266,
+      "before_source_frame": 2265,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1253-f2266.png",
+      "source_sha256": "64324a69946793fe1dc935f0467df708cadd6691f853ce54d70402751a184f3f",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2265-f2266-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0435",
+      "source_candidate": "src-1256",
+      "canonical_source_frame": 2269,
+      "source_reference": "source_refs/src-1256-f2269.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2269,
+          "end": 2271,
+          "pts": 94.542,
+          "end_pts": 94.625,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2269,
+      "before_source_frame": 2266,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1256-f2269.png",
+      "source_sha256": "41d7361f2a38dc68d388b300ed46b5c11eb61b5fe46b5514c20845e6f5bd4f5f",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2266-f2269-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2266-f2269-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2266-f2269-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0436",
+      "source_candidate": "src-1258",
+      "canonical_source_frame": 2271,
+      "source_reference": "source_refs/src-1258-f2271.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2271,
+          "end": 2272,
+          "pts": 94.625,
+          "end_pts": 94.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2271,
+      "before_source_frame": 2269,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1258-f2271.png",
+      "source_sha256": "252884181130aad9dc21cdae52bcb396cbc6347d71acb98353b85715a9de7131",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2269-f2271-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2269-f2271-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2269-f2271-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0437",
+      "source_candidate": "src-1259",
+      "canonical_source_frame": 2272,
+      "source_reference": "source_refs/src-1259-f2272.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2272,
+          "end": 2275,
+          "pts": 94.667,
+          "end_pts": 94.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 3,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2272,
+      "before_source_frame": 2271,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1259-f2272.png",
+      "source_sha256": "56e9a9703591db4046b4094af41d8b8c4a815720cf1016fdeee830b0e1d176cc",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2271-f2272-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2271-f2272-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2271-f2272-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0438",
+      "source_candidate": "src-1262",
+      "canonical_source_frame": 2275,
+      "source_reference": "source_refs/src-1262-f2275.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2275,
+          "end": 2276,
+          "pts": 94.792,
+          "end_pts": 94.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2275,
+      "before_source_frame": 2272,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1262-f2275.png",
+      "source_sha256": "c292aaeccc5e479dcc855d76891ba1f2d9c344c5474bb8fbfac298a46bc57655",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2272-f2275-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0439",
+      "source_candidate": "src-1263",
+      "canonical_source_frame": 2276,
+      "source_reference": "source_refs/src-1263-f2276.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2276,
+          "end": 2281,
+          "pts": 94.833,
+          "end_pts": 95.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2276,
+      "before_source_frame": 2275,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1263-f2276.png",
+      "source_sha256": "9b13b6a53a3596f341fe3bec74755c4e7f9819948e854a2bb209db0425842203",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2275-f2276-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2275-f2276-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2275-f2276-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0440",
+      "source_candidate": "src-1268",
+      "canonical_source_frame": 2281,
+      "source_reference": "source_refs/src-1268-f2281.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2281,
+          "end": 2286,
+          "pts": 95.042,
+          "end_pts": 95.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2281,
+      "before_source_frame": 2276,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1268-f2281.png",
+      "source_sha256": "2079413c279b516dc4595e44e1f5cf08a78a671a5b7047e10e86d1e863ef458c",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2276-f2281-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2276-f2281-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2276-f2281-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0441",
+      "source_candidate": "src-1273",
+      "canonical_source_frame": 2286,
+      "source_reference": "source_refs/src-1273-f2286.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2286,
+          "end": 2290,
+          "pts": 95.25,
+          "end_pts": 95.417,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2286,
+      "before_source_frame": 2281,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1273-f2286.png",
+      "source_sha256": "f67099fa95b0788f92c929d96cfd765f6d1de3d6ea3e7268b51f147da1725b40",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2281-f2286-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2281-f2286-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2281-f2286-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0442",
+      "source_candidate": "src-1277",
+      "canonical_source_frame": 2290,
+      "source_reference": "source_refs/src-1277-f2290.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2290,
+          "end": 2291,
+          "pts": 95.417,
+          "end_pts": 95.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2290,
+      "before_source_frame": 2286,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1277-f2290.png",
+      "source_sha256": "967f76bb7d3d0f40f4f55cbb5e2445e817870d13e449222605e605cd48544da1",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2286-f2290-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2286-f2290-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2286-f2290-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0443",
+      "source_candidate": "src-1278",
+      "canonical_source_frame": 2291,
+      "source_reference": "source_refs/src-1278-f2291.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2291,
+          "end": 2296,
+          "pts": 95.458,
+          "end_pts": 95.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2291,
+      "before_source_frame": 2290,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1278-f2291.png",
+      "source_sha256": "14b1e6b9433611aae9ff10603e26c595a39c1c626e865497917ac6ebb40d42bc",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2290-f2291-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2290-f2291-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2290-f2291-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0444",
+      "source_candidate": "src-1283",
+      "canonical_source_frame": 2296,
+      "source_reference": "source_refs/src-1283-f2296.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2296,
+          "end": 2301,
+          "pts": 95.667,
+          "end_pts": 95.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2328,
+          "end": 2333,
+          "pts": 97.0,
+          "end_pts": 97.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 10,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2296,
+      "before_source_frame": 2291,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1283-f2296.png",
+      "source_sha256": "dcae538a86d0e1870a2bee293a0d9403077875175f3c3d3e9849609d21f520ac",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2291-f2296-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2291-f2296-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2291-f2296-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0445",
+      "source_candidate": "src-1288",
+      "canonical_source_frame": 2301,
+      "source_reference": "source_refs/src-1288-f2301.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2301,
+          "end": 2307,
+          "pts": 95.875,
+          "end_pts": 96.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 2333,
+          "end": 2339,
+          "pts": 97.208,
+          "end_pts": 97.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 12,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2301,
+      "before_source_frame": 2296,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1288-f2301.png",
+      "source_sha256": "2923f54107afbc29a315a718c298152e406a9d14fffa7b8c301c939a5fb0e9e5",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2296-f2301-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2296-f2301-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2296-f2301-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0446",
+      "source_candidate": "src-1294",
+      "canonical_source_frame": 2307,
+      "source_reference": "source_refs/src-1294-f2307.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2307,
+          "end": 2312,
+          "pts": 96.125,
+          "end_pts": 96.333,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2307,
+      "before_source_frame": 2301,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1294-f2307.png",
+      "source_sha256": "8f96471e1c6edf000fa832c802f1e7f7b1d5554e35cc3ab39b61ff790aa5c7b9",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2301-f2307-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2301-f2307-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2301-f2307-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0447",
+      "source_candidate": "src-1299",
+      "canonical_source_frame": 2312,
+      "source_reference": "source_refs/src-1299-f2312.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2312,
+          "end": 2316,
+          "pts": 96.333,
+          "end_pts": 96.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2312,
+      "before_source_frame": 2307,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1299-f2312.png",
+      "source_sha256": "57d8f05e1b881e5ed8e7332ac22d537bef9c441ae8ec78e0b916f37fb6f2c8bd",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2307-f2312-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2307-f2312-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2307-f2312-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0448",
+      "source_candidate": "src-1303",
+      "canonical_source_frame": 2316,
+      "source_reference": "source_refs/src-1303-f2316.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2316,
+          "end": 2317,
+          "pts": 96.5,
+          "end_pts": 96.542,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2316,
+      "before_source_frame": 2312,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1303-f2316.png",
+      "source_sha256": "ca827155f590dd9a58ba98a0a5147523cb6ae0b221a7844b0244c28e665e0e8a",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2312-f2316-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2312-f2316-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2312-f2316-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0449",
+      "source_candidate": "src-1304",
+      "canonical_source_frame": 2317,
+      "source_reference": "source_refs/src-1304-f2317.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2317,
+          "end": 2323,
+          "pts": 96.542,
+          "end_pts": 96.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2317,
+      "before_source_frame": 2316,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1304-f2317.png",
+      "source_sha256": "4a0df6e38b28e5d7f3d4c385127871bea7603edf5992f9ff3d66b4260c9344fa",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2316-f2317-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2316-f2317-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2316-f2317-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0450",
+      "source_candidate": "src-1310",
+      "canonical_source_frame": 2323,
+      "source_reference": "source_refs/src-1310-f2323.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2323,
+          "end": 2328,
+          "pts": 96.792,
+          "end_pts": 97.0,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2323,
+      "before_source_frame": 2317,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1310-f2323.png",
+      "source_sha256": "3a862a6815e274a7cac1cc7b4e27715c0a08efca1f162935eae4585a5d96366e",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2317-f2323-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2317-f2323-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2317-f2323-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0451",
+      "source_candidate": "src-1326",
+      "canonical_source_frame": 2339,
+      "source_reference": "source_refs/src-1326-f2339.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2339,
+          "end": 2340,
+          "pts": 97.458,
+          "end_pts": 97.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 1,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2339,
+      "before_source_frame": 2323,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1326-f2339.png",
+      "source_sha256": "8479c1d6bbb542efc023fcd9a5ace38ae9fb984c7efe9de43adb747517b121f4",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2323-f2339-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2323-f2339-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2323-f2339-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0452",
+      "source_candidate": "src-1327",
+      "canonical_source_frame": 2340,
+      "source_reference": "source_refs/src-1327-f2340.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2340,
+          "end": 2345,
+          "pts": 97.5,
+          "end_pts": 97.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2340,
+      "before_source_frame": 2339,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1327-f2340.png",
+      "source_sha256": "e143144461dcd8cca46b3f60e9d7b74dc389f6e0f44fc14efd3b5cadbbd4dc70",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2339-f2340-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2339-f2340-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2339-f2340-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0453",
+      "source_candidate": "src-1332",
+      "canonical_source_frame": 2345,
+      "source_reference": "source_refs/src-1332-f2345.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2345,
+          "end": 2350,
+          "pts": 97.708,
+          "end_pts": 97.917,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2345,
+      "before_source_frame": 2340,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1332-f2345.png",
+      "source_sha256": "92a7d1af98a199bb54a57a475377d4174ad040dd221f368089a2915e205d21d1",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2340-f2345-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2340-f2345-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2340-f2345-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0454",
+      "source_candidate": "src-1337",
+      "canonical_source_frame": 2350,
+      "source_reference": "source_refs/src-1337-f2350.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2350,
+          "end": 2354,
+          "pts": 97.917,
+          "end_pts": 98.083,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 4,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2350,
+      "before_source_frame": 2345,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1337-f2350.png",
+      "source_sha256": "5ee0857761970dcffcb2c7f67cdd6504670d8ae956838257c582a5ec8482d9e1",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2345-f2350-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0455",
+      "source_candidate": "src-1341",
+      "canonical_source_frame": 2354,
+      "source_reference": "source_refs/src-1341-f2354.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2354,
+          "end": 2361,
+          "pts": 98.083,
+          "end_pts": 98.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2354,
+      "before_source_frame": 2350,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1341-f2354.png",
+      "source_sha256": "a3fd9b7ba48f88f224acab1ed09dec33f2ce74ad3c10abc8ffc55d87bbacb2e5",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2350-f2354-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0456",
+      "source_candidate": "src-1348",
+      "canonical_source_frame": 2361,
+      "source_reference": "source_refs/src-1348-f2361.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2361,
+          "end": 2366,
+          "pts": 98.375,
+          "end_pts": 98.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2361,
+      "before_source_frame": 2354,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1348-f2361.png",
+      "source_sha256": "12bbbcf7bec19c1b5308f73fef8194a09b540d146a1aefe3d0f23297404861c2",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2354-f2361-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2354-f2361-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2354-f2361-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0457",
+      "source_candidate": "src-1353",
+      "canonical_source_frame": 2366,
+      "source_reference": "source_refs/src-1353-f2366.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2366,
+          "end": 2371,
+          "pts": 98.583,
+          "end_pts": 98.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2366,
+      "before_source_frame": 2361,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1353-f2366.png",
+      "source_sha256": "3a6979c51eb4f0089a7b7296e25bd544f9899cdb11bb65aa0bdc9d71532e21ab",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2361-f2366-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2361-f2366-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2361-f2366-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0458",
+      "source_candidate": "src-1358",
+      "canonical_source_frame": 2371,
+      "source_reference": "source_refs/src-1358-f2371.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2371,
+          "end": 2377,
+          "pts": 98.792,
+          "end_pts": 99.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2371,
+      "before_source_frame": 2366,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1358-f2371.png",
+      "source_sha256": "2ff41c579b687a07eb94c716fa204fb548792a6151daa807821db1d48bcae84e",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2366-f2371-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2366-f2371-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2366-f2371-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0459",
+      "source_candidate": "src-1364",
+      "canonical_source_frame": 2377,
+      "source_reference": "source_refs/src-1364-f2377.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2377,
+          "end": 2382,
+          "pts": 99.042,
+          "end_pts": 99.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 5,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2377,
+      "before_source_frame": 2371,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1364-f2377.png",
+      "source_sha256": "535f146344fdbb91b295726ccedc826a5f1b30db061d857e8a1db7b7efdc5f24",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0460",
+      "source_candidate": "src-1369",
+      "canonical_source_frame": 2382,
+      "source_reference": "source_refs/src-1369-f2382.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2382,
+          "end": 2388,
+          "pts": 99.25,
+          "end_pts": 99.5,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 6,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2382,
+      "before_source_frame": 2377,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1369-f2382.png",
+      "source_sha256": "0d62be08d05acd2f4e376521d1c3acb68d6d174b492aee79fe64761c1e7a3481",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2377-f2382-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2377-f2382-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2377-f2382-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0461",
+      "source_candidate": "src-1375",
+      "canonical_source_frame": 2388,
+      "source_reference": "source_refs/src-1375-f2388.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2388,
+          "end": 2395,
+          "pts": 99.5,
+          "end_pts": 99.792,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2388,
+      "before_source_frame": 2382,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1375-f2388.png",
+      "source_sha256": "42e3c82ea8724e881fa95b7a8b5cea69bc6586c8fd7e1b14cffe5e597adc4dfc",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2382-f2388-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2382-f2388-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2382-f2388-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0462",
+      "source_candidate": "src-1382",
+      "canonical_source_frame": 2395,
+      "source_reference": "source_refs/src-1382-f2395.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2395,
+          "end": 2397,
+          "pts": 99.792,
+          "end_pts": 99.875,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2395,
+      "before_source_frame": 2388,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1382-f2395.png",
+      "source_sha256": "3e607aeab65917d72e202aa733442be5cd3ca25a46e9d4b8a023f01f7c6382ec",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2388-f2395-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2388-f2395-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2388-f2395-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0463",
+      "source_candidate": "src-1384",
+      "canonical_source_frame": 2397,
+      "source_reference": "source_refs/src-1384-f2397.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2397,
+          "end": 2399,
+          "pts": 99.875,
+          "end_pts": 99.958,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 2,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2397,
+      "before_source_frame": 2395,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1384-f2397.png",
+      "source_sha256": "dd821cef0e62b867df48410434594e10d9b3df822d3aceaa90ae16c0dc39ea75",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2395-f2397-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2395-f2397-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2395-f2397-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    },
+    {
+      "cel": "cel-0464",
+      "source_candidate": "src-1386",
+      "canonical_source_frame": 2399,
+      "source_reference": "source_refs/src-1386-f2399.png",
+      "canonical_family": "star_gestures",
+      "exposure_families": [
+        "star_gestures"
+      ],
+      "source_exposures": [
+        {
+          "start": 2399,
+          "end": 2401,
+          "pts": 99.958,
+          "end_pts": 100.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        {
+          "start": 3461,
+          "end": 3466,
+          "pts": 144.208,
+          "end_pts": 144.417,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source_frames_covered": 7,
+      "selected_asset": null,
+      "status": "missing_selected_replacement",
+      "artistic_accepted": null,
+      "artistic_acceptance_status": "not_recorded",
+      "artistic_acceptance_records": [],
+      "recorded_flaws": [],
+      "repair_flags": [],
+      "caption_cleanup_required": false,
+      "job_documents": [],
+      "blocked_selection": null,
+      "historical_blocked_selection_resolved": false,
+      "source_frame": 2399,
+      "before_source_frame": 2397,
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1386-f2399.png",
+      "source_sha256": "8fdcdec492770fc56ba7639a64955b4f3fad1cbac247c925abf55d314f53da15",
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2397-f2399-source-ab-rgb-contours.png",
+      "native_local_deltas": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2397-f2399-upper-head-hand-native.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2397-f2399-lower-pose-hair-native.png"
+      ],
+      "accepted": false
+    }
+  ],
+  "character_artwork_generated_by_diagnostics": false,
+  "source_map_edited": false,
+  "aliases_created": false
+}

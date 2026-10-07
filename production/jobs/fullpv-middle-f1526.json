@@ -1,0 +1,22 @@
+{
+  "job_id": "fullpv-middle-f1526",
+  "tool": "built-in image_gen",
+  "source_frame": 1526,
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0899-f1526.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0899-f1526.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/small_rest_pose/source-delta-f1520-f1526.png"
+  ],
+  "prompt": "Use case: identity-preserve. Independently redraw ORIGINAL CURRENT SOURCE image 1 as one Klee replacement PV cel f1526, complete same 16:9 1920x1080 framing. Image 1 alone controls pose, size, composition, all facial states and occlusion. Image 2 ONLY red Klee beret cream clover white feather identity. Image 3 ONLY flat red/cream coat, plain cream cuffs, brown gloves costume colors and structure; NO star/moon. Image 4 actual original previous/current RGB difference x4 and blue/red contours ONLY demonstrates small redraw of eyelids, cheeks, sleeve corners, hem and boots, plus current two detached cream breathing accent shapes. Do not copy its montage. Keep lavender background exactly. Replace old bunny sleep-mask original headwear entirely with Klee red beret, NO bunny sleep mask. Default Klee pale blond bangs TWO SHORT side ponytails and pointed ears, red coat/cream hem, brown gloves/brown boots. SMALL floating/resting figure at x320..886,y474..797. Pose is rotated SIDEWAYS approximately 90 degrees counterclockwise from upright: HEAD AT LEFT around x450,y680, FEET AT RIGHT x825,y707. Long torso horizontal, two feet vertically stacked at right, folded crossed forearms front of chest, eyes CLOSED source straight closed eyelids, orange oval cheeks, TINY DOT mouth. Draw head, face, hat, arms and torso all in current same sideways orientation. Keep TWO small detached cream breathing accents at x445..555,y370..420 exactly as original source independent effects. Short ponytails change original long flowing hair, but do not increase head size. Minimal rough black hand-drawn PV outlines, simple flat colors no texture gradient new shadows or detailed game illustration. Never rotate/transform a prior drawing: REDRAW actual current head/sleeve/boot outlines and eyelids independently.",
+  "accepted": false,
+  "status": "generated_draft",
+  "output": "generated/fine-f1526.png",
+  "reference_roles": [
+    "current source geometry and pose",
+    "identity hat only",
+    "identity costume only",
+    "actual source spatial delta"
+  ]
+}

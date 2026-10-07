@@ -1,0 +1,852 @@
+{
+  "snapshot_utc": "2026-10-05T11:18:58.978995+00:00",
+  "records": [
+    {
+      "job": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-next-f2077-2026-10-05-source-v1.json",
+      "job_sha256": "67b117f9a8b5a5ec5e2faa109609373db7e1ea11fd54502f0e1dbac97d588e72",
+      "full_saved_job": {
+        "job_id": "middle-next-f2077-2026-10-05-source-v1",
+        "source_frame": 2077,
+        "source_cel": "cel-0384",
+        "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1147-f2077.png",
+        "source_exposures": [
+          {
+            "start": 2077,
+            "end": 2081,
+            "pts": 86.542,
+            "end_pts": 86.708,
+            "family": "star_dance",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "tool": "built-in image_gen",
+        "prompt": "Use case: identity-preserve. Fresh redraw from ORIGINAL current source image1 only, ONE entire landscape strict-source Klee character-replacement PV cel f2077. Do not edit or reconstruct any earlier failed full Klee result. Image1 CURRENT original alone determines body coordinates, FRONT3/4 rotation, both closed eyelids, tiny O mouth, hand visibility, original split airborne legs, crop/background/effects. Image2 cropped Klee HEAD is identity/palette/black line simplification ONLY, not prior facing or pose. Image3 original f2073->2077 actual A/B RGB/contours right=current. Image4 native CURRENT eyes/hands/legs is pose authority. Image5 native original A/B real hand-cuff change is occlusion authority. Head looks down toward viewer-right, BOTH eyelids CLOSED, tiny O mouth, orange cheeks, no open iris or smile. Same source scale head x640..1095 y180..405; replace rabbit mask and long peach hair with red beret brown band one cream clover and one white feather, pointed ears, blonde bangs. Hair must be exactly TWO compact short ear-rooted side ponytails: one outside viewer-left shoulder and one outside viewer-right shoulder. Between those TWO outer ponies is cream collar / neck, never another blonde cluster. No detached neck tuft behind near glove. The HEAD reference crop is not a third piece of hair to paste.\nNear arm viewer-LEFT opens strongly foreshortened toward left, palm around x680..760 y383..456, four visible fingers fanning up-left, thumb bent down-right. Single plain fully BROWN glove covers every finger/palm, cream cuff x735..805 y400..480. Far viewer-RIGHT arm short and mostly occluded by body/shoulder, small cuff x1020..1083 y420..480 with only tiny brown fingertip silhouette atx1060..1090; no full extra palm. Exact TWO arms/hands with correct occlusion. Front/left near leg bends down-left knee around980,790 toboot845..930,820..955; far leg extends diagonal down-right toboot1205..1350,880..973. Both airborne, near thigh covers far leg at hip, do not copy prior tightly folded knee. Simple plain red coat continuous cream collar/cuffs/hem, plain brown boots, mostly hidden small brown backpack. No rabbit ears/headband, long peach hair, pajama/buttons/pockets, additional symbols, ornate detailed costume or 3D. Thin wobbly black PV ink, simple flat red/blonde/cream/brown fills, minimal hard shadow. Preserve original lavender background/cream outlined stars/yellow particles positions. Do not draw/retype any lyrics or text; independent exact source-caption layer will be restored later. Remove source actor completely. Same full16:9 composition, one entire character/cel, no crops/collage/mirror/morph/warp, no other actors. Most important: TWO short rooted outer ponies ONLY, cream collar fully separates them.",
+        "references": [
+          "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1147-f2077.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/klee-f2073-head-only-identity-v2.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2073-f2077-source-AB-RGB-contours.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2077-source-native-keyparts.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2077-hands-cuffs-native-AB-RGB-contours.png"
+        ],
+        "reference_roles": [
+          "CURRENT original sole pose/expression/crop/occlusion/background authority",
+          "Klee HEAD identity only not pose, bad whole draft excluded",
+          "Original before/current real A/B RGB contours right=current",
+          "Current native exact key parts",
+          "Native source before/current hand/cuff actual RGB contours"
+        ],
+        "output": "generated/middle-next-f2077-2026-10-05-source-v1.png",
+        "accepted": false,
+        "artistic_accepted": false,
+        "status": "reviewed_static_temporal_pending",
+        "actual_speed_review": "not_performed",
+        "source_inspection": {
+          "actual_sequential_decode_reference_equal": true,
+          "visible_people": 1,
+          "face": "both closed eyes front3/4 chindown/right tiny O",
+          "hands": "near left open palm, far tiny fingertip mostly occluded",
+          "legs": "airborne split near bend downleft far diagonal downright"
+        },
+        "repair_of": "jobs/middle-continuation-f2077-2026-10-05-v1.json",
+        "repair_strategy": "Fresh original source with head-only identity; no failed whole-cel reference",
+        "ordered_reference_metadata": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1147-f2077.png",
+            "sha256": "2038678d3ad7d4ba4ddd68647d554b5f5d2923695928f7411cbb24c30141efeb",
+            "canvas": [
+              1920,
+              1080
+            ],
+            "role": "CURRENT original sole pose/expression/crop/occlusion/background authority"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\klee-f2073-head-only-identity-v2.png",
+            "sha256": "ba47680d230d0b673f99ede1de69d4549dda21a7d9d4b939d21d00847de2b3e5",
+            "canvas": [
+              350,
+              285
+            ],
+            "role": "Klee HEAD identity only not pose, bad whole draft excluded"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2073-f2077-source-AB-RGB-contours.png",
+            "sha256": "f6215e9ded81ac93f105cc67814c9a0e0129f8f3682e9645008e5b08f50bdadf",
+            "canvas": [
+              3840,
+              2240
+            ],
+            "role": "Original before/current real A/B RGB contours right=current"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2077-source-native-keyparts.png",
+            "sha256": "42b0e9e27c93877c5591ecf27c7f020d4af7c57f3bd6b34f57bc22bc22f29189",
+            "canvas": [
+              990,
+              1359
+            ],
+            "role": "Current native exact key parts"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2077-hands-cuffs-native-AB-RGB-contours.png",
+            "sha256": "5240e983ed9e3bdc3c7311f83f2e678e5525aecaf3a171f5b96c5456ca6afaa6",
+            "canvas": [
+              1960,
+              866
+            ],
+            "role": "Native source before/current hand/cuff actual RGB contours"
+          }
+        ],
+        "ordered_reference_metadata_phase": "before_builtin_call",
+        "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-2e26f5e1-5162-4d2e-88a3-3a0415dbe7e7.png",
+        "tool_output_metadata": {
+          "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-2e26f5e1-5162-4d2e-88a3-3a0415dbe7e7.png",
+          "sha256": "6aa8edbca70d3d76587d769215bdcf7d1a65cb2732e3fcf553b4fca9bcad3ae6",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "workspace_output_metadata": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2077-2026-10-05-source-v1.png",
+          "sha256": "6aa8edbca70d3d76587d769215bdcf7d1a65cb2732e3fcf553b4fca9bcad3ae6",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "output_sha256": "6aa8edbca70d3d76587d769215bdcf7d1a65cb2732e3fcf553b4fca9bcad3ae6",
+        "actual_builtin_call_submitted": true,
+        "known_issues": [
+          "Successful fresh original redraw after prior blocked result; bad whole draft excluded",
+          "Head/hat taller and eyelid slopes heavier than original; minimal skin shading",
+          "Near palm/fingers larger and cuff lower than source; far glove slightly overexposed",
+          "Three cream coat clover buttons and two pockets appeared despite plain-costume prompt; nonblocking costume differences deferred",
+          "Boots/cuff/hem contours and open leg amplitude approximate",
+          "Generated background/stars differ and text intentionally omitted; exact source layers must be restored by compositor",
+          "Static keypart review only; final composition and actual-speed review not performed"
+        ],
+        "source_current_observed": "Fresh source redraw removed former third neck pony. Exactly two rooted short outer blonde ponytails separated by cream collar. Both closed eyelids/tiny O mouth, left near open brown palm and tiny mostly hidden far brown glove retained. Both split legs airborne, near bent left knee covers diagonal far leg at hip.",
+        "final_composition_review": "not_performed",
+        "static_review": "qa/middle-next-missing-2026-10-05/f2077-source-new-static.png"
+      }
+    },
+    {
+      "job": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-next-f2081-2026-10-05-source-v1.json",
+      "job_sha256": "eee739f7db7be50c63cfcf4c71053949ed786a563347f0041ea632215f8d1f80",
+      "full_saved_job": {
+        "job_id": "middle-next-f2081-2026-10-05-source-v1",
+        "source_frame": 2081,
+        "source_cel": "cel-0385",
+        "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1151-f2081.png",
+        "source_exposures": [
+          {
+            "start": 2081,
+            "end": 2085,
+            "pts": 86.708,
+            "end_pts": 86.875,
+            "family": "star_dance",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "tool": "built-in image_gen",
+        "prompt": "Use case: identity-preserve. ONE whole strict-source Klee PV cel f2081 fresh from original image1. Current source ONLY decides frame composition, actor size/coordinates, front head turn, gesture, eye/mouth, legs and occlusion. Image2 Klee HEAD-only identity/beret/short rooted pony/style, NOT side-facingpose. Image3 original actual f2077->2081 A/B RGB contours RIGHT=current. Image4 current native both closed eyes, cuffs/legs. Image5 native full BOTH hands current. Same full16:9 canvas. Exactlyoneactor. Original current head shifts LEFT/up vs2077, front-facing tilts slightlyLEFT, BOTH eyes CLOSED almosthorizontal thick lid lines, larger vertical O mouth and orangecheeks. Not smallmouthofprevious, notopeneyes/smile. Redberet brownband onecreamclover onewhitefeather, blonde bangs, pointedears and exactly TWO compactshort earroot ponytails; oneleftone right, collarbetween, no middle neckcluster.\nCURRENT BOTH arms stretch almosthorizontal fully out: image-left longarm x450..720 y395..510, hand x390..465 y432..477 side-on narrow flatpalm, fingers joined facingLEFT, NOT upward fan. Image-right sleeve x910..1105 y395..462, hand x1098..1148 y376..441 palm outward fingers openUP. Plain continuous BROWN gloves over palms andallfingers; twohands ONLY, creamcuffs attheends. Shoulderlevel handleftslightlylower thanright. Source torsoleansleft, hips x790..955 y620..690. Left/supportleg bends towardx885y745 then goesdownto bootx775..935 y897..960 nearlyhorizontal sole; right/farleg extendsdiagonaldownRIGHT tokneex1030y741 thenfootx1175..1275 y777..920, TOE UP nearlyverticalsole facesRIGHT/viewer. Current feet separated, leftlower thanright; doNOTcopy previousbentback leftfoot or flattenrightsole. Plain redcoat with continuouscream foldedcollar/cuffs/hem, no coatcloverbuttons/pockets/extraembroidery, smallmostlyhidden plainbrownbackpack, plainbrownboots withcreamcuffs. Remove all originalrabbitmask/longpeachhair/pajamas. Simple flat fills andthinwobblyblackPVink minimalshadow, not3D/details. Preservecurrentlavenderbackground/creamoutlinedstars/yellowparticles inoriginalplaces. Do NOT draw/retype any lyric text: exact source caption layer is restored separately. Same landscape crop noedgefaces/additionalcharacters/objects, no mirror/warp/morph/collage. Wholecel only. Correct currentlarger O mouth and asymmetric palms essential.",
+        "references": [
+          "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1151-f2081.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/klee-f2073-head-only-identity-v2.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2077-f2081-source-AB-RGB-contours.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2081-source-native-keyparts.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2081-both-hands-full-native.png"
+        ],
+        "reference_roles": [
+          "CURRENT source composition/pose/expression/occlusion",
+          "Klee head identity only not pose or eye count",
+          "Original before/current true A/B actualRGB contours current on right",
+          "CURRENT native face/cuffs/hem/boots",
+          "CURRENT original complete two hands native crop"
+        ],
+        "output": "generated/middle-next-f2081-2026-10-05-source-v1.png",
+        "accepted": false,
+        "artistic_accepted": false,
+        "status": "reviewed_static_temporal_pending",
+        "actual_speed_review": "not_performed",
+        "source_inspection": {
+          "actual_sequential_decode_reference_equal": true,
+          "visible_people": 1,
+          "face": "front slightly left tilt both eyes closed big O",
+          "hands": "left side-on fingers left; right upward open palm",
+          "legs": "left low almosthorizontal boot right diagonal upturned sole"
+        },
+        "ordered_reference_metadata": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1151-f2081.png",
+            "sha256": "99239922dcdbd22045c878adfdf3ee4058a3784e7bf089549d782b27cf0fe104",
+            "canvas": [
+              1920,
+              1080
+            ],
+            "role": "CURRENT source composition/pose/expression/occlusion"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\klee-f2073-head-only-identity-v2.png",
+            "sha256": "ba47680d230d0b673f99ede1de69d4549dda21a7d9d4b939d21d00847de2b3e5",
+            "canvas": [
+              350,
+              285
+            ],
+            "role": "Klee head identity only not pose or eye count"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2077-f2081-source-AB-RGB-contours.png",
+            "sha256": "2afbca7a20a62f4b2124262cbfde58da82cbb3fdf0c409683abd8132fa291b2d",
+            "canvas": [
+              3840,
+              2240
+            ],
+            "role": "Original before/current true A/B actualRGB contours current on right"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2081-source-native-keyparts.png",
+            "sha256": "1d61a1111eedc1ac168dc9ace534552393428901f55ff35eba9c2d076c34da5d",
+            "canvas": [
+              990,
+              1359
+            ],
+            "role": "CURRENT native face/cuffs/hem/boots"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2081-both-hands-full-native.png",
+            "sha256": "7cce0699204be6b9fcf6d92250d35289b1cd807cce50e0cb623dfffa74740489",
+            "canvas": [
+              800,
+              185
+            ],
+            "role": "CURRENT original complete two hands native crop"
+          }
+        ],
+        "ordered_reference_metadata_phase": "before_builtin_call",
+        "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-6bd9c14f-c173-400b-a770-02834dcca08c.png",
+        "tool_output_metadata": {
+          "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-6bd9c14f-c173-400b-a770-02834dcca08c.png",
+          "sha256": "f5bd3b987f822f31c435eec5e99f5f3d8831a6a56236b6084d344e25e215d805",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "workspace_output_metadata": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2081-2026-10-05-source-v1.png",
+          "sha256": "f5bd3b987f822f31c435eec5e99f5f3d8831a6a56236b6084d344e25e215d805",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "output_sha256": "f5bd3b987f822f31c435eec5e99f5f3d8831a6a56236b6084d344e25e215d805",
+        "actual_builtin_call_submitted": true,
+        "known_issues": [
+          "Hat/head higher/larger than source; current slight left head tilt simplified toward frontal symmetry",
+          "Gloves broader and more exposed, collar shape and shoulder/cuff registration differ",
+          "Hem/boot contours and knee/sole angles approximate but distinct current pose retained",
+          "Generated backdrop/particles not source pixel-exact and caption intentionally omitted; original layers required",
+          "Static native parts reviewed; actual-speed and final composition not performed"
+        ],
+        "source_current_observed": "Front-facing both closed horizontal eyelids and bigger O mouth. Both arms extended, left flat side-on glove points left and right open palm points up. Left boot lower/almost horizontal, right diagonal leg ends in distinctly upturned sole. Exactly two rooted short side ponies, no old actor leftovers; plain coat achieved.",
+        "final_composition_review": "not_performed",
+        "static_review": "qa/middle-next-missing-2026-10-05/f2081-source-new-static.png"
+      }
+    },
+    {
+      "job": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-next-f2085-2026-10-05-source-v1.json",
+      "job_sha256": "c0c94f208d0d1069ef2f694ea82465260ad812d5dfb4ee1407fe8902d2dd2fb9",
+      "full_saved_job": {
+        "job_id": "middle-next-f2085-2026-10-05-source-v1",
+        "source_frame": 2085,
+        "source_cel": "cel-0386",
+        "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1155-f2085.png",
+        "source_exposures": [
+          {
+            "start": 2085,
+            "end": 2090,
+            "pts": 86.875,
+            "end_pts": 87.083,
+            "family": "star_dance",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "tool": "built-in image_gen",
+        "prompt": "Use case: identity-preserve. Draw ONE independent full landscape strict-source Klee PV cel f2085 replacing original actor in image1. Image1 sole CURRENT pose/expression/framing/occlusion authority. Image2 previous Klee f2081 only short two-rooted-pony/plain costume/ink scale continuity; do NOT hold its head tilt, hands or knees. Image3 original f2081->2085 actual A/B RGB/contours RIGHTCURRENT. Image4 currentnativeface/cuffs/legs; image5 completeCURRENT bothhands. Original actor remains frontfacing but head/body shifts left/down, head now tilts toward VIEWER-RIGHT, two CLOSED slightlyangled eyelid strokes, small vertical O mouth narrower than f2081, orangecheeks. No irises/openeyes/smile. Originalheadaroundx575..870 y150..400, facearoundx675..820 y270..365. Redberet brownband singlecreamclover onewhitefeather blonde bangs pointedears; EXACTLY TWO compact short sideponies oneeachroot, collarbetween no thirdcluster. MatchpreviousKleeidentity notprevious headangle.\nCurrent BOTH arms stillspread but left upperarm x470..650 y402..495 andleftcuffx423..495 y410..499 has open hand x367..434 y399..463 with fingers now FAN UP-LEFT, not previousflatjoined fingers. Rightarmx870..1035 y386..487 slopesDOWNRIGHT tocreamcuffx1020..1092 y417..499, openhandx1085..1135 y393..457 fingersUPRIGHT. Brown FULL gloves with thumb/finger silhouettes EXACTLYtwopalms, do notcopy old flatleftglove. Simpleplainredcoat, creamfoldedcollar/cuffs/continuoushem, plainbrownboots/mostlyhiddenbrownbackpack. NOcoatcloverbuttons/pockets/embroidery/animalmask/pajamas/longpeachhair.\nCurrentlegschange independently: hipx670..855 y650, LEFT leg straighter runs downRIGHT toanklex805y962, bootaroundx790..925 y945..1013 angled slightlyUPRIGHT; loweredleftfoot now beneathlyrics region, notpreviousbentleftknee. RIGHT leg lifted diagonally fromhipthroughkneex950y755 toanklex1090y897, bootx1085..1180 y806..953 with nearlyVERTICALsole/toeUP. Maintain two distinctlegs/feet and hipocclusion, currentfootpositions lowerleft/higher-right. Originalcamera unchanged, no full-body translation invented. ThinwobblyblackhanddrawnPVink flatred/blonde/cream/browncolors minimalshadow; no3D/denseclothingdetail. Currentlavenderbackground creamoutlinedstars/yellowparticles retained independent. No model-writtenlyrics/text; sourcecaptionlayer restored later. Whole16:9 cel only, no addedactors/props/edgefaces, no mirror/warp/morph/collage. Must visibly change headtilt, leftfingerfan, straighterleftleg vs2081.",
+        "references": [
+          "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1155-f2085.png",
+          "C:/Users/KLucen/Desktop/kl/production/generated/middle-next-f2081-2026-10-05-source-v1.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2081-f2085-source-AB-RGB-contours.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2085-source-native-keyparts.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2085-both-hands-full-native.png"
+        ],
+        "reference_roles": [
+          "CURRENT source sole pose/expression/framing/occlusion authority",
+          "Prior unaccepted Klee identity/style continuity only, not pose",
+          "Original before/current A/B realRGB contours right=current",
+          "CURRENT native eyes/hem/boots/cuffs",
+          "Current complete both hands native"
+        ],
+        "output": "generated/middle-next-f2085-2026-10-05-source-v1.png",
+        "accepted": false,
+        "artistic_accepted": false,
+        "status": "reviewed_static_temporal_pending",
+        "actual_speed_review": "not_performed",
+        "source_inspection": {
+          "actual_sequential_decode_reference_equal": true,
+          "visible_people": 1,
+          "face": "front slightly viewer right tilt bothclosed smallvertical O",
+          "hands": "left now open fingersfanupleft vs flat previous, rightfanup",
+          "legs": "left straighter down tolowerboot rightupturnedsole higher"
+        },
+        "ordered_reference_metadata": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1155-f2085.png",
+            "sha256": "5b9fa644947d68c0d750abd05828b5f7c9c3f6494e86995c2fededbdfaa85e64",
+            "canvas": [
+              1920,
+              1080
+            ],
+            "role": "CURRENT source sole pose/expression/framing/occlusion authority"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2081-2026-10-05-source-v1.png",
+            "sha256": "f5bd3b987f822f31c435eec5e99f5f3d8831a6a56236b6084d344e25e215d805",
+            "canvas": [
+              1672,
+              941
+            ],
+            "role": "Prior unaccepted Klee identity/style continuity only, not pose"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2081-f2085-source-AB-RGB-contours.png",
+            "sha256": "9529f700cceecb047571e522adf8e1f37af9978fe4119f79ea752c3a210ce8cc",
+            "canvas": [
+              3840,
+              2240
+            ],
+            "role": "Original before/current A/B realRGB contours right=current"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2085-source-native-keyparts.png",
+            "sha256": "f4e6f1cb77353a1f3cd28248494026f6426ebabdcb3d5da46e5aa1e003dda5a7",
+            "canvas": [
+              990,
+              1359
+            ],
+            "role": "CURRENT native eyes/hem/boots/cuffs"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2085-both-hands-full-native.png",
+            "sha256": "21d98922a2a145c345f7cda4fadd7611228b364387a0f138a1acecfeb10bd431",
+            "canvas": [
+              800,
+              190
+            ],
+            "role": "Current complete both hands native"
+          }
+        ],
+        "ordered_reference_metadata_phase": "before_builtin_call",
+        "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-7f56e820-25f9-48d3-91be-603fe035e831.png",
+        "tool_output_metadata": {
+          "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-7f56e820-25f9-48d3-91be-603fe035e831.png",
+          "sha256": "f3539fd8032cc2b665643c8088da50166c823c91748c616e089912395d28c2ab",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "workspace_output_metadata": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2085-2026-10-05-source-v1.png",
+          "sha256": "f3539fd8032cc2b665643c8088da50166c823c91748c616e089912395d28c2ab",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "output_sha256": "f3539fd8032cc2b665643c8088da50166c823c91748c616e089912395d28c2ab",
+        "actual_builtin_call_submitted": true,
+        "known_issues": [
+          "Head/hat taller, visible face more central; closed lid slope and mouth/cheek shape approximate",
+          "Left open palm and right glove broader/more exposed than source; arm/cuff positions offset",
+          "Coat hem/collar shape and boot leg length/sole angles differ, source motion retained approximately",
+          "Generated particles/background are not pixel-exact and text omitted intentionally; restore source layers before delivery",
+          "Static focus comparisons inspected, final composition/actual-speed review not performed"
+        ],
+        "source_current_observed": "Independent current viewer-right head tilt with both closed eyelids and smaller vertical O. Left glove now fans up-left rather than flat joined hand, right glove open upward. Lower left leg visibly straighter than2081, right leg diagonal with upright sole. Exactly two short rooted ponies and plain coat.",
+        "final_composition_review": "not_performed",
+        "static_review": "qa/middle-next-missing-2026-10-05/f2085-source-new-static.png"
+      }
+    },
+    {
+      "job": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-next-f2090-2026-10-05-source-v1.json",
+      "job_sha256": "50c58e39d0db0abe58adf81715d3abcd26f58cee3e64a7381a1fa689ce97062e",
+      "full_saved_job": {
+        "job_id": "middle-next-f2090-2026-10-05-source-v1",
+        "source_frame": 2090,
+        "source_cel": "cel-0387",
+        "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1160-f2090.png",
+        "source_exposures": [
+          {
+            "start": 2090,
+            "end": 2094,
+            "pts": 87.083,
+            "end_pts": 87.25,
+            "family": "star_dance",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "tool": "built-in image_gen",
+        "prompt": "Use case: identity-preserve. One independent full strict-source Klee PV character cel f2090. CURRENT source image1 decides only current bodyposition/front-facingclosedeye expression/hands/legbend/crop; image2 previousKlee f2085 onlyidentity/plaincostume/two short pony/ink proportioncontinuity, doNOT holdits outstretched rightleg or headtilt. Image3 original actualf2085->2090 A/B RGB/contours RIGHTCURRENT. Image4 current nativeface and legscuff, image5 nativecompletebothhands. Exactly ONEperson replace original completely. Currentbody is morevertical, hips x645..840 y715..748, head x520..850 y215..433, face x660..808 y317..423 BOTH eyes CLOSED horizontalheavyshortstrokes, O mouth slightlylarger thanprevious; originalrightlongbangpartiallycovermouthbut replacementblondefacebangonlywhenappropriate, no copiedlongpeachhair. Redberet/brownbandONEcreamcloverONEwhitefeather, pointedears/blondebangs, EXACTLY TWO short compact rooted OUTER ponytails collarbetween, no middle neckhairbunch.\nCURRENT BOTH arms horizontal/UP spread: imageleftarmx397..650 y390..499, creamcuffx398..458 y389..480 openleftbrownpalmx338..405 y383..460 fingersUPLEFT. Imagerightarmx841..1046 y375..497 slopes UP-right, creamcuffx989..1050 y380..462, openrightbrownpalmx1036..1110 y339..416 fingersstraightUP thumbRIGHT. Correctindependentarmraisingvsprior downsloping rightarm. Continuousfullbrown gloves no skinfingers; exacttwohands. Plain redcoat creamfoldedcollar/cuffs/hem, plainbrownboots creamcuffs andsmall mostlyhiddenbrownbackpack, NO coatbuttons/pockets/extraornament/pajamabunny.\nCRITICAL CURRENT RIGHT LEG bends BACK towardviewer-right at90degrees ratherthanstraightkick: rightthighhiparoundx793y718 goesdownRIGHT tokneex862y816, shin extends almostHORIZONTAL RIGHT tox969y811, raisedbootx969..1054 y756..869 withtoe DOWN/round sole facingviewer. LEFT supportleg extends longDOWNslightlyright fromhipx650y727 toanklex770y986 thenbootx738..835 y1000..1073; toe slightlydownright nearbottomedge. DoNOT reuse previous straightdiagonal kickedleg/uprighttoeUPsole. Exactlytwolegs, rightbentbacklegbehindleft thigh atroot, liftedboot higherthanleftlowerfoot. Normal16:9fullsourcecrop, keepbottomfootinside sourcecanvas, no extrabody outside. SimplethinwobblyblackPVink/flatfillsminimalshadow no3D. Originallavenderbackground/creamoutlinedstars/yellowparticles remainseparate; do NOT modelwriteanylyrics/text, sourcecaptionlayer restoredlater. No additionalpeople/props, no mirror/morph/warp/collage. Current90degreeback-bentrightkneeandUP-rightarmmustbe independentnewdrawing.",
+        "references": [
+          "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1160-f2090.png",
+          "C:/Users/KLucen/Desktop/kl/production/generated/middle-next-f2085-2026-10-05-source-v1.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2085-f2090-source-AB-RGB-contours.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2090-source-native-keyparts.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2090-both-hands-full-native.png"
+        ],
+        "reference_roles": [
+          "CURRENT original sole pose/expression/crop/occlusion",
+          "Prior Klee identity/style only not rightleg/arm",
+          "Original before/current real A/B RGB contours",
+          "CURRENT native face/cuffs/legs",
+          "CURRENT complete original twohands native"
+        ],
+        "output": "generated/middle-next-f2090-2026-10-05-source-v1.png",
+        "accepted": false,
+        "artistic_accepted": false,
+        "status": "reviewed_static_temporal_pending",
+        "actual_speed_review": "not_performed",
+        "source_inspection": {
+          "actual_sequential_decode_reference_equal": true,
+          "visible_people": 1,
+          "face": "both closed horizontaleyes O partlylongbangoccludedsource",
+          "hands": "bothopenleftupfanrightuprightfan; rightarmupraised",
+          "legs": "leftlongdownleg footnearbottom; rightthighdownright shin almosthorizontalback solefacesviewer"
+        },
+        "ordered_reference_metadata": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1160-f2090.png",
+            "sha256": "d3d7794315af17ceb92c650fe8827f56ba3bcb285dce276418ff8864ab2907b3",
+            "canvas": [
+              1920,
+              1080
+            ],
+            "role": "CURRENT original sole pose/expression/crop/occlusion"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2085-2026-10-05-source-v1.png",
+            "sha256": "f3539fd8032cc2b665643c8088da50166c823c91748c616e089912395d28c2ab",
+            "canvas": [
+              1672,
+              941
+            ],
+            "role": "Prior Klee identity/style only not rightleg/arm"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2085-f2090-source-AB-RGB-contours.png",
+            "sha256": "5f989708174ffb000d10e6a8deea20720cbe635bd83d7f7957727ff3b3012011",
+            "canvas": [
+              3840,
+              2240
+            ],
+            "role": "Original before/current real A/B RGB contours"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2090-source-native-keyparts.png",
+            "sha256": "dfa230db118f0c0dbefc14808669681d8816b7e900e1f21b952569e12e2a01b1",
+            "canvas": [
+              990,
+              1359
+            ],
+            "role": "CURRENT native face/cuffs/legs"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2090-both-hands-full-native.png",
+            "sha256": "1f3c7507f26792dd0f84bf77972a0552055bef049d349a195948227f4a2e0750",
+            "canvas": [
+              810,
+              230
+            ],
+            "role": "CURRENT complete original twohands native"
+          }
+        ],
+        "ordered_reference_metadata_phase": "before_builtin_call",
+        "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-e800a657-fe12-48a8-aa7a-e8c8ec099524.png",
+        "tool_output_metadata": {
+          "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-e800a657-fe12-48a8-aa7a-e8c8ec099524.png",
+          "sha256": "3b5616f08e4ff98e44e22f64745d8eff449fd51a38b9513e45e3f4859c7f951c",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "workspace_output_metadata": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2090-2026-10-05-source-v1.png",
+          "sha256": "3b5616f08e4ff98e44e22f64745d8eff449fd51a38b9513e45e3f4859c7f951c",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "output_sha256": "3b5616f08e4ff98e44e22f64745d8eff449fd51a38b9513e45e3f4859c7f951c",
+        "actual_builtin_call_submitted": true,
+        "known_issues": [
+          "New head/hat is higher, large and slightly rightward; current source front facial angle simplified using previous tilt",
+          "Hand sizes and arm extension greater than source, left palm/fingers more exposed",
+          "Right boot/sole rounded larger, knee/cuff/hem positions approximate; left foot remains inside but not pixelregistered",
+          "Original long bang partly covers mouth, Klee short bangs do not recreate that same obstruction; face identity kept",
+          "Backdrop/particles require original-source layer restoration; no text generated and captions must be restored",
+          "Static native keyparts only, no final composition or actual-speed art acceptance"
+        ],
+        "source_current_observed": "Current right leg now bends back to nearly horizontal shin with rounded boot sole toward viewer, rather than previous straight kick. Left long leg ends at bottomfoot inside canvas. Two open brown hands, right arm now slopes upward. Closed eyelids and O mouth retained, exactly two rooted compact ponies/plain coat.",
+        "final_composition_review": "not_performed",
+        "static_review": "qa/middle-next-missing-2026-10-05/f2090-source-new-static.png"
+      }
+    },
+    {
+      "job": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-next-f2094-2026-10-05-source-v1.json",
+      "job_sha256": "668ac09d6b14376f3ac0a93e9325729e923ba8f6811e939c86dc9fd263be29f4",
+      "full_saved_job": {
+        "job_id": "middle-next-f2094-2026-10-05-source-v1",
+        "source_frame": 2094,
+        "source_cel": "cel-0388",
+        "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1164-f2094.png",
+        "source_exposures": [
+          {
+            "start": 2094,
+            "end": 2098,
+            "pts": 87.25,
+            "end_pts": 87.417,
+            "family": "star_dance",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "tool": "built-in image_gen",
+        "prompt": "Use case: identity-preserve. ONE entire strict-source Klee replacement PV cel f2094 from CURRENT original image1. Image1 alone locks currentactorposition, forward-facingeyesclosed expression, exactarmraising, bentbackrightfoot, longleftleg, cropandocclusion. Image2 priorKleef2090 onlyidentity/two shortrootedponies/plaincostume/linepalette continuity; don'tfreeze priorheadtilt/leftarmhorizontal/rightfootposition. Image3 originalf2090->2094 realA/B RGB contours RIGHTCURRENT, image4 CURRENTnativeeyes/cuffs/legs, image5 CURRENTcompletebothhands. Currenthead aroundx563..840 y213..442, facefrontmoreupright/centered, BOTH closed almosthorizontal shortblackeyelids, larger round O mouth andorangecheeks, notprevioushair-obscuredmouth. Redberetbrown band ONEcreamclover ONEwhitefeather, pointedears/blondebangs, exactly TWO compactshort rootedsideponies collarclearlybetween, no thirdneckcluster. Matchsourcefaceposition not highheldprevioushead.\nCURRENT BOTH ARMS raise to shallowV: leftsleevefromx600y418 up-left tocuffx395..444 y343..421, openbrownleftpalmx345..403 y306..382 fingers UP-LEFT; rightarmfromx828y418 up-righttocuffx966..1034 y372..453, openrightbrownpalmx1018..1090 y315..399 fingersUPRIGHT. Bothhands clearlyhigherthanprevious2090leftpalm, fullbrown gloves throughout exacttwohands, no barefingers. Source shoulders and coatmorevertical, notrandomwholebodyrotate. Plain redcoat creamfoldedcollar/cuffs/hem, no coatcloverbuttons/pockets, mostlyhidden smallplainbrownbackpack andplainbrownboots. Removealloriginalrabbitmask/pajamas/peachlonghair.\nCURRENT rightbackbent leg tucks moreLEFT/UP than2090: hipx745..825 y720 thighcurve to kneex820y816, shortalmosthorizontalshinrighttox918y798, creambootcuffx897..935 y764..829, bootx912..981 y742..866 narrowroundsolefacesviewer withtoeDOWN. LEFT longleg goes fromhipx625y728 diagonalDOWNRIGHT toanklex751y979 thenbootx731..835 y1000..1074, same nearbottomcut but notbelowcanvas. Twolegs distinct, rightthighbehindleftatroot, no straightkickuprighttoeUPsole. Preserve currentleglength andoriginaldrawingexposure. Samefull16:9 composition, simplethinwobblyblackPVink, flatred/cream/blonde/brownfills minimalhardshadow, not3D. Lavenderbackground/creamoutlinedstars/yellowparticles preserve independentoriginalphase. Do not modeldraw/retypelyrics: exactsourcecaptions restoredseparately. Noedgefaces/extraactors/props, no mirror/morph/warp/collage. Newcurrentleftarmraising/centeredlargerOmouth/backfootshortertuckmustshow.",
+        "references": [
+          "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1164-f2094.png",
+          "C:/Users/KLucen/Desktop/kl/production/generated/middle-next-f2090-2026-10-05-source-v1.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2090-f2094-source-AB-RGB-contours.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2094-source-native-keyparts.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2094-both-hands-full-native.png"
+        ],
+        "reference_roles": [
+          "CURRENT original sole expression/armraising/leg/cropauthority",
+          "Prior Klee identity/style only notheadangle orhandheight",
+          "Real original A/B actual RGB contour rightcurrent",
+          "CURRENT nativekeyeyes cuffs boots",
+          "Current complete bothhands native"
+        ],
+        "output": "generated/middle-next-f2094-2026-10-05-source-v1.png",
+        "accepted": false,
+        "artistic_accepted": false,
+        "status": "reviewed_static_temporal_pending",
+        "actual_speed_review": "not_performed",
+        "source_inspection": {
+          "actual_sequential_decode_reference_equal": true,
+          "visible_people": 1,
+          "face": "front centered bothclosed horizontaleyelids largerroundO",
+          "hands": "bothraise shallowV versus priorleftarmhorizontal",
+          "legs": "rightbackbendshorteruplefttuck narrowsoleviewer; leftlongdownfootbottom"
+        },
+        "ordered_reference_metadata": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1164-f2094.png",
+            "sha256": "a6bdad80b8c900dfec71dcb88106f504b72e35c605c3a8011a42c650200862b6",
+            "canvas": [
+              1920,
+              1080
+            ],
+            "role": "CURRENT original sole expression/armraising/leg/cropauthority"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2090-2026-10-05-source-v1.png",
+            "sha256": "3b5616f08e4ff98e44e22f64745d8eff449fd51a38b9513e45e3f4859c7f951c",
+            "canvas": [
+              1672,
+              941
+            ],
+            "role": "Prior Klee identity/style only notheadangle orhandheight"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2090-f2094-source-AB-RGB-contours.png",
+            "sha256": "4ad6aca1b29a0766e527e171bc46b598bd57e8ea5d0925adf70118913ba07503",
+            "canvas": [
+              3840,
+              2240
+            ],
+            "role": "Real original A/B actual RGB contour rightcurrent"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2094-source-native-keyparts.png",
+            "sha256": "96e58cf938d37143ab686539872235e9825d453776c498e3294516ca274172de",
+            "canvas": [
+              990,
+              1359
+            ],
+            "role": "CURRENT nativekeyeyes cuffs boots"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2094-both-hands-full-native.png",
+            "sha256": "91af321d7241698b57aae71eeb46dd2b4fc6c6a45142854c27e157ecf0a1f569",
+            "canvas": [
+              780,
+              235
+            ],
+            "role": "Current complete bothhands native"
+          }
+        ],
+        "ordered_reference_metadata_phase": "before_builtin_call",
+        "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-7dea118e-06fa-44c5-9219-4ec84160d32f.png",
+        "tool_output_metadata": {
+          "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-7dea118e-06fa-44c5-9219-4ec84160d32f.png",
+          "sha256": "ee830e40fc47ad66aee837fe3f525cbd6ee6732996c56d8e5174d772894cc2dc",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "workspace_output_metadata": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2094-2026-10-05-source-v1.png",
+          "sha256": "ee830e40fc47ad66aee837fe3f525cbd6ee6732996c56d8e5174d772894cc2dc",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "output_sha256": "ee830e40fc47ad66aee837fe3f525cbd6ee6732996c56d8e5174d772894cc2dc",
+        "actual_builtin_call_submitted": true,
+        "known_issues": [
+          "Source head/camera registration approximate; Klee head and hat taller, centered face differs slightly",
+          "Both palms too large/exposed, cuff/arm lengths broader than source",
+          "Right foot tuck only modestly differs from2090 and remains rightward; sole/cuff/hem contours approximate",
+          "Minor costume shading; no same-blocking hair/limb error observed",
+          "Generated stars/background differ and text omitted; restore source layers at exact timing",
+          "Static comparisons only, final composition/actual-speed unreviewed"
+        ],
+        "source_current_observed": "New centered frontal face with both closed horizontal eyelids and larger round O. Left arm rises to shallowV matching right raised open arm. Right back-bent leg shortened tuck/right sole viewer, left long low leg, two compact side-rooted ponies and plain red coat.",
+        "final_composition_review": "not_performed",
+        "static_review": "qa/middle-next-missing-2026-10-05/f2094-source-new-static.png"
+      }
+    },
+    {
+      "job": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-next-f2098-2026-10-05-source-v1.json",
+      "job_sha256": "79401aa00fa9475652c53a1a8f29452f6d27d7c9fe32b4cc6cca7591c1ad5522",
+      "full_saved_job": {
+        "job_id": "middle-next-f2098-2026-10-05-source-v1",
+        "source_frame": 2098,
+        "source_cel": "cel-0389",
+        "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1168-f2098.png",
+        "source_exposures": [
+          {
+            "start": 2098,
+            "end": 2105,
+            "pts": 87.417,
+            "end_pts": 87.708,
+            "family": "star_dance",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "tool": "built-in image_gen",
+        "prompt": "Use case: identity-preserve. Generate ONE independent full strict-source Klee PV cel f2098. Original CURRENT image1 decides composition/actual currenteyes-mouth/armangle/kneeoverlap/headposition. Image2 previousKlee f2094 identity/plaincostume/shorttwo-earrootpony/inkcontinuity ONLY, don't holdits exactVarm oruntuckedrightleg. Image3 sourcef2094->2098 actualA/B RGB contours RIGHTCURRENT. Image4 CURRENT nativeeyes cuffs/boots, image5 completebothhands. Exactly ONEactor replacing alloriginalrabbitmask/longpeachhair/pajamas, noedgefaces. CurrentheadslightDOWN andLEFTturn/slant frompriorcenteredface, facearoundx646..786 y319..433 BOTH eyes CLOSED almosthorizontal shortblacklids slantslightlyDOWNRIGHT, larger round O mouth aroundx710y410 nearcollar, orangecheeks. Redberetbrownband singlecreamclover singlewhitefeather blondebangs pointedears; exactlyTWO short compactrootedsideponies oneeachoutershoulder, necklinecreamcollarseparatesno thirdneckhairtuft. Headmatches currentsourceplacement nothighheldprevioushead.\nCurrentarms raiseMORE steeplyUP left/right: leftupperarmx436..582 y345..488, creamcuffx381..452 y319..410, leftbrownopenpalmx335..413 y274..355 fourfingersUP thumbLEFT; rightupperarmx806..982 y356..488, creamcuffx950..1019 y356..442, rightbrownopenpalmx997..1069 y301..374 fingersUP thumbRIGHT. No inventedthirdhand. Wholebrownfinger/palmglovesnotbare/fingerless. Bothwristpositions andsleeveangles changefromf2094, don'tjustredrawsameendpoints.\nSourcehipsx602..792 y705..731, LEFTnearleg almoststraightdownRIGHT fromx606y720 throughx685y876 toanklex748y980 bootx730..833 y1000..1072. RIGHTfarleg tucks muchcloserBEHINDnearleg: thigharoundx758y710 curvesdown tosmallknee x777y807 partlybehindnearleg, shortshinup-right toanklex842y780, rearbootx832..911 y725..851 sole roundfacingviewer/toeDOWN. Currentnearleft thigh occludes mostfar thigh; do not draw priorf2094wide horizontalshinfar-right. Still exacttwolegstwofeet, compactraisedbackfoot higherthan nearbottomfoot. Plainredcoat continuouscreamfoldedcollar/cuffs/hem, plainbrownbootscreamcuffs, tiny mostlyhiddenbrownbackpack, NOcoatcloverbuttons/pockets/originalbuttons. Simpleflatfills thinwobblyblackPVink minimalshadowno3Dornatecostume. Originallavenderbackground creamoutlinedstars andtiny yellowparticles independentlypreservedcurrentphase; noAI text/retypedlyrics, sourcecaptionlayerrestoredlater. Full16:9 samecrop footwithinbottomedge, no addedpeople/objects, no mirror/morph/warp/collage. ThisisnewcurrentsteeperV/tuckedrear-kneebehindnearleg cel, notheldpreviouspose.",
+        "references": [
+          "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1168-f2098.png",
+          "C:/Users/KLucen/Desktop/kl/production/generated/middle-next-f2094-2026-10-05-source-v1.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2094-f2098-source-AB-RGB-contours.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2098-source-native-keyparts.png",
+          "C:/Users/KLucen/Desktop/kl/production/qa/middle-next-missing-2026-10-05/f2098-both-hands-full-native.png"
+        ],
+        "reference_roles": [
+          "CURRENT source sole exactexpression/handangle/kneeoverlap/cropauthority",
+          "Prior Klee identity/style/ponycontinuity only not pose",
+          "Original current beforeA/B trueRGB contours",
+          "CURRENT native exactkeyface cuffs legs",
+          "CURRENTcompletebothhands native"
+        ],
+        "output": "generated/middle-next-f2098-2026-10-05-source-v1.png",
+        "accepted": false,
+        "artistic_accepted": false,
+        "status": "reviewed_static_temporal_pending",
+        "actual_speed_review": "not_performed",
+        "source_inspection": {
+          "actual_sequential_decode_reference_equal": true,
+          "visible_people": 1,
+          "face": "slightdownleftclosedeyelids roundO",
+          "hands": "steeperV bothopenbrownpalms higherangles",
+          "legs": "righttuckedclosebehindnearleftthigh sourceocclusion strong; leftlowlongfoot"
+        },
+        "ordered_reference_metadata": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1168-f2098.png",
+            "sha256": "14dd7b32254f6eaf0562d71cc3c23476aca534a3f47c533439310321e0d14226",
+            "canvas": [
+              1920,
+              1080
+            ],
+            "role": "CURRENT source sole exactexpression/handangle/kneeoverlap/cropauthority"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2094-2026-10-05-source-v1.png",
+            "sha256": "ee830e40fc47ad66aee837fe3f525cbd6ee6732996c56d8e5174d772894cc2dc",
+            "canvas": [
+              1672,
+              941
+            ],
+            "role": "Prior Klee identity/style/ponycontinuity only not pose"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2094-f2098-source-AB-RGB-contours.png",
+            "sha256": "1da2b374bfffae8b79b8c269aeaadbc9c69dd9de3ea80a57145e8a44013570c1",
+            "canvas": [
+              3840,
+              2240
+            ],
+            "role": "Original current beforeA/B trueRGB contours"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2098-source-native-keyparts.png",
+            "sha256": "0902be347862db92f002a6d769ae581e2d40d77c013a2894de2223e667764808",
+            "canvas": [
+              990,
+              1359
+            ],
+            "role": "CURRENT native exactkeyface cuffs legs"
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\f2098-both-hands-full-native.png",
+            "sha256": "c22765b3f2268d0d14949f7d220b6197a3d304cac081eac2a1c4f70cdf12a349",
+            "canvas": [
+              770,
+              265
+            ],
+            "role": "CURRENTcompletebothhands native"
+          }
+        ],
+        "ordered_reference_metadata_phase": "before_builtin_call",
+        "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-a31008d6-7a64-421b-a103-8f6cfd3c618e.png",
+        "tool_output_metadata": {
+          "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10bb5-5137-7251-ad9d-aa7da1a98ada\\exec-a31008d6-7a64-421b-a103-8f6cfd3c618e.png",
+          "sha256": "af1cb5dadb2a67111aaede9878b56e8f7cc2faf1995a2682ab4c8badcd4ec613",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "workspace_output_metadata": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2098-2026-10-05-source-v1.png",
+          "sha256": "af1cb5dadb2a67111aaede9878b56e8f7cc2faf1995a2682ab4c8badcd4ec613",
+          "canvas": [
+            1672,
+            941
+          ]
+        },
+        "output_sha256": "af1cb5dadb2a67111aaede9878b56e8f7cc2faf1995a2682ab4c8badcd4ec613",
+        "actual_builtin_call_submitted": true,
+        "known_issues": [
+          "Head/beret large/high and body rightward compared source, source placement approximate",
+          "Left-arm raising noticeably exaggerated, left cuff/palm higher than source; right arm and finger fan broader",
+          "Current rear-knee/near-thigh occlusion represented but contour/hem/cuff/sole amplitude approximate",
+          "Hair remains exactly two connected short ponytails, no blocking extra neck cluster seen",
+          "Generated stars/background independent phase not source exact; captions intentionally absent and must be restored before delivery",
+          "Static native review only; actual-speed and final composition/artistic acceptance not performed"
+        ],
+        "source_current_observed": "Current left-down facial slant with both eyes closed/round O, two rooted short ponies. Both arms raised steeper V, exactly two brown palms. Rear right knee now close behind near left thigh, rear boot closer inward than2094 and distinct sole viewer; left leg long to bottomfoot.",
+        "final_composition_review": "not_performed",
+        "static_review": "qa/middle-next-missing-2026-10-05/f2098-source-new-static.png"
+      }
+    }
+  ],
+  "successful_builtin_calls": 6,
+  "accepted": false,
+  "proposal_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\draft-proposal.json",
+  "proposal_sha256": "8ea3642743e36d510b39fdc84835f7678278a792996851de99f3bca4aa26165e",
+  "validation_failures": [],
+  "actual_speed_review": "not_performed"
+}

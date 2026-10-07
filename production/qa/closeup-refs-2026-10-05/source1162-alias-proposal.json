@@ -1,0 +1,176 @@
+{
+  "accepted": false,
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "source_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "source_frame": 1162,
+  "source_candidate": "src-0694",
+  "source_cel": "cel-0247",
+  "verified_target_frame": 1161,
+  "verified_target_candidate": "src-0693",
+  "verified_target_cel": "cel-0246",
+  "source_exposures_unchanged": [
+    {
+      "start": 1162,
+      "end": 1164,
+      "pts": 48.417,
+      "end_pts": 48.5,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "target_exposures_unchanged": [
+    {
+      "start": 1161,
+      "end": 1162,
+      "pts": 48.375,
+      "end_pts": 48.417,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "transform": {
+    "kind": "identity",
+    "matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "character_only_reuse": true,
+  "background_and_captions_keep_each_original_frame": true,
+  "semantic_reason": "All actual f1161, f1162 and f1163 were sequentially decoded and checked pixel-exact against their canonical original references. Closed eyelids, small open O mouth, hat and bangs, both extended index fingers and curled remaining fingers, cuffs, shoulder sleeves, collar/hair edges, coat buttons and seam are the same source drawing. Actual native wide RGB differences and dual contours show caption replacement and independently moving stars, plus sparse codec strips rather than coherent character line changes. The caption at f1162 changes from the short previous line to the chorus line. f1163 is source-map codec_copy_of_representative for f1162. Only the character may reuse candidate-039 for [1162,1164); captions and graphics must come from each current original frame.",
+  "all_actual_source_exposure_frames_viewed": [
+    1161,
+    1162,
+    1163
+  ],
+  "actual_viewed_files": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-source-actual.png",
+      "sha256": "9c480d0b154cad00da5cc4dbe16ff1d638a9d5fa0383c8425fc36019d8c4f24f"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1162-source-actual.png",
+      "sha256": "284e8ed0e1fd2d882e94c7dec39abd4ef52d7ae8e3974968192d9ec3c159cbd9"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1163-source-actual.png",
+      "sha256": "8e1c2abb0c954e48f9c11109037603e4034f3d62bb31194bb80f5b5d9f3e96c0"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-repeat-exposure-actual-native.png",
+      "sha256": "9a9148ce337c58c9e53e3b0f150abd9143fce6f7381ee76279cadd420aa5d84e"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1162-repeat-exposure-actual-native.png",
+      "sha256": "6f6ffc60112bc01b3249a005f0f0c70e5dd1076b5761ad7996b140f98c16c559"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1163-repeat-exposure-actual-native.png",
+      "sha256": "474a15c1aa674ab2f22abee1fe7d7bc1def1d844dca66a3c3391848543067d37"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1162-repeat-actual-rgb-x4-wide-native.png",
+      "sha256": "40293104a8a3f6c700ac44a9a54ca197685196719d1925f7f33f55ccaef155b1"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1162-repeat-dual-contours-wide-native.png",
+      "sha256": "593b3d428666c544ad21a60777e3397875a08a7de62d35e440b4cd6760182c71"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1162-repeat-locals-1-native.png",
+      "sha256": "a1b8b23969aef0e8156ac06b4aa7b183babe697ade0d3f3dedcc6ffa6acf3a13"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1162-repeat-locals-2-native.png",
+      "sha256": "7bec03442f91b49c14934c891e172835ecda2f7ea719164f9f11ee4147f84c58"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1163-repeat-actual-rgb-x4-wide-native.png",
+      "sha256": "1eb81e1f698810396e7127f421c391a47715977f64679dcc9f9d255f9ed02fe4"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1163-repeat-dual-contours-wide-native.png",
+      "sha256": "d78a3e6314911621ce51573294682be4ced101577d751ad684fa48644d419697"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1163-repeat-locals-1-native.png",
+      "sha256": "6920d5938ba0540d0931d97005a2bd434f6689a3951a3fb3397b675cd5dfd822"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1163-repeat-locals-2-native.png",
+      "sha256": "197aaa22a928af807fe5821fb291d57726506a08b844363d4980bd3314d72eea"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1161-f1162-full-ab-rgb-contours.png",
+      "sha256": "cf40073dfc35f40e5e20f18c53a295f1e867439dfb7da69cb69529bc248a17fc"
+    }
+  ],
+  "view_scale": "1920x1080 original sources, 1570x1080 whole-character exposure/RGB/contour images, and 1440-wide local pages were viewed at native pixels. The 3840x2224 full AB overview was downscaled by the viewer to 2048x1186 and is not the native review basis.",
+  "current_target": {
+    "selection": {
+      "path": "generated\\candidate-039.png",
+      "source_frame": 1161,
+      "selection_review": null,
+      "selection_metadata": null,
+      "verified_alias": null,
+      "selection_known_issues": []
+    },
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-039.png",
+    "sha256": "9ef45455143245f3d7288413a493a36c8ca986287b8df7e0ae48f8c0fdb94e57",
+    "actual_art_image_viewed": true,
+    "artistic_accepted": false
+  },
+  "evidence_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\corrected-closeup-source-reference-queue.json",
+  "evidence_sha256": "5ceb97d327332709760585c5ab397c60b5a20ccd8668b35c75616b705a0c5742",
+  "sequential_decode": [
+    0,
+    1222
+  ],
+  "exact_source_checks": 17,
+  "source_map_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "worker_review": "source_semantic_visual_review_complete",
+  "root_review": "actual_visual_review_required_before_adoption",
+  "mapping_available_only_after_target_art_selected": true,
+  "artistic_accepted": false,
+  "alias_created": false,
+  "original_speed_review": "not_performed",
+  "no_art_or_shared_file_writes": true,
+  "limits": "Source-only identity evidence; does not accept candidate art, future caption compositor or playback quality."
+}

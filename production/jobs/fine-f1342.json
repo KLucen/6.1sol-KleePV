@@ -1,0 +1,24 @@
+{
+  "job_id": "fine-f1342",
+  "source_frame": 1342,
+  "source_candidate": "src-0830",
+  "canonical_cel": "cel-0287",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1335.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0830-f1342.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\title-f1335-f1342.png"
+  ],
+  "prompt": "EDIT clean Klee cel Image1 to the current exact source pose Image2 frame1342. ONE full16:9 cel. Image1 fixes Klee clothes/design, size, short ponytails and foot baseline y680 of1672x940, keep boots/coat length/body volume anchored. Image2 is exact SOURCE current pose: head NOW LEANS mildly toward VIEWER RIGHT, left eye higher than right about8-12px at1672 canvas (not left-lean), hat/clover/feather and bangs lean together. Head/jaw shift subtly right while shoulders/crossed forearms and outer body respond locally, not entire-body rigid rotate. Tired equally half-lidded OPEN RED eyes looking down-left, tiny closed dot mouth, orange oval blush. Image3 shows real1335→1342 source differences: draw changed fringe/cheek contour, slightly higher near forearm/left elbow with wrist nearer chin, right coat/backpack edge and knee/boot contour slight redraw. Do not freeze Image1. Klee ShootingSpark blonde TWO SHORT ponytails/pointed ears, red beret cream clover white feather, red coat cream cuffs and cream hem, brown gloves/boots/backpack with round cream pom-poms. Keep exact clothing topology and simplify like image1. Seated small near center with knees raised, two boots together, forearms crossed IN FRONT of knees, hands below chin and hair behind gloves. Body nearly upright, feet do not move down or grow. Loose source-like dark contours, broad flat colors, restrained shadow, no fine game rendering. Remove ALL pale title lettering from source: clean EMPTY LAVENDER BACKGROUND with no text, captions, credits or labels. No pajamas/bunny mask/pink long hair, no new object or character. Only the complete edited cel.",
+  "output": "../generated/fine-f1342.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-1e0168c0-8ffa-4b50-b4f9-707bf84380c3.png",
+  "status": "generated_pending_review",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "character_coherent_pixels": 58669,
+    "proof": "qa/late-title-source-audit.json",
+    "differences": "diffs/title-f1335-f1342.png"
+  },
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

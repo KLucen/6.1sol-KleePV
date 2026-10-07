@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0054",
+  "source_frame": 54,
+  "source_candidate": "src-0016",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0016-f0054.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0050.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0054.png"
+  ],
+  "prompt": "ONE full 16:9 Klee replacement PV cel. Reference 1 CURRENT source determines exact pose, framing, crop, eye/mouth, pillow position and occlusion. Reference 2 preceding Klee cel determines SAME identity, hat/feather side, two SHORT ponytails, outfit, proportions, colors and PV style only, not frozen pose. Reference 3 source BEFORE/CURRENT spatial difference, top right is CURRENT: analysis panels never appear in artwork. Major change: BOTH ARMS now extend far FORWARD toward screen LEFT, almost horizontally at chest level. The hands remain clasped at the far LEFT end of the extended sleeves, near current source x1025,y560, not tucked against chest as preceding Klee. Translate this actual joint pose into red Klee sleeves and cream cuffs with brown gloves, the upper glove partially behind the lower wrist. Elbows and sleeve contour become much straighter, source curved sleeve folds followed; keep red coat/capelet/backpack and bent knees cropped below frame. Head remains left-facing profile, narrow OPEN RED iris, lips nearly closed tiny dot/stroke, exact current head angle, cheek and eyebrow. Klee hat/clover/white feather, pointed ear, blonde bangs and TWO short side ponytails stay recognizably same as previous but source current outline changes followed. Pillow remains diagonal BEHIND head and arms, original cream/blue patches. Current clock unchanged. NO subtitles/titles/credits/labels/lettering anywhere, clock digits also removed for separate original restoration. Flat loose dark outlines, orange cheek and one flat shadow, no gray pajamas/pockets/rabbit hood, no new limbs, no zoom out. Do not copy the prior bent-elbow pose.",
+  "output": "../generated/fine-f0054.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

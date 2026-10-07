@@ -1,0 +1,558 @@
+{
+  "roi_xyxy": [
+    1125,
+    0,
+    1490,
+    285
+  ],
+  "interpretation": "Analytical remaining exact-source color coincidences; actual static scope review decides significance",
+  "records": [
+    {
+      "frame": 900,
+      "old_source_fringe_pixels": 16,
+      "old_source_fringe_bounds_xyxy": [
+        1466,
+        34,
+        1470,
+        38
+      ],
+      "old_source_fringe_samples": [
+        {
+          "xy": [
+            1466,
+            34
+          ],
+          "source_bgr": [
+            247,
+            187,
+            74
+          ],
+          "generated_bgr": [
+            231,
+            180,
+            57
+          ],
+          "output_bgr": [
+            247,
+            187,
+            74
+          ]
+        },
+        {
+          "xy": [
+            1468,
+            34
+          ],
+          "source_bgr": [
+            254,
+            194,
+            81
+          ],
+          "generated_bgr": [
+            228,
+            189,
+            70
+          ],
+          "output_bgr": [
+            254,
+            194,
+            81
+          ]
+        },
+        {
+          "xy": [
+            1466,
+            35
+          ],
+          "source_bgr": [
+            249,
+            189,
+            76
+          ],
+          "generated_bgr": [
+            230,
+            177,
+            52
+          ],
+          "output_bgr": [
+            249,
+            189,
+            76
+          ]
+        },
+        {
+          "xy": [
+            1468,
+            35
+          ],
+          "source_bgr": [
+            255,
+            196,
+            83
+          ],
+          "generated_bgr": [
+            229,
+            187,
+            66
+          ],
+          "output_bgr": [
+            255,
+            196,
+            83
+          ]
+        },
+        {
+          "xy": [
+            1466,
+            36
+          ],
+          "source_bgr": [
+            245,
+            185,
+            72
+          ],
+          "generated_bgr": [
+            230,
+            170,
+            42
+          ],
+          "output_bgr": [
+            245,
+            185,
+            72
+          ]
+        },
+        {
+          "xy": [
+            1468,
+            36
+          ],
+          "source_bgr": [
+            252,
+            192,
+            79
+          ],
+          "generated_bgr": [
+            230,
+            182,
+            56
+          ],
+          "output_bgr": [
+            252,
+            192,
+            79
+          ]
+        },
+        {
+          "xy": [
+            1466,
+            37
+          ],
+          "source_bgr": [
+            240,
+            180,
+            67
+          ],
+          "generated_bgr": [
+            231,
+            162,
+            31
+          ],
+          "output_bgr": [
+            240,
+            180,
+            67
+          ]
+        },
+        {
+          "xy": [
+            1469,
+            37
+          ],
+          "source_bgr": [
+            246,
+            186,
+            73
+          ],
+          "generated_bgr": [
+            230,
+            171,
+            42
+          ],
+          "output_bgr": [
+            246,
+            186,
+            73
+          ]
+        }
+      ],
+      "generated_sky_vacated_patch_pixels": 4,
+      "generated_sky_vacated_patch_bounds_xyxy": [
+        1144,
+        26,
+        1148,
+        27
+      ],
+      "generated_sky_patch_samples": [
+        {
+          "xy": [
+            1144,
+            26
+          ],
+          "source_bgr": [
+            101,
+            107,
+            33
+          ],
+          "generated_bgr": [
+            230,
+            93,
+            1
+          ],
+          "output_bgr": [
+            230,
+            93,
+            1
+          ]
+        },
+        {
+          "xy": [
+            1145,
+            26
+          ],
+          "source_bgr": [
+            95,
+            101,
+            27
+          ],
+          "generated_bgr": [
+            235,
+            96,
+            2
+          ],
+          "output_bgr": [
+            235,
+            96,
+            2
+          ]
+        },
+        {
+          "xy": [
+            1146,
+            26
+          ],
+          "source_bgr": [
+            91,
+            102,
+            27
+          ],
+          "generated_bgr": [
+            228,
+            90,
+            2
+          ],
+          "output_bgr": [
+            228,
+            90,
+            2
+          ]
+        },
+        {
+          "xy": [
+            1147,
+            26
+          ],
+          "source_bgr": [
+            90,
+            101,
+            26
+          ],
+          "generated_bgr": [
+            216,
+            83,
+            1
+          ],
+          "output_bgr": [
+            216,
+            83,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 901,
+      "old_source_fringe_pixels": 16,
+      "old_source_fringe_bounds_xyxy": [
+        1466,
+        34,
+        1470,
+        38
+      ],
+      "old_source_fringe_samples": [
+        {
+          "xy": [
+            1466,
+            34
+          ],
+          "source_bgr": [
+            247,
+            187,
+            74
+          ],
+          "generated_bgr": [
+            231,
+            180,
+            57
+          ],
+          "output_bgr": [
+            247,
+            187,
+            74
+          ]
+        },
+        {
+          "xy": [
+            1468,
+            34
+          ],
+          "source_bgr": [
+            254,
+            194,
+            81
+          ],
+          "generated_bgr": [
+            228,
+            189,
+            70
+          ],
+          "output_bgr": [
+            254,
+            194,
+            81
+          ]
+        },
+        {
+          "xy": [
+            1466,
+            35
+          ],
+          "source_bgr": [
+            249,
+            189,
+            76
+          ],
+          "generated_bgr": [
+            230,
+            177,
+            52
+          ],
+          "output_bgr": [
+            249,
+            189,
+            76
+          ]
+        },
+        {
+          "xy": [
+            1468,
+            35
+          ],
+          "source_bgr": [
+            255,
+            196,
+            83
+          ],
+          "generated_bgr": [
+            229,
+            187,
+            66
+          ],
+          "output_bgr": [
+            255,
+            196,
+            83
+          ]
+        },
+        {
+          "xy": [
+            1466,
+            36
+          ],
+          "source_bgr": [
+            245,
+            185,
+            72
+          ],
+          "generated_bgr": [
+            230,
+            170,
+            42
+          ],
+          "output_bgr": [
+            245,
+            185,
+            72
+          ]
+        },
+        {
+          "xy": [
+            1468,
+            36
+          ],
+          "source_bgr": [
+            252,
+            192,
+            79
+          ],
+          "generated_bgr": [
+            230,
+            182,
+            56
+          ],
+          "output_bgr": [
+            252,
+            192,
+            79
+          ]
+        },
+        {
+          "xy": [
+            1466,
+            37
+          ],
+          "source_bgr": [
+            240,
+            180,
+            67
+          ],
+          "generated_bgr": [
+            231,
+            162,
+            31
+          ],
+          "output_bgr": [
+            240,
+            180,
+            67
+          ]
+        },
+        {
+          "xy": [
+            1469,
+            37
+          ],
+          "source_bgr": [
+            246,
+            186,
+            73
+          ],
+          "generated_bgr": [
+            230,
+            171,
+            42
+          ],
+          "output_bgr": [
+            246,
+            186,
+            73
+          ]
+        }
+      ],
+      "generated_sky_vacated_patch_pixels": 4,
+      "generated_sky_vacated_patch_bounds_xyxy": [
+        1144,
+        26,
+        1148,
+        27
+      ],
+      "generated_sky_patch_samples": [
+        {
+          "xy": [
+            1144,
+            26
+          ],
+          "source_bgr": [
+            101,
+            107,
+            33
+          ],
+          "generated_bgr": [
+            230,
+            93,
+            1
+          ],
+          "output_bgr": [
+            230,
+            93,
+            1
+          ]
+        },
+        {
+          "xy": [
+            1145,
+            26
+          ],
+          "source_bgr": [
+            95,
+            101,
+            27
+          ],
+          "generated_bgr": [
+            235,
+            96,
+            2
+          ],
+          "output_bgr": [
+            235,
+            96,
+            2
+          ]
+        },
+        {
+          "xy": [
+            1146,
+            26
+          ],
+          "source_bgr": [
+            91,
+            102,
+            27
+          ],
+          "generated_bgr": [
+            228,
+            90,
+            2
+          ],
+          "output_bgr": [
+            228,
+            90,
+            2
+          ]
+        },
+        {
+          "xy": [
+            1147,
+            26
+          ],
+          "source_bgr": [
+            90,
+            101,
+            26
+          ],
+          "generated_bgr": [
+            216,
+            83,
+            1
+          ],
+          "output_bgr": [
+            216,
+            83,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "not_acceptance": true
+}

@@ -1,0 +1,354 @@
+{
+  "accepted": false,
+  "source_interval": [
+    2121,
+    2145
+  ],
+  "frames": 24,
+  "registered_cels": 10,
+  "registration": {
+    "middle-after-f2115-2026-10-05-source-v1.png": [
+      2121,
+      2122
+    ],
+    "middle-after-f2122-2026-10-05-source-v1.png": [
+      2122,
+      2129
+    ],
+    "middle-after-f2129-2026-10-05-source-v1.png": [
+      2129,
+      2130
+    ],
+    "middle-after-f2130-2026-10-05-source-v1.png": [
+      2130,
+      2132
+    ],
+    "middle-next-f2132-oct6-v1.png": [
+      2132,
+      2135
+    ],
+    "middle-next-f2135-oct6-v1.png": [
+      2135,
+      2136
+    ],
+    "middle-next-f2136-oct6-v1.png": [
+      2136,
+      2138
+    ],
+    "middle-next-f2138-oct6-v1.png": [
+      2138,
+      2141
+    ],
+    "middle-next-f2141-oct6-v2.png": [
+      2141,
+      2143
+    ],
+    "middle-next-f2143-oct6-v1.png": [
+      2143,
+      2145
+    ]
+  },
+  "original_pts_verified": true,
+  "frozen_input_hashes": {
+    "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_meta.json": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_map.json": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\timeline-middle-2121-2145-oct6-draft-v1.json": "a0191e14b4aced657914ca81354c2bdff14e68491b920943cdc964359a546c69",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-after-f2115-2026-10-05-source-v1.png": "22494f3f0f616d0327b2cbe435d126d67ee6218741c609ad7aca7fbf2c9586a5",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-after-f2122-2026-10-05-source-v1.png": "1315f98cf3ebda0941948f1e0678d3b7c8b195d1c39ca6243f63abd410d9c0a9",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-after-f2129-2026-10-05-source-v1.png": "47f230f80d29785f348621fe1b17398c6be49ab5e8fc692562975f54c4aeef42",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-after-f2130-2026-10-05-source-v1.png": "0e2810d217d478d9a5814887ecaa3a7b3ff876413ed3e5bf0bbc17c4090d9149",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2132-oct6-v1.png": "4cca1da6a045c86930d23b8d7c2f29d7fc1889e1b0f38c0a61f5ccdc121f6b58",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2135-oct6-v1.png": "30f0f8f994253d4e30311515a713a3001ebdb6e1f8b651a19e920ca5cad3fbd0",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2136-oct6-v1.png": "759411881279234dad00469e24443035421e029df1026da4dc1ca646ccc8f174",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2138-oct6-v1.png": "f13634c5b5128e8bfec11fc1b3a86f999a3fb3f867af46fe598240a370b51bf8",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2141-oct6-v2.png": "06755f821b4ba0d417def7284443ddbe580d808ab8d4b7ca47252cd9b9539e9a",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-next-f2143-oct6-v1.png": "e26fed6d8612240c3442116ca1e75b0da4cf298464de8706bfcadfb352bfb23b"
+  },
+  "frozen_inputs_unchanged": true,
+  "technical_oracle_pass": true,
+  "failures": [],
+  "frame_records": [
+    {
+      "frame": 2121,
+      "asset": "middle-after-f2115-2026-10-05-source-v1.png",
+      "cel": "cel-0393",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 236196,
+      "new_pixels": 245458,
+      "reconstructed_vacated_pixels": 51740,
+      "ownership_pixels": 299724
+    },
+    {
+      "frame": 2122,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232775,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 66057,
+      "ownership_pixels": 307434
+    },
+    {
+      "frame": 2123,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232841,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 66004,
+      "ownership_pixels": 307383
+    },
+    {
+      "frame": 2124,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232897,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 66207,
+      "ownership_pixels": 307594
+    },
+    {
+      "frame": 2125,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232875,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 66134,
+      "ownership_pixels": 307515
+    },
+    {
+      "frame": 2126,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232912,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 66404,
+      "ownership_pixels": 307788
+    },
+    {
+      "frame": 2127,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232791,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 65975,
+      "ownership_pixels": 307368
+    },
+    {
+      "frame": 2128,
+      "asset": "middle-after-f2122-2026-10-05-source-v1.png",
+      "cel": "cel-0394",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 232770,
+      "new_pixels": 240065,
+      "reconstructed_vacated_pixels": 66129,
+      "ownership_pixels": 307522
+    },
+    {
+      "frame": 2129,
+      "asset": "middle-after-f2129-2026-10-05-source-v1.png",
+      "cel": "cel-0395",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 236064,
+      "new_pixels": 241525,
+      "reconstructed_vacated_pixels": 37959,
+      "ownership_pixels": 280997
+    },
+    {
+      "frame": 2130,
+      "asset": "middle-after-f2130-2026-10-05-source-v1.png",
+      "cel": "cel-0396",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 935714,
+      "new_pixels": 943489,
+      "reconstructed_vacated_pixels": 65224,
+      "ownership_pixels": 1010221
+    },
+    {
+      "frame": 2131,
+      "asset": "middle-after-f2130-2026-10-05-source-v1.png",
+      "cel": "cel-0396",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 936220,
+      "new_pixels": 943489,
+      "reconstructed_vacated_pixels": 65391,
+      "ownership_pixels": 1010314
+    },
+    {
+      "frame": 2132,
+      "asset": "middle-next-f2132-oct6-v1.png",
+      "cel": "cel-0397",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1097599,
+      "new_pixels": 1154314,
+      "reconstructed_vacated_pixels": 29106,
+      "ownership_pixels": 1184372
+    },
+    {
+      "frame": 2133,
+      "asset": "middle-next-f2132-oct6-v1.png",
+      "cel": "cel-0397",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1097606,
+      "new_pixels": 1154314,
+      "reconstructed_vacated_pixels": 29088,
+      "ownership_pixels": 1184354
+    },
+    {
+      "frame": 2134,
+      "asset": "middle-next-f2132-oct6-v1.png",
+      "cel": "cel-0397",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1097687,
+      "new_pixels": 1154314,
+      "reconstructed_vacated_pixels": 29100,
+      "ownership_pixels": 1184366
+    },
+    {
+      "frame": 2135,
+      "asset": "middle-next-f2135-oct6-v1.png",
+      "cel": "cel-0398",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1089040,
+      "new_pixels": 642581,
+      "reconstructed_vacated_pixels": 543021,
+      "ownership_pixels": 1186608
+    },
+    {
+      "frame": 2136,
+      "asset": "middle-next-f2136-oct6-v1.png",
+      "cel": "cel-0399",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1086899,
+      "new_pixels": 1166012,
+      "reconstructed_vacated_pixels": 24152,
+      "ownership_pixels": 1191566
+    },
+    {
+      "frame": 2137,
+      "asset": "middle-next-f2136-oct6-v1.png",
+      "cel": "cel-0399",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1086852,
+      "new_pixels": 1166012,
+      "reconstructed_vacated_pixels": 24112,
+      "ownership_pixels": 1191545
+    },
+    {
+      "frame": 2138,
+      "asset": "middle-next-f2138-oct6-v1.png",
+      "cel": "cel-0400",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1161599,
+      "new_pixels": 1239555,
+      "reconstructed_vacated_pixels": 21818,
+      "ownership_pixels": 1262585
+    },
+    {
+      "frame": 2139,
+      "asset": "middle-next-f2138-oct6-v1.png",
+      "cel": "cel-0400",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1161438,
+      "new_pixels": 1239555,
+      "reconstructed_vacated_pixels": 21845,
+      "ownership_pixels": 1262602
+    },
+    {
+      "frame": 2140,
+      "asset": "middle-next-f2138-oct6-v1.png",
+      "cel": "cel-0400",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1161531,
+      "new_pixels": 1239555,
+      "reconstructed_vacated_pixels": 21892,
+      "ownership_pixels": 1262649
+    },
+    {
+      "frame": 2141,
+      "asset": "middle-next-f2141-oct6-v2.png",
+      "cel": "cel-0401",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1205491,
+      "new_pixels": 1323501,
+      "reconstructed_vacated_pixels": 87696,
+      "ownership_pixels": 1411197
+    },
+    {
+      "frame": 2142,
+      "asset": "middle-next-f2141-oct6-v2.png",
+      "cel": "cel-0401",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1205490,
+      "new_pixels": 1323501,
+      "reconstructed_vacated_pixels": 87700,
+      "ownership_pixels": 1411201
+    },
+    {
+      "frame": 2143,
+      "asset": "middle-next-f2143-oct6-v1.png",
+      "cel": "cel-0402",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1424702,
+      "new_pixels": 1542174,
+      "reconstructed_vacated_pixels": 29579,
+      "ownership_pixels": 1571753,
+      "observed_cold_face_pixels": 74508,
+      "observed_cold_face_missing_from_new_mask": 0,
+      "observed_cold_face_generated_pixel_mismatches": 0
+    },
+    {
+      "frame": 2144,
+      "asset": "middle-next-f2143-oct6-v1.png",
+      "cel": "cel-0402",
+      "outside_ownership_mismatched_pixels": 0,
+      "generated_interior_mismatched_pixels": 0,
+      "old_pixels": 1424718,
+      "new_pixels": 1542174,
+      "reconstructed_vacated_pixels": 29640,
+      "ownership_pixels": 1571814,
+      "observed_cold_face_pixels": 74508,
+      "observed_cold_face_missing_from_new_mask": 0,
+      "observed_cold_face_generated_pixel_mismatches": 0
+    }
+  ],
+  "caption_pages": [
+    "qa\\middle-transition-layers-private-2026-10-06\\v3-enclosed-ink-fill\\caption-native-page-01.png",
+    "qa\\middle-transition-layers-private-2026-10-06\\v3-enclosed-ink-fill\\caption-native-page-02.png",
+    "qa\\middle-transition-layers-private-2026-10-06\\v3-enclosed-ink-fill\\caption-native-page-03.png"
+  ],
+  "reconstruction": "Only vacated original character support and old glyph extent. Sky is a fitted current-source gradient, not an observed clean plate; wipe sky populations are estimated separately from actual visible source sky.",
+  "outside_ownership_oracle": "Every byte outside declared ownership equals the actual source. This does not prove the ownership boundary itself is correct.",
+  "body_oracle": "Generated eroded interior excluding caption support equals the selected wholecel. An additional observed cool-face native ROI oracle detects the known bright-sky hole failure.",
+  "native_static_review": "pending actual view of 10 whole/private canonical frames and all 24 caption crops",
+  "actual_speed_review": "not performed",
+  "shared_hook": "not installed by this private audit"
+}

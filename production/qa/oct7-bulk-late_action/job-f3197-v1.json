@@ -1,0 +1,82 @@
+{
+  "source_frame": 3197,
+  "cel": "cel-0570",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Current source head/crown drops clearly and shifts a little right; overhead cuffs/fists lower and right sleeve elbow narrows. Eyes rounded open, mouth small angled oval, eyebrows lower. Right source hair sweeps almost horizontal right, translate only two short ponytail tips pointing right. Foreground star slides from lower center to right chest, partly covers lower collar/coat but face visible. Preserve exact source actor position, no text or crop-added legs.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1754-f3197.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3194-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3194-f3197-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3197-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "90691da9d2d151276053dd39d73c66bb3683c9f963fcebbecad5ca3e2c1dd2f3",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "9c26fb36f72eebcb6b5b91c2aca7faef5ba193a27b858c16508c3c0d0f2a1218",
+    "dd015d67126fd6e0002e3de175456e49f9df8a9e5d87bdd15faf67fb47aee2ff",
+    "761298fa60cf8224d11009c5d08e6e655ccc3dbed990582068341180e0e3b97b"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3197-v1.png",
+  "source_exposures": [
+    {
+      "start": 3197,
+      "end": 3199,
+      "pts": 133.208,
+      "end_pts": 133.292,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Current source head/crown drops clearly and shifts a little right; overhead cuffs/fists lower and right sleeve elbow narrows. Eyes rounded open, mouth small angled oval, eyebrows lower. Right source hair sweeps almost horizontal right, translate only two short ponytail tips pointing right. Foreground star slides from lower center to right chest, partly covers lower collar/coat but face visible. Preserve exact source actor position, no text or crop-added legs.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-c4b68b48-3341-4668-9d9d-143a2d7308a7.png",
+  "output_sha256": "8357f9936cad2bfada7a556858016973614b4cfbee87a5bd5b00e3872e48557d",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output seen: lowered crown and overhead fists, right torso foreground star. Head/hat lowered plausibly but rounded eyes not exact, hair split on right and collar/button coat drift remain. Draft unaccepted, no retry.",
+    "accepted": false
+  }
+}

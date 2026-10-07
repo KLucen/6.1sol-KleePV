@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-f32bc4e7-08e9-46ba-9ebe-95c1852edcb0",
+  "candidate_id": 42,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: precise-object-edit. One full16:9 PV frame. Image1 is Klee cel to repair. Image2 is ORIGINAL source-cel-042 supplying actual pose. Correct ONLY source head/face orientation and left index fingertip color. Match image2 current head pose: nearly UPRIGHT with mild CLOCKWISE tilt, screenRIGHT eye lower by about12px than screenLEFT eye; horizontal eye line slopes DOWN toward right, NOT up-right as image1 currently. Position eyes near source normalized left(47%,38%) right(58%,39%), vertical O mouth below near(52%,49%), retain narrow sleepy rectangular redirises. Redraw hat/bangs/cheeks/ears/short ponytails to follow corrected upright orientation, without changing Klee identity. BOTH hands same up-index poses, but left whole single index fully BROWN GLOVE, no skin-colored tip. Preserve exact current sleeve/cuffs, creamcollar redcoat outfit/topology, croppedwaist framing, loose darklines/flatcolor, same lavenderstars backdrop. NO captions/text/letters. Do not rotate wholecanvas or freeze old face angle, no added anatomy.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-042-draft.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-042.jpg"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-042.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Targeted repair reduced counterclockwise head tilt and corrected left index to full brown glove. Red narrow open eyes, O mouth and raised index fingers maintained; head still slightly counterclockwise vs source mild clockwise, QA flag remains."
+}

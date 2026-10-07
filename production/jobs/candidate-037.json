@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-cecc35f9-b92f-402a-a99c-7668178686eb",
+  "candidate_id": 37,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel editing reference1 source-cel-037. Source1 determines BOTH layered characters and NEW pose/crop: huge foreground head shifted further LEFT versus036, eyes CLOSED flat darkslits, tiny OPEN TRIANGULAR mouth (not caret), bangs/face/hair differ; big hat clipped top/left. Small standing character behind near x53% remains partly occluded, with closedeyes/sliver face, right arm slanting down toward x64%,y53%, torso/lower boot slivers. Replace BOTH with same default Klee. Foreground must still block small character wherever source overlaps, don't move small one. Klee blonde SHORT two side ponytails/pointedears, red beret cream clover/white feather, red coat cream collar/trim/cuffs, brown gloves/boots visible. Remove all pink hair/sleep masks/pajamas, especially rear character's cream pajama HIP POCKET and protruding rabbit ears: plain red coat there, NO cream side pouch/Dodoco at hip. Image2 identity/style anchor; image3 candidate036 continuity palette/hat/hair only, don't freeze previous foreground location/caret mouth. Preserve original cream outlined stars on purple backdrop. REMOVE all lyrics/credits/lettering, clean fullframe for source text restoration. Loose dark source lines, flat color, orange cheeks/restrained shadows, no panels/new props/extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-037.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-036.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-037.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Foreground face shifted left and tiny triangular mouth distinct from036 caret. Small standing Klee occluded behind, rear right glove/boot fragments visible. Rear side accessory now brown backpack-like with cream plush, still flag position if incompatible. Stars/no-text correct."
+}

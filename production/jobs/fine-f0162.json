@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0162",
+  "source_frame": 162,
+  "source_candidate": "src-0050",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0050-f0162.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0162.png"
+  ],
+  "prompt": "Use case identity-preserve. Edit ONLY original person of image1 into Klee in ONE full16:9 PV cel. Image1 current source exclusively controls camera, full-canvas coordinates, pose and prop shapes, keep lavender background/pillow/floating-clock geometry EXACTLY. Image2 cropped face/hat is identity and simplified style ONLY, never location/pose. Image3 croppedcoat is SAME garment structure/color only. Image4 actual previous/current source spatial changes, upper-rightcurrent, output no panels. Important new action: Klee brings the lavender pillow forward to viewer-left of her face, hugs it with BOTH raised forearms. Her viewer-RIGHT forearm crosses diagonally up-left IN FRONT of her chest/face, brown glove grips upper-left corner of pillow at x63%,y28%; creamcuff near x65%,y32%; the other arm goes beneath/back of pillow and holds fromleft below, bent elbow at x61%,y44%. Don't keep arms spread/shrug. Pillow near x57..78%,y19..48%, slightly tilted, one long creamfringe sideleft; not a new decorative prop. Face at x71%,y31%, both droopy halfopen RED eyes remain visible to right of pillow/arm, tiny downturned caret mouth/orangecheeks. Head/body inclined right like source, straight legs down-right croppedbottom. Replace sleepmask/pinkhair/pajamas with redKleeberet creamclover whitefeather SAMEside, pale blondebangs TWO SHORT sideponytails pointedears, brown gloves, redcoat creamcapelet chestpom, splitangular red panels one lowerleftclover, broad angularcreamscallopedunderskirt tinyoutlineclovers/pinkruffle/REDshorts, ONE dangleleftwaistpom, brown backpack/charm side-right. Floating clock separated left at exactsource x49%,y50%, no hand contact; cream digitalbox lavenderdisplay, blankdigits. Use SOURCE loose darkoutline flatpatches onesmallflatshade; no game illustration polish. NO captions/subtitles/credit/title/letters/digits anywhere, no extra limbs/ponies, zoom/mirror.",
+  "output": "../generated/fine-f0162.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

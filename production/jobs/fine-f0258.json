@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-148cd4eb-11ff-44d3-8852-9ccd930a5377",
+  "canonical_cel": "cel-0040",
+  "source_frame": 258,
+  "family": "pillow_face_occlusion",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 CURRENT PV sourcef0258 image1 replacement. Reference1 is dominant exactcanvas/pose/occlusion/pillow authority, image2 Klee0254 continuityidentitycolors only, image3 source254→258 true2Dlocaldiff. NEW leftforearmhand moreUPRIGHT and higher: angularcrookedelbow nowx40%,83%, cuff nearx47%,60%, fingerlobes nearx51%,53%, heavierblackseparators and roundercreamcuff. Rightfingertips nearfar rightx99%,35%, nowhigher. Match actualcurrent wrist/cuff fingers/coatfolds notfreezeprevious. Sourcepurplepillow bottomleftnear57%,73%, rightedgepanel99%,53%, creamruffles/bluehandshadow preservedexact; ALLeyes/face/mouth/neck HIDDENbehindpillow, onlyKlee redberetcloverwhitefeather crest and tinyblondtop above. SourcecreamPUFF NOWsplitinto TWOsmalldropletfragments atleftx36%,40% andx37%,46%, notsinglelargepuff. Keep those effects. REDcreamKleecoatpatterncollar, brownFULLgloves frontofruffles, no skintips. NO blondehairbeloweitherarmpit: shortsideponytails hiddenbypillow, NO duplicatewings orlonghair. Full lavendercanvas removeALLtext/captions/lyrics. Loose darksourcePVlines/flatfills/minimalshadows, only sourcevisibleanatomy.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0076-f0258.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0254.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0258.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0258.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "Left forearm/glove raised/cuff/folds redraw, rightgrip higher, puff splits into2. Diff163083 pixels>=28.",
+  "inspection": "Correct eye/face fullyhidden and two puff fragments, no long underarmhair. QA spatialflag leftglove/pillow border shifted upward ~50px at generated1672x941 canvas vs normalized source target. Exact sourceprop occlusion repair needed; draft not accepted."
+}

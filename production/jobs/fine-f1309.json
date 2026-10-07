@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f1309",
+  "source_frame": 1309,
+  "canonical_cel": "cel-0282",
+  "family": "seated_title_credits",
+  "prompt": "Use case: precise-object-edit. Asset: ONE full 16:9 hand-drawn PV cel, not a sheet. Image 1 is the exact CURRENT source drawing f1309 and determines character size/position, head tilt, eye state, tiny dot mouth, crossed forearms over raised knees, feet, cropping and occlusion. Image 2 is the approved preceding Klee cel at f1301, for the same Klee design, clothing, proportions, color and loose line style only. Image 3 is actual before/current SOURCE spatial differences; use it to redraw local outlines, never output a montage or diagram. Replace the original girl in image1 with Genshin Impact Klee, default Shooting Spark: pale blonde short twin side ponytails and pointed ears, red beret with cream clover and white feather, red coat with cream cuffs/trim, brown gloves and boots, small brown backpack only where visible. Keep image2's simplified source-like chunky dark uneven lines, flat colors, orange oval blush, no detailed game rendering. Klee is small near the center, approximately source bounds x745–1140 y245–780 on a 1920x1080 canvas, sitting on the ground with both knees raised, two boots together, forearms crossed ON TOP of the knees in the foreground; face and short ponytails behind arms. Her head and beret lean slightly toward viewer-left while the chin stays low, tired half-lidded OPEN RED eyes look toward viewer-left/down, tiny closed dot mouth; not smiling. Source f1309 is a genuine redraw after f1301: face shifts subtly left within hat, jaw is wider and chin lower; fringe/bang line and near-side lock curve left; forearms remain crossed but left elbow sits slightly lower. Body right contour is narrower, glove/cuff and boot contour redraw. Translate these changes into Klee, preserving exact crossed-arms-over-knees occlusion, not a held or simply rotated previous drawing. Keep Klee identity/topology and clothing stable. Remove pale lettering. Body/coat over legs must follow source closed seated silhouette; no blanket, hood or pillow. Preserve lavender empty background. REMOVE ALL text, subtitles, titles, credits and lettering; clean background and clothes. No extra objects, panel, diagram or additional characters. Output only the single complete replacement cel.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0822-f1309.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1301.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\late-f1301-f1309.png"
+  ],
+  "status": "generated",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64f-70f8-71e1-9a62-c776fde54c97\\exec-47ff619f-1ac9-4b73-93e1-2de8f004689d.png",
+  "static_review": {"status": "reviewed_candidate", "matches": ["Subtle narrowed body and local boots/arms variant, no lettering"], "limits": ["Small head-lean magnitude to recheck in continuous sequence"]},
+  "temporal_review": "pending",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "direct_coherent_pixels": 56357,
+    "rigid_similarity_confirmed": false
+  },
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1309.png"
+}

@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f0562-source-native-v2",
+  "source_frame": 562,
+  "source_candidate": "src-0211",
+  "canonical_cel": "cel-0093",
+  "family": "prone_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0211-f0562.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/prone-head-continuity.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/prone-garment-continuity.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0562-source-legs.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0562.png"
+  ],
+  "prompt": "Use case identity-preserve. One full-frame16:9 ORIGINAL SOURCE NATIVE PV cel. Image1 exactcurrentframe562 is EDITTARGET and ABSOLUTE location/scale/anatomy/pose/crop authority. Replace onlypink-haired pajama girl with defaultKlee. Image2 croppedKleeHEAD identitypalette andsimpleloosePVline constructiononly, NOTlocationorhead enlargement. Image3 CROPPEDbackpack/coatcostumeonly, NOTbodypose. Image4 ENLARGED CURRENT ORIGINALlegs pose crop: keepitsEXACTcrossedshin silhouette andsourcejointpositions inimage1. Image5 actualsourcebefore/currentRGBdiff+blue/redcontours, redrawcurrentindependentlinechanges. Draw current native totalextent, characterLEFT ofcanvas withfullbackgroundright negativefield, no scaling tofill. Originalcurrentfaceeyecentersx365/465,y595; chinrestx410,y679; farforwardglove x90,y652; nearforwardglove x285,y805, bodiesx530..935,y500..650, sourcepillowx57..742,y550..855. TWOarmsforward, TWOlegskneesraised behind. KEY562: foreground left/topshin anglesUP-LEFTfromkneex1030,y580 tobootcuffx885,y450; itssole/toepointsUP atx935,y320, visiblebottomofbrownbootsolewithplaincreamtopband only. Backgroundother shin risesUP-RIGHTbehind foreground fromkneex955,y520 tobootcuffx1020,y410, toex1155,y443pointingRIGHT. Shins cross andforeground legoccludesbackground whereintersect. NOT558parallelverticalshins. RedSHORTS endatthigh, bareknees/thighs, brownbootsplaincreamtop, NOcreamlongpants/poms/clovers/bootbadges. Redcoat creamtrim/ONEcreamcloverleftlowercoat, creamangularskirtpinkruffle, brownbackpackonupperback. Brownfullglovesplaincreamcuffs; no sleeveclovers. Pale blondebangs andexactlyTWO SHORTear-rootedponytails, pointedears, half-open sleepy REDeyes matchingoriginal,simpleorangeovalcheeks,mouthhiddenbypillow. Redberetcreamcloverwhitefeatherroundbrowncloverbadgeright, no danglingappendages. Looseuneventhickblackcontours, flatlavenderoriginalbackground, fewsolidcolors, originalpillowcreamcenterpurpleedgeunchanged, NOgradients/texture/gameart. NOtext/nocaptions/nolettersdigits/watermark. Onecurrentfullcel.",
+  "output": "../generated/fine-f0562-source-native-v2.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-0b2f9b7d-290f-45d1-a3bc-ecf4123c90bd.png"
+}

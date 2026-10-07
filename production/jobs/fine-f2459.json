@@ -1,0 +1,47 @@
+{
+  "source_frame": 2459,
+  "source_cel": "cel-0481",
+  "source_candidate": "src-1446",
+  "output": "generated\\fine-f2459.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2459: V arms remain extended, but current source is a genuine redraw: top of head shifts slightly right/down, eyes become more rectangular and half-open with lowered lids, mouth irregular small open O. Left palm five digits open diagonal down-left and right palm five digits open more horizontally right; wrist openings and sleeve folds redraw. Keep exact current lower source head and arm footprint; identity reference does not decide eyes.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1446-f2459.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2457-f2459-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2455.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": [
+      "Genuine independent hand/sleeve and more rectangular half-open red eye redraw present; head lower than drifted f2457. Five digits per palm and plain cream cuffs present. Source/adjacent static comparison performed."
+    ],
+    "issues": [],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb7e-7fe5-7921-af4b-00051bee1f33\\exec-e46e6713-850c-4ccd-a463-ad6014f1751b.png"
+}

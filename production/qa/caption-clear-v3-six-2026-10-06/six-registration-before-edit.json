@@ -1,0 +1,139 @@
+{
+  "interval": [
+    1037,
+    1043
+  ],
+  "frames": [
+    {
+      "frame": 1037,
+      "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v3-six-2026-10-06\\source\\f1037.png",
+      "source_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "source_pts": 43.208,
+      "best": {
+        "dx": -15,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.850910957146523
+      },
+      "next": {
+        "dx": -16,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8016401845207586
+      },
+      "relative_to_v2_cn_slot": [
+        0,
+        0
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 1038,
+      "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v3-six-2026-10-06\\source\\f1038.png",
+      "source_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "source_pts": 43.25,
+      "best": {
+        "dx": -15,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8795811518324608
+      },
+      "next": {
+        "dx": -16,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8247011952191236
+      },
+      "relative_to_v2_cn_slot": [
+        0,
+        0
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 1039,
+      "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v3-six-2026-10-06\\source\\f1039.png",
+      "source_sha256": "8541abb95e6e613767cb8297d06b55750d38d7f1ee45f56cfbfd2c610609c5bf",
+      "source_pts": 43.292,
+      "best": {
+        "dx": -15,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8795811518324608
+      },
+      "next": {
+        "dx": -16,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8247011952191236
+      },
+      "relative_to_v2_cn_slot": [
+        0,
+        0
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 1040,
+      "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v3-six-2026-10-06\\source\\f1040.png",
+      "source_sha256": "77b2b17186e3ebd69f46b329ed48f6da990713c6b4a41de47b73d1e84d5d283e",
+      "source_pts": 43.333,
+      "best": {
+        "dx": -15,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8795811518324608
+      },
+      "next": {
+        "dx": -16,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8247011952191236
+      },
+      "relative_to_v2_cn_slot": [
+        0,
+        0
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 1041,
+      "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v3-six-2026-10-06\\source\\f1041.png",
+      "source_sha256": "ccd3eabd3d70ccd2bb29f0a0b60aef80b1dd18f0fcd87339e98539d572fc4bf9",
+      "source_pts": 43.375,
+      "best": {
+        "dx": -15,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8798604187437687
+      },
+      "next": {
+        "dx": -16,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8249937764500871
+      },
+      "relative_to_v2_cn_slot": [
+        0,
+        0
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 1042,
+      "source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v3-six-2026-10-06\\source\\f1042.png",
+      "source_sha256": "c65adc2e36a3c23294d8834d5b9a03960c47508a4d7e8f0705486cfdf3854b68",
+      "source_pts": 43.417,
+      "best": {
+        "dx": -15,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8790222000498877
+      },
+      "next": {
+        "dx": -16,
+        "dy": 0,
+        "dice_clear_left_phrase": 0.8241155954160438
+      },
+      "relative_to_v2_cn_slot": [
+        0,
+        0
+      ],
+      "accepted": false
+    }
+  ],
+  "donor": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1905-f3402.png",
+  "donor_sha256": "786a457f83d47493e9954cfb0b7a3a7f5bd913577d942cf5e00c5f3cdb0de700",
+  "registration_basis": "clear left Chinese phrase only; exclude cream original cuff",
+  "accepted": false,
+  "actual_native_review": "pending actual viewing; no shared old-star edits yet"
+}

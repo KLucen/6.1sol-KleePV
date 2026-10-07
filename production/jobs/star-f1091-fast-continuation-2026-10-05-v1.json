@@ -1,0 +1,83 @@
+{
+  "id": "star-f1091-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1091,
+  "source_cel": "cel-0229",
+  "source_reference": "source_refs/src-0623-f1091.png",
+  "source_exposures": [
+    {
+      "start": 1091,
+      "end": 1097,
+      "pts": 45.458,
+      "end_pts": 45.708,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE whole independent hand-drawn cel for the Klee replacement PV, source f1091; never a collage. Image1 is the current exact original controlling all pose, placement, visible areas and occlusion. Image2 current native face controls half-open heavy eyelids with very narrow lower eye openings and tiny CLOSED caret frown. Image3 and Image4 are actual original before/current AB, RGB differences and contours; use the CURRENT target, not the previous pose or original character identity. Image5 defines only Klee identity and costume, not pose or expression. Replace the sole original girl with Klee: red beret with cream four-leaf clover, white feather and brown badge, short pale blond bangs, elf ears, TWO short compact rooted ponytails ending near shoulders; plain red coat with two-lobed cream collar, cream cuffs and continuous cream COAT hem above short RED shorts; brown gloves and brown boots. Same restrained hand-drawn black/brown outlines and largely flat color blocks as these existing PV cels, not rich illustration, chibi shrink, long original hair, backpack, extra trims, pompom or necklace. CURRENT f1091 is a grounded frontal full-body pose, upright head with face around(960,230) on1920x1080, half-open bored/tired eyes, not fully closed and not round/wide eyes. Relative to original f1085 the head shifts substantially LEFT and slightly UP; keep the CURRENT target positions. Screen-left arm slopes diagonally down/out to a visible small brown gloved hand near(680,520). Screen-right elbow/forearm bends upward, with its sleeve end facing the camera near(1155,435); the right hand is completely HIDDEN inside the sleeve. Draw the cream cuff ring and enclosed sleeve opening with the source's small rectangular/rounded shape; NO visible right fingers, open palm, raised brown mitten outside the cuff, object or third hand. Two legs remain gently apart and two boots grounded near(875,1015) and(1060,1015), maintaining original total body height. Preserve original purple sky and actual star arrangement, no new decorative stars. No source buttonrow or pockets, no cream shorts cuffs; cream hem belongs to the coat. Keep camera/full-frame crop and original slender PV proportions. No lyrics, characters, typography or watermark: original Japanese/Chinese raster text is restored separately in compositing. Render one landscape full frame; do not return the old closed-eye arms-down stance, mirrored frame or transformed paste. All limbs and ponytails must connect coherently, and the raised sleeve must actually hide its hand. Pixel-perfect invariants are not claimed.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+      "role": "Exact current original f1091; sole authority for full-body framing, half-open eyelids, upright head, bent screen-right sleeve with hidden hand, visible left hand and grounded feet."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+      "role": "Native current eyelids and tiny CLOSED caret mouth; no closed-eye or wide-eye substitution."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-ab-rgb-contours.png",
+      "role": "Actual original f1085-to-f1091 AB/RGB/contours; major left/up head shift, screen-left hand outward/up, screen-right sleeve raised/bent; not original identity."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-locals-native.png",
+      "role": "Native current-vs-previous eyes, gloves, cuffs, hem and boots; clarify limb visibility and sleeve opening occlusion."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+      "role": "Klee identity/costume ONLY: red beret/feather, TWO compact rooted pale ponytails, plain cream collar/red coat/cream hem/red shorts and brown boots. No complete face or previous pose."
+    }
+  ],
+  "output": "generated/star-f1091-fast-continuation-v1.png",
+  "status": "generated_blocking_original_underarm_hair_unselected",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root viewed exact full source, native face, full AB/RGB/contours and native local delta. Distinct half-open-eyed bent-right-empty-sleeve pose; no source alias to preceding closed-eye arms-down cels.",
+  "reference_queue": "qa/star1091-continuation-2026-10-05/missing-source-reference-queue.json",
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5eedc36b-a53b-4567-8278-0fc0b167203b.png",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "8b656539c9e1590dbd72cdf5b45c2c403bbd38a5f911dcefb4842eac38a94ed8",
+  "static_review": {
+    "flaws": [
+      "Source-like detached pale-pink hair tip behind screen-left upper arm, approximately x745..757,y414..433 on1672x941; identity ponytails end near shoulders and do not connect to it.",
+      "Source head/hand positions and sleeve-opening shape remain approximate; richer coat/boot shading than original simplicity."
+    ],
+    "blocking": [
+      "Detached original underarm hair remnant must be removed before serving as next continuous-art anchor."
+    ],
+    "passed_static_structure": [
+      "Half-open tired eyelids and CLOSED caret mouth.",
+      "Bent screen-right sleeve opening faces camera, right fingers hidden.",
+      "Two short rooted hair groups and grounded two boots; plain red coat/cream coat hem."
+    ],
+    "composite_review": "not_performed",
+    "original_speed_review": "not_performed"
+  }
+}

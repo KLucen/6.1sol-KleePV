@@ -1,0 +1,51 @@
+{
+  "source_frame": 2916,
+  "output": "generated/late-next-f2916-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE whole 16:9 PV animation cel for f2916, a NEW sideways swaying pillow pose.\nPrimary request: replace original with Klee and redraw CURRENT f2916 geometry. Image1 is actual target sole pose/camera authority; image2 actual2911 BEFORE/2916 CURRENT plus RGB/contours shows HEAD/UPPER TORSO SWING TO THE RIGHT while ankles stay left; image3 current head/closed eyes; image4 current fullbody/hand/pillow/knees detail; image5 small HEAD-ONLY Klee identity/style, not body or location.\nMotion to execute: the head and torso now center around x1310 instead ofx1230 on1920 canvas. Keep figure size, DO NOT recenter at previous x1230. Both bent legs slant down LEFT from hips, ankles stay nearx1240, knees shifted left relative to hips; both boots turn diagonal right with near-left toe lower and far-right toe overlapping lightly behind. This is a tilted sideways sway, not upright vertical legs.\nCurrent closed-eyed Klee: two thick fully closed eyelid lines, two orange cheeks, small mouth mostly hidden by pillow/scarf; red beret cream clover/feather, blonde bob, exactlytwo short rooted low pony tails (far one hidden if covered), pointed ears. Simple red coat with plain cream cuffs/hem, brown backpack left/back; preserve source long proportions and actual hip/hem length, no new frilly split skirt.\nPillow and hands: pillow is currently flatter/narrower in perspective, nearly horizontal but rises gently right at chest, x1280..1515; it occludes chest and far forearm. Near elbow is lifted and bent more sharply than previous, near cream cuff and BROWN GLOVE fingers splayed OVER the center-left FRONT of pillow, source hand rotates to morevertical orientation. Far hand tiny BROWN gripping fingers OVER top-right corner, far forearm/sleeve stays BEHIND pillow and unseen. Cream pillow ruffle onlyatrightedge. Exactlytwo gloves, no bare fingertips and no extra hand.\nComposition: figure remains small on right with extremely broad empty lavender left field, same source margins/scale. Original plain purple backdrop and sourceleftlyrics retained separately later, NO generatedtext.\nPV flat hand-drawn economical style: wobbly black contours, simple warm red/cream/blonde and lavender pillow, minimal sparse shadows. ONE fullcel, no panel, captions, labels, watermark, original pink hair/pajamas/animalcap or third pony. Do not freeze last upright pose or crop reference's headlocation.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-actual.png",
+      "role": "current whole source edit target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2911-f2916-source-ab-rgb-contours.png",
+      "role": "actual rightward head/torso and left-leaning legs motion; overview",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-face-native.png",
+      "role": "current closed eyelids and head tilt native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-source-pose-native.png",
+      "role": "current raised elbow/palm and narrower pillow, bent legs native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+      "role": "cropped Klee head identity/style only; no full held pose",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d0ab1ab0-90e7-4df1-8116-cd98a400e024.png",
+  "output_sha256": "3bd39014a448937fd487a927e85b49b7fcc4a4b593b6e1d954f6c97f4d8374c5",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole generated and current source/native/AB: real rightward upperbody sway, both legs slant down-left, closed eyes, two compact ponies, two brown gloves and hidden far sleeve, nearer elbow/palm lifted, pillow before torso. Pose and pupil count correct. Coat pockets/buttons/hem and boot clovers/backpack ornament vary, pillow/head registration approximate. Deferred first-cut costume drift; static only, acceptedfalse, compositor/temporal pending.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

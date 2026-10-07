@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f2022",
+  "source_frame": 2022,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1092-f2022.png",
+  "prompt": "Draw independent strict-source PV f2022 by editing image1 CURRENT original. Image1 controls exact enlarged near-frontal face geometry, smaller lowered eyelids and jaw/chin flatter currentregistration, crop, fists, openmouth. Image2 f2019 Klee costume/hair/ear identity continuity ONLY, NOTpose. Image3 actualsource2019->2022 RGBdifference/two-colorcontours RIGHTcurrent: minute bangs and thin pupil position/eyelid ink pressure and outer head shape changes, not held previous. Matchcurrent x/y locations. Current has TWO half-lidded eyes, two orangecheeks, small open roundedpinkmouth more ovalroundthanf2016, not closedorlarge shoutyet. Sourceblueupperiris->deepREDupper/pinkREDlower KEEP blackpupilslivers andsourcewhiteC-highlights/gaze. Klee redberetbrown band whiteclover SINGLEfeather attachedsameanatomicalleft/viewerRIGHT, crownclippedTOP. TWO short blondepony by pointedears, exactlyONE earoneachside no originalhumanearleftinsideface and no doubleear. Completely remove rabbitleepmask/headband and bodylengthpeachhair/pajamas. Redcoat creamfoldedcollar/simplepompom plaincreamcuffs, brownGLOVES only sourcevisible bottomfinger/knuckles cutbyBOTTOM; no fullnewhands/props/actors. Fulllavender1920x1080 NOcaptions. BroadFLATfill source handwobblyblackoutline/hardshadow only, NOgradients or gloss/detail/straps. Currentpose not previousf2016frozen; no mirrored/held/tween/morphsubstitute.\nThe sourceear at cheek must convert into ONE modest pointedear per side, NOT leave another pale humanear wedge under right eye. Clean single cheek edge adjoining hair. Current independent eyelid and mouth outline pressure tiny redraw; follow original current, no invented head translation.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1092-f2022.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2019.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/source-delta-f2019-f2022.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression crop occlusion camera authority",
+    "prior Klee identity continuity only, not pose",
+    "actual RGBdiff contour right current"
+  ],
+  "output": "generated/fine-f2022.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-a5c51eec-1edc-4843-a24d-d6b76ef49029.png",
+  "output_sha256": "ed6ca449271601ada4d540db4127f1f909d7fed46cf329cabe06364b41ce4b20",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

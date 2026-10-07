@@ -1,0 +1,52 @@
+{
+  "owner": "raised_closeup_batch",
+  "source_frame": 1274,
+  "cel": "cel-0274",
+  "mode": "strict_source",
+  "tool_mode": "builtin_image_gen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "prompt": "Use case: identity-preserve. Asset type: one independent full-frame cel for strict-source Klee hand-drawn PV. Image 1 is EDIT TARGET current original; it alone sets exact raised-arm pose, facial state, size, crop and background. Image 2 is same-shot Klee continuity/identity only, not its expression or pose. Image 3 is original preceding/current A/B, actual RGB difference and blue/red contours; it documents motion, not artwork. Image 4 is Klee EYE COLOR/black pupil/highlight reference only: source image 1 controls eye openness, upper lid tilt and gaze. Completely replace original pink hair, animal sleep-mask, gray coat and bare hands with Klee: pale blonde simple bangs, exactly two short rooted neck-side ponytails, pointed ears, red beret cream clover and one white feather, red coat, plain cream two-leaf collar and broad cream cuffs, brown full-finger gloves. Preserve recognizable same hair/hat/costume across cels, no extra hanging hair or third ponytail. The current original controls head/arm motion and folds; do not freeze on image 2. Klee eyes RED with dark black-red pupil and restrained source-like white highlight, never source blue-gray. Simple source PV style: loose dark outlines, flat color patches, orange blush, minimal one shadow, no elaborate rendering or fine fabric patterns. Preserve current purple star backdrop; remove all text in art image because compositor restores exact Chinese/Japanese lyrics at source timestamps. No invented objects, no original human residual, no extra arms/legs, no lower body added beyond crop. TARGET f1274 CLOSEUP: BOTH eyes open sleepy TALL vertical red openings under thick slanted upper lids, right eye/lid visibly LOWER than left following modest clockwise head lean. Tiny narrow unbroken vertical O mouth, NOT closed eyes/large O from preceding f1267. Source 1270-to-1274 changes mouth from open-bottom loop to unbroken small O, head/bangs shift slightly right/down, left cuff angles inward and right sleeve edge shifts; follow actual contours and current image 1. Image 2 new Klee f1282 gives identity only, current f1274 lean slightly stronger while not exaggerating. Exactly two raised arms/wrists exit frame sides, brown glove bases only; no whole hands/fingers invented, no forearm added over cheek. Two short rooted ponytails beside neck, cream two-leaf collar, no original pink hair or animal mask, no extra hanging hair.",
+  "referenced_image_paths": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0806-f1274.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1282-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1270-f1274.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "current_source_edit_target",
+    "new_closeup_Klee_1282_identity_not_exact_pose",
+    "actual_RGB_contours_1270_to_1274",
+    "eyes_color_pupil_highlight_only"
+  ],
+  "intended_output": "generated/fast-fullpv-raised-f1274-v1.png",
+  "exposure": [
+    1274,
+    1278
+  ],
+  "selected_draft_proposed": true,
+  "static_review": {
+    "source_action": "Tall half-open sleepy eyes, modest clockwise lean, right lid lower, tiny closed-outline narrow vertical O, cropped wrists.",
+    "result": "Open RED tall sleepy eyes and narrow O, proper source crop with no fingers invented, short attached twin ponytails.",
+    "blocking_confirmed": [],
+    "issues": [
+      "Existing f1270 candidate-047 has stronger head lean and patterned collar compared with the new plain-collar sequence; boundary needs speed review.",
+      "Eye color is red but no separate centered black pupil is readily visible beyond large dark upper fill and curl highlight.",
+      "Mild shaded palette beyond source flatness."
+    ]
+  },
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-d306b5e0-43dd-4a1f-a9d2-42be30621524.png",
+  "observed_call_seconds": 46.2,
+  "output_sha256": "e83d1771a7108af290da2d8380432ccff5e8f358e7efbe63d7a8fc18b0d96842",
+  "output_canvas": [
+    1672,
+    941
+  ],
+  "canvas_note": "Native tool output retained; compositor normalizes to source 1920x1080 canvas",
+  "reference_sha256": {
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0806-f1274.png": "bea8a9e0d131bfc25c0038b7f2d3d6eb4ba364cf7e380dd23e8dcbcdbedd4387",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1282-v1.png": "d60e4b21a9855f93cc252ff6962fc41adcd027a175a73109e5a164b76430aaf6",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1270-f1274.png": "9f00c8bbb71be256fd21385611afd5a501cb1ef9827ea5f52872cfe2b85380c1",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+  }
+}

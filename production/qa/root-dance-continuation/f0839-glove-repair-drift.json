@@ -1,0 +1,110 @@
+{
+  "before": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0839-v1.png",
+  "after": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0839-gloves-v2.png",
+  "before_sha256": "70f84acb0582e66076b950b8544e7d32bb21e5f49931dad5d29e06c01a84f5f3",
+  "after_sha256": "ef3d26dd077a7416ba6bc90681cad56cc6725768afdcafde94f4817ccd22d28a",
+  "original_sizes": [
+    [
+      1672,
+      941
+    ],
+    [
+      1672,
+      941
+    ]
+  ],
+  "normalized_size": [
+    1920,
+    1080
+  ],
+  "normalization": "PIL RGB, same 1920x1080 target, LANCZOS",
+  "changed_definition": "maximum absolute RGB channel difference > 28",
+  "total_pixels": 2073600,
+  "changed_pixels_total": 18686,
+  "requested_rectangles_xyxy_exclusive": [
+    [
+      330,
+      395,
+      460,
+      510
+    ],
+    [
+      1090,
+      345,
+      1210,
+      455
+    ]
+  ],
+  "requested_roi_union_pixels": 28150,
+  "changed_inside_requested_roi_union": 5177,
+  "changed_outside_requested_roi_union": 13509,
+  "inspected_hand_polygons_xy": [
+    [
+      [
+        350,
+        425
+      ],
+      [
+        437,
+        433
+      ],
+      [
+        452,
+        486
+      ],
+      [
+        395,
+        485
+      ],
+      [
+        350,
+        455
+      ]
+    ],
+    [
+      [
+        1117,
+        351
+      ],
+      [
+        1195,
+        351
+      ],
+      [
+        1195,
+        454
+      ],
+      [
+        1131,
+        454
+      ],
+      [
+        1135,
+        438
+      ],
+      [
+        1134,
+        422
+      ],
+      [
+        1128,
+        404
+      ],
+      [
+        1122,
+        390
+      ]
+    ]
+  ],
+  "inspected_hand_roi_union_pixels": 11871,
+  "changed_inside_inspected_hand_roi_union": 4837,
+  "changed_outside_inspected_hand_roi_union": 13849,
+  "hand_roi_review": "Visually inspected original images and normalized tight crops; polygon wrist edges exclude cream cuffs, face, torso and legs. Manual QA bounds are approximate, not a production matte.",
+  "tight_crop_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-continuation\\f0839-glove-repair-tight-crops.png",
+  "artistically_accepted": false,
+  "limitations": [
+    "Requested broad rectangles may include small parts of diagonal cuffs.",
+    "A local color repair is not pixel-locked outside the hands.",
+    "These are normalized draft image diagnostics, not source pose acceptance or video playback review."
+  ]
+}

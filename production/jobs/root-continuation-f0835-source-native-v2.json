@@ -1,0 +1,17 @@
+{
+  "job_id": "root-continuation-f0835-source-native-v2",
+  "source_frame": 835,
+  "canonical_cel": "cel-0147",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-f104d8e6-7d25-4fb8-930c-7ce7335c20c5.png",
+  "static_review": "Source-led redraw now turns face/chest front three-quarter, removes upward forelock, restores front hat clover and one badge-attached feather. Near palm enlarged, far fingertip skin-colored, hair/collar and boot shapes remain approximate.",
+  "known_issues": ["Near palm enlarged", "Far fingertip skin-colored", "Extra rear neck hair contours", "Head/collar/boot placement and shading"],
+  "original_speed_review": "unperformed",
+  "accepted": false,
+  "output": "generated/root-continuation-f0835-source-native-v2.png",
+  "references": ["source_refs/src-0381-f0835.png", "qa/full-early-worker/resume-f0835-source-head.png", "qa/root-dance-continuation/hat-color-clover-feather-only.png", "qa/full-early-worker/resume-f0835-source-local.png"],
+  "reference_roles": ["Current original target, exclusive pose and native placement", "Same current head/arms enlarged; exact current frontal angle and visibility", "Hat-only identity, no generated pose or hair template", "Actual original831-to835 delta/contours"],
+  "repair_budget": "One source-led full redraw after prior generated reference froze side angle",
+  "prompt": "Use case: identity-preserve. EDIT Image1 CURRENT ORIGINAL835 into one full16:9 Klee PV cel. Image2 same current original head/arms enlarged determines exact face/eyelid axes and hand exposure. Image3 ONLY cropped beret identity; Image4 actual source831-to835 RGB/contours. There is NO previous generated pose reference: do not invent a right-profile pose. EXACT current source nearly frontal THREE-QUARTER face with BOTH CLOSED eyelids visible and small pursed bent open mouth; the current chest faces viewer and shoulders open, not side-on. Native face center x49% y30%, crown y16%, collar y38%, hip y63%. Left-in-picture near arm FORESHORTENED toward viewer, small open brown palm x37% y40%, fingers upward-left; right arm foreshortened with ONLY small brown fingertip sliver at x56% y40%, no big far palm. Brown gloves up to plain cream cuffs, no skin hands. EXACT two hands/arms. Left-in-picture leg folds back down-left to nearly vertical sole-facing boot x47% y82%; other leg long diagonal down-right to side-facing boot x67% y87%, keep current thigh and calf crossing/occlusion and boot lengths. Klee two short blonde ponytails behind pointed ears, swept LEFT following source head, NO upward forelock/third tuft/long rear hair sheet. Replace entire pink hair/rabbit mask with red beret cream front clover, ONE white feather attached at side badge (no second white horn). Plain red coat ONE lowerfront cream clover, simple two-lobed cream collar/plain cuffs/single cream hem, red shorts/bare knees/compact brown boots plain cream top cuffs, compact brown backpack behind body. No extra buttons/zippers/chest stripes/pockets/badges/fluffy or ruffled trim. Match native source extent/canvas and floor placement, no zoom/recenter/body shortening. Loose thin irregular dark source outlines with muted FLAT fills, no gradient/rendered shading/highlights. Original lavender/white sketch-stars independent layer; omit all captions/yellow effect particles for source recomposition. One current frontal-turn redraw, not a side pose, no mirror/hold/morph/panels/collage."
+}

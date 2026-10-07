@@ -1,0 +1,41 @@
+{
+  "source_frame": 2657,
+  "source_cel": "cel-0501",
+  "source_candidate": "src-1552",
+  "output": "generated\\fine-f2657.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2657: New small FULL-BODY airborne character on RIGHT above a separate lavender pillow. Arms extend straight UP along both sides of head, two brown gloved closed fists at x0.65 and0.785 y0.18, plain cream cuffs; complete arms/shoulders, no missing arms. Body diagonal leaning left at head; legs hang DOWN with knees bent slightly backward, two tiny source boots nearx0.77 y0.63 andx0.80 y0.59. Source figure excluding hair bound x0.632..0.82 y0.17..0.649, preserve small original scale and exact right placement. Open surprised red eyes with black pupils/white highlights and long vertical O open mouth. Exactlytwo SHORT blonde ear-root ponytails respond outward, one each side, not long original flowinghair. Sole Klee redcreamcloverberet whitefeather replaces rabbit foreheadmask. Red coat/cream hem and capelet follow airborne torso folds, brown backpack where behind. Lavender pillow below-left x0.55..0.748 y0.63..0.746, pale cream corner tabs unchanged; no hand contact. Plain purplefield, remove captions.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1552-f2657.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Static source geometry check: airborne raised arms with two fists, open oval mouth and red eyes with pupils, bent knees and pillow separation match source framing; figure size/feet close to source. Cuffs generated scalloped despite plain instruction, retained as unresolved draft issue."
+    ],
+    "issues": [
+      "Cream cuffs scalloped instead of plain source-style shape."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-5d1cc9fa-3fa4-456c-9acb-ba65dd352771.png"
+}

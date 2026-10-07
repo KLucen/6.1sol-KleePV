@@ -1,0 +1,112 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0215",
+  "source_frame": 1023,
+  "source_reference": "source_refs/src-0555-f1023.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1023,
+      "end": 1025,
+      "pts": 42.625,
+      "end_pts": 42.708,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve. Edit Image 1 as one independent completed 16:9 hand-drawn PV replacement cel f1023 / cel-0215.\nOrdered input roles: 1 CURRENT original f1023 is sole pose/crop/expression/visibility/occlusion authority for BOTH people. 2 Klee head identity crop only: pale blonde cheek-length locks, exactly two SHORT side ponytails attached behind pointed ears; red beret, cream clover, exactly ONE white feather per figure. Do not copy this crop's front-facing head angle or expression. 3 Klee costume structure only: exactly two PLAIN cream leaf collar panels, continuous red coat with plain cream trim, short bloomers, brown gloves/boots, brown backpack straps where visible. No pompom/bow/patterned collar/scallops/extra petals, no bunny pocket or dangling plush. 4 f1022 -> CURRENT f1023 original A/B, RGB x4 and colored contours: foreground eyes/triangle mouth hold while rear head/arm shift slightly; reproduce current rear silhouette/arm angle and changes in sleeve/cuff/hand. 5 CURRENT f1023 -> next f1025 source comparison only, do NOT draw the future foreground head turn.\nCURRENT composition: lavender flat backdrop with large cream hand-drawn outlined stars. A huge warm foreground Klee face occupies screen-left, cropped at top/left/bottom. Current front face has TWO fully closed horizontal black eyelids, large orange cheeks and tiny open outlined TRIANGULAR mouth. Keep current original face/chin/cheek placement and exact near-frontal head angle, not the f1025 tilt. Foreground shows NO hands.\nA second smaller warm Klee stands BEHIND this foreground head near the center-right of occupied character region. Most of her face/body and left arm are occluded; replace only actual visible rear head, coat fragments, screen-right downward/outward arm with ONE brown gloved hand at source hand position, and the actual visible leg/boot fragments. Do not invent an extra rear hand or expose occluded rear face. Keep foreground in front of rear throughout. Both original animal hoods, long pink hair and source gray costume must be completely replaced. Do not leave old hat ears or long hair strands in the background.\nKlee hair remains compact and short, no long source hair sheet, waist-length tail, braid or third ponytail. Source pose, current sleeve angle, cuff placement, lowered gloved hand and visible foot positions control geometry. Use correct short red coat/shorts/brown boots, not source long gray trousers.\nSource-like loose black outlines, flat broad colors, orange blush, only sparse shading; no complex game illustration. Keep full original frame, background/star positions and caption placement if feasible; caption source will be independently restored, do not invent text. No new props or extra character. One standalone full cel, no comparison sheet, transparency or animation.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0555-f1023.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1023-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "75f0dee362dd3bc9a45c0cc02a6543f89359cc15ce439f538f3799fa647b9563",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1023-source-next-delta.png",
+      "role": "Current to next source A/B RGB contour evidence only; current source pose only",
+      "sha256": "a64f9a1bb3c9a7cd2f2bb5d892d29125543d5f49871d582e06fbeee8593e5c64",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1023-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Both original instances replaced",
+      "Foreground near-frontal closed eyelids and triangular mouth",
+      "One rear visible hand, lowered outward sleeve",
+      "Short ponytails and plain two-leaf collar"
+    ],
+    "flaws": [
+      "Source caption absent and source background/stars need restoration",
+      "Rear coat/boot ornamental simplification differs from old adjacent draft",
+      "Minor fore cheek/mouth scale differs from source"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1023-fast-v1.png",
+  "output_sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-6b53858c-0421-49a5-8b8c-16a11e4b0138.png",
+  "source_sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0554-f1022.png",
+    "source_after": "source_refs/src-0557-f1025.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1023-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1023-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Source caption absent and source background/stars need restoration",
+    "Rear coat/boot ornamental simplification differs from old adjacent draft",
+    "Minor fore cheek/mouth scale differs from source"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}

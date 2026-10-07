@@ -1,0 +1,29 @@
+{
+  "family": "hat_closeup",
+  "canonical_frames": [1539,1545,1551,1569,1575,1581,1587,1593,1599,1605,1611,1635],
+  "tool": "built-in image_gen",
+  "static_source_and_neighbor_review": true,
+  "actual_speed_watch": "not_performed",
+  "artistic_accepted": false,
+  "suggested_draft_overrides": [
+    {"frame":1539,"path":"generated/fine-f1539-hat-footprint-repair-v2.png"},
+    {"frame":1635,"path":"generated/fine-f1635-coat-knee-repair-v3.png"}
+  ],
+  "eye_and_hand_sequence": [
+    {"frames":[1539,1545,1551],"state":"Half-open red irises. No hands."},
+    {"frames":[1569,1575],"state":"Half-open eyes. Open brown gloved hands rise beside lower face."},
+    {"frames":[1581],"state":"Half-open eyes. Spread fingers touch hat edges."},
+    {"frames":[1587],"state":"Narrow red iris strips remain visible under lowering headwear."},
+    {"frames":[1593],"state":"Closed black eyelid lines still visible just below headwear."},
+    {"frames":[1599,1605,1611,1635],"state":"Eyes completely hidden by lowered Klee beret; cheeks, nose and mouth remain visible."}
+  ],
+  "findings": [
+    "No original rabbit headwear remains in these Klee drafts.",
+    "Source current eye visibility states are represented, including the independent narrow-eye and closed-eye intermediate cels.",
+    "Hat/feather footprint, front bang volume, pointed ear position and side ponytail shape drift beyond the small source redraws; temporal repair still required.",
+    "Finger count and palm topology were constrained against each source, but exact phalange bends and fingertip spacing remain approximate.",
+    "1599 leaves blonde bang tips lower than 1605/1611; determine actual brim occlusion and restore persistent hair visibility consistently.",
+    "1635 source-based repair improves near-vertical forearm and paired boot floor registration, but adds source-like pajama pant panels. The second targeted v3 redraw adds the red draped coat mass yet still leaves peach pajama panels and cream trouser cuffs; neither repair is accepted. Advance next independent group after the two repair attempts.",
+    "Generated backgrounds and captions are not pixel-exact. Current source caption/background/effect restoration remains required."
+  ]
+}

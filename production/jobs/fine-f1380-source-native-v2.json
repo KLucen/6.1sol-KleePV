@@ -1,0 +1,32 @@
+{
+  "source_frame": 1380,
+  "prompt": "Use case: identity-preserve. Edit Image1 CURRENT ORIGINAL PV into Klee in-place, one full original 1920x1080 canvas. Image2 is SAME CURRENT SOURCE HEAD enlarged and has sole head/eye/tilt geometry authority. Image3 supplies ONLY the red clover beret, feather and pale-blonde identity, NO facial/pose authority. Image4 supplies ONLY existing Klee costume design/cut/color, no head pose or joint placement. Image5 is actual source A/B, RGB difference and contour overlay, no output panels. Preserve the small original seated centered figure occupying x39..60%, y23..73%, boot soles at original y72%, knees raised together, crossed forearms across knees around y48..53%, both hands tucked FULLY behind opposing sleeves, never visible extra glove pairs on top. Exactly TWO short pale-blonde ponytails with roots by pointed ears, restrained volumes replacing original long hair. Red cream-clover beret, white feather, redcoat creamtrim folding around raised knees, pale bare knees and cream socktops, two round brown boots, modest brown backpack partly behind viewer-right shoulder. REMOVE original rabbit sleep mask completely. Original sleepy dot mouth and orangecheeks. If irises visible their WHOLE fill is muted RED, no blue source iris carried over. Loose uneven dark PV contours, flat patches, minimal shadow, not polished game art. Keep current source backdrop/text/credits layout; compositor restores exact already-visible original pixels. No new text/caption/crop/panels/characters, no enlarged or lowered body. Independently redraw current sleeves, coat folds, legs, boots and head landmarks shown by current source, no frozen template. Current f1380 source: LEFT / COUNTERCLOCKWISE head lean, about 13 degrees. Face center x49% y39%, tiny mouth aboutx48.5% y42%. Both OPEN drooping eye and eyebrow axis rises sharply toward viewer-right. Beret, bangs, cheeks, ears follow this source head axis, NOT an upright head. The head crop is strongest pose reference. No full-head Klee pose template is provided, so directly transfer the current original performance to Klee. Crossed sleeves rest diagonally over raised knees, hands completely hidden. Return this left-lean source drawing, not an upright neutral pose.",
+  "name": "fine-f1380-source-native-v2.png",
+  "output": "generated/fine-f1380-source-native-v2.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0840-f1380.png",
+      "role": "Current source pose/canvas"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1380.png",
+      "role": "Current source head"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only Klee identity"
+    },
+    {
+      "path": "qa/root-title-worker/costume-hidden-hands.png",
+      "role": "Costume only; no visible hands"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1375-f1380.png",
+      "role": "Actual source spatial delta"
+    }
+  ],
+  "status": "partial_repair_draft_unaccepted",
+  "accepted": false,
+  "review": "Left head tilt executed, but source blue upper iris fill remains. Floor and bang identity need group review."
+}

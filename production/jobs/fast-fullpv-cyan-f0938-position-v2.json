@@ -1,0 +1,29 @@
+{
+  "job_id": "fast-fullpv-cyan-f0938-position-v2",
+  "source_frame": 938,
+  "canonical_cel": "cel-0179",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted_position_approximation",
+  "output": "generated/fast-fullpv-cyan-f0938-position-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0938-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0478-f0938.png"
+  ],
+  "reference_roles": [
+    "Edit target: keep short-hair Klee identity/lighting/clothing, fix major vertical registration",
+    "Current source938 authoritative facial landmark coordinates/current head crop"
+  ],
+  "prompt": "Use case: precise-object-edit. ONE full16:9 source938 PV cel. Image1 EDIT TARGET has correct one cyan Klee/right-profile/short rooted hair/red eye/dot/beret, but ENTIRE HEAD is placed roughly13% canvas TOO LOW. Image2 CURRENT SOURCE938 controls required current face position/crop exactly. Correct this ONE blocking registration issue by re-drawing the Klee head UP by about13% canvas height (around125px in image1's941height), preserving its scale and source right-facing pose. Eye center must be around x66% y39-41%, tiny mouth dot around x71% y51-52%, chin x70% y59-61%. The current image1 eye at~51%, mouth~65%, chin~73% is wrong; move these three landmarks UP together, not merely gaze or eye paint. Red beret top now intentionally goes beyond TOP canvas, clipped more, like source current oversized head; do NOT shrink head or keep whole beret inside frame. Eye remains narrow one red iris with upper pupil and white curl highlight, dot mouth not O, nose points RIGHT. Short ear-rooted blonde/cyan side groups, no long forelock or waist fan, cool burgundy/purple beret and coat, plain two-leaf collar adapt beneath the elevated source-position chin. Preserve purple/blue night backdrop and existing tiny stars/crescent layout, same one figure/no limbs invented. No old pink hair/animal mask, extra eye/hand/leg or new ornament. Minimal flat PV shading and dark uneven outline; omit all subtitles. Whole redraw registration only, no copied image2 source person, no collage/mirror/morph/hold.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-9c45e860-d34d-4943-a537-4d8b25bc3f46.png",
+  "static_review": "Head moved upward visibly and beret now cropped by top. One right-profile/red pupil-highlight/dot and short rooted groups retained; no original mask/long pink tail or invented limbs. Residual eye/mouth/chin vertical offset about4-5% versus source; full935/938/939 speed severity unconfirmed. Not artistic accepted; no more same-direction detail iteration.",
+  "known_issues": [
+    "Residual head/face vertical registration approximate (about4-5% height); adjacent-speed severity pending",
+    "Simple two-leaf collar differs ornate oldneighbor",
+    "Mild shading"
+  ],
+  "blocking_static_findings": [],
+  "consecutive_review": "Pending actual neighboring exposure review; static improvement is not full pose acceptance"
+}

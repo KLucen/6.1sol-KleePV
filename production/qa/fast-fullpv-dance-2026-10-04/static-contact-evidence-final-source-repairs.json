@@ -1,0 +1,48 @@
+{
+  "scope": "Reference contact sheets only, not artwork edits or acceptance",
+  "normalization": "Generated draft is resized to 1920x1080 for QA side-by-side only; source pixels not edited",
+  "manual_review": "not implied by contact construction",
+  "global_selection_changed": false,
+  "generation_called": false,
+  "artistic_acceptance": false,
+  "overview": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\static-source-generated-contact-final-source-repairs.png",
+  "overview_sha256": "708bbe6579f9603ea20a8b72221e99edd996d78d53205fb3a45a7e5386f887b6",
+  "pairs": [
+    {
+      "source_frame": 891,
+      "ownership": "new_source_led_repair",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-source-actual.png",
+      "source_sha256": "53f87c8aed8e602b287b6ed99d7772e3df047c5c9ee1b815b4a76f97f872fc7a",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0891-source-v2.png",
+      "generated_sha256": "01a62b92f07df277ef0b5e594bf157079ea8162656be99d1080978ae5a8abe82",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0891-source-generated-static-final-source-repairs.png",
+      "pair_board_sha256": "9bd73bcf9c4b7f9dbfaa745b3435a2bbed6acad96d9a6728c5694078f9cabdbb"
+    },
+    {
+      "source_frame": 907,
+      "ownership": "new_source_led_repair",
+      "source_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-source-actual.png",
+      "source_sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e",
+      "generated_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0907-source-v2.png",
+      "generated_sha256": "65f4a6beb7a939a6395178de307f7e2f797631b5141f3272c33cd778216134ef",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "generated_size": [
+        1672,
+        941
+      ],
+      "pair_board_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-source-generated-static-final-source-repairs.png",
+      "pair_board_sha256": "ceeb2a5796af11f203589ede15a3f35a36ae2805f8ec2c87e1f9b8b100687353"
+    }
+  ]
+}

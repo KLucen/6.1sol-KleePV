@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f2019",
+  "source_frame": 2019,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1089-f2019.png",
+  "prompt": "Draw independent strict-source PV f2019 by editing image1 CURRENT original. Image1 controls exact enlarged near-frontal face geometry, smaller lowered eyelids and jaw/chin flatter currentregistration, crop, fists, openmouth. Image2 f2016 repairedKlee costume/hair/ear identity continuity ONLY, NOTpose. Image3 actualsource2016->2019 RGBdifference/two-colorcontours RIGHTcurrent: headslightlyleft, jaw/earoutline, leftbangtip and mouthshape change. Matchcurrent x/y locations. Current has TWO half-lidded eyes, two orangecheeks, small open roundedpinkmouth more ovalroundthanf2016, not closedorlarge shoutyet. Sourceblueupperiris->deepREDupper/pinkREDlower KEEP blackpupilslivers andsourcewhiteC-highlights/gaze. Klee redberetbrown band whiteclover SINGLEfeather attachedsameanatomicalleft/viewerRIGHT, crownclippedTOP. TWO short blondepony by pointedears, exactlyONE earoneachside no originalhumanearleftinsideface and no doubleear. Completely remove rabbitleepmask/headband and bodylengthpeachhair/pajamas. Redcoat creamfoldedcollar/simplepompom plaincreamcuffs, brownGLOVES only sourcevisible bottomfinger/knuckles cutbyBOTTOM; no fullnewhands/props/actors. Fulllavender1920x1080 NOcaptions. BroadFLATfill source handwobblyblackoutline/hardshadow only, NOgradients or gloss/detail/straps. Currentpose not previousf2016frozen; no mirrored/held/tween/morphsubstitute.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1089-f2019.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2016-ear-repair-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/source-delta-f2016-f2019.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression crop occlusion camera authority",
+    "repaired previous Klee identity continuity only, not pose",
+    "actual RGBdiff contour right current"
+  ],
+  "output": "generated/fine-f2019.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-af86c287-0d2f-47ee-8dd3-50b9e30ee509.png",
+  "output_sha256": "d8950c425f5088451d5c5b76734d1992ab29e77abcbf0cafd19a7d68c1feb5d4",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

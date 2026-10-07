@@ -1,0 +1,240 @@
+{
+  "accepted": false,
+  "artistic_accepted": false,
+  "proposals": [
+    {
+      "source_frame": 2059,
+      "path": "generated/middle-continuation-f2059-2026-10-05-v1.png",
+      "job": "jobs/middle-continuation-f2059-2026-10-05-v1.json",
+      "source_cel": "cel-0379",
+      "source_exposures": [
+        {
+          "start": 2059,
+          "end": 2061,
+          "pts": 85.792,
+          "end_pts": 85.875,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-missing-continuation-2026-10-05/f2059-source-new-static.png",
+      "known_issues": [
+        "Head/hat taller and profile eye more exposed than source; near cheek slightly lower",
+        "Glove fingers simplified and planted/rear boot contours wider",
+        "Coat hem edge and collar obscuration differ; light clothing shading",
+        "Generated background/stars/captions need source-layer compositor restoration; no pixel-lock claim",
+        "Consecutive static comparison performed; actual-speed and final composition not performed"
+      ],
+      "actual_speed_review": "not_performed",
+      "source_current_observed": "One full left-facing profile actor, no giant edge-face remnants. Main source two diagonal open palms and planted/bent-back legs represented; red iris black pupil tiny white highlight and exactly two rooted short blonde ponies. f2058->2059 has main pose unchanged but edge-face removal; no full-camera move.",
+      "output_sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef"
+    },
+    {
+      "source_frame": 2061,
+      "path": "generated/middle-continuation-f2061-2026-10-05-v1.png",
+      "job": "jobs/middle-continuation-f2061-2026-10-05-v1.json",
+      "source_cel": "cel-0380",
+      "source_exposures": [
+        {
+          "start": 2061,
+          "end": 2065,
+          "pts": 85.875,
+          "end_pts": 86.042,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-missing-continuation-2026-10-05/f2061-source-new-static.png",
+      "known_issues": [
+        "Hat/face taller and more exposed than source eye sliver; red iris under bang only partially obscured",
+        "Both gloves too exposed, rear glove/particle position and near cuff lower than source, source AA/detail not retained",
+        "Rear boot is wider; planted leg/rightward lean approximate",
+        "Generated source background, yellow stars and captions require source-layer restoration; actual-speed/composition pending"
+      ],
+      "actual_speed_review": "not_performed",
+      "source_current_observed": "One narrow left profile turns away, head left/down vs2059 and torso leans toward plantedfoot. Current left cuff/glove moves down and rear hand fingertips up; new draft responds but exaggerates visibleglove and eye. Current bentbackfoot tilt represented.",
+      "output_sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143"
+    },
+    {
+      "source_frame": 2065,
+      "path": "generated/middle-continuation-f2065-2026-10-05-hair-v2.png",
+      "job": "jobs/middle-continuation-f2065-2026-10-05-hair-v2.json",
+      "source_cel": "cel-0381",
+      "source_exposures": [
+        {
+          "start": 2065,
+          "end": 2069,
+          "pts": 86.042,
+          "end_pts": 86.208,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-missing-continuation-2026-10-05/f2065-source-new-static.png",
+      "known_issues": [
+        "One targeted whole-cel repair removed extra middle hair bundle; v1 preserved unselected",
+        "Profile face/eye more exposed and hat larger than original rear3/4 face sliver",
+        "Near open palm is bare-skin/fingerless glove rather than continuous brown glove; far exposed fingers skin-colored",
+        "Backpack appears as larger plainshape vs prior hiddenedge; clothing/sole silhouette differ",
+        "Source background/stars/caption compositor restoration and actual-speed review pending"
+      ],
+      "actual_speed_review": "not_performed",
+      "source_current_observed": "Current rear3/4 turn strongly leans down-right, near open foreshortenedpalm upper-left, far cuff/tiny fingers mostly occluded; new pose and raised rear sole represented. Repair v2 now exactly2 connected short outer ponies, cream collar restored between them.",
+      "output_sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b"
+    },
+    {
+      "source_frame": 2069,
+      "path": "generated/middle-continuation-f2069-2026-10-05-v1.png",
+      "job": "jobs/middle-continuation-f2069-2026-10-05-v1.json",
+      "source_cel": "cel-0382",
+      "source_exposures": [
+        {
+          "start": 2069,
+          "end": 2073,
+          "pts": 86.208,
+          "end_pts": 86.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-missing-continuation-2026-10-05/f2069-source-new-static.png",
+      "known_issues": [
+        "Head/hat slightly high/large; new nape ink detail absent in source",
+        "Backpack is larger/simple rectangular, coat hem contours and short-leg proportions approximate",
+        "Both gloved palms broader; current finger count/AA simplified",
+        "Rear sole drawn facing viewer and in front of support leg, but larger/rounder than source",
+        "Generated background/stars/captions require original-layer restoration; actual-speed/composition pending"
+      ],
+      "actual_speed_review": "not_performed",
+      "source_current_observed": "Fullback noface/eyes/mouth. Both arms spread independently at originalsidepositions, exactly2 brown gloved palms. Short two rooted ponies connect underrearberet; rearwhitefeather visible and frontclover hidden. Crossed bentback bootsole occludes plantedleg as source.",
+      "output_sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed"
+    },
+    {
+      "source_frame": 2073,
+      "path": "generated/middle-continuation-f2073-2026-10-05-v1.png",
+      "job": "jobs/middle-continuation-f2073-2026-10-05-v1.json",
+      "source_cel": "cel-0383",
+      "source_exposures": [
+        {
+          "start": 2073,
+          "end": 2077,
+          "pts": 86.375,
+          "end_pts": 86.542,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-missing-continuation-2026-10-05/f2073-source-new-static.png",
+      "known_issues": [
+        "New head/hat slightly larger and face a little lower; source thin doubleclosedeyeline simplified heavy single stroke",
+        "Near glove too broad and finger-gap contours differ; farhand remains hidden as required",
+        "Backpack visibility and collar/hem differ; light skin/clothing shading",
+        "Airborne crossedlegs follow original bend/occlusion but both boots larger and extendedfoot sole angle differs",
+        "Generated source background/effects/captions require compositor restoration; finalcomposition/actual-speed notperformed"
+      ],
+      "actual_speed_review": "not_performed",
+      "source_current_observed": "Right-facing profile with ONE closed eye and tiny O mouth, no iris/far-eyeinvented. One fullybrown forward glove, hiddenfararmonlysleeve. Nearthighright/shinbackleft overlaps far diagonaldownrightleg; bothfeetairborne. Two rooted shortponies and currentturn preserved.",
+      "output_sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc"
+    }
+  ],
+  "scope": [
+    2059,
+    2081
+  ],
+  "source_frames_addable_draft_only": 18,
+  "successful_builtin_calls": 7,
+  "unique_missing_cels_generated": 6,
+  "targeted_repair_calls": 1,
+  "planned_but_unsubmitted_repair_calls": 1,
+  "blocked_candidates": [
+    {
+      "source_frame": 2077,
+      "path": "generated/middle-continuation-f2077-2026-10-05-v1.png",
+      "source_frames": 4,
+      "adopt": false,
+      "reason": "Third blonde bunch behind near glove/collar; no completed repair. hair-v2 prompt saved but NEVER submitted after parent stop."
+    }
+  ],
+  "actual_speed_review": "not_performed",
+  "final_composition_review": "not_performed"
+}

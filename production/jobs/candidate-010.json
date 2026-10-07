@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-cd7e6512-1cd4-474a-ba7b-c16efb4dbb1f",
+  "candidate_id": 10,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Output one complete wide16:9 PV cel by editing reference1 source-cel-010. Source1 solely controls the NEW sack close-to-body pose: cream drawstring sack now centered around x33%,y64% rather than far-left, near arm bends diagonally upward from lower-right toward the sack, near hand with five spread fingers around x37%,y75% over FRONT surface/loop cord, far hand/arm behind sack invisible unless in source. Keep exact sack shape/top folds/long loop cord/gray shadows and relative position to face. Source face at right has drooping half-open eyes and small triangular-ish open mouth, same crop. Replace pink hair/sleep mask/pajamas with default Klee: blonde SHORT side ponytails/pointed ears, red beret cream clover white feather, red coat cream trim/cuffs, brown gloves. Render near gloved fingers with exact original spread/occlusion; forearm and sleeve cross in front of torso, sack overlaps far side. Image2 is Klee identity/line-style anchor; image3 candidate009 defines same character palette/hat/hair ONLY, do not freeze its horizontally stretched arm or far-left sack location. Retain blank purple backdrop and source no-text state, source camera scale. Loose black hand-drawn lines, broad flat color patches, orange cheeks and simple limited shadows. No panels, no new props, no hidden limbs invented.",
+  "references": [
+    "analysis/source_cels/source-cel-010.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-009.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-010.png",
+  "status": "generated",
+  "inspection": "Sack drawn closer to body, diagonal bent foreground arm, spread glove and long loop cord retained. Distinct source009-to010 motion present. Same head palette and topology broadly continuous."
+}

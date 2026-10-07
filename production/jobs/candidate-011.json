@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-cc6cc568-3665-4288-85b5-24738a0d06a6",
+  "candidate_id": 11,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. A single full 16:9 PV cel editing image1 source-cel-011. Replace pink-haired pajama girl with default Genshin Klee, with image1 determining ALL exact source pose and crop. NEW pose: cream drawstring sack is hugged tightly against chest, sack tied top pressed directly to mouth/nose and covers mouth; head looks downward with very narrow half-open sleepy eyes. BOTH hands are visible and overlap sack in front: upper hand curled over top-left shoulder of sack just under left cheek, lower hand spread/curling over lower-left side of sack near bottom crop, lower sleeve crosses in front. Preserve their exact separate positions/finger shapes, render brown gloves and red sleeves/cream cuffs. Preserve sack mouth-contact, top folds, loop cord now hanging along RIGHT front of sack, and gray patches; sack occludes torso and mouth. Image2 Klee identity/style: red beret cream clover white feather, blonde short side ponytails, pointed ears, red coat cream trim. Image3 candidate010 gives stable Klee palette/hat/hair but NOT its sack position or open mouth; do not repeat previous extended arm. Keep right-half close composition, empty lavender left half and cream circular sigh/doodle around x43%,y57% unchanged. No text as source. Loose dark source lines, flat color patches, orange blush and restrained shadows. No sheet, extra hands, added torso outside crop or props.",
+  "references": [
+    "analysis/source_cels/source-cel-011.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-010.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-011.png",
+  "status": "generated",
+  "inspection": "Sack pressed to mouth/chest with upper curled glove and lower spread glove in front. Loop cord on right. Narrow eyes retained but marginally more open than source; consider local eyelid repair if adjacent review shows mismatch."
+}

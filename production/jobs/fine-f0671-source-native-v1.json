@@ -1,0 +1,33 @@
+{
+  "frame": 671,
+  "name": "fine-f0671-source-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0288-f0671.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0666-closed-head-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0671.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent 16:9 full-frame PV Klee drawing, no text or panels. EDIT TARGET image1 CURRENT SOURCE f0671 is absolute authority for native screen scale/position, head angle, closed eyelids, gloves/sleeves/leg/foot/pillow contour and occlusion. Image2 preceding Klee is only identity, flat simplification, costume, short twin ponytails and continuity; its head tilt is wrong, do not copy it. Image3 source A/B actual RGBdiffx4/blue-before/red-current contours describes small true redraw changes; not output artwork. Independently draw exact CURRENT source head slightly higher, new eyelids, sleeves/cuffs/pillow tension, coat/shins/boots: legs remain shallow diagonal almost horizontal right, boots within current source feet area ending near x65%. Eyes BOTH fully CLOSED black strokes; source eye centers and individual lids RISE toward viewer-right, viewer-left cheek LOWER than right. Do not freeze previous eyes or head; face angled counterclockwise as source. Mouth hidden. Replace old sleeping mask/costume entirely with Klee: no bunny forehead mask; red beret cream clover and white feather, plain round brown clover badge with no dangling elements; pale blonde bangs, pointed ears, exactly TWO SHORT ear-root ponytails and no above-hat cream tuft. Red cream-trim coat with one small cream clover on lower sidecoat, cream angular skirt/pink narrow ruffle over redshorts, bare PALE SKIN thighs/knees/shins, plain compact BROWN boots with cream top bands, plain brown gloves. No pajama trouser tubes, sleeve/boot clovers or extra props. Preserve ORIGINAL native screen size and pillow placement, do not zoom or enlarge to continuity reference; left glove at x3%, boots endx65%. Flat solid original source lavender background, thick uneven black PV outlines and completely flat colored areas, no gradient/texture/polished illustration. Output only this cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-7a264a9e-debb-43aa-9c80-c3c74bce8451.png",
+  "output": "../generated/fine-f0671-source-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Current independent glove/cuff, foot and garment edge redraw present; eye state correctly closed; head/eyelid slope remains opposite source. Group head issue unresolved; not accepted.",
+  "known_issues": [
+    "Closed eye/head slope differs from current source",
+    "Small shoulder/hair/pillow contour drift",
+    "Background gradient persists"
+  ],
+  "job_id": "fine-f0671-source-native-v1",
+  "source_frame": 671,
+  "source_candidate": "src-0288",
+  "canonical_cel": "cel-0111",
+  "family": "prone_pillow",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0288-f0671.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0666-closed-head-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0671.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0671-source-native-v1-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

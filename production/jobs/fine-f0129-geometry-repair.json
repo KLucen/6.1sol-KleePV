@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f0129-geometry-repair",
+  "source_frame": 129,
+  "source_candidate": "src-0044",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0044-f0129.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-open-eye-identity-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/standing-f0125-f0129.png"
+  ],
+  "prompt": "Use case: identity-preserve. Full 16:9 1920x1080 cel for current original frame129, replacing sole human with Klee, precise original PV pose/framing. Image1 current source is geometry authority. Cropped image2 Klee identity ONLY, image3 garment ONLY, image4 source previous/current deltas ONLY. Not analysis panels in output. Exact gesture: both arms form near-straight wide diagonal upward-right line. Left arm runs from shoulder about x70%,y46% toward cuff x53%,y52%, left brown palm holds the bottom/right corner of the cream clock x48%,y50%. Clock stays at original bbox approx854,466..997,620, not100pixelsleft. Right red arm reaches cuff x94%,y36%, open small brown-gloved hand at x97%,y36%, cropped slightly by RIGHT edge. Pillow retains source bbox x55..83%, y14..52%, tilted up-right BEHIND head and arms; head center atx71%,y29%, small droopy half-open RED eyes, tiny downturned mouth, slight headlefttilt. Replace sleepmask with red beret creamclover and whitefeather. Blonde bangs, pointed ears, exactly TWO short side ponytails (one each side, no extra double lower sidehair wings). Keep source torso and bottom-cropped legs scale and tilt. Garment fixed croppedref red angular split coat one leftcreamclover, cream zigzagunderskirt faintclovers, narrowpinkruffle, REDshorts, oneleftwaistdanglepom, rightbrownbackpack/charm. Cream cuffbands with brown palms, never bare skin hands, not huge fluffy cuffs. Loose uneven dark PV sketch contours, flat patches, singleflatshadow, orangecheeks. Emptyvioletbackground. NO captions/letters/digits anywhere, blank purple clockdisplay. Preserve exact composition/props, no bodyenlargement, singlefull-frame drawing.",
+  "output": "../generated/fine-f0129-geometry-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0129.png",
+  "temporal_review": "pending"
+}

@@ -1,0 +1,1044 @@
+{
+  "scope_half_open": [
+    1225,
+    1285
+  ],
+  "source_video_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "actual_source_count": 60,
+  "registered_region_xyxy": [
+    780,
+    953,
+    1135,
+    1049
+  ],
+  "line_core_rows": [
+    [
+      958,
+      991
+    ],
+    [
+      1005,
+      1043
+    ]
+  ],
+  "donor_frames": [
+    1225,
+    1229,
+    1241,
+    1256,
+    1261,
+    1282
+  ],
+  "required_votes": 5,
+  "core_candidate_policy": "Observed cream BGR within 28/channel; max channel >220. Five of six moving-body donors plus primary donor.",
+  "core_pixels": 7978,
+  "extent_pixels": 14767,
+  "pages": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-01.png",
+      "sha256": "ad30c3433b93b0bf5f5f52d993905d4f7df55e82b12d4e5f58a4c8f5fedaa668"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-02.png",
+      "sha256": "3160c68b8d705db5cb8f59da096304455905691640b38514e8c9f7d84a105c96"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-03.png",
+      "sha256": "1695307a3eb3e949849e4b2255c80818d6f0cb1eae2ee5c71e793a9a2eb35e1e"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-04.png",
+      "sha256": "49695274a4797513cc0f0d981e56880c258332eff0071d7a2361964a030cca2e"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-05.png",
+      "sha256": "a9ca5ce7c5a366fbb6af1154d17a3e6c5fa11ce4a7aeb7ae00b79e46d30047e8"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-06.png",
+      "sha256": "98e848df88a2f90a93ed4dd8bcbaaf02520f4b61300bc4a7509a5a85bbe6c015"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-07.png",
+      "sha256": "c8f9cdeea2483e6b18861aae9153f333f9ac2dcfd038b144c1519e74a7f039f2"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-08.png",
+      "sha256": "e383efcbb411081382bf445064db6382efb54fcb7ea7d3ef92fa46c33381f9d7"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-09.png",
+      "sha256": "bbaa165d385fbaeec01896b8aff1798ba222f591bb7ec7313762159b347a4240"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source-caption-page-10.png",
+      "sha256": "137308dd3f28a5dbed53f6307f4dcf4523bdae96d04a03683fed3f7541b3b3df"
+    }
+  ],
+  "rows": [
+    {
+      "frame": 1225,
+      "source_pts": 51.042,
+      "actual_source_bgr_sha256": "cddd20136eb5e54e3c1f5900a88a2511e6a0d69ea5bd7c3a8c0e38561f9a90c8",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1225.png",
+      "source_png_sha256": "90aadbc5f07a081b9d800b194ef0994e9616623a2b3f423470d9f9ab461be57f",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0757-f1225.png",
+      "reference_sha256": "90aadbc5f07a081b9d800b194ef0994e9616623a2b3f423470d9f9ab461be57f",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 10.0,
+      "unsupported_warm_candidates": 379
+    },
+    {
+      "frame": 1226,
+      "source_pts": 51.083,
+      "actual_source_bgr_sha256": "ea789060625acda011baae3b8c1626eb3b815b32f874a4a288b69a9d8965ea35",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1226.png",
+      "source_png_sha256": "84acfaa47a611ef41995fb311ac1cb251f2458dd88eb513c808b0871b8767279",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0758-f1226.png",
+      "reference_sha256": "84acfaa47a611ef41995fb311ac1cb251f2458dd88eb513c808b0871b8767279",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 10.0,
+      "unsupported_warm_candidates": 379
+    },
+    {
+      "frame": 1227,
+      "source_pts": 51.125,
+      "actual_source_bgr_sha256": "86c7bf726276eb3c979c730c7081a939708119610825d428ef1910947527dbf2",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1227.png",
+      "source_png_sha256": "830252a99eec51a07e5b6687cb6dd4957161c5579b3a93e583652c15bd3f3437",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0759-f1227.png",
+      "reference_sha256": "830252a99eec51a07e5b6687cb6dd4957161c5579b3a93e583652c15bd3f3437",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 9.0,
+      "unsupported_warm_candidates": 379
+    },
+    {
+      "frame": 1228,
+      "source_pts": 51.167,
+      "actual_source_bgr_sha256": "e9d7307723516e283a28c9f1fed01c0e9707a02adbbc123c860cb21dd9708b97",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1228.png",
+      "source_png_sha256": "8ae197ca5e534800a87fa4be6bc10401e5b3b6981d75ac472d9fdf9bbf024deb",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0760-f1228.png",
+      "reference_sha256": "8ae197ca5e534800a87fa4be6bc10401e5b3b6981d75ac472d9fdf9bbf024deb",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 9.0,
+      "unsupported_warm_candidates": 379
+    },
+    {
+      "frame": 1229,
+      "source_pts": 51.208,
+      "actual_source_bgr_sha256": "48cd20bec2e0f67079ad872ab990cdde85fc4d4a86c9a76ab5c5803cb252955e",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1229.png",
+      "source_png_sha256": "e36886b796d1c7a9279b8818221f23eb2d4cd871f8b77005fae0bf1a6604fd6d",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0761-f1229.png",
+      "reference_sha256": "e36886b796d1c7a9279b8818221f23eb2d4cd871f8b77005fae0bf1a6604fd6d",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 0.0,
+      "unsupported_warm_candidates": 42
+    },
+    {
+      "frame": 1230,
+      "source_pts": 51.25,
+      "actual_source_bgr_sha256": "376da8741761d4c70c25e4f742d0c81d95802da37806f7eb4e178799a022b543",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1230.png",
+      "source_png_sha256": "e30dd52ed84f4ce757e718b76a7492df6732a20157b9a6f1926ce0bae0aa275e",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0762-f1230.png",
+      "reference_sha256": "e30dd52ed84f4ce757e718b76a7492df6732a20157b9a6f1926ce0bae0aa275e",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 0.0,
+      "unsupported_warm_candidates": 42
+    },
+    {
+      "frame": 1231,
+      "source_pts": 51.292,
+      "actual_source_bgr_sha256": "af4025e3b4a08b93027e8ea7f65138dffa4974ba74ca50341264e6fe9f983d62",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1231.png",
+      "source_png_sha256": "8405e446364946a249068a07141bf3941b0c26d02aead6fba0de46fb79adab72",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0763-f1231.png",
+      "reference_sha256": "8405e446364946a249068a07141bf3941b0c26d02aead6fba0de46fb79adab72",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 0.0,
+      "unsupported_warm_candidates": 42
+    },
+    {
+      "frame": 1232,
+      "source_pts": 51.333,
+      "actual_source_bgr_sha256": "6ca01d59c834f153e4c138329c9b5e08822a72a18150fb5f22fe1986ad73cbaa",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1232.png",
+      "source_png_sha256": "d3fc22a888c7732280370955d41802daa4a0ee302889210d951653d8554d8dc2",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0764-f1232.png",
+      "reference_sha256": "d3fc22a888c7732280370955d41802daa4a0ee302889210d951653d8554d8dc2",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 0.0,
+      "unsupported_warm_candidates": 42
+    },
+    {
+      "frame": 1233,
+      "source_pts": 51.375,
+      "actual_source_bgr_sha256": "8b3fa2f67b96f6e18a3b57c1d1dcc1240a6b800dcec33d82d8e4debf0abd93c1",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1233.png",
+      "source_png_sha256": "679a73f5445f925c69864a008f99fa3603a6f68a31f7a1e46f53ac0593935a0b",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0765-f1233.png",
+      "reference_sha256": "679a73f5445f925c69864a008f99fa3603a6f68a31f7a1e46f53ac0593935a0b",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 0.0,
+      "unsupported_warm_candidates": 42
+    },
+    {
+      "frame": 1234,
+      "source_pts": 51.417,
+      "actual_source_bgr_sha256": "8214127a93a3709be1c35e47afff6ebd2771b1431bba8062f59a33fcb91b947d",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1234.png",
+      "source_png_sha256": "88d834682b2b6b7a57e80ff8e104ea215412191b03c3e5870a5e3abd03725d48",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0766-f1234.png",
+      "reference_sha256": "88d834682b2b6b7a57e80ff8e104ea215412191b03c3e5870a5e3abd03725d48",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 5.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1235,
+      "source_pts": 51.458,
+      "actual_source_bgr_sha256": "9b84e18e2bacef149689c304d0520e48cd07c406d9b620e2d457b6413c8705d9",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1235.png",
+      "source_png_sha256": "e28597ec570f90557bbe0b9f8f326e71484856322d2860c4e5ff0805ac2f42c4",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0767-f1235.png",
+      "reference_sha256": "e28597ec570f90557bbe0b9f8f326e71484856322d2860c4e5ff0805ac2f42c4",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 5.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1236,
+      "source_pts": 51.5,
+      "actual_source_bgr_sha256": "86042c595e960f3b13934422081dad41e3038d4df36b55d09cf8431afd002f15",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1236.png",
+      "source_png_sha256": "bc2ff34156bf7812486056731e198227a12385e2d634fa4628dd9f79382ce9d9",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0768-f1236.png",
+      "reference_sha256": "bc2ff34156bf7812486056731e198227a12385e2d634fa4628dd9f79382ce9d9",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 6.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1237,
+      "source_pts": 51.542,
+      "actual_source_bgr_sha256": "0d289a71317502be558a6aa735479483a585d87a71cbb8281f0bc1ee17dadd07",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1237.png",
+      "source_png_sha256": "cab31509e6e0b65edf8436e2d25b1c2df86ed54c4ac7173238db7edfddb86568",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0769-f1237.png",
+      "reference_sha256": "cab31509e6e0b65edf8436e2d25b1c2df86ed54c4ac7173238db7edfddb86568",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 6.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1238,
+      "source_pts": 51.583,
+      "actual_source_bgr_sha256": "2e2a203f09802632945712ed955c78e4d88e355df8585809f1e8c83664248f93",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1238.png",
+      "source_png_sha256": "677bf1e2ffe4065c5bf45a3d0ffeded4954882d3da5971783915ddb442971f1c",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0770-f1238.png",
+      "reference_sha256": "677bf1e2ffe4065c5bf45a3d0ffeded4954882d3da5971783915ddb442971f1c",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 6.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1239,
+      "source_pts": 51.625,
+      "actual_source_bgr_sha256": "29bf29b2b45b5d3b437ccc4cdc89c8dfad146f4f7f35d30295e1cc632f90abf4",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1239.png",
+      "source_png_sha256": "568d4ae466d11a65d116bd926049e08da8b77295a7609da89099e3c06747316b",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0771-f1239.png",
+      "reference_sha256": "568d4ae466d11a65d116bd926049e08da8b77295a7609da89099e3c06747316b",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 6.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1240,
+      "source_pts": 51.667,
+      "actual_source_bgr_sha256": "0858301cd0e4205dda0935ea4c110800ad9220b4cd03778b2a360a83a2537ed7",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1240.png",
+      "source_png_sha256": "35b83c7da420f30096ec35f85cab7f53bd3854998a011d166b15619bcfe9cd0b",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0772-f1240.png",
+      "reference_sha256": "35b83c7da420f30096ec35f85cab7f53bd3854998a011d166b15619bcfe9cd0b",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 6.0,
+      "unsupported_warm_candidates": 194
+    },
+    {
+      "frame": 1241,
+      "source_pts": 51.708,
+      "actual_source_bgr_sha256": "5ec65c5e1ce9e2b918dd9ef6251f001b2ac681c125720a06dad32968a41bbc74",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1241.png",
+      "source_png_sha256": "826b8d90ac6e384d51d616f658878e70529a45a09315129a5c6be5e88d115e8e",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0773-f1241.png",
+      "reference_sha256": "826b8d90ac6e384d51d616f658878e70529a45a09315129a5c6be5e88d115e8e",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1242,
+      "source_pts": 51.75,
+      "actual_source_bgr_sha256": "50b3dbe2e6c3bba41f6c364e73245538df7dfd4c9e30b709bae40467d77e5d3a",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1242.png",
+      "source_png_sha256": "d4ba91fb6fde4d491e06e3dbe4e9cf06a4f0dfbbe0299715925941914c619c6c",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0774-f1242.png",
+      "reference_sha256": "d4ba91fb6fde4d491e06e3dbe4e9cf06a4f0dfbbe0299715925941914c619c6c",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1243,
+      "source_pts": 51.792,
+      "actual_source_bgr_sha256": "26926340f25b85a89b91c5ada8008be81b8e6ff8afd01b679869303d3655f345",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1243.png",
+      "source_png_sha256": "41be56b2b8fcb519e13b11d64f6651966e0f3a911e0eb7a017708c36025bd7c6",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0775-f1243.png",
+      "reference_sha256": "41be56b2b8fcb519e13b11d64f6651966e0f3a911e0eb7a017708c36025bd7c6",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1244,
+      "source_pts": 51.833,
+      "actual_source_bgr_sha256": "44d7174f4502d5be8107f0efe7cf405486b37cabda2d963df0fadc1373893ab6",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1244.png",
+      "source_png_sha256": "8e0aa0367533c6e32976e01a3e06e05b1162bfa066993e5ce4854c15c8f35270",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0776-f1244.png",
+      "reference_sha256": "8e0aa0367533c6e32976e01a3e06e05b1162bfa066993e5ce4854c15c8f35270",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1245,
+      "source_pts": 51.875,
+      "actual_source_bgr_sha256": "7d4148ac330bb7788d438f274b81115213b0fbf3aabec825c166e727d174105b",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1245.png",
+      "source_png_sha256": "e841b0d162018fce56f01fc8288bd1e97f762fd59dc97e7aa3c4021579c11bf3",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0777-f1245.png",
+      "reference_sha256": "e841b0d162018fce56f01fc8288bd1e97f762fd59dc97e7aa3c4021579c11bf3",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1246,
+      "source_pts": 51.917,
+      "actual_source_bgr_sha256": "4f7ab3a2b385eb4324822bf3828428681d13dddd818d63e773a7b2bbf5b913ed",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1246.png",
+      "source_png_sha256": "306dcd134318cc2734cba6268e69a71ae263ed897a3edf6820cb8892382eeb18",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0778-f1246.png",
+      "reference_sha256": "306dcd134318cc2734cba6268e69a71ae263ed897a3edf6820cb8892382eeb18",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1247,
+      "source_pts": 51.958,
+      "actual_source_bgr_sha256": "beef7154d8654a472fa5479dfb53d7dca1a9bdd5c63278d89e9f0302b8c935f4",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1247.png",
+      "source_png_sha256": "1a87408cb58ac7f83991f9ee081a130bcc9bc79cf174461d0468bf24b95ed8d1",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0779-f1247.png",
+      "reference_sha256": "1a87408cb58ac7f83991f9ee081a130bcc9bc79cf174461d0468bf24b95ed8d1",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 6
+    },
+    {
+      "frame": 1248,
+      "source_pts": 52.0,
+      "actual_source_bgr_sha256": "1942e4e7a7ade1aeca95df1219be283dcd2f68de59f60303961ef1df9c0b28b5",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1248.png",
+      "source_png_sha256": "823db7ca8d704473a47d55fcc5d1d8bd79db8bc6cda930020e56a4ac9e6ca90d",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0780-f1248.png",
+      "reference_sha256": "823db7ca8d704473a47d55fcc5d1d8bd79db8bc6cda930020e56a4ac9e6ca90d",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1249,
+      "source_pts": 52.042,
+      "actual_source_bgr_sha256": "b8e624281d9aef1924b9309cc74e076456113630d4dce504923eac941fbbaaeb",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1249.png",
+      "source_png_sha256": "143a19d21f7bad4cdf7ad01a16eb1cd23383c3ff7f9a72a112308e5ac80304a8",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0781-f1249.png",
+      "reference_sha256": "143a19d21f7bad4cdf7ad01a16eb1cd23383c3ff7f9a72a112308e5ac80304a8",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1250,
+      "source_pts": 52.083,
+      "actual_source_bgr_sha256": "ee6d4b4fd7a0245b5e66722c562449c68516746eac2ac8db8726fde67cc4fb18",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1250.png",
+      "source_png_sha256": "b349f85cbabcff4f622446a3b441e99bdd7c8ebd4797409d12b85bac150d2f2e",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0782-f1250.png",
+      "reference_sha256": "b349f85cbabcff4f622446a3b441e99bdd7c8ebd4797409d12b85bac150d2f2e",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1251,
+      "source_pts": 52.125,
+      "actual_source_bgr_sha256": "0403c77c53007d2014e5aa72f16dd8266b7381cac759763892664614143953b7",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1251.png",
+      "source_png_sha256": "cb9e9f5c9eef360e993fc88bcb4d261837c876509015f06fd7d79b088e05be7a",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0783-f1251.png",
+      "reference_sha256": "cb9e9f5c9eef360e993fc88bcb4d261837c876509015f06fd7d79b088e05be7a",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1252,
+      "source_pts": 52.167,
+      "actual_source_bgr_sha256": "7914761d1de9dec1c3ba28d850de18209b64b41fe58e932c9f7d87f7789532dd",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1252.png",
+      "source_png_sha256": "acce4e5c52787ce05d7a52334d9a5eb34ae91c8d02f43da8341a03bea85b1964",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0784-f1252.png",
+      "reference_sha256": "acce4e5c52787ce05d7a52334d9a5eb34ae91c8d02f43da8341a03bea85b1964",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1253,
+      "source_pts": 52.208,
+      "actual_source_bgr_sha256": "b217f00197c3b5c3db764a63459fd01e8023f0f740f60e63b9cba7828593278e",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1253.png",
+      "source_png_sha256": "41ca4499301c9a1bc65ba01d0220411c19863feef65fc91fbbc88820735bda6d",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0785-f1253.png",
+      "reference_sha256": "41ca4499301c9a1bc65ba01d0220411c19863feef65fc91fbbc88820735bda6d",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1254,
+      "source_pts": 52.25,
+      "actual_source_bgr_sha256": "397243069d818cdda0fd7ae51f1afdf280278bad067ff8036045bd41dbe06a0c",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1254.png",
+      "source_png_sha256": "1a580efd4e40e703d4d1f97b489ef4a388248c02151b17e05d63d4ba7370ca1c",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0786-f1254.png",
+      "reference_sha256": "1a580efd4e40e703d4d1f97b489ef4a388248c02151b17e05d63d4ba7370ca1c",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1255,
+      "source_pts": 52.292,
+      "actual_source_bgr_sha256": "633f186d7fb1363dcc80b14d0df15027722e08c46926e89fcf87360319af26e8",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1255.png",
+      "source_png_sha256": "568b45d6124fcbb127656039fa22bd6e7051d695071814144aa9b815fe52a5c2",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0787-f1255.png",
+      "reference_sha256": "568b45d6124fcbb127656039fa22bd6e7051d695071814144aa9b815fe52a5c2",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1256,
+      "source_pts": 52.333,
+      "actual_source_bgr_sha256": "2d7aea6396c35732cc7e84efd03b128bc3fbd160788b4b42c2f100942497f8fd",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1256.png",
+      "source_png_sha256": "4b1a2a6df84eb4ebdea7ad55ed6f69290539cc17a7770ae1ba66b4c9307d8ea6",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0788-f1256.png",
+      "reference_sha256": "4b1a2a6df84eb4ebdea7ad55ed6f69290539cc17a7770ae1ba66b4c9307d8ea6",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 9.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1257,
+      "source_pts": 52.375,
+      "actual_source_bgr_sha256": "e18c292e62f5ffdad91b39d7b66498ed2f1fd0c7564c5ae03837341cc6644779",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1257.png",
+      "source_png_sha256": "caa1fb9f578a7f2bbbfe6974ec79385292f085d59d318c083f772892c4c5c3fe",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0789-f1257.png",
+      "reference_sha256": "caa1fb9f578a7f2bbbfe6974ec79385292f085d59d318c083f772892c4c5c3fe",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 9.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1258,
+      "source_pts": 52.417,
+      "actual_source_bgr_sha256": "fe1ce93431d1f638b238945cdbf7bc31711883215e0205656d569fcd3555b9d4",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1258.png",
+      "source_png_sha256": "ede6aa13c60f1a7398a47ba24791c69071edd40a9161eb28cba345ce9595c99d",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0790-f1258.png",
+      "reference_sha256": "ede6aa13c60f1a7398a47ba24791c69071edd40a9161eb28cba345ce9595c99d",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 9.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1259,
+      "source_pts": 52.458,
+      "actual_source_bgr_sha256": "652898e412ebebeb75031e8ae0c13f54077859f3aafee32b231b54491d49dd08",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1259.png",
+      "source_png_sha256": "875deeb19520e2875687f38759e5e74ca2c2b516c3d9a24d14d4188e3aa78797",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0791-f1259.png",
+      "reference_sha256": "875deeb19520e2875687f38759e5e74ca2c2b516c3d9a24d14d4188e3aa78797",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1260,
+      "source_pts": 52.5,
+      "actual_source_bgr_sha256": "fe961071bf153f410f771fb4f100a61c7c236ab2a68192cdc1f76739692c30a3",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1260.png",
+      "source_png_sha256": "acb2707905c75943a615411e0ca68d1bfa0b71a4490a31bd46b331bb55501078",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0792-f1260.png",
+      "reference_sha256": "acb2707905c75943a615411e0ca68d1bfa0b71a4490a31bd46b331bb55501078",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 8.0,
+      "unsupported_warm_candidates": 0
+    },
+    {
+      "frame": 1261,
+      "source_pts": 52.542,
+      "actual_source_bgr_sha256": "dfe9e4c48d151437b47feb5a5edcc02ae74b822b649423690dac5fe88cc7c6fc",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1261.png",
+      "source_png_sha256": "8a54cdca548c43e7ebc37a594b998a048929fca000c40f63e226b63f841274e5",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0793-f1261.png",
+      "reference_sha256": "8a54cdca548c43e7ebc37a594b998a048929fca000c40f63e226b63f841274e5",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 757
+    },
+    {
+      "frame": 1262,
+      "source_pts": 52.583,
+      "actual_source_bgr_sha256": "4e84f8db9737c0e72074436c1bf7a3705a9fd8248b01c10f0349cd855a673286",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1262.png",
+      "source_png_sha256": "0a096ee0612271d5565525949113332cb9311148d67dbe79a68d721844af64c6",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0794-f1262.png",
+      "reference_sha256": "0a096ee0612271d5565525949113332cb9311148d67dbe79a68d721844af64c6",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 757
+    },
+    {
+      "frame": 1263,
+      "source_pts": 52.625,
+      "actual_source_bgr_sha256": "c877c95cfd8bc8ac76ee20513b7e70f147415822bae638008de45e0986dae1b4",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1263.png",
+      "source_png_sha256": "b18d00c002f04fe680976b5d66d1fe4651b3876c65dc14497e86c7f8f6caf37b",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0795-f1263.png",
+      "reference_sha256": "b18d00c002f04fe680976b5d66d1fe4651b3876c65dc14497e86c7f8f6caf37b",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 757
+    },
+    {
+      "frame": 1264,
+      "source_pts": 52.667,
+      "actual_source_bgr_sha256": "9784e21d0b1086609c56a5ab3b25a013a5144c5f88ef53ea503c232f54546286",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1264.png",
+      "source_png_sha256": "416561627716630a956ac89871cb9142e39bc29b545c94463fc89bdd1f23be23",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0796-f1264.png",
+      "reference_sha256": "416561627716630a956ac89871cb9142e39bc29b545c94463fc89bdd1f23be23",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 393
+    },
+    {
+      "frame": 1265,
+      "source_pts": 52.708,
+      "actual_source_bgr_sha256": "7e509365c61c6281e53b3dd69efa58b0a4eea91a185a7c2c09a2b0a4691be4cc",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1265.png",
+      "source_png_sha256": "6929ef2e9177ee9efb79354aa27d53a063db5c820fb8815aa420851ca526db5a",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0797-f1265.png",
+      "reference_sha256": "6929ef2e9177ee9efb79354aa27d53a063db5c820fb8815aa420851ca526db5a",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 407
+    },
+    {
+      "frame": 1266,
+      "source_pts": 52.75,
+      "actual_source_bgr_sha256": "80fa3820c776739ec501137d65233b493a56219eaff586a1a91f12b372a1ba70",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1266.png",
+      "source_png_sha256": "69950e604d745eb02807dc4bb54eb1d8b6dece8a2cd5bfd8f666ba337636966a",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0798-f1266.png",
+      "reference_sha256": "69950e604d745eb02807dc4bb54eb1d8b6dece8a2cd5bfd8f666ba337636966a",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 407
+    },
+    {
+      "frame": 1267,
+      "source_pts": 52.792,
+      "actual_source_bgr_sha256": "62a5af23080f1b0ddef9e2cab40531e435a81bda96d1a4f1e6d0590cce8b92c3",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1267.png",
+      "source_png_sha256": "1e4fd53e32b0bd4c25962a61035559b5f3ae68672225633e8decb34dbf4c818e",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0799-f1267.png",
+      "reference_sha256": "1e4fd53e32b0bd4c25962a61035559b5f3ae68672225633e8decb34dbf4c818e",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 142
+    },
+    {
+      "frame": 1268,
+      "source_pts": 52.833,
+      "actual_source_bgr_sha256": "1eb6085dc69ca17758017aa6b458ba7dfcfff69a3a84f43a365f392b4b432bfc",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1268.png",
+      "source_png_sha256": "84e44a9f27bb1df82b0cfe5e1e08c35f2c45aad8b45e65762c2faf04bae4a06d",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0800-f1268.png",
+      "reference_sha256": "84e44a9f27bb1df82b0cfe5e1e08c35f2c45aad8b45e65762c2faf04bae4a06d",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 142
+    },
+    {
+      "frame": 1269,
+      "source_pts": 52.875,
+      "actual_source_bgr_sha256": "f4396b5817d0e075da3c93cccbbadbbb19060f2b56c96b4b2afd4c1f534cbc71",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1269.png",
+      "source_png_sha256": "4efcd1da166a640d36b1a9ec6ec7cf24d1003ab335849970c36622625794125e",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0801-f1269.png",
+      "reference_sha256": "4efcd1da166a640d36b1a9ec6ec7cf24d1003ab335849970c36622625794125e",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 147
+    },
+    {
+      "frame": 1270,
+      "source_pts": 52.917,
+      "actual_source_bgr_sha256": "119deab5f4856fe3be72edbb4eb92764b19b2a3a95cf323db412eefb2b884d35",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1270.png",
+      "source_png_sha256": "3d426d4145901ced8950c3f5a061ec0b5e5923454338df189aa667d2cb1da92d",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0802-f1270.png",
+      "reference_sha256": "3d426d4145901ced8950c3f5a061ec0b5e5923454338df189aa667d2cb1da92d",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 183
+    },
+    {
+      "frame": 1271,
+      "source_pts": 52.958,
+      "actual_source_bgr_sha256": "c3471491572c2a34d54d42471daa85ea79c3534f6adf4dd63ba00a0575d9df85",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1271.png",
+      "source_png_sha256": "bd152704d37e027f12960bde894fea247d6ef38a16c4a5d87337513a18c5411b",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0803-f1271.png",
+      "reference_sha256": "bd152704d37e027f12960bde894fea247d6ef38a16c4a5d87337513a18c5411b",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 183
+    },
+    {
+      "frame": 1272,
+      "source_pts": 53.0,
+      "actual_source_bgr_sha256": "b07f4f0f332e617a4d1a73f4b946e879aa4c792d2cfe8cd55efbe59fce45d687",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1272.png",
+      "source_png_sha256": "e109f44e6e6bf5923ed959624cbfe3315af3af19ae97d7153524ea3bda8af826",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0804-f1272.png",
+      "reference_sha256": "e109f44e6e6bf5923ed959624cbfe3315af3af19ae97d7153524ea3bda8af826",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 183
+    },
+    {
+      "frame": 1273,
+      "source_pts": 53.042,
+      "actual_source_bgr_sha256": "cd8fa5f450fe2fc91e42aea97461b7a5e7838b0c7b5c9d9db4fa8ed613758c06",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1273.png",
+      "source_png_sha256": "84df64b6663987645172f038b944c5357c023565aa9989477d2cc581995fff26",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0805-f1273.png",
+      "reference_sha256": "84df64b6663987645172f038b944c5357c023565aa9989477d2cc581995fff26",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 183
+    },
+    {
+      "frame": 1274,
+      "source_pts": 53.083,
+      "actual_source_bgr_sha256": "9b0cfd849ff7b22e6adcfc995e75ceb1cfbbecc82e143b82878b752f4e8b47fa",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1274.png",
+      "source_png_sha256": "bea8a9e0d131bfc25c0038b7f2d3d6eb4ba364cf7e380dd23e8dcbcdbedd4387",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0806-f1274.png",
+      "reference_sha256": "bea8a9e0d131bfc25c0038b7f2d3d6eb4ba364cf7e380dd23e8dcbcdbedd4387",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 19.0,
+      "unsupported_warm_candidates": 242
+    },
+    {
+      "frame": 1275,
+      "source_pts": 53.125,
+      "actual_source_bgr_sha256": "8dae140e7557b7d5014f3c9e7b3f3ff461e18dda4aa378ea160f4b99a1f01173",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1275.png",
+      "source_png_sha256": "2b6f575be9b4e9475452632420c04d57300dab031be1b4424ed0b3124833cf44",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0807-f1275.png",
+      "reference_sha256": "2b6f575be9b4e9475452632420c04d57300dab031be1b4424ed0b3124833cf44",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 19.0,
+      "unsupported_warm_candidates": 240
+    },
+    {
+      "frame": 1276,
+      "source_pts": 53.167,
+      "actual_source_bgr_sha256": "2271df77e15ec451ba9109c943c85147880de8f488d423041bcee3ccd8c51b68",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1276.png",
+      "source_png_sha256": "9819624c3270bbfbc4e2be2d8b1aab91d9948dcb8b1ca5b652f68d24cc5714cc",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0808-f1276.png",
+      "reference_sha256": "9819624c3270bbfbc4e2be2d8b1aab91d9948dcb8b1ca5b652f68d24cc5714cc",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 19.0,
+      "unsupported_warm_candidates": 241
+    },
+    {
+      "frame": 1277,
+      "source_pts": 53.208,
+      "actual_source_bgr_sha256": "17112674bb7af724565d36d8969b53a8091788b2c71499b777715862b0853a46",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1277.png",
+      "source_png_sha256": "a0c317e832193f7efb919d9ebffa5727b3e188daad0dbe344000278fd0fe8817",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0809-f1277.png",
+      "reference_sha256": "a0c317e832193f7efb919d9ebffa5727b3e188daad0dbe344000278fd0fe8817",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 19.0,
+      "unsupported_warm_candidates": 241
+    },
+    {
+      "frame": 1278,
+      "source_pts": 53.25,
+      "actual_source_bgr_sha256": "7b4cff177ae8243775cb043d601004e5e9e2e58ed65fa4afc1bf2fb624d54cd6",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1278.png",
+      "source_png_sha256": "629c044a5988836ba07ba9a5507d5c7a9fab62a4c1356fa6aab5bfa20e46989f",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0810-f1278.png",
+      "reference_sha256": "629c044a5988836ba07ba9a5507d5c7a9fab62a4c1356fa6aab5bfa20e46989f",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 291
+    },
+    {
+      "frame": 1279,
+      "source_pts": 53.292,
+      "actual_source_bgr_sha256": "5edef1e1531899e5db08aa24a86bf8efbd8935ef75c934ee12b672c170ea4a37",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1279.png",
+      "source_png_sha256": "1ee3e2f8ed32c5544c7421288ada74da8f3f01b5802e55eec986bdc26f74c9ca",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0811-f1279.png",
+      "reference_sha256": "1ee3e2f8ed32c5544c7421288ada74da8f3f01b5802e55eec986bdc26f74c9ca",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 292
+    },
+    {
+      "frame": 1280,
+      "source_pts": 53.333,
+      "actual_source_bgr_sha256": "35bf59fe7087f64fd5d4793b217a91befa21ce0568e95ead994a99ea6ddd71e8",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1280.png",
+      "source_png_sha256": "62be4c5932daea4999afe9596d9d9f77c29c521c69347445278750d03c0c1069",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0812-f1280.png",
+      "reference_sha256": "62be4c5932daea4999afe9596d9d9f77c29c521c69347445278750d03c0c1069",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 281
+    },
+    {
+      "frame": 1281,
+      "source_pts": 53.375,
+      "actual_source_bgr_sha256": "51654c83745a81a886c1e088f4d8db92037f572e2a30c0f191352e9ca5a18745",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1281.png",
+      "source_png_sha256": "0e44efc76c45255dab763cc8d4899a5121bee787cef427bcd47e49a92669097c",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0813-f1281.png",
+      "reference_sha256": "0e44efc76c45255dab763cc8d4899a5121bee787cef427bcd47e49a92669097c",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 20.0,
+      "unsupported_warm_candidates": 281
+    },
+    {
+      "frame": 1282,
+      "source_pts": 53.417,
+      "actual_source_bgr_sha256": "8cb9efb1943e3bc56a37f542076df39764f1d1c51847993b46b421bc0e5294b4",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1282.png",
+      "source_png_sha256": "6e99cbfa8fc0ce510e222edce01da0550566bfd22e31f3fc2fd95f2657ceb59f",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0814-f1282.png",
+      "reference_sha256": "6e99cbfa8fc0ce510e222edce01da0550566bfd22e31f3fc2fd95f2657ceb59f",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 21.0,
+      "unsupported_warm_candidates": 236
+    },
+    {
+      "frame": 1283,
+      "source_pts": 53.458,
+      "actual_source_bgr_sha256": "8780758210b86029406bc7490a6310a75a0ce9ac2d79b46920de5438cff42a7c",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1283.png",
+      "source_png_sha256": "b0f54d569fb5bde2a38df3c8fc31e53232c019f6a545e995e92945691be94caf",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0815-f1283.png",
+      "reference_sha256": "b0f54d569fb5bde2a38df3c8fc31e53232c019f6a545e995e92945691be94caf",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 23.0,
+      "unsupported_warm_candidates": 248
+    },
+    {
+      "frame": 1284,
+      "source_pts": 53.5,
+      "actual_source_bgr_sha256": "84dc680e5662c834e1b312edda3ef2358a2f27c2924b376c85e4d5a15ec06414",
+      "source_png": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised-caption-2026-10-04\\source\\f1284.png",
+      "source_png_sha256": "d94df42f48ccedc57c7669565eeee356e42313698b1c2543ed2e4f6c50937c7f",
+      "reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0816-f1284.png",
+      "reference_sha256": "d94df42f48ccedc57c7669565eeee356e42313698b1c2543ed2e4f6c50937c7f",
+      "actual_decode_equals_reference": true,
+      "best_local_offset_xy": [
+        0,
+        0
+      ],
+      "stable_core_p95_max_channel_delta": 23.0,
+      "unsupported_warm_candidates": 238
+    }
+  ],
+  "limits": [
+    "Warm candidates are not exclusively glyphs.",
+    "This is registration evidence, not transparent-alpha or artistic acceptance."
+  ]
+}

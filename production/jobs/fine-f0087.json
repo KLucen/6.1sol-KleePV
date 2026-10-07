@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0087",
+  "source_frame": 87,
+  "source_candidate": "src-0030",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0030-f0087.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0083.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0087.png"
+  ],
+  "prompt": "One full16:9 Klee replacement animation cel. CURRENT original image1 controls pose/crop/occlusion, previous Klee2 controls SAME identity/outfit/hair/colors/style only, image3 source A/B diffs upper-right CURRENT, no panels in output. Current whole head/torso move slightly RIGHT and become more upright. BOTH raised arms are nearly VERTICAL: glove fingers now spread farther INWARD across the face of the clock, covering more of its left/right display corners; source upper hand/cuff outlines different from previous. Clock directly in front of upper face hides the eyes again: NO visible red irises beneath it in this current drawing, unlike previous Klee lower eye-sliver cel. Tiny closed caret mouth visible below clock, orange cheek fragments. Follow current head angle/bangs/ear shapes, stable red beret/creamclover/whitefeather side, TWO SHORT blonde side ponytails (no long hair); source head movement applies coherently to hat and ears. Keep straight extended legs sloping downward-right cropped below canvas, same Klee coat length and cream hem/shorts/capelet/backpack, not a knee bend. Source diagonal lavender pillow behind head, hands in front of clock, clock at exact source current tilt/size. Flat loose dark PV outlines/simple patches and one shade, no gray pajamas/rabbit hood/pockets. NO text/subtitles/credits/titles/labels/lettering anywhere, clock display blank. No new eyes/limbs, zoom-out, mirroring or pose freeze.",
+  "output": "../generated/fine-f0087.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "star-f1221-closeup-2026-10-06-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1221,
+  "source_cel": "cel-0263",
+  "source_reference": "source_refs/src-0753-f1221.png",
+  "source_exposures": [
+    {
+      "start": 1221,
+      "end": 1225,
+      "pts": 50.875,
+      "end_pts": 51.042,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-source-actual.png",
+      "role": "Current lowered head/spread rotated palms/Y arms."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-expanded-v2-source-face-native.png",
+      "role": "Closed nearhorizontal eyes, round open O versus preceding taller oval."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-source-ab-rgb-contours.png",
+      "role": "Original1217 to1221 actual redraw of cuffs/hands/head/collar."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-expanded-v2-locals-1-native.png",
+      "role": "Native current face and both rotated open palms, source digits."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1216-closeup-v1.png",
+      "role": "Previous Klee identity/costume only, independently changed mouth and palms."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. ONE WHOLE independently drawn Klee PV cel landscape16:9. Image1 current original1221 controls exact current frame/scale/pose/occlusion; image2 native current expression; image3 ORIGINAL AB RGB/dualcontours new redraw; image4 nativecurrentface/BOTHfullpalms; image5 precedingKlee ONLYidentity/costume. Current head lower again crown~y90/chiny645, closed eyelids short mostlyhorizontal slightlytilted strokes with small brows above, no iris. Current mouth nearly ROUND open singing O~x950..1029,y537..610, wider/less tall than previous oval, pink inside and tiny bottomleft linegap. Both OPEN glove palms rotate more outward/lower, leftpalmfingers now tilt diagonally down-left, leftthumbtip~x290,y154 and fourfingersx180..306,y261..395,leftwrist~x468,y375. Rightthumbtip~x1728,y125, fourouterfingersx1840,y220..355,rightwrist~x1563,y316. Source has two full five-finger hands and coherent wrists, no extra digits; faithfully use image4. Wide cream cuffs leftx400..568,y291..601/rightx1463..1611,y247..527 independently rotated. Straight diagonally raised red sleeves connect broad Y arms/currentshoulders/armpits, current collar lower, torso bottom cropped. Klee shortblonde bangs/pointedears/redberet creamclover whitefeather brownbadge, EXACTLY TWO short rooted neck/shoulder ponies, redcoat same creamdiamondcollar/chestmedallion/cuffs/browngloves as5. Remove original long pinkhair and all disconnected extra hairwings below armpits. Independently redraw current mouth/palms/cuffs/collar/head, do not freeze5. Dark organic ink/mostlyflat pastel original PV style. Purple originalbackground/currentstars, NO lyrics/text/watermark; real current source subtitle layers separately restored. No collage/paste/flip/morph/newobjects.",
+  "output": "generated/star-f1221-closeup-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root actually viewed currentfull/expandednativeface and all4 nativeparts, actualAB/RGB/contour overview; closed eyelids/open round O/rotatedpalms clear new redraw versus1217.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-164cf4b3-6da1-455b-ad28-51babd821946.png",
+  "output_sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "passed": [
+      "Closed eyes/open rounded O independently changed",
+      "Two rotated full glove palms, coherent Y arms and two ponies"
+    ],
+    "deferred": [
+      "Mouth remains slightly oval rather than source round; hand/cuff/head placement approximate",
+      "Ornate coat detail and real source layer/actual-speed review pending"
+    ],
+    "accepted": false
+  }
+}

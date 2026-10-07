@@ -1,0 +1,80 @@
+{
+  "id": "star-f1106-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1106,
+  "source_cel": "cel-0233",
+  "source_reference": "source_refs/src-0638-f1106.png",
+  "source_exposures": [
+    {
+      "start": 1106,
+      "end": 1113,
+      "pts": 46.083,
+      "end_pts": 46.375,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-actual.png",
+      "role": "Current1106 exact source authority: left forearm raised/curling upward, right hand largely behind top chest cuff, narrow open eyes and small O mouth, two straight grounded legs."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-face-native.png",
+      "role": "Native current eyes/mouth/hat-head placement."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-f1106-source-ab-rgb-contours.png",
+      "role": "True1102→1106 RGB/contours gives both arm and upright leg changes."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-body-native.png",
+      "role": "Exact current sleeve/cuff/hand occlusion and legs."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1102-fast-continuation-v1.png",
+      "role": "Previous Klee identity/flat style only, not down-left-arm pose. Two short rooted ponytails terminate above lower collar."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Make ONE independent whole Klee PV cel at CURRENT original1106. Images1/2/4 CURRENT source/full/native face/body alone govern framing, expression, pose and occlusion. Image3 true1102→1106 AB/RGB/contours controls real redraw. Image5 only Klee simplified style/costume identity, not a frozen pose. Replace all original girl, retain original simple mostly flat color blocks and hand outlines/fullbody height. Klee: red beret cream clover white feather brown badge, pale short bangs, elf ears, exactly TWO compact shoulder-rooted short ponytails ending above lower collar; red coat plain two-lobed cream collar, plain cream cuffs and continuous cream COAT hem above RED shorts; brown gloves/boots. No old original animal hat, buttons/pockets/long hair/pajama legs/backpack/new ornaments. CURRENT1106 LEFT elbow bends near(810,510), LEFT forearm points UP and OUT to small partly curled glove near(739,425), replacing previous down/out sleeve. Preserve current camera-facing angled cuff opening wrapping the glove, not a straight down-left arm or open spread palm. RIGHT forearm is nearvertical in front of upper chest with elbow~1035,450; large cream cuff near(1000,360) partially HIDES right hand, only small brown curved fingertips peek above its top edge near collar; do not copy previous fully-exposed large chest glove. Both shoulder-elbow-cuff connections coherent, two hands total. Head slightly right/upright current source, narrow open red eyes in source opening, small open O mouth, not previous caret or closed eyes. TWO straight morevertical legs are now planted symmetrically, left boot~875,1020 and right~1058,1020 with horizontal grounded soles, not previous slanted right-leg/boot. Red coat remains same garment length with real hand-drawn sleeve/hem variation. Two short ponytails only, none beneath either arm; ORIGINAL long pink hair behind left sleeve is removed, visible gap there PURE PURPLE SKY without pale/skin/detached black-outlined tuft. Preserve purple stars layout, no extra stars, no text/lyrics/watermark; captions restored from source separately. One landscape whole frame, no collage/crop/mirror/warped previous cel. Actually redraw CURRENT up-left-hand and hidden right fingertips/straightleg pose.",
+  "output": "generated/star-f1106-fast-continuation-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root viewed current original/full/native face/body and actualAB/RGB/contours/native locals: raised left arm, right fingers hidden by cuff, upright grounded legs.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-f1106-source-locals-native.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8906a714-7b69-40df-92bf-a2929bb16239.png",
+  "static_review": {
+    "passed": [
+      "left up/out curled glove and connected cuff",
+      "right glove fingertips partially hidden by chest cuff",
+      "two short rooted ponytails/no original underarm hair",
+      "two upright grounded legs"
+    ],
+    "deferred": [
+      "palm/cuff proportions and head vertical framing approximate",
+      "knee/boot shaded style remains"
+    ],
+    "accepted": false
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "5dc84fa8479d2b8402895ee0f0afa8900bbab94960c08fa2278cc27486b7c6c2"
+}

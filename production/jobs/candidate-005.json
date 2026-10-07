@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-cd29c7b4-4694-4d77-8ba3-c3bed46a58cd",
+  "candidate_id": 5,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset type: SINGLE complete 16:9 PV frame. Edit ref 1 source-cel-005 by replacing pink-haired pajama character with default Genshin Klee only. Ref 1 dictates exact oversized right-side frontal head-and-shoulders camera crop, neutral drooping half-open eyes, small horizontal open mouth with white interior, and BOTH hands pressed against cheeks: palms support cheek sides, five upright fingers each beside face, wrists angle inward from bottom. Preserve this cheek-cupping key pose and every visible finger; render hands as fitted brown gloves and sleeves as Klee red with large cream cuffs. Hands overlap cheeks and hair in front; hair/pointed ears are behind hands, sleeves behind wrists. Ref 2 provides Klee identity/simple PV style; ref 3 Klee pillow close-up provides continued head/hat/blonde hair palette only, never its pillow or pose. Klee red beret with cream clover/white feather replaces sleep mask; pale blond short side ponytails replace long pink hair. Red coat cream trim visible at shoulders/bottom, no added body out of crop. Keep left original Chinese '一定会好起来的' and white speech-bubble Japanese 'いつかは 大丈夫' intact. Keep purple backdrop. Loose black hand-drawn lines, flat broad colors, source orange blush, restrained simple shadows. No polished game rendering, no props, no panels.",
+  "references": [
+    "analysis/source_cels/source-cel-005.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-002.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-005.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Both gloves cup cheeks in foreground, source sleepy eyes and horizontal white-interior mouth retained. Klee hats/hair continuity broadly maintained. Composition slightly less rightward than source; source text/background should be composed separately."
+}

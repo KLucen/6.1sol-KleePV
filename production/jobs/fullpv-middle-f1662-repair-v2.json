@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f1662",
+  "source_frame": 1662,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0949-f1662.png",
+  "prompt": "Identity-preserve source PV character replacement, independent cel f1662. Edit SOURCE image1 into Klee, preserving FULL exact same 1920x1080 coordinate system and background/subtitles. Image2 is ONLY Klee hat design; image3 is ONLY Klee coat cuffs gloves design (NEVER its star/moon). Image4 actual RGB difference/two-color contours with source neighboring cel; these tiny bang/eyelid/cuff/fold variations must survive, don't use a frozen previous cel. CURRENT SOURCE owns all pose and position. LARGE closeup character ONLY RIGHT x888..1847 y126..1080, LEFT caption stays unchanged. Head x1435 y470; half-open sleepy RED irises with thick black slanted upper lids, orange cheek circles; current tiny downturned mouth. Klee red beret cream clover brown band white feather REPLACES original bunny sleep mask entirely, never stack both. Pale blonde bangs TWO SHORT side ponytails; pointed ears only where visible. Exact crossed-arm topology: foreground forearm slants from x1140 y1050 to x1510 y840, a PLAIN cream cuff at x1515..1685 y845..980, only right brown glove tips x1642..1735 y790..890 on opposite red upper sleeve. Other hand hidden. Below crossed arms is FOLDED CLOTHED COAT MASS cropped by bottom, not exposed knees, thighs, pants, feet. Red Klee coat maintains source silhouette; don't add extra limbs/body. Source thick wobbly black contours, limited flat color and simple source shadow, low-framerate hand-drawn PV, NOT fine game-card illustration, no gradients/texture/shading polish or extra coat jewelry. Current source art independently redrawn.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0949-f1662.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/small_seated/source-delta-f1662-f1668.png"
+  ],
+  "reference_roles": [
+    "current source geometry/pose/occlusion",
+    "hat identity only",
+    "costume identity only",
+    "actual source RGB difference and contours"
+  ],
+  "output": "generated/fine-f1662-knee-crop-repair-v2.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "qa": "Static source and adjacent-delta checked before generation; draft unaccepted.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-0a351b7f-527d-43fd-8261-99747d192cf1.png",
+  "output_sha256": "5e6ed934ca1fc143cd1e41544748d4d65dfd4b3812e2266cbd37d3890b8f4423",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    940
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

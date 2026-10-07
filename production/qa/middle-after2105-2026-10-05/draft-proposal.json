@@ -1,0 +1,274 @@
+{
+  "accepted": false,
+  "artistic_accepted": false,
+  "proposals": [
+    {
+      "source_frame": 2105,
+      "path": "generated/middle-after-f2105-2026-10-05-source-v1.png",
+      "job": "jobs/middle-after-f2105-2026-10-05-source-v1.json",
+      "source_cel": "cel-0390",
+      "source_exposures": [
+        {
+          "start": 2105,
+          "end": 2110,
+          "pts": 87.708,
+          "end_pts": 87.917,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-after2105-2026-10-05/f2105-source-new-static.png",
+      "known_issues": [
+        "Head/beret and collar somewhat enlarged versus source; collar knot added",
+        "Hands/cuffs/coat hem amplitudes and widths approximate; near planted boot front-facing rather than source sidewards",
+        "Rear boot side/sole contour simplified while rear-leg overlap retained",
+        "Generated stars/background phase not source-exact; captions absent and must be restored before delivery",
+        "Static source/new comparison only; no final composition or actual-speed artistic acceptance"
+      ],
+      "source_current_observed": "Exactly one actor, two short connected ponies, closed eyelids and round O. Both brown-gloved hands now side-fanned, shallower outward V distinct from2098. Long near-left leg diagonally down-right, tucked rear-right bent knee and boot behind near thigh.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "525d9622fef8106fdba151b41fb4b0493f3c53922a46ea66712fcca32f73da7f"
+    },
+    {
+      "source_frame": 2110,
+      "path": "generated/middle-after-f2110-2026-10-05-source-v1.png",
+      "job": "jobs/middle-after-f2110-2026-10-05-source-v1.json",
+      "source_cel": "cel-0391",
+      "source_exposures": [
+        {
+          "start": 2110,
+          "end": 2115,
+          "pts": 87.917,
+          "end_pts": 88.125,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-after2105-2026-10-05/f2110-source-new-static.png",
+      "known_issues": [
+        "Whole actor rightward and slightly higher than source; head/beret/collar enlarged, collar knot retained",
+        "Current palm fan/boot tuck changed but arm/hem/heel amplitudes approximate",
+        "Near planted boot front-facing versus source leftward side pose; rear sole simplified",
+        "Generated star/background phase not source-exact; captions absent, restore from source layer",
+        "Static review only, final composition and actual-speed/artistic acceptance not performed"
+      ],
+      "source_current_observed": "One actor, two compact connected side ponies, closed slanted eyelids/vertical O; both palms fan outward-down with thumbs up, distinct2105hand fan; right rear knee/boot tucked closer behind near left leg.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "d2db88390405d2b917db5619c71c74234a2cfd4be579dac107010bc901b53b80"
+    },
+    {
+      "source_frame": 2115,
+      "path": "generated/middle-after-f2115-2026-10-05-source-v1.png",
+      "job": "jobs/middle-after-f2115-2026-10-05-source-v1.json",
+      "source_cel": "cel-0392",
+      "source_exposures": [
+        {
+          "start": 2115,
+          "end": 2121,
+          "pts": 88.125,
+          "end_pts": 88.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-after2105-2026-10-05/f2115-source-new-static.png",
+      "known_issues": [
+        "Head/beret enlarged, facial tilt exaggerated versus source; actor placement and glove fan approximate",
+        "Feather switches from image-right prior2105/2110 to image-left, minor ornament continuity deferred",
+        "Collar knot removed on this source redraw, cream collar simplified",
+        "Coat hem/boot cuff widths and raised sole amplitude approximate",
+        "Source backgrounds/effects/captions require deterministic original-layer restoration; no AI lyrics",
+        "Static review only; final composition and actual-speed artistic acceptance not performed"
+      ],
+      "source_current_observed": "One actor leaning right clockwise, closedeyes/O; left arm raised steep up-left and right arm down-right with two continuous brown open gloves. Left leg planted vertical, right leg straight diagonally out/down-right with raised right-pointing boot, no folded rearleg. Exactly two compact ponies.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "22494f3f0f616d0327b2cbe435d126d67ee6218741c609ad7aca7fbf2c9586a5"
+    },
+    {
+      "source_frame": 2122,
+      "path": "generated/middle-after-f2122-2026-10-05-source-v1.png",
+      "job": "jobs/middle-after-f2122-2026-10-05-source-v1.json",
+      "source_cel": "cel-0394",
+      "source_exposures": [
+        {
+          "start": 2122,
+          "end": 2129,
+          "pts": 88.417,
+          "end_pts": 88.708,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-after2105-2026-10-05/f2122-source-new-static.png",
+      "known_issues": [
+        "Lowering/inward swing of right leg is under-expressed: right boot remains higher and wider than source, defer amplitude review",
+        "Left wrist raised more than source; head/beret/eyelid tilt enlarged",
+        "Coat hem/cuff/boot dimensions and placement approximate; collar remains simplified",
+        "No extra hand/leg/neck hair seen; exactlytwo connected ponies retained",
+        "Generated background/effects phase not source exact, captions absent for later source-layer restoration",
+        "Static only, no actual-speed or final composition artistic acceptance"
+      ],
+      "source_current_observed": "One right-leaning actor, two compact connected ponies. Left glove raised more vertically than2115; right glove lower with downward fingers. Closedeyes/tiny O. Two straight legs, near left planted and right diagonal with raised toe.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "1315f98cf3ebda0941948f1e0678d3b7c8b195d1c39ca6243f63abd410d9c0a9"
+    },
+    {
+      "source_frame": 2129,
+      "path": "generated/middle-after-f2129-2026-10-05-source-v1.png",
+      "job": "jobs/middle-after-f2129-2026-10-05-source-v1.json",
+      "source_cel": "cel-0395",
+      "source_exposures": [
+        {
+          "start": 2129,
+          "end": 2130,
+          "pts": 88.708,
+          "end_pts": 88.75,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-after2105-2026-10-05/f2129-source-new-static.png",
+      "known_issues": [
+        "Head, beret, collar and O mouth enlarged versus source; facial tilt slightly stronger",
+        "Actor and planted boot slightly rightward; wrist, cuff, coat hem and boot amplitudes approximate",
+        "Backpack straps more visible than previous draft; source red coat fold line simplified",
+        "Exactly two rooted ponies and two continuous brown gloves seen, no extra actor or limb",
+        "Generated effects/background phase not source-exact; captions absent for deterministic original-layer restoration",
+        "Static source/new review only, final composition and actual-speed artistic acceptance not performed"
+      ],
+      "source_current_observed": "One clockwise right-leaning actor, exactly two connected short side ponies separated by cream collar, closed slanted eyelids and round O. Two brown open gloves at steep up-left and diagonal down-right wrists; two straight legs, left planted toe-left and right diagonal leg with raised toe-up-right boot. Current wrist and lower boot pose obtained without holding previous high wide kick.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "47f230f80d29785f348621fe1b17398c6be49ab5e8fc692562975f54c4aeef42"
+    },
+    {
+      "source_frame": 2130,
+      "path": "generated/middle-after-f2130-2026-10-05-source-v1.png",
+      "job": "jobs/middle-after-f2130-2026-10-05-source-v1.json",
+      "source_cel": "cel-0396",
+      "source_exposures": [
+        {
+          "start": 2130,
+          "end": 2132,
+          "pts": 88.75,
+          "end_pts": 88.833,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false,
+      "artistic_accepted": false,
+      "review": "qa/middle-after2105-2026-10-05/f2130-source-new-static.png",
+      "known_issues": [
+        "Foreground blonde bob/pony/pointed ear differ from original long peach hair envelope; background right glove remains more visible than source near occlusion edge",
+        "Giant eye, face, hat and lower shoulder positions and sizes approximate; near eye slightly lower and giant collar has an extra cream fold",
+        "Small actor retains preceding larger head/beret/collar and approximate cuff/boot/hem placement",
+        "Both actors replaced, giant half-open red eyes differ correctly from small closed eyes; no original rabbit mask/peach hair remains",
+        "Generated background/effects and newly uncovered pixels require deterministic original-layer recovery; no AI captions present",
+        "Static full and shot-specific native source/new review only; final compositing and actual-speed artistic acceptance not performed"
+      ],
+      "source_current_observed": "Exactly two Klee actors: small closed-eyes/O-mouth right-leaning dancer remains behind, with two connected side ponies, two brown open gloves and planted-left/raised-right boots. Giant foreground Klee has half-open red eyes, top/right-clipped beret/head, right-clipped O mouth, cheek and lower-right red shoulder, one visible rooted pony and the opposite pony outside crop. Foreground correctly sits in front at upper-right background beret overlap; no foreground hand or extra full body is invented.",
+      "actual_speed_review": "not_performed",
+      "output_sha256": "0e2810d217d478d9a5814887ecaa3a7b3ff876413ed3e5bf0bbc17c4090d9149"
+    }
+  ],
+  "blocked_candidates": [],
+  "successful_builtin_calls": 6,
+  "unique_missing_cels_generated": 6,
+  "source_frames_addable_draft_only": 26,
+  "actual_speed_review": "not_performed",
+  "final_composition_review": "not_performed"
+}

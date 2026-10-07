@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f1314-source-pose-repair",
+  "source_frame": 1314,
+  "canonical_cel": "cel-0283",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0823-f1314.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\title-klee-identity-crop.png"
+  ],
+  "prompt": "Use case: identity-preserve. Replace the ONLY original girl in Image1 with Klee from Genshin Impact in the exact original PV pose. Output a SINGLE FULL landscape 16:9 animation cel. Image1 is the current SOURCE frame and controls ALL composition, body size, character center, feet location, limb positions, head angle and occlusion. Image2 is a SMALL CROPPED IDENTITY/STYLE sample ONLY: red Klee beret cream clover/white feather, blonde short side ponytails, pointed ears, red eyes, cream-trim red coat, brown gloves. It is NOT a pose or position reference. Match source f1314's visibly LEFT-LEANING HEAD about 14degrees, source eye-center line rises to image-right with left eye LOWER than right. Beret/brim/bangs/ears follow the same left tilt. Tired half-lidded open RED eyes left-down and tiny closed dot mouth, orange oval cheeks. On a 1920x1080 canvas original boot soles at y780 MUST REMAIN at y780; original raised knee tops around y570; original crossed forearms span x800..1060 y475..585; face roughly x850..1000 y350..480, source hat top approximately y245. Match that body and floor position precisely. DO NOT enlarge Klee or push feet down beyond source sole baseline. She sits with both knees raised, two boots next to each other, arms crossed over knees IN THE FOREGROUND below chin, shoulders slightly tilted but knees/boots upright. Body is not rotated. Loose dark chunky contours and broad flat color patches from image1 and image2; restrained source-like drawing, not game splash illustration. Klee ShootingSpark red coat and cream capelet, brown gloves/boots, brown backpack visible only behind right shoulder, no pajamas/bunny sleepmask/long pink hair, no extra long hair. Keep empty lavender backdrop; omit all original pale titles and credits, no text/lettering/labels anywhere. Do not change camera, add furniture, add pillow/blanket, add characters. The original title is a separate compositor layer, not generated typography. One complete cel only, no border, no reference collage.",
+  "output": "../generated/fine-f1314-v3.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-cdeb9e46-42bb-4c36-a99a-00cb9f2114c5.png",
+  "status": "generated_pending_review",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

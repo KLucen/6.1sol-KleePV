@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-134676f9-4406-4c7b-86ce-f0d810e57328",
+  "candidate_id": 7,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset type: one full 16:9 PV cel. Edit image1 source-cel-007. Replace only original pajama girl with default Klee, keeping CURRENT source pose/crop, NOT earlier centered pose. Source character and head are strongly rotated clockwise and pushed into bottom-right: forehead/hat cut off at right edge, head in bottom-right quadrant, lower chin and body cut off by bottom, most upper-left frame empty purple. Follow exact camera diagonal and crop. BOTH eyes stay closed thick dark slits; small triangular mouth. Left glove side-on beside left cheek with fingers pointing diagonally upward; the other glove is only partly visible at extreme bottom-right, cropped exactly. Hands remain in front of hair and cuffs. Klee blonde SHORT side ponytails/pointed ears replace long pink hair, red beret cream clover white feather replaces sleep mask; only parts visible inside crop, do not fit hat/head fully into frame. Red coat cream cuffs only visible source shoulder/arm areas. Image2 Klee anchor sets identity, image3 candidate006 sets consistent colors/style but must not freeze previous tilt/location. Preserve source diagonal cream '果然不行' and speech bubble 'ダメだ' in left-center and all purple backdrop. Loose black lines, flat color, orange blush, simple shadows. One scene, no panels, no unseen fingers or limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-007.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-006.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-007.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Strong clockwise tilt and lower-right crop retained, closed eyes/triangular mouth, left glove side-on and right glove mostly cropped. Klee short ponytail removes long-pink source silhouette. Hat partly clipped at right."
+}

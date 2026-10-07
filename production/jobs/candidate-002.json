@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-b9ce9845-c415-4927-8062-6c7b197fb2f5",
+  "candidate_id": 2,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset type: a single complete 16:9 hand-drawn PV cel. Edit reference 1 source-cel-002; it alone determines exact framing and pose. Replace the pink-haired pajama girl with default Genshin Klee, identity/style from reference 2: pale blonde short side ponytails, pointed ears, red beret cream clover white feather, red coat cream cuffs, brown gloves. Preserve oversized close-up at right, same tilted head, drooping half-open eyes and tiny downturned mouth; her head must remain partly behind the large pillow crossing diagonally in the foreground. Preserve both spread hands resting over the FRONT surface of the pillow: bottom-center hand and cropped right-edge hand retain the exact visible fingers and sleeve angles, rendered as brown gloves and cream cuffs. Keep purple/cream pillow and its blue patches intact, with pillow in front of torso but behind both hands. Do not uncover torso or add hidden limbs. Replace sleep mask with Klee's hat, keeping same head crop. Reference 3 prior Klee side-profile cel determines only identity colors/line simplicity, never pose. Loose dark outlines, flat color, orange blush; no sophisticated rendering. All original purple background, subtitle Chinese '如此软弱不知该如何是好' and Japanese '弱いまんまでどうしようもない' stay positioned on left. Preserve source camera crop and full wide scene. No sheet, no new props.",
+  "references": [
+    "analysis/source_cels/source-cel-002.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-001.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-002.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Matched close-up pillow pose, drooping eyes, downturned mouth. Both gloves spread on front of pillow, torso hidden. Source pillow shifted slightly in generated scene; use source background/subtitle composition."
+}

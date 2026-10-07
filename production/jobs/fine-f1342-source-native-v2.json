@@ -1,0 +1,12 @@
+{
+  "job_id": "fine-f1342-source-native-v2", "source_frame": 1342, "family": "seated_title_credits",
+  "references": [
+    {"path": "source_refs/src-0830-f1342.png", "role": "Current source edit target, exact pose and floor"},
+    {"path": "qa/title-repair-v6/source-head-f1342.png", "role": "Current slightly clockwise head and eye landmarks"},
+    {"path": "generated/fine-f1335-source-native-v2.png", "role": "Adjacent Klee identity and costume continuity only"},
+    {"path": "qa/title-repair-v6/source-delta-f1335-f1342.png", "role": "Actual current source redraw and sleeve/coat contours"}
+  ],
+  "prompt": "Full1920x1080 current source1342 cel, replace sole seated girl with Klee in exact original framing. Image1 source and image2 enlarged CURRENT head determine pose, eye state, scale. Image3 previous Klee provides stable identity/costume only; image4 actualsource difference controls independently redrawn current body/arms/hair contours. Current head moves slightly farther RIGHT with shallow clockwise lean, eyebrow/eye axis slopes down a little toward viewer-right, not frozen previous uprighthead. BOTH sleepy drooping eyes OPEN with entirely mutedRED irises, tiny dot mouth, orangecheeks, current source gaze. Small centerbottom seated figure x39..60%, y23..73%; boot soles stay originaly72%, knees together raised and crossed red sleeves rest on them. Both hands completely hidden behind opposing sleeves, no visible extra gloves. Two short blonde ponytails only, same ear roots/volume, red creamclover beret and whitefeather, pointedears, same flat redcoat creamtrim, brownroundboots creamtops and modest right backpack. Preserve CURRENT source redrawing of sleeve folds, right coat contour, front knees and footwear, keep coherent garment not generic screenshot. Original PV dark uneven contours and flatpatches, minimalshadow. Keep source creamJapanese title as background, no added text, no analysispanels/crops; do not enlarge or lower figure. One independent1342 fullcel.",
+  "output": "generated/fine-f1342-source-native-v2.png", "status": "reviewed_static_temporal_pending", "accepted": false,
+  "review": "Current slightly clockwise red-eye head, tucked hands, original floor and simple outfit retained. Both ponytails track the head lean; source title composition and chronological review pending."
+}

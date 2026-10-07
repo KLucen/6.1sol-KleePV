@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-95ed6934-8a9e-437b-a482-4764f044e914",
+  "canonical_cel": "cel-0046",
+  "source_frame": 297,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 currentPV f0297 cel. Source1 exactcurrentcanvas/crop/face/handgeometry authority, previousKlee0294 image2 identity/style continuityONLY, source294→297diff image3 actualnewdrawing. Critical currentmouth changes fromBIGtalloval to THINHORIZONTALpinkopenCAPSULE aboutx60%-66%,y67%-71%, slightlowerleftoutlinegap, widthapprox3.3xheight; NOT roundO orlargeoval. Retain current halfopenred sleepyeyes/flatupperlids, smallindividualupperlid/bang pressurechanges, orangecheeks, nearuprighthead. BOTHfullbrown glovepalms cupcheeks, uprightfourvisiblefingerlobes+thumb current lengths/wristangles/creamcufffolds, nothandgestureswap. Klee redberetcreamcloverwhitefeather/blonde shorttwoattachedpony tails pointedears/redcreamcoatpatternedcollar, no duplicatehairwings. Fullsourcechestup charonright, cleanlavenderleft, REMOVEALLlyrics/captions/speechbubbletextANDoutline. LooseblackPVoutlines/flatcolor minimalshadows, currentexactvisibleanatomy no props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0085-f0297.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0294.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0297.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0297.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "Genuine thinpinkcapsulemouth vsbigoval; face outlines/bangs/eye source redraw. Diff120091 pixels>=28.",
+  "inspection": "Correct flattened pinkopen capsule mouth; outlinegap closedvs source minorflag. Glovepalms/halfopeneyes/shorttwo ponytails preserved. No text/bubble, geometry/continuity pending."
+}

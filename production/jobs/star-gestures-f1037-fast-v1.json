@@ -1,0 +1,111 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0219",
+  "source_frame": 1037,
+  "source_reference": "source_refs/src-0569-f1037.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1037,
+      "end": 1038,
+      "pts": 43.208,
+      "end_pts": 43.25,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve. Edit Image 1 into one independent whole 16:9 hand-drawn PV Klee cel, CURRENT source f1037 / cel-0219.\nOrdered input roles: 1 CURRENT original f1037 is sole pose, crop, head angle, expression, hand/foot position and visibility authority. 2 Klee head identity crop only controls red beret with cream clover and exactly ONE white feather, pale blonde short cheek locks, TWO SHORT side ponytails attached behind pointed ears; it does not impose expression or pose. 3 Klee costume structure crop only controls TWO PLAIN cream leaf collar panels meeting centrally, continuous red coat and broad plain cream hem, short bloomers, brown gloves/boots and visible backpack straps; no pompom, patterned/scalloped collar, bow or extra petals. 4 original f1033 -> CURRENT f1037 A/B/RGB x4/two-color contours establishes that character geometry stays almost still while source caption phase and stars change. Respect the current tiny independent ink changes without exaggerated new body motion. 5 adjacent generated f1033 is static inspected short-hair/plain-collar/style continuity only, unaccepted. Draw from CURRENT Image 1 rather than simply repeating Image 5.\nScene: lavender field with cream sketchy outlined stars. ONLY ONE centered full-body Klee, current bounds/scale and original full canvas. Head stays at current slight tilt, TWO fully CLOSED black eyelid strokes and small CLOSED CARET mouth ^; not triangle, oval, open eyes or smile. Orange cheek ovals.\nMatch current lowered outward sleeves, cuff heights and BOTH small visible hands at source positions; exactly two brown gloves, no additional hands. Two straight slightly separated legs, both planted boots at original foot spacing and height. Use Klee short red coat with ONE continuous broad cream hem and short bloomers/bare lower legs/brown boots instead of the original gray pajamas. Replace all original animal hood, long pink hair and old clothing. Klee hair remains short near shoulder, no long back sheet, third tail or braid. No foreground hair remnant, second character, pocket rabbit or extra plush.\nLoose dark outlines, flat colors, source-level sparse shading. Keep stars/caption positions if feasible, but original captions/background will be restored independently; no invented text. No extra props/objects/limbs. One independent standalone cel, not comparison sheet, transparency or motion interpolation.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0569-f1037.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1037-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "24eb80702bc10ba6b05b0b94af981191f730e7bbbab0e633021cb54b41d1577d",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "generated/star-gestures-f1033-fast-v1.png",
+      "role": "Adjacent checked structural/style continuity only, unaccepted, source pose authority unchanged",
+      "sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1037-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Single standing Klee",
+      "Source near-still pose retained with independent tiny ink redraw",
+      "Closed eyelids and caret mouth",
+      "Two lowered sleeves/gloves and both planted boots",
+      "Short hair and plain collar"
+    ],
+    "flaws": [
+      "Source caption absent and stars/background need independent restoration",
+      "Minor glove outline changes from f1033"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1037-fast-v1.png",
+  "output_sha256": "6ff9a817ade9dbcdb286b5bc392c2b6344fab97eb81f8716c11d6899976d4632",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-672bff92-a700-41ec-8c22-98b6abeecc35.png",
+  "source_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0565-f1033.png",
+    "source_after": "source_refs/src-0570-f1038.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1037-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1037-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Source caption absent and stars/background need independent restoration",
+    "Minor glove outline changes from f1033"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}

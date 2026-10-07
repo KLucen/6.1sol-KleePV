@@ -1,0 +1,35 @@
+{
+  "source_frame": 2412,
+  "source_cel": "cel-0468",
+  "source_candidate": "src-1399",
+  "output": "generated/fine-f2412.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE full-frame 16:9 independently drawn PV cel. Image1 is CURRENT ORIGINAL f2412, sole authority for head/body scale, pose, crop, closed eyes, open O mouth, fingers and sleeve angles. Image2 prior Klee f2409 has ONLY costume simplification, two-short-ponytail topology and line/palette responsibility; do NOT freeze its contours. Image3 is source spatial change diagram, use AFTER/red f2412. Replace the original pink-haired pajama girl and rabbit sleep mask with Genshin Klee: pale blonde bangs, TWO short side ponytails, pointed ears, red beret cream clover white feather side badge, red coat cream collar and PLAIN rectangular cream cuffs without frill, brown gloves. Source is chest-up and cut at bottom, eyes CLOSED and tiny open O mouth, orange cheeks, two raised upward index fingers unequal heights. Actual change: viewer-left gloved finger/hand shifts slightly right; cream left cuff becomes steeper upper-right angle, viewer-right finger shifts slightly right and its knuckle contour changes; eyelashes, bangs and shoulder/sleeve lines independently redraw to source after contours. Preserve head size and current crop, not smaller chibi. Source hand positions x400 y650 / x1420 y600. Keep lavender field and original stars. No original pink long hair, gray pajamas, rabbit mask, added faces or extra people. No text, captions, letters, numbers, logos or watermarks; remove source subtitles to flat matching field for later exact-source caption compositing. One cel, not diagram/contact sheet.",
+  "references": [
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1399-f2412.png",
+      "role": "current_source_pose"
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2409-cuff-repair.png",
+      "role": "adjacent_klee_costume_and_topology_not_pose"
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/qa/late-worker/medium-2409-2412-delta.png",
+      "role": "actual_source_spatial_delta_after"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": ["Both closed eyes, O mouth, plain cuffs and two raised unequal index fingers present. Hands/cuffs independently redrawn relative to f2409; exact spatial amplitude and actual-speed continuity remain pending."]
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-befa-7d91-aa0a-ead1cb66b8c4\\exec-e989a938-3169-43e3-9224-924c8d5f56ab.png"
+}

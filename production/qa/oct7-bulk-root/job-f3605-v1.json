@@ -1,0 +1,82 @@
+{
+  "source_frame": 3605,
+  "source_candidate": "src-2107",
+  "source_exposures": [
+    {
+      "start": 3605,
+      "end": 3608,
+      "pts": 150.208,
+      "end_pts": 150.333,
+      "family": "ending_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "output": "generated/oct7-bulk-root-f3605-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the user's Klee PV draft. Redraw the FIRST image in the original simple hand-drawn PV style, replacing ALL visible original characters/fragments with Klee from Genshin Impact. The FIRST image alone determines camera, crop, body/head/hand pose, expression, visible extent and front/back overlap. Maintain the original blue backdrop and props. Keep any existing pillow and hand contact at source size/position. Use a red Klee cap with light feather, pale blonde short twin ponytails (exactly two, no long original hair), red simplified coat, plain cream cuffs, brown gloves/boots where visible, red eyes when source eyes are open. Preserve the source's closed eye/wink states and visible hands. Do not add hidden anatomy or extra hands. Identity/style references must NOT freeze the previous expression or pose. The source delta describes actual drawing changes, not a motion warp. Keep flat original-PV color blocks and line weight, no elaborate render, no new background decoration. Remove all source lettering from this generated cel: original Chinese/Japanese subtitles and credits are restored independently in composition. Do not generate text, labels, watermark, collage or reference panels. Produce exactly one complete 16:9 frame. Current source observation and required changes for f3605: Current final closeup pose retains completely CLOSED eyes as tapered horizontal strokes, shallow broad open smile, centered two clasped brown gloves just under chin, lower wrists cut by bottom edge. Very small real contour redraw on cap and forehead bangs, right outer contour/neck and clasp finger lines, not a new extreme pose. Follow current source scale and mild right lean; clean continuous black linework, solid brown gloves, plain cream cuffs, exactly two short pale blonde ponytails. No old pink hair, no extra limbs or text. Ordered input roles: Image 1: CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority; Image 2: Klee head identity only; ignore pose and expression, use source eyes and mouth; Image 3: Klee costume colors only; not framing or pose authority; Image 4: Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation; Image 5: Adjacent unaccepted Klee cel: palette, line weight and persistent two short ponytails only; NOT pose/expression/framing authority, do not copy collar/button drift",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-2107-f3605.png",
+      "role": "CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "78445658c2ef06ca21a4f606d769adea3c5e959b057d8e0c6fae7d53d5e6267f"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee head identity only; ignore pose and expression, use source eyes and mouth",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "Klee costume colors only; not framing or pose authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6642a7150fc8d784bf0a5300ce9b87dde979150f06abac2da55412e2c621df7a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-root\\f3600-f3605-source-ab-rgb-contours.png",
+      "role": "Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation",
+      "actually_viewed": true,
+      "sha256_at_prepare": "204b7df0c44ea4e79750e85fb81ac9cbe45dde94b8a9b0a380ab91fc553bd27a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-root-f3600-v1.png",
+      "role": "Adjacent unaccepted Klee cel: palette, line weight and persistent two short ponytails only; NOT pose/expression/framing authority, do not copy collar/button drift",
+      "actually_viewed": true,
+      "sha256_at_prepare": "2f101e8a5b3002b6123f80d26ee01ddea1491eb23df509d229911f2af26fc0dc"
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "policy": "one_pass_no_artistic_repairs_before_user_full_draft_feedback",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1afdfc0b-8054-44bb-a9f5-2c4b67e0618e.png",
+  "output_sha256": "36ab7f26f61b14615dd76ba0ed97b7ebd0e7f7caf05e963f87e5d5451bc9ec31",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actual output inspected: closed smiling closeup and centered clasped gloves, two short ponytails. New-source contour response subtle, source-to-generated registration and fur-like cuffs remain unaccepted; no temporal/caption acceptance.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

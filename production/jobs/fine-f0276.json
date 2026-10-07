@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-1440175f-080c-4716-8f93-27286e1ee8f8",
+  "canonical_cel": "cel-0042",
+  "source_frame": 276,
+  "family": "pillow_face_occlusion",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel CURRENTsource f0276 image1. Originalf276 dictates exact smallcentral fullbody curled-up seatedfloatingpose; image2 Klee004 identity/outfit/simpleflatstyleONLY not old267pose/eyes, image3source267→276 difference. Character occupies sourcebbox aroundx41%-62%, y28%-75%, centernear52%,53%, keep SMALLEXACTsource scale amplelavenderemptycanvas. SourceNEWheadbowed: bangs and pillow hide ALLeyes/mouth, NOopenirisesvisible above pillow as old267. Klee redberetcreamcloverwhitefeather/shortbobtwoattachedblondeponytails/pointedears; onlyheadgear/hair visible, faceoccluded. Purplepillow acrossface/chest tiltedcurrent, sourcecreamruffles, two brownfullgloves compactcurledgrips frontofpillow nearleft47% andright54%, lowercreamcuffs/roundbentarms exact. Bothknees drawnUP separatedfrontoflowerpillow, currentkneecontour/legwidth/angle/cuffheight and TWO boots atbottom source positions, boottoesrotatedslightlydifferent vsold267. Redcreamcoat drapes naturallyaroundcurledlegs (notpajamas/undershorts), creambootcuffs/brownboots, no extrahairwingsbelowarmpits. Keep fullsourcecanvas/crop/pose/occlusion, sourceblacklooseoutlines/simpleflatfills minimalshadows, NOtext/captions/letters/props. Only currentvisibleanatomy, notstandingportrait.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0080-f0276.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-004.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0276.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0276.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "New headbow hides eyes behindbangs/pillow, forearmcuffs andknee/boot contours reposition. Diff88780 pixels>=28.",
+  "inspection": "Correct smallcenteredfullbody curledpose, allface hidden, no inventedeyes. QA source knees/gloves lesssymmetric and boots flatter/wider than generation; generator copied anchor knee/boot shape too closely. Draft pending sourcepose repair/continuity."
+}

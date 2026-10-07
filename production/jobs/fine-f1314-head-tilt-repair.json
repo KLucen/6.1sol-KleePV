@@ -1,0 +1,17 @@
+{
+  "job_id": "fine-f1314-head-tilt-repair",
+  "source_frame": 1314,
+  "canonical_cel": "cel-0283",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1314-draft.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0823-f1314.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\late-f1309-f1314.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Output ONE full 16:9 cel, not a sheet. Image 1 is the Klee cel to repair: preserve its boots, knees, crossed forearms, coat, backpack, character scale, floor position and lavender background unchanged. Image 2 is the exact original PV target pose at frame 1314: it determines ONLY the head/face/hat angle and the chin-to-arms contact. Image 3 shows actual before/current original source spatial differences, not artwork to reproduce. REPAIR HEAD TILT ONLY. The current Klee face is almost level, but original target's head leans distinctly toward viewer-LEFT. Redraw the Klee head, bangs, pointed ears, short side ponytails and red beret leaning left about 14 degrees relative to the body: on the 1920x1080 equivalent canvas, the LEFT EYE CENTER must be about 20-24 pixels LOWER than the RIGHT EYE CENTER. The line joining both eyelids slopes upward toward image-right. Her beret brim rises toward image-right by the same angle, the clover/feather rotate naturally with the head, not remain upright. The chin comes nearer the left forearm. DO NOT rotate the whole body. Knees, two boots and crossed foreground arms stay anchored exactly as in image1. Tired half-lidded OPEN RED irises, glance left/down, tiny closed dot mouth and flat orange cheek ovals. Stable Klee identity: blonde TWO SHORT side ponytails, pointed ears, red beret cream clover white feather, red coat cream trim, brown gloves/boots. Keep image1's simplified dark loose outline, flat color patches, one small shadow at most. Crossed gloved forearms remain IN FRONT of knees, front under chin; face and hair are behind them. No long original pink hair, no bunny mask, no blanket. The change must be visibly the intended left tilt, not another nearly level head. No text, subtitles, credits, titles, lettering, symbols, diagrams, extra objects or characters. Output only the single repaired full cel.",
+  "output": "../generated/fine-f1314-v1.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-5f0143a2-a011-44d5-9068-e7c78dcfc625.png",
+  "status": "not_adopted_body_alignment_and_excessive_tilt",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

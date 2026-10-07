@@ -1,0 +1,14 @@
+{
+  "job_id": "fine-f0038-eye-repair",
+  "source_frame": 38,
+  "source_candidate": "src-0013",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-001-clean.png"
+  ],
+  "prompt": "Use case: precise-object-edit. LOCAL identity color correction in this PV cel only. The one visible drooping half-open iris in Klee's left-facing profile is currently BROWN. Change ONLY that visible iris interior to muted RED (#bb4645), preserving its dark pupil, narrow shape, eyelid and identical gaze. Keep skin/white sclera and all face/eye/hat/head geometry unchanged. Everything else identical: mouth tinyclosed dot, blondehair/ponies/pointedear, redcoat/creamgarment/cuffs/browngloves/backpack, pillow/fringes, floatingblankclock, violetbackground/crop/pose/shading/line. Do not expose the far hiddeneye or alter expression. No captions/letters/digits, onefull16:9 frame.",
+  "output": "../generated/fine-f0038-eye-repair.png",
+  "status": "generated_draft",
+  "repair_of": "candidate-001-clean.png",
+  "temporal_review": "pending"
+}

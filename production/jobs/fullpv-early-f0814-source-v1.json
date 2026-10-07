@@ -1,0 +1,34 @@
+{
+  "job_id": "fullpv-early-f0814-source-v1",
+  "source_frame": 814,
+  "canonical_cel": "cel-0141",
+  "source_candidate": "src-0360",
+  "family": "star_dance",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0814-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE complete independent16:9 Klee PV cel f814. Image1 CURRENT SOURCE owns absolute native geometry/crop/eye expression/limbs/occlusion. Image2 only Klee identity/color/costume/two SHORT blonde ponies, NOT its proportions/pose/background. Image3 actual source812/814 RGB/contours; inspect CURRENT and redraw separately even if small source change. Right-side LEFT profile walking girl: head centerx77%,y27%, one visible sleepy RED iris with BLACK hooked pupil/WHITE highlight; small O mouth x75%,y33%. Two arms sideways slightly DOWN: left forward brown glovex63%,y47%, rear glovex96%,y45%. Split legs forward bootx69%,y86%, rear bootx93%,y85% partly hidden behind right peach/orange foreground shape. Current elbow/wrist/coat hem/knees/boot joints from source1, exact2hands/legs. Replace ALL pink hair and entire rabbit forehead mask with two SHORT ear-root blonde Klee ponies (far pony naturally occluded), pointed ears/red cream-clover beret one white feather. Red cream-trim coat one lower coat cream clover, plain cream cuffs/collar, brown gloves, cream hem/redshorts/bare pale knees/brown compact boots cream cuffs. Coat hem y62%, stable source proportions; do not stretch head or shorten torso. Keep source lavender white sketch-stars and exact giant cropped foreground corner polygons, small yellow rear wrist stars. Remove subtitles. Flat unshaded PV color blocks/irregular black strokes; no gradient, new text/objects, sleeve clovers, extra hair tuft or badge danglers. Current SOURCE exclusively decides art geometry; no hold/morph or pasted previous pose.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0360-f0814.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0812-source-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0814-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source814 exclusive geometry/crop/expression/occlusion",
+    "Klee identity/color/costume ONLY; prior drawing not pose template",
+    "Actual source812/814 RGB and contours"
+  ],
+  "source_audit_note": "Inspected source812/814 local evidence shows drawing nearly unchanged; background fine edges/compression differ. No alias approved.",
+  "continuity_status": "static_source_pair_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-f36cecd5-b0e8-41a5-a9e5-5afefb5b90df.png",
+  "static_review": "Source812/814 RGB/contours and current source/draft contact checked. Same visible source walking silhouette represented, right boot occlusion retained, red eye/short pony profile/mask removal checked.",
+  "known_issues": [
+    "Previous812 art geometry strongly persists; current fine contours approximate",
+    "Hat/head taller than source, torso hem/leg proportions differ",
+    "Background stars/transition effect redraw drift and excess yellow star",
+    "Backdrop gradient/shading"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0814-source-v1-source-static-contact.jpg"
+}

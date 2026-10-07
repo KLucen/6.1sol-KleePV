@@ -1,0 +1,39 @@
+{
+  "source_frame": 2409,
+  "source_cel": "cel-0467",
+  "source_candidate": "src-1396",
+  "output": "generated/fine-f2409.png",
+  "status": "generated_draft_cuff_repair_required",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE full-frame 16:9 independent drawing for a strict source-exposure hand-drawn PV. Image 1 is CURRENT original f2409 and the sole authority for pose, crop, head size, expression, hands, sleeves and framing. Image 2 cropped face is Klee IDENTITY ONLY, not its pose or eye state. Image 3 garment crop is COSTUME ONLY. Image 4 source f2409/f2412 difference diagram is geometry reference only: use its BEFORE/blue contours for f2409, not current/red and do not draw the diagram. Replace every visible part of the original girl with Genshin Klee in the source's loose black lines, flat patches and orange cheek ovals, not polished game art. Current figure is chest-up and cut by bottom canvas; head is centered x950 y400 on the 1920x1080 source, both eyes CLOSED as nearly horizontal lines, tiny OPEN O mouth, shoulders at y720. Both bent forearms raised, brown-gloved index fingers point upward at x380 y640 and x1400 y590; preserve unequal hand levels, cream rectangular cuffs and original angles. Klee has pale blonde bangs, exactly TWO short side ponytails, pointed ears, red beret with cream clover and white feather, red coat/capelet cream trim, brown gloves, no old pink long hair/sleep mask/gray pajamas. Keep original body scale and canvas crop, not smaller chibi. Preserve original lavender sky and sketch stars layout. No text, captions, credits, letters, numbers, logos or watermark; omit source bottom subtitles to plain matching background because original exact captions restored separately. Single cel, not contact sheet.",
+  "references": [
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1396-f2409.png",
+      "role": "current_source_pose"
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/qa/standing-open-eye-identity-crop.png",
+      "role": "identity_only"
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/qa/standing-costume-crop.png",
+      "role": "costume_only"
+    },
+    {
+      "path": "C:/Users/KLucen/Desktop/kl/production/qa/late-worker/medium-2409-2412-delta.png",
+      "role": "actual_source_spatial_delta_before"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": ["Current closed eyes, open O mouth, raised uneven fingers, chest-up crop and two short ponytails present.", "Scalloped fluffy cuffs were added despite source plain rectangular cuffs; local repair required. Sky/stars/graphics and full-speed continuity remain compositor/review responsibilities."]
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:/Users/KLucen/.codex/generated_images/01a0fb6c-befa-7d91-aa0a-ead1cb66b8c4/exec-7c775cff-4583-4a93-b456-40523c47b10f.png"
+}

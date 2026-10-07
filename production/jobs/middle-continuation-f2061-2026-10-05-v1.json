@@ -1,0 +1,134 @@
+{
+  "job_id": "middle-continuation-f2061-2026-10-05-v1",
+  "source_frame": 2061,
+  "source_cel": "cel-0380",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1131-f2061.png",
+  "source_exposures": [
+    {
+      "start": 2061,
+      "end": 2065,
+      "pts": 85.875,
+      "end_pts": 86.042,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Edit image1 into ONE independent strict-source Klee PV cel f2061, same 1920x1080 landscape aspect, complete canvas. Character replacement only.\nREFERENCE ROLES: image1 CURRENT original alone dictates pose, facing, crop, expression, occlusion, all background/caption/effect positions. Image2 Klee identity, red beret, two short rooted blonde ponies, plain costume colors ONLY; do NOT copy its earlier profile/face/limb position. Image3 actual source f2059->2061 A/B RGBdiff/contours (RIGHT CURRENT), image4 current source native keyparts; image5 original native A/B RGBdiff contours. There is exactly ONE actor and no giant edge face or black transition border.\nCurrent changes: actor shifts head left and slightly down and turns AWAY, torso has rightward lean from head to planted foot. Original head x1140..1515 y205..465, face is a VERY NARROW left-facing sliver at x1170..1240 behind long side bang, NOT full exposed profile. Keep current eyelid/visible eye sliver mostly hidden behind the bangs, no enlarged eye or invented second eye; only if iris visible a tiny RED sliver with black pupil. Tiny O mouth, small orange cheek. One visible pointed near ear only if current view allows.\nCurrent arms: viewer-left near arm points steeply DOWN-left with cuff aroundx1120..1180 y610..680 and mostly occluded palm atx1100..1145 y632..674, splayed short fingertips. Far/right arm stretches diagonally down-right, cuff x1530..1595 y510..588, rightmost hand x1580..1638 y518..596 two fingertips UP-right and thumb down. Exactly TWO brown gloves, preserve hand visibility and palm directions.\nCurrent planted leg slants gently right from hips x1260..1370 y705 to footx1250..1415 y1000..1055. Rear leg bent backward: thigh and knee x1380..1460 y760..850, shin nearly horizontal-right, foot x1510..1583 y750..891 tilted counterclockwise from vertical. Do NOT repeat previous straight-planted/full-exposed-profile pose. Follow current source exact limb angles and original occlusion.\nKlee short compact ear-rooted TWO blonde ponies keep identity through current turn; they respond subtly to original rightward hair motion but NEVER copy original long-peach hair. Remove all rabbit mask/headband, peach longhair, pajamas/bunny pocket. Red beret plain brown band ONE cream crown clover ONE white feather, plain red coat with folded cream collar/straight cuffs/hem, plain brown gloves/boots, small brown backpack if current back-facing view implies it. No extra clothes clovers, buttons/pockets, symbols, ornate embroidery.\nPreserve complete CURRENT lavender flat backdrop, cream outlined stars, source yellow particles and bottom-center Japanese \"\u611b\u3057\u3066\u305f\u3044\" above Chinese \"\u60f3\u8981\u53bb\u7231\", clear complete strokes same sourceposition. No added people/objects. Loose thin wobbly black ink and flat fills, minimal shadow, no gradients/gloss/3D. Keep current source placement/proportions and avoid copying image2 pose; fullcel only, no collage/warp/morph/mirror.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1131-f2061.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/klee-f2058-main-identity-only-crop.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/actual-source-f2059-f2061-AB-RGB-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2061-source-native-keyparts.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/middle-missing-continuation-2026-10-05/f2061-keyparts-AB-RGB-contours.png"
+  ],
+  "reference_roles": [
+    "CURRENT full original sole camera/pose/face/visibility/background/caption authority",
+    "Klee identity/clothing/short rooted pony topology ONLY, NOT prior facing/pose/scale",
+    "Actual source previous/current A/B RGB x4 contours, current on RIGHT",
+    "CURRENT native eye/hands/leg keyparts",
+    "Source native previous/current A/B RGBdiff and contours"
+  ],
+  "output": "generated/middle-continuation-f2061-2026-10-05-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "reviewed_static_temporal_pending",
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "actual_sequential_decode_reference_equal": true,
+    "visible_people": 1,
+    "turn": "head left/down, away turn, narrow face",
+    "eye": "mostly bangs-covered narrow darksliver; no larger eye",
+    "hands": "2 with lower left cuff and far fingers up/right",
+    "leg": "planted right-slant; bentrearfoot tilts counterclockwise"
+  },
+  "ordered_reference_metadata": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1131-f2061.png",
+      "sha256": "19011559f68a6530f125e0514a6125df2a9e47c0178a16f4c49a41360f2efd6f",
+      "canvas": [
+        1920,
+        1080
+      ],
+      "role": "CURRENT full original sole camera/pose/face/visibility/background/caption authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-f2058-main-identity-only-crop.png",
+      "sha256": "9a756b338160544d3e421695f72d2b46f5338d6ba9d8307ccbaadf7e69517727",
+      "canvas": [
+        670,
+        945
+      ],
+      "role": "Klee identity/clothing/short rooted pony topology ONLY, NOT prior facing/pose/scale"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2059-f2061-AB-RGB-contours.png",
+      "sha256": "89ffe834b405da7bc74f3ce0d410831c7f54d550b80c7eca014b0bf8df3149fc",
+      "canvas": [
+        3840,
+        2240
+      ],
+      "role": "Actual source previous/current A/B RGB x4 contours, current on RIGHT"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2061-source-native-keyparts.png",
+      "sha256": "1f388e406dfa373c1fbf0354259933e7999def17b6bc0cf0a5f7b091c529de86",
+      "canvas": [
+        750,
+        1214
+      ],
+      "role": "CURRENT native eye/hands/leg keyparts"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2061-keyparts-AB-RGB-contours.png",
+      "sha256": "22e5872f2c7f8ffba1f3611187d6b2e3ad98469225c9c3a5c5b90b291ee377c4",
+      "canvas": [
+        3000,
+        1214
+      ],
+      "role": "Source native previous/current A/B RGBdiff and contours"
+    }
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-221f1d4b-5404-4e35-a45d-111a21aa5563.png",
+  "tool_output_metadata": {
+    "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-221f1d4b-5404-4e35-a45d-111a21aa5563.png",
+    "sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "workspace_output_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2061-2026-10-05-v1.png",
+    "sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143",
+    "canvas": [
+      1672,
+      941
+    ]
+  },
+  "output_sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143",
+  "known_issues": [
+    "Hat/face taller and more exposed than source eye sliver; red iris under bang only partially obscured",
+    "Both gloves too exposed, rear glove/particle position and near cuff lower than source, source AA/detail not retained",
+    "Rear boot is wider; planted leg/rightward lean approximate",
+    "Generated source background, yellow stars and captions require source-layer restoration; actual-speed/composition pending"
+  ],
+  "source_current_observed": "One narrow left profile turns away, head left/down vs2059 and torso leans toward plantedfoot. Current left cuff/glove moves down and rear hand fingertips up; new draft responds but exaggerates visibleglove and eye. Current bentbackfoot tilt represented.",
+  "static_review": "qa/middle-missing-continuation-2026-10-05/f2061-source-new-static.png",
+  "ordered_reference_metadata_phase": "before_builtin_call",
+  "actual_builtin_call_submitted": true
+}

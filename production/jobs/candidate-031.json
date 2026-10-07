@@ -1,0 +1,11 @@
+{
+  "job_id": "candidate-031",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-031.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-029.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 animation cel. Image1 CURRENT target controls exact camera/crops/profileexpression and sky; image2 fixes the matching Klee nighttime profile identity/colorgrade and foreground blondhair; image3 identity only. Change ALL visible people to Klee default Genshin redberet creamclover whitefeather, paleblonde short paired sideponytails/pointedear/redcreamcoat geometricalcollar roundpom. Main cyan-lit Klee is right-facing PROFILE at exact source center-right position, ONE EYE OPEN with small RED IRIS under bluegrade, mouth tinyclosed dot; no smile/openmouth. Reconstruct short Klee ponytails instead of source longwindhair, keep base hairroots stable and small wind lift backwardsleft. Source shows head through upperbody cropped at bottom; no additional lowerbody or hands. Palehairstream stays blue/cyan-lit and hat/coats reds become coolpurple due same night lighting. At extremeLEFT only outgoing WARM foregroundhair fragment visible: replace with blonde Klee croppedhair fragment, no newforeground face. Mainprofile behind this left hairfragment. Preserve original night blue/violet/cyan gradient, white pinprick stars/dots, crescent upperright and bottomJapanese/Chinese text exactly; don't turn into purple flatfield. Match original loose dark contours/simpleflatpatches orangeblush turned mutedpurple, no shinyrender, no labels/frames.",
+  "output": "../generated/candidate-031.png",
+  "status": "generated"
+}

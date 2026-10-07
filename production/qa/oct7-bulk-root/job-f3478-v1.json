@@ -1,0 +1,76 @@
+{
+  "source_frame": 3478,
+  "source_candidate": "src-1980",
+  "source_exposures": [
+    {
+      "start": 3478,
+      "end": 3482,
+      "pts": 144.917,
+      "end_pts": 145.083,
+      "family": "hand_face_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "output": "generated/oct7-bulk-root-f3478-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the user's Klee PV draft. Redraw the FIRST image in the original simple hand-drawn PV style, replacing ALL visible original characters/fragments with Klee from Genshin Impact. The FIRST image alone determines camera, crop, body/head/hand pose, expression, visible extent and front/back overlap. Maintain the original blue backdrop and props. Keep any existing pillow and hand contact at source size/position. Use a red Klee cap with light feather, pale blonde short twin ponytails (exactly two, no long original hair), red simplified coat, plain cream cuffs, brown gloves/boots where visible, red eyes when source eyes are open. Preserve the source's closed eye/wink states and visible hands. Do not add hidden anatomy or extra hands. Identity/style references must NOT freeze the previous expression or pose. The source delta describes actual drawing changes, not a motion warp. Keep flat original-PV color blocks and line weight, no elaborate render, no new background decoration. Remove all source lettering from this generated cel: original Chinese/Japanese subtitles and credits are restored independently in composition. Do not generate text, labels, watermark, collage or reference panels. Produce exactly one complete 16:9 frame. Current source observation and required changes for f3478: Large centered chest-up view, upright head, BOTH closed line eyes, vertical open O mouth. Both index fingers still pointing upward; compared with 3475 the left wrist cuff moves slightly inward and higher, left sleeve is broader/angular, right cuff is slightly tilted and body seams/hair contours redrawn. Respect the current hands rather than freezing 3475. Entire bottom torso outside crop. Plain cuffs and exactly two short ponytails. Ordered input roles: Image 1: CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority; Image 2: Klee head identity only; ignore pose and expression, use source eyes and mouth; Image 3: Klee costume colors only; not framing or pose authority; Image 4: Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1980-f3478.png",
+      "role": "CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b4dcaa5e29a96f5f5f4d451bd084fadede01c75adb327cf73d042940a535ae5d"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee head identity only; ignore pose and expression, use source eyes and mouth",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "Klee costume colors only; not framing or pose authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6642a7150fc8d784bf0a5300ce9b87dde979150f06abac2da55412e2c621df7a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-root\\f3475-f3478-source-ab-rgb-contours.png",
+      "role": "Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation",
+      "actually_viewed": true,
+      "sha256_at_prepare": "a8ece8d0eb8f3f6b16e1c98236fcbfc209d9173676edc009299959ed96959f3b"
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "policy": "one_pass_no_artistic_repairs_before_user_full_draft_feedback",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-472276c1-d727-44de-821f-882162dffe1e.png",
+  "output_sha256": "08ebbd04b2537e164f0e2f3531253d4bc565a7c9456431469abf981064520edc",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Viewed complete generated cel: closed eyes, O mouth, two raised indices and enlarged chest-up crop present. Collar/clover buttons, hat feather and head width drift from previous draft, current wrist-angle response approximate; unaccepted and deferred.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

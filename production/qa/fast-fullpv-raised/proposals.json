@@ -1,0 +1,271 @@
+{
+  "owner": "raised_closeup_batch",
+  "accepted": false,
+  "mode": "strict_source",
+  "source_interval": [
+    1225,
+    1285
+  ],
+  "review_scope": {
+    "new_independent_cels": 11,
+    "repair_calls": 1,
+    "original_canonical_source_board": true,
+    "all_new_current_source_native_images": true,
+    "all_new_actual_source_RGB_and_two_color_contour_boards": true,
+    "all_generated_full_images_seen_inline": true,
+    "actual_composite": false,
+    "exact_speed_playback": false,
+    "artistic_acceptance": false
+  },
+  "selections": [
+    {
+      "source_frame": 1225,
+      "cel": "cel-0264",
+      "path": "generated/fast-fullpv-raised-f1225-v1.png",
+      "accepted": false,
+      "output_sha256": "d1e5e5ad000709e401728ebb8410801a165e58bc5b85ab6f46892e3962fd9faf",
+      "review": {
+        "source_action": "Wide raised V arms, both spread open palms, low half-open sleepy eyes, tiny vertical O, upright head.",
+        "result": "Complete Klee identity, two brown glove hands, two short rooted neck-side ponytails, simple coat/cuffs; no visible old pink hair or animal-mask residue.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Eye upper color inherited source blue-gray rather than Klee red; root instructed record and do not rework within this missing-first batch.",
+          "Mild color shading is more polished than original flat source."
+        ]
+      },
+      "known_issues": [
+        "Eye upper color inherited source blue-gray rather than Klee red; root instructed record and do not rework within this missing-first batch.",
+        "Mild color shading is more polished than original flat source."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1229,
+      "cel": "cel-0265",
+      "path": "generated/fast-fullpv-raised-f1229-hair-v2.png",
+      "accepted": false,
+      "output_sha256": "972f8b8d40e57813b1efdac74a8edd694529051df87f5bce204965873fe54947",
+      "review": {
+        "source_action": "Both complete spread palms move down, half-open low eyes, larger open-bottom vertical O, head/collar slightly lower.",
+        "result": "Selected hair-v2 removes confirmed old peach hair tips under BOTH armpits from v1; red sleepy eyes, raised brown hands and short attached ponytails retained.",
+        "blocking_confirmed": [],
+        "resolved_blocking": [
+          "v1 retained original long peach-pink hair under both armpits; one targeted built-in edit removed them."
+        ],
+        "issues": [
+          "Targeted hair edit closed the previously open-bottom O contour; facial state remains vertical O but line-gap fidelity differs.",
+          "Local edit is not pixel-locked outside target; small full-image drift has not been quantified.",
+          "Mild shading beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Targeted hair edit closed the previously open-bottom O contour; facial state remains vertical O but line-gap fidelity differs.",
+        "Local edit is not pixel-locked outside target; small full-image drift has not been quantified.",
+        "Mild shading beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1234,
+      "cel": "cel-0266",
+      "path": "generated/fast-fullpv-raised-f1234-v1.png",
+      "accepted": false,
+      "output_sha256": "95b365a98ee2ff9748930ed477a28deb23f448a80c62d005703c7e8ca859bd94",
+      "review": {
+        "source_action": "Head/collar up, palms slightly raised, half-open red translated sleepy eyes, larger vertical O.",
+        "result": "Two complete brown gloved palms, wide V arms, short low twin ponytails, no original armpit hair tails.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Vertical O contour is closed though original is open-bottom.",
+          "Sleeve/hand movement follows broad direction; precise amplitude still needs actual-speed composite review.",
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Vertical O contour is closed though original is open-bottom.",
+        "Sleeve/hand movement follows broad direction; precise amplitude still needs actual-speed composite review.",
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1241,
+      "cel": "cel-0267",
+      "path": "generated/fast-fullpv-raised-f1241-v1.png",
+      "accepted": false,
+      "output_sha256": "2cd93e4235f4f7f64cd6c900614c1b150b9528f3ad689e5f9336db08f248c661",
+      "review": {
+        "source_action": "Very low half-open eyes, distinct wide horizontal cream mouth, wide raised V, head/collar lower.",
+        "result": "Distinct horizontal mouth and near-closed red eyes present, both complete brown glove palms, no visible old pink armpit hair.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Head displacement amplitude versus source has not been accepted at speed.",
+          "Mild shading beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Head displacement amplitude versus source has not been accepted at speed.",
+        "Mild shading beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1248,
+      "cel": "cel-0268",
+      "path": "generated/fast-fullpv-raised-f1248-v1.png",
+      "accepted": false,
+      "output_sha256": "a36e912454cd4545beb7f11e768ea7eb3b32fd94d8fb019541b96da021bb917c",
+      "review": {
+        "source_action": "Fully closed thick eye slits, large nearly circular vertical singing O open at bottom, fully visible palms.",
+        "result": "Closed eyes and distinctly large open-bottom O, two full brown glove palms, same short twin ponytails/collar topology; no visible old pink armpit hair.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1256,
+      "cel": "cel-0269",
+      "path": "generated/fast-fullpv-raised-f1256-v1.png",
+      "accepted": false,
+      "output_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+      "review": {
+        "source_action": "Closed eye slits, tiny round O mouth, wide raised arms and both full palms.",
+        "result": "Distinct small O versus 1248 large mouth, complete open gloves and rooted short blonde twin ponytails, no original long tail remnants.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1264,
+      "cel": "cel-0271",
+      "path": "generated/fast-fullpv-raised-f1264-v1.png",
+      "accepted": false,
+      "output_sha256": "bcc6adba9f6387b317b8156dc7880bbab72c72557ff34df8f4dd87143f3b5daa",
+      "review": {
+        "source_action": "Enlarged source closeup, closed eye slits, moderately large O with bottom-right contour gap, both glove/wrist bases cut by frame.",
+        "result": "Correct closed-eye closeup and large O, two red sleeves/cream cuffs/brown wrists exit canvas; no invented visible fingers or extra arm.",
+        "blocking_confirmed": [],
+        "issues": [
+          "New collar is plain while existing f1261 candidate-046 has diamond patterned collar; topology retained but decoration differs.",
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "New collar is plain while existing f1261 candidate-046 has diamond patterned collar; topology retained but decoration differs.",
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1267,
+      "cel": "cel-0272",
+      "path": "generated/fast-fullpv-raised-f1267-v1.png",
+      "accepted": false,
+      "output_sha256": "0764644e82b46fd332bd869e49f2f54c5a091e2973a20845797f97754772025c",
+      "review": {
+        "source_action": "Closed eye slits and large O, slight head/cuff displacement, source mouth contour gap shifts to bottom-left.",
+        "result": "Independent new cel with closed-eye closeup, cropped wrists, no invented fingers/limbs or old character residue.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Source mouth gap side was not visibly followed: generated gap remains lower-right like f1264.",
+          "Neighbor f1264-to-f1267 motion appears very small; broad state is correct but amplitude needs actual-speed review.",
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Source mouth gap side was not visibly followed: generated gap remains lower-right like f1264.",
+        "Neighbor f1264-to-f1267 motion appears very small; broad state is correct but amplitude needs actual-speed review.",
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1274,
+      "cel": "cel-0274",
+      "path": "generated/fast-fullpv-raised-f1274-v1.png",
+      "accepted": false,
+      "output_sha256": "e83d1771a7108af290da2d8380432ccff5e8f358e7efbe63d7a8fc18b0d96842",
+      "review": {
+        "source_action": "Tall half-open sleepy eyes, modest clockwise lean, right lid lower, tiny closed-outline narrow vertical O, cropped wrists.",
+        "result": "Open RED tall sleepy eyes and narrow O, proper source crop with no fingers invented, short attached twin ponytails.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Existing f1270 candidate-047 has stronger head lean and patterned collar compared with the new plain-collar sequence; boundary needs speed review.",
+          "Eye color is red but no separate centered black pupil is readily visible beyond large dark upper fill and curl highlight.",
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Existing f1270 candidate-047 has stronger head lean and patterned collar compared with the new plain-collar sequence; boundary needs speed review.",
+        "Eye color is red but no separate centered black pupil is readily visible beyond large dark upper fill and curl highlight.",
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1278,
+      "cel": "cel-0275",
+      "path": "generated/fast-fullpv-raised-f1278-v1.png",
+      "accepted": false,
+      "output_sha256": "38acd6f85896f8e4002e7e9637c9ce20eb73d73ca5f935388c0292eb2db69e85",
+      "review": {
+        "source_action": "Tall open red translated sleepy eyes, clockwise head lean, tiny O open lower-left, subtle cuff/head shifts, wrists cropped.",
+        "result": "Tiny lower-left-open O drawn distinctly from f1274, eye/head lean retained, two wrist bases clipped; no extra fingers/limbs or old hair residue.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Generated lean appears stronger than native source; exact tolerance needs original-speed review.",
+          "Mild shaded palette beyond source flatness."
+        ]
+      },
+      "known_issues": [
+        "Generated lean appears stronger than native source; exact tolerance needs original-speed review.",
+        "Mild shaded palette beyond source flatness."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    },
+    {
+      "source_frame": 1282,
+      "cel": "cel-0276",
+      "path": "generated/fast-fullpv-raised-f1282-v1.png",
+      "accepted": false,
+      "output_sha256": "d60e4b21a9855f93cc252ff6962fc41adcd027a175a73109e5a164b76430aaf6",
+      "review": {
+        "source_action": "Tall open sleepy eyes, modest clockwise lean, tiny closed vertical O, wrists and sleeves clipped at sides.",
+        "result": "RED tall eyes, tiny O, two short rooted blonde side groups, correct side crop/no invented fingers, plain two-leaf collar.",
+        "blocking_confirmed": [],
+        "issues": [
+          "Cream collar and mild shading differ from decorated existing closeup candidate-046/047.",
+          "Eye interiors use large dark red upper fill/curl highlight rather than separately centered pupil."
+        ]
+      },
+      "known_issues": [
+        "Cream collar and mild shading differ from decorated existing closeup candidate-046/047.",
+        "Eye interiors use large dark red upper fill/curl highlight rather than separately centered pupil."
+      ],
+      "consecutive_review": "Private static sequence pending composite/speed review",
+      "static_contact_path": "qa/fast-fullpv-raised/sequence-contact-page-01.jpg"
+    }
+  ]
+}

@@ -1,0 +1,1509 @@
+{
+  "snapshot_utc": "2026-10-05T07:10:22.664420+00:00",
+  "archive_phase": "pending_after_observed_generation",
+  "frozen": false,
+  "root_batch_completion_notice_original": null,
+  "bounded_original_source_frames": [
+    1091,
+    1097,
+    1102,
+    1106,
+    1113
+  ],
+  "source": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\【中日字幕MIMI】痛痛飞走吧痛いの痛いの飛んでいけっ - feat. saewool.mp4",
+    "exists": true,
+    "sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+    "bytes": 31686958
+  },
+  "original_source_map": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_map.json",
+    "exists": true,
+    "sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+    "bytes": 5758820
+  },
+  "original_pts_metadata": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_meta.json",
+    "exists": true,
+    "sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+    "bytes": 88582
+  },
+  "coverage_manifest_observed_sha256": "8e32d4580cf23cd31e87c91381abd641593cd3c0553ba1fcc118d0f0c8d42e11",
+  "explicit_selection_observed_sha256": "ed7186f751a4c625219987085743fa31ec8e73ed88a281da453110e235088a55",
+  "caption_authorization_original": {
+    "record_type": "human_caption_reconstruction_authorization",
+    "relayed_by": "root",
+    "date_local": "2026-10-05",
+    "question_original": "部分日文字幕与原人物裤脚同色，原笔画无法完整辨认。为加快全片首版，是否允许用原PV中同一句的清晰字形重建，保留原文、位置和出现时间，但接受少量笔形差异？",
+    "human_answer_original": "允许先重建清晰字幕，看片后再指定返工。",
+    "scope": {
+      "real_clear_glyphs_from_the_same_original_lyric_only": true,
+      "preserve_original_lyric_text": true,
+      "preserve_original_position": true,
+      "preserve_original_appearance_timing": true,
+      "small_glyph_shape_difference_permitted_for_first_draft": true,
+      "ai_generated_caption_allowed": false,
+      "artistic_acceptance_granted": false,
+      "later_human_video_feedback_can_request_rework": true
+    }
+  },
+  "caption_authorization_file": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\caption-authorization.json",
+    "exists": true,
+    "sha256": "3489e2f9eb7508ff7463db33d024f4d337960f5c786ca1a0cd7447811b7cab74",
+    "bytes": 884
+  },
+  "job_count_observed": 7,
+  "completed_builtin_output_calls_observed": 6,
+  "unique_original_missing_cels_with_any_output_observed": 3,
+  "multiple_variant_calls_not_additional_missing_cels": 3,
+  "expected_source_frames_still_without_complete_output": [
+    1106,
+    1113
+  ],
+  "failed_or_blocking_variants_observed": [
+    "star-f1091-fast-continuation-2026-10-05-v1",
+    "star-f1091-underarm-hair-repair-2026-10-05-v2",
+    "star-f1091-underarm-locator-repair-2026-10-05-v3"
+  ],
+  "calls": [
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1091-fast-continuation-2026-10-05-v1.json",
+      "job_json_sha256": "f9cbf6af2202f670afedaafeafbeb7895390739ea9440ce6a72b55eefc1f2442",
+      "job_json_bytes": 6487,
+      "job_original_complete": {
+        "id": "star-f1091-fast-continuation-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1091,
+        "source_cel": "cel-0229",
+        "source_reference": "source_refs/src-0623-f1091.png",
+        "source_exposures": [
+          {
+            "start": 1091,
+            "end": 1097,
+            "pts": 45.458,
+            "end_pts": 45.708,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Asset: ONE whole independent hand-drawn cel for the Klee replacement PV, source f1091; never a collage. Image1 is the current exact original controlling all pose, placement, visible areas and occlusion. Image2 current native face controls half-open heavy eyelids with very narrow lower eye openings and tiny CLOSED caret frown. Image3 and Image4 are actual original before/current AB, RGB differences and contours; use the CURRENT target, not the previous pose or original character identity. Image5 defines only Klee identity and costume, not pose or expression. Replace the sole original girl with Klee: red beret with cream four-leaf clover, white feather and brown badge, short pale blond bangs, elf ears, TWO short compact rooted ponytails ending near shoulders; plain red coat with two-lobed cream collar, cream cuffs and continuous cream COAT hem above short RED shorts; brown gloves and brown boots. Same restrained hand-drawn black/brown outlines and largely flat color blocks as these existing PV cels, not rich illustration, chibi shrink, long original hair, backpack, extra trims, pompom or necklace. CURRENT f1091 is a grounded frontal full-body pose, upright head with face around(960,230) on1920x1080, half-open bored/tired eyes, not fully closed and not round/wide eyes. Relative to original f1085 the head shifts substantially LEFT and slightly UP; keep the CURRENT target positions. Screen-left arm slopes diagonally down/out to a visible small brown gloved hand near(680,520). Screen-right elbow/forearm bends upward, with its sleeve end facing the camera near(1155,435); the right hand is completely HIDDEN inside the sleeve. Draw the cream cuff ring and enclosed sleeve opening with the source's small rectangular/rounded shape; NO visible right fingers, open palm, raised brown mitten outside the cuff, object or third hand. Two legs remain gently apart and two boots grounded near(875,1015) and(1060,1015), maintaining original total body height. Preserve original purple sky and actual star arrangement, no new decorative stars. No source buttonrow or pockets, no cream shorts cuffs; cream hem belongs to the coat. Keep camera/full-frame crop and original slender PV proportions. No lyrics, characters, typography or watermark: original Japanese/Chinese raster text is restored separately in compositing. Render one landscape full frame; do not return the old closed-eye arms-down stance, mirrored frame or transformed paste. All limbs and ponytails must connect coherently, and the raised sleeve must actually hide its hand. Pixel-perfect invariants are not claimed.",
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+            "role": "Exact current original f1091; sole authority for full-body framing, half-open eyelids, upright head, bent screen-right sleeve with hidden hand, visible left hand and grounded feet."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+            "role": "Native current eyelids and tiny CLOSED caret mouth; no closed-eye or wide-eye substitution."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-ab-rgb-contours.png",
+            "role": "Actual original f1085-to-f1091 AB/RGB/contours; major left/up head shift, screen-left hand outward/up, screen-right sleeve raised/bent; not original identity."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-locals-native.png",
+            "role": "Native current-vs-previous eyes, gloves, cuffs, hem and boots; clarify limb visibility and sleeve opening occlusion."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+            "role": "Klee identity/costume ONLY: red beret/feather, TWO compact rooted pale ponytails, plain cream collar/red coat/cream hem/red shorts and brown boots. No complete face or previous pose."
+          }
+        ],
+        "output": "generated/star-f1091-fast-continuation-v1.png",
+        "status": "generated_blocking_original_underarm_hair_unselected",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed exact full source, native face, full AB/RGB/contours and native local delta. Distinct half-open-eyed bent-right-empty-sleeve pose; no source alias to preceding closed-eye arms-down cels.",
+        "reference_queue": "qa/star1091-continuation-2026-10-05/missing-source-reference-queue.json",
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5eedc36b-a53b-4567-8278-0fc0b167203b.png",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "output_sha256": "8b656539c9e1590dbd72cdf5b45c2c403bbd38a5f911dcefb4842eac38a94ed8",
+        "static_review": {
+          "flaws": [
+            "Source-like detached pale-pink hair tip behind screen-left upper arm, approximately x745..757,y414..433 on1672x941; identity ponytails end near shoulders and do not connect to it.",
+            "Source head/hand positions and sleeve-opening shape remain approximate; richer coat/boot shading than original simplicity."
+          ],
+          "blocking": [
+            "Detached original underarm hair remnant must be removed before serving as next continuous-art anchor."
+          ],
+          "passed_static_structure": [
+            "Half-open tired eyelids and CLOSED caret mouth.",
+            "Bent screen-right sleeve opening faces camera, right fingers hidden.",
+            "Two short rooted hair groups and grounded two boots; plain red coat/cream coat hem."
+          ],
+          "composite_review": "not_performed",
+          "original_speed_review": "not_performed"
+        }
+      },
+      "id": "star-f1091-fast-continuation-2026-10-05-v1",
+      "source_frame": 1091,
+      "source_cel": "cel-0229",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Asset: ONE whole independent hand-drawn cel for the Klee replacement PV, source f1091; never a collage. Image1 is the current exact original controlling all pose, placement, visible areas and occlusion. Image2 current native face controls half-open heavy eyelids with very narrow lower eye openings and tiny CLOSED caret frown. Image3 and Image4 are actual original before/current AB, RGB differences and contours; use the CURRENT target, not the previous pose or original character identity. Image5 defines only Klee identity and costume, not pose or expression. Replace the sole original girl with Klee: red beret with cream four-leaf clover, white feather and brown badge, short pale blond bangs, elf ears, TWO short compact rooted ponytails ending near shoulders; plain red coat with two-lobed cream collar, cream cuffs and continuous cream COAT hem above short RED shorts; brown gloves and brown boots. Same restrained hand-drawn black/brown outlines and largely flat color blocks as these existing PV cels, not rich illustration, chibi shrink, long original hair, backpack, extra trims, pompom or necklace. CURRENT f1091 is a grounded frontal full-body pose, upright head with face around(960,230) on1920x1080, half-open bored/tired eyes, not fully closed and not round/wide eyes. Relative to original f1085 the head shifts substantially LEFT and slightly UP; keep the CURRENT target positions. Screen-left arm slopes diagonally down/out to a visible small brown gloved hand near(680,520). Screen-right elbow/forearm bends upward, with its sleeve end facing the camera near(1155,435); the right hand is completely HIDDEN inside the sleeve. Draw the cream cuff ring and enclosed sleeve opening with the source's small rectangular/rounded shape; NO visible right fingers, open palm, raised brown mitten outside the cuff, object or third hand. Two legs remain gently apart and two boots grounded near(875,1015) and(1060,1015), maintaining original total body height. Preserve original purple sky and actual star arrangement, no new decorative stars. No source buttonrow or pockets, no cream shorts cuffs; cream hem belongs to the coat. Keep camera/full-frame crop and original slender PV proportions. No lyrics, characters, typography or watermark: original Japanese/Chinese raster text is restored separately in compositing. Render one landscape full frame; do not return the old closed-eye arms-down stance, mirrored frame or transformed paste. All limbs and ponytails must connect coherently, and the raised sleeve must actually hide its hand. Pixel-perfect invariants are not claimed.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+          "exists": true,
+          "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+          "bytes": 828788,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Exact current original f1091; sole authority for full-body framing, half-open eyelids, upright head, bent screen-right sleeve with hidden hand, visible left hand and grounded feet."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+          "exists": true,
+          "sha256": "2a278c759428c964ae1d46d3d51b2ce63d802d16d9c5fb292564353bf831998e",
+          "bytes": 135061,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Native current eyelids and tiny CLOSED caret mouth; no closed-eye or wide-eye substitution."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "70104773cef9bcd93ebc15850069ebdbad8d8b797169e9657d492229657bc893",
+          "bytes": 1804722,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual original f1085-to-f1091 AB/RGB/contours; major left/up head shift, screen-left hand outward/up, screen-right sleeve raised/bent; not original identity."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-locals-native.png",
+          "exists": true,
+          "sha256": "7b38fa0d267097ec1df178b2b356534aa0996f0c7556ba27aa2cb553167ccde5",
+          "bytes": 1203788,
+          "dimensions": [
+            1440,
+            1632
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Native current-vs-previous eyes, gloves, cuffs, hem and boots; clarify limb visibility and sleeve opening occlusion."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+          "exists": true,
+          "sha256": "6e69b0e262866e6fcde15658b1f051138666d9600b48bae1dce760a175a34554",
+          "bytes": 208440,
+          "dimensions": [
+            990,
+            465
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Klee identity/costume ONLY: red beret/feather, TWO compact rooted pale ponytails, plain cream collar/red coat/cream hem/red shorts and brown boots. No complete face or previous pose."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0623-f1091.png",
+        "exists": true,
+        "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+        "bytes": 828788,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1091,
+          "end": 1097,
+          "pts": 45.458,
+          "end_pts": 45.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5eedc36b-a53b-4567-8278-0fc0b167203b.png",
+        "exists": true,
+        "sha256": "8b656539c9e1590dbd72cdf5b45c2c403bbd38a5f911dcefb4842eac38a94ed8",
+        "bytes": 1285925,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "8b656539c9e1590dbd72cdf5b45c2c403bbd38a5f911dcefb4842eac38a94ed8",
+        "bytes": 1285925,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "generated_blocking_original_underarm_hair_unselected",
+      "job_reports_failed_or_blocking_unselected": true,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1091-underarm-hair-repair-2026-10-05-v2.json",
+      "job_json_sha256": "4e335bfc177c4bad328e1b5f30ffcbee2c39ad2760a202e929e02484ea5de6fa",
+      "job_json_bytes": 4004,
+      "job_original_complete": {
+        "id": "star-f1091-underarm-hair-repair-2026-10-05-v2",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1091,
+        "source_cel": "cel-0229",
+        "source_reference": "source_refs/src-0623-f1091.png",
+        "source_exposures": [
+          {
+            "start": 1091,
+            "end": 1097,
+            "pts": 45.458,
+            "end_pts": 45.708,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-fast-continuation-v1.png",
+            "role": "Whole-frame edit target: preserve Klee's half-open-eyes, upright frontal body, bent camera-facing right cuff hiding hand, left glove, costume and rooted short hair."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+            "role": "Exact original f1091 pose/framing/visible regions only; original long hair is replaced, not retained."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+            "role": "Existing Klee compact rooted shoulder ponytails and plain red costume only; no underarm/back long hair."
+          }
+        ],
+        "prompt": "Use case: precise-object-edit. Redraw ONE entire independent PV cel. Image1 is the complete edit target; keep its Klee identity, two compact rooted pale-blond ponytails ending near shoulders, red beret/white feather, half-open heavy flat eyelids, tiny CLOSED caret mouth, upright full-body grounded stance, screen-left lowered brown glove and screen-right BENT CREAM CUFF with right hand completely HIDDEN. Image2 is original source for CURRENT pose/framing only; original long hair must not survive. Image3 confirms compact short-hair topology and plain collar/coat/hem/shorts/boots, not pose. SINGLE critical correction: in Image1 the tiny detached pale-pink triangular spike with dark outline behind the SCREEN-LEFT UPPER ARM, near x745..757,y414..433 on1672x941 (about x855..870,y475..497 on1920canvas), is a leftover ORIGINAL LONG HAIR tip, not Klee's ponytail, costume, hand, prop or star. Remove that pink underarm spike and its dark outline completely, restoring the actual purple sky there. Do NOT connect it to a new long ponytail, retain it, add another tuft below the arm, erase the real compact ponytails, sleeve or glove, or invent right fingers. Keep the whole existing pose/expression/framing and all clothing as close as possible outside that single region, without claiming exact pixel locking. Do not modify the face into closed or wide eyes. No source pockets/buttons/cream shorts cuffs. No text/lyrics/watermark; source captions restored separately. Simple hand-drawn largely flat style, no extra shaded details, no added background stars. One landscape entire frame, not crop or collage.",
+        "output": "generated/star-f1091-underarm-hair-v2.png",
+        "status": "generated_failed_underarm_hair_preserved_unselected",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "repair_reason": "Remove identifiable original underarm hair retained in raw PNG, not a compositor mask problem.",
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-20ebc91f-f869-4b51-87a9-58925cbfca7c.png",
+        "static_review": {
+          "flaws": [
+            "Whole-frame repair retained the detached pale-pink underarm spike; native nearest6x locator confirms no correction."
+          ],
+          "blocking": [
+            "Original underarm hair fragment remains."
+          ],
+          "accepted": false,
+          "composite_review": "not_performed"
+        },
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "output_sha256": "44676c47cf9bf6e7c21622d096e177548186eca357c7e84de89abf5ea9390198"
+      },
+      "id": "star-f1091-underarm-hair-repair-2026-10-05-v2",
+      "source_frame": 1091,
+      "source_cel": "cel-0229",
+      "variant_number": 2,
+      "full_prompt_original": "Use case: precise-object-edit. Redraw ONE entire independent PV cel. Image1 is the complete edit target; keep its Klee identity, two compact rooted pale-blond ponytails ending near shoulders, red beret/white feather, half-open heavy flat eyelids, tiny CLOSED caret mouth, upright full-body grounded stance, screen-left lowered brown glove and screen-right BENT CREAM CUFF with right hand completely HIDDEN. Image2 is original source for CURRENT pose/framing only; original long hair must not survive. Image3 confirms compact short-hair topology and plain collar/coat/hem/shorts/boots, not pose. SINGLE critical correction: in Image1 the tiny detached pale-pink triangular spike with dark outline behind the SCREEN-LEFT UPPER ARM, near x745..757,y414..433 on1672x941 (about x855..870,y475..497 on1920canvas), is a leftover ORIGINAL LONG HAIR tip, not Klee's ponytail, costume, hand, prop or star. Remove that pink underarm spike and its dark outline completely, restoring the actual purple sky there. Do NOT connect it to a new long ponytail, retain it, add another tuft below the arm, erase the real compact ponytails, sleeve or glove, or invent right fingers. Keep the whole existing pose/expression/framing and all clothing as close as possible outside that single region, without claiming exact pixel locking. Do not modify the face into closed or wide eyes. No source pockets/buttons/cream shorts cuffs. No text/lyrics/watermark; source captions restored separately. Simple hand-drawn largely flat style, no extra shaded details, no added background stars. One landscape entire frame, not crop or collage.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "8b656539c9e1590dbd72cdf5b45c2c403bbd38a5f911dcefb4842eac38a94ed8",
+          "bytes": 1285925,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Whole-frame edit target: preserve Klee's half-open-eyes, upright frontal body, bent camera-facing right cuff hiding hand, left glove, costume and rooted short hair."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+          "exists": true,
+          "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+          "bytes": 828788,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Exact original f1091 pose/framing/visible regions only; original long hair is replaced, not retained."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+          "exists": true,
+          "sha256": "6e69b0e262866e6fcde15658b1f051138666d9600b48bae1dce760a175a34554",
+          "bytes": 208440,
+          "dimensions": [
+            990,
+            465
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Existing Klee compact rooted shoulder ponytails and plain red costume only; no underarm/back long hair."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0623-f1091.png",
+        "exists": true,
+        "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+        "bytes": 828788,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1091,
+          "end": 1097,
+          "pts": 45.458,
+          "end_pts": 45.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-20ebc91f-f869-4b51-87a9-58925cbfca7c.png",
+        "exists": true,
+        "sha256": "44676c47cf9bf6e7c21622d096e177548186eca357c7e84de89abf5ea9390198",
+        "bytes": 1289773,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-underarm-hair-v2.png",
+        "exists": true,
+        "sha256": "44676c47cf9bf6e7c21622d096e177548186eca357c7e84de89abf5ea9390198",
+        "bytes": 1289773,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "generated_failed_underarm_hair_preserved_unselected",
+      "job_reports_failed_or_blocking_unselected": true,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1091-underarm-locator-repair-2026-10-05-v3.json",
+      "job_json_sha256": "c9fc8dad8928b86a29ef69a83334497d68ce58b67de81add2ed5123e7c71d7f1",
+      "job_json_bytes": 3833,
+      "job_original_complete": {
+        "id": "star-f1091-underarm-locator-repair-2026-10-05-v3",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1091,
+        "source_cel": "cel-0229",
+        "source_reference": "source_refs/src-0623-f1091.png",
+        "source_exposures": [
+          {
+            "start": 1091,
+            "end": 1097,
+            "pts": 45.458,
+            "end_pts": 45.708,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-underarm-hair-v2.png",
+            "role": "Whole frame EDIT TARGET; preserve the entire pose/identity. The disconnected underarm pink shape must be removed."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-underarm-locator-nearest6x.png",
+            "role": "DIAGNOSTIC LOCATOR crop from Image1, enlarged nearest6x ONLY. Pink black-outlined detached sliver between red sleeve and red torso is the ONE unwanted original hair remnant. This is not a new pose or artwork reference."
+          }
+        ],
+        "prompt": "Use case: precise-object-edit. Edit Image1 as ONE entire landscape full-frame PV cel. Image2 is only a zoomed LOCATION of one defect already in Image1, not an image to insert. Critical request: DELETE the SMALL PINK BLACK-OUTLINED SLIVER in Image2, floating in the PURPLE GAP between red screen-left sleeve and red torso. It is an unconnected leftover ORIGINAL GIRL'S LONG HAIR, not a Klee hair lock, skin, armpit, sleeve, elbow, accessory, star or body part. Replace the ENTIRE pink shape AND all its own black outline with plain purple sky matching the surrounding visible gap. The corrected gap is PURPLE ONLY; do not leave a black U outline, pink dot, peach triangle, new cream lock or red patch. Do not connect it to Klee's hair. The exact whole-frame location is about x744..757,y414..433 of1672x941. Preserve the real red sleeve edge and red torso edge beside this gap. Everything else stays as close as possible: same Klee beret/feather, two short rooted shoulder ponytails, elf ears, half-open flat eyelids, CLOSED caret mouth, cream collar, plain red coat and coat hem, shorts, left brown glove, BENT right sleeve with right hand HIDDEN, two long pale legs and brown boots, purple star background. Do not change pose/framing/expression, crop, add fingers, invent new details or text. Whole frame output, not a cropped patch or collage. This is a real removal: a result that retains ANY part of this disconnected pink sliver or its outline is wrong. We do not claim pixel-perfect outside locking.",
+        "output": "generated/star-f1091-underarm-hair-v3.png",
+        "status": "generated_failed_underarm_hair_preserved_unselected",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "repair_reason": "First whole-frame request retained the original hair remnant; second and final scoped retry uses direct native-crop locator and no conflicting original long-hair reference.",
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-ff7837bb-def1-482c-837a-e438e3f32369.png",
+        "static_review": {
+          "flaws": [
+            "Direct diagnostic-locator edit still retains pink underarm spike."
+          ],
+          "blocking": [
+            "Original detached underarm hair remains."
+          ],
+          "decision": "Two consecutive scoped removal failures. Stop same edit direction, reset to exact source redraw; no further repeat of this prompt."
+        },
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "output_sha256": "9f01afe6d58325e976bd94582830e30529d1c419d1951236dee7d0b485e16648"
+      },
+      "id": "star-f1091-underarm-locator-repair-2026-10-05-v3",
+      "source_frame": 1091,
+      "source_cel": "cel-0229",
+      "variant_number": 3,
+      "full_prompt_original": "Use case: precise-object-edit. Edit Image1 as ONE entire landscape full-frame PV cel. Image2 is only a zoomed LOCATION of one defect already in Image1, not an image to insert. Critical request: DELETE the SMALL PINK BLACK-OUTLINED SLIVER in Image2, floating in the PURPLE GAP between red screen-left sleeve and red torso. It is an unconnected leftover ORIGINAL GIRL'S LONG HAIR, not a Klee hair lock, skin, armpit, sleeve, elbow, accessory, star or body part. Replace the ENTIRE pink shape AND all its own black outline with plain purple sky matching the surrounding visible gap. The corrected gap is PURPLE ONLY; do not leave a black U outline, pink dot, peach triangle, new cream lock or red patch. Do not connect it to Klee's hair. The exact whole-frame location is about x744..757,y414..433 of1672x941. Preserve the real red sleeve edge and red torso edge beside this gap. Everything else stays as close as possible: same Klee beret/feather, two short rooted shoulder ponytails, elf ears, half-open flat eyelids, CLOSED caret mouth, cream collar, plain red coat and coat hem, shorts, left brown glove, BENT right sleeve with right hand HIDDEN, two long pale legs and brown boots, purple star background. Do not change pose/framing/expression, crop, add fingers, invent new details or text. Whole frame output, not a cropped patch or collage. This is a real removal: a result that retains ANY part of this disconnected pink sliver or its outline is wrong. We do not claim pixel-perfect outside locking.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-underarm-hair-v2.png",
+          "exists": true,
+          "sha256": "44676c47cf9bf6e7c21622d096e177548186eca357c7e84de89abf5ea9390198",
+          "bytes": 1289773,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Whole frame EDIT TARGET; preserve the entire pose/identity. The disconnected underarm pink shape must be removed."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-underarm-locator-nearest6x.png",
+          "exists": true,
+          "sha256": "3ec9f3292a1053ea7f28f405e8a660f86161eb85dc774d15c9d733f7d9bd8a37",
+          "bytes": 11061,
+          "dimensions": [
+            330,
+            450
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "DIAGNOSTIC LOCATOR crop from Image1, enlarged nearest6x ONLY. Pink black-outlined detached sliver between red sleeve and red torso is the ONE unwanted original hair remnant. This is not a new pose or artwork reference."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0623-f1091.png",
+        "exists": true,
+        "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+        "bytes": 828788,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1091,
+          "end": 1097,
+          "pts": 45.458,
+          "end_pts": 45.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-ff7837bb-def1-482c-837a-e438e3f32369.png",
+        "exists": true,
+        "sha256": "9f01afe6d58325e976bd94582830e30529d1c419d1951236dee7d0b485e16648",
+        "bytes": 1310285,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-underarm-hair-v3.png",
+        "exists": true,
+        "sha256": "9f01afe6d58325e976bd94582830e30529d1c419d1951236dee7d0b485e16648",
+        "bytes": 1310285,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "generated_failed_underarm_hair_preserved_unselected",
+      "job_reports_failed_or_blocking_unselected": true,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1091-source-redraw-2026-10-05-v4.json",
+      "job_json_sha256": "ee512abc5eaccf8da6376e9d50281625c165a83cb0820ede6fc596bc40034e34",
+      "job_json_bytes": 5831,
+      "job_original_complete": {
+        "id": "star-f1091-source-redraw-2026-10-05-v4",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1091,
+        "source_cel": "cel-0229",
+        "source_reference": "source_refs/src-0623-f1091.png",
+        "source_exposures": [
+          {
+            "start": 1091,
+            "end": 1097,
+            "pts": 45.458,
+            "end_pts": 45.708,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+            "role": "Exact current original f1091; sole authority for full-body framing, half-open eyelids, upright head, bent screen-right sleeve with hidden hand, visible left hand and grounded feet."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+            "role": "Native current eyelids and tiny CLOSED caret mouth; no closed-eye or wide-eye substitution."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+            "role": "Klee identity/costume ONLY: red beret/feather, TWO compact rooted pale ponytails, plain cream collar/red coat/cream hem/red shorts and brown boots. No complete face or previous pose."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE entire landscape hand-drawn PV frame from the ORIGINAL SOURCE in Image1, replacing the whole original girl with Klee, not preserving any part of the original girl's hair or clothing. This is a FRESH WHOLE CHARACTER redraw, not a small patch to earlier Klee artwork. Image2 is the CURRENT ORIGINAL half-open eyelids and tiny CLOSED caret mouth. Image3 supplies Klee identity/costume only, no pose. Highest-priority silhouette rule: Klee has only TWO compact shoulder-height pale-blond ponytails rooted beside elf ears, with both hair ends ABOVE the lower edge of the cream collar. The PURPLE GAP beneath the screen-left upper sleeve and beside the red torso must be ENTIRELY clear purple, no pink sliver, black U-shape, detached hair, pale skin, tuft, tassel or original long hair tip. In the ORIGINAL Image1 the long pink hair passes behind the left sleeve and has a point around x842..865,y444..483 of1920x1080; DELETE this old tail from the new character. Do not preserve, recolor or outline it. No back hair anywhere below shoulder level or underneath either arm. Klee identity: red beret, cream four-leaf clover, white feather/brown badge, short pale-blond bangs, elf ears, two rooted compact ponytails; plain RED coat with two-lobed cream collar, cream cuffs and single cream COAT hem above RED shorts, brown gloves and brown boots. No original buttonrow/pockets, no cream shorts bands, backpack, pompom or decorative coat trim. Maintain ORIGINAL CURRENT pose and positions: grounded frontal full-body, upright slightly tired half-open narrow heavy flat eyelids and CLOSED caret mouth, head/face about(960,230); LEFT arm diagonally down/out to visible brown glove about(680,520). RIGHT sleeve/elbow bends UP with camera-facing cream cuff opening about(1155,435); RIGHT HAND completely HIDDEN within that sleeve, not a visible mitten/palm/fingers/object. Two slender legs and two grounded boots about(875,1015),(1060,1015), retain original total height/framing not smaller chibi. Simple hand-drawn largely flat color blocks, no rich rendering/shading. Preserve original purple starry background arrangement, no extra stars, no lyrics/text/watermark. Background and original bilingual captions will be independently restored. One full frame, never a collage, crop, mirrored pose or paste. Do not use or reproduce any earlier Klee whole-frame edit target. Explicitly redraw the left underarm opening as clean PURPLE SKY with zero disconnected original pink hair outline.",
+        "output": "generated/star-f1091-source-redraw-v4.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "repair_reason": "Reset source/identity references and redraw from original after two actual failed scoped hair-removal edits. Earlier Klee whole-frame targets excluded.",
+        "source_delta_evidence": [
+          "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-ab-rgb-contours.png",
+          "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1085-f1091-source-locals-native.png"
+        ],
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8565ea4f-3075-4393-8484-fee8b60a9ec0.png",
+        "static_review": {
+          "passed_static_structure": [
+            "Fresh original-source redraw removes the disconnected original pink underarm hair; gap is clear purple.",
+            "Half-open flat eyelids, CLOSED caret mouth, bent screen-right camera-facing empty sleeve opening with fingers hidden.",
+            "Two short rooted hair groups ending above collar edge, coherent full body with two grounded boots."
+          ],
+          "flaws": [
+            "Head/eye vertical registration and coat/cuff opening shape approximate original; hand detail and new knee/boot shading differ.",
+            "Costume/hat/collar simplification changes relative to earlier standing cels; deferred nonblocking draft consistency review."
+          ],
+          "composite_review": "not_performed",
+          "original_speed_review": "not_performed",
+          "accepted": false
+        },
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "output_sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816"
+      },
+      "id": "star-f1091-source-redraw-2026-10-05-v4",
+      "source_frame": 1091,
+      "source_cel": "cel-0229",
+      "variant_number": 4,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE entire landscape hand-drawn PV frame from the ORIGINAL SOURCE in Image1, replacing the whole original girl with Klee, not preserving any part of the original girl's hair or clothing. This is a FRESH WHOLE CHARACTER redraw, not a small patch to earlier Klee artwork. Image2 is the CURRENT ORIGINAL half-open eyelids and tiny CLOSED caret mouth. Image3 supplies Klee identity/costume only, no pose. Highest-priority silhouette rule: Klee has only TWO compact shoulder-height pale-blond ponytails rooted beside elf ears, with both hair ends ABOVE the lower edge of the cream collar. The PURPLE GAP beneath the screen-left upper sleeve and beside the red torso must be ENTIRELY clear purple, no pink sliver, black U-shape, detached hair, pale skin, tuft, tassel or original long hair tip. In the ORIGINAL Image1 the long pink hair passes behind the left sleeve and has a point around x842..865,y444..483 of1920x1080; DELETE this old tail from the new character. Do not preserve, recolor or outline it. No back hair anywhere below shoulder level or underneath either arm. Klee identity: red beret, cream four-leaf clover, white feather/brown badge, short pale-blond bangs, elf ears, two rooted compact ponytails; plain RED coat with two-lobed cream collar, cream cuffs and single cream COAT hem above RED shorts, brown gloves and brown boots. No original buttonrow/pockets, no cream shorts bands, backpack, pompom or decorative coat trim. Maintain ORIGINAL CURRENT pose and positions: grounded frontal full-body, upright slightly tired half-open narrow heavy flat eyelids and CLOSED caret mouth, head/face about(960,230); LEFT arm diagonally down/out to visible brown glove about(680,520). RIGHT sleeve/elbow bends UP with camera-facing cream cuff opening about(1155,435); RIGHT HAND completely HIDDEN within that sleeve, not a visible mitten/palm/fingers/object. Two slender legs and two grounded boots about(875,1015),(1060,1015), retain original total height/framing not smaller chibi. Simple hand-drawn largely flat color blocks, no rich rendering/shading. Preserve original purple starry background arrangement, no extra stars, no lyrics/text/watermark. Background and original bilingual captions will be independently restored. One full frame, never a collage, crop, mirrored pose or paste. Do not use or reproduce any earlier Klee whole-frame edit target. Explicitly redraw the left underarm opening as clean PURPLE SKY with zero disconnected original pink hair outline.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+          "exists": true,
+          "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+          "bytes": 828788,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Exact current original f1091; sole authority for full-body framing, half-open eyelids, upright head, bent screen-right sleeve with hidden hand, visible left hand and grounded feet."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+          "exists": true,
+          "sha256": "2a278c759428c964ae1d46d3d51b2ce63d802d16d9c5fb292564353bf831998e",
+          "bytes": 135061,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Native current eyelids and tiny CLOSED caret mouth; no closed-eye or wide-eye substitution."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+          "exists": true,
+          "sha256": "6e69b0e262866e6fcde15658b1f051138666d9600b48bae1dce760a175a34554",
+          "bytes": 208440,
+          "dimensions": [
+            990,
+            465
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Klee identity/costume ONLY: red beret/feather, TWO compact rooted pale ponytails, plain cream collar/red coat/cream hem/red shorts and brown boots. No complete face or previous pose."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0623-f1091.png",
+        "exists": true,
+        "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+        "bytes": 828788,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1091,
+          "end": 1097,
+          "pts": 45.458,
+          "end_pts": 45.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8565ea4f-3075-4393-8484-fee8b60a9ec0.png",
+        "exists": true,
+        "sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+        "bytes": 1307227,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-source-redraw-v4.png",
+        "exists": true,
+        "sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+        "bytes": 1307227,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1097-fast-continuation-2026-10-05-v1.json",
+      "job_json_sha256": "7ce10f471967dfbcb2daf7dfbe13d938a29d0035caaf3c39121ba1b7e3f35f64",
+      "job_json_bytes": 5974,
+      "job_original_complete": {
+        "id": "star-f1097-fast-continuation-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1097,
+        "source_cel": "cel-0230",
+        "source_reference": "source_refs/src-0629-f1097.png",
+        "source_exposures": [
+          {
+            "start": 1097,
+            "end": 1100,
+            "pts": 45.708,
+            "end_pts": 45.833,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-actual.png",
+            "role": "Exact current original controls eye opening, head framing, screen-right hand now visibly resting against collar/chest and tilted right foot; do not copy previous bent empty cuff pose."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-face-native.png",
+            "role": "Native current heavy half-open eyes with larger narrow eye openings than1091 and CLOSED caret mouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-f1097-source-ab-rgb-contours.png",
+            "role": "True original1091→1097 AB/RGB/contours: right forearm rotates inward/up to chest, left glove lower, right leg/boot angled."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-body-native.png",
+            "role": "Native current visible glove/cream cuff against chest, elbow bend, sleeve fold, two legs and tilted right boot. Sole occlusion authority."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-source-redraw-v4.png",
+            "role": "Previous fresh Klee identity/style and costume only; short rooted shoulder ponytails and clear purple underarm gap. Do not freeze its face, empty right cuff, straight legs or palm shape."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE whole independent Klee PV cel from CURRENT ORIGINAL Image1. Image2 controls CURRENT heavy half-open eyelids, with visibly larger narrow eye openings than previous1091 and tiny CLOSED caret mouth. Image3 actual source before/current RGB/contours gives true changes. Image4 is native CURRENT hand/cuff/leg evidence. Image5 ONLY supplies existing Klee identity/flat drawing style/costume, not a frozen pose. Replace the entire original girl with Klee, red beret/cream clover/white feather/brown badge, pale short bangs/elf ears/TWO compact rooted ponytails ending ABOVE lower collar, plain red coat with two-lobed cream collar, cream sleeve cuffs and continuous cream COAT hem above RED shorts, brown gloves and boots. NO old buttonrow/pockets, cream shorts cuffs, backpack, pompom, extra ornaments or long original hair. Keep original simple outlines/mostly flat blocks and original slender full-body framing/total height. Current source1097: RIGHT forearm curls diagonally INWARD and UP across upper chest; RIGHT brown gloved hand is now VISIBLE against upper chest/collar near(958,365) on1920x1080, preserve source small curled/back-of-glove shape and tiny thumb tip, with cream cuff beneath it and right elbow near(1030,455). Not the previous camera-facing empty cuff or an open palm. LEFT arm slopes down/out to small glove near(687,561), slightly lower than1091. Head/hat moves slightly LEFT with current eyelid opening, red iris slivers only within source narrow openings, no wide/chibi eyes. LEFT leg/boot vertical grounded near(872,1020); RIGHT leg angles diagonally down/out with slightly bent knee and RIGHT BOOT tilted to match original slanted cuff/sole, toe toward screen-left and heel toward screen-right near(1055,1020), not two identical straight boots. Retain two legs/two hands, coherent shoulder-elbow-cuff connections and foreground sleeve crossing chest. Crucial: original long pink hair tail behind left arm must be completely removed; beneath left upper sleeve and beside torso is CLEAN PURPLE SKY ONLY, no detached pale/pink/black-outlined sliver, tuft or skin. Both rooted new ponytails end at shoulders above collar bottom; no hair under either arm. Original purple stars retain their arrangement, no extra stars or new objects. No text/lyrics/watermark; source Japanese/Chinese captions restored separately. One landscape whole frame, not collage/crop/mirror/rigid transformed paste, and actually redraw CURRENT chest-hand/tilted-foot pose.",
+        "output": "generated/star-f1097-fast-continuation-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed exact source/full/native eyes/body and actualAB/RGB/contours plus native local delta; current visible chest glove and tilted leg/boot differ from1091. Original-source microcopy1100 not automatically adopted.",
+        "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-f1097-source-locals-native.png",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "output_sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5fcf2cbe-0089-4a86-8209-3bfbb24361d9.png",
+        "static_review": {
+          "passed": [
+            "visible right curled chest glove/cuff coherent",
+            "heavy half-open eyes and closed caret mouth",
+            "two rooted short ponytails and clean underarm gap",
+            "left down/out glove and right bent tilted boot"
+          ],
+          "deferred": [
+            "hand/cuff shape and head placement approximate",
+            "added boot/skin shading differs from original flat cel"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1097-fast-continuation-2026-10-05-v1",
+      "source_frame": 1097,
+      "source_cel": "cel-0230",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE whole independent Klee PV cel from CURRENT ORIGINAL Image1. Image2 controls CURRENT heavy half-open eyelids, with visibly larger narrow eye openings than previous1091 and tiny CLOSED caret mouth. Image3 actual source before/current RGB/contours gives true changes. Image4 is native CURRENT hand/cuff/leg evidence. Image5 ONLY supplies existing Klee identity/flat drawing style/costume, not a frozen pose. Replace the entire original girl with Klee, red beret/cream clover/white feather/brown badge, pale short bangs/elf ears/TWO compact rooted ponytails ending ABOVE lower collar, plain red coat with two-lobed cream collar, cream sleeve cuffs and continuous cream COAT hem above RED shorts, brown gloves and boots. NO old buttonrow/pockets, cream shorts cuffs, backpack, pompom, extra ornaments or long original hair. Keep original simple outlines/mostly flat blocks and original slender full-body framing/total height. Current source1097: RIGHT forearm curls diagonally INWARD and UP across upper chest; RIGHT brown gloved hand is now VISIBLE against upper chest/collar near(958,365) on1920x1080, preserve source small curled/back-of-glove shape and tiny thumb tip, with cream cuff beneath it and right elbow near(1030,455). Not the previous camera-facing empty cuff or an open palm. LEFT arm slopes down/out to small glove near(687,561), slightly lower than1091. Head/hat moves slightly LEFT with current eyelid opening, red iris slivers only within source narrow openings, no wide/chibi eyes. LEFT leg/boot vertical grounded near(872,1020); RIGHT leg angles diagonally down/out with slightly bent knee and RIGHT BOOT tilted to match original slanted cuff/sole, toe toward screen-left and heel toward screen-right near(1055,1020), not two identical straight boots. Retain two legs/two hands, coherent shoulder-elbow-cuff connections and foreground sleeve crossing chest. Crucial: original long pink hair tail behind left arm must be completely removed; beneath left upper sleeve and beside torso is CLEAN PURPLE SKY ONLY, no detached pale/pink/black-outlined sliver, tuft or skin. Both rooted new ponytails end at shoulders above collar bottom; no hair under either arm. Original purple stars retain their arrangement, no extra stars or new objects. No text/lyrics/watermark; source Japanese/Chinese captions restored separately. One landscape whole frame, not collage/crop/mirror/rigid transformed paste, and actually redraw CURRENT chest-hand/tilted-foot pose.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-actual.png",
+          "exists": true,
+          "sha256": "c6ccc5fd7e2f01cac2fb7c882cda005039995530f69cfd73436ed5343ff0b508",
+          "bytes": 787044,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Exact current original controls eye opening, head framing, screen-right hand now visibly resting against collar/chest and tilted right foot; do not copy previous bent empty cuff pose."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-face-native.png",
+          "exists": true,
+          "sha256": "143de2789c93b72c11360f3a4e02bc1e8c472f54f0808f328559d60a78b31aed",
+          "bytes": 131218,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Native current heavy half-open eyes with larger narrow eye openings than1091 and CLOSED caret mouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-f1097-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "92a9c972fc1c697d7ffad7ff81a4643361c20082e6d9b1120f9f3697c3a7e04c",
+          "bytes": 1838856,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "True original1091→1097 AB/RGB/contours: right forearm rotates inward/up to chest, left glove lower, right leg/boot angled."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-body-native.png",
+          "exists": true,
+          "sha256": "29b2a5f041b5be79891c8f5b73a66ad49e2226b11914bcbd35e1c8975131c1c9",
+          "bytes": 303303,
+          "dimensions": [
+            700,
+            725
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Native current visible glove/cream cuff against chest, elbow bend, sleeve fold, two legs and tilted right boot. Sole occlusion authority."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-source-redraw-v4.png",
+          "exists": true,
+          "sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+          "bytes": 1307227,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous fresh Klee identity/style and costume only; short rooted shoulder ponytails and clear purple underarm gap. Do not freeze its face, empty right cuff, straight legs or palm shape."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0629-f1097.png",
+        "exists": true,
+        "sha256": "c6ccc5fd7e2f01cac2fb7c882cda005039995530f69cfd73436ed5343ff0b508",
+        "bytes": 787044,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1097,
+          "end": 1100,
+          "pts": 45.708,
+          "end_pts": 45.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5fcf2cbe-0089-4a86-8209-3bfbb24361d9.png",
+        "exists": true,
+        "sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+        "bytes": 1286179,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1097-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+        "bytes": 1286179,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1102-fast-continuation-2026-10-05-v1.json",
+      "job_json_sha256": "626870779eebbd16db04e984a80e7d57a71ab9db7b2c5dd67b93a46a6d547003",
+      "job_json_bytes": 5492,
+      "job_original_complete": {
+        "id": "star-f1102-fast-continuation-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1102,
+        "source_cel": "cel-0232",
+        "source_reference": "source_refs/src-0634-f1102.png",
+        "source_exposures": [
+          {
+            "start": 1102,
+            "end": 1106,
+            "pts": 45.917,
+            "end_pts": 46.083,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-actual.png",
+            "role": "Exact CURRENT1102 source controls round open mouth, wider eye openings, left lowered arm/chest curled right glove, and more upright right foot."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-face-native.png",
+            "role": "Current native eye/round mouth authority; do not freeze1097 half-closed eyelids/caret mouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1100-f1102-source-ab-rgb-contours.png",
+            "role": "Actual1100→1102 source AB RGB difference and contours for eyelids, glove/cuff outline and right leg/boot."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-body-native.png",
+            "role": "Current native chest cuff/hand and grounded legs; source-only ownership and occlusion evidence."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1097-fast-continuation-v1.png",
+            "role": "Klee identity/flat style continuity only; not pose or face. Exactly two rooted shoulder ponytails, clean underarm sky."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE whole independent Klee PV cel for CURRENT source1102, preserving original fullbody framing and pose. Image1 CURRENT exact original is pose/framing authority; Image2 CURRENT native face controls wider narrow eye openings and small ROUND OPEN O mouth; Image3 actual1100→1102 AB/RGB/contours shows real eye/face/sleeve/boot changes; Image4 native current body controls hand/cuff occlusion and legs. Image5 only existing Klee identity/style/costume, not frozen expression or pose. Replace entire original girl with Klee in original simple hand-drawn outlines/mostly flat blocks: red beret cream clover white feather brown badge, pale short bangs/elf ears and exactly TWO compact shoulder-rooted ponytails ending above lower collar; red coat with plain two-lobed cream collar, cream sleeve cuffs, continuous cream COAT hem above RED shorts, brown gloves and boots. No old original button row/pockets/pajama pants/animal hat, no backpack/new ornaments/long hair. CURRENT1102 head slightly left of1097; eyelids lift and narrow eye openings become taller, red irises follow source openings without wide/chibi eyes. Mouth is small open ROUND O, not previous closed caret. RIGHT elbow bent down/out with forearm curling diagonally inward/up, small curled brown glove visibly touching upper chest near(954,380), thumb near center-side edge; cream cuff just below glove overlaps red torso, right elbow near(1030,455). No empty right cuff, palm wave or extra fingers. LEFT sleeve slopes diagonally down/out and small glove near(690,570), coherent shoulder/elbow/cuff. Two legs grounded: LEFT nearvertical to left boot~870,1020. RIGHT lower leg and boot become MORE UPRIGHT than previous tilted1097, slight bend/knee following source, right boot~1050,1020, source aligned sole rather than frozen diagonal foot. Keep source redraw changes in shoulder/cuff/hem contours; red coat remains same garment length. Both short ponytails terminate at shoulders ABOVE collar bottom. Absolutely no original pale-pink long-hair piece or detached tuft under left arm: gap between left sleeve and red torso is CLEAN PURPLE SKY ONLY, not pale sliver/skin. Keep original purple stars same layout; no additional graphics, text, lyrics/watermark. One whole landscape frame, not montage/cropped face/mirror/transformed-paste. Actually redraw1102 independent open-mouth/eye/foot change.",
+        "output": "generated/star-f1102-fast-continuation-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed current full/native eyes and body, true sourceAB/RGB/contours plus local eye/hand/hem/boots. Current mouth and eye opening and upright foot are independently redrawn.",
+        "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1100-f1102-source-locals-native.png",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d5d25d0b-9772-4e59-8dec-87e642bfef12.png",
+        "static_review": {
+          "passed": [
+            "independent open O mouth and taller eye openings",
+            "right curled chest glove and left down/out glove",
+            "two short rooted ponytails/no underarm original hair",
+            "right boot more upright"
+          ],
+          "deferred": [
+            "eyes/hand/cuff shapes approximate",
+            "added knee/boot shading and vertical head framing differs"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1102-fast-continuation-2026-10-05-v1",
+      "source_frame": 1102,
+      "source_cel": "cel-0232",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE whole independent Klee PV cel for CURRENT source1102, preserving original fullbody framing and pose. Image1 CURRENT exact original is pose/framing authority; Image2 CURRENT native face controls wider narrow eye openings and small ROUND OPEN O mouth; Image3 actual1100→1102 AB/RGB/contours shows real eye/face/sleeve/boot changes; Image4 native current body controls hand/cuff occlusion and legs. Image5 only existing Klee identity/style/costume, not frozen expression or pose. Replace entire original girl with Klee in original simple hand-drawn outlines/mostly flat blocks: red beret cream clover white feather brown badge, pale short bangs/elf ears and exactly TWO compact shoulder-rooted ponytails ending above lower collar; red coat with plain two-lobed cream collar, cream sleeve cuffs, continuous cream COAT hem above RED shorts, brown gloves and boots. No old original button row/pockets/pajama pants/animal hat, no backpack/new ornaments/long hair. CURRENT1102 head slightly left of1097; eyelids lift and narrow eye openings become taller, red irises follow source openings without wide/chibi eyes. Mouth is small open ROUND O, not previous closed caret. RIGHT elbow bent down/out with forearm curling diagonally inward/up, small curled brown glove visibly touching upper chest near(954,380), thumb near center-side edge; cream cuff just below glove overlaps red torso, right elbow near(1030,455). No empty right cuff, palm wave or extra fingers. LEFT sleeve slopes diagonally down/out and small glove near(690,570), coherent shoulder/elbow/cuff. Two legs grounded: LEFT nearvertical to left boot~870,1020. RIGHT lower leg and boot become MORE UPRIGHT than previous tilted1097, slight bend/knee following source, right boot~1050,1020, source aligned sole rather than frozen diagonal foot. Keep source redraw changes in shoulder/cuff/hem contours; red coat remains same garment length. Both short ponytails terminate at shoulders ABOVE collar bottom. Absolutely no original pale-pink long-hair piece or detached tuft under left arm: gap between left sleeve and red torso is CLEAN PURPLE SKY ONLY, not pale sliver/skin. Keep original purple stars same layout; no additional graphics, text, lyrics/watermark. One whole landscape frame, not montage/cropped face/mirror/transformed-paste. Actually redraw1102 independent open-mouth/eye/foot change.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-actual.png",
+          "exists": true,
+          "sha256": "ed21556489830fedce9b9b7bda65f3043988c129a669b6c57234bd5ea6ea2550",
+          "bytes": 784638,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Exact CURRENT1102 source controls round open mouth, wider eye openings, left lowered arm/chest curled right glove, and more upright right foot."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-face-native.png",
+          "exists": true,
+          "sha256": "aa934fa9428edbefa946f0e7f6ee025328b4b2d8f7a184c09e84bddfadb4c4d5",
+          "bytes": 132052,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Current native eye/round mouth authority; do not freeze1097 half-closed eyelids/caret mouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1100-f1102-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "cb87fc374c3d756b813927aa5aea1b3d80dca5ebd998e17d8b699ffa5d87e623",
+          "bytes": 1680392,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual1100→1102 source AB RGB difference and contours for eyelids, glove/cuff outline and right leg/boot."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-body-native.png",
+          "exists": true,
+          "sha256": "8fcbbe12e5fe658ca45c16993c01b060f3ec022b33ef0474e261115c454deb30",
+          "bytes": 296162,
+          "dimensions": [
+            700,
+            725
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current native chest cuff/hand and grounded legs; source-only ownership and occlusion evidence."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1097-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+          "bytes": 1286179,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Klee identity/flat style continuity only; not pose or face. Exactly two rooted shoulder ponytails, clean underarm sky."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0634-f1102.png",
+        "exists": true,
+        "sha256": "ed21556489830fedce9b9b7bda65f3043988c129a669b6c57234bd5ea6ea2550",
+        "bytes": 784638,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1102,
+          "end": 1106,
+          "pts": 45.917,
+          "end_pts": 46.083,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d5d25d0b-9772-4e59-8dec-87e642bfef12.png",
+        "exists": true,
+        "sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+        "bytes": 1302803,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1102-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+        "bytes": 1302803,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": [
+        "job_omits_output_dimensions_archive_measured_real_png",
+        "job_omits_output_sha256_archive_hashed_real_png"
+      ]
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1106-fast-continuation-2026-10-05-v1.json",
+      "job_json_sha256": "93dda93cabf2564bfcec1ff4ac6c3e08458012f058d638b74e1b4e73d94eaf75",
+      "job_json_bytes": 4669,
+      "job_original_complete": {
+        "id": "star-f1106-fast-continuation-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1106,
+        "source_cel": "cel-0233",
+        "source_reference": "source_refs/src-0638-f1106.png",
+        "source_exposures": [
+          {
+            "start": 1106,
+            "end": 1113,
+            "pts": 46.083,
+            "end_pts": 46.375,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-actual.png",
+            "role": "Current1106 exact source authority: left forearm raised/curling upward, right hand largely behind top chest cuff, narrow open eyes and small O mouth, two straight grounded legs."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-face-native.png",
+            "role": "Native current eyes/mouth/hat-head placement."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-f1106-source-ab-rgb-contours.png",
+            "role": "True1102→1106 RGB/contours gives both arm and upright leg changes."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-body-native.png",
+            "role": "Exact current sleeve/cuff/hand occlusion and legs."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1102-fast-continuation-v1.png",
+            "role": "Previous Klee identity/flat style only, not down-left-arm pose. Two short rooted ponytails terminate above lower collar."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Make ONE independent whole Klee PV cel at CURRENT original1106. Images1/2/4 CURRENT source/full/native face/body alone govern framing, expression, pose and occlusion. Image3 true1102→1106 AB/RGB/contours controls real redraw. Image5 only Klee simplified style/costume identity, not a frozen pose. Replace all original girl, retain original simple mostly flat color blocks and hand outlines/fullbody height. Klee: red beret cream clover white feather brown badge, pale short bangs, elf ears, exactly TWO compact shoulder-rooted short ponytails ending above lower collar; red coat plain two-lobed cream collar, plain cream cuffs and continuous cream COAT hem above RED shorts; brown gloves/boots. No old original animal hat, buttons/pockets/long hair/pajama legs/backpack/new ornaments. CURRENT1106 LEFT elbow bends near(810,510), LEFT forearm points UP and OUT to small partly curled glove near(739,425), replacing previous down/out sleeve. Preserve current camera-facing angled cuff opening wrapping the glove, not a straight down-left arm or open spread palm. RIGHT forearm is nearvertical in front of upper chest with elbow~1035,450; large cream cuff near(1000,360) partially HIDES right hand, only small brown curved fingertips peek above its top edge near collar; do not copy previous fully-exposed large chest glove. Both shoulder-elbow-cuff connections coherent, two hands total. Head slightly right/upright current source, narrow open red eyes in source opening, small open O mouth, not previous caret or closed eyes. TWO straight morevertical legs are now planted symmetrically, left boot~875,1020 and right~1058,1020 with horizontal grounded soles, not previous slanted right-leg/boot. Red coat remains same garment length with real hand-drawn sleeve/hem variation. Two short ponytails only, none beneath either arm; ORIGINAL long pink hair behind left sleeve is removed, visible gap there PURE PURPLE SKY without pale/skin/detached black-outlined tuft. Preserve purple stars layout, no extra stars, no text/lyrics/watermark; captions restored from source separately. One landscape whole frame, no collage/crop/mirror/warped previous cel. Actually redraw CURRENT up-left-hand and hidden right fingertips/straightleg pose.",
+        "output": "generated/star-f1106-fast-continuation-v1.png",
+        "status": "ready_to_submit",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed current original/full/native face/body and actualAB/RGB/contours/native locals: raised left arm, right fingers hidden by cuff, upright grounded legs.",
+        "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-f1106-source-locals-native.png"
+      },
+      "id": "star-f1106-fast-continuation-2026-10-05-v1",
+      "source_frame": 1106,
+      "source_cel": "cel-0233",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Make ONE independent whole Klee PV cel at CURRENT original1106. Images1/2/4 CURRENT source/full/native face/body alone govern framing, expression, pose and occlusion. Image3 true1102→1106 AB/RGB/contours controls real redraw. Image5 only Klee simplified style/costume identity, not a frozen pose. Replace all original girl, retain original simple mostly flat color blocks and hand outlines/fullbody height. Klee: red beret cream clover white feather brown badge, pale short bangs, elf ears, exactly TWO compact shoulder-rooted short ponytails ending above lower collar; red coat plain two-lobed cream collar, plain cream cuffs and continuous cream COAT hem above RED shorts; brown gloves/boots. No old original animal hat, buttons/pockets/long hair/pajama legs/backpack/new ornaments. CURRENT1106 LEFT elbow bends near(810,510), LEFT forearm points UP and OUT to small partly curled glove near(739,425), replacing previous down/out sleeve. Preserve current camera-facing angled cuff opening wrapping the glove, not a straight down-left arm or open spread palm. RIGHT forearm is nearvertical in front of upper chest with elbow~1035,450; large cream cuff near(1000,360) partially HIDES right hand, only small brown curved fingertips peek above its top edge near collar; do not copy previous fully-exposed large chest glove. Both shoulder-elbow-cuff connections coherent, two hands total. Head slightly right/upright current source, narrow open red eyes in source opening, small open O mouth, not previous caret or closed eyes. TWO straight morevertical legs are now planted symmetrically, left boot~875,1020 and right~1058,1020 with horizontal grounded soles, not previous slanted right-leg/boot. Red coat remains same garment length with real hand-drawn sleeve/hem variation. Two short ponytails only, none beneath either arm; ORIGINAL long pink hair behind left sleeve is removed, visible gap there PURE PURPLE SKY without pale/skin/detached black-outlined tuft. Preserve purple stars layout, no extra stars, no text/lyrics/watermark; captions restored from source separately. One landscape whole frame, no collage/crop/mirror/warped previous cel. Actually redraw CURRENT up-left-hand and hidden right fingertips/straightleg pose.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-actual.png",
+          "exists": true,
+          "sha256": "e400acc047b89829f8617bc9ddd4128b6aa777dbbb58944f87bdc37e7a98c71c",
+          "bytes": 787363,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current1106 exact source authority: left forearm raised/curling upward, right hand largely behind top chest cuff, narrow open eyes and small O mouth, two straight grounded legs."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-face-native.png",
+          "exists": true,
+          "sha256": "6c2d51aa999c46543d736f5a3b22070865a167c0dc2a94d99337e8380f78f929",
+          "bytes": 125127,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Native current eyes/mouth/hat-head placement."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-f1106-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "1983249d5dd33f7d22778e9b3a4a38e28aa0a651b81ec53a914846e56f01bdcf",
+          "bytes": 1724684,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "True1102→1106 RGB/contours gives both arm and upright leg changes."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-body-native.png",
+          "exists": true,
+          "sha256": "0145dbf3ccff9c59ae589fd4efccd13393be3fa67f82f831deb35d61ec67ec82",
+          "bytes": 301860,
+          "dimensions": [
+            700,
+            725
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Exact current sleeve/cuff/hand occlusion and legs."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1102-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+          "bytes": 1302803,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous Klee identity/flat style only, not down-left-arm pose. Two short rooted ponytails terminate above lower collar."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0638-f1106.png",
+        "exists": true,
+        "sha256": "e400acc047b89829f8617bc9ddd4128b6aa777dbbb58944f87bdc37e7a98c71c",
+        "bytes": 787363,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1106,
+          "end": 1113,
+          "pts": 46.083,
+          "end_pts": 46.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "builtin_tool_origin": null,
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1106-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "5dc84fa8479d2b8402895ee0f0afa8900bbab94960c08fa2278cc27486b7c6c2",
+        "bytes": 1269055,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": false,
+      "job_status_original": "ready_to_submit",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": null,
+      "final_disposition": "pending_root_batch_completion_and_final_adoption",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": [
+        "tool_or_workspace_output_pending_or_missing"
+      ]
+    }
+  ],
+  "unreadable_job_files": [],
+  "job_validation_issues": [],
+  "archivist_did_not_modify_jobs_or_shared_files": true,
+  "archive_does_not_claim_pre_generation_immutable_freeze": true,
+  "archive_does_not_claim_artistic_or_composite_or_original_speed_acceptance": true,
+  "status": "pending_root_batch_completion_and_final_candidate_confirmation"
+}

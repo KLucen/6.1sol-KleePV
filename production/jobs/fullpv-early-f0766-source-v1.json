@@ -1,0 +1,25 @@
+{
+  "job_id": "fullpv-early-f0766-source-v1",
+  "source_frame": 766,
+  "canonical_cel": "cel-0123",
+  "source_candidate": "src-0334",
+  "family": "front_small",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0766-source-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: ONE independently drawn full-frame 16:9 Klee animation cel for original source f766. Image 1 is current source EDIT TARGET and exclusively determines camera, native character size, face coordinates, eye shape, mouth, exact current two raised fists, finger/cuff/sleeve folds, crop and occlusion. Image 2 is Klee IDENTITY/COSTUME/COLOR ONLY, never its small pose, size, lower arms or eye expression. Image 3 shows actual source f763/f766 local RGB difference and two-color contours: draw the CURRENT side changes independently. Replace the source girl completely with simplified Klee. REMOVE the entire rabbit forehead sleep mask, all bunny loops/face and all old long pink hair. Exactly two SHORT blonde ear-root ponytails, pointed ears, red beret with cream clover and one white feather, red cream-trim coat, brown gloves, plain cream cuffs and cream collar; no sleeve clovers, dangling badges or third hair tuft. Match source native framing: upright face centered x51%, eye centers y42%, small open curved triangular mouth at y51%, chin y55%, collar y60%; face width about16% canvas, raised fist centers near x39% and62%, y55%, outer elbows near x30%/73%, y77%. Both brown gloved fists have source curled fingers beside cheeks, exactly two hands. Coat continues past bottom edge; NO legs or shorts visible. Sleepy half-open eyes must match Image1 lid slope, BLACK border-attached lower-left hook pupils and WHITE inside highlights in BOTH RED irises; no blue, no extra center dot. Source f766 mouth is small flatter arch than f763 O. Same source cheek/chin, shoulder fold and wrist geometry, do not zoom or shift face/torso downward. Simple flat PV color blocks with irregular thick black outlines. Flat source lavender backdrop, no gradients or texture. Omit all subtitles/text/particles for separate source-layer composition. No held neighboring drawing, no pose reuse, no morph, no panels, no added props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0334-f0766.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0745-contour-v2.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0766-source-local.png"
+  ],
+  "reference_roles": [
+    "Current real source f766: exclusive geometry/crop/expression/occlusion authority",
+    "Klee identity/color/costume ONLY, pose and proportions forbidden",
+    "Source f763/f766 actual local RGB differences and contour proof"
+  ],
+  "continuity_status": "pending_static_and_consecutive_review",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-e7648c0d-f04d-494c-a5c4-e7d715de2d30.png"
+}

@@ -1,0 +1,9 @@
+# Standing Missing Cels, 2026-10-05
+
+Root viewed every current native source frame, native face crop, actual before/current AB plus amplified RGB and contours, and each returned entire builtin output before adopting six unaccepted drafts. Sequential original decoding verified all seven needed source cels pixel-exact against canonical references. The two reduced source/generated consecutive contact pages were also inspected, not substituted for native source checks.
+
+1038->1043 is not a shot cut: both are the same full-body standing setup. 1048 raises the left glove; 1053 lowers and draws both sleeves inward; 1059 is the major counterclockwise head lean with hands raised/widened; 1064/1069 retain the lean and lower the gloves. Closed-eye strokes and a tiny closed caret mouth remain. Both short ponytail roots, two gloves and two grounded boots are visible. Each source cel has its own model output; no new exposure, alias, hold, warp or morph was added. Existing source reuse of f1043 at [1075,1080) stays as recorded.
+
+Limitations: generated head/hand positions and amplitudes approximate the source; f1043 has less hand-height asymmetry, later leftward head motion is under-executed, and 1059 adds unwanted source-like buttons/pockets/cream shorts bands. 1064 and1069 return to the plain coat but coat/shorts lengths still vary. Collar, boot clover, glove fingers and knee shading differ. These are draft rework records, not artistic acceptance. Final source-background/caption composition and actual-speed viewing of these six cels have not been performed. The cyclic f1069->f1043 exposure boundary remains pending in final composition; no loop pass is claimed.
+
+One separate f1017 rear-head blocker repair removed original purple-blue detached hair strands from the PNG. Root inspected the source, raw old PNG, actual before/after transition evidence and full model result. The original asset is preserved. This repair is not a newly mapped missing cel.

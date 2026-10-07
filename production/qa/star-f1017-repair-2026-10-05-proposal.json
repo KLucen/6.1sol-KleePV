@@ -1,0 +1,17 @@
+{
+  "owner": "root_star_repair_oct5",
+  "accepted": false,
+  "selections": [
+    {
+      "source_frame": 1017,
+      "path": "generated/star-gestures-f1017-rear-hair-v2.png",
+      "review": "Root viewed actual source, raw target, adjacent identity, actual AB/RGB/contours and returned full output. Bottom-left purple-blue original long-hair contours are no longer visible; giant rear Klee beret/short rooted hair retained. Hair shading and generated sky changed slightly, no pixel-lock claimed. Compositor and actual-speed review pending.",
+      "known_issues": [
+        "Existing richer hair shading retained; simplified source line consistency pending.",
+        "Exact Klee macro silhouette and source exposure compositing pending; no original-speed review."
+      ],
+      "accepted": false,
+      "consecutive_review": "Static previous/current/next source evidence viewed; final composed frames pending."
+    }
+  ]
+}

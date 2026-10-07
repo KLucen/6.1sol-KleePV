@@ -1,0 +1,34 @@
+{
+  "scope": "Second reviewer static structural comparison of four complete source images and four complete generated drafts",
+  "actual_viewed": true,
+  "source_dimensions": [1920, 1080],
+  "draft_dimensions": [1672, 941],
+  "sources": [
+    "../middle-next-2026-10-06/f2132-source-actual.png",
+    "../middle-next-2026-10-06/f2135-source-actual.png",
+    "../middle-next-2026-10-06/f2136-source-actual.png",
+    "../middle-next-2026-10-06/f2138-source-actual.png"
+  ],
+  "drafts": [
+    {"frame": 2132, "file": "../../generated/middle-next-f2132-oct6-v1.png", "sha256": "4cca1da6a045c86930d23b8d7c2f29d7fc1889e1b0f38c0a61f5ccdc121f6b58", "exposure": [2132, 2135]},
+    {"frame": 2135, "file": "../../generated/middle-next-f2135-oct6-v1.png", "sha256": "30f0f8f994253d4e30311515a713a3001ebdb6e1f8b651a19e920ca5cad3fbd0", "exposure": [2135, 2136]},
+    {"frame": 2136, "file": "../../generated/middle-next-f2136-oct6-v1.png", "sha256": "759411881279234dad00469e24443035421e029df1026da4dc1ca646ccc8f174", "exposure": [2136, 2138]},
+    {"frame": 2138, "file": "../../generated/middle-next-f2138-oct6-v1.png", "sha256": "f13634c5b5128e8bfec11fc1b3a86f999a3fb3f867af46fe598240a370b51bf8", "exposure": [2138, 2141]}
+  ],
+  "observations": [
+    "All four drafts replace both source characters with recognizable Klee forms. The giant foreground head remains in front of the smaller standing body; no background face or extended arm is invented where the source hides it.",
+    "f2132 keeps the tilted half-open pair of eyes, two cheeks and small O mouth. The raised background brown glove has five separated fingers and a connected cream cuff/sleeve. Both leg trajectories are plausible, but the broader Klee hat/hair conceals more of the torso and farther boot than the source.",
+    "f2135 moves the giant face down/left relative to f2132, matching the broad source movement, and keeps the small standing face hidden. The nearer boot turns more frontal, despite the source retaining its oblique orientation; this is a draft continuity difference, not an independent source motion.",
+    "f2136 keeps the same broad tilted two-eye giant-head stage as f2135 while the background raised palm and body change. Fingers remain attached to the cuff. The generated foreground mouth, feather, collar and face position vary more than the held source giant-head drawing; do not treat it as an exact hold or an accepted continuity result.",
+    "f2138 is a genuine new left-facing profile: one visible narrow red eye, one cheek, nose/chin contour and nearly closed tiny mouth. The background glove is reduced to visible tips behind the hat and only the nearer body/leg/boot remains visible. No obvious extra eye or limb is present.",
+    "The giant hat emblem/feather and collar medallion change in placement or form across drafts. This is recorded for deferred first-cut polish, not silently counted as verified design continuity.",
+    "f2138 source begins a blue night transition at upper-right. The generated Klee hat is broader and owns more of that corner. Any original sky preservation or new-character occlusion must be checked in the actual compositor, not inferred from the generated full-frame background."
+  ],
+  "structural_blocker_observed_in_static_whole_images": false,
+  "known_draft_differences_deferred": true,
+  "no_all_exposure_claim": "Only four canonical source and generated whole images were reviewed here. No integrated outputs, all exposure frames, native generated-body diagnostics, encoded captions, or actual-speed temporal playback were reviewed.",
+  "shared_files_modified": false,
+  "compositor_reviewed": false,
+  "temporal_playback_reviewed": false,
+  "accepted": false
+}

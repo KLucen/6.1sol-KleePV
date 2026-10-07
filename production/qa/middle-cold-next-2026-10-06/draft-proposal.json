@@ -1,0 +1,60 @@
+{
+  "accepted": false,
+  "selections": [
+    {
+      "source_frame": 2145,
+      "path": "generated/middle-cold-f2145-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Two Klee actors; warm front both shut eyes and peaked mouth, rear one half-open red eye in right profile, correctly behind. Static whole and source/adjacent checked. Rear profile placement and warm ponytail volume approximate, source held foreground has modest unintended redraw; deferred first-cut polish. No captions generated; compositor/all exposures/speed pending.",
+      "known_issues": [
+        "Two Klee actors; warm front both shut eyes and peaked mouth, rear one half-open red eye in right profile, correctly behind. Static whole and source/adjacent checked. Rear profile placement and warm ponytail volume approximate, source held foreground has modest unintended redraw; deferred first-cut polish. No captions generated; compositor/all exposures/speed pending."
+      ],
+      "job": "qa\\middle-cold-next-2026-10-06\\job-f2145-v1.json",
+      "sha256": "803de5282814ab94175d66c4c43ebf88691e9380eecbcc212001830afab29c46"
+    },
+    {
+      "source_frame": 2146,
+      "path": "generated/middle-cold-f2146-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Two Klee actors, foreground moves left and upright with shut eyes and true triangular open mouth; one visible rear red eye, rear occluded. Source and adjacent static whole reviewed. Rear held source gains unintended position/eye-aperture drift vs2135 output; front mouth position/ponytail shape approximate. Costume drift deferred; all-exposure compositor and speed pending.",
+      "known_issues": [
+        "Two Klee actors, foreground moves left and upright with shut eyes and true triangular open mouth; one visible rear red eye, rear occluded. Source and adjacent static whole reviewed. Rear held source gains unintended position/eye-aperture drift vs2135 output; front mouth position/ponytail shape approximate. Costume drift deferred; all-exposure compositor and speed pending."
+      ],
+      "job": "qa\\middle-cold-next-2026-10-06\\job-f2146-v1.json",
+      "sha256": "a70947f9ad39ffdef04f15222cdcaeba7180a83d1800958bb9a01909fbf69fe2"
+    },
+    {
+      "source_frame": 2149,
+      "path": "generated/middle-cold-f2149-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Front genuinely moves farther left with partially clipped left shut eyelid/cheek and open triangular mouth; rear one red profile eye remains behind. Current source and adjacent static whole checked. Rear held source head has unintended vertical position/eye drift and front ponytail/collar details vary; deferred first-cut continuity polish, not accepted or temporal passed. No generated captions.",
+      "known_issues": [
+        "Front genuinely moves farther left with partially clipped left shut eyelid/cheek and open triangular mouth; rear one red profile eye remains behind. Current source and adjacent static whole checked. Rear held source head has unintended vertical position/eye drift and front ponytail/collar details vary; deferred first-cut continuity polish, not accepted or temporal passed. No generated captions."
+      ],
+      "job": "qa\\middle-cold-next-2026-10-06\\job-f2149-v1.json",
+      "sha256": "6554c4d8131f6e1d24c12e6d960808517575a47ba75060a0bf3a190000d5c0af"
+    },
+    {
+      "source_frame": 2151,
+      "path": "generated/middle-cold-f2151-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Foreground held near prior2149 as source, two shut eyes and small triangular mouth; rear one visible half-open red eye, bangs/hat/collar genuinely redraw with stable overlap. Source/current and adjacent static whole reviewed. Rear bang/hat displacement amplitude and nose placement approximate; deferred first-cut polish. No invented hidden limbs or text; all-exposure composite/speed pending.",
+      "known_issues": [
+        "Foreground held near prior2149 as source, two shut eyes and small triangular mouth; rear one visible half-open red eye, bangs/hat/collar genuinely redraw with stable overlap. Source/current and adjacent static whole reviewed. Rear bang/hat displacement amplitude and nose placement approximate; deferred first-cut polish. No invented hidden limbs or text; all-exposure composite/speed pending."
+      ],
+      "job": "qa\\middle-cold-next-2026-10-06\\job-f2151-v1.json",
+      "sha256": "e55de37ab27d30e1ecadaaaa80b5c6c13fd85702611ecd76bb7f31eb0502b447"
+    },
+    {
+      "source_frame": 2152,
+      "path": "generated/middle-cold-f2152-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Exactly one cool Klee profile face and warm blonde ponytail fragment at far-left; warm face/hat/coat correctly offscreen. One half-open red eye, correct rear/profile orientation and original visible sky restored, no text. Current source and adjacent static whole checked. Cool profile nose/neck positions and larger beret/hair silhouette approximate; sharpness/ornament drift deferred. Compositor all-exposure and temporal pending.",
+      "known_issues": [
+        "Exactly one cool Klee profile face and warm blonde ponytail fragment at far-left; warm face/hat/coat correctly offscreen. One half-open red eye, correct rear/profile orientation and original visible sky restored, no text. Current source and adjacent static whole checked. Cool profile nose/neck positions and larger beret/hair silhouette approximate; sharpness/ornament drift deferred. Compositor all-exposure and temporal pending."
+      ],
+      "job": "qa\\middle-cold-next-2026-10-06\\job-f2152-v1.json",
+      "sha256": "5d85eddaefd78f8eec07f6e4e61dededf1382e3ef6d49d1a7bb3a36fbce258a4"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source_frame": 2261,
+  "cel": "cel-0431",
+  "source_candidate": "src-1250",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2261-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility. Image 5: Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop.\nCurrent source frame f2261; original predecessor f2258. Actual observed current pose and changes: Foreground turns into LEFT-facing profile rather than previous frontal face: one narrow half-open eye visible, cheek/nose/mouth profile at center-right, tiny flat puckered mouth, short blonde hair streams toward RIGHT within head crop. Red beret upper edge cropped; shoulder bottom RIGHT. Rear cool actor entirely face-occluded, only cool rear hair/body strip behind. Follow actual profile turn with only ONE visible eye, no frontal second eye, no extra hands. Preserve empty LEFT sky and correct front-over-rear layering.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1250-f2261.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-foreground-eye-mouth-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2258-v1.png",
+      "role": "Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1250-f2261.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2258-f2261-foreground-eye-mouth-native.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2258-v1.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2261,
+      "end": 2264,
+      "pts": 94.208,
+      "end_pts": 94.333,
+      "family": "wink_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "Foreground turns into LEFT-facing profile rather than previous frontal face: one narrow half-open eye visible, cheek/nose/mouth profile at center-right, tiny flat puckered mouth, short blonde hair streams toward RIGHT within head crop. Red beret upper edge cropped; shoulder bottom RIGHT. Rear cool actor entirely face-occluded, only cool rear hair/body strip behind. Follow actual profile turn with only ONE visible eye, no frontal second eye, no extra hands. Preserve empty LEFT sky and correct front-over-rear layering.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-60057713-3b91-471d-b292-add66c0e9f6b.png",
+  "output_sha256": "d6e5c1f92d1af8c21d1ad1dd59181030fd84ce5881e8dc8ba1bfcd640e64c9c3",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually viewed warm foreground Klee LEFT profile with one visible narrow red eye and small puckered mouth. Major known defect: broad blue rear original long-hair silhouette appears retained rather than short Klee ponytail; rear identity incomplete. Logged for feedback without retry as user directed. Source nose/head placement and collar details differ. Unaccepted, temporal review pending.",
+    "accepted": false
+  }
+}

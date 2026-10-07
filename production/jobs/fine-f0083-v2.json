@@ -1,0 +1,20 @@
+{
+  "job_id": "fine-f0083-v2",
+  "source_frame": 83,
+  "source_candidate": "src-0029",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0083-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0029-f0083.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0083-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0079-f0083-source-delta.png"
+  ],
+  "prompt": "Use case: identity-preserve LOCAL STRUCTURAL EDIT. ONE full16:9PVcel. Ref1 Klee CURRENT83 draft is edit target; preserve camera, original fixed pillow/backdrop, beret, torso/garments/ornaments/backpack, legs and composition. Ref2 CURRENT original83 is ONLY authoritative exact clock-hands-face position/size/visibility; never pink hair/pajamas/sleep mask. Ref3 enlarged CURRENT83 grip is exact structural reference. Ref4 source79->83 actual RGB/contour differences are analytical:83straightens legs, torso rises, clock goes higher/right, both elbows narrow, not79 bent knees. Ref1 held clock is35px too LOW on normalized1920x1080 canvas and its exposed purple display too broad. Redraw held cream clock + BOTH brown gripping hands + wrists + lower face about35px HIGHER WITHOUT moving torso/pillow/legs or enlarging head. Current true source display centered(1316,285) and boundsx1267..1364,y256..316, approx97px exposed width not136px; fingers curl MORE INWARD over both front display corners as Ref3, the actual compact creamcase staysx1225..1417,y238..350 tiltedup-right. Source curledfour narrow fingertip silhouettes each side and thick lowercream band, not wide palm mittens. Keep gloves FRONT of clock, clock FRONT of uppereyes, hat behind clock/hands,face infrontofpillow. Source83 reveals ONLY small lower RED iris fragments directly BELOW casecorners, not round complete pupils or black eyes. Orangecheekfragments,tinycloseddownturnedmouth and chin below. Raise mouth/chin together withcompactclock so face/headgeometry staysource. Cuffs smooth cream angularbands not fluffy/scalloped; red forearms extend to corrected higher wrists by redrawing ONLY their upperends; lowerelbows unchanged narrowvolume. Retain EXACTLY TWO short pale blonde shoulder-height ponytails, pointedears, redberetcreamcloverwhitefeatherbrown badge. All chest/waistornamentdesign and redsplitcoat/creamangularcloverskirt/pinkruffle/REDshorts remainfromRef1, do notinvent cuffs sleeve symbols or poms. Loose irregular dark PVlines, flatcolor, one simpleflatshadow. Blankclockpurple,nolettersdigitscaptionswritingwatermark, no panels.",
+  "output": "../generated/fine-f0083-v2.png",
+  "repair_of": "fine-f0083-geometry-repair.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "static_review": "pending",
+  "temporal_review": "pending",
+  "prop_restoration": "not enabled; held clock needs validated finger protection"
+}

@@ -1,0 +1,41 @@
+{
+  "source_frame": 2510,
+  "source_cel": "cel-0491",
+  "source_candidate": "src-1497",
+  "output": "generated\\fine-f2510.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2510: MAJOR arms move DOWN to nearly HORIZONTAL outward at lower chest, elbows slightly bent, hands far left/right low in frame at lower shoulder level. Palms rotate partly up/forward with softly curled spread digits, not prior V pose. Both arms complete from shoulders to cream plain cuffs, brown gloves exact source curled digit shape. Eyes OPEN narrow HALF red rectangles, tiny tilted open O mouth. Upright head/torso retains exact current source size and center; only lower body is cropped off at bottom.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1497-f2510.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2504-f2510-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2504.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb7e-7fe5-7921-af4b-00051bee1f33\\exec-ad99b1bc-2db2-4d89-bd1b-328aca350301.png"
+}

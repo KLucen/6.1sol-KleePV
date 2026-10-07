@@ -1,0 +1,30 @@
+{
+  "job_id": "fullpv-middle-f1611",
+  "source_frame": 1611,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0937-f1611.png",
+  "prompt": "Use case: identity-preserve. One full-frame strict-source Klee replacement PV cel f1611. Image 1 CURRENT ORIGINAL is edit target and sole authority for framing, geometry, eye/mouth state, hands and occlusion. Image 2 identity-only red Klee beret, brown hatband, cream clover and white feather; NEVER copy its head scale or pose. Head GIANT LEFT closeup cropped bottom, head dome x70..1080,y254..750. Original bunny headwear is pulled DOWN over both eyes to around y896; REPLACE that bunny eye-mask with Klee's red beret itself PULLED LOW TO COMPLETELY COVER BOTH EYES AND EYEBROWS. NO EYES drawn or peeking below. Brown gloved hands grip hat edges at x55..311,y701..945 LEFT and x917..1193,y702..949 RIGHT. Retain exact visible curled finger count/direction from SOURCE, gloves not rounded mitten blobs. Plain cream cuffs and red coat sleeves enter bottom-left and bottom-right x1000..1350. Cheeks/nose/downturned mouth visible under brim x300..840,y900..1080, orange ovals matching SOURCE. Cap lower brim x190..975,y898, following source lowered headwear contour. Klee blond fringe hidden behind brim; short side hair visible only source side regions. NO original rabbit mask, NO rabbit ears/nose drawn on hat. Keep current right-side subtitles unchanged. Default Klee pale blond pointed bangs, two SHORT blonde side ponytails, pointed ears, brown gloves where currently visible. Original bunny sleep-mask is character headwear, REPLACE IT not preserve it as a prop. Entire same 1920x1080 landscape camera, flat lavender field unchanged. Source-simple flat color patches, rough dark lines, orange oval cheeks, minimal source-like shadow, NOT game splash art; no gradients, textures, glossy reflections, new props or added body. Independently redraw current source line work and keep incomplete visibility/cropping. Output only single full-frame cel, not a comparison collage.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0937-f1611.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png"
+  ],
+  "reference_roles": [
+    "current source geometry and occlusion",
+    "hat identity only"
+  ],
+  "output": "generated/fine-f1611.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-7ec1968c-6226-4114-b193-e2e92fe6f2e9.png",
+  "output_sha256": "ae7ae3271fde05e616880481c2240c08b1565ab2add70a8c37983cd946b013ab",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

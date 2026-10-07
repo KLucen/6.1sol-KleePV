@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0083",
+  "source_frame": 83,
+  "source_candidate": "src-0029",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0029-f0083.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0079.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0083.png"
+  ],
+  "prompt": "ONE full16:9 Klee PV replacement cel. CURRENT original image1 sets exact pose/framing/crop/occlusion; preceding Klee image2 fixes SAME identity, outfit dimensions, colors and PV style only; image3 source BEFORE/CURRENT/diff/contours, upper-right current, never output panels. Clock is now LIFTED SLIGHTLY HIGHER above eyes than prior. Both gloves grip separate ends, fingers front of clock, cream cuffs at temples; tiny LOWER HALF-OPEN RED EYE SLIVERS are visible immediately below the clock edge in current source, unlike preceding fully hidden eyes. Keep upper eyes/bangs mostly occluded, do not reveal full eyes. Tiny closed caret mouth and orange cheeks. Both raised forearms become a little straighter/morevertical, cuff and elbow contours follow current original. Torso leans diagonally to screen RIGHT and legs STRAIGHTEN into a long downward-right line, no preceding deep knee bend. Bottom crop still cuts lower legs off; preserve redcoat's SAME garment length and cream hem with coherent hip/shorts attachment, do not shrink coat to fake straightening. Same Klee red beret/clover/white feather side, pointed ears, blonde bangs/TWO SHORT side ponytails rotating with head, cream capelet and brown backpack. Diagonal lavender pillow behind head, source clock/pillow shape/position retained. Flat loose dark outlines, orangecheeks/one flat shade, no gray pajamas/rabbit hood/pockets. NO subtitles, titles, credits, text, labels or lettering; clock display blank for original restoration. No addedlimb, zoom, mirror or frozen prior pose.",
+  "output": "../generated/fine-f0083.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

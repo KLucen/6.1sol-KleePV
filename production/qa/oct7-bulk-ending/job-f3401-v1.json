@@ -1,0 +1,72 @@
+{
+  "source_frame": 3401,
+  "cel": "cel-0634",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "source_exposures": [
+    {
+      "start": 3401,
+      "end": 3403,
+      "pts": 141.708,
+      "end_pts": 141.792,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "output": "generated/oct7-bulk-ending-f3401-v1.png",
+  "prompt": "Use-case: illustration-story. Produce ONE complete hand-drawn 16:9 PV cel replacing every visible original person in image 1 with Klee from Genshin Impact. Image 1 is the CURRENT actual original cel, sole authority for composition, person count, crop, posture, eye aperture, mouth, shoulder height, elbow wrist finger position and occlusion. Image 2 determines Klee identity only. Image 3 is diagnostic actual original BEFORE/CURRENT AB plus RGB x4 and contour overlay, not the requested collage. Image 4 is native local diagnostic evidence. Draw one normal whole PV frame, never diagnostic panels or montage. Preserve the purple flat source background and exact original camera framing, character scale and lean. Simple thick black freehand outlines and flat unshaded color blocks, same rough low-frame-rate original style, not detailed polished anime. Klee has pale blond bangs, TWO SHORT side ponytails only, red clover beret with white feather, red eyes with same source eyelids/direction, subtle orange cheeks, red coat and cream collar. Whenever hands are visible they wear plain dark brown gloves, with SIMPLE solid cream cuffs, no lace/frills; do not add a backpack mascot to a crop where no bag is visible. Replace all original pink long hair, animal sleep-mask hat and mauve clothing; no original-person leftovers, extra hands or extra face. Keep visible source pose and gesture even when source differs from identity photo. Keep cropped torso cropped, do not invent feet, whole body, props or extra people. Remove all source lyric letters/subtitles and do not invent any text: original subtitles and source FX will be restored deterministically in video. Exact source-specific observation and changes to implement: CRITICAL strict REAR HEAD CLOSEUP, NO FACE, NO EYES, NO MOUTH, NO HANDS, NO VISIBLE BODY. Foreground head turns away and fills center/right from x390 to1900, top ofhead and bottomhair croppedcanvas. Allbackgroundperson COMPLETELY HIDDEN atthissourcecel; do NOTinvent any backgroundperson. Replace pink longhair with pale blonde BACKOFKLEEHEAD and exactly TWO SHORT SIDE PONIES, rearofredberetwithplain darkrim and white feather locatedappropriate rearside. Giantbackheadcrop naturally cutsponies lower atBORDER, do not showwholebody/head or rescale. Preserve current rearhead tilt and scale, source purple/star backgroundvisibleleft andright margins. NO animalhat/sleepmask/longpinksheet. Flatcolorsfewblacklines; removealltextyellow.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1904-f3401.png",
+      "role": "CURRENT source sole composition, visible people, pose, expression, crop and occlusion authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: pale blonde short twin tails, red eyes, red clover beret white feather; not pose or crop",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3398-f3401-source-ab-rgb-contours.png",
+      "role": "Actual original before/current AB, RGB x4 and blue-before/red-current contour spatial changes; CURRENT only is target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3398-f3401-actual-focus-native.png",
+      "role": "Native current/before eyes-mouth, both hands and cuffs, hair spatial evidence; use CURRENT pose",
+      "actually_viewed": true
+    }
+  ],
+  "source_observation": "CRITICAL strict REAR HEAD CLOSEUP, NO FACE, NO EYES, NO MOUTH, NO HANDS, NO VISIBLE BODY. Foreground head turns away and fills center/right from x390 to1900, top ofhead and bottomhair croppedcanvas. Allbackgroundperson COMPLETELY HIDDEN atthissourcecel; do NOTinvent any backgroundperson. Replace pink longhair with pale blonde BACKOFKLEEHEAD and exactly TWO SHORT SIDE PONIES, rearofredberetwithplain darkrim and white feather locatedappropriate rearside. Giantbackheadcrop naturally cutsponies lower atBORDER, do not showwholebody/head or rescale. Preserve current rearhead tilt and scale, source purple/star backgroundvisibleleft andright margins. NO animalhat/sleepmask/longpinksheet. Flatcolorsfewblacklines; removealltextyellow.",
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-6b2b-7203-a0b6-7da37140f155\\exec-6f1a4b54-cc38-4e20-af80-7f6f537d02d7.png",
+  "output_sha256": "7571495958143e062b57421f624c774afc300b9b896f76c88f1c3106f91d8ad7",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actual output viewed: strict giant rear head, no face/hands/body/backgroundperson, redberet blondebackhead and two tied sideponies croppedbottom. Source head rim geometry adapted to beret and feather large; extra hair shading generated despite flat request. Scale/crop approx, accepted false temporal pending.",
+    "accepted": false
+  }
+}

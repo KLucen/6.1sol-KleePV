@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-0985cfde-aff7-4f18-a233-a7b55fcbf20c",
+  "candidate_id": 36,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset ONE complete FULL16:9 hand-drawn PV cel editing reference1 source-cel-036. Source1 contains TWO layered instances of the original character, BOTH must become default Klee. Preserve original framing/occlusion EXACTLY: huge foreground close-up head at LEFT, upper hat cut by top/left, eyes CLOSED thick dark slits and tiny caret mouth; face/hair and partial coat fill left/bottom. Behind this foreground head is a MUCH SMALLER standing character near middle x54%, partially hidden: only little hat/head fragment, sliver of closed-eye face, right arm reaching down to x64%,y53%, some torso and lower leg fragments visible. Replace only those visible parts; DO NOT reveal hidden small character or reposition it around foreground. Both are Klee with blonde SHORT side ponytails/pointed ears, red beret cream clover white feather (cropped as source), red coat cream collar/trim/cuffs, brown gloves/boots where visible. Remove sleep masks/pink hair/pajama pockets. Foreground Klee blocks background Klee head/torso; small rear right glove and cream cuff stay in front of its own sleeve but behind foreground wherever overlapped. Image2 identity/line-color anchor ONLY, not its arm gesture. Retain all cream outlined hand-drawn STARS across lavender backdrop at exact source locations; those are effects, not text. REMOVE ALL bottom Chinese/Japanese captions/credits/lettering, leaving clean background/coat. Loose source dark lines, flat broad color, orange blush/simple shadows. No panels/newprops/extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-036.jpg",
+    "production/generated/anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-036.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Both foreground close-up and small occluded background instances replaced Klee. Closed eyes/caret mouth/blocked rear body correct, visible rear down-arm gloved. A cream Dodoco-like side pouch remains on rear instance, possible source-pocket carryover; flag costume QA. Stars retained, no text."
+}

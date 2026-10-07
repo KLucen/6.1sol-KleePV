@@ -1,0 +1,125 @@
+{
+  "interval": [
+    1043,
+    1225
+  ],
+  "frames": [
+    {
+      "frame": 1129,
+      "pts": 47.042,
+      "cel": "cel-0239",
+      "asset": "generated/star-f1129-source-keypose-redraw-v2.png",
+      "asset_sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+      "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\integrated-raw\\f1129-integrated.png",
+      "output_sha256": "3639fe22db8247cc8871e36af3d72701c821ee0d88e925ea9d9edd3df942961b",
+      "source_actual_exact": true,
+      "renderer_hook_exact": true,
+      "outside_ownership_errors": 0,
+      "body_vs_checkpoint_errors": 0,
+      "generated_interior_errors": 0,
+      "observed_current_core_errors": 0,
+      "accepted": false
+    },
+    {
+      "frame": 1144,
+      "pts": 47.667,
+      "cel": "cel-0243",
+      "asset": "generated/star-f1140-fast-continuation-v1.png",
+      "asset_sha256": "89b294706e355c958bd7d9b950e96f5935b66ed0a7a2cbcbfca5986a999889df",
+      "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\integrated-raw\\f1144-integrated.png",
+      "output_sha256": "99ffe0ea0bdc93f1a6ce804d1bae889aa49fb3f4459c59c9f467a7a9f064dc9f",
+      "source_actual_exact": true,
+      "renderer_hook_exact": true,
+      "outside_ownership_errors": 0,
+      "body_vs_checkpoint_errors": 0,
+      "generated_interior_errors": 0,
+      "observed_current_core_errors": 0,
+      "accepted": false
+    },
+    {
+      "frame": 1154,
+      "pts": 48.083,
+      "cel": "cel-0245",
+      "asset": "generated/star-f1154-fast-continuation-v1.png",
+      "asset_sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+      "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\integrated-raw\\f1154-integrated.png",
+      "output_sha256": "9773317086509fe587be6f4b8c37bf59dfa98b57d8031ec12dae3e8c10be1a29",
+      "source_actual_exact": true,
+      "renderer_hook_exact": true,
+      "outside_ownership_errors": 0,
+      "body_vs_checkpoint_errors": 0,
+      "generated_interior_errors": 0,
+      "observed_current_core_errors": 0,
+      "accepted": false
+    },
+    {
+      "frame": 1172,
+      "pts": 48.833,
+      "cel": "cel-0250",
+      "asset": "generated/star-f1172-closeup-v1.png",
+      "asset_sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+      "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\integrated-raw\\f1172-integrated.png",
+      "output_sha256": "a7765b8f910510506c35b1e86c2da9e335da91d2efee1b840223d15a171520f3",
+      "source_actual_exact": true,
+      "renderer_hook_exact": true,
+      "outside_ownership_errors": 0,
+      "body_vs_checkpoint_errors": 0,
+      "generated_interior_errors": 0,
+      "observed_current_core_errors": 0,
+      "accepted": false
+    },
+    {
+      "frame": 1195,
+      "pts": 49.792,
+      "cel": "cel-0256",
+      "asset": "generated/star-f1195-closeup-v1.png",
+      "asset_sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+      "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\integrated-raw\\f1195-integrated.png",
+      "output_sha256": "35c9492b0b17e49b81038c943a670ea71ff3842a3c5b47cf082fbf898921378e",
+      "source_actual_exact": true,
+      "renderer_hook_exact": true,
+      "outside_ownership_errors": 0,
+      "body_vs_checkpoint_errors": 0,
+      "generated_interior_errors": 0,
+      "observed_current_core_errors": 0,
+      "accepted": false
+    },
+    {
+      "frame": 1217,
+      "pts": 50.708,
+      "cel": "cel-0262",
+      "asset": "generated/star-f1216-closeup-v1.png",
+      "asset_sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+      "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\integrated-raw\\f1217-integrated.png",
+      "output_sha256": "28f92939b4bbcd36a3e670326a91dc3841b0ece2c764bb434ee0770199d20aae",
+      "source_actual_exact": true,
+      "renderer_hook_exact": true,
+      "outside_ownership_errors": 0,
+      "body_vs_checkpoint_errors": 0,
+      "generated_interior_errors": 0,
+      "observed_current_core_errors": 0,
+      "accepted": false
+    }
+  ],
+  "source_frames": 6,
+  "unique_assets": 6,
+  "source_cels": 44,
+  "native_caption_pages": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-star-extended-integration\\sample-caption-native-page-01.png"
+  ],
+  "raw_technical_pass": true,
+  "accepted": false,
+  "art_review": "pending actual native viewing",
+  "encoded_review": "not performed",
+  "original_speed_review": "not performed",
+  "helper_sha256": {
+    "compose.py": "f11616f30c8e65eec2895947793a2bf56f9882c6378b59983f83c32c05537792",
+    "star_extended_layers.py": "aa6276e19d059153f5b8d494d238285b2d285b935141071c2b5b1d861e80b524",
+    "star_extended_captions.py": "fb35170617ccb868d3d7a6f7828f79f5c0b855c51add3fda03af3b9e4cf3f524"
+  },
+  "limitations": [
+    "Dark outlines modify real glyph edges only; no invented glyph strokes.",
+    "Hidden background under source anatomy is an estimated source gradient.",
+    "Only source-visible stars are restored; unseen star strokes are not invented."
+  ]
+}

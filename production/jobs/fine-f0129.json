@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0129",
+  "source_frame": 129,
+  "source_candidate": "src-0044",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0044-f0129.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0125.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0129.png"
+  ],
+  "prompt": "ONE full 16:9 original-style Klee PV replacement drawing. Image1 CURRENT source determines exact body pose/full-canvas crop, location, props and occlusion. Image2 previousKlee identity/costume proportions/colors/short twin ponytails/style ONLY; arms must change. Image3 actual source RGB/contour changes upper-rightcurrent, no panelsoutput. NOW both arms extend in a nearly straight line tilted upward-right: viewer-left arm points down-left to clock at x48.5%,y50%, width8%, its palm supporting clock from under/right side. Viewer-right free glove extends sideways to x97.5%,y36.5%, fingers splayed to RIGHT (not upright above head); forearm almosthorizontal. BOTH hands much lower than image2. Shoulder at right, source current new elbow/cuff creases and finger silhouette. Both half-open droopy RED eyes visible, tiny closed caret mouth, orange cheek patches. Head tilt/source location exact, torso straight and legs angled down-right croppedbottom. EXACT previousKlee garment: red capelet chestpom, split angular redcoatpanels one clover lower-left, broad cream angular scalloped underskirt with faint tiny clovers, pink ruffle/REDshorts, one dangling cream waistpom on viewer-left, brownbackpack charmviewer-right; NO two hip pocketpoms. Same redberet creamclover whitefeather side, blondebangs TWO SHORT sideponytails pointedears brown gloves. Original diagonal lavender pillow with cream trims BEHIND head/body stays originalsizepositionangle. Loose handdrawn dark contour, flat patches/oneflatsmallshade, no polished texture/gradients. NO text/subtitles/captions/credits/titles/digits anywhere, blankclockdisplay. No pajamassleepmask/rabbitears, addedarm, mirror, zoom or frozenpreviouspose.",
+  "output": "../generated/fine-f0129.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

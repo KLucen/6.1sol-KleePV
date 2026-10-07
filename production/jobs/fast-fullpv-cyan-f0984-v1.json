@@ -1,0 +1,75 @@
+{
+  "job_id": "fast-fullpv-cyan-f0984-v1",
+  "source_frame": 984,
+  "canonical_cel": "cel-0196",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-3c5974ae-5a4a-4b74-9d32-ca0947d04794.png",
+  "asset_sha256": "f2cfdde265063e3d705d523597cbc44f99c18be91ef5e4e8a4426c4e3167dcb5",
+  "static_findings": ["Sustained corrected nod, closed eye and tiny dot mouth", "Independently redrawn small bang, pony-tip and collar contours; no further downward jump", "Source face placement approximate; actual-speed review pending"],
+  "output": "generated/fast-fullpv-cyan-f0984-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0981-nod-v2.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-f0984-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual984 source: exclusive current profile nod/placement/crop authority",
+    "Actual984 native eyelid, dot mouth and nose",
+    "981 corrected Klee: identity, short pony root/mass and style continuity only",
+    "True981->984 A/B RGB and contours: subtle independently redrawn contour changes"
+  ],
+  "prompt": "Use case: identity-preserve. Generate ONE independent full16:9 CURRENT984 PV cel, redraw source character as Genshin Klee. Image1 CURRENT984 original decides pose, frame crop, visible body and closed-eye right-facing nodded profile; image2 native face confirms eyelid slope and tiny dot mouth. Image3 is corrected preceding981 Klee identity/style/SHORT hair mass only, not a frozen template. Image4 actual981->984 A/B RGB and contours confirms sustained clockwise nod with tiny redrawn changes to crown, bangs, neck/collar and original long-hair contour, NOT another downward jump. Keep corrected981-scale placement; no extra head drop, no iris, no open mouth, no full-face view. Independently redraw the current slightly shifted eyelid/bang endpoints and collar/coat contour; modest short pony-tip response to source wind, rooted at the same visible pointed ear with essentially same length/mass as image3, never reproduce source long pink hair. Pale warm hair tinted lavender by blue night, burgundy clover beret with ONE side feather, pointed ear, red short coat continuing below frame, PLAIN white TWO-leaf collar. No third hair fan, original animal mask/ears, ornate collar, extra limb, detached throat flap. Preserve night sky, original stars/crescent and composition as close as possible; final background and timed Chinese/Japanese lyrics come from original source separately, so OMIT ALL text in this generated cel. Do not draw caption-like marks. Keep rough simplified PV contour/shading level from image3, not polished portrait. No hold, morph, flow, copied unchanged face or collage. One newly redrawn current cel.",
+  "source_exposures": [
+    {
+      "start": 984,
+      "end": 986,
+      "pts": 41,
+      "end_pts": 41.083,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 986,
+      "end": 987,
+      "pts": 41.083,
+      "end_pts": 41.125,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0004903078079224,
+            -0.00004650195114663802,
+            -0.5041556358337402
+          ],
+          [
+            0.00004650195114663802,
+            1.0004903078079224,
+            -0.27401113510131836
+          ]
+        ]
+      }
+    }
+  ],
+  "source_reference": "source_refs/src-0519-f0984.png",
+  "source_review": "Root viewed actual full frame, native face crop, and real A/B RGB/contour board"
+}

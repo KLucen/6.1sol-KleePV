@@ -1,0 +1,23 @@
+{
+  "id": "085",
+  "prompt": "Use case: precise-object-edit. Asset: one complete 16:9 hand-drawn PV cel. Image 1 is the original source frame and determines exact camera, character size and position, cropping, pose, eye state, mouth, hands, props and occlusion. Image 2 is ONLY Klee identity and drawing-style guidance, not pose or composition. Replace every original person in image 1 with Genshin Impact Klee in her default Shooting Spark outfit. Pale blonde bangs and short twin side ponytails, pointed ears, red beret with cream clover and white feather, red coat with cream trim, brown gloves and boots, small brown backpack when visible. Match source simplified dark loose outlines and flat color blocks, orange oval blush, at most one simple shadow color. Keep source eye state and facial expression rather than copying the anchor's closed-eye expression. Preserve background, captions, lettering, props and independent effects at their source locations. Full scene, no extra panel, no montage, no new objects, no extra body parts outside the original crop. Only replace character areas and adapt visible clothes/hair to Klee. Specific target: small fullbody Klee tightly curled in midair on the RIGHT third of frame, both knees drawn to chest and feet dangling below. Both hands grip the source lavender pillow lifted to her mouth, pillow occludes mouth/lower cheeks; tired open half-lidded eyes above pillow, slight head tilt. Preserve exact right-side position, slightly leaning body, small scale and broad lavender negative space left with original two-line captions. Pillow must stay between hands and face; brown gloves in front of pillow edges, boots below curled knees. No ground or new shadow. Image 3 supports curled seated costume proportions; unlike image3 this target FLOATS, grips a PILLOW and has feet dangling.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-085.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-048.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-085.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-cd0de8a6-30aa-4190-8e3d-df62bfcd9c9a.png",
+  "status": "generated",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Curled floating full body, dangling boots and pillow covering mouth retained."
+    ],
+    "flaws": [
+      "Pillow shape/hand grips approximate; original caption text must be restored."
+    ],
+    "temporal_review": "pending"
+  },
+  "caption_cleanup_required": true
+}

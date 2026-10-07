@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f2011",
+  "source_frame": 2011,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1081-f2011.png",
+  "prompt": "Strict-source true independent PV drawing f2011. EDIT image1 CURRENT ORIGINAL as sole authority for head/face registration, half-open sleepy eyes, closed capped tiny mouth, three-quarter angle, both clenched fists, shoulders, framing and top/bottom crops. Image2 Klee f2008 ONLY short-ponytail/beret/gloves/collar identity style continuity, never frozenpose. Image3 ACTUAL source2008->2011 RGBdifference and blue-before/red-current contours, currentRIGHT: face tilts/settles slightly, smaller eyelid aperture, chin/jaw/bangs and hands shift. Follow current source coordinates not prior asset. Lavender full1920x1080 background NOcaptions. Large right-biased actor, crown/topberet clippedTOP, TWO fists brownGLOVES partlycroppedBOTTOM at actualsourcepositions. TWO sleepyhalfopen eyes: darkREDupper/pinkREDlower irises replacingblue, retain exactsourceblackpupils/sourcewhiteC-highlights and eyeaperture/gaze. Orangecheeks and tiny cappedclosedmouth, NOopenmouth yet. DefaultKlee TWO SHORT blonde ponytails by pointedears, redcloverberet brownband singlewhitefeather anatomicallysameattachments asprior, NO rabbitmask/headband or longpeachhairsheet. Redcoat creamcollar/simplepompom plaincreamcuffs brownclosedgloves matchsourcefingerfolds, no clovercuffs/newprops/actors. Preserve original three-quarter geometry/crop/occlusion; no hiddenface invention. Thick wobbly sourceblacklines, broadFLATcolors only and sourcehardshadow; DO NOT add gradients/gloss/fabric/extra straps. No heldpose/morph/flip/tween.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1081-f2011.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2008.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/source-delta-f2008-f2011.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression crop occlusion and camera authority",
+    "previous Klee identity and costume continuity only, not frozen pose",
+    "actual RGBdiff contours right current source"
+  ],
+  "output": "generated/fine-f2011.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-268feddc-0bf6-483d-a616-ed3fb1804f4e.png",
+  "output_sha256": "cdb8f92aa1ebb794cca5e95c0f6ffd83af687f7ca0e144224ff2306f3d367885",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

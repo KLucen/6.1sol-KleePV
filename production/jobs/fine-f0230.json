@@ -1,0 +1,20 @@
+{
+  "job_id": "exec-aa5dfad1-717f-47de-a998-f1e057bcfd57",
+  "canonical_cel": "cel-0033",
+  "source_frame": 230,
+  "family": "pillow_face_occlusion",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel CURRENT source f0230 image1. Image2 Klee anchor identity/style only; image3 previousKlee0226 continuityonly; image4 source226→230 true2Ddifference tellschangedhands/crop. Sourcecurrent f230 dictates pose: head behind big purpleforegroundpillow at right, sleepyNARROWER eye shapes now, redirises, tiny downturnedmouth/orangecheeks/counterclockwiseheadtilt. Pillow topedge shifts slightlyDOWN and forehead/cheeks redraw. Major handchange: LEFT hand is NOW VERYLOW at bottom nearx54%,y98%, CURL-GRIPPINGthe pillow LEFTverticalruffle edge, not old spreadpalm aroundx64%; fingerscurledhugedge with glove/cuff partlyBOTTOMCROPPED. RIGHT hand NOW virtuallyOUTSIDErightcanvas, onlytwo/three tinyrounded glovefingertips at rightcutedge abouty77-82%; NO wholepalm or largecuff insidecanvas. Match these exactCURRENTvisiblelimbs, don't freeze226. Klee blondebob/short TWOsideponytails/pointedears/redberetcreamcloverwhitefeather/redcreamcoat brownFULLgloves. Retain sourcepurplepillow/creamruffle/bluehandshadowandforegroundocclusion hidingbody/chin. Lavenderfullbackground, remove ALL originallyrics/captions/text/letters. Sourceblacklooseoutlines/broadflatcolor minimalshading, no addedanatomy orprops.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0067-f0230.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0226.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0230.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0230.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "Genuine left hand changes from spread frontpalm to curlgrip at pillowedge/bottom; right hand mostly exits. Eye opening/face outlines redraw; source diff178050 pixels>=28.",
+  "inspection": "Correct curled left foreground brown glove at bottom pillow edge, right fingertips only at cutedge; no old spread palm/cuff. Red halfopen eyes/closed caret mouth and pillow foreground occlusion retained. No text."
+}

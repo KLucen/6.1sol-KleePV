@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-935fbabc-6eaa-4295-a40d-5f50816911e5",
+  "candidate_id": 1,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Asset type: one complete 16:9 cel for a hand-drawn PV, not a sheet. Edit reference image 1 (source-cel-001): preserve its exact wide composition, framing, left-facing side profile, eye state and mouth, head angle, bent arms and two joined hands in front of the chest, the pillow behind the head, alarm clock left of the face, purple backdrop, source shadows and all burned-in Chinese and Japanese subtitles at their existing positions. Replace only the pink-haired pajama character with Genshin Impact Klee in default Shooting Spark outfit. Reference image 2 is only Klee identity and simplified PV line/color language: pale blonde short side ponytails, pointed ears, red beret with cream clover and white feather, red cream-trim coat, brown gloves and boots, small backpack only where visible. It must NOT determine the pose: use ref 1 pose. In this side view, pillow lies behind her head/hat and torso; both hands/gloves overlap their sleeves in the exact original clasped pose. Preserve the lower-body cropping at bottom edge. Remove sleep mask and pink pajamas/hair completely. Loose black source-like outlines, broad flat color patches, orange cheek blush, restrained gray/brown source shading; no detailed game splash rendering. Keep all noncharacter elements unchanged, no extra limbs, no new props. Output a single full scene with same 16:9 source layout.",
+  "references": [
+    "analysis/source_cels/source-cel-001.jpg",
+    "production/generated/anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-001.png",
+  "status": "generated",
+  "caption_cleanup_required": true,
+  "inspection": "Klee side-profile, clasped gloves, pillow behind head and clock preserved. Source exact pose broadly retained. Whole-frame regenerated crop roughly follows source; original subtitle/background needs source-layer composition to avoid pixel drift."
+}

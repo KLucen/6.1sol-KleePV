@@ -1,0 +1,1149 @@
+{
+  "snapshot_utc": "2026-10-06T03:56:15.488481+00:00",
+  "root_notice_original": "Root third group adopted; middle and late new groups not yet included.",
+  "scope": "metadata/file integrity only, no actual-speed or artistic acceptance",
+  "requested_adopted_frames": [
+    1154,
+    1164,
+    1172,
+    1187,
+    1195,
+    1199,
+    1203,
+    1211,
+    1216,
+    1221
+  ],
+  "checks": [
+    {
+      "source_frame": 1154,
+      "selection": {
+        "source_frame": 1154,
+        "path": "generated/star-f1154-fast-continuation-v1.png",
+        "job": "jobs/star-f1154-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; Both index gloves move fartherout and straightenvertical, cuffs and forearms swingout coherently; Bothclosedeyes tinyclosedmouthdot, two rootedponies, nearverticalgroundedlegs",
+        "known_issues": [
+          "Hand/cuff/forearm amplitude and contour simplified",
+          "Frontforelock/boottrim/knee shading/head-hem verticalregistration differ; compositor/actual-speed pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1154-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "81105d7ffa2d6d13efbb82954b07a2fe9375a564f2c394f021176a02c7d5f024",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1154-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "bytes": 1278450,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-216be78e-9d6f-49dc-8458-a7045d5c9e04.png",
+        "exists": true,
+        "sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "bytes": 1278450,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-actual.png",
+          "exists": true,
+          "sha256": "dca93728594185dfd593f84f4d9db4c0dcf724fa1b113c4627e94f77ff11c104",
+          "bytes": 756607,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-face-native.png",
+          "exists": true,
+          "sha256": "679e4f17643a570baff367ccae4902a1bcddb53fe468ac7d0ed52dc659f2eca3",
+          "bytes": 117423,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "bc86460b3afaf15d2f45b95b72ffaa12bb6ee3e893459a0e24855fd547fed984",
+          "bytes": 1684784,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-body-native.png",
+          "exists": true,
+          "sha256": "18d4c47ba6232bdeb0ed588371539dfc3296480321e96c87121ad07949876e93",
+          "bytes": 273628,
+          "dimensions": [
+            700,
+            725
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1147-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "97496fe763875ff9b08ecb909a7ff9282c344f9d9f273c9936f5027b7b2441bf",
+          "bytes": 1310472,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1164,
+      "selection": {
+        "source_frame": 1164,
+        "path": "generated/star-f1164-closeup-v1.png",
+        "job": "jobs/star-f1164-closeup-2026-10-05-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Both closed eyelids and narrow O, two index gloves only; left cuff lower/tilted vs right upright; Two rooted compact blonde ponies, coherent elbows/sleeves; closeup bottom crop no extra legs",
+        "known_issues": [
+          "Hands/face placement approximate; chest pattern and collar continuity follows old closeup anchor",
+          "Source background/caption restoration and actual-speed review pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1164-closeup-2026-10-05-v1.json",
+      "job_sha256": "c91f830fcfe4ff2a0acc77d0ec608f4d8474997fc1228618957e42933e1142ca",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1164-closeup-v1.png",
+        "exists": true,
+        "sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+        "bytes": 1456198,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1dde2278-a244-4b7e-adfa-d8887629e2d4.png",
+        "exists": true,
+        "sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+        "bytes": 1456198,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-actual.png",
+          "exists": true,
+          "sha256": "e54e5ac080ec7856a951aec905d271b952a338159ae3e9f630d343f9623b9678",
+          "bytes": 930552,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-face-native.png",
+          "exists": true,
+          "sha256": "e6010622ca924ddb9bc73cad1c5dbcc1c562fe33b56204355e809b5d61e4b67b",
+          "bytes": 105022,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1162-f1164-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "b9c0b531b881b2a31a98cd34bbce5b97727c9e5b079be5cb429b3b4cd372697a",
+          "bytes": 1866924,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "fed5f58a504a1897828737465009584bd1183c2305768d5e8778cbf9b61d01ae",
+          "bytes": 870621,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-039.png",
+          "exists": true,
+          "sha256": "9ef45455143245f3d7288413a493a36c8ca986287b8df7e0ae48f8c0fdb94e57",
+          "bytes": 1450986,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1172,
+      "selection": {
+        "source_frame": 1172,
+        "path": "generated/star-f1172-closeup-v1.png",
+        "job": "jobs/star-f1172-closeup-2026-10-05-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Smaller left head tilt with diagonal closed eyes/tilted O; Low left and above-hat right gloves each one vertical index; right glove in front of hat/feather, two rootedponies",
+        "known_issues": [
+          "Face/head/hand/cuff scale and placement approximate; coat motif/collar variations",
+          "Source layers and actual-speed pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1172-closeup-2026-10-05-v1.json",
+      "job_sha256": "7aa5543583d8c0343e8d336162c556d584ea4601ffaabf81d771b5a1cffa68c4",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1172-closeup-v1.png",
+        "exists": true,
+        "sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+        "bytes": 1447836,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-730587e5-e5c9-46e2-a4a4-859bf5854ad2.png",
+        "exists": true,
+        "sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+        "bytes": 1447836,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-actual.png",
+          "exists": true,
+          "sha256": "71cc4394649f2fe85e74f5005042f9e0439c98026e1ea93ca111413f444c5a12",
+          "bytes": 980654,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-face-native.png",
+          "exists": true,
+          "sha256": "5d9ea2a0aee833462fb2beb71fa367ca5853756bbfd111b8b2b37c5639c6cdc7",
+          "bytes": 125711,
+          "dimensions": [
+            360,
+            370
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1168-f1172-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "fe366ecdfe1a394b8b1d1c81a570e766f751b77a2deaf57826b6c47c5e3f87c9",
+          "bytes": 2268560,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "bd9a9d178e088add6f041ca6994387a132264ae1e01104afc3460113ccbf9ebd",
+          "bytes": 923766,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-040.png",
+          "exists": true,
+          "sha256": "261b252d27b68cbf00ba17035602d6948270faeed4459299debab750c290a8e2",
+          "bytes": 1440129,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1187,
+      "selection": {
+        "source_frame": 1187,
+        "path": "generated/star-f1187-closeup-v1.png",
+        "job": "jobs/star-f1187-closeup-2026-10-05-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Both hat-top indexgloves, left finger diagonal up/right nearvertical, cuffs coherently connected; Straighter head with squeezed angularclosedeyes and horizontal pinchedmouth; two rootedponies",
+        "known_issues": [
+          "Fingertips/cuffs/head/torso placement approximate, extra ornate coat retained fromanchor",
+          "Source layers and actual-speed pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1187-closeup-2026-10-05-v1.json",
+      "job_sha256": "1f8773526c4ab4c415abb21d6a1ded748c193873a460d9cc9a4f1c2dd44683d7",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1187-closeup-v1.png",
+        "exists": true,
+        "sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+        "bytes": 1431830,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5d8a0872-44f6-406e-ac2c-636608ffa60c.png",
+        "exists": true,
+        "sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+        "bytes": 1431830,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-actual.png",
+          "exists": true,
+          "sha256": "3d40f39932752b0a30b50fe1642cd0c57be1e6f84e50135e249a7f2804be59a6",
+          "bytes": 1002874,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-face-native.png",
+          "exists": true,
+          "sha256": "0afb46142cda65cc4e819528e9502a09edc37383898815b8d9029fdce49a2fdf",
+          "bytes": 136530,
+          "dimensions": [
+            360,
+            380
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1183-f1187-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "cbfb97ae0c0de23d74be8c3ad3a6428d149ebcd97ca3dc3e748bc3dcac6d05a2",
+          "bytes": 2192496,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "fefe5a0410c2416e800e1cae5581241743704954eb720f2ead65003de6dffb07",
+          "bytes": 947305,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-043.png",
+          "exists": true,
+          "sha256": "b61fc3b5a6fa72615dc7b9ff1beaf99638d64c9f9bf984dd42d8b75f35cf20a8",
+          "bytes": 1427359,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1195,
+      "selection": {
+        "source_frame": 1195,
+        "path": "generated/star-f1195-closeup-v1.png",
+        "job": "jobs/star-f1195-closeup-2026-10-05-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Lower/smaller uprighthead, tight angularclosedeyes and pinchedhorizontalmouth; Both indexgloves pointing inward atforehead, rightalmosthorizontal; coherentwideelbows/tworootedponies",
+        "known_issues": [
+          "Head/hand/cuff/shoulder registration and mouthamplitude approximate",
+          "Source layers and actual-speed pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1195-closeup-2026-10-05-v1.json",
+      "job_sha256": "7638a7673c087c666efbf27df6e5eb88077a37e2407541c3ac7d540493f2f088",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1195-closeup-v1.png",
+        "exists": true,
+        "sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+        "bytes": 1483890,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-229479c0-c228-45f0-9a8b-1a17184fae69.png",
+        "exists": true,
+        "sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+        "bytes": 1483890,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-actual.png",
+          "exists": true,
+          "sha256": "355112b9f2affa9b65cb2a80c26af4bdb76dfeda9b2b11554c4b26346453049e",
+          "bytes": 958566,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-face-native.png",
+          "exists": true,
+          "sha256": "549a7b0666116e1a595f6b4017154d5fd45722aeef3d872d80108e4c3d43fb1f",
+          "bytes": 150653,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1191-f1195-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "5d87d4dc8a1e3bef3a98fcb0d4832474658967d91081a5596244e8c7a4f42ffd",
+          "bytes": 2038355,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "97c63222b4b61187d1c381a3b543744b3bd06dfb905ec4a6f2aa32c98a689402",
+          "bytes": 902565,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-044.png",
+          "exists": true,
+          "sha256": "30a4c0184d647aac68391dbd2d25abc3983a41367538344e972bb7adf1b0d8ee",
+          "bytes": 1413782,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1199,
+      "selection": {
+        "source_frame": 1199,
+        "path": "generated/star-f1199-closeup-v1.png",
+        "job": "jobs/star-f1199-closeup-2026-10-06-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Left glove lower/near eyebrow and rotated cuff, right index diagonal up-left; independent hand change; Fully angular squeezed eyes/pinched closedmouth, two rooted ponies and connected broad elbows",
+        "known_issues": [
+          "Head/hand/cuff/bang positioning and torso contours approximate",
+          "Costume ornaments/gradient shading persist; real source layers/actual-speed pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1199-closeup-2026-10-06-v1.json",
+      "job_sha256": "bfeec845c55e8235b9f0129b15987099539416eee08ee89155595c7844776ed2",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1199-closeup-v1.png",
+        "exists": true,
+        "sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+        "bytes": 1543684,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-94b0c690-cab2-4157-8b51-d7daf5a6b431.png",
+        "exists": true,
+        "sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+        "bytes": 1543684,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-actual.png",
+          "exists": true,
+          "sha256": "645a84e784297920f908481cda906630474bec99ede61182a11e63035dcedec9",
+          "bytes": 979357,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-face-native.png",
+          "exists": true,
+          "sha256": "a19a537f39cca1c22a75dfd62d08da1e6d471749cb9cfeeb4441871ebad25f9b",
+          "bytes": 153763,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-f1199-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "e348703989811183b808595f8a48ea645dada5f643a7c6cd50ada089ff701bad",
+          "bytes": 2086608,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "acfbf2f88ecb4a281f71b37dcf00da72a7e9f766a78dae50227ec0d5909ca629",
+          "bytes": 923313,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1195-closeup-v1.png",
+          "exists": true,
+          "sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+          "bytes": 1483890,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1203,
+      "selection": {
+        "source_frame": 1203,
+        "path": "generated/star-f1203-closeup-v2.png",
+        "job": "jobs/star-f1203-closeup-2026-10-06-v2.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Current V/check-shaped mouth replaces frozen horizontal pinched expression; Two inward index gestures, coherent sleeves and two ponies",
+        "known_issues": [
+          "Mouth short spur absent, cuff/hand/head registration approximate",
+          "Costume/hat detail drift relative to neighboring ornate coat; defer first-cut rework",
+          "Real source layers and actual-speed review pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1203-closeup-2026-10-06-v2.json",
+      "job_sha256": "47b2d777addb322b555d2ae565c3f23a8051939d92c96cfe6475cab54e3c324d",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1203-closeup-v2.png",
+        "exists": true,
+        "sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+        "bytes": 1406851,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c6ed0ec3-40bf-466b-8d2d-af5a99e6db7f.png",
+        "exists": true,
+        "sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+        "bytes": 1406851,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+          "exists": true,
+          "sha256": "0b6291e6715a3c76b96e9b9abe1503063694b532c29027e90d92716f7d8d10dd",
+          "bytes": 917707,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+          "exists": true,
+          "sha256": "7d237857335910036b7d105b2343bddc71f69245998f013967a33a823abc9773",
+          "bytes": 145001,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "2f8f8c96954582e95fdd575cabf7e8ffe725bba11cdad5d30f968574997c3e84",
+          "bytes": 2185924,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "94021944570bddf873b60d1fac724322042fe54dfbec962c513fb4643f3db01e",
+          "bytes": 860825,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1211,
+      "selection": {
+        "source_frame": 1211,
+        "path": "generated/star-f1211-closeup-v1.png",
+        "job": "jobs/star-f1211-closeup-2026-10-06-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Two complete spread glove palms, Y arms, two compact ponies; Independent cuff/head redraw and half-open red eyes/open O",
+        "known_issues": [
+          "Eyes do not clearly retain source down-left gaze; mouth less pear-shaped",
+          "Hand/head/cuff registration approximate and costume ornament drift",
+          "Real source layers and actual-speed review pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1211-closeup-2026-10-06-v1.json",
+      "job_sha256": "743a93091d163646e48f1493feee55ce160bd8b924234607d94873d8f576c148",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1211-closeup-v1.png",
+        "exists": true,
+        "sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+        "bytes": 1477214,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-fab4156f-d79a-41e1-b633-d9d6bd597dc1.png",
+        "exists": true,
+        "sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+        "bytes": 1477214,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-source-actual.png",
+          "exists": true,
+          "sha256": "d088d06ed7a384a3ebe57cba08d503738b5f173b5701ebca9a3fdf8906a3224e",
+          "bytes": 1016843,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-expanded-v2-source-face-native.png",
+          "exists": true,
+          "sha256": "aee8fd5313a19f6247d7fff3c8775c4a09988573db3b20a0b743b38e183a62a5",
+          "bytes": 137413,
+          "dimensions": [
+            360,
+            385
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1207-f1211-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "1d5e6568f0ee6075645e63e7a9ce51e5a7ff8ecf6afc2a156417585ee6fbd485",
+          "bytes": 2202820,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1207-f1211-expanded-v2-locals-1-native.png",
+          "exists": true,
+          "sha256": "f3b1d706f5ac9e05ad23fd4430e57c38930213a859e8d1a84e84862c6dd755b3",
+          "bytes": 736221,
+          "dimensions": [
+            1440,
+            1281
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045.png",
+          "exists": true,
+          "sha256": "086d3ed474742c8b847f93fb58e92dcbe81f976f35825df8a2641ee413371a0f",
+          "bytes": 1449202,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1216,
+      "selection": {
+        "source_frame": 1216,
+        "path": "generated/star-f1216-closeup-v1.png",
+        "job": "jobs/star-f1216-closeup-2026-10-06-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Closed eyes/no iris, larger open O, two full five-digit palms; Two compact rooted ponies and Y arms/continuous sleeves",
+        "known_issues": [
+          "Palm/cuff/head positioning approximate and slight mouth/coat detail drift",
+          "Real source layers and actual-speed review pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1216-closeup-2026-10-06-v1.json",
+      "job_sha256": "198b00997cbe37e28f1fbf5ce7d4b0864619ef58b25e15e9090732190c79763d",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1216-closeup-v1.png",
+        "exists": true,
+        "sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+        "bytes": 1492947,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-16e746a1-55af-488f-b0e3-104afe0efbc0.png",
+        "exists": true,
+        "sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+        "bytes": 1492947,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-source-actual.png",
+          "exists": true,
+          "sha256": "490bc8c81e5af4cc202575e7495793e5bddbdf51bd9ce0afc2e582ded8a1e0ac",
+          "bytes": 977104,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-expanded-v2-source-face-native.png",
+          "exists": true,
+          "sha256": "dc00f3d6e616163b08a5b628931d47c59a9640431d9fb80371b7587c8f6e6d03",
+          "bytes": 124110,
+          "dimensions": [
+            360,
+            385
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-f1216-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "922922b1ed6e4c98eddad0733c9581c4f17b7466416c9b7a1e808e24bdebc78b",
+          "bytes": 2249735,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-f1216-expanded-v2-locals-1-native.png",
+          "exists": true,
+          "sha256": "35b6162cb028c9698a1842c639a80b294c9074e8df905b756552f8d41c6962b4",
+          "bytes": 738986,
+          "dimensions": [
+            1440,
+            1281
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1211-closeup-v1.png",
+          "exists": true,
+          "sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+          "bytes": 1477214,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1221,
+      "selection": {
+        "source_frame": 1221,
+        "path": "generated/star-f1221-closeup-v1.png",
+        "job": "jobs/star-f1221-closeup-2026-10-06-v1.json",
+        "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Closed eyes/open rounded O independently changed; Two rotated full glove palms, coherent Y arms and two ponies",
+        "known_issues": [
+          "Mouth remains slightly oval rather than source round; hand/cuff/head placement approximate",
+          "Ornate coat detail and real source layer/actual-speed review pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1221-closeup-2026-10-06-v1.json",
+      "job_sha256": "05acfbaaf11cdd27857fff67cc0ead98883b293f222bfc653906ae16792b1ec8",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1221-closeup-v1.png",
+        "exists": true,
+        "sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+        "bytes": 1489324,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-164cf4b3-6da1-455b-ad28-51babd821946.png",
+        "exists": true,
+        "sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+        "bytes": 1489324,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-source-actual.png",
+          "exists": true,
+          "sha256": "dfc6fd287ebfb9940d2b5757196efacc1ffc236087ddc22aec23f4135914ade2",
+          "bytes": 992057,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-expanded-v2-source-face-native.png",
+          "exists": true,
+          "sha256": "7ea0c09473c603236935595412244c5e36114ad46e9feb871e539b319418bb65",
+          "bytes": 129064,
+          "dimensions": [
+            360,
+            385
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "bb7d2e3536d8bc4c487f3370a2e9a1d3ce18694c4756dba10a6e169854a13f34",
+          "bytes": 2213552,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-expanded-v2-locals-1-native.png",
+          "exists": true,
+          "sha256": "176e899adeed8fec0aa9fd5945c77a2c3f128d5efae33f5881fcc563ab5c8800",
+          "bytes": 717004,
+          "dimensions": [
+            1440,
+            1281
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1216-closeup-v1.png",
+          "exists": true,
+          "sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+          "bytes": 1492947,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "selection_row_count": 292,
+  "duplicate_selection_frames": {},
+  "duplicate_explicit_paths": {},
+  "duplicate_paths_do_not_automatically_imply_bad_alias": true,
+  "prior_frozen_artifact_checks": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-batch2-integrity-2026-10-04\\batch2-full-27call-promptset.json",
+      "expected_sha256": "173f36b5ee4b9fd280b91db09db77c845789ddd5f39a67f58fb9675ae6eef32a",
+      "observed_sha256": "173f36b5ee4b9fd280b91db09db77c845789ddd5f39a67f58fb9675ae6eef32a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\oct5-full-7call-promptset.json",
+      "expected_sha256": "1e6372e9e88024bfac931dc462b0f7f5993e7a823b80236b5ca2b6346e814608",
+      "observed_sha256": "1e6372e9e88024bfac931dc462b0f7f5993e7a823b80236b5ca2b6346e814608",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\full-root-builtin-promptset.json",
+      "expected_sha256": "28582f48abce8367395ad697a0198b9529a184f0708815f7d011b61aafd62714",
+      "observed_sha256": "28582f48abce8367395ad697a0198b9529a184f0708815f7d011b61aafd62714",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\continuation-integrity-2026-10-05\\full-second-root-builtin-promptset.json",
+      "expected_sha256": "88bb464617a31ec7b16e5f10b914a2fb0b72827eb820e918154e65467f1313cf",
+      "observed_sha256": "88bb464617a31ec7b16e5f10b914a2fb0b72827eb820e918154e65467f1313cf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\full-builtin-promptset.json",
+      "expected_sha256": "4161b32cd9e5d698348d5e3ee17838d46795b739e11d6dc1f7d03818d20f6893",
+      "observed_sha256": "4161b32cd9e5d698348d5e3ee17838d46795b739e11d6dc1f7d03818d20f6893",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_map.json",
+      "expected_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+      "observed_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_meta.json",
+      "expected_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+      "observed_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+      "unchanged": true
+    }
+  ],
+  "root_third_archive": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct6-continuation-integrity\\root-third-full-11call-promptset.json",
+    "exists": true,
+    "sha256": "00e045b0cf53e3b3ea276cb56ba43b748b044c9dddb40a7cbc8863af02466767",
+    "bytes": 166389
+  },
+  "root_third_expected_frozen_sha256": "00e045b0cf53e3b3ea276cb56ba43b748b044c9dddb40a7cbc8863af02466767",
+  "root_third_sealed_promptset_unchanged": true,
+  "coverage_summary_observed_may_require_parent_refresh": {
+    "source_frames": 3658,
+    "source_cel_upper_bound": 689,
+    "raw_generated_png_files": 567,
+    "job_json_files": 573,
+    "direct_selected_asset_cels": 439,
+    "direct_generated_character_cels": 438,
+    "verified_alias_expansion_cels": 11,
+    "alias_inclusive_character_cels": 449,
+    "source_reuse_no_character_cels": 1,
+    "mapped_cels_including_source_reuse": 450,
+    "missing_selected_cels": 239,
+    "blocked_failed_cels": 0,
+    "historical_blocked_selection_records_resolved": 1,
+    "covered_frames_draft_plus_source_reuse": 2631,
+    "coverage_percent_draft_plus_source_reuse": 71.92454893384362,
+    "character_replacement_draft_frames": 2581,
+    "verified_no_character_source_reuse_frames": 50,
+    "contiguous_available_prefix_frames": 1162,
+    "drafts_with_structured_flaws_or_cleanup": 293,
+    "accepted_character_cels": 0,
+    "artistic_acceptance_status_counts": {
+      "not_recorded": 356,
+      "explicit_not_accepted": 333
+    },
+    "mapped_artistic_acceptance_status_counts": {
+      "not_recorded": 117,
+      "explicit_not_accepted": 333
+    },
+    "job_statuses": {
+      "generated": 159,
+      "bounded_batch_saved_unaccepted": 1,
+      "missing": 8,
+      "queued": 1,
+      "generated_draft_unaccepted_position_approximation": 1,
+      "generated_blocking_head_registration_unselected": 1,
+      "generated_draft_unaccepted_registration_pending": 2,
+      "generated_draft_unaccepted": 189,
+      "generated_blocking_hair_volume_unselected": 1,
+      "generated_blocking_nod_overshoot_unselected": 1,
+      "generated_blocked_superseded": 1,
+      "generated_draft": 125,
+      "geometry_repair_draft": 5,
+      "generated_repair": 1,
+      "reviewed_static_targeted_repair_temporal_pending": 8,
+      "source_reuse_no_character_visible": 1,
+      "partial_repair_draft_unaccepted": 3,
+      "failed_head_tilt_unaccepted": 2,
+      "reviewed_static_temporal_pending": 31,
+      "not_adopted_body_alignment_and_excessive_tilt": 3,
+      "generated_pending_review": 9,
+      "reviewed_static_partial_repair": 1,
+      "needs_head_tilt_and_body_alignment_repair": 1,
+      "failed_pupil_details_unaccepted": 1,
+      "generated_draft_cuff_repair_required": 1,
+      "generated_repair_draft": 5,
+      "submitted_repair": 1,
+      "rejected_headwear_semantics": 1,
+      "saved_unaccepted_repair_drafts": 1,
+      "generated_blocking_extra_pony_unselected": 2,
+      "queued_not_submitted_parent_stop": 1,
+      "generated_static_draft": 1,
+      "generated_blocking_original_underarm_hair_unselected": 1,
+      "generated_failed_underarm_hair_preserved_unselected": 2,
+      "blocked_pose_unselected": 1
+    },
+    "late_worker_missing_cels_canonical_frame_ge_2400": 153
+  },
+  "coverage_manifest_snapshot_utc": "2026-10-05T11:34:49.907909+00:00",
+  "shared_current_hashes": {
+    "asset_selections.json": "10f5a5d9298353f7a4094cf33a643aeea455c07a9ee0ccc8cda9ad83240322b6",
+    "source_aliases.json": "eb1b7862f6805eae3e77d7fc35e368460d46551f5ff774a0799e9c12ac07582e",
+    "source_map.json": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+    "source_meta.json": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+    "compose.py": "d7c8a077c47d1668e4eb247cc6c3e774331e8e67a03f5635318379d9a0e64f79",
+    "star_gestures_layers.py": "bac52c90a0f325e113093545fa76cba088dd39a926af959ba917fff9f9cdb370",
+    "star_caption_alternate.py": "01c4720b290a05e5b54228dde0f0a53f1792406c756446eb9d89f2a2f9ff12bc",
+    "full-pv-progress-manifest.json": "9bb1909d207fcc29e422e902af8eb8503ebe3c1527959c76647e3a78f570bb49"
+  },
+  "shared_files_written": [],
+  "accepted": false,
+  "issues": [],
+  "status": "metadata_integrity_pass"
+}

@@ -1,0 +1,30 @@
+{
+  "job_id": "fullpv-middle-f1635-repair-v3",
+  "source_frame": 1635,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1635-arm-knee-repair-v2.png",
+  "prompt": "Precise-object-edit. IMAGE 1 Klee PV draft f1635 is EDIT TARGET. Repair ONLY erroneous PAJAMA PANTS/KNEE CLOTHING between x790..1070,y591..816, leave hat/feather hair hands arms face boot/floor background position unchanged. IMAGE 2 ONLY approved Klee red coat with cream underskirt hem identity; NEVER add its props or change pose. Image 1 currently shows two long peach pajama trouser panels with large cream trouser cuffs, NOT Klee outfit. Replace those pant panels and their cuffs with Klee's RED coat skirt folded and draped over the closely raised knees, ONE continuous cream underskirt hem following two natural bent-knee humps, leaving only a SMALL amount of pale leg just above existing brown boots. Don't introduce long new trousers, no naked enlarged thighs. Keep two bent-knee contours in same source registered shape and boot floor y916. Red skirt tissue naturally folds around raised knees, not a standing skirt pasted over. Minimal source-style black rough outlines and flat red/cream patches no new patterns. Full same 1920x1080 lavender frame, no rabbit headwear. Do not modify anything else.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1635-arm-knee-repair-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png"
+  ],
+  "reference_roles": [
+    "current draft edit target knee region",
+    "costume identity only"
+  ],
+  "output": "generated/fine-f1635-coat-knee-repair-v3.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-c3651efc-f30c-420b-83de-329679e5c21d.png",
+  "output_sha256": "0e7a9770f308fb227bff227539bd8f81496c9e88e04f1bd8c0a634c63d0769c0",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

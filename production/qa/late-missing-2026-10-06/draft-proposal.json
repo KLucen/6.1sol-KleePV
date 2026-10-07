@@ -1,0 +1,71 @@
+{
+  "accepted": false,
+  "selections": [
+    {
+      "source_frame": 2829,
+      "path": "generated/late-f2829-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Current half-lidded front-facing red eyes, caret mouth, right-screen raised index and lower left-screen glove, plain cuffs, two rooted compact ponies and separated frontal boot toes are present; native current and actual A/B RGB/contours viewed. Pillow/hat/head registration and pillow breadth approximate; coat pockets/forelock and low hem differ, iris white highlights not distinct. Minor costume differences deferred; compositing and actual-speed continuity not checked, accepted false.",
+      "known_issues": [
+        "Current half-lidded front-facing red eyes, caret mouth, right-screen raised index and lower left-screen glove, plain cuffs, two rooted compact ponies and separated frontal boot toes are present; native current and actual A/B RGB/contours viewed. Pillow/hat/head registration and pillow breadth approximate; coat pockets/forelock and low hem differ, iris white highlights not distinct. Minor costume differences deferred; compositing and actual-speed continuity not checked, accepted false."
+      ],
+      "job": "qa\\late-missing-2026-10-06\\job-f2829-v1.json",
+      "sha256": "310533d2ae310647d8cdbb035df543e20bac9cf0ecc9ee24c68d9dbdc93b7b44"
+    },
+    {
+      "source_frame": 2834,
+      "path": "generated/late-f2834-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Current legs closer and less diagonal, left boot rolled with slanted sole and right frontal toe, half-lidded eyes/caret and right raised index, two rooted compact ponies and exactly two gloves present. Native source/delta and prior Klee statically reviewed. Upper torso/head/hand amplitude remains close to previous draft rather than exact source; pillow breadth/hat placement/coat hip length approximate, iris highlights not distinct. Minor costume differences deferred; compositing and actual-speed continuity not checked, accepted false.",
+      "known_issues": [
+        "Current legs closer and less diagonal, left boot rolled with slanted sole and right frontal toe, half-lidded eyes/caret and right raised index, two rooted compact ponies and exactly two gloves present. Native source/delta and prior Klee statically reviewed. Upper torso/head/hand amplitude remains close to previous draft rather than exact source; pillow breadth/hat placement/coat hip length approximate, iris highlights not distinct. Minor costume differences deferred; compositing and actual-speed continuity not checked, accepted false."
+      ],
+      "job": "qa\\late-missing-2026-10-06\\job-f2834-v1.json",
+      "sha256": "049f18b795cc5432893927dc17c9f18ec7e0d0588021b84eac3767d189fb2372"
+    },
+    {
+      "source_frame": 2838,
+      "path": "generated/late-f2838-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Independent nearly vertical legs and closely aligned boot toes, two compact rooted ponies, exactly two gloves and correct pillow-before-torso occlusion present. Current full/native source and actual A/B RGB/contours viewed. Tiny current horizontal mouth stayed caret from previous Klee, upper-body pose/cuffs amplitude remains approximate; pillow/head/coat length approximate, iris highlights not distinct. This expression difference is deferred for full-cut review rather than claiming exact keypose. No temporal/compositor review, accepted false.",
+      "known_issues": [
+        "Independent nearly vertical legs and closely aligned boot toes, two compact rooted ponies, exactly two gloves and correct pillow-before-torso occlusion present. Current full/native source and actual A/B RGB/contours viewed. Tiny current horizontal mouth stayed caret from previous Klee, upper-body pose/cuffs amplitude remains approximate; pillow/head/coat length approximate, iris highlights not distinct. This expression difference is deferred for full-cut review rather than claiming exact keypose. No temporal/compositor review, accepted false."
+      ],
+      "job": "qa\\late-missing-2026-10-06\\job-f2838-v1.json",
+      "sha256": "5ce2bffde042f9b7428182a3718dde8a620aed0fa55d3dc7e1fdb0ab9a7adf56"
+    },
+    {
+      "source_frame": 2843,
+      "path": "generated/late-f2843-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Current leftward three-quarter head, narrowed far eye, pillow narrower in perspective, foreground right sleeve and far left glove, closely touching leftward boot toes, two compact rooted ponies and changed backpack side present. Actual source whole/native delta and previous Klee statically reviewed. Raised index curls toward cheek instead of source more upright finger; cuff/head/pillow registration approximate, tiny mouth and iris highlights differ. Minor costume and gesture amplitude deferred, no compositor or actual-speed review, accepted false.",
+      "known_issues": [
+        "Current leftward three-quarter head, narrowed far eye, pillow narrower in perspective, foreground right sleeve and far left glove, closely touching leftward boot toes, two compact rooted ponies and changed backpack side present. Actual source whole/native delta and previous Klee statically reviewed. Raised index curls toward cheek instead of source more upright finger; cuff/head/pillow registration approximate, tiny mouth and iris highlights differ. Minor costume and gesture amplitude deferred, no compositor or actual-speed review, accepted false."
+      ],
+      "job": "qa\\late-missing-2026-10-06\\job-f2843-v1.json",
+      "sha256": "5f5362965833600f0b85dc7172abb9418f5d1ed701e0e1fb1e4a0bad5c4ce05b"
+    },
+    {
+      "source_frame": 2847,
+      "path": "generated/late-f2847-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; True full left profile with one visible red eye, tucked near glove at chin and far glove occluded, thin edge-on lavender pillow, near sleeve foreground, right backpack, overlapping leftward boots present; near pony compact rooted and far pony source-occluded, no added third lock. Current native source and AB RGB contours reviewed. Head/hat/coat hip registration and slight mouth/cheek gap approximate, iris highlight not distinct. No compositor or actual-speed review, accepted false.",
+      "known_issues": [
+        "True full left profile with one visible red eye, tucked near glove at chin and far glove occluded, thin edge-on lavender pillow, near sleeve foreground, right backpack, overlapping leftward boots present; near pony compact rooted and far pony source-occluded, no added third lock. Current native source and AB RGB contours reviewed. Head/hat/coat hip registration and slight mouth/cheek gap approximate, iris highlight not distinct. No compositor or actual-speed review, accepted false."
+      ],
+      "job": "qa\\late-missing-2026-10-06\\job-f2847-v1.json",
+      "sha256": "e8205ec489d2afb1476e703a9fea30fe6b9da320ceb9abf4b5cc3a7192036214"
+    },
+    {
+      "source_frame": 2906,
+      "path": "generated/late-f2906-oct6-v2.png",
+      "accepted": false,
+      "review": "draft_static_only; One bounded whole-cel correction made far top-right gripping fingers continuous brown glove, near glove remains brown. Closed eyes with no irises, source upright pose, horizontal lavender pillow and cream ruffle, foreground near glove and far sleeve source-hidden, two anatomical compact ponies with far root occluded by pillow maintained. Pillow breadth/head/hat/coat hip registration and long-leg design approximate, small triangular hem points remain; no source-caption/compositor or actual-speed review, accepted false.",
+      "known_issues": [
+        "One bounded whole-cel correction made far top-right gripping fingers continuous brown glove, near glove remains brown. Closed eyes with no irises, source upright pose, horizontal lavender pillow and cream ruffle, foreground near glove and far sleeve source-hidden, two anatomical compact ponies with far root occluded by pillow maintained. Pillow breadth/head/hat/coat hip registration and long-leg design approximate, small triangular hem points remain; no source-caption/compositor or actual-speed review, accepted false."
+      ],
+      "job": "qa\\late-missing-2026-10-06\\job-f2906-v2.json",
+      "sha256": "123f1174ed192fa2651ec3198da837ffdc1b1636a442b249ad1bca04e47a065b"
+    }
+  ]
+}

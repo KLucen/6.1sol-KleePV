@@ -1,0 +1,20 @@
+{
+  "job_id": "exec-116ed1a5-7035-49d8-8a5f-312c3a8e1a61",
+  "canonical_cel": "cel-0054",
+  "source_frame": 356,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. ONE full16:9 PV animation replacement cel f0356. Reference1 CURRENT source dictates exact framing/pose, eye rectangles, mouth, all current finger/palm geometry. Ref2 CROPPED Klee head identity/style only; ref3 cropped plain cream cuffs, sparse peach diamond cream collar, round scalloped medallion clothing only. Ref4 source A/B spatial delta CURRENT top-right, not output layout. Klee default: short two attached pale-blond ponytails/pointed ears, red cream-clover beret with white feather viewer-right, red cream coat/plain cream cuffs, ENTIRE brown gloves. Source right-side closeup, sleepy NARROWLY OPEN horizontal rectangular eye slots with heavy upper lids and flat lower outlines, curled lower light notches, narrow red/burgundy iris strips (flat dark upper strip, pink-red lower strip, no pupils). Current NEW hands are curled farther INWARD around cheeks: viewer-left top fingertips form a diagonal rising toward inner index, thumb hooks sharply inward around orange cheek, forming large angular C-shaped palm outline; viewer-right inner index/thumb bend toward center near upper orange cheek and other upper fingers slope DOWN toward outer edge. Actual current-source C-shaped curled hand contact is mandatory, not previous vertical flat finger fan. Follow fingertips, knuckle bumps, palm-cheek gap, wrists/cuff rims of current reference1 exactly. Current face slightly higher, current small pink upright domed triangular mouth raised accordingly (source around63%x,65%y), mildly worried brows. Preserve source minimal tilt/crop, hat top cropped and coat below bottom; both hair/ponytails behind hands, only two short side ponytails, no duplicate armpit hair. Original loose black line pressure, flat broad color, orange oval cheeks, restrained shadows. Plain cream cuffs NO clovers/decorations, no stray glove-color marks on sleeves. No source pink hair/mask/pajamas. Remove ALL captions, lyrics, speech bubbles including outlines, letters/credits/watermark, clean solid purple background. Full current frame, no montage/annotation, no extra prop/anatomy.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0106-f0356.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-head-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-collar-f0307.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0356.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0356.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0350 to f0356: 250143 pixels >=28; hands curl inward into C-shape around cheek patches, inner leading digits now angled; lids, bangs, cheeks and cuffs independently move.",
+  "inspection": "Both brown hands now correctly curl in angular C-shape around cheeks, narrow open rectangular red eye slots and tiny triangle correct; no text. Face center shifted left to about60.4 percent canvas vs source62.9 percent (~40px at output width), rather than source slight raised movement. Position drift repair flag, cropped style influence still evident; not accepted."
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f1901",
+  "source_frame": 1901,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1013-f1901.png",
+  "prompt": "Use case: identity-preserve. Asset: independent strict-source PV replacement cel f1901. Edit current SOURCE image1 alone as composition/pose/expression authority; preserve full1920x1080 camera, lavender background and source two-line right lyrics. Image2 Klee previous seated draft gives ONLY costume/short-hair/flat drawing continuity, never its exact pose, eye state or absent mouth. Image3 is actual source1901/1914 RGBdiff and two-color contours, use its LEFT source as current f1901. Independently redraw CURRENT cel with its outline pressures/creases; no interpolation, held pose, mirror or morph. Single seated character atLEFT with torso leaning, head tilted down-left, both parallel legs extended straight diagonally down-left, original supporting hands remain flat by hips. Precisely retain current source face eye aperture/tilt and orange cheeks, slight small dark downturned mouth. Convert blue iris patches to dark red/maroon upper and pink-red lower iris patches without changing source black pupil/highlight/gaze anatomy; no solid red discs. Replace original person completely with Klee: pale blonde TWO short side ponytails by pointed ears, no long cascading hair. Red beret brown band cream clover white feather replaces rabbit sleep mask ENTIRELY, no double hat or mask remnants. Simplified redcoat with cream collar/front pompom, plain cream cuffs, cream hem small lower clover only; brown supporting gloves. Cream short bloomers at upper thighs, small pale knee gaps and two brown boots on exact source projected foot positions; NO peach pajama pants, long cream trouser cuffs or bare original toes. Keep source two straight-leg foreshortening, lengths and glove positions; don't bend knees or cross legs. Thick slightly wobbly dark PV contours and broad flat color patches, only simple hard source shadows. No gradient, glossy/game-card polish, extra actors, props or backpack visible at front. Preserve source captions for later compositor, do not invent different text.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1013-f1901.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1901-f1914.png"
+  ],
+  "reference_roles": [
+    "current source composition pose expression visible anatomy and occlusion",
+    "previous Klee seated costume/hair/flat-style continuity only",
+    "actual adjacent source RGBdiff and two-color contours; LEFT is current target"
+  ],
+  "output": "generated/fine-f1901.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "artistic_accepted": false,
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-fdae44bd-3986-4b12-9248-505ad16f90a5.png",
+  "output_sha256": "2d64d7fbe852430a119586237e258b0894752e522dbfc70e0672aaddc91825b9",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

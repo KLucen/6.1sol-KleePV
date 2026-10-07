@@ -1,0 +1,77 @@
+{
+  "id": "star-f1199-closeup-2026-10-06-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1199,
+  "source_cel": "cel-0257",
+  "source_reference": "source_refs/src-0731-f1199.png",
+  "source_exposures": [
+    {
+      "start": 1199,
+      "end": 1203,
+      "pts": 49.958,
+      "end_pts": 50.125,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-actual.png",
+      "role": "Current centered slightly lower head, left glove down/inward, right index raised up-left."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-face-native.png",
+      "role": "Current angular squeezed closed eyes and tiny pinched closed mouth."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-f1199-source-ab-rgb-contours.png",
+      "role": "Actual redraw: left cuff rotates/hand lowers, right index swings diagonal up-left."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-hands-body-native.png",
+      "role": "Current glove/bang overlap, cuff rotation and broad elbows."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1195-closeup-v1.png",
+      "role": "Previous Klee identity/costume/line style only; not old horizontal right index."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent WHOLE handdrawn Klee PV cel, landscape 16:9. Image 1 CURRENT original decides whole pose, framing, scale and occlusion. Image 2 current native face decides expression. Image 3 actual previous/current source AB, RGB difference and dual contours decides redraw. Image 4 current native hands/body decides cuffs, elbows and shoulders. Image 5 previous Klee is ONLY identity, organic line style and costume continuity, NOT frozen pose. Replace all original pink-haired girl/animal hat/pajamas with pale blonde Klee, short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails, red beret/cream clover/white feather/brown round badge, same simple red coat/cream patterned collar/chest medallion/cuffs/brown gloves as image 5. Upper-body closeup cropped at bottom; no extra legs. Simple dark organic ink, mostly flat pastel PV colors. CURRENT f1199 differs from1195: both hands still near forehead, but LEFT glove lowers toward left eyelid and the cuff rotates more horizontal. Left index points diagonally UP-RIGHT, fingertip around x925,y485, left curled knuckles around x835,y625, wrist~x750,y680; left cream cuff from x620,y560 to x760,y760. RIGHT index swings UP-LEFT, fingertip x1150,y420, not previous horizontal inward pose. Right curled knuckles around x1230,y560, cream cuff x1240..1420,y540..715. Head centered/upright, crown abouty190 and chiny750, cheeks orange. Both eyes fully CLOSED angular > < strokes with no iris; tiny CLOSED pinched mouth with short vertical ends. Left glove is visibly LOWER than right, hands in foreground overlap short bangs but don't cover eyes or become extra fingers. Both elbows broad, left x450,y820 and right x1510,y800, continuous two red sleeves and brown gloves. Shoulders/collar redraw current slight lower posture. Both forearms respond to current rotational change, do not copy image5 hands. Exactly TWO continuous brown-gloved hands with coherent shoulder/elbow/wrist connectivity and source-visible fingers only. Two rooted short ponies, no old long pink locks, third neck bunch or detached hair under sleeves. Redraw current source silhouette/placement/visible range independently; don't freeze previous expression or hands. Original purple backdrop and star layout, NO text/lyrics/watermark; real source captions restored independently. No collage, paste, flip, morph or added objects.",
+  "output": "generated/star-f1199-closeup-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root actually viewed current full/native face/body, actualABRGBcontours and nativekeyparts before interrupted turn; restored completed1195 job without repeat generation.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-94b0c690-cab2-4157-8b51-d7daf5a6b431.png",
+  "output_sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+  "output_dimensions": [
+    1672,
+    940
+  ],
+  "static_review": {
+    "passed": [
+      "Left glove lower/near eyebrow and rotated cuff, right index diagonal up-left; independent hand change",
+      "Fully angular squeezed eyes/pinched closedmouth, two rooted ponies and connected broad elbows"
+    ],
+    "deferred": [
+      "Head/hand/cuff/bang positioning and torso contours approximate",
+      "Costume ornaments/gradient shading persist; real source layers/actual-speed pending"
+    ],
+    "accepted": false
+  }
+}

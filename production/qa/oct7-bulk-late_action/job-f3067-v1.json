@@ -1,0 +1,82 @@
+{
+  "source_frame": 3067,
+  "cel": "cel-0533",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: One centered rear-view upper-body close-up, absolutely no face/eyes/mouth/hands/pillow/legs. Compared f3055 head bows down: crown moves about 96 source pixels downward from y212 to y309, rear band slants a little upward toward right; lower hair endpoints descend and deform, shoulders remain bottom cropped. Translate into Klee hat/head lowered by 96/1080 canvas height and slightly tilted, neck hidden more by hat; short ponytails lower with head while maintaining roots and short length. Keep rear red coat and brown backpack only at bottom. Do NOT keep f3055 crown fixed; avoid long blond curtain, front-facing hat emblem or turning face early.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1678-f3067.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3055-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3055-f3067-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3067-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "d5c8c8bd10f14bef98f1905d6a7a5e203cf9ebec629db2e5f2d81572667c62f0",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "c35044df6e46d62c5c0bc172268f0fa75ce0bec443f5e78f6452d5f3f01c8c59",
+    "427270fbca0c40baa08f58e14cac670a74a7971741e7a917f74888bdda776edd",
+    "d170082ddb35a685ba860a43a9c49e5f987965d67afc0718703a4d90624097c6"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3067-v1.png",
+  "source_exposures": [
+    {
+      "start": 3067,
+      "end": 3071,
+      "pts": 127.792,
+      "end_pts": 127.958,
+      "family": "blank_transition",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "One centered rear-view upper-body close-up, absolutely no face/eyes/mouth/hands/pillow/legs. Compared f3055 head bows down: crown moves about 96 source pixels downward from y212 to y309, rear band slants a little upward toward right; lower hair endpoints descend and deform, shoulders remain bottom cropped. Translate into Klee hat/head lowered by 96/1080 canvas height and slightly tilted, neck hidden more by hat; short ponytails lower with head while maintaining roots and short length. Keep rear red coat and brown backpack only at bottom. Do NOT keep f3055 crown fixed; avoid long blond curtain, front-facing hat emblem or turning face early.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-821a8753-3ad8-4fb6-8bcb-b8d61690d91d.png",
+  "output_sha256": "fdc46fcbf9dd9ec5e6274b441f88056abd8aafc6ef77a53c5bb81b86bdff7dc0",
+  "dimensions": [
+    1672,
+    940
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: no face, hat crown lowered and short ponytails; nape/collar compression is approximate, feather scale differs. Unaccepted one-pass draft; speed review deferred.",
+    "accepted": false
+  }
+}

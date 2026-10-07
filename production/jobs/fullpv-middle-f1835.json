@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f1835",
+  "source_frame": 1835,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0998-f1835.png",
+  "prompt": "Identity-preserve PV replacement cel f1835, edit ONLY CURRENT SOURCE image1. Same full 1920x1080 frame/camera, flat lavender scene and original small lyrics at RIGHT untouched. Source pose not generic Klee pose. Image2 hat identity only; image3 red coat/cuff/glove costume identity only, never its star/moon props. Image4 actual adjacent source RGB difference and two-color contours. Independently REDRAW this current cel, including its head angle, eyelid/bang/cuff outline differences; don't hold a previous cel. Character stays LEFT x350..945 y235..955, exact current SOURCE silhouette registration. Seated upright/slumping with TWO PARALLEL STRAIGHT LEGS extended DIAGONALLY DOWN-LEFT, not cross-legged not bent-knee not standing. Source hip at x750 y775, paired feet near x410 y865 and x510 y925; preserve same leg length, foreshortening and two feet positions. Arms nearly straight down with hands flat at sides supporting on floor: partial left glove by x585 y750 and right glove by x865 y800, source fingers must stay at original current coordinates. Replace all original person identity/outfit with default Klee: short pale blonde TWO side ponytails not long hair, pointed ears, red beret cream clover brown band white feather REPLACES bunny sleep mask entirely. Face sleepy HALF-OPEN eyes with dark RED/MAROON iris upper patches and light RED/PINK lower patches, black pupils/white highlights retained; absolutely NO blue/cyan iris, retain source eyelid tilt and orange cheeks. Source has NO visible mouth at this frame; do not invent smile/O mouth. Simplified red coat cream hem with small cream collar, plain cream cuffs, brown gloved supporting hands. Lower costume: cream short bloomers beneath coat over hips/upper thighs, small visible pale knee gaps and BROWN BOOTS on BOTH original foot positions. NEVER copied peach pajama pants, long cream trouser cuffs or bare original feet. Clothes follow SOURCE projected anatomy and straight-leg pose rather than introducing new geometry. Minimal Klee clover identity marks only, no ornate uniform details. Thick wobbly original-like dark line and broad FLAT color patches with only simple hard-edged source shade, no gradient/airbrush/gloss/texture/game-card polish. No new backpack exposed at frontal side unless source back visible, no added props/effects.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0998-f1835.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/long_seated/source-delta-f1827-f1835.png"
+  ],
+  "reference_roles": [
+    "current source pose geometry expression occlusion",
+    "hat identity only",
+    "coat/cuff/glove identity only",
+    "actual adjacent RGB source difference and blue/red contours"
+  ],
+  "output": "generated/fine-f1835.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-9936408d-309a-4e55-987f-9023ba56fff4.png",
+  "output_sha256": "c5fc229eff7bc49b5f5763ce5aa102de0028140300f9d051f3a16b5cf15cadb0",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

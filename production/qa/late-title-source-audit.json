@@ -1,0 +1,938 @@
+[
+  {
+    "before": 1285,
+    "after": 1286,
+    "direct": {
+      "pixels": 38875,
+      "coherent": 38333,
+      "largest": 19901,
+      "mean": 29.308776034564428
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 45012,
+        "coherent": 44570,
+        "largest": 11153,
+        "mean": 36.274284778024736
+      },
+      "matrix": [
+        [
+          0.9995697736740112,
+          -0.001618264359422028,
+          2.5060982704162598
+        ],
+        [
+          0.001618264359422028,
+          0.9995697736740112,
+          3.443192958831787
+        ]
+      ],
+      "ecc": 0.9460613958759916,
+      "scale": 0.999571113428734,
+      "rotation_degrees": 0.09275954008842895,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1286,
+    "after": 1296,
+    "direct": {
+      "pixels": 92597,
+      "coherent": 92427,
+      "largest": 91638,
+      "mean": 80.82631852949422
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 76943,
+        "coherent": 76802,
+        "largest": 74731,
+        "mean": 72.97434693977625
+      },
+      "matrix": [
+        [
+          0.9944280385971069,
+          0.10536356270313263,
+          -83.10283660888672
+        ],
+        [
+          -0.10536356270313263,
+          0.9944280385971069,
+          88.551025390625
+        ]
+      ],
+      "ecc": 0.7816651048327338,
+      "scale": 0.999994331374482,
+      "rotation_degrees": -6.048147558339129,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1296,
+    "after": 1299,
+    "direct": {
+      "pixels": 472,
+      "coherent": 311,
+      "largest": 53,
+      "mean": 0.431846729133881
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 11215,
+        "coherent": 9802,
+        "largest": 510,
+        "mean": 5.1714752195051155
+      },
+      "matrix": [
+        [
+          0.9990798234939575,
+          0.0001561014651088044,
+          1.1722420454025269
+        ],
+        [
+          -0.0001561014651088044,
+          0.9990798234939575,
+          0.27761122584342957
+        ]
+      ],
+      "ecc": 0.9739490136912138,
+      "scale": 0.9990798058866913,
+      "rotation_degrees": -0.00895219312679131,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1299,
+    "after": 1301,
+    "direct": {
+      "pixels": 34089,
+      "coherent": 33209,
+      "largest": 4981,
+      "mean": 26.09542658424654
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 39120,
+        "coherent": 38424,
+        "largest": 6927,
+        "mean": 30.314393742432458
+      },
+      "matrix": [
+        [
+          1.0020846128463745,
+          0.006161383353173733,
+          -3.9720733165740967
+        ],
+        [
+          -0.006161383353173733,
+          1.0020846128463745,
+          6.884736061096191
+        ]
+      ],
+      "ecc": 0.9493499652464643,
+      "scale": 1.0021035545033723,
+      "rotation_degrees": -0.3522824410575303,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1301,
+    "after": 1309,
+    "direct": {
+      "pixels": 56816,
+      "coherent": 56357,
+      "largest": 48506,
+      "mean": 55.245652028806006
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 65398,
+        "coherent": 65170,
+        "largest": 57058,
+        "mean": 65.2482473125459
+      },
+      "matrix": [
+        [
+          0.99369215965271,
+          0.0161180030554533,
+          -9.925016403198242
+        ],
+        [
+          -0.0161180030554533,
+          0.99369215965271,
+          5.630616664886475
+        ]
+      ],
+      "ecc": 0.8373520791157865,
+      "scale": 0.9938228408154939,
+      "rotation_degrees": -0.9292742734832431,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1309,
+    "after": 1314,
+    "direct": {
+      "pixels": 67681,
+      "coherent": 67271,
+      "largest": 53565,
+      "mean": 61.900844255520134
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 84882,
+        "coherent": 84693,
+        "largest": 82239,
+        "mean": 80.58119950755065
+      },
+      "matrix": [
+        [
+          0.9859883785247803,
+          0.045831624418497086,
+          -34.7860221862793
+        ],
+        [
+          -0.045831624418497086,
+          0.9859883785247803,
+          27.909513473510742
+        ]
+      ],
+      "ecc": 0.7916198097909781,
+      "scale": 0.9870530275280308,
+      "rotation_degrees": -2.6613597111380347,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1314,
+    "after": 1319,
+    "direct": {
+      "pixels": 38559,
+      "coherent": 37893,
+      "largest": 8467,
+      "mean": 30.609665512040202
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 39808,
+        "coherent": 39218,
+        "largest": 8814,
+        "mean": 30.680596004063663
+      },
+      "matrix": [
+        [
+          0.997305154800415,
+          0.00144101248588413,
+          1.9152814149856567
+        ],
+        [
+          -0.00144101248588413,
+          0.997305154800415,
+          3.5816755294799805
+        ]
+      ],
+      "ecc": 0.959092624275892,
+      "scale": 0.9973061958638703,
+      "rotation_degrees": -0.08278697428940741,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1319,
+    "after": 1329,
+    "direct": {
+      "pixels": 76560,
+      "coherent": 76320,
+      "largest": 72850,
+      "mean": 71.52878699518881
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 77473,
+        "coherent": 77254,
+        "largest": 73213,
+        "mean": 74.09947045240992
+      },
+      "matrix": [
+        [
+          1.0012149810791016,
+          -0.09406112879514694,
+          79.2697525024414
+        ],
+        [
+          0.09406112879514694,
+          1.0012149810791016,
+          -76.921630859375
+        ]
+      ],
+      "ecc": 0.7503661170793827,
+      "scale": 1.0056236247276515,
+      "rotation_degrees": 5.367013072351792,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1329,
+    "after": 1335,
+    "direct": {
+      "pixels": 59360,
+      "coherent": 58932,
+      "largest": 45966,
+      "mean": 58.757907479335465
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 41039,
+        "coherent": 40493,
+        "largest": 7538,
+        "mean": 33.38036528667835
+      },
+      "matrix": [
+        [
+          0.9999641180038452,
+          -0.01466912217438221,
+          19.498977661132812
+        ],
+        [
+          0.01466912217438221,
+          0.9999641180038452,
+          -11.023334503173828
+        ]
+      ],
+      "ecc": 0.9087260556851817,
+      "scale": 1.0000716778570082,
+      "rotation_degrees": 0.8404487162835159,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1335,
+    "after": 1342,
+    "direct": {
+      "pixels": 59074,
+      "coherent": 58669,
+      "largest": 51941,
+      "mean": 57.70079333686591
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 50190,
+        "coherent": 49807,
+        "largest": 32501,
+        "mean": 46.34850109458071
+      },
+      "matrix": [
+        [
+          1.0058660507202148,
+          -0.04273541644215584,
+          29.859895706176758
+        ],
+        [
+          0.04273541644215584,
+          1.0058660507202148,
+          -40.90910720825195
+        ]
+      ],
+      "ecc": 0.8455498637460415,
+      "scale": 1.006773414379518,
+      "rotation_degrees": 2.432816433028109,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1342,
+    "after": 1347,
+    "direct": {
+      "pixels": 65322,
+      "coherent": 64936,
+      "largest": 58373,
+      "mean": 62.639198903732144
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 57207,
+        "coherent": 56907,
+        "largest": 36784,
+        "mean": 53.196696363931856
+      },
+      "matrix": [
+        [
+          0.992483913898468,
+          -0.05627750977873802,
+          58.88688659667969
+        ],
+        [
+          0.05627750977873802,
+          0.992483913898468,
+          -45.933372497558594
+        ]
+      ],
+      "ecc": 0.8514302783058135,
+      "scale": 0.9940782048984464,
+      "rotation_degrees": 3.2454073213756276,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1347,
+    "after": 1352,
+    "direct": {
+      "pixels": 37082,
+      "coherent": 36479,
+      "largest": 17721,
+      "mean": 28.655408947597707
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 41763,
+        "coherent": 41100,
+        "largest": 8458,
+        "mean": 34.10402104969168
+      },
+      "matrix": [
+        [
+          0.9995402693748474,
+          -0.001833712332881987,
+          2.6751296520233154
+        ],
+        [
+          0.001833712332881987,
+          0.9995402693748474,
+          3.227147102355957
+        ]
+      ],
+      "ecc": 0.9461121811899389,
+      "scale": 0.9995419513971164,
+      "rotation_degrees": 0.10511218126915903,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1352,
+    "after": 1375,
+    "direct": {
+      "pixels": 93644,
+      "coherent": 93419,
+      "largest": 81656,
+      "mean": 80.18818513591869
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 103440,
+        "coherent": 103291,
+        "largest": 86473,
+        "mean": 80.09844619740839
+      },
+      "matrix": [
+        [
+          1.0107547044754028,
+          0.004022024106234312,
+          2.8307394981384277
+        ],
+        [
+          -0.004022024106234312,
+          1.0107547044754028,
+          2.0230534076690674
+        ]
+      ],
+      "ecc": 0.5895766739777539,
+      "scale": 1.010762736522645,
+      "rotation_degrees": -0.22799179887554089,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1375,
+    "after": 1380,
+    "direct": {
+      "pixels": 67804,
+      "coherent": 67428,
+      "largest": 61089,
+      "mean": 62.21717983109054
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 86036,
+        "coherent": 85925,
+        "largest": 82518,
+        "mean": 81.43169224520584
+      },
+      "matrix": [
+        [
+          0.9860316514968872,
+          0.04588902369141579,
+          -34.73828887939453
+        ],
+        [
+          -0.04588902369141579,
+          0.9860316514968872,
+          27.8935604095459
+        ]
+      ],
+      "ecc": 0.7909495220219094,
+      "scale": 0.9870988908587148,
+      "rotation_degrees": -2.6645713427106315,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1380,
+    "after": 1403,
+    "direct": {
+      "pixels": 83932,
+      "coherent": 83728,
+      "largest": 76268,
+      "mean": 76.09292513759407
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 102289,
+        "coherent": 102175,
+        "largest": 98564,
+        "mean": 86.86437396646993
+      },
+      "matrix": [
+        [
+          1.0124634504318237,
+          -0.009384848177433014,
+          0.022057516500353813
+        ],
+        [
+          0.009384848177433014,
+          1.0124634504318237,
+          8.716937065124512
+        ]
+      ],
+      "ecc": 0.6444749422311572,
+      "scale": 1.0125069450845103,
+      "rotation_degrees": 0.5310777579668133,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1403,
+    "after": 1404,
+    "direct": {
+      "pixels": 63893,
+      "coherent": 63635,
+      "largest": 53923,
+      "mean": 59.356295025242495
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 58243,
+        "coherent": 58018,
+        "largest": 47244,
+        "mean": 53.42897268996745
+      },
+      "matrix": [
+        [
+          1.006312608718872,
+          -0.03880483657121658,
+          27.60196304321289
+        ],
+        [
+          0.03880483657121658,
+          1.006312608718872,
+          -36.150177001953125
+        ]
+      ],
+      "ecc": 0.8378025495838848,
+      "scale": 1.0070605750250157,
+      "rotation_degrees": 2.20831197223707,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1404,
+    "after": 1409,
+    "direct": {
+      "pixels": 69199,
+      "coherent": 68891,
+      "largest": 61911,
+      "mean": 63.2942566835197
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 64212,
+        "coherent": 64050,
+        "largest": 60830,
+        "mean": 58.73198215657395
+      },
+      "matrix": [
+        [
+          0.9920603036880493,
+          -0.0553140714764595,
+          60.00299835205078
+        ],
+        [
+          0.0553140714764595,
+          0.9920603036880493,
+          -44.022430419921875
+        ]
+      ],
+      "ecc": 0.8421907567055905,
+      "scale": 0.9936012034927642,
+      "rotation_degrees": 3.1913226682232763,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1409,
+    "after": 1414,
+    "direct": {
+      "pixels": 38933,
+      "coherent": 38461,
+      "largest": 11184,
+      "mean": 29.944976662440936
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 44683,
+        "coherent": 44242,
+        "largest": 13032,
+        "mean": 35.72212290662586
+      },
+      "matrix": [
+        [
+          0.9995869994163513,
+          -0.0021558371372520924,
+          2.9087586402893066
+        ],
+        [
+          0.0021558371372520924,
+          0.9995869994163513,
+          2.9472603797912598
+        ]
+      ],
+      "ecc": 0.9475546777647663,
+      "scale": 0.9995893241905849,
+      "rotation_degrees": 0.12357121066306531,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1414,
+    "after": 1424,
+    "direct": {
+      "pixels": 91071,
+      "coherent": 90923,
+      "largest": 88958,
+      "mean": 78.95496666666666
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 79710,
+        "coherent": 79510,
+        "largest": 77866,
+        "mean": 73.26277878302587
+      },
+      "matrix": [
+        [
+          0.9952631592750549,
+          0.10265202820301056,
+          -84.74263000488281
+        ],
+        [
+          -0.10265202820301056,
+          0.9952631592750549,
+          82.7542724609375
+        ]
+      ],
+      "ecc": 0.7679580441049789,
+      "scale": 1.0005429505369434,
+      "rotation_degrees": -5.888698265750864,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1424,
+    "after": 1429,
+    "direct": {
+      "pixels": 35893,
+      "coherent": 35224,
+      "largest": 5864,
+      "mean": 26.59298335280374
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 42115,
+        "coherent": 41636,
+        "largest": 13599,
+        "mean": 32.14250758820617
+      },
+      "matrix": [
+        [
+          1.0020573139190674,
+          0.006463918834924698,
+          -4.048304557800293
+        ],
+        [
+          -0.006463918834924698,
+          1.0020573139190674,
+          7.316959381103516
+        ]
+      ],
+      "ecc": 0.9472125211921045,
+      "scale": 1.0020781023322853,
+      "rotation_degrees": -0.36958980466995744,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1429,
+    "after": 1437,
+    "direct": {
+      "pixels": 59207,
+      "coherent": 58798,
+      "largest": 48890,
+      "mean": 54.8762678785116
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 72180,
+        "coherent": 72037,
+        "largest": 65753,
+        "mean": 68.0133810846163
+      },
+      "matrix": [
+        [
+          0.9935029745101929,
+          0.01562918722629547,
+          -9.03862476348877
+        ],
+        [
+          -0.01562918722629547,
+          0.9935029745101929,
+          5.060850143432617
+        ]
+      ],
+      "ecc": 0.8265348703656878,
+      "scale": 0.9936259013529185,
+      "rotation_degrees": -0.901268140964329,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1437,
+    "after": 1442,
+    "direct": {
+      "pixels": 71978,
+      "coherent": 71709,
+      "largest": 61158,
+      "mean": 62.41250883342779
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 94781,
+        "coherent": 94714,
+        "largest": 93484,
+        "mean": 82.79816792655494
+      },
+      "matrix": [
+        [
+          0.9856781959533691,
+          0.04341331869363785,
+          -32.96521759033203
+        ],
+        [
+          -0.04341331869363785,
+          0.9856781959533691,
+          24.581531524658203
+        ]
+      ],
+      "ecc": 0.7845725525721475,
+      "scale": 0.9866337533782019,
+      "rotation_degrees": -2.5219116765834055,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1442,
+    "after": 1447,
+    "direct": {
+      "pixels": 41793,
+      "coherent": 41257,
+      "largest": 9676,
+      "mean": 33.09246369149889
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 42182,
+        "coherent": 41724,
+        "largest": 7213,
+        "mean": 31.27862461673237
+      },
+      "matrix": [
+        [
+          0.9972436428070068,
+          0.001907117199152708,
+          1.405032992362976
+        ],
+        [
+          -0.001907117199152708,
+          0.9972436428070068,
+          4.021692276000977
+        ]
+      ],
+      "ecc": 0.9563038972627609,
+      "scale": 0.9972454663798234,
+      "rotation_degrees": -0.10957165362348267,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1447,
+    "after": 1457,
+    "direct": {
+      "pixels": 83215,
+      "coherent": 83043,
+      "largest": 79193,
+      "mean": 72.5795102441954
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 91952,
+        "coherent": 91864,
+        "largest": 89147,
+        "mean": 81.02613181523151
+      },
+      "matrix": [
+        [
+          1.0025866031646729,
+          -0.08764424920082092,
+          78.31317138671875
+        ],
+        [
+          0.08764424920082092,
+          1.0025866031646729,
+          -67.49382019042969
+        ]
+      ],
+      "ecc": 0.7426742281430215,
+      "scale": 1.0064101014986984,
+      "rotation_degrees": 4.995990087767426,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1457,
+    "after": 1463,
+    "direct": {
+      "pixels": 63645,
+      "coherent": 63352,
+      "largest": 46361,
+      "mean": 59.956163157446085
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 43360,
+        "coherent": 42892,
+        "largest": 12603,
+        "mean": 33.98564450417013
+      },
+      "matrix": [
+        [
+          1.000157356262207,
+          -0.016266856342554092,
+          20.27585792541504
+        ],
+        [
+          0.016266856342554092,
+          1.000157356262207,
+          -13.007460594177246
+        ]
+      ],
+      "ecc": 0.9030019921130583,
+      "scale": 1.0002896916037514,
+      "rotation_degrees": 0.9317933665728428,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  },
+  {
+    "before": 1463,
+    "after": 1497,
+    "direct": {
+      "pixels": 89159,
+      "coherent": 89011,
+      "largest": 87563,
+      "mean": 78.0080927340009
+    },
+    "similarity": {
+      "metric": {
+        "pixels": 87988,
+        "coherent": 87820,
+        "largest": 84428,
+        "mean": 75.55124547238916
+      },
+      "matrix": [
+        [
+          0.9929288029670715,
+          0.02186398208141327,
+          -6.924328804016113
+        ],
+        [
+          -0.02186398208141327,
+          0.9929288029670715,
+          20.501068115234375
+        ]
+      ],
+      "ecc": 0.6431802481767311,
+      "scale": 0.9931694928433932,
+      "rotation_degrees": -1.26143137221314,
+      "confirmed": false,
+      "kind": "confirmed_source_rigid_similarity"
+    },
+    "note": "Character-only source mask; excludes pale title and credits."
+  }
+]

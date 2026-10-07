@@ -1,0 +1,39 @@
+{
+  "id": "032-clean",
+  "prompt": "Use case: precise-object-edit. Remove ONLY the two short off-white Japanese/Chinese subtitle rows at bottom center of this existing Klee PV cel. Seamlessly reconstruct the blue/night-purple coat surface immediately under the letters. No text anywhere. Keep EVERYTHING ELSE unchanged: small LEFT/center night-blue Klee front threequarter face, OPEN eyes and small triangular mouth, hat/hair/ears/ponytails/scarf/pompom; much larger RIGHT foreground warm Klee tilted head, OPEN red eyes and oval mouth cropped on right, precise two-figure overlap, all visible outlines, cream clovers, sky stars and color grade. Same full 16:9 framing and pixels outside the small lettering footprints as closely as tool permits. No restyling, pose change, camera change, hue shift, new details, object removal or additional drawing.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-032.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-032-clean.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-1696b92a-e1a2-47cb-b94f-9d665dcbbab2.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "edit_scope": "caption removal only",
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Subtitle removal complete; warm front/night-blue rear open-eye threequarter states and overlap retained."
+    ],
+    "flaws": [
+      "No obvious pose/crop change; outside-text pixel identity unmeasured.",
+      "Imagegen changed canvas height from 940 to 941; alignment correction required."
+    ],
+    "text_check": "no visible residual captions",
+    "outside_caption_pixel_comparison": {
+      "id": "032",
+      "shape_before": [
+        940,
+        1672,
+        3
+      ],
+      "shape_after": [
+        941,
+        1672,
+        3
+      ],
+      "comparable": false
+    },
+    "temporal_review": "pending"
+  },
+  "temporal_review": "pending"
+}

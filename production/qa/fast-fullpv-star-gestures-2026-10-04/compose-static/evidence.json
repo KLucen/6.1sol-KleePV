@@ -1,0 +1,666 @@
+{
+  "owner": "star_gestures_batch2",
+  "accepted": false,
+  "interval": [
+    1008,
+    1043
+  ],
+  "first_missing_after_private_proposal": 1043,
+  "canonical_static_cels_checked": 16,
+  "private_proposal_only": true,
+  "public_mapping_mutated": false,
+  "compose_mutated": false,
+  "shared_files_sha256_before": {
+    "compose.py": "accdc5260867891caba73b9cbff3b3047c6c2f806157c1318d3d49214bf98181",
+    "asset_selections.json": "edc1df36dad7fc29a1d7ad26d49539dc4f514b3039c20a91863c7ee481c70f63"
+  },
+  "shared_files_sha256_after": {
+    "compose.py": "accdc5260867891caba73b9cbff3b3047c6c2f806157c1318d3d49214bf98181",
+    "asset_selections.json": "edc1df36dad7fc29a1d7ad26d49539dc4f514b3039c20a91863c7ee481c70f63"
+  },
+  "temporal_review": "not_performed",
+  "encoded_video_review": "not_performed",
+  "artistic_acceptance": "not_granted",
+  "manual_review": "pending",
+  "scope": "Canonical source refs only; no all-exposure actual-video caption guarantee.",
+  "rows": [
+    {
+      "source_cel": "cel-0205",
+      "source_frame": 1008,
+      "source_exposures": [
+        {
+          "start": 1008,
+          "end": 1009,
+          "pts": 42.0,
+          "end_pts": 42.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated\\candidate-033-clean.png",
+      "selection_origin": "existing_manifest",
+      "source_reference": "source_refs/src-0541-f1008.png",
+      "source_sha256": "79aa070610ce8680ef584e7d03a92624e3ad3a33b23c2648f4dc88d2bf4c7f2e",
+      "asset_sha256": "a373e42cd1466d32fcba2a54cdf2924aae5a079952f03cd17d3c30fd800a136a",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1008-existing-compose.png",
+      "composite_sha256": "7137a4afebdcb90792eda62e75e0fa099ff706ccc85d34c23fd7b74f4ab49d98",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1008-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1008-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 1361,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0206",
+      "source_frame": 1009,
+      "source_exposures": [
+        {
+          "start": 1009,
+          "end": 1010,
+          "pts": 42.042,
+          "end_pts": 42.083,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1009-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0542-f1009.png",
+      "source_sha256": "af0419e86b7311f23ea3df45e23c208baa22f95eab430eed1c53f87ee0d35601",
+      "asset_sha256": "40d507204928415a06242e6e3f5ce4294ee3c9b18f08f2fef4c548713632b274",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1009-existing-compose.png",
+      "composite_sha256": "a93c7dab134f24fa121d5a9d201f82c6278e8fa0b55f92d2bcf4dffee27a5039",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1009-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1009-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0207",
+      "source_frame": 1010,
+      "source_exposures": [
+        {
+          "start": 1010,
+          "end": 1011,
+          "pts": 42.083,
+          "end_pts": 42.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1010-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0543-f1010.png",
+      "source_sha256": "d5cae5f2056eb2f6fb186cbf6b040486b416986c65e8251a136a3ae94eb1be0f",
+      "asset_sha256": "b6ac6ec0788dd9ccccb575f68394a292da63278a7d92e63dd654d9a34a2b28b5",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1010-existing-compose.png",
+      "composite_sha256": "de2b0569dab4d5c0bce8c1c0fdaaf80fdc7a3eb54d3bfd8d59a6dfe4967998e0",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1010-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1010-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0208",
+      "source_frame": 1011,
+      "source_exposures": [
+        {
+          "start": 1011,
+          "end": 1012,
+          "pts": 42.125,
+          "end_pts": 42.167,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated\\candidate-034-clean.png",
+      "selection_origin": "existing_manifest",
+      "source_reference": "source_refs/src-0544-f1011.png",
+      "source_sha256": "051cde419f062e0867866535b9a6d09cfd273f756fda9986f4481d6159652f6d",
+      "asset_sha256": "3fa0f19089ce922e512d0c242c91a0cfcfeba5257b563ad5333bbe010add59a4",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1011-existing-compose.png",
+      "composite_sha256": "55bd49223c0662af47277a08503d7bee6b3234fadccea78dd5395ac380495645",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1011-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1011-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 1365,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0209",
+      "source_frame": 1012,
+      "source_exposures": [
+        {
+          "start": 1012,
+          "end": 1013,
+          "pts": 42.167,
+          "end_pts": 42.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1012-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0545-f1012.png",
+      "source_sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+      "asset_sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1012-existing-compose.png",
+      "composite_sha256": "05c9d2816d977f908f296cde897cd11d6d654fa947a0e14d0ccb7d7f88e6e25d",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1012-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1012-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0210",
+      "source_frame": 1013,
+      "source_exposures": [
+        {
+          "start": 1013,
+          "end": 1014,
+          "pts": 42.208,
+          "end_pts": 42.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1013-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0546-f1013.png",
+      "source_sha256": "20880029c3e8dae512bf8822a1468a86d65db9ab2117a6f1260ba0494124a0ca",
+      "asset_sha256": "cccc1edb308dcbf3d23fa58ebe1bb2d56d2449c7e32afe2ebd53914ef24c443f",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1013-existing-compose.png",
+      "composite_sha256": "b2cf37cf01d1de68e2a7fc1b3de5db62531815e4f391b62d858111fcd14d5a88",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1013-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1013-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0211",
+      "source_frame": 1014,
+      "source_exposures": [
+        {
+          "start": 1014,
+          "end": 1017,
+          "pts": 42.25,
+          "end_pts": 42.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1014-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0547-f1014.png",
+      "source_sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+      "asset_sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1014-existing-compose.png",
+      "composite_sha256": "336e69688929dc0c00fbadfc1b4a3abe406c2b2f3a2feabe40b5c36eba8e6b63",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1014-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1014-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0212",
+      "source_frame": 1017,
+      "source_exposures": [
+        {
+          "start": 1017,
+          "end": 1019,
+          "pts": 42.375,
+          "end_pts": 42.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated\\candidate-035.png",
+      "selection_origin": "existing_manifest",
+      "source_reference": "source_refs/src-0549-f1017.png",
+      "source_sha256": "0adca735aa85b3ef374d2a3e366a1815eb25aa5694fba01aa928bac5d537a402",
+      "asset_sha256": "ef3659866179900ed1327dace1aeebef8f7659d1bb358b5e60b57e520401e6b9",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1017-existing-compose.png",
+      "composite_sha256": "8255c92d9026a78c92e5fa6c5a8c339e35271907eca6838b9cee18b430257600",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1017-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1017-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0213",
+      "source_frame": 1019,
+      "source_exposures": [
+        {
+          "start": 1019,
+          "end": 1022,
+          "pts": 42.458,
+          "end_pts": 42.583,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated\\candidate-036.png",
+      "selection_origin": "existing_manifest",
+      "source_reference": "source_refs/src-0551-f1019.png",
+      "source_sha256": "466ea6e0409b29f6efbc769b08891688d90698cd85d19a60558e7b507c922295",
+      "asset_sha256": "694fcd87714120c3ee5ec9b49070ca5c4bcaa17cbaa534c514646187dddb1596",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1019-existing-compose.png",
+      "composite_sha256": "f608f4361b4f5b6ff28fdbcdd431a867ff3652066d4ebac7f72299e720af511e",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1019-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1019-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0214",
+      "source_frame": 1022,
+      "source_exposures": [
+        {
+          "start": 1022,
+          "end": 1023,
+          "pts": 42.583,
+          "end_pts": 42.625,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated\\candidate-037.png",
+      "selection_origin": "existing_manifest",
+      "source_reference": "source_refs/src-0554-f1022.png",
+      "source_sha256": "a0c0987842900c5f87865e2b06d584553796cb5f4ec4365492967d5f062bc08c",
+      "asset_sha256": "c0967540cc09dca5e9c17b08019576a71588c1a9400a5558cd8870f9cb9b2955",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1022-existing-compose.png",
+      "composite_sha256": "e32f5cc82c72decc4e4d0d6f9f6f4bb67cae2a78055c78234e0b199b2f9489e4",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1022-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1022-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0215",
+      "source_frame": 1023,
+      "source_exposures": [
+        {
+          "start": 1023,
+          "end": 1025,
+          "pts": 42.625,
+          "end_pts": 42.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1023-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0555-f1023.png",
+      "source_sha256": "ae5367a12dade7c001e4a02c26d60c4c49dac7635c90706c335419ee0337da38",
+      "asset_sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1023-existing-compose.png",
+      "composite_sha256": "3a6b5ca69f3381a293acb4f2ee8d5462278b62f7dc3aa0c4aa12f9099556ef22",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1023-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1023-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 0,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0216",
+      "source_frame": 1025,
+      "source_exposures": [
+        {
+          "start": 1025,
+          "end": 1028,
+          "pts": 42.708,
+          "end_pts": 42.833,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1025-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0557-f1025.png",
+      "source_sha256": "b1986a5e1437d3adaeca9092d3c20dce3c3bf28c33093f2c4dba5ac335f9f105",
+      "asset_sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1025-existing-compose.png",
+      "composite_sha256": "d1811833b0fd0a284cba0176c9dae41042ded24cc6b24b386ea8028049560699",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1025-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1025-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 118,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0217",
+      "source_frame": 1028,
+      "source_exposures": [
+        {
+          "start": 1028,
+          "end": 1033,
+          "pts": 42.833,
+          "end_pts": 43.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated\\candidate-038.png",
+      "selection_origin": "existing_manifest",
+      "source_reference": "source_refs/src-0560-f1028.png",
+      "source_sha256": "3fdaa482f2cf5a8d59a78b370748bee9ba2b4c5d831055c78b5d9307741ab7d8",
+      "asset_sha256": "9d981ab3b4159a4de21fa0e08a307ceae792bcf7d2d831aac7d11b6b2adb01b1",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1028-existing-compose.png",
+      "composite_sha256": "b3578f65fe0c318d93e6bb54efc05b26fdabe0a5c84270de1f980aa38e5cffc4",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1028-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1028-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 714,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0218",
+      "source_frame": 1033,
+      "source_exposures": [
+        {
+          "start": 1033,
+          "end": 1037,
+          "pts": 43.042,
+          "end_pts": 43.208,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1033-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0565-f1033.png",
+      "source_sha256": "e6f084630875df93b7a111d66f4f3ca3b2665fd356dd3a26a00e10c3f7171ae6",
+      "asset_sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1033-existing-compose.png",
+      "composite_sha256": "9a620400785178e6653595f5d469c61d74e1fd4f888ad474707eda8ebbc0c0fe",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1033-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1033-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 724,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0219",
+      "source_frame": 1037,
+      "source_exposures": [
+        {
+          "start": 1037,
+          "end": 1038,
+          "pts": 43.208,
+          "end_pts": 43.25,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1037-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0569-f1037.png",
+      "source_sha256": "b357723a47f527a0946b2352565a3ffee83cdcdb4c8fe3bc2d1468a143e16ee4",
+      "asset_sha256": "6ff9a817ade9dbcdb286b5bc392c2b6344fab97eb81f8716c11d6899976d4632",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1037-existing-compose.png",
+      "composite_sha256": "75fe2bdd4d4f8fb570570576ab24b0878fdfc294c362edc53ed6f6fa2256b3f2",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1037-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1037-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 2905,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    },
+    {
+      "source_cel": "cel-0220",
+      "source_frame": 1038,
+      "source_exposures": [
+        {
+          "start": 1038,
+          "end": 1043,
+          "pts": 43.25,
+          "end_pts": 43.458,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "asset": "generated/star-gestures-f1038-fast-v1.png",
+      "selection_origin": "private_proposal",
+      "source_reference": "source_refs/src-0570-f1038.png",
+      "source_sha256": "bff12ac76689e98d814875f856f0d4c1930097557ed71a4359d3b81356d0efe8",
+      "asset_sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "composite": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1038-existing-compose.png",
+      "composite_sha256": "413504060c9b21457525b7f4d5f86705885c8a787c6cbc31901c6ba38afa70ac",
+      "masks": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1038-existing-masks.png",
+      "native_caption_pair": "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\f1038-native-caption-pair.png",
+      "original_only_graphics_restored_pixels": 1957,
+      "note": "Candidate pixels are diagnostic only, not proof of old-subject residue; manual crop review required."
+    }
+  ],
+  "pages": {
+    "source_composite": [
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\source_composite-page-01.png",
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\source_composite-page-02.png",
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\source_composite-page-03.png",
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\source_composite-page-04.png"
+    ],
+    "native_caption": [
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\native_caption-page-01.png",
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\native_caption-page-02.png",
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\native_caption-page-03.png",
+      "qa\\fast-fullpv-star-gestures-2026-10-04\\compose-static\\native_caption-page-04.png"
+    ]
+  }
+}

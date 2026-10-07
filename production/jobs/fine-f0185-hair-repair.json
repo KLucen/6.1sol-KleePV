@@ -1,0 +1,15 @@
+{
+  "job_id": "fine-f0185-hair-repair",
+  "source_frame": 185,
+  "source_candidate": "src-0057",
+  "family": "standing_pillow",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0185.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/f0190-forehead-curl-crop.png"
+  ],
+  "prompt": "Use case: precise-object-edit. LOCAL continuity repair. Image1 fullframe185 is sole edit target, all its pose/occlusion/canvas invariant. Image2 is a cropped neighboring Klee forehead hair reference only. Add the MISSING one large pale-blonde curled frontal lock at the LEFT brim of the red beret in image1, analogous to image2: root attaches to left hairline just belowberet, curls outward to viewer-left and tipturnsup, above pillowtop near x64%,y26%. The lock is visible above/beside pillow not below; do not move pillow to expose it. Match neighboring lock scale rather than huge horn. Preserve allother existing hair strands and identity; no new side ponytail. Keep sameberet/whitefeather/clover size and position, onlytinyred-eye/lidsliversjustabovepillow, nose/mouth hidden, identical pillowangle andcreamfringes, curledbrown handsedgegrip, creamcuffs/bodycoatunderskirtredshorts/backpack/clockblankdisplay/violetbackground andline/shadow. Never copy visible fullface fromcrop2; frame185 remains almostfacehidden. No textlettersdigits. Singlefull16:9 frame.",
+  "output": "../generated/fine-f0185-hair-repair.png",
+  "status": "generated_draft",
+  "repair_of": "fine-f0185.png",
+  "temporal_review": "pending"
+}

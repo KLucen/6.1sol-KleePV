@@ -1,0 +1,24 @@
+{
+  "source_frame": 1497,
+  "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET current Klee PV f1497 draft; Image2 is current ORIGINAL source pose authority, NOT identity; Image3 is same source head only. Return one full same1920x1080canvas, same original figure extent/floor. Change ONLY crossed forearms/cuffs: REMOVE the pale huge cuff-and-exposed hand at the center. Correct to exactly2 DIAGONALLY CROSSED redcoat sleeves on the raised knees, as source: left elbow lowerleft, leftforearm ascends toright hiddenhand fully behindrightarm; rightelbow upperright, rightforearm crosses downleft tohand fully behindleftsleeve. NO visiblehands, NO exposedfingers, no bareforearm, no thirdarm; thincreamcuff only partly hidden atcrossing, not a balloon. Keep original target closedeyes lefttilt dotmouth hat feathers twoshortpony pointedears head/neck, knees barecalf creamsocktop brownboots and whitepoms backpack coat skirtclover unchanged. Smoothbrownstrip insidecoat to flatred (no glossyshadow) only if needed atseam. PlainlavenderBG withouttext remains. Preservetargetbodyposition andnoresize/pan. Same roughPVlines andflatcolors.",
+  "name": "fine-f1497-sleeves-v2.png",
+  "output": "generated/fine-f1497-sleeves-v2.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "generated/fine-f1497.png",
+      "role": "Edit target; keep other identity/body"
+    },
+    {
+      "path": "source_refs/src-0894-f1497.png",
+      "role": "Current original pose authority"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1497.png",
+      "role": "Same source head invariants"
+    }
+  ],
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Pale exposed wrist removed, but wrong forearm crossing direction/visible red tube cuff remains. Not adopted; second bounded source-native repair needed."
+}

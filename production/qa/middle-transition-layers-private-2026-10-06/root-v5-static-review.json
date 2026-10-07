@@ -1,0 +1,29 @@
+{
+  "accepted": false,
+  "source_interval": [2121, 2145],
+  "private_gate_ready_for_exact_draft_registration": true,
+  "actual_whole_frames_viewed": [2121, 2122, 2129, 2130, 2132, 2135, 2136, 2138, 2141, 2143],
+  "actual_native_caption_pages_viewed": [1, 2, 3],
+  "native_caption_frames_viewed": 24,
+  "actual_native_effect_pages_viewed": [1, 2, 3],
+  "native_effect_crops_viewed": 20,
+  "technical_report": "v5-foreground-ownership-audit/private-24-frame-report.json",
+  "checks": {
+    "foreground_warm_face_hair_not_hollow": true,
+    "rear_cold_face_cheek_and_ink_retained": true,
+    "source_yellow_fill_and_black_outline_retained": true,
+    "all_24_caption_frames_same_line_and_complete": true,
+    "original_exposure_and_source_pts_unchanged": true,
+    "private_outputs_not_artistically_accepted": true
+  },
+  "known_draft_differences": [
+    "Source same-line glyph alpha and two-pixel ring are reconstruction, not exact original glyph RGB; fine brush shape may differ under the user's permission.",
+    "Two generated dark-hat boundary pixels at f2135 are not selected. Independent warm-face cores and ink probes are intact. No whole-art byte-exact claim.",
+    "Existing costume/pocket/clover and approximate pose differences remain in the draft issue list; source/generation geometry and actual-speed continuity are not fully accepted.",
+    "Tiny cool edge/AA flecks remain a draft boundary review item, not a new large face cutout."
+  ],
+  "actual_speed_review": "not performed",
+  "shared_hook_at_review": "not yet installed",
+  "preserved_failures": ["private-24-frame-report.json", "v2-observed-cool-fill", "v3-enclosed-ink-fill", "v4-warm-fill-source-effects", "v5-star-outline-complete"],
+  "v5_old_body_oracle_failure_explanation": "Seven frames each had one original foreground star-support pixel overlapping the new body. The corrected oracle explicitly excludes independently byte-checked original foreground effects from generated body comparison. Old failing evidence is retained."
+}

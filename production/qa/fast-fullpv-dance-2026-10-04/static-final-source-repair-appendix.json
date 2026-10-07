@@ -1,0 +1,20 @@
+{
+  "scope": "Only final source-led 891 and 907 v2 static appendix; previous 908/909 unchanged",
+  "reviewer": "/root/dance_missing_refs",
+  "evidence": "static-contact-evidence-final-source-repairs.json",
+  "final_source_repair_files_viewed": ["fast-fullpv-dance-f0891-source-v2.png","fast-fullpv-dance-f0907-source-v2.png"],
+  "final_pair_boards_viewed": 2,
+  "superseded_active_findings": [
+    {"frame":891,"old_asset":"candidate-025-clean.png","final_asset":"fast-fullpv-dance-f0891-source-v2.png","source_exposure":[891,894],"old_issue":"Fully visible rear face instead of source-hidden face","status":"resolved_static_raw_artwork_key_occlusion"},
+    {"frame":907,"old_asset":"fast-fullpv-dance-f0907-v1.png","final_asset":"fast-fullpv-dance-f0907-source-v2.png","source_exposure":[907,908],"old_issue":"Right-biased mouth/head causes excessive next-frame compensating shift","status":"resolved_static_manual_landmark_approximation","new_mouth_x_1672_approx":459,"unchanged_908_mouth_x_1672_approx":320,"new_left_shift_approx":139,"source_left_shift_at_1672_scale_approx":132}
+  ],
+  "active_confirmed_blocking_raw_anatomy_or_key_occlusion": [],
+  "remaining_unconfirmed": ["Composited masks and original-speed continuity","Twin-tail root topology","902/903/905 patterned pom-pom versus plain two-leaf garment join","Final captions and independent effects"],
+  "manual_landmark_only": true,
+  "artistically_accepted": false,
+  "actual_speed_review_performed": false,
+  "generation_called": false,
+  "shared_selection_changed": false,
+  "artwork_modified": false,
+  "source_exposure_changed": false
+}

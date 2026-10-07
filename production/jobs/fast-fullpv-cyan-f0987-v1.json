@@ -1,0 +1,75 @@
+{
+  "job_id": "fast-fullpv-cyan-f0987-v1",
+  "source_frame": 987,
+  "canonical_cel": "cel-0197",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-62564111-7df5-45db-8bec-6acf2a484f2e.png",
+  "asset_sha256": "cc5adaccacc4c1b83a9bc1500c91ade6fc3c3091b5c555d4ab506bff8ae6ee05",
+  "static_findings": ["Major profile to three-quarter turn present with TWO half-open eyes, small frown and dot nose", "Both short rooted pony groups visible, plain collar and no original animal hat", "Face registration left/down by several percent relative source; approximate, deferred to grouped original-speed review", "Additional tiny eye highlights and dark upper night iris band differ from source simplification"],
+  "output": "generated/fast-fullpv-cyan-f0987-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0987-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0980-topology-no-face-reference.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0984-f0987-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual987 source: exclusive new three-quarter turn, two eyes, framing and pose",
+    "Actual987 native sleepy half-open eyes and small closed frown",
+    "Klee cropped980 topology: beret, rooted short pony and plain collar only, no whole face pose",
+    "True984->987 A/B RGB contours: MAJOR turn toward camera, not profile hold"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent full16:9 CURRENT987 Klee PV cel. Image1 ACTUAL987 original is exclusive new pose/crop/face registration authority. Image2 native current face: TWO narrow half-open sleepy eyes under thick upper lids, slightly worried asymmetric eyebrows, tiny dot nose and tiny closed downward hooked mouth (no open mouth). Image4 true984->987 spatial A/B/RGB/contours shows MAJOR TURN TOWARD CAMERA: from right closed-eye profile to near-frontal THREE-QUARTER view, head still mildly tipped clockwise. Do NOT keep old one-eye silhouette or closed eyes. Position source pupils around x58% and x69%, y46-48%; nose x68% y53%; closed mouth x65% y60%; chin x63% y69%. Forehead and beret occupy upper central/right crop. Source decides exact head/neck/collar angle; do not lower face to fit feather. Image3 raster crops ONLY define Klee burgundy clover beret/one feather, pale hair with lavender night shadows, ear-rooted SHORT pony length/mass, plain white TWO-leaf collar/red coat. Redraw Klee with TWO short rooted pony groups according to new visible angle; do not inherit source long sweeping pink hair or animal hat. Warm amber-red irises with tiny white catchlights beneath dark half-open lids, night shade may tint but not bright blue original eyes. Preserve compact bangs and pointed ears, Klee facial simplification, rough bold simplified PV lines, limited flat shadows. Body continues below frame, no hands/limbs newly visible. Natural continuous neck, no third hair fan or detached throat flap, no ornate collar. Preserve original cyan/violet night/star/crescent context; original background and Japanese/Chinese lyrics are separately composited, OMIT ALL TEXT. No caption scribbles, no collage, morph, flow, or held previous pose. One complete newly redrawn current major-turn cel.",
+  "source_exposures": [
+    {
+      "start": 987,
+      "end": 990,
+      "pts": 41.125,
+      "end_pts": 41.25,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 990,
+      "end": 992,
+      "pts": 41.25,
+      "end_pts": 41.333,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.000985860824585,
+            -0.0000618953927187249,
+            -0.9119306802749634
+          ],
+          [
+            0.0000618953927187249,
+            1.000985860824585,
+            -0.6202077865600586
+          ]
+        ]
+      }
+    }
+  ],
+  "source_reference": "source_refs/src-0521-f0987.png",
+  "source_review": "Root viewed actual full frame, native face and true spatial A/B RGB/contours"
+}

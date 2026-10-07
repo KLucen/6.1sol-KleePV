@@ -1,0 +1,2980 @@
+{
+  "snapshot_utc": "2026-10-06T03:55:31.492103+00:00",
+  "frozen": true,
+  "archive_phase": "final_after_generation_and_root_adoption",
+  "root_final_notice_original": "Root confirms third group contains old f1154 plus nine adopted closeup true cels f1164,f1172,f1187,f1195,f1199,f1203v2,f1211,f1216,f1221. Exactly 10 selected true cels, 11 successful builtin calls including unselected f1203v1, across Oct5/6. Root closeups already shared adopted accepted=false.",
+  "frozen_hash_authority": "Historical archive notices/helper constants and previous middle handoff; second7/source-map/meta frozen hashes explicitly reconfirmed by root message on 2026-10-06.",
+  "prior_frozen_artifact_checks": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-batch2-integrity-2026-10-04\\batch2-full-27call-promptset.json",
+      "expected_sha256": "173f36b5ee4b9fd280b91db09db77c845789ddd5f39a67f58fb9675ae6eef32a",
+      "observed_sha256": "173f36b5ee4b9fd280b91db09db77c845789ddd5f39a67f58fb9675ae6eef32a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\oct5-full-7call-promptset.json",
+      "expected_sha256": "1e6372e9e88024bfac931dc462b0f7f5993e7a823b80236b5ca2b6346e814608",
+      "observed_sha256": "1e6372e9e88024bfac931dc462b0f7f5993e7a823b80236b5ca2b6346e814608",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\full-root-builtin-promptset.json",
+      "expected_sha256": "28582f48abce8367395ad697a0198b9529a184f0708815f7d011b61aafd62714",
+      "observed_sha256": "28582f48abce8367395ad697a0198b9529a184f0708815f7d011b61aafd62714",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\continuation-integrity-2026-10-05\\full-second-root-builtin-promptset.json",
+      "expected_sha256": "88bb464617a31ec7b16e5f10b914a2fb0b72827eb820e918154e65467f1313cf",
+      "observed_sha256": "88bb464617a31ec7b16e5f10b914a2fb0b72827eb820e918154e65467f1313cf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-missing-2026-10-05\\full-builtin-promptset.json",
+      "expected_sha256": "4161b32cd9e5d698348d5e3ee17838d46795b739e11d6dc1f7d03818d20f6893",
+      "observed_sha256": "4161b32cd9e5d698348d5e3ee17838d46795b739e11d6dc1f7d03818d20f6893",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_map.json",
+      "expected_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+      "observed_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_meta.json",
+      "expected_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+      "observed_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+      "unchanged": true
+    }
+  ],
+  "bounded_original_source_frames": [
+    1154,
+    1164,
+    1172,
+    1187,
+    1195,
+    1199,
+    1203,
+    1211,
+    1216,
+    1221
+  ],
+  "completed_builtin_output_calls": 11,
+  "selected_true_cels": 10,
+  "variant_overhead": 1,
+  "unselected_successful_variant": "star-f1203-closeup-2026-10-06-v1",
+  "source_exposure_frames_for_selected_cels": 41,
+  "final_candidate_declaration": {
+    "1154": "generated/star-f1154-fast-continuation-v1.png",
+    "1164": "generated/star-f1164-closeup-v1.png",
+    "1172": "generated/star-f1172-closeup-v1.png",
+    "1187": "generated/star-f1187-closeup-v1.png",
+    "1195": "generated/star-f1195-closeup-v1.png",
+    "1199": "generated/star-f1199-closeup-v1.png",
+    "1203": "generated/star-f1203-closeup-v2.png",
+    "1211": "generated/star-f1211-closeup-v1.png",
+    "1216": "generated/star-f1216-closeup-v1.png",
+    "1221": "generated/star-f1221-closeup-v1.png"
+  },
+  "calls": [
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1154-fast-continuation-2026-10-05-v1.json",
+      "job_json_sha256": "81105d7ffa2d6d13efbb82954b07a2fe9375a564f2c394f021176a02c7d5f024",
+      "job_json_bytes": 5394,
+      "job_original_complete": {
+        "id": "star-f1154-fast-continuation-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1154,
+        "source_cel": "cel-0245",
+        "source_reference": "source_refs/src-0686-f1154.png",
+        "source_exposures": [
+          {
+            "start": 1154,
+            "end": 1161,
+            "pts": 48.083,
+            "end_pts": 48.375,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-actual.png",
+            "role": "Current1154 both indexpointing more widely separated and forearms swing outward."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-face-native.png",
+            "role": "Currentclosed horizontal eyelids/tiny mouthdot."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-ab-rgb-contours.png",
+            "role": "Actual1147->1154 AB/RGB/contours; gloves move outward, indices morevertical; cuffs rotate."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-body-native.png",
+            "role": "Current wider bentelbows/creamcuffs/leg/boots and coat."
+          },
+          {
+            "path": "C:/Users/KLucen/Desktop/kl/production/generated/star-f1147-fast-continuation-v1.png",
+            "role": "PreviousKlee identity/style only, not narrower fingerposing."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. ONE independent WHOLE Klee handdrawn PV cel. Image1 exactCURRENT original is wholepose/framing/occlusion authority; Image2 current nativeFACE defines expression and visibleparts; Image3 actual previous/current sourceAB RGBdifference/dualcontours defines real redraw; Image4 current nativeBODY defines cuffs/sleeves/legs/boots; Image5 previousKlee ONLY identity/style/two-rooted-ponytail consistency, NOT frozen expression/pose. Replace entire original girl with pale-blonde shortbangs/elfears and EXACTLY TWO compact rooted shoulder ponytails above lowercollar; red beret/creamclover/whitefeather/brown badge; simple PLAINredcoat, twolobedcreamcollar, plaincreamcuffs, one continuousstraightcream COAThem over REDshorts, browngloves/boots. NO longpinkhair, thirdbunch, oldanimalhat/pajamas/buttons/pockets/backpack. Same currentoriginal centered upright slender fullbody totalheight/framing. CURRENT1154 TWO index fingers stillpointUP but move FARTHER OUTWARDS than1147: leftglove near(x752,y339) index nearlyVERTICAL tip(x743,y281), rightglove near(x1160,y335) indexverticaltip(x1174,y278). Not inward-leaning fingers besidecheeks. Other fingerscurled, TWOcontinuousbrowngloves, oneindexeachnotVsign. Widen forearms out fromcurrent elbows~x820/y474 andx1100/y470; left creamcuff extends diagonally fromx740/y392 tox797/y371; right creamcuff fromx1107/y369 tox1170/y392; sleeves angleupandout leaving clean purplegaps beside torso. Shoulder/elbow/cuff contours redraw exactlycurrent outwardkeypose notnarrowprevious. BOTHeyesfullyCLOSED thin nearhorizontal strokes/noiris, tinyclosedmouthdot, headnearlyupright. Current coathem/boots redraw: nearupright groundedlegs, leftboottoesslightleft/rightbootright sole nearhorizontal. Plainred coat/no clovermotifs orverticalcreamtrim; straightcontinuous creamhem. Exactly2shortrootedponies no extra hairunderarms. Match CURRENT source head/collar/cuff/hem/legs contours independently. Two hands/twolegs only; coherent shoulder-elbow-wrist connectivity, correct near/far sleeve layering. Clearpurple sky underarms, no danglinghair belowcollar. Originalpurple star layout, no text/lyrics/watermark (source captions restored independently). One wholelandscape frame, no collage/crop/flip/warped previouspaste. Simple organic darkink and mostlyflat PVcolors; no extraornament/shading.",
+        "output": "generated/star-f1154-fast-continuation-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Rootviewed full/nativeface/body and sourceAB/RGB/contours/locals. Indices straightenvertical and hands moveoutward, rotated cuffs/forearms distinct, sourceindependent.",
+        "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-locals-native.png",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-216be78e-9d6f-49dc-8458-a7045d5c9e04.png",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "output_sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "static_review": {
+          "passed": [
+            "Both index gloves move fartherout and straightenvertical, cuffs and forearms swingout coherently",
+            "Bothclosedeyes tinyclosedmouthdot, two rootedponies, nearverticalgroundedlegs"
+          ],
+          "deferred": [
+            "Hand/cuff/forearm amplitude and contour simplified",
+            "Frontforelock/boottrim/knee shading/head-hem verticalregistration differ; compositor/actual-speed pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1154-fast-continuation-2026-10-05-v1",
+      "source_frame": 1154,
+      "source_cel": "cel-0245",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. ONE independent WHOLE Klee handdrawn PV cel. Image1 exactCURRENT original is wholepose/framing/occlusion authority; Image2 current nativeFACE defines expression and visibleparts; Image3 actual previous/current sourceAB RGBdifference/dualcontours defines real redraw; Image4 current nativeBODY defines cuffs/sleeves/legs/boots; Image5 previousKlee ONLY identity/style/two-rooted-ponytail consistency, NOT frozen expression/pose. Replace entire original girl with pale-blonde shortbangs/elfears and EXACTLY TWO compact rooted shoulder ponytails above lowercollar; red beret/creamclover/whitefeather/brown badge; simple PLAINredcoat, twolobedcreamcollar, plaincreamcuffs, one continuousstraightcream COAThem over REDshorts, browngloves/boots. NO longpinkhair, thirdbunch, oldanimalhat/pajamas/buttons/pockets/backpack. Same currentoriginal centered upright slender fullbody totalheight/framing. CURRENT1154 TWO index fingers stillpointUP but move FARTHER OUTWARDS than1147: leftglove near(x752,y339) index nearlyVERTICAL tip(x743,y281), rightglove near(x1160,y335) indexverticaltip(x1174,y278). Not inward-leaning fingers besidecheeks. Other fingerscurled, TWOcontinuousbrowngloves, oneindexeachnotVsign. Widen forearms out fromcurrent elbows~x820/y474 andx1100/y470; left creamcuff extends diagonally fromx740/y392 tox797/y371; right creamcuff fromx1107/y369 tox1170/y392; sleeves angleupandout leaving clean purplegaps beside torso. Shoulder/elbow/cuff contours redraw exactlycurrent outwardkeypose notnarrowprevious. BOTHeyesfullyCLOSED thin nearhorizontal strokes/noiris, tinyclosedmouthdot, headnearlyupright. Current coathem/boots redraw: nearupright groundedlegs, leftboottoesslightleft/rightbootright sole nearhorizontal. Plainred coat/no clovermotifs orverticalcreamtrim; straightcontinuous creamhem. Exactly2shortrootedponies no extra hairunderarms. Match CURRENT source head/collar/cuff/hem/legs contours independently. Two hands/twolegs only; coherent shoulder-elbow-wrist connectivity, correct near/far sleeve layering. Clearpurple sky underarms, no danglinghair belowcollar. Originalpurple star layout, no text/lyrics/watermark (source captions restored independently). One wholelandscape frame, no collage/crop/flip/warped previouspaste. Simple organic darkink and mostlyflat PVcolors; no extraornament/shading.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-actual.png",
+          "exists": true,
+          "sha256": "dca93728594185dfd593f84f4d9db4c0dcf724fa1b113c4627e94f77ff11c104",
+          "bytes": 756607,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current1154 both indexpointing more widely separated and forearms swing outward."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-face-native.png",
+          "exists": true,
+          "sha256": "679e4f17643a570baff367ccae4902a1bcddb53fe468ac7d0ed52dc659f2eca3",
+          "bytes": 117423,
+          "dimensions": [
+            380,
+            310
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Currentclosed horizontal eyelids/tiny mouthdot."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "bc86460b3afaf15d2f45b95b72ffaa12bb6ee3e893459a0e24855fd547fed984",
+          "bytes": 1684784,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual1147->1154 AB/RGB/contours; gloves move outward, indices morevertical; cuffs rotate."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-body-native.png",
+          "exists": true,
+          "sha256": "18d4c47ba6232bdeb0ed588371539dfc3296480321e96c87121ad07949876e93",
+          "bytes": 273628,
+          "dimensions": [
+            700,
+            725
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current wider bentelbows/creamcuffs/leg/boots and coat."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1147-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "97496fe763875ff9b08ecb909a7ff9282c344f9d9f273c9936f5027b7b2441bf",
+          "bytes": 1310472,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "PreviousKlee identity/style only, not narrower fingerposing."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0686-f1154.png",
+        "exists": true,
+        "sha256": "dca93728594185dfd593f84f4d9db4c0dcf724fa1b113c4627e94f77ff11c104",
+        "bytes": 756607,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1154,
+          "end": 1161,
+          "pts": 48.083,
+          "end_pts": 48.375,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-locals-native.png",
+          "exists": true,
+          "sha256": "1ce7d9bc58d25513b9c8e43206c340da809e4dc91f3f6d6ceac63fb1e62e9997",
+          "bytes": 999924,
+          "dimensions": [
+            1440,
+            1632
+          ],
+          "mode": "RGB"
+        }
+      ],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-216be78e-9d6f-49dc-8458-a7045d5c9e04.png",
+        "exists": true,
+        "sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "bytes": 1278450,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1154-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "bytes": 1278450,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1154,
+          "path": "generated/star-f1154-fast-continuation-v1.png",
+          "job": "jobs/star-f1154-fast-continuation-2026-10-05-v1.json",
+          "review": "root_static_only; Both index gloves move fartherout and straightenvertical, cuffs and forearms swingout coherently; Bothclosedeyes tinyclosedmouthdot, two rootedponies, nearverticalgroundedlegs",
+          "known_issues": [
+            "Hand/cuff/forearm amplitude and contour simplified",
+            "Frontforelock/boottrim/knee shading/head-hem verticalregistration differ; compositor/actual-speed pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1154-fast-continuation-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1164-closeup-2026-10-05-v1.json",
+      "job_json_sha256": "c91f830fcfe4ff2a0acc77d0ec608f4d8474997fc1228618957e42933e1142ca",
+      "job_json_bytes": 4961,
+      "job_original_complete": {
+        "id": "star-f1164-closeup-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1164,
+        "source_cel": "cel-0248",
+        "source_reference": "source_refs/src-0696-f1164.png",
+        "source_exposures": [
+          {
+            "start": 1164,
+            "end": 1168,
+            "pts": 48.5,
+            "end_pts": 48.667,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-actual.png",
+            "role": "Current whole framing, actor scale, exact pose/occlusion authority."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-face-native.png",
+            "role": "Current closed eyelids, narrow O mouth, face orientation."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1162-f1164-source-ab-rgb-contours.png",
+            "role": "Actual previous/current redraw: head shifts and cuff/hand outlines move."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-hands-body-native.png",
+            "role": "Current asymmetric index hands, tilted left cuff and upright right cuff, cropped chest."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-039.png",
+            "role": "Klee identity/style/persistent two short ponytails and costume only, not frozen prior pose."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Produce ONE whole independent handdrawn Klee PV cel, landscape 16:9. Image1 CURRENT ORIGINAL f1164 decides exact closeup framing, scale, face/head/body orientation, silhouette and two hands. Image2 current native face, Image3 true original before/current AB/RGB/contours, Image4 current hands/cuffs/body decide the new drawing. Image5 existing Klee cel ONLY identity, line style, palette and costume continuity, NOT a pasted previous pose. Replace entire pink-haired original girl/animal hat/pajamas with pale blonde Klee: short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails; red beret cream clover, white feather and round brown badge as image5, red coat with same chest pattern/collar medallion, cream cuffs, brown continuous gloves. Match current original scale and position: upper body fills frame, head crown near y60, chin around y620, shoulders/chest cropped by bottom, no legs added. BOTH eyes fully closed near-horizontal strokes, no iris/pupil. Small NARROW vertical O mouth and rounded orange cheeks, head nearly upright with current slight rightward contour shift. TWO index fingers pointed upward with remaining fingers curled: viewer-left hand centered about x420 y690, index tip about x395 y560, left cream cuff angles up-right fromx375y840 tox550y760; right index tip aboutx1440y490, right hand aroundx1430y645 and right cuff almosthorizontal y720..845. Current left hand is LOWER than right, no symmetrical pose. Elbows bend coherently with forearms; current cuff/shoulder folds redraw, left forearm narrows toward tilted cuff. Exactly2 hands only, each ONE extended index not V sign. Two short ponytails connect behind ears and stay beside collar, no old long pink locks, third neck hair or detached hair beneath sleeves. Preserve organic simple dark ink, flat pastel PV colors and original purple backdrop/star placement. No text/lyrics/watermark, original text restored independently later. Do not freeze image5 hands or face, do not collage/crop/flip/morph/paste. No new objects or extra anatomy.",
+        "output": "generated/star-f1164-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root actually viewed full/current face/body and AB/RGB/dual contours plus both native local pages. True shifted head/eyelids/mouth and hands/cuffs cannot alias1162.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1dde2278-a244-4b7e-adfa-d8887629e2d4.png",
+        "output_sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Both closed eyelids and narrow O, two index gloves only; left cuff lower/tilted vs right upright",
+            "Two rooted compact blonde ponies, coherent elbows/sleeves; closeup bottom crop no extra legs"
+          ],
+          "deferred": [
+            "Hands/face placement approximate; chest pattern and collar continuity follows old closeup anchor",
+            "Source background/caption restoration and actual-speed review pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1164-closeup-2026-10-05-v1",
+      "source_frame": 1164,
+      "source_cel": "cel-0248",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Produce ONE whole independent handdrawn Klee PV cel, landscape 16:9. Image1 CURRENT ORIGINAL f1164 decides exact closeup framing, scale, face/head/body orientation, silhouette and two hands. Image2 current native face, Image3 true original before/current AB/RGB/contours, Image4 current hands/cuffs/body decide the new drawing. Image5 existing Klee cel ONLY identity, line style, palette and costume continuity, NOT a pasted previous pose. Replace entire pink-haired original girl/animal hat/pajamas with pale blonde Klee: short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails; red beret cream clover, white feather and round brown badge as image5, red coat with same chest pattern/collar medallion, cream cuffs, brown continuous gloves. Match current original scale and position: upper body fills frame, head crown near y60, chin around y620, shoulders/chest cropped by bottom, no legs added. BOTH eyes fully closed near-horizontal strokes, no iris/pupil. Small NARROW vertical O mouth and rounded orange cheeks, head nearly upright with current slight rightward contour shift. TWO index fingers pointed upward with remaining fingers curled: viewer-left hand centered about x420 y690, index tip about x395 y560, left cream cuff angles up-right fromx375y840 tox550y760; right index tip aboutx1440y490, right hand aroundx1430y645 and right cuff almosthorizontal y720..845. Current left hand is LOWER than right, no symmetrical pose. Elbows bend coherently with forearms; current cuff/shoulder folds redraw, left forearm narrows toward tilted cuff. Exactly2 hands only, each ONE extended index not V sign. Two short ponytails connect behind ears and stay beside collar, no old long pink locks, third neck hair or detached hair beneath sleeves. Preserve organic simple dark ink, flat pastel PV colors and original purple backdrop/star placement. No text/lyrics/watermark, original text restored independently later. Do not freeze image5 hands or face, do not collage/crop/flip/morph/paste. No new objects or extra anatomy.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-actual.png",
+          "exists": true,
+          "sha256": "e54e5ac080ec7856a951aec905d271b952a338159ae3e9f630d343f9623b9678",
+          "bytes": 930552,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current whole framing, actor scale, exact pose/occlusion authority."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-face-native.png",
+          "exists": true,
+          "sha256": "e6010622ca924ddb9bc73cad1c5dbcc1c562fe33b56204355e809b5d61e4b67b",
+          "bytes": 105022,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Current closed eyelids, narrow O mouth, face orientation."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1162-f1164-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "b9c0b531b881b2a31a98cd34bbce5b97727c9e5b079be5cb429b3b4cd372697a",
+          "bytes": 1866924,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual previous/current redraw: head shifts and cuff/hand outlines move."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "fed5f58a504a1897828737465009584bd1183c2305768d5e8778cbf9b61d01ae",
+          "bytes": 870621,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current asymmetric index hands, tilted left cuff and upright right cuff, cropped chest."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-039.png",
+          "exists": true,
+          "sha256": "9ef45455143245f3d7288413a493a36c8ca986287b8df7e0ae48f8c0fdb94e57",
+          "bytes": 1450986,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Klee identity/style/persistent two short ponytails and costume only, not frozen prior pose."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0696-f1164.png",
+        "exists": true,
+        "sha256": "e54e5ac080ec7856a951aec905d271b952a338159ae3e9f630d343f9623b9678",
+        "bytes": 930552,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1164,
+          "end": 1168,
+          "pts": 48.5,
+          "end_pts": 48.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1dde2278-a244-4b7e-adfa-d8887629e2d4.png",
+        "exists": true,
+        "sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+        "bytes": 1456198,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1164-closeup-v1.png",
+        "exists": true,
+        "sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+        "bytes": 1456198,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1164,
+          "path": "generated/star-f1164-closeup-v1.png",
+          "job": "jobs/star-f1164-closeup-2026-10-05-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Both closed eyelids and narrow O, two index gloves only; left cuff lower/tilted vs right upright; Two rooted compact blonde ponies, coherent elbows/sleeves; closeup bottom crop no extra legs",
+          "known_issues": [
+            "Hands/face placement approximate; chest pattern and collar continuity follows old closeup anchor",
+            "Source background/caption restoration and actual-speed review pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1164-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1172-closeup-2026-10-05-v1.json",
+      "job_json_sha256": "7aa5543583d8c0343e8d336162c556d584ea4601ffaabf81d771b5a1cffa68c4",
+      "job_json_bytes": 4911,
+      "job_original_complete": {
+        "id": "star-f1172-closeup-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1172,
+        "source_cel": "cel-0250",
+        "source_reference": "source_refs/src-0704-f1172.png",
+        "source_exposures": [
+          {
+            "start": 1172,
+            "end": 1176,
+            "pts": 48.833,
+            "end_pts": 49,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-actual.png",
+            "role": "Current head leans left/bodyright, lowleft index/highright index."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-face-native.png",
+            "role": "Current diagonal fullyclosed eyelids/tilted smallO."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1168-f1172-source-ab-rgb-contours.png",
+            "role": "True redraw, head/body less tilted than1168, left index raises/verticalizes, right indexmorevertical."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-hands-body-native.png",
+            "role": "Current highright glove overhat, lowleft cuff/elbow and tilted collar."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-040.png",
+            "role": "Previous identity/style only, NOT previous larger lean/outwardleftfinger."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1172 head leans VIEWER-LEFT, crown aboutx800y50 and chinx890y590; eye baseline slopes UP towardright, both completelyclosed/noiris; small tilted openO. Current lean LESS steep thanimage5/1168, head center slightlyright, left hand rises and index points nearVERTICAL rather thanfarleft tilted. LEFT glove lowaroundx305y780 with fingertipx262y655; left creamcuff flaresup-left fromx285y855 tox421y760, forearm/elbowconnected and belowface. RIGHT glove HIGH abovehat nearx1120y190; index fullyVERTICAL fingertipx1150y75, otherfingerscurled, upperhand visiblyforeground besidehat edge, right creamcuff x1080..1250 y230..385 and rightelbow aboutx1310y580. Do nothide right indexbehindfeather or replicate the original animalhat. Both one extendedindex notVsign. Torso bendsright, collarrotateswithshoulders, sleeve/poniesindependentlytrackcurrentless-tiltedhead. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+        "output": "generated/star-f1172-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Rootviewed full/nativeface/body/sourceABRGBcontours and nativepage1. Real smaller tilt and raised verticalleftindex distinct.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-730587e5-e5c9-46e2-a4a4-859bf5854ad2.png",
+        "output_sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Smaller left head tilt with diagonal closed eyes/tilted O",
+            "Low left and above-hat right gloves each one vertical index; right glove in front of hat/feather, two rootedponies"
+          ],
+          "deferred": [
+            "Face/head/hand/cuff scale and placement approximate; coat motif/collar variations",
+            "Source layers and actual-speed pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1172-closeup-2026-10-05-v1",
+      "source_frame": 1172,
+      "source_cel": "cel-0250",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1172 head leans VIEWER-LEFT, crown aboutx800y50 and chinx890y590; eye baseline slopes UP towardright, both completelyclosed/noiris; small tilted openO. Current lean LESS steep thanimage5/1168, head center slightlyright, left hand rises and index points nearVERTICAL rather thanfarleft tilted. LEFT glove lowaroundx305y780 with fingertipx262y655; left creamcuff flaresup-left fromx285y855 tox421y760, forearm/elbowconnected and belowface. RIGHT glove HIGH abovehat nearx1120y190; index fullyVERTICAL fingertipx1150y75, otherfingerscurled, upperhand visiblyforeground besidehat edge, right creamcuff x1080..1250 y230..385 and rightelbow aboutx1310y580. Do nothide right indexbehindfeather or replicate the original animalhat. Both one extendedindex notVsign. Torso bendsright, collarrotateswithshoulders, sleeve/poniesindependentlytrackcurrentless-tiltedhead. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-actual.png",
+          "exists": true,
+          "sha256": "71cc4394649f2fe85e74f5005042f9e0439c98026e1ea93ca111413f444c5a12",
+          "bytes": 980654,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current head leans left/bodyright, lowleft index/highright index."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-face-native.png",
+          "exists": true,
+          "sha256": "5d9ea2a0aee833462fb2beb71fa367ca5853756bbfd111b8b2b37c5639c6cdc7",
+          "bytes": 125711,
+          "dimensions": [
+            360,
+            370
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Current diagonal fullyclosed eyelids/tilted smallO."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1168-f1172-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "fe366ecdfe1a394b8b1d1c81a570e766f751b77a2deaf57826b6c47c5e3f87c9",
+          "bytes": 2268560,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "True redraw, head/body less tilted than1168, left index raises/verticalizes, right indexmorevertical."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "bd9a9d178e088add6f041ca6994387a132264ae1e01104afc3460113ccbf9ebd",
+          "bytes": 923766,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current highright glove overhat, lowleft cuff/elbow and tilted collar."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-040.png",
+          "exists": true,
+          "sha256": "261b252d27b68cbf00ba17035602d6948270faeed4459299debab750c290a8e2",
+          "bytes": 1440129,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous identity/style only, NOT previous larger lean/outwardleftfinger."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0704-f1172.png",
+        "exists": true,
+        "sha256": "71cc4394649f2fe85e74f5005042f9e0439c98026e1ea93ca111413f444c5a12",
+        "bytes": 980654,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1172,
+          "end": 1176,
+          "pts": 48.833,
+          "end_pts": 49,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-730587e5-e5c9-46e2-a4a4-859bf5854ad2.png",
+        "exists": true,
+        "sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+        "bytes": 1447836,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1172-closeup-v1.png",
+        "exists": true,
+        "sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+        "bytes": 1447836,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1172,
+          "path": "generated/star-f1172-closeup-v1.png",
+          "job": "jobs/star-f1172-closeup-2026-10-05-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Smaller left head tilt with diagonal closed eyes/tilted O; Low left and above-hat right gloves each one vertical index; right glove in front of hat/feather, two rootedponies",
+          "known_issues": [
+            "Face/head/hand/cuff scale and placement approximate; coat motif/collar variations",
+            "Source layers and actual-speed pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1172-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1187-closeup-2026-10-05-v1.json",
+      "job_json_sha256": "1f8773526c4ab4c415abb21d6a1ded748c193873a460d9cc9a4f1c2dd44683d7",
+      "job_json_bytes": 5053,
+      "job_original_complete": {
+        "id": "star-f1187-closeup-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1187,
+        "source_cel": "cel-0254",
+        "source_reference": "source_refs/src-0719-f1187.png",
+        "source_exposures": [
+          {
+            "start": 1187,
+            "end": 1191,
+            "pts": 49.458,
+            "end_pts": 49.625,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-actual.png",
+            "role": "Current both gloves aroundhat/headlesslean/torso lesslean."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-face-native.png",
+            "role": "Current tightangle closedeyes/tiny flat pinchedmouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1183-f1187-source-ab-rgb-contours.png",
+            "role": "Head straightens and leftindex tiltsup vs1183, hand/cuff/brow/mouth contoursredrawn."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-hands-body-native.png",
+            "role": "Current hatindex/cuffelbow rotation,forearms and torso."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-043.png",
+            "role": "Previous Klee identity/style ONLY, not frozenhands or moretiltedmouth."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1187 BOTH arms bendup with index fingers framing TOP of beret, forearms foreground over hat/hair sides. Head/torso LESS tilted towardright thanimage5/1183, nearlyupright but tinyright slant. Eyes fully squeezed tight > and < angular strokes, noiris, orangecheeks. Small CLOSED pinched horizontal mouth with shortverticalends, NOT O/not W smile. LEFT glove now diagonal up-right: left index fromx970y76 toTIPx1060y15, near topedge but fingertip stillinside, remainingfingerscurled overupperleft beret; left wrist aboutx800y190/cuffx660..850y150..380, elbowaroundx520y480. RIGHT glove beside top-right hat: index tipaboutx1390y90, index leansslightlyup-left, curledfingersnearx1400y235, cuffx1410..1590y275..450, elbowx1680y565. Not previous flat horizontalleftindex. Oneindexperhand, bothgloves infrontofhat, no merged or extrahatfinger. Collartracksstraighterhead/torso; shoulders/armscurve independently in current silhouette. Keep exactly2shortshoulderponies and no longhair atlowerback. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+        "output": "generated/star-f1187-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed full/face/body/actualABRGBdualcontours/nativepage1; source straighter head and diagonalhigher leftindex/tinyhorizontalmouth confirmed.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5d8a0872-44f6-406e-ac2c-636608ffa60c.png",
+        "output_sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Both hat-top indexgloves, left finger diagonal up/right nearvertical, cuffs coherently connected",
+            "Straighter head with squeezed angularclosedeyes and horizontal pinchedmouth; two rootedponies"
+          ],
+          "deferred": [
+            "Fingertips/cuffs/head/torso placement approximate, extra ornate coat retained fromanchor",
+            "Source layers and actual-speed pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1187-closeup-2026-10-05-v1",
+      "source_frame": 1187,
+      "source_cel": "cel-0254",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1187 BOTH arms bendup with index fingers framing TOP of beret, forearms foreground over hat/hair sides. Head/torso LESS tilted towardright thanimage5/1183, nearlyupright but tinyright slant. Eyes fully squeezed tight > and < angular strokes, noiris, orangecheeks. Small CLOSED pinched horizontal mouth with shortverticalends, NOT O/not W smile. LEFT glove now diagonal up-right: left index fromx970y76 toTIPx1060y15, near topedge but fingertip stillinside, remainingfingerscurled overupperleft beret; left wrist aboutx800y190/cuffx660..850y150..380, elbowaroundx520y480. RIGHT glove beside top-right hat: index tipaboutx1390y90, index leansslightlyup-left, curledfingersnearx1400y235, cuffx1410..1590y275..450, elbowx1680y565. Not previous flat horizontalleftindex. Oneindexperhand, bothgloves infrontofhat, no merged or extrahatfinger. Collartracksstraighterhead/torso; shoulders/armscurve independently in current silhouette. Keep exactly2shortshoulderponies and no longhair atlowerback. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-actual.png",
+          "exists": true,
+          "sha256": "3d40f39932752b0a30b50fe1642cd0c57be1e6f84e50135e249a7f2804be59a6",
+          "bytes": 1002874,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current both gloves aroundhat/headlesslean/torso lesslean."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-face-native.png",
+          "exists": true,
+          "sha256": "0afb46142cda65cc4e819528e9502a09edc37383898815b8d9029fdce49a2fdf",
+          "bytes": 136530,
+          "dimensions": [
+            360,
+            380
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Current tightangle closedeyes/tiny flat pinchedmouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1183-f1187-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "cbfb97ae0c0de23d74be8c3ad3a6428d149ebcd97ca3dc3e748bc3dcac6d05a2",
+          "bytes": 2192496,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Head straightens and leftindex tiltsup vs1183, hand/cuff/brow/mouth contoursredrawn."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "fefe5a0410c2416e800e1cae5581241743704954eb720f2ead65003de6dffb07",
+          "bytes": 947305,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current hatindex/cuffelbow rotation,forearms and torso."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-043.png",
+          "exists": true,
+          "sha256": "b61fc3b5a6fa72615dc7b9ff1beaf99638d64c9f9bf984dd42d8b75f35cf20a8",
+          "bytes": 1427359,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous Klee identity/style ONLY, not frozenhands or moretiltedmouth."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0719-f1187.png",
+        "exists": true,
+        "sha256": "3d40f39932752b0a30b50fe1642cd0c57be1e6f84e50135e249a7f2804be59a6",
+        "bytes": 1002874,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1187,
+          "end": 1191,
+          "pts": 49.458,
+          "end_pts": 49.625,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5d8a0872-44f6-406e-ac2c-636608ffa60c.png",
+        "exists": true,
+        "sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+        "bytes": 1431830,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1187-closeup-v1.png",
+        "exists": true,
+        "sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+        "bytes": 1431830,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1187,
+          "path": "generated/star-f1187-closeup-v1.png",
+          "job": "jobs/star-f1187-closeup-2026-10-05-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Both hat-top indexgloves, left finger diagonal up/right nearvertical, cuffs coherently connected; Straighter head with squeezed angularclosedeyes and horizontal pinchedmouth; two rootedponies",
+          "known_issues": [
+            "Fingertips/cuffs/head/torso placement approximate, extra ornate coat retained fromanchor",
+            "Source layers and actual-speed pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "6260d2dc2075a92eb3ff93ddb619cf461585ac9a95c3637c87cf346972e35ccb",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1187-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1195-closeup-2026-10-05-v1.json",
+      "job_json_sha256": "7638a7673c087c666efbf27df6e5eb88077a37e2407541c3ac7d540493f2f088",
+      "job_json_bytes": 4857,
+      "job_original_complete": {
+        "id": "star-f1195-closeup-2026-10-05-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1195,
+        "source_cel": "cel-0256",
+        "source_reference": "source_refs/src-0727-f1195.png",
+        "source_exposures": [
+          {
+            "start": 1195,
+            "end": 1199,
+            "pts": 49.792,
+            "end_pts": 49.958,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-actual.png",
+            "role": "Current smaller lower uprighthead/foreheadpointing."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-face-native.png",
+            "role": "Current tight angularclosedeyes/tinyhorizontalpinchedmouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1191-f1195-source-ab-rgb-contours.png",
+            "role": "Headfalls/downshifts, lefthandmorehorizontal and rightindexhorizontal inward, sourceactualcontours."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-hands-body-native.png",
+            "role": "Current foreheadgloves/broadbentelbows/cufftilts, torso cropped."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-044.png",
+            "role": "Previous Klee costume/identitystyle only, NOT previoushigherhatpointing orindexangles."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1195 upright centered head LOWER and slightlysmaller thanprevious1191: crownaroundy180, chiny740, squeezed > < eyes noiris and tinyclosedhorizontal mouth withverticalends. Both arms bending towardforehead, LEFT index points diagonallyUP-INWARD endingaroundx910y440, curledleftknuckles~x775y560/cuff~x630..800y535..740. RIGHT index points almostHORIZONTALLY LEFT endingx1100y490, right curledknuckles~x1240y550/cuff~x1220..1420y550..715, notold upwardpoint. Both hands foreground overbangs nearforehead sides, NOT hatcrown. Sourcecurrent leftelbowx470y825 and rightelbowx1510y815 bothwide, lower thanearlier; connectedbrown glove/redforearms/creamcuffs, shoulders/collar lower. Uppercoat/torso continuesoutbottom, NO legsorbody beyondcrop. Clearlylowerhead/handpose thanimage5, do notjustcopylastframe. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+        "output": "generated/star-f1195-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Rootviewed full/nativefacebody/sourceABRGBcontours/nativepage1. Current lower head and rightindex nearlyhorizontal inwarddistinct.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-229479c0-c228-45f0-9a8b-1a17184fae69.png",
+        "output_sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Lower/smaller uprighthead, tight angularclosedeyes and pinchedhorizontalmouth",
+            "Both indexgloves pointing inward atforehead, rightalmosthorizontal; coherentwideelbows/tworootedponies"
+          ],
+          "deferred": [
+            "Head/hand/cuff/shoulder registration and mouthamplitude approximate",
+            "Source layers and actual-speed pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1195-closeup-2026-10-05-v1",
+      "source_frame": 1195,
+      "source_cel": "cel-0256",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1195 upright centered head LOWER and slightlysmaller thanprevious1191: crownaroundy180, chiny740, squeezed > < eyes noiris and tinyclosedhorizontal mouth withverticalends. Both arms bending towardforehead, LEFT index points diagonallyUP-INWARD endingaroundx910y440, curledleftknuckles~x775y560/cuff~x630..800y535..740. RIGHT index points almostHORIZONTALLY LEFT endingx1100y490, right curledknuckles~x1240y550/cuff~x1220..1420y550..715, notold upwardpoint. Both hands foreground overbangs nearforehead sides, NOT hatcrown. Sourcecurrent leftelbowx470y825 and rightelbowx1510y815 bothwide, lower thanearlier; connectedbrown glove/redforearms/creamcuffs, shoulders/collar lower. Uppercoat/torso continuesoutbottom, NO legsorbody beyondcrop. Clearlylowerhead/handpose thanimage5, do notjustcopylastframe. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-actual.png",
+          "exists": true,
+          "sha256": "355112b9f2affa9b65cb2a80c26af4bdb76dfeda9b2b11554c4b26346453049e",
+          "bytes": 958566,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current smaller lower uprighthead/foreheadpointing."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-face-native.png",
+          "exists": true,
+          "sha256": "549a7b0666116e1a595f6b4017154d5fd45722aeef3d872d80108e4c3d43fb1f",
+          "bytes": 150653,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Current tight angularclosedeyes/tinyhorizontalpinchedmouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1191-f1195-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "5d87d4dc8a1e3bef3a98fcb0d4832474658967d91081a5596244e8c7a4f42ffd",
+          "bytes": 2038355,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Headfalls/downshifts, lefthandmorehorizontal and rightindexhorizontal inward, sourceactualcontours."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "97c63222b4b61187d1c381a3b543744b3bd06dfb905ec4a6f2aa32c98a689402",
+          "bytes": 902565,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current foreheadgloves/broadbentelbows/cufftilts, torso cropped."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-044.png",
+          "exists": true,
+          "sha256": "30a4c0184d647aac68391dbd2d25abc3983a41367538344e972bb7adf1b0d8ee",
+          "bytes": 1413782,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous Klee costume/identitystyle only, NOT previoushigherhatpointing orindexangles."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0727-f1195.png",
+        "exists": true,
+        "sha256": "355112b9f2affa9b65cb2a80c26af4bdb76dfeda9b2b11554c4b26346453049e",
+        "bytes": 958566,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1195,
+          "end": 1199,
+          "pts": 49.792,
+          "end_pts": 49.958,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-229479c0-c228-45f0-9a8b-1a17184fae69.png",
+        "exists": true,
+        "sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+        "bytes": 1483890,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1195-closeup-v1.png",
+        "exists": true,
+        "sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+        "bytes": 1483890,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1195,
+          "path": "generated/star-f1195-closeup-v1.png",
+          "job": "jobs/star-f1195-closeup-2026-10-05-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Lower/smaller uprighthead, tight angularclosedeyes and pinchedhorizontalmouth; Both indexgloves pointing inward atforehead, rightalmosthorizontal; coherentwideelbows/tworootedponies",
+          "known_issues": [
+            "Head/hand/cuff/shoulder registration and mouthamplitude approximate",
+            "Source layers and actual-speed pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1195-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1199-closeup-2026-10-06-v1.json",
+      "job_json_sha256": "bfeec845c55e8235b9f0129b15987099539416eee08ee89155595c7844776ed2",
+      "job_json_bytes": 5288,
+      "job_original_complete": {
+        "id": "star-f1199-closeup-2026-10-06-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1199,
+        "source_cel": "cel-0257",
+        "source_reference": "source_refs/src-0731-f1199.png",
+        "source_exposures": [
+          {
+            "start": 1199,
+            "end": 1203,
+            "pts": 49.958,
+            "end_pts": 50.125,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-actual.png",
+            "role": "Current centered slightly lower head, left glove down/inward, right index raised up-left."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-face-native.png",
+            "role": "Current angular squeezed closed eyes and tiny pinched closed mouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-f1199-source-ab-rgb-contours.png",
+            "role": "Actual redraw: left cuff rotates/hand lowers, right index swings diagonal up-left."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-hands-body-native.png",
+            "role": "Current glove/bang overlap, cuff rotation and broad elbows."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1195-closeup-v1.png",
+            "role": "Previous Klee identity/costume/line style only; not old horizontal right index."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. ONE independent WHOLE handdrawn Klee PV cel, landscape 16:9. Image 1 CURRENT original decides whole pose, framing, scale and occlusion. Image 2 current native face decides expression. Image 3 actual previous/current source AB, RGB difference and dual contours decides redraw. Image 4 current native hands/body decides cuffs, elbows and shoulders. Image 5 previous Klee is ONLY identity, organic line style and costume continuity, NOT frozen pose. Replace all original pink-haired girl/animal hat/pajamas with pale blonde Klee, short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails, red beret/cream clover/white feather/brown round badge, same simple red coat/cream patterned collar/chest medallion/cuffs/brown gloves as image 5. Upper-body closeup cropped at bottom; no extra legs. Simple dark organic ink, mostly flat pastel PV colors. CURRENT f1199 differs from1195: both hands still near forehead, but LEFT glove lowers toward left eyelid and the cuff rotates more horizontal. Left index points diagonally UP-RIGHT, fingertip around x925,y485, left curled knuckles around x835,y625, wrist~x750,y680; left cream cuff from x620,y560 to x760,y760. RIGHT index swings UP-LEFT, fingertip x1150,y420, not previous horizontal inward pose. Right curled knuckles around x1230,y560, cream cuff x1240..1420,y540..715. Head centered/upright, crown abouty190 and chiny750, cheeks orange. Both eyes fully CLOSED angular > < strokes with no iris; tiny CLOSED pinched mouth with short vertical ends. Left glove is visibly LOWER than right, hands in foreground overlap short bangs but don't cover eyes or become extra fingers. Both elbows broad, left x450,y820 and right x1510,y800, continuous two red sleeves and brown gloves. Shoulders/collar redraw current slight lower posture. Both forearms respond to current rotational change, do not copy image5 hands. Exactly TWO continuous brown-gloved hands with coherent shoulder/elbow/wrist connectivity and source-visible fingers only. Two rooted short ponies, no old long pink locks, third neck bunch or detached hair under sleeves. Redraw current source silhouette/placement/visible range independently; don't freeze previous expression or hands. Original purple backdrop and star layout, NO text/lyrics/watermark; real source captions restored independently. No collage, paste, flip, morph or added objects.",
+        "output": "generated/star-f1199-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root actually viewed current full/native face/body, actualABRGBcontours and nativekeyparts before interrupted turn; restored completed1195 job without repeat generation.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-94b0c690-cab2-4157-8b51-d7daf5a6b431.png",
+        "output_sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+        "output_dimensions": [
+          1672,
+          940
+        ],
+        "static_review": {
+          "passed": [
+            "Left glove lower/near eyebrow and rotated cuff, right index diagonal up-left; independent hand change",
+            "Fully angular squeezed eyes/pinched closedmouth, two rooted ponies and connected broad elbows"
+          ],
+          "deferred": [
+            "Head/hand/cuff/bang positioning and torso contours approximate",
+            "Costume ornaments/gradient shading persist; real source layers/actual-speed pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1199-closeup-2026-10-06-v1",
+      "source_frame": 1199,
+      "source_cel": "cel-0257",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. ONE independent WHOLE handdrawn Klee PV cel, landscape 16:9. Image 1 CURRENT original decides whole pose, framing, scale and occlusion. Image 2 current native face decides expression. Image 3 actual previous/current source AB, RGB difference and dual contours decides redraw. Image 4 current native hands/body decides cuffs, elbows and shoulders. Image 5 previous Klee is ONLY identity, organic line style and costume continuity, NOT frozen pose. Replace all original pink-haired girl/animal hat/pajamas with pale blonde Klee, short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails, red beret/cream clover/white feather/brown round badge, same simple red coat/cream patterned collar/chest medallion/cuffs/brown gloves as image 5. Upper-body closeup cropped at bottom; no extra legs. Simple dark organic ink, mostly flat pastel PV colors. CURRENT f1199 differs from1195: both hands still near forehead, but LEFT glove lowers toward left eyelid and the cuff rotates more horizontal. Left index points diagonally UP-RIGHT, fingertip around x925,y485, left curled knuckles around x835,y625, wrist~x750,y680; left cream cuff from x620,y560 to x760,y760. RIGHT index swings UP-LEFT, fingertip x1150,y420, not previous horizontal inward pose. Right curled knuckles around x1230,y560, cream cuff x1240..1420,y540..715. Head centered/upright, crown abouty190 and chiny750, cheeks orange. Both eyes fully CLOSED angular > < strokes with no iris; tiny CLOSED pinched mouth with short vertical ends. Left glove is visibly LOWER than right, hands in foreground overlap short bangs but don't cover eyes or become extra fingers. Both elbows broad, left x450,y820 and right x1510,y800, continuous two red sleeves and brown gloves. Shoulders/collar redraw current slight lower posture. Both forearms respond to current rotational change, do not copy image5 hands. Exactly TWO continuous brown-gloved hands with coherent shoulder/elbow/wrist connectivity and source-visible fingers only. Two rooted short ponies, no old long pink locks, third neck bunch or detached hair under sleeves. Redraw current source silhouette/placement/visible range independently; don't freeze previous expression or hands. Original purple backdrop and star layout, NO text/lyrics/watermark; real source captions restored independently. No collage, paste, flip, morph or added objects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-actual.png",
+          "exists": true,
+          "sha256": "645a84e784297920f908481cda906630474bec99ede61182a11e63035dcedec9",
+          "bytes": 979357,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current centered slightly lower head, left glove down/inward, right index raised up-left."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-face-native.png",
+          "exists": true,
+          "sha256": "a19a537f39cca1c22a75dfd62d08da1e6d471749cb9cfeeb4441871ebad25f9b",
+          "bytes": 153763,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Current angular squeezed closed eyes and tiny pinched closed mouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-f1199-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "e348703989811183b808595f8a48ea645dada5f643a7c6cd50ada089ff701bad",
+          "bytes": 2086608,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual redraw: left cuff rotates/hand lowers, right index swings diagonal up-left."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "acfbf2f88ecb4a281f71b37dcf00da72a7e9f766a78dae50227ec0d5909ca629",
+          "bytes": 923313,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current glove/bang overlap, cuff rotation and broad elbows."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1195-closeup-v1.png",
+          "exists": true,
+          "sha256": "452e571ecc8849c3a094f5453db3e9780b3059453ba746ebaaf6c6ae40a8184d",
+          "bytes": 1483890,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous Klee identity/costume/line style only; not old horizontal right index."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0731-f1199.png",
+        "exists": true,
+        "sha256": "645a84e784297920f908481cda906630474bec99ede61182a11e63035dcedec9",
+        "bytes": 979357,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1199,
+          "end": 1203,
+          "pts": 49.958,
+          "end_pts": 50.125,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-94b0c690-cab2-4157-8b51-d7daf5a6b431.png",
+        "exists": true,
+        "sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+        "bytes": 1543684,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1199-closeup-v1.png",
+        "exists": true,
+        "sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+        "bytes": 1543684,
+        "dimensions": [
+          1672,
+          940
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1199,
+          "path": "generated/star-f1199-closeup-v1.png",
+          "job": "jobs/star-f1199-closeup-2026-10-06-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Left glove lower/near eyebrow and rotated cuff, right index diagonal up-left; independent hand change; Fully angular squeezed eyes/pinched closedmouth, two rooted ponies and connected broad elbows",
+          "known_issues": [
+            "Head/hand/cuff/bang positioning and torso contours approximate",
+            "Costume ornaments/gradient shading persist; real source layers/actual-speed pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1199-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1203-closeup-2026-10-06-v1.json",
+      "job_json_sha256": "56ec3e432f55502be8178e71418c7852e3a4d6ccfe14cd9c8f0cbe5e1200d62b",
+      "job_json_bytes": 4628,
+      "job_original_complete": {
+        "id": "star-f1203-closeup-2026-10-06-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1203,
+        "source_cel": "cel-0258",
+        "source_reference": "source_refs/src-0735-f1203.png",
+        "source_exposures": [
+          {
+            "start": 1203,
+            "end": 1207,
+            "pts": 50.125,
+            "end_pts": 50.292,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+            "role": "Current whole pose and framing, lower head/arms."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+            "role": "Closed angular eyes; tiny closed caret/check/W mouth, not prior horizontal mouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+            "role": "Actual lower hands/cuffs, altered mouth and shoulder redraw."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+            "role": "Current lower forehead gestures, cuffs/elbows/body and overlap."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1199-closeup-v1.png",
+            "role": "Klee identity/costume only; do not copy old mouth or higher hands."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. ONE independent WHOLE handdrawn Klee PV cel, landscape 16:9. Image 1 CURRENT original decides whole pose, framing, scale and occlusion. Image 2 current native face decides expression. Image 3 actual previous/current source AB, RGB difference and dual contours decides redraw. Image 4 current native hands/body decides cuffs, elbows and shoulders. Image 5 previous Klee is ONLY identity, organic line style and costume continuity, NOT frozen pose. Replace all original pink-haired girl/animal hat/pajamas with pale blonde Klee, short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails, red beret/cream clover/white feather/brown round badge, same simple red coat/cream patterned collar/chest medallion/cuffs/brown gloves as image 5. Upper-body closeup cropped at bottom; no extra legs. Simple dark organic ink, mostly flat pastel PV colors. CURRENT f1203 changes from1199: head slightly LOWER, centered/upright, crown around y210 and chin y765. Eyes CLOSED angular > <, tiny CLOSED caret-like W/check mouth, not previous horizontal pinched mouth. LEFT index remains diagonally UP-RIGHT but lowers, fingertip x918,y525; glove knuckles x820,y650; cream cuff x620..780,y605..795. RIGHT index lowers, diagonally UP-LEFT fingertip x1130,y480, knuckles x1240,y600, cream cuff x1260..1450,y575..755. Broad left elbow x450,y820 and right elbow x1530,y840, shoulders lower and cuffs rotate. Both gloves in front of bangs, eyes not covered. Two coherent brown-gloved hands connected to their red sleeves. Exactly TWO rooted short shoulder ponies, no old long pink hair/third bunch. Independently redraw current source silhouette, hand angles, expression and shoulders; reference5 does not decide pose. Original purple backdrop/current stars, NO text/lyrics/watermark; source captions restored separately. No collage, paste, flip, morph or extra objects.",
+        "output": "generated/star-f1203-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root actually viewed full current source, native face/body, AB/RGB/contours overview and native local page1, and preceding1199 Klee; confirms changed mouth/lowered gestures.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-fbdd656e-d446-4728-b61e-7ac60f2bfb4b.png",
+        "output_sha256": "fff4bd7d4f579eed21ccedd953e8ebc813e985c3f29ecff5f0d45b80fe95c969",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Two coherent hands, two compact rooted ponies; lowered hand/cuff redraw"
+          ],
+          "deferred": [
+            "Mouth remains horizontal pinched, not the target caret/check; fresh-source correction required",
+            "Head/hand/torso registration approximate; source layer and temporal review pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1203-closeup-2026-10-06-v1",
+      "source_frame": 1203,
+      "source_cel": "cel-0258",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. ONE independent WHOLE handdrawn Klee PV cel, landscape 16:9. Image 1 CURRENT original decides whole pose, framing, scale and occlusion. Image 2 current native face decides expression. Image 3 actual previous/current source AB, RGB difference and dual contours decides redraw. Image 4 current native hands/body decides cuffs, elbows and shoulders. Image 5 previous Klee is ONLY identity, organic line style and costume continuity, NOT frozen pose. Replace all original pink-haired girl/animal hat/pajamas with pale blonde Klee, short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails, red beret/cream clover/white feather/brown round badge, same simple red coat/cream patterned collar/chest medallion/cuffs/brown gloves as image 5. Upper-body closeup cropped at bottom; no extra legs. Simple dark organic ink, mostly flat pastel PV colors. CURRENT f1203 changes from1199: head slightly LOWER, centered/upright, crown around y210 and chin y765. Eyes CLOSED angular > <, tiny CLOSED caret-like W/check mouth, not previous horizontal pinched mouth. LEFT index remains diagonally UP-RIGHT but lowers, fingertip x918,y525; glove knuckles x820,y650; cream cuff x620..780,y605..795. RIGHT index lowers, diagonally UP-LEFT fingertip x1130,y480, knuckles x1240,y600, cream cuff x1260..1450,y575..755. Broad left elbow x450,y820 and right elbow x1530,y840, shoulders lower and cuffs rotate. Both gloves in front of bangs, eyes not covered. Two coherent brown-gloved hands connected to their red sleeves. Exactly TWO rooted short shoulder ponies, no old long pink hair/third bunch. Independently redraw current source silhouette, hand angles, expression and shoulders; reference5 does not decide pose. Original purple backdrop/current stars, NO text/lyrics/watermark; source captions restored separately. No collage, paste, flip, morph or extra objects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+          "exists": true,
+          "sha256": "0b6291e6715a3c76b96e9b9abe1503063694b532c29027e90d92716f7d8d10dd",
+          "bytes": 917707,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current whole pose and framing, lower head/arms."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+          "exists": true,
+          "sha256": "7d237857335910036b7d105b2343bddc71f69245998f013967a33a823abc9773",
+          "bytes": 145001,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Closed angular eyes; tiny closed caret/check/W mouth, not prior horizontal mouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "2f8f8c96954582e95fdd575cabf7e8ffe725bba11cdad5d30f968574997c3e84",
+          "bytes": 2185924,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual lower hands/cuffs, altered mouth and shoulder redraw."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "94021944570bddf873b60d1fac724322042fe54dfbec962c513fb4643f3db01e",
+          "bytes": 860825,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current lower forehead gestures, cuffs/elbows/body and overlap."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1199-closeup-v1.png",
+          "exists": true,
+          "sha256": "10c553d3c1a06a67d96ed7a0695342732c5daf67f7a6518670f33ce8ca0b16ab",
+          "bytes": 1543684,
+          "dimensions": [
+            1672,
+            940
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Klee identity/costume only; do not copy old mouth or higher hands."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0735-f1203.png",
+        "exists": true,
+        "sha256": "0b6291e6715a3c76b96e9b9abe1503063694b532c29027e90d92716f7d8d10dd",
+        "bytes": 917707,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1203,
+          "end": 1207,
+          "pts": 50.125,
+          "end_pts": 50.292,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-fbdd656e-d446-4728-b61e-7ac60f2bfb4b.png",
+        "exists": true,
+        "sha256": "fff4bd7d4f579eed21ccedd953e8ebc813e985c3f29ecff5f0d45b80fe95c969",
+        "bytes": 1479424,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1203-closeup-v1.png",
+        "exists": true,
+        "sha256": "fff4bd7d4f579eed21ccedd953e8ebc813e985c3f29ecff5f0d45b80fe95c969",
+        "bytes": 1479424,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1203,
+          "path": "generated/star-f1203-closeup-v2.png",
+          "job": "jobs/star-f1203-closeup-2026-10-06-v2.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Current V/check-shaped mouth replaces frozen horizontal pinched expression; Two inward index gestures, coherent sleeves and two ponies",
+          "known_issues": [
+            "Mouth short spur absent, cuff/hand/head registration approximate",
+            "Costume/hat detail drift relative to neighboring ornate coat; defer first-cut rework",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": false,
+      "root_declared_final_candidate": "generated/star-f1203-closeup-v2.png",
+      "final_disposition": "other_variant_unselected",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1203-closeup-2026-10-06-v2.json",
+      "job_json_sha256": "47b2d777addb322b555d2ae565c3f23a8051939d92c96cfe6475cab54e3c324d",
+      "job_json_bytes": 4436,
+      "job_original_complete": {
+        "id": "star-f1203-closeup-2026-10-06-v2",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1203,
+        "source_cel": "cel-0258",
+        "source_reference": "source_refs/src-0735-f1203.png",
+        "source_exposures": [
+          {
+            "start": 1203,
+            "end": 1207,
+            "pts": 50.125,
+            "end_pts": 50.292,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+            "role": "Current whole pose and framing, lower head/arms."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+            "role": "Closed angular eyes; tiny closed caret/check/W mouth, not prior horizontal mouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+            "role": "Actual lower hands/cuffs, altered mouth and shoulder redraw."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+            "role": "Current lower forehead gestures, cuffs/elbows/body and overlap."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE WHOLE independent landscape16:9 original-PV replacement cel. Image1 current original f1203 decides framing, exact current pose, contour, scale. Image2 exact native facial expression; image3 actual AB RGB and contours source redraw; image4 current native hands and body. Replace original animal-hat pink-haired character with Klee: red beret/cream clover/white feather/brown badge, short blonde bangs/pointed ears, EXACTLY TWO short shoulder ponytails, simple red coat/cream diamond-patterned collar/chest clover medallion/cream cuffs/brown gloves. Dark organic linework, mostly flat pastel handdrawn colors matching original PV. CURRENT mouth is a tiny tilted CLOSED checkmark/W at face center: short left descending diagonal, right rising diagonal, little left downward spur, asymmetrical shallow V. It is NOT a horizontal line with pinched vertical ends. Faithfully follow image2 current mouth. Both eyes fully closed angular > < strokes/no iris, orange cheeks. Head centered upright crowny210/chiny765. Both forehead-pointing gloved hands lower than previous cel: LEFT fingertipx918,y525 diagonal UP-RIGHT, knucklesx820,y650,cuffx620..780,y605..795. RIGHT fingertipx1130,y480 diagonal UP-LEFT, knucklesx1240,y600,cuffx1260..1450,y575..755. Two continuous red sleeves with broad elbowsleftx450,y820 andrightx1530,y840, shoulders lower. Foreground gloves overlap bangs, not eyes. Exactly two coherent brown-gloved hands/source visible fingers; no extra arms/hair/long pink locks. Independently redraw current source with current tilted W-mouth, not previous expression. Purple source backdrop/currentstars, NO lyrics/text/watermark; exact source layers restored separately. No collage, morph, flip, paste or extra objects.",
+        "output": "generated/star-f1203-closeup-v2.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Same current source/native refs actually viewed; first call retained prior horizontal mouth. One fresh-source correction without whole Klee anchor, current native tilted check/W controls expression.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c6ed0ec3-40bf-466b-8d2d-af5a99e6db7f.png",
+        "output_sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Current V/check-shaped mouth replaces frozen horizontal pinched expression",
+            "Two inward index gestures, coherent sleeves and two ponies"
+          ],
+          "deferred": [
+            "Mouth short spur absent, cuff/hand/head registration approximate",
+            "Costume/hat detail drift relative to neighboring ornate coat; defer first-cut rework",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1203-closeup-2026-10-06-v2",
+      "source_frame": 1203,
+      "source_cel": "cel-0258",
+      "variant_number": 2,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE WHOLE independent landscape16:9 original-PV replacement cel. Image1 current original f1203 decides framing, exact current pose, contour, scale. Image2 exact native facial expression; image3 actual AB RGB and contours source redraw; image4 current native hands and body. Replace original animal-hat pink-haired character with Klee: red beret/cream clover/white feather/brown badge, short blonde bangs/pointed ears, EXACTLY TWO short shoulder ponytails, simple red coat/cream diamond-patterned collar/chest clover medallion/cream cuffs/brown gloves. Dark organic linework, mostly flat pastel handdrawn colors matching original PV. CURRENT mouth is a tiny tilted CLOSED checkmark/W at face center: short left descending diagonal, right rising diagonal, little left downward spur, asymmetrical shallow V. It is NOT a horizontal line with pinched vertical ends. Faithfully follow image2 current mouth. Both eyes fully closed angular > < strokes/no iris, orange cheeks. Head centered upright crowny210/chiny765. Both forehead-pointing gloved hands lower than previous cel: LEFT fingertipx918,y525 diagonal UP-RIGHT, knucklesx820,y650,cuffx620..780,y605..795. RIGHT fingertipx1130,y480 diagonal UP-LEFT, knucklesx1240,y600,cuffx1260..1450,y575..755. Two continuous red sleeves with broad elbowsleftx450,y820 andrightx1530,y840, shoulders lower. Foreground gloves overlap bangs, not eyes. Exactly two coherent brown-gloved hands/source visible fingers; no extra arms/hair/long pink locks. Independently redraw current source with current tilted W-mouth, not previous expression. Purple source backdrop/currentstars, NO lyrics/text/watermark; exact source layers restored separately. No collage, morph, flip, paste or extra objects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+          "exists": true,
+          "sha256": "0b6291e6715a3c76b96e9b9abe1503063694b532c29027e90d92716f7d8d10dd",
+          "bytes": 917707,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current whole pose and framing, lower head/arms."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+          "exists": true,
+          "sha256": "7d237857335910036b7d105b2343bddc71f69245998f013967a33a823abc9773",
+          "bytes": 145001,
+          "dimensions": [
+            360,
+            350
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Closed angular eyes; tiny closed caret/check/W mouth, not prior horizontal mouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "2f8f8c96954582e95fdd575cabf7e8ffe725bba11cdad5d30f968574997c3e84",
+          "bytes": 2185924,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Actual lower hands/cuffs, altered mouth and shoulder redraw."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+          "exists": true,
+          "sha256": "94021944570bddf873b60d1fac724322042fe54dfbec962c513fb4643f3db01e",
+          "bytes": 860825,
+          "dimensions": [
+            1570,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Current lower forehead gestures, cuffs/elbows/body and overlap."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0735-f1203.png",
+        "exists": true,
+        "sha256": "0b6291e6715a3c76b96e9b9abe1503063694b532c29027e90d92716f7d8d10dd",
+        "bytes": 917707,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1203,
+          "end": 1207,
+          "pts": 50.125,
+          "end_pts": 50.292,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c6ed0ec3-40bf-466b-8d2d-af5a99e6db7f.png",
+        "exists": true,
+        "sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+        "bytes": 1406851,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1203-closeup-v2.png",
+        "exists": true,
+        "sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+        "bytes": 1406851,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1203,
+          "path": "generated/star-f1203-closeup-v2.png",
+          "job": "jobs/star-f1203-closeup-2026-10-06-v2.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Current V/check-shaped mouth replaces frozen horizontal pinched expression; Two inward index gestures, coherent sleeves and two ponies",
+          "known_issues": [
+            "Mouth short spur absent, cuff/hand/head registration approximate",
+            "Costume/hat detail drift relative to neighboring ornate coat; defer first-cut rework",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "53651c7b1c821bafbb12183748f6d8153332daf53b996b72f05cd5cea2ed0d88",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1203-closeup-v2.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1211-closeup-2026-10-06-v1.json",
+      "job_json_sha256": "743a93091d163646e48f1493feee55ce160bd8b924234607d94873d8f576c148",
+      "job_json_bytes": 4543,
+      "job_original_complete": {
+        "id": "star-f1211-closeup-2026-10-06-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1211,
+        "source_cel": "cel-0260",
+        "source_reference": "source_refs/src-0743-f1211.png",
+        "source_exposures": [
+          {
+            "start": 1211,
+            "end": 1216,
+            "pts": 50.458,
+            "end_pts": 50.667,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-source-actual.png",
+            "role": "Current independent Y-armed open palms/head lower and framing."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-expanded-v2-source-face-native.png",
+            "role": "Half-open eyes/red Klee irises and smaller tilted pear/O mouth."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1207-f1211-source-ab-rgb-contours.png",
+            "role": "True source redraw from1207, altered palms/cuffs/head/torso."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1207-f1211-expanded-v2-locals-1-native.png",
+            "role": "Native current hand digit/spread and face AB/RGB/contour."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045.png",
+            "role": "Existing Klee identity/costume only; independent current redraw."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. ONE WHOLE independent handdrawn Klee PV cel, landscape16:9. Image1 CURRENT originalf1211 determines framing, current scale/pose/occlusion. Image2 current native face; image3 previous/current ORIGINAL AB/RGB/dualcontours; image4 actual native face and BOTH full palms; image5 previous Klee ONLY identity/ink/costume. Current hands spread widely into a Y, left palm outerfingersx174..335 andthumbx290,y110, leftwristx460,y340, rightouterfingersx1830 andthumbx1710,y100, rightwristx1560,y290. All fingers exactly follow current shape: thumb upward/outward, four other fingers outward on each full open brown-gloved palm, coherent anatomical connections. Wide cream cuffs leftx407..577,y265..550 andrightx1460..1607,y241..512 rotated current angles. Straight diagonally raised red sleeves connect to shoulders/torso with source folds/raised-armpit not extra elbows. Head slightly LOWER than previous, current crown~y60, chin~y620. Both eyes halfopen with RED irises and source sleepy brows/upperlids, both look down-left as source; small OPEN tilted pear/O mouth, notclosedmouth. Replace original animalhat/pinkhair/pajamas with shortblonde Klee, pointedears, redberet/creamclover/whitefeather/brownbadge, EXACTLY TWO short rooted ponies beside neck, same redcoat/creamdiamondcollar/chestmedallion/cuffs/browngloves as5. No long old hair behind armpits or extra duplicated hair wings. Independent current palms/hat/face/cuff/collar/torso redraw; do not freeze image5 cel. Dark organic PV linework, mostly flat pastel colors, original purplebackground/currentstar layout. NO text/lyrics/watermark; source captions composited separately. No collage/paste/flip/morph/newobjects.",
+        "output": "generated/star-f1211-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed current full/expanded nativeface, actualABRGBcontour overview and all4 expanded-v2 native keypartpages, existing candidate045; confirms independent changes, full palms beyond old crop.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-fab4156f-d79a-41e1-b633-d9d6bd597dc1.png",
+        "output_sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Two complete spread glove palms, Y arms, two compact ponies",
+            "Independent cuff/head redraw and half-open red eyes/open O"
+          ],
+          "deferred": [
+            "Eyes do not clearly retain source down-left gaze; mouth less pear-shaped",
+            "Hand/head/cuff registration approximate and costume ornament drift",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1211-closeup-2026-10-06-v1",
+      "source_frame": 1211,
+      "source_cel": "cel-0260",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. ONE WHOLE independent handdrawn Klee PV cel, landscape16:9. Image1 CURRENT originalf1211 determines framing, current scale/pose/occlusion. Image2 current native face; image3 previous/current ORIGINAL AB/RGB/dualcontours; image4 actual native face and BOTH full palms; image5 previous Klee ONLY identity/ink/costume. Current hands spread widely into a Y, left palm outerfingersx174..335 andthumbx290,y110, leftwristx460,y340, rightouterfingersx1830 andthumbx1710,y100, rightwristx1560,y290. All fingers exactly follow current shape: thumb upward/outward, four other fingers outward on each full open brown-gloved palm, coherent anatomical connections. Wide cream cuffs leftx407..577,y265..550 andrightx1460..1607,y241..512 rotated current angles. Straight diagonally raised red sleeves connect to shoulders/torso with source folds/raised-armpit not extra elbows. Head slightly LOWER than previous, current crown~y60, chin~y620. Both eyes halfopen with RED irises and source sleepy brows/upperlids, both look down-left as source; small OPEN tilted pear/O mouth, notclosedmouth. Replace original animalhat/pinkhair/pajamas with shortblonde Klee, pointedears, redberet/creamclover/whitefeather/brownbadge, EXACTLY TWO short rooted ponies beside neck, same redcoat/creamdiamondcollar/chestmedallion/cuffs/browngloves as5. No long old hair behind armpits or extra duplicated hair wings. Independent current palms/hat/face/cuff/collar/torso redraw; do not freeze image5 cel. Dark organic PV linework, mostly flat pastel colors, original purplebackground/currentstar layout. NO text/lyrics/watermark; source captions composited separately. No collage/paste/flip/morph/newobjects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-source-actual.png",
+          "exists": true,
+          "sha256": "d088d06ed7a384a3ebe57cba08d503738b5f173b5701ebca9a3fdf8906a3224e",
+          "bytes": 1016843,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current independent Y-armed open palms/head lower and framing."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-expanded-v2-source-face-native.png",
+          "exists": true,
+          "sha256": "aee8fd5313a19f6247d7fff3c8775c4a09988573db3b20a0b743b38e183a62a5",
+          "bytes": 137413,
+          "dimensions": [
+            360,
+            385
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Half-open eyes/red Klee irises and smaller tilted pear/O mouth."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1207-f1211-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "1d5e6568f0ee6075645e63e7a9ce51e5a7ff8ecf6afc2a156417585ee6fbd485",
+          "bytes": 2202820,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "True source redraw from1207, altered palms/cuffs/head/torso."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1207-f1211-expanded-v2-locals-1-native.png",
+          "exists": true,
+          "sha256": "f3b1d706f5ac9e05ad23fd4430e57c38930213a859e8d1a84e84862c6dd755b3",
+          "bytes": 736221,
+          "dimensions": [
+            1440,
+            1281
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Native current hand digit/spread and face AB/RGB/contour."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045.png",
+          "exists": true,
+          "sha256": "086d3ed474742c8b847f93fb58e92dcbe81f976f35825df8a2641ee413371a0f",
+          "bytes": 1449202,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Existing Klee identity/costume only; independent current redraw."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0743-f1211.png",
+        "exists": true,
+        "sha256": "d088d06ed7a384a3ebe57cba08d503738b5f173b5701ebca9a3fdf8906a3224e",
+        "bytes": 1016843,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1211,
+          "end": 1216,
+          "pts": 50.458,
+          "end_pts": 50.667,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-fab4156f-d79a-41e1-b633-d9d6bd597dc1.png",
+        "exists": true,
+        "sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+        "bytes": 1477214,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1211-closeup-v1.png",
+        "exists": true,
+        "sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+        "bytes": 1477214,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1211,
+          "path": "generated/star-f1211-closeup-v1.png",
+          "job": "jobs/star-f1211-closeup-2026-10-06-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Two complete spread glove palms, Y arms, two compact ponies; Independent cuff/head redraw and half-open red eyes/open O",
+          "known_issues": [
+            "Eyes do not clearly retain source down-left gaze; mouth less pear-shaped",
+            "Hand/head/cuff registration approximate and costume ornament drift",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1211-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1216-closeup-2026-10-06-v1.json",
+      "job_json_sha256": "198b00997cbe37e28f1fbf5ce7d4b0864619ef58b25e15e9090732190c79763d",
+      "job_json_bytes": 4476,
+      "job_original_complete": {
+        "id": "star-f1216-closeup-2026-10-06-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1216,
+        "source_cel": "cel-0261",
+        "source_reference": "source_refs/src-0748-f1216.png",
+        "source_exposures": [
+          {
+            "start": 1216,
+            "end": 1217,
+            "pts": 50.667,
+            "end_pts": 50.708,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-source-actual.png",
+            "role": "Current whole Y arms, lowered head/closed eyes/large O."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-expanded-v2-source-face-native.png",
+            "role": "Closed eyelids/no irises, large open oval mouth with tiny bottom opening."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-f1216-source-ab-rgb-contours.png",
+            "role": "Original1211 to1216 actual pose/cuff/head redraw."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-f1216-expanded-v2-locals-1-native.png",
+            "role": "Native current face/both open palms and actual finger spread."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1211-closeup-v1.png",
+            "role": "Previous Klee identity/costume only; do not freeze open eyes."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn landscape16:9 Klee cel. Current original1216 image1 controls framing/current pose/scale/occlusion. Image2 current face and image3 actual AB RGB dual contours control new expression and redraw; image4 native face+fullpalms; image5 prior Klee ONLY identity/costume/line style. Current f1216 is a NEW redraw with slightly lower head (crown~y75/chiny633), BOTH eyes COMPLETELY CLOSED as short nearly horizontal heavy eyelid strokes, small thin brows above, NO red irises or white eyeballs. LARGE open singing O mouth~x958..1023,y520..598, taller/wider than preceding small O, pink inner mouth and tiny gap at bottom stroke. Broad Y arms with left wrist~x460,y365/palm shifted lower/thumbtopx295,y130/fourleftfingersx178..335,y230..370, rightwrist~x1560,y288/right thumbtipx1707,y100/four fingersx1820,y200..333. Spread open FIVE fingered brown glove palms faithfully from image4; left thumb upward-left/right thumb upward-right, four other fingers outward. Left cream cuff~x407..575,y276..570 rotates, right cream cuff~x1465..1605,y240..506. Red diagonally straight sleeves continuous to armpits/current torso, no extra elbows or oldpinkhair at armpits. Replace original with Klee blonde shortbangs/pointedears/EXACTLY TWO short rooted ponies beside neck, redberet/creamclover/whitefeather/brown badge, same simple redcoat/creamdiamondcollar/chestmedallion/browngloves/cuffs as5. Current hat, collar, palms and sleeves independently redraw. Dark organic ink/mostlyflatpastel original PV style, purple original backdrop/currentstar arrangement. NO text/lyrics/watermark, real source captions separately restored. No collage/paste/flip/morph/extraobjects.",
+        "output": "generated/star-f1216-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root viewed current full/native expanded face and all4 native keypartpages, actualABRGBcontour overview, generated1211. Significant closed eyes and wider mouth are true separate source cel.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-16e746a1-55af-488f-b0e3-104afe0efbc0.png",
+        "output_sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Closed eyes/no iris, larger open O, two full five-digit palms",
+            "Two compact rooted ponies and Y arms/continuous sleeves"
+          ],
+          "deferred": [
+            "Palm/cuff/head positioning approximate and slight mouth/coat detail drift",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1216-closeup-2026-10-06-v1",
+      "source_frame": 1216,
+      "source_cel": "cel-0261",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn landscape16:9 Klee cel. Current original1216 image1 controls framing/current pose/scale/occlusion. Image2 current face and image3 actual AB RGB dual contours control new expression and redraw; image4 native face+fullpalms; image5 prior Klee ONLY identity/costume/line style. Current f1216 is a NEW redraw with slightly lower head (crown~y75/chiny633), BOTH eyes COMPLETELY CLOSED as short nearly horizontal heavy eyelid strokes, small thin brows above, NO red irises or white eyeballs. LARGE open singing O mouth~x958..1023,y520..598, taller/wider than preceding small O, pink inner mouth and tiny gap at bottom stroke. Broad Y arms with left wrist~x460,y365/palm shifted lower/thumbtopx295,y130/fourleftfingersx178..335,y230..370, rightwrist~x1560,y288/right thumbtipx1707,y100/four fingersx1820,y200..333. Spread open FIVE fingered brown glove palms faithfully from image4; left thumb upward-left/right thumb upward-right, four other fingers outward. Left cream cuff~x407..575,y276..570 rotates, right cream cuff~x1465..1605,y240..506. Red diagonally straight sleeves continuous to armpits/current torso, no extra elbows or oldpinkhair at armpits. Replace original with Klee blonde shortbangs/pointedears/EXACTLY TWO short rooted ponies beside neck, redberet/creamclover/whitefeather/brown badge, same simple redcoat/creamdiamondcollar/chestmedallion/browngloves/cuffs as5. Current hat, collar, palms and sleeves independently redraw. Dark organic ink/mostlyflatpastel original PV style, purple original backdrop/currentstar arrangement. NO text/lyrics/watermark, real source captions separately restored. No collage/paste/flip/morph/extraobjects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-source-actual.png",
+          "exists": true,
+          "sha256": "490bc8c81e5af4cc202575e7495793e5bddbdf51bd9ce0afc2e582ded8a1e0ac",
+          "bytes": 977104,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current whole Y arms, lowered head/closed eyes/large O."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-expanded-v2-source-face-native.png",
+          "exists": true,
+          "sha256": "dc00f3d6e616163b08a5b628931d47c59a9640431d9fb80371b7587c8f6e6d03",
+          "bytes": 124110,
+          "dimensions": [
+            360,
+            385
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Closed eyelids/no irises, large open oval mouth with tiny bottom opening."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-f1216-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "922922b1ed6e4c98eddad0733c9581c4f17b7466416c9b7a1e808e24bdebc78b",
+          "bytes": 2249735,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Original1211 to1216 actual pose/cuff/head redraw."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-f1216-expanded-v2-locals-1-native.png",
+          "exists": true,
+          "sha256": "35b6162cb028c9698a1842c639a80b294c9074e8df905b756552f8d41c6962b4",
+          "bytes": 738986,
+          "dimensions": [
+            1440,
+            1281
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Native current face/both open palms and actual finger spread."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1211-closeup-v1.png",
+          "exists": true,
+          "sha256": "6a9788a645b6d80a7c01ba142edf49e07ae352bacb9b0720b399e7ed53ce65d9",
+          "bytes": 1477214,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous Klee identity/costume only; do not freeze open eyes."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0748-f1216.png",
+        "exists": true,
+        "sha256": "490bc8c81e5af4cc202575e7495793e5bddbdf51bd9ce0afc2e582ded8a1e0ac",
+        "bytes": 977104,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1216,
+          "end": 1217,
+          "pts": 50.667,
+          "end_pts": 50.708,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-16e746a1-55af-488f-b0e3-104afe0efbc0.png",
+        "exists": true,
+        "sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+        "bytes": 1492947,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1216-closeup-v1.png",
+        "exists": true,
+        "sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+        "bytes": 1492947,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1216,
+          "path": "generated/star-f1216-closeup-v1.png",
+          "job": "jobs/star-f1216-closeup-2026-10-06-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Closed eyes/no iris, larger open O, two full five-digit palms; Two compact rooted ponies and Y arms/continuous sleeves",
+          "known_issues": [
+            "Palm/cuff/head positioning approximate and slight mouth/coat detail drift",
+            "Real source layers and actual-speed review pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1216-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    },
+    {
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1221-closeup-2026-10-06-v1.json",
+      "job_json_sha256": "05acfbaaf11cdd27857fff67cc0ead98883b293f222bfc653906ae16792b1ec8",
+      "job_json_bytes": 4550,
+      "job_original_complete": {
+        "id": "star-f1221-closeup-2026-10-06-v1",
+        "mode": "builtin_imagegen",
+        "asset_type": "whole_independent_pv_cel",
+        "source_frame": 1221,
+        "source_cel": "cel-0263",
+        "source_reference": "source_refs/src-0753-f1221.png",
+        "source_exposures": [
+          {
+            "start": 1221,
+            "end": 1225,
+            "pts": 50.875,
+            "end_pts": 51.042,
+            "family": "star_gestures",
+            "source_transform": {
+              "kind": "identity",
+              "matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ]
+            }
+          }
+        ],
+        "reference_roles": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-source-actual.png",
+            "role": "Current lowered head/spread rotated palms/Y arms."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-expanded-v2-source-face-native.png",
+            "role": "Closed nearhorizontal eyes, round open O versus preceding taller oval."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-source-ab-rgb-contours.png",
+            "role": "Original1217 to1221 actual redraw of cuffs/hands/head/collar."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-expanded-v2-locals-1-native.png",
+            "role": "Native current face and both rotated open palms, source digits."
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1216-closeup-v1.png",
+            "role": "Previous Klee identity/costume only, independently changed mouth and palms."
+          }
+        ],
+        "prompt": "Use case: identity-preserve. ONE WHOLE independently drawn Klee PV cel landscape16:9. Image1 current original1221 controls exact current frame/scale/pose/occlusion; image2 native current expression; image3 ORIGINAL AB RGB/dualcontours new redraw; image4 nativecurrentface/BOTHfullpalms; image5 precedingKlee ONLYidentity/costume. Current head lower again crown~y90/chiny645, closed eyelids short mostlyhorizontal slightlytilted strokes with small brows above, no iris. Current mouth nearly ROUND open singing O~x950..1029,y537..610, wider/less tall than previous oval, pink inside and tiny bottomleft linegap. Both OPEN glove palms rotate more outward/lower, leftpalmfingers now tilt diagonally down-left, leftthumbtip~x290,y154 and fourfingersx180..306,y261..395,leftwrist~x468,y375. Rightthumbtip~x1728,y125, fourouterfingersx1840,y220..355,rightwrist~x1563,y316. Source has two full five-finger hands and coherent wrists, no extra digits; faithfully use image4. Wide cream cuffs leftx400..568,y291..601/rightx1463..1611,y247..527 independently rotated. Straight diagonally raised red sleeves connect broad Y arms/currentshoulders/armpits, current collar lower, torso bottom cropped. Klee shortblonde bangs/pointedears/redberet creamclover whitefeather brownbadge, EXACTLY TWO short rooted neck/shoulder ponies, redcoat same creamdiamondcollar/chestmedallion/cuffs/browngloves as5. Remove original long pinkhair and all disconnected extra hairwings below armpits. Independently redraw current mouth/palms/cuffs/collar/head, do not freeze5. Dark organic ink/mostlyflat pastel original PV style. Purple originalbackground/currentstars, NO lyrics/text/watermark; real current source subtitle layers separately restored. No collage/paste/flip/morph/newobjects.",
+        "output": "generated/star-f1221-closeup-v1.png",
+        "status": "reviewed_static_temporal_pending",
+        "accepted": false,
+        "original_speed_review": "not_performed",
+        "source_and_delta_review": "Root actually viewed currentfull/expandednativeface and all4 nativeparts, actualAB/RGB/contour overview; closed eyelids/open round O/rotatedpalms clear new redraw versus1217.",
+        "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-164cf4b3-6da1-455b-ad28-51babd821946.png",
+        "output_sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+        "output_dimensions": [
+          1672,
+          941
+        ],
+        "static_review": {
+          "passed": [
+            "Closed eyes/open rounded O independently changed",
+            "Two rotated full glove palms, coherent Y arms and two ponies"
+          ],
+          "deferred": [
+            "Mouth remains slightly oval rather than source round; hand/cuff/head placement approximate",
+            "Ornate coat detail and real source layer/actual-speed review pending"
+          ],
+          "accepted": false
+        }
+      },
+      "id": "star-f1221-closeup-2026-10-06-v1",
+      "source_frame": 1221,
+      "source_cel": "cel-0263",
+      "variant_number": 1,
+      "full_prompt_original": "Use case: identity-preserve. ONE WHOLE independently drawn Klee PV cel landscape16:9. Image1 current original1221 controls exact current frame/scale/pose/occlusion; image2 native current expression; image3 ORIGINAL AB RGB/dualcontours new redraw; image4 nativecurrentface/BOTHfullpalms; image5 precedingKlee ONLYidentity/costume. Current head lower again crown~y90/chiny645, closed eyelids short mostlyhorizontal slightlytilted strokes with small brows above, no iris. Current mouth nearly ROUND open singing O~x950..1029,y537..610, wider/less tall than previous oval, pink inside and tiny bottomleft linegap. Both OPEN glove palms rotate more outward/lower, leftpalmfingers now tilt diagonally down-left, leftthumbtip~x290,y154 and fourfingersx180..306,y261..395,leftwrist~x468,y375. Rightthumbtip~x1728,y125, fourouterfingersx1840,y220..355,rightwrist~x1563,y316. Source has two full five-finger hands and coherent wrists, no extra digits; faithfully use image4. Wide cream cuffs leftx400..568,y291..601/rightx1463..1611,y247..527 independently rotated. Straight diagonally raised red sleeves connect broad Y arms/currentshoulders/armpits, current collar lower, torso bottom cropped. Klee shortblonde bangs/pointedears/redberet creamclover whitefeather brownbadge, EXACTLY TWO short rooted neck/shoulder ponies, redcoat same creamdiamondcollar/chestmedallion/cuffs/browngloves as5. Remove original long pinkhair and all disconnected extra hairwings below armpits. Independently redraw current mouth/palms/cuffs/collar/head, do not freeze5. Dark organic ink/mostlyflat pastel original PV style. Purple originalbackground/currentstars, NO lyrics/text/watermark; real current source subtitle layers separately restored. No collage/paste/flip/morph/newobjects.",
+      "ordered_reference_roles": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-source-actual.png",
+          "exists": true,
+          "sha256": "dfc6fd287ebfb9940d2b5757196efacc1ffc236087ddc22aec23f4135914ade2",
+          "bytes": 992057,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB",
+          "order": 1,
+          "role_original": "Current lowered head/spread rotated palms/Y arms."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-expanded-v2-source-face-native.png",
+          "exists": true,
+          "sha256": "7ea0c09473c603236935595412244c5e36114ad46e9feb871e539b319418bb65",
+          "bytes": 129064,
+          "dimensions": [
+            360,
+            385
+          ],
+          "mode": "RGB",
+          "order": 2,
+          "role_original": "Closed nearhorizontal eyes, round open O versus preceding taller oval."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "bb7d2e3536d8bc4c487f3370a2e9a1d3ce18694c4756dba10a6e169854a13f34",
+          "bytes": 2213552,
+          "dimensions": [
+            3840,
+            2240
+          ],
+          "mode": "RGB",
+          "order": 3,
+          "role_original": "Original1217 to1221 actual redraw of cuffs/hands/head/collar."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1217-f1221-expanded-v2-locals-1-native.png",
+          "exists": true,
+          "sha256": "176e899adeed8fec0aa9fd5945c77a2c3f128d5efae33f5881fcc563ab5c8800",
+          "bytes": 717004,
+          "dimensions": [
+            1440,
+            1281
+          ],
+          "mode": "RGB",
+          "order": 4,
+          "role_original": "Native current face and both rotated open palms, source digits."
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1216-closeup-v1.png",
+          "exists": true,
+          "sha256": "d0544e01e2324c1345126e0d70041253d74da040728eea0ab528769585470743",
+          "bytes": 1492947,
+          "dimensions": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "order": 5,
+          "role_original": "Previous Klee identity/costume only, independently changed mouth and palms."
+        }
+      ],
+      "canonical_source_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0753-f1221.png",
+        "exists": true,
+        "sha256": "dfc6fd287ebfb9940d2b5757196efacc1ffc236087ddc22aec23f4135914ade2",
+        "bytes": 992057,
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "mode": "RGB"
+      },
+      "original_exposures": [
+        {
+          "start": 1221,
+          "end": 1225,
+          "pts": 50.875,
+          "end_pts": 51.042,
+          "family": "star_gestures",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        }
+      ],
+      "supporting_source_delta_evidence": [],
+      "builtin_tool_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-164cf4b3-6da1-455b-ad28-51babd821946.png",
+        "exists": true,
+        "sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+        "bytes": 1489324,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1221-closeup-v1.png",
+        "exists": true,
+        "sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+        "bytes": 1489324,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "mode": "RGB"
+      },
+      "output_sha_and_dimensions_measured_not_tool_thumbnail": true,
+      "completed_builtin_output_call_evidence": true,
+      "job_status_original": "reviewed_static_temporal_pending",
+      "job_reports_failed_or_blocking_unselected": false,
+      "observed_explicit_selection_records": [
+        {
+          "source_frame": 1221,
+          "path": "generated/star-f1221-closeup-v1.png",
+          "job": "jobs/star-f1221-closeup-2026-10-06-v1.json",
+          "review": "Root actually viewed source/delta/native keyparts before generation and generated whole cel; static draft only. Closed eyes/open rounded O independently changed; Two rotated full glove palms, coherent Y arms and two ponies",
+          "known_issues": [
+            "Mouth remains slightly oval rather than source round; hand/cuff/head placement approximate",
+            "Ornate coat detail and real source layer/actual-speed review pending"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "85afdad7649fc85f91cb372f5af9bc1a29597eea3e142352ce63a9e46da18692",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "observed_selected_at_snapshot_not_acceptance": true,
+      "root_declared_final_candidate": "generated/star-f1221-closeup-v1.png",
+      "final_disposition": "root_declared_selected_draft_unaccepted",
+      "accepted": false,
+      "original_speed_review_performed_by_archivist": false,
+      "issues": [],
+      "metadata_warnings": []
+    }
+  ],
+  "sequential_source_checks": {
+    "sequential_decode": [
+      0,
+      1222
+    ],
+    "frames": {
+      "1154": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0686-f1154.png",
+          "exists": true,
+          "sha256": "dca93728594185dfd593f84f4d9db4c0dcf724fa1b113c4627e94f77ff11c104",
+          "bytes": 756607,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "47dc3e9060b9e999a23b157cc84c23b2ff6414c9a23a6c576d4d9cd3956a9313",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1154-fast-continuation-2026-10-05-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1164": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0696-f1164.png",
+          "exists": true,
+          "sha256": "e54e5ac080ec7856a951aec905d271b952a338159ae3e9f630d343f9623b9678",
+          "bytes": 930552,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "895b7915b1dccfa7f4a38b1c7124e97845dc6d4e4537fb973db0da9c91be2914",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1164-closeup-2026-10-05-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1172": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0704-f1172.png",
+          "exists": true,
+          "sha256": "71cc4394649f2fe85e74f5005042f9e0439c98026e1ea93ca111413f444c5a12",
+          "bytes": 980654,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "ac1afb8746e64854cd4c98fb88fbaefc8b9d4fc996a0e4fefd997cc11b732775",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1172-closeup-2026-10-05-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1187": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0719-f1187.png",
+          "exists": true,
+          "sha256": "3d40f39932752b0a30b50fe1642cd0c57be1e6f84e50135e249a7f2804be59a6",
+          "bytes": 1002874,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "fb64fdfedae7e0ded2e2fc42bae642941d59561ea01be3dbde5c0199ff8d3c35",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1187-closeup-2026-10-05-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1187-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1195": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0727-f1195.png",
+          "exists": true,
+          "sha256": "355112b9f2affa9b65cb2a80c26af4bdb76dfeda9b2b11554c4b26346453049e",
+          "bytes": 958566,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "8558216530377dcf9fe87c9373847deba6dbfedad91027c2eefce838378a69d2",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1195-closeup-2026-10-05-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1195-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1199": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0731-f1199.png",
+          "exists": true,
+          "sha256": "645a84e784297920f908481cda906630474bec99ede61182a11e63035dcedec9",
+          "bytes": 979357,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "c737b319dd29fff9ed6e61a55b1a9c2bcb51f6542c4e26592893657fe41bd5b7",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1199-closeup-2026-10-06-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1203": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0735-f1203.png",
+          "exists": true,
+          "sha256": "0b6291e6715a3c76b96e9b9abe1503063694b532c29027e90d92716f7d8d10dd",
+          "bytes": 917707,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "48aa94dc8a774c03f2b4662d10fc1fae6c52af82b4fd45659c1bdad7cf304fe8",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1203-closeup-2026-10-06-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+            "canonical_pixels_exact": true
+          },
+          {
+            "job": "star-f1203-closeup-2026-10-06-v2",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1211": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0743-f1211.png",
+          "exists": true,
+          "sha256": "d088d06ed7a384a3ebe57cba08d503738b5f173b5701ebca9a3fdf8906a3224e",
+          "bytes": 1016843,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "e62aaf8a68bd2168eaaad85114d357742a185efeb6431d0b52ed4de11c927374",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1211-closeup-2026-10-06-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1211-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1216": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0748-f1216.png",
+          "exists": true,
+          "sha256": "490bc8c81e5af4cc202575e7495793e5bddbdf51bd9ce0afc2e582ded8a1e0ac",
+          "bytes": 977104,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "b328b296b356b1d507e6040443ae88184beb778ef7753216163ad86a930456d1",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1216-closeup-2026-10-06-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1216-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      },
+      "1221": {
+        "sequential_original_matches_canonical_bgr_exact": true,
+        "canonical_reference": {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0753-f1221.png",
+          "exists": true,
+          "sha256": "dfc6fd287ebfb9940d2b5757196efacc1ffc236087ddc22aec23f4135914ade2",
+          "bytes": 992057,
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "mode": "RGB"
+        },
+        "decoded_bgr_sha256": "059a40ad23aa84119c0a0dadc9036b106cdd0374495c6e4014d48704edec40c0",
+        "whole_current_source_input_checks": [
+          {
+            "job": "star-f1221-closeup-2026-10-06-v1",
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1221-source-actual.png",
+            "canonical_pixels_exact": true
+          }
+        ]
+      }
+    }
+  },
+  "source": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+    "exists": true,
+    "sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+    "bytes": 31686958
+  },
+  "source_map": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_map.json",
+    "exists": true,
+    "sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+    "bytes": 5758820
+  },
+  "source_meta": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_meta.json",
+    "exists": true,
+    "sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+    "bytes": 88582
+  },
+  "selection_sha256_observed_at_root_seal": "10f5a5d9298353f7a4094cf33a643aeea455c07a9ee0ccc8cda9ad83240322b6",
+  "coverage_manifest_sha256_observed_at_root_seal": "9bb1909d207fcc29e422e902af8eb8503ebe3c1527959c76647e3a78f570bb49",
+  "accepted": false,
+  "artistic_or_composite_or_original_speed_acceptance_claimed": false,
+  "all_reference_sha_and_dimensions_are_final_archive_measurements": true,
+  "pre_generation_immutable_freeze_claimed": false,
+  "shared_files_written": []
+}

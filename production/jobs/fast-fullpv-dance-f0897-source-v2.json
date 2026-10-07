@@ -1,0 +1,31 @@
+{
+  "job_id": "fast-fullpv-dance-f0897-source-v2",
+  "source_frame": 897,
+  "canonical_cel": "cel-0161",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0897-source-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0443-f0897.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0894-source-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-occlusion-repairs/f0894-f0897-source-ab-rgb-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "Current897 edit target: huge LEFT-facing profile, rear concealment and limited visible rear limbs",
+    "Klee894 hat/hair/red coat/glove/boots continuity ONLY; not frontal face/current visibility",
+    "Actual original894→897 turn to LEFT profile/cropping/limb visibility",
+    "Red iris with dark upper pupil/highlight colors ONLY"
+  ],
+  "prompt": "Use case: identity-preserve. ONE current independent SOURCE897 PV cel full16:9. Image1 CURRENT EDIT TARGET is sole authority for huge profile scale, positions, current LEFT-facing gaze/nose, background, two people and occlusion. Image2 previous Klee894 ONLY continuity of simple red clover beret, blonde short ear-rooted groups, plain red coat/continuous cream hem/brown glove boots, NOT its near-front face or visible rear legs. Image3 actual original894→897 A/B/RGB/contours shows the giant face turning sharply into LEFT-facing profile, covering much more rear body. Image4 is only crimson iris identity. Replace BOTH original characters with Klee. HUGE foreground warm Klee head on RIGHT, cut TOP/RIGHT/BOTTOM, now strict LEFT-FACING SIDE PROFILE, exactly ONE visible sleepy half-open red eye with source gaze and dark upper/curl highlight near x54%/y66%, source-size projecting nose points LEFT near x44%/y76%, small closed mouth DOT near x59%/y91%, chin runs to bottom crop. No frontal paired eyes, no O/triangle mouth or smiling new expression. Giant clover beret replaces animal mask, cropped feather on rear side if actually within frame, follow source current profile hat/fringe/nose/chin silhouettes. Only TWO SHORT ear/neck-rooted blonde groups where actually visible, mostly right/bottom clipped; no old long peach sheet of hair. Small REAR dancer FACE/eyes/beret COMPLETELY HIDDEN behind giant profile: DO NOT display small face or shift rear body left. Match source current few high-left open glove fingertips near top/left edge of giant hat, limited red torso fragment behind giant nose, only current visible left leg/brown boot at bottom-left of foreground; right arm/right leg hidden by head must stay hidden. Layers: giant front head/short hair over all hidden rear anatomy. Tiny partial foreground cream collar/red shoulder at bottom-right only if source visible. Preserve exposed source purple rough stars, yellow hand stars, tiny incoming BLUE NIGHT sliver at top-right, exact visible crop. OMIT all Japanese/Chinese text for separately restored source glyphs. Simple flat PV blocks/irregular thin black line, minimal shading, no pompom/diamond ornament proliferation. Do not reveal hidden anatomy, invent hand/leg/third hair fan, add collage, mirror/hold/flow/morph or reuse frontal894 face.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-619bbdbd-d1f8-4b96-8084-ee49420adcdb.png",
+  "static_review": "Huge foreground left-facing Klee profile with one red sleepy eye and small mouth dot; rear face concealed, high hand/body fragment and only source-visible left boot drawn. No extra right leg/hand or small visible face. Source major profile turn retained; precise eye/chin/boot positions approximate. Actual source-caption/composite and speed pending.",
+  "known_issues": [
+    "Profile nose/chin/eye/dot positions approximate",
+    "Mild shading and contour/cropped collar variation"
+  ],
+  "blocking_static_findings": []
+}

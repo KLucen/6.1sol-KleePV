@@ -1,0 +1,30 @@
+{
+  "family": "blanket_closeup",
+  "canonical_frames": [
+    1716,
+    1720,
+    1724,
+    1728,
+    1734,
+    1740
+  ],
+  "tool": "built-in image_gen",
+  "endpoints_generated_first": [
+    1716,
+    1740
+  ],
+  "static_source_and_neighbor_review": true,
+  "actual_speed_watch": "not_performed",
+  "artistic_accepted": false,
+  "static_compare_pages": [
+    "qa/fullpv-middle/review-1716-1720-1724-1728-1734-1740.jpg"
+  ],
+  "findings": [
+    "Each current source cel independently generated from actual RGB and two-color contour references. Head tilt increases while crossed forearm/right partial glove topology stays registered; no copied held interpolation.",
+    "1720 and 1734 initial drafts retained blue upper iris patches; targeted v2 edit visibly replaces both patches with red/maroon. Use red-iris-repair-v2 siblings instead of bases.",
+    "Current red-eye half-lidded expression, small frown and original empty caption-left area are retained.",
+    "Hat feather, clover angle, bangs, cheek size, pointed ear and side ponytail details drift more than tiny original redraw differences; group continuity repair remains required.",
+    "Cuff and finger topology follows crossed arms but fingertip spacing/current source sleeve folds remain approximate. Generated skin and hair have gradients despite flat-fill prompt. No artistic acceptance.",
+    "Source background and lyric pixels require original compositing restoration."
+  ]
+}

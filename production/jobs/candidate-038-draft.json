@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-30aeaaed-ba7a-438e-9277-4d0ec5ae1c02",
+  "candidate_id": 38,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Edit image1 source-cel-038 into ONE full16:9 PV cel. Replace ALL visible original character instances with default Klee. Source1 controls composition: now full standing character centered x49%, crown y10%, boots y96%, both straight legs separated slightly, both arms lowered diagonally OUTWARD symmetrically, little loose fists at x36% and62%,y53%, eyes CLOSED and tiny caret mouth, slight headtilt. Preserve standing pose/body height/leg direction and small hand closure, Klee brown gloves/brown boots/redcoat cream hem/cuffs. Klee blonde SHORT two side ponytails/pointedears, red beret cream clover whitefeather. REMOVE pajamas, all cream HIP POCKETS and rabbit ears from original outfit; Klee plain red/cream coat front, backpack only at back if actually visible, no frontside pouches. Left-edge huge FOREGROUND HAIR-ONLY fragment occupies x0–20%, bottom half: replace visible pink hair with blonde Klee ponytail crop, no added face/body/hat in that fragment. Standing Klee remains behind that foreground crop exactly. Image2 identity/style anchor, image3 candidate037 palette/hat/closed-eye consistency only, not previous close-up/occlusion. Preserve original cream outlined star effects and lavender background. REMOVE all bottom lyrics/subtitles/letters/credits, leave clean fullscene. Loose dark source lines, broad flat fills/orange cheeks/limited shadows, no game-render detail, panels/newprops/extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-038.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-037.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-038-draft.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Standing and foreground hair-only crop correct, but triangle mouth and spread glove fingers inherited instead of source caret/loose fist closure. Pending targeted repair."
+}

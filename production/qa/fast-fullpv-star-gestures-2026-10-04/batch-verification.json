@@ -1,0 +1,344 @@
+{
+  "checks": [
+    {
+      "frame": 1009,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "40d507204928415a06242e6e3f5ce4294ee3c9b18f08f2fef4c548713632b274",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1010,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "b6ac6ec0788dd9ccccb575f68394a292da63278a7d92e63dd654d9a34a2b28b5",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1012,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1013,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "cccc1edb308dcbf3d23fa58ebe1bb2d56d2449c7e32afe2ebd53914ef24c443f",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1014,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1023,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "21a183fbffee28c6a7635d339e91c6aff8be589bcd4224a1bd525a8ec0d4227d",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1025,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "ae1e4a6ff0416710d34699e0ad46058621edf183f30338758dd3d7371e7ec3ac",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1033,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "271b94bcb655b87ebde14a653813bb643fbf647525e86fc1cae924e612ff0466",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1037,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6ff9a817ade9dbcdb286b5bc392c2b6344fab97eb81f8716c11d6899976d4632",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    },
+    {
+      "frame": 1038,
+      "decodes": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "561949485df2718d81f719678d66c44d0cfaf42cd5efac83af482ebe010acf06",
+      "generation_calls": 1,
+      "source_exposures_unchanged": true
+    }
+  ],
+  "known_issues": [
+    {
+      "source_cel": "cel-0206",
+      "source_frame": 1009,
+      "pts": 42.042,
+      "version": "generated/star-gestures-f1009-fast-v1.png",
+      "issue": "Background and independent stars changed by imagegen; source layers must be retained during composition",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0206",
+      "source_frame": 1009,
+      "pts": 42.042,
+      "version": "generated/star-gestures-f1009-fast-v1.png",
+      "issue": "Generated subtitle absent; original subtitle must be restored independently",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0206",
+      "source_frame": 1009,
+      "pts": 42.042,
+      "version": "generated/star-gestures-f1009-fast-v1.png",
+      "issue": "Hat/clover and hair contour differ from unaccepted adjacent old drafts",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0207",
+      "source_frame": 1010,
+      "pts": 42.083,
+      "version": "generated/star-gestures-f1010-fast-v1.png",
+      "issue": "Original subtitle and stars need source-layer restoration",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0207",
+      "source_frame": 1010,
+      "pts": 42.083,
+      "version": "generated/star-gestures-f1010-fast-v1.png",
+      "issue": "Fine rear-eye notch/ponytail ink differs slightly from f1009, matching independent redraw intent",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0207",
+      "source_frame": 1010,
+      "pts": 42.083,
+      "version": "generated/star-gestures-f1010-fast-v1.png",
+      "issue": "Old adjacent f1011 collar/pompom structure differs; not adopted as reference",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0209",
+      "source_frame": 1012,
+      "pts": 42.167,
+      "version": "generated/star-gestures-f1012-fast-v1.png",
+      "issue": "Original subtitle and source stars must be restored",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0209",
+      "source_frame": 1012,
+      "pts": 42.167,
+      "version": "generated/star-gestures-f1012-fast-v1.png",
+      "issue": "Minor extra white iris highlights versus source",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0210",
+      "source_frame": 1013,
+      "pts": 42.208,
+      "version": "generated/star-gestures-f1013-fast-v1.png",
+      "issue": "Generated subtitle differs in styling; source caption restoration required",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0210",
+      "source_frame": 1013,
+      "pts": 42.208,
+      "version": "generated/star-gestures-f1013-fast-v1.png",
+      "issue": "Independent source stars/background changed",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0210",
+      "source_frame": 1013,
+      "pts": 42.208,
+      "version": "generated/star-gestures-f1013-fast-v1.png",
+      "issue": "Minor added iris highlights",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0211",
+      "source_frame": 1014,
+      "pts": 42.25,
+      "version": "generated/star-gestures-f1014-fast-v1.png",
+      "issue": "Small dark-blue upper iris band remains on warm foreground profile eye; color-detail review deferred",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0211",
+      "source_frame": 1014,
+      "pts": 42.25,
+      "version": "generated/star-gestures-f1014-fast-v1.png",
+      "issue": "Source subtitle and original stars need independent restoration",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0211",
+      "source_frame": 1014,
+      "pts": 42.25,
+      "version": "generated/star-gestures-f1014-fast-v1.png",
+      "issue": "Hair/hat details differ from old unaccepted backview f1017",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0215",
+      "source_frame": 1023,
+      "pts": 42.625,
+      "version": "generated/star-gestures-f1023-fast-v1.png",
+      "issue": "Source caption absent and source background/stars need restoration",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0215",
+      "source_frame": 1023,
+      "pts": 42.625,
+      "version": "generated/star-gestures-f1023-fast-v1.png",
+      "issue": "Rear coat/boot ornamental simplification differs from old adjacent draft",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0215",
+      "source_frame": 1023,
+      "pts": 42.625,
+      "version": "generated/star-gestures-f1023-fast-v1.png",
+      "issue": "Minor fore cheek/mouth scale differs from source",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0216",
+      "source_frame": 1025,
+      "pts": 42.708,
+      "version": "generated/star-gestures-f1025-fast-v1.png",
+      "issue": "Rear tiny mouth appears open triangular rather than closed caret; deferred expression-detail review, not accepted",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0216",
+      "source_frame": 1025,
+      "pts": 42.708,
+      "version": "generated/star-gestures-f1025-fast-v1.png",
+      "issue": "Source subtitle absent; original stars/captions must be restored",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0216",
+      "source_frame": 1025,
+      "pts": 42.708,
+      "version": "generated/star-gestures-f1025-fast-v1.png",
+      "issue": "Shortened foreground hair reveals more rear leg area than old long-hair source occlusion",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0218",
+      "source_frame": 1033,
+      "pts": 43.042,
+      "version": "generated/star-gestures-f1033-fast-v1.png",
+      "issue": "Source subtitle absent; original source background/stars need restoration",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0218",
+      "source_frame": 1033,
+      "pts": 43.042,
+      "version": "generated/star-gestures-f1033-fast-v1.png",
+      "issue": "Minor sleeve/glove contour and cuff-height differences",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0218",
+      "source_frame": 1033,
+      "pts": 43.042,
+      "version": "generated/star-gestures-f1033-fast-v1.png",
+      "issue": "Leg/coat proportions differ from old long-trouser source as character outfit adaptation",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0219",
+      "source_frame": 1037,
+      "pts": 43.208,
+      "version": "generated/star-gestures-f1037-fast-v1.png",
+      "issue": "Source caption absent and stars/background need independent restoration",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0219",
+      "source_frame": 1037,
+      "pts": 43.208,
+      "version": "generated/star-gestures-f1037-fast-v1.png",
+      "issue": "Minor glove outline changes from f1033",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0220",
+      "source_frame": 1038,
+      "pts": 43.25,
+      "version": "generated/star-gestures-f1038-fast-v1.png",
+      "issue": "Coat clover ornament omitted relative to f1033/1037, nonblocking outfit-detail variation",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0220",
+      "source_frame": 1038,
+      "pts": 43.25,
+      "version": "generated/star-gestures-f1038-fast-v1.png",
+      "issue": "Source captions absent and original stars/background must be restored",
+      "status": "recorded_unaccepted_review_pending"
+    },
+    {
+      "source_cel": "cel-0220",
+      "source_frame": 1038,
+      "pts": 43.25,
+      "version": "generated/star-gestures-f1038-fast-v1.png",
+      "issue": "Head displacement amplitude slightly less than source",
+      "status": "recorded_unaccepted_review_pending"
+    }
+  ],
+  "public_mapping_sha256_before": "be0b533d96a1844551d15febe3269c44aff67af1ccd7607ecb557d31795ac857",
+  "public_mapping_sha256_after": "be0b533d96a1844551d15febe3269c44aff67af1ccd7607ecb557d31795ac857",
+  "public_mapping_mutated_by_this_agent": false,
+  "scope": "Ten new assets only; no public mapping/compose edits, rendering or art pass"
+}

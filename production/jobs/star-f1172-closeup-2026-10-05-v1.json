@@ -1,0 +1,77 @@
+{
+  "id": "star-f1172-closeup-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1172,
+  "source_cel": "cel-0250",
+  "source_reference": "source_refs/src-0704-f1172.png",
+  "source_exposures": [
+    {
+      "start": 1172,
+      "end": 1176,
+      "pts": 48.833,
+      "end_pts": 49,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-actual.png",
+      "role": "Current head leans left/bodyright, lowleft index/highright index."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-face-native.png",
+      "role": "Current diagonal fullyclosed eyelids/tilted smallO."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1168-f1172-source-ab-rgb-contours.png",
+      "role": "True redraw, head/body less tilted than1168, left index raises/verticalizes, right indexmorevertical."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1172-source-hands-body-native.png",
+      "role": "Current highright glove overhat, lowleft cuff/elbow and tilted collar."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-040.png",
+      "role": "Previous identity/style only, NOT previous larger lean/outwardleftfinger."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE independent WHOLE handdrawn Klee PV cel, 16:9. Image1 current ORIGINAL decides whole pose/framing/scale/occlusion, Image2 current nativeFACE expression, Image3 actual previous/current ORIGINAL AB/RGB/dualcontours decides redrawn movement, Image4 current nativehands/body cuffs/shoulders, Image5 Klee previous anchor ONLY identity/style/persistent2pony/costume NOT copied pose. Replace all original pink-haired girl/animalhat/pajamas with pale blonde Klee shortbangs/pointedears and EXACTLY TWO compact rooted shoulderponies, redberet creamclover/whitefeather/brownroundbadge; same simple redcoat chest pattern/creamcollar medallion/cuffs/browngloves as image5. Upperbody closeup cropped atbottom, no extra legs. Organic dark ink mostlyflat pastel colors. CURRENT1172 head leans VIEWER-LEFT, crown aboutx800y50 and chinx890y590; eye baseline slopes UP towardright, both completelyclosed/noiris; small tilted openO. Current lean LESS steep thanimage5/1168, head center slightlyright, left hand rises and index points nearVERTICAL rather thanfarleft tilted. LEFT glove lowaroundx305y780 with fingertipx262y655; left creamcuff flaresup-left fromx285y855 tox421y760, forearm/elbowconnected and belowface. RIGHT glove HIGH abovehat nearx1120y190; index fullyVERTICAL fingertipx1150y75, otherfingerscurled, upperhand visiblyforeground besidehat edge, right creamcuff x1080..1250 y230..385 and rightelbow aboutx1310y580. Do nothide right indexbehindfeather or replicate the original animalhat. Both one extendedindex notVsign. Torso bendsright, collarrotateswithshoulders, sleeve/poniesindependentlytrackcurrentless-tiltedhead. ExactlyTWO hands, coherent shoulder-elbow-wrist chains and continuous brown gloves; onlyvisible source fingers, no thirdhand or duplicatefingers. Exactlytwo rootedshortponies no pinklonghair/thirdneckbunch/loosehair underarms. Match current original silhouette/position/visibleparts independently; do notfreeze previous expression/cuffs/pose. Sourcepurplebackdrop/starplacement, no text/lyrics/watermark (source layers restored later). No collage/paste/flip/morph/extraobjects.",
+  "output": "generated/star-f1172-closeup-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Rootviewed full/nativeface/body/sourceABRGBcontours and nativepage1. Real smaller tilt and raised verticalleftindex distinct.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-730587e5-e5c9-46e2-a4a4-859bf5854ad2.png",
+  "output_sha256": "92b30d8ebb0f14c97e69c81a84ca9c91d8f249eb0645b7a0685d5d0d18e2b0cd",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "passed": [
+      "Smaller left head tilt with diagonal closed eyes/tilted O",
+      "Low left and above-hat right gloves each one vertical index; right glove in front of hat/feather, two rootedponies"
+    ],
+    "deferred": [
+      "Face/head/hand/cuff scale and placement approximate; coat motif/collar variations",
+      "Source layers and actual-speed pending"
+    ],
+    "accepted": false
+  }
+}

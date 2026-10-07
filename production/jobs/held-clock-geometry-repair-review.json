@@ -1,0 +1,222 @@
+{
+  "batch": "held_clock_repair_2026-10-02",
+  "frames": [
+    87,
+    91,
+    95,
+    99,
+    117
+  ],
+  "accepted_cels": 0,
+  "review_scope": "Original full frames, actual A/B spatial RGB/contour differences and current source clock closeups viewed before each call. Static source and adjacent drawing comparison only. No actual-speed preview rendered by this agent.",
+  "strategy": "One builtin imagegen call per cel; source current, hat-only Klee crop, costume crop, actual source delta and current-source clock detail. No displaced whole Klee-frame input, no morph/interpolation.",
+  "metrics": [
+    {
+      "frame": 87,
+      "source_display": {
+        "bbox": [
+          1344,
+          252,
+          1440,
+          304
+        ],
+        "center": [
+          1388.6949884792627,
+          275.41417050691246
+        ],
+        "pixels": 3472
+      },
+      "repair_display": {
+        "bbox": [
+          1294,
+          245,
+          1437,
+          321
+        ],
+        "center": [
+          1366.7576308139535,
+          282.71741763565893
+        ],
+        "pixels": 8256
+      },
+      "generated_roi": [
+        1280,
+        235,
+        1480,
+        350
+      ],
+      "display_hull_center_offset_px": [
+        -21.94,
+        7.3
+      ],
+      "display_hull_area_ratio": 2.378,
+      "limits": "Display hull differs with finger occlusion and is NOT rigid clock-body registration or artistic acceptance. Tight ROI excludes purple pillow above-left."
+    },
+    {
+      "frame": 91,
+      "source_display": {
+        "bbox": [
+          1342,
+          248,
+          1416,
+          302
+        ],
+        "center": [
+          1382.0897986134037,
+          274.0673489600528
+        ],
+        "pixels": 3029
+      },
+      "repair_display": {
+        "bbox": [
+          1330,
+          256,
+          1437,
+          324
+        ],
+        "center": [
+          1384.7824842587293,
+          289.3688227437512
+        ],
+        "pixels": 5241
+      },
+      "generated_roi": [
+        1280,
+        235,
+        1480,
+        350
+      ],
+      "display_hull_center_offset_px": [
+        2.69,
+        15.3
+      ],
+      "display_hull_area_ratio": 1.73,
+      "limits": "Display hull differs with finger occlusion and is NOT rigid clock-body registration or artistic acceptance. Tight ROI excludes purple pillow above-left."
+    },
+    {
+      "frame": 95,
+      "source_display": {
+        "bbox": [
+          1346,
+          254,
+          1424,
+          304
+        ],
+        "center": [
+          1384.5745168686537,
+          277.8722567965935
+        ],
+        "pixels": 3053
+      },
+      "repair_display": {
+        "bbox": [
+          1327,
+          261,
+          1450,
+          343
+        ],
+        "center": [
+          1386.77035546613,
+          300.1416498993964
+        ],
+        "pixels": 7455
+      },
+      "generated_roi": [
+        1280,
+        235,
+        1480,
+        350
+      ],
+      "display_hull_center_offset_px": [
+        2.2,
+        22.27
+      ],
+      "display_hull_area_ratio": 2.442,
+      "limits": "Display hull differs with finger occlusion and is NOT rigid clock-body registration or artistic acceptance. Tight ROI excludes purple pillow above-left."
+    },
+    {
+      "frame": 99,
+      "source_display": {
+        "bbox": [
+          1342,
+          254,
+          1440,
+          304
+        ],
+        "center": [
+          1388.5100354191263,
+          275.65348288075563
+        ],
+        "pixels": 3388
+      },
+      "repair_display": {
+        "bbox": [
+          1327,
+          260,
+          1437,
+          322
+        ],
+        "center": [
+          1381.9239022451818,
+          290.06020266242797
+        ],
+        "pixels": 5033
+      },
+      "generated_roi": [
+        1280,
+        235,
+        1480,
+        350
+      ],
+      "display_hull_center_offset_px": [
+        -6.59,
+        14.41
+      ],
+      "display_hull_area_ratio": 1.486,
+      "limits": "Display hull differs with finger occlusion and is NOT rigid clock-body registration or artistic acceptance. Tight ROI excludes purple pillow above-left."
+    },
+    {
+      "frame": 117,
+      "source_display": {
+        "bbox": [
+          1356,
+          249,
+          1454,
+          301
+        ],
+        "center": [
+          1406.2504985044866,
+          273.8654037886341
+        ],
+        "pixels": 4012
+      },
+      "repair_display": {
+        "bbox": [
+          1316,
+          239,
+          1463,
+          320
+        ],
+        "center": [
+          1390.3263348609187,
+          277.9612064371736
+        ],
+        "pixels": 9383
+      },
+      "generated_roi": [
+        1280,
+        235,
+        1480,
+        350
+      ],
+      "display_hull_center_offset_px": [
+        -15.92,
+        4.1
+      ],
+      "display_hull_area_ratio": 2.339,
+      "limits": "Display hull differs with finger occlusion and is NOT rigid clock-body registration or artistic acceptance. Tight ROI excludes purple pillow above-left."
+    }
+  ],
+  "limits": "Center offset improvement does not prove identical clock geometry: visible display hull areas and hand occlusion differ. Costume/hairstyle/arm silhouette changes remain flagged.",
+  "status": "saved_unaccepted_repair_drafts"
+}

@@ -1,0 +1,74 @@
+{
+  "job_id": "fast-fullpv-cyan-f0975-v1",
+  "source_frame": 975,
+  "canonical_cel": "cel-0193",
+  "tool": "builtin_imagegen",
+  "status": "generated_blocking_hair_volume_unselected",
+  "output": "generated/fast-fullpv-cyan-f0975-v1.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-dc61e161-8f53-4d49-a149-e755b68d9075.png",
+  "asset_sha256": "c098c2bb1af4b36ca5fb6391c1cfafb1a92983a197265bcc9a20d41e68066aae",
+  "static_review": "Whole generated output viewed. Closed eye/rooted group/collar present, but near short pony left edge extends >100native pixels farther than973; root-to-tip horizontal length grows approximately35-40%, beyond modest source973-to975 tip shift. Kept unselected for one targeted root/volume repair, not a subsequent identity reference.",
+  "blocking_static_findings": ["Sudden near-ponytail length/volume growth"],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0973-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-f0975-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual current original cel: high right-profile pose/crop",
+    "Actual current native eye and tiny mouth expression",
+    "Previous Klee short hair/collar topology only, current wind must redraw",
+    "Actual973-to975 A/B RGB and contours: stronger left/back wind"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 independent Klee replacement cel. Image1 CURRENT ORIGINAL EDIT TARGET exclusively decides current right-facing profile pose, head/neck/shoulder geometry, HIGH facial landmark placement and top/bottom crop. Image2 CURRENT native face decides visible eye/mouth expression only. Image3 previous Klee cel decides short EAR-ROOTED hair, beret/feather and plain TWO-LEAF collar topology/color ONLY; do not freeze its pose, do not copy its approximate low face registration. Image4 actual original previous/current A/B RGB difference and two-color contour overlay decides current changes. Keep source eye near x65.5% y38.5%, nose74%x41%y, mouth71%x51%y, chin70%x59%y; beret/feather crop OFF TOP, do not lower or shrink head to fit accessories. One Klee under cyan/lavender night light: cool pale-blonde hair, two SHORT neck/collar-length ear-rooted side groups with far group occluded correctly, one pointed near ear, muted burgundy red cream-clover beret with one clipped feather, simple cream two-leaf collar and burgundy coat shoulders exiting bottom. No original animal mask/animal ears or long pink hair sheet, curled forelock, third detached fan, ornate diamonds/pompoms, invented hands/legs/second face. Preserve original purple-left/blue-cyan-right sky and tiny stars/crescent framing. Simple flat hand-drawn PV color areas, irregular thin dark lines, minimal shading. OMIT ALL TEXT for separate original glyph composition. ONE CURRENT cel, no collage, hold, mirror, morph, optical flow or crossfade. CURRENT SPECIFIC CHANGES: Current FRAME975, actual973->975 source wind strengthens farther BACK/LEFT: source rear tip is lifted and extended left, the front long fringe bends more left across the cheek, bonnet/fringe right top arc flattens, collar/shoulder opens slightly with current wind. Keep SAME SHORT Klee ear-rooted near group, root at ear stable. Its tips now visibly bend BACK/LEFT and slightly upward more horizontally than973; lower tip lifts a little (not a new longer fan or greater mass). Redraw front fringe bending slightly left/away, current pointed-ear connection and shoulder/collar rim. Head crop and HIGH face position fixed by source1; no wholehead shift. Current eye FULLY CLOSED with thick horizontal lid and thin angled brow, tiny hooked DOT mouth, no red iris, no smile/open mouth. Near short tail, fringe, collar and black-line pressure all respond; no static copy of973, no huge original long-hair volume.",
+  "source_exposures": [
+    {
+      "start": 975,
+      "end": 978,
+      "pts": 40.625,
+      "end_pts": 40.75,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 978,
+      "end": 980,
+      "pts": 40.75,
+      "end_pts": 40.833,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0010631084442139,
+            -0.000008568673365516588,
+            -0.9812138080596924
+          ],
+          [
+            0.000008568673365516588,
+            1.0010631084442139,
+            -0.5378986597061157
+          ]
+        ]
+      }
+    }
+  ]
+}

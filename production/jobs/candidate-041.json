@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-cfc188da-472e-408e-bab1-f5b66def6ef9",
+  "candidate_id": 41,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel editing image1 source-cel-041. Source1 controls NEW gesture/expression: head nearly UPRIGHT with slight counterclockwise tilt, both eyes NARROWLY OPEN sleepy rectangular/slit irises under thick lids (not shut), small oval O mouth. Screen-right arm bends beside/above head, glove with ONE index pointing UP near x62%,y10%, remaining fingers curled, glove along hat's right side; left arm now higher than040, left glove singleindex up near x15%,y40%, curledfingers, cuff angled. Preserve precise source eye opening/gaze/pupil crescent, arm positions and index-finger anatomy; brown gloves, RED/BURGUNDY irises instead of source blue. Replace original girl with same Klee as image2 anchor and image3 candidate040 palette: redberet creamclover whitefeather, blonde SHORT two ponytails/pointedears, redcoat cream collar/trim/cuffs. Source1 dominates pose: do NOT freeze040 closedeyes/stronglean/lowerleft glove. Right glove in front of hat wherever overlaps, cuff behindglove. Keep original cream outlined stars and purple backdrop with fullsource crop. Remove ALL subtitles/lyrics/credits/letters, leave clean scene. Loose dark source outlines/flatcolors/orangecheeks/simple shadows, no panels/new props/extra fingers.",
+  "references": [
+    "analysis/source_cels/source-cel-041.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-040.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-041.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Narrow OPEN red rectangular/slit eyes actual source state retained. Left up-index glove higher, right glove at hat's side, reduced tilt vs040. Stars/caption-free scene retained. Head tilt marginally stronger than source."
+}

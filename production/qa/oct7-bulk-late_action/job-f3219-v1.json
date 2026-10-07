@@ -1,0 +1,82 @@
+{
+  "source_frame": 3219,
+  "cel": "cel-0579",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: CURRENT3219 person and LARGE foreground stars are HELD from3217 confirmed RGB and native contours; changing small background stars only. Two BROWN gloves with horizontal forearms at original x575-715/y280-365 andx650-785/y190-275, not prior high diagonal hands. Current foreground upper-mid star fully hides crown/eyes/upper face; no visible hat crown or feather should poke above it, no eye/mouth added; only lower-right profile cheek/chin sliver visible below its right edge. Near sleeve runs down vertical behind star into narrow torso; short two Klee tail roots drift down-left. Background upper-left star moves up-right and grows, right small star shifts right and lower-right star shifts right; preserve current ordering. Keep plain cream collar, simple flat red coat with small dark buttons, no floral button change.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1767-f3219.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3217-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3217-f3219-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3219-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "2ffea754c75637e4e978cc1aafdcec9ec956253a6ca922c75a64f86348d82ef0",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "7477c6e0d55e26fe6e8eecf83f38df558b28e6daaeaa76ac8668c96a44082c22",
+    "d41fa2469b21461994f55e9dd731475f9f779667f2199986711207c97a5ee716",
+    "99ce7ae825d633ba1384f60482ab297e51d7ecea1be1b14598b175eaaba13a0f"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3219-v1.png",
+  "source_exposures": [
+    {
+      "start": 3219,
+      "end": 3222,
+      "pts": 134.125,
+      "end_pts": 134.25,
+      "family": "feet_closeup",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "CURRENT3219 person and LARGE foreground stars are HELD from3217 confirmed RGB and native contours; changing small background stars only. Two BROWN gloves with horizontal forearms at original x575-715/y280-365 andx650-785/y190-275, not prior high diagonal hands. Current foreground upper-mid star fully hides crown/eyes/upper face; no visible hat crown or feather should poke above it, no eye/mouth added; only lower-right profile cheek/chin sliver visible below its right edge. Near sleeve runs down vertical behind star into narrow torso; short two Klee tail roots drift down-left. Background upper-left star moves up-right and grows, right small star shifts right and lower-right star shifts right; preserve current ordering. Keep plain cream collar, simple flat red coat with small dark buttons, no floral button change.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-a38791ac-1cf0-4fe3-b861-04290fb88f94.png",
+  "output_sha256": "c54598cc67d5867fc47d47c1911326a5948cf415625995c01bc58ac2a10950af",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: two horizontal brown gloves lower left of head, foreground star hides eyes and upper face, small dark coat buttons now simplified. Hat crescent exposed at upper-left star edge despite source full crown occlusion; hair has two tails plus long front side lock and may read third, face/coat drift on held source. Exact original saved unaccepted first draft, no artistic retry.",
+    "accepted": false
+  }
+}

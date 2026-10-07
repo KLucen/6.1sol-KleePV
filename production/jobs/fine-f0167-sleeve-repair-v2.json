@@ -1,0 +1,12 @@
+{
+  "job_id": "fine-f0167-sleeve-repair-v2",
+  "source_frame": 167,
+  "family": "standing_pillow",
+  "repair_of": "generated/fine-f0167.png",
+  "references": [{"path": "generated/fine-f0167.png", "role": "Edit target; preserve independent source f167 pose and anatomy"}],
+  "prompt": "Localized PV-cel costume repair. Edit the supplied complete Klee frame167 only. Remove the single EXTRA large round cream fluffy pom sitting on the FRONT RED FOREARM/SLEEVE beside the viewer-right shoulder, approximately x76.5%, y44%. It is an erroneous unattached sleeve ornament and must not exist. Restore the red sleeve color and continuous dark sleeve contour beneath that extra circle. Keep the real small cream collar around her neck and the separate LOWER small cream chest/waist pom below the crossed forearm, do not remove those. Preserve exact raised brown-gloved hands holding the left edge of the pillow, cream cuff bands, crossed arms, source pose, open half-lidded red eyes, orange cheeks, tiny downturned mouth, blonde bangs and exactly two short side ponytails, red clover beret and feather, backpack/charm, red coat, skirt, shorts and cropped legs. Preserve tilted lavender pillow and released clock positions and sizes. No new symbols, text or panels. Do not change head scale or sleeve silhouette anywhere else. One complete 16:9 full-frame cel with original line style and colors.",
+  "output": "generated/fine-f0167-sleeve-repair-v2.png",
+  "status": "reviewed_static_targeted_repair_temporal_pending",
+  "review": "Extra forearm pom removed and genuine lower pom retained. Forearm sleeve contour was also redrawn, so source geometry and adjacent acceptance remain pending.",
+  "accepted": false
+}

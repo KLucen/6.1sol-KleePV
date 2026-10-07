@@ -1,0 +1,326 @@
+{
+  "scope": "early cyan_profile held-looking retained candidates; NOT merged and NOT silently skipped",
+  "status": "pending_source_equivalence_review",
+  "source_map": "source_camera_early.json",
+  "method": "Read-only full-resolution source comparisons with existing refine_camera.full_character_mask, group_source.measure and source_translation. No drawings or source mapping modified.",
+  "aliases_verified": [],
+  "selected_real_redraw_frames": [
+    939,
+    945,
+    951,
+    957,
+    963
+  ],
+  "pending": [
+    {
+      "id": "src-0478",
+      "frame": 938,
+      "start": 938,
+      "end": 939,
+      "pts": 39.083,
+      "end_pts": 39.125,
+      "reference": "source_refs/src-0478-f0938.png",
+      "change": {
+        "pixels": 329,
+        "coherent_pixels": 83,
+        "largest_region": 32,
+        "masked_mean_delta": 0.884528322552772,
+        "frame": 938,
+        "pts": 39.083,
+        "foreground_pixels": 288171
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0179",
+      "family": "cyan_profile",
+      "character_bbox": [
+        652,
+        0,
+        884,
+        865
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0254",
+      "proof": {
+        "frames": [
+          935,
+          938
+        ],
+        "before": "source_refs/src-0476-f0935.png",
+        "current": "source_refs/src-0478-f0938.png",
+        "direct": {
+          "pixels": 10246,
+          "coherent": 9696,
+          "largest": 586,
+          "mean": 2.6805752951698225
+        },
+        "strict_matches": false,
+        "translation": null
+      },
+      "delta_reference": "diffs/cyan-f0935-f0938.png",
+      "disposition": "Kept unmapped/pending; direct coherent residual and translation do not prove copy. Visual outline variation may be codec/camera but cannot assert exact equivalence.",
+      "output": null
+    },
+    {
+      "id": "src-0481",
+      "frame": 942,
+      "start": 942,
+      "end": 943,
+      "pts": 39.25,
+      "end_pts": 39.292,
+      "reference": "source_refs/src-0481-f0942.png",
+      "change": {
+        "pixels": 294,
+        "coherent_pixels": 123,
+        "largest_region": 30,
+        "masked_mean_delta": 0.9608583226240077,
+        "frame": 942,
+        "pts": 39.25,
+        "foreground_pixels": 281208
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0181",
+      "family": "cyan_profile",
+      "character_bbox": [
+        650,
+        0,
+        906,
+        822
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0256",
+      "proof": {
+        "frames": [
+          939,
+          942
+        ],
+        "before": "source_refs/src-0479-f0939.png",
+        "current": "source_refs/src-0481-f0942.png",
+        "direct": {
+          "pixels": 9296,
+          "coherent": 8786,
+          "largest": 961,
+          "mean": 2.4919089374139816
+        },
+        "strict_matches": false,
+        "translation": null
+      },
+      "delta_reference": "diffs/cyan-f0939-f0942.png",
+      "disposition": "Kept unmapped/pending; direct coherent residual and translation do not prove copy. Visual outline variation may be codec/camera but cannot assert exact equivalence.",
+      "output": null
+    },
+    {
+      "id": "src-0486",
+      "frame": 948,
+      "start": 948,
+      "end": 949,
+      "pts": 39.5,
+      "end_pts": 39.542,
+      "reference": "source_refs/src-0486-f0948.png",
+      "change": {
+        "pixels": 295,
+        "coherent_pixels": 100,
+        "largest_region": 20,
+        "masked_mean_delta": 1.0632198392096575,
+        "frame": 948,
+        "pts": 39.5,
+        "foreground_pixels": 277129
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0183",
+      "family": "cyan_profile",
+      "character_bbox": [
+        648,
+        0,
+        912,
+        740
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0258",
+      "proof": {
+        "frames": [
+          945,
+          948
+        ],
+        "before": "source_refs/src-0484-f0945.png",
+        "current": "source_refs/src-0486-f0948.png",
+        "direct": {
+          "pixels": 8790,
+          "coherent": 8439,
+          "largest": 529,
+          "mean": 2.453746993781995
+        },
+        "strict_matches": false,
+        "translation": null
+      },
+      "delta_reference": "diffs/cyan-f0945-f0948.png",
+      "disposition": "Kept unmapped/pending; direct coherent residual and translation do not prove copy. Visual outline variation may be codec/camera but cannot assert exact equivalence.",
+      "output": null
+    },
+    {
+      "id": "src-0492",
+      "frame": 954,
+      "start": 954,
+      "end": 955,
+      "pts": 39.75,
+      "end_pts": 39.792,
+      "reference": "source_refs/src-0492-f0954.png",
+      "change": {
+        "pixels": 364,
+        "coherent_pixels": 114,
+        "largest_region": 29,
+        "masked_mean_delta": 0.8768699516919787,
+        "frame": 954,
+        "pts": 39.75,
+        "foreground_pixels": 292660
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0185",
+      "family": "cyan_profile",
+      "character_bbox": [
+        492,
+        0,
+        1072,
+        883
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0260",
+      "proof": {
+        "frames": [
+          951,
+          954
+        ],
+        "before": "source_refs/src-0489-f0951.png",
+        "current": "source_refs/src-0492-f0954.png",
+        "direct": {
+          "pixels": 9616,
+          "coherent": 9110,
+          "largest": 833,
+          "mean": 2.5124037496927296
+        },
+        "strict_matches": false,
+        "translation": null
+      },
+      "delta_reference": "diffs/cyan-f0951-f0954.png",
+      "disposition": "Kept unmapped/pending; direct coherent residual and translation do not prove copy. Visual outline variation may be codec/camera but cannot assert exact equivalence.",
+      "output": null
+    },
+    {
+      "id": "src-0496",
+      "frame": 960,
+      "start": 960,
+      "end": 961,
+      "pts": 40,
+      "end_pts": 40.042,
+      "reference": "source_refs/src-0496-f0960.png",
+      "change": {
+        "pixels": 3183,
+        "coherent_pixels": 953,
+        "largest_region": 38,
+        "masked_mean_delta": 4.443190336889926,
+        "frame": 960,
+        "pts": 40,
+        "foreground_pixels": 300055
+      },
+      "review": "independent_candidate",
+      "cel": "cel-0187",
+      "family": "cyan_profile",
+      "character_bbox": [
+        445,
+        0,
+        1091,
+        740
+      ],
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "prior_cel": "cel-0263",
+      "proof": {
+        "frames": [
+          957,
+          960
+        ],
+        "before": "source_refs/src-0495-f0957.png",
+        "current": "source_refs/src-0496-f0960.png",
+        "direct": {
+          "pixels": 10819,
+          "coherent": 10027,
+          "largest": 634,
+          "mean": 4.135623200587102
+        },
+        "strict_matches": false,
+        "translation": null
+      },
+      "delta_reference": "diffs/cyan-f0957-f0960.png",
+      "disposition": "Kept unmapped/pending; direct coherent residual and translation do not prove copy. Visual outline variation may be codec/camera but cannot assert exact equivalence.",
+      "output": null
+    }
+  ]
+}

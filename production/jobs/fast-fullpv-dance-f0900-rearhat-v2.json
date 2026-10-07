@@ -1,0 +1,28 @@
+{
+  "job_id": "fast-fullpv-dance-f0900-rearhat-v2",
+  "source_frame": 900,
+  "canonical_cel": "cel-0162",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0900-rearhat-v2.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-028-clean.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0446-f0900.png"
+  ],
+  "reference_roles": [
+    "Full current Klee edit target: foreground BACK-view huge red beret and short hair established; original cyan rear animal-hat remnant is blocking and must be replaced",
+    "Current actual source900: authoritative source crop/depth/visible rear-hat sliver and foreground occlusion; no rear face/limbs invented"
+  ],
+  "prompt": "Use case: precise-object-edit. ONE full16:9 PV cel source900. Image1 is EDIT TARGET: huge foreground BACK OF Klee's head/red beret, cream brim, white feather on LEFT, clover side ornament, blonde short ear-rooted ponytails, no face. Keep that foreground composition/crop/scale/back view, hair roots/two short side groups and red-cream color scheme. IMPORTANT BLOCKING ERROR: upper RIGHT behind foreground red beret still contains original cyan animal-hat DOUBLE ROUND EAR LOBES with GREEN OUTLINES, approx x58%-77% and y0%-25% of full canvas. Replace this ENTIRE visible rear animal-hat fragment, including green double ears and right/lower corner, with the OCCLUDED REAR KLEE'S cool night-lit burgundy/purple beret sliver and its dark-blue outline, plain simple curved beret rim; no green edge, animal ears/mask or rabbit-like lobes remain. Image2 CURRENT ORIGINAL900 decides the exact secondary visible region and depth: rear Klee is almost completely concealed by foreground BACK head, only tiny top/right hat sliver is visible; do NOT reveal a rear eye/face/neck/body/hand/leg. Keep foreground in front and rear cool beret clipped above and occluded along foreground hat boundary, no duplicate full character/extra feather invented. Do not mistake green animal-hat remnant for background/star/moon. Preserve original left lavender large sketch stars and right blue/cyan night sky/crescent transition framing, no text. Flat simplified hand-drawn PV color patches and dark irregular outlines; keep main Klee back-head unchanged as far as possible, no face/frontal eyes added. OMIT all lyrics for separate original-glyph restoration. One full cel, not collage, no holds/mirror/flow/morph.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-def4fa47-2599-4036-b13a-1976d2e4183e.png",
+  "static_review": "Visible cyan/green original double ear lobes replaced by a thin muted cool burgundy rear beret arc. Foreground back head/beret/short two side groups remain, no new face or limbs. Full-image tool inspection shows no green animal-hat lobes; actual900/901 composites still need old AA fringe check.",
+  "known_issues": [
+    "Very thin rear beret sliver approximates source visible area",
+    "Foreground details not pixel locked; mild shading"
+  ],
+  "blocking_static_findings": [],
+  "consecutive_review": "Pending actual900/901 and899/902 joins"
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root/oct7_middle_resume",
+  "status": "static_encoded_sample_review_complete_with_residuals",
+  "master": "C:/Users/KLucen/Desktop/kl/production/output/klee-full-oct7-draft-v1.mp4",
+  "master_sha256": "de68d1e6a653b2188399de84c25cd828fb0e700fab2720d0d88e2580b5b85737",
+  "extraction_report": "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-sampling-report.json",
+  "decode_completed_after_parent_confirmed_encoder_exit_code_zero": true,
+  "encoded_samples_visually_observed": true,
+  "accepted": false,
+  "artistic_acceptance": "not_granted",
+  "original_speed_playback_reviewed": false,
+  "whole_film_art_reviewed": false,
+  "shared_selection_changed": false,
+  "artwork_repaired": false,
+  "public_compositor_changed": false,
+  "scope": {
+    "continuous_groups": 7,
+    "continuous_frames_per_video": 21,
+    "overview_frames_per_video": 7,
+    "total_unique_frame_pairs": 28,
+    "actually_opened_image_files": 28,
+    "display": "Full-strip diagnostics have 480x270 source/draft cells. Caption strips retain native 720x160 crops per cell but the image-view tool resized the 2160x376 strips to 2048x357 for display. The 14 overview source/draft images were opened as individual 1920x1080 images.",
+    "caption_roi_xyxy": [600, 920, 1320, 1080],
+    "limits": "These are static source-versus-encoded comparisons, not a claim that all intervening exposures or realtime motion have been watched. No root-cause attribution or repair is inferred from pixel observations."
+  },
+  "continuous_groups": [
+    {
+      "center": 1037,
+      "frames": [1036, 1037, 1038],
+      "pts_seconds": [43.167, 43.208, 43.250],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f1037-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f1037-caption-native-strip.png"
+      ],
+      "observations": [
+        "The sampled source changes pose at f1038; the encoded Klee also changes arm/body placement at f1038.",
+        "The bottom subtitle changes from the short prior caption at f1036 to the longer two-line caption at f1037 in both source and draft.",
+        "The encoded Chinese line at f1037-f1038 is visibly readable across the boots; the middle of the Japanese line has small gray/black contour fragments and uneven white glyph edges. The short Japanese caption at f1036 also has a small gray/black contour island. These subtitle details are not claimed clean or repaired."
+      ],
+      "residual_categories": ["subtitle_edge_fragments"],
+      "accepted": false
+    },
+    {
+      "center": 1129,
+      "frames": [1128, 1129, 1130],
+      "pts_seconds": [47.000, 47.042, 47.083],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f1129-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f1129-caption-native-strip.png"
+      ],
+      "observations": [
+        "The two outlined encoded subtitle lines remain visible in all three sampled frames; the outlined edges are rougher/heavier than the unoutlined source text.",
+        "At f1129, the draft changes from a plain red tunic/short boot form to a decorated coat/taller boot form, with a changed hat silhouette. This is a visible design discontinuity between adjacent encoded frames.",
+        "The source has wide open eyes across the sample; the encoded f1129-f1130 eyes are half-lidded, unlike the more open encoded f1128 eyes. The clasped hands remain present, but the sampled expression is not source-matched."
+      ],
+      "residual_categories": ["costume_continuity", "expression_mismatch", "subtitle_outline_roughness"],
+      "accepted": false
+    },
+    {
+      "center": 1144,
+      "frames": [1143, 1144, 1145],
+      "pts_seconds": [47.625, 47.667, 47.708],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f1144-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f1144-caption-native-strip.png"
+      ],
+      "observations": [
+        "Both source and draft switch the subtitle from the longer prior line at f1143 to the short two-line caption at f1144.",
+        "The sampled encoded closed-eye high-clasp pose is held across all three frames.",
+        "The short Chinese caption remains readable over the boots, but its central glyph contours and the Japanese glyph edges are coarse and have visible dark fragments. The comparison does not grant clean typography acceptance."
+      ],
+      "residual_categories": ["subtitle_outline_roughness"],
+      "accepted": false
+    },
+    {
+      "center": 2145,
+      "frames": [2144, 2145, 2146],
+      "pts_seconds": [89.333, 89.375, 89.417],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f2145-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f2145-caption-native-strip.png"
+      ],
+      "observations": [
+        "Two encoded outlined subtitle lines are clearly present at f2144.",
+        "At f2145, the source still displays the same complete two-line caption, but the draft has only a few pale stroke fragments, with nearly all text absent.",
+        "At f2146, the source switches to a new complete two-line caption, while the draft shows sparse fragments that do not form readable lines.",
+        "The foreground Klee covers the rear profile character in the three sampled frames; the foreground pose/face changes at f2146. This static layering observation is not full motion or mask acceptance."
+      ],
+      "residual_categories": ["severe_subtitle_loss_at_boundary"],
+      "priority": "high",
+      "accepted": false
+    },
+    {
+      "center": 2163,
+      "frames": [2162, 2163, 2164],
+      "pts_seconds": [90.083, 90.125, 90.167],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f2163-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f2163-caption-native-strip.png"
+      ],
+      "observations": [
+        "The source displays complete Japanese and Chinese subtitle lines across f2162-f2164. The encoded lines across all three frames are severely broken into pale dotted fragments, especially the Chinese line over the coat.",
+        "The Klee profile and short ponytail are visible, but a large long-hair silhouette and contour from the original character remain at the rear lower-left, behind the replacement ponytail.",
+        "The first Japanese glyph region also changes from predominantly blue fragments at f2162 to more pale strokes at f2163 while the caption itself is unchanged in the source."
+      ],
+      "residual_categories": ["severe_subtitle_loss", "original_character_long_hair_residual"],
+      "priority": "high",
+      "accepted": false
+    },
+    {
+      "center": 3235,
+      "frames": [3234, 3235, 3236],
+      "pts_seconds": [134.750, 134.792, 134.833],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f3235-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f3235-caption-native-strip.png"
+      ],
+      "observations": [
+        "The back-facing raised-arm pose changes between f3234 and f3235 in both source and draft; the draft is held at f3236.",
+        "The upper and large lower foreground yellow stars visibly overlap the Klee silhouette, including the lower body. This does not establish all star-mask boundaries across the shot.",
+        "Across all three sampled frames, the Japanese line is visibly present, while much of the Chinese line over the yellow star is hollowed/broken into fragmented strokes rather than the source's solid glyphs. Small white fragments occur near the orange star edge."
+      ],
+      "residual_categories": ["chinese_subtitle_fragmentation_over_star"],
+      "priority": "high",
+      "accepted": false
+    },
+    {
+      "center": 3259,
+      "frames": [3258, 3259, 3260],
+      "pts_seconds": [135.750, 135.792, 135.833],
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f3259-full-strip.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/f3259-caption-native-strip.png"
+      ],
+      "observations": [
+        "The sampled Klee changes from arms above the head at f3258 to both arms extended at f3259, and holds that pose at f3260, following the source pose transition.",
+        "The encoded hands/coat are behind the visible star edge at the right of the frame in the sampled composition.",
+        "In all three sampled frames, only the left subtitle prefixes outside the body and isolated stroke fragments within the red coat remain. The complete two-line source caption is not readable in the draft over the coat."
+      ],
+      "residual_categories": ["severe_subtitle_loss_over_character"],
+      "priority": "high",
+      "accepted": false
+    }
+  ],
+  "overview": [
+    {
+      "frame": 0,
+      "pts_seconds": 0.000,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f0000.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f0000.png"
+      ],
+      "observations": [
+        "The close crop and pillow remain visible with a Klee hat/hair replacement and closed-eye face.",
+        "The upper-right feather has a visibly cut/fragmented tip region and a horizontal purple/black interruption; a few tiny dark specks are visible above the hat. No caption is present in this sampled opening frame."
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 500,
+      "pts_seconds": 20.833,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f0500.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f0500.png"
+      ],
+      "observations": [
+        "The seated Klee holds the sack with one hand and places the other on the hat, corresponding to the sampled source pose.",
+        "Both bottom subtitle lines on the plain purple background are complete and visibly readable in this individual sample. This does not assert the rest of the seated sequence was inspected."
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 1502,
+      "pts_seconds": 62.583,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f1502.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f1502.png"
+      ],
+      "observations": [
+        "The curled/tilted closed-eye Klee pose is present; no subtitle is present in this individual sample.",
+        "Faint irregular gray patches are visible on the left bang/hair region, with a tiny isolated dark speck to the upper right of the character and small outline irregularities near the lower coat/leg boundary."
+      ],
+      "accepted": false
+    },
+    {
+      "frame": 2401,
+      "pts_seconds": 100.042,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f2401.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f2401.png"
+      ],
+      "observations": [
+        "The two raised index fingers and closed eyes are present on the replacement.",
+        "Both bottom subtitle lines lose most strokes over the boots; the Chinese line is also fragmented near its outer glyphs, unlike the source's complete visible line.",
+        "Small pale fragments occur over the upper bangs, and an isolated short dark vertical mark is visible left of the shin."
+      ],
+      "priority": "high",
+      "accepted": false
+    },
+    {
+      "frame": 3000,
+      "pts_seconds": 125.000,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f3000.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f3000.png"
+      ],
+      "observations": [
+        "The Klee pillow-holding pose is present and the left Japanese title line remains visibly readable.",
+        "The left Chinese title line is hollowed/dotted rather than the complete solid source glyphs, despite being on plain purple background outside the character."
+      ],
+      "priority": "high",
+      "accepted": false
+    },
+    {
+      "frame": 3470,
+      "pts_seconds": 144.583,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f3470.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f3470.png"
+      ],
+      "observations": [
+        "Both raised index fingers and the sampled closed-eye standing pose are present.",
+        "The bottom Japanese and Chinese captions lose many strokes where they cross the boots; parts of the Chinese glyphs outside the boots are also hollowed/fragmented. The complete source caption is not readable in the sampled encoded image."
+      ],
+      "root_observation": "Root separately reported actually viewing source-f3470.png and draft-f3470.png and observing two-line subtitle stroke loss in the boot-overlap region. This agent independently opened both images and confirms the same sampled issue.",
+      "priority": "high",
+      "accepted": false
+    },
+    {
+      "frame": 3657,
+      "pts_seconds": 152.375,
+      "actually_viewed_files": [
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/source-f3657.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/full-draft-one-pass-2026-10-07/encoded-samples/draft-f3657.png"
+      ],
+      "observations": [
+        "The final close-up Klee has closed eyes, an open smiling mouth and clasped gloves; a full encoded final frame was available for extraction.",
+        "The middle/right portions of the large left title are substantially missing or fragmented around the short ponytail and side hair.",
+        "The right-side music/visual/MIX credits have substantial stroke loss: the music line is nearly absent, the singer name remains more visible, and only parts of the visual/MIX lines remain.",
+        "Pale white/gray fragments overlay the left bangs and ponytail; tiny red interruptions occur at multiple hair-outline tips."
+      ],
+      "root_observation": "Root separately reported actually viewing source-f3657.png and draft-f3657.png and observing large-title and music/visual/MIX credit stroke loss, plus pale fragments over bangs/short ponytails. This agent independently opened both images and confirms those sampled issues.",
+      "priority": "high",
+      "accepted": false
+    }
+  ],
+  "summary": "Static visual review of 28 unique frame pairs completed. Significant subtitle/title/credit loss remains in several sampled locations; costume/expression discontinuity and a retained original long-hair silhouette are also visible. All artistic acceptance remains deferred. No artwork, selection or shared compositor was modified."
+}

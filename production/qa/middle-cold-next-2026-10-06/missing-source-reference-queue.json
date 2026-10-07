@@ -1,0 +1,429 @@
+{
+  "queue": [
+    {
+      "source_frame": 2145,
+      "cel": "cel-0403",
+      "source_candidate": "src-1214",
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-source-actual.png",
+      "source_reference": "source_refs/src-1214-f2145.png",
+      "source_sha256": "226288d95009ac26e8d2550e5ccc6c30bfdaff5d35c8fb2cf1a8bd6ad941559d",
+      "sequential_original_exact": true,
+      "before_source_frame": 2143,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2143-f2145-source-ab-rgb-contours.png",
+      "native_delta_files": [
+        {
+          "name": "warm-face-eye-mouth",
+          "box_xyxy": [
+            280,
+            280,
+            940,
+            850
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-warm-face-eye-mouth-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "warm-hat-hair",
+          "box_xyxy": [
+            260,
+            0,
+            1220,
+            340
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-warm-hat-hair-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-eye-bangs-profile-hat",
+          "box_xyxy": [
+            1010,
+            0,
+            1520,
+            780
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png"
+        }
+      ],
+      "native_current_cold_face": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-current-cold-face-native.png",
+      "source_exposures": [
+        {
+          "start": 2145,
+          "end": 2146,
+          "pts": 89.375,
+          "end_pts": 89.417,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "source_frame": 2146,
+      "cel": "cel-0404",
+      "source_candidate": "src-1215",
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-source-actual.png",
+      "source_reference": "source_refs/src-1215-f2146.png",
+      "source_sha256": "138578aa9ae7930bb7a6ab2433b4e717483d3726449ed9246dc002ac4412428e",
+      "sequential_original_exact": true,
+      "before_source_frame": 2145,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2145-f2146-source-ab-rgb-contours.png",
+      "native_delta_files": [
+        {
+          "name": "warm-face-eye-mouth",
+          "box_xyxy": [
+            280,
+            280,
+            940,
+            850
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-warm-face-eye-mouth-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "warm-hat-hair",
+          "box_xyxy": [
+            260,
+            0,
+            1220,
+            340
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-warm-hat-hair-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-eye-bangs-profile-hat",
+          "box_xyxy": [
+            1010,
+            0,
+            1520,
+            780
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png"
+        }
+      ],
+      "native_current_cold_face": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-current-cold-face-native.png",
+      "source_exposures": [
+        {
+          "start": 2146,
+          "end": 2149,
+          "pts": 89.417,
+          "end_pts": 89.542,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "source_frame": 2149,
+      "cel": "cel-0405",
+      "source_candidate": "src-1217",
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-source-actual.png",
+      "source_reference": "source_refs/src-1217-f2149.png",
+      "source_sha256": "ee162060ada392c8576808d2b4389647793dacba2873d85b86ab7b959817f714",
+      "sequential_original_exact": true,
+      "before_source_frame": 2146,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2146-f2149-source-ab-rgb-contours.png",
+      "native_delta_files": [
+        {
+          "name": "warm-face-eye-mouth",
+          "box_xyxy": [
+            280,
+            280,
+            940,
+            850
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-warm-face-eye-mouth-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "warm-hat-hair",
+          "box_xyxy": [
+            260,
+            0,
+            1220,
+            340
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-warm-hat-hair-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-eye-bangs-profile-hat",
+          "box_xyxy": [
+            1010,
+            0,
+            1520,
+            780
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png"
+        }
+      ],
+      "native_current_cold_face": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-current-cold-face-native.png",
+      "source_exposures": [
+        {
+          "start": 2149,
+          "end": 2151,
+          "pts": 89.542,
+          "end_pts": 89.625,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "source_frame": 2151,
+      "cel": "cel-0406",
+      "source_candidate": "src-1219",
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-source-actual.png",
+      "source_reference": "source_refs/src-1219-f2151.png",
+      "source_sha256": "3dc3e341828195cacf9e81d553e80099ac447c67db1231503df9983d976baddb",
+      "sequential_original_exact": true,
+      "before_source_frame": 2149,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2149-f2151-source-ab-rgb-contours.png",
+      "native_delta_files": [
+        {
+          "name": "warm-face-eye-mouth",
+          "box_xyxy": [
+            280,
+            280,
+            940,
+            850
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-warm-face-eye-mouth-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "warm-hat-hair",
+          "box_xyxy": [
+            260,
+            0,
+            1220,
+            340
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-warm-hat-hair-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-eye-bangs-profile-hat",
+          "box_xyxy": [
+            1010,
+            0,
+            1520,
+            780
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png"
+        }
+      ],
+      "native_current_cold_face": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-current-cold-face-native.png",
+      "source_exposures": [
+        {
+          "start": 2151,
+          "end": 2152,
+          "pts": 89.625,
+          "end_pts": 89.667,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "source_frame": 2152,
+      "cel": "cel-0407",
+      "source_candidate": "src-1220",
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-source-actual.png",
+      "source_reference": "source_refs/src-1220-f2152.png",
+      "source_sha256": "68158afe17c9e1c278f0aa9c59544751e31e77c271b97a90253ba285d869857a",
+      "sequential_original_exact": true,
+      "before_source_frame": 2151,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2151-f2152-source-ab-rgb-contours.png",
+      "native_delta_files": [
+        {
+          "name": "warm-face-eye-mouth",
+          "box_xyxy": [
+            280,
+            280,
+            940,
+            850
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-warm-face-eye-mouth-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "warm-hat-hair",
+          "box_xyxy": [
+            260,
+            0,
+            1220,
+            340
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-warm-hat-hair-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-eye-bangs-profile-hat",
+          "box_xyxy": [
+            1010,
+            0,
+            1520,
+            780
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-cold-eye-bangs-profile-hat-native-ab-rgb-contours.png"
+        }
+      ],
+      "native_current_cold_face": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-current-cold-face-native.png",
+      "source_exposures": [
+        {
+          "start": 2152,
+          "end": 2154,
+          "pts": 89.667,
+          "end_pts": 89.75,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false
+    },
+    {
+      "source_frame": 2154,
+      "cel": "cel-0408",
+      "source_candidate": "src-1221",
+      "current_source": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2154-source-actual.png",
+      "source_reference": "source_refs/src-1221-f2154.png",
+      "source_sha256": "5e12c425c50327e35ba7895570d7fd2c7fbe392ad379b54fac7d5ee5632e1c80",
+      "sequential_original_exact": true,
+      "before_source_frame": 2152,
+      "actual_delta": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2152-f2154-source-ab-rgb-contours.png",
+      "native_delta_files": [
+        {
+          "name": "warm-remaining-fragment",
+          "box_xyxy": [
+            0,
+            0,
+            780,
+            780
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2154-warm-remaining-fragment-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-eyes-bangs-mouth-cheek",
+          "box_xyxy": [
+            830,
+            215,
+            1480,
+            820
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2154-cold-eyes-bangs-mouth-cheek-native-ab-rgb-contours.png"
+        },
+        {
+          "name": "cold-hat-hair-neck-collar",
+          "box_xyxy": [
+            580,
+            0,
+            1510,
+            1040
+          ],
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2154-cold-hat-hair-neck-collar-native-ab-rgb-contours.png"
+        }
+      ],
+      "native_current_cold_face": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-cold-next-2026-10-06\\f2154-current-cold-face-native.png",
+      "source_exposures": [
+        {
+          "start": 2154,
+          "end": 2155,
+          "pts": 89.75,
+          "end_pts": 89.792,
+          "family": "cyan_profile",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "accepted": false
+    }
+  ],
+  "sequential_decode": [
+    0,
+    2155
+  ],
+  "decoded_actual_consecutive": [
+    2143,
+    2155
+  ],
+  "manifest_snapshot_utc": "2026-10-06T09:55:06.550279+00:00",
+  "artwork_generated": false,
+  "aliases_created": false
+}

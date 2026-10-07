@@ -1,0 +1,32 @@
+{
+  "job_id": "fullpv-early-f0774-source-v1",
+  "source_frame": 774,
+  "canonical_cel": "cel-0125",
+  "source_candidate": "src-0338",
+  "family": "front_small",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0774-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE 16:9 independently redrawn Klee PV cel f774. Image1 CURRENT ORIGINAL is edit target and ABSOLUTE authority for camera/face size/current expression/two hands/cuffs/sleeves/crop/occlusion. Image2 is Klee hair/costume/color/line-style identity ONLY, never its open eyes, fists, camera or head scale. Image3 actual source771/774 local RGB differences and contours: independently draw CURRENT side eyelid/hands/cuffs/folds. Match source f774 native zoom: face center x51%, eye line y40%, chin58%, tall narrow open O mouth y52%. BOTH eyes fully CLOSED in slightly unequal straight black strokes, no visible irises. Two open brown gloved hands in FRONT of lower cheeks, fingers tilted inward, palms turned toward face and fingertips overlap orange cheeks; hands exactly2, no fists. Glove wrists near x40% and60%, y68%; forearms extend sideways with huge source cream cuffs, elbow outer boundaries x24%/78%, y69%, red sleeves end around y80%. Source head and hand asymmetry retained. Red coat torso continues cropped through bottom; NO legs or full body. Replace old girl with Klee: exact2 SHORT blonde ear-root ponies, pointed ears, red cream-clover beret with ONE white feather, cream collar and plain cream cuffs, brown gloves; lower coat cream clover only if in crop; no sleeve clovers, no third hair tuft or badges/danglers. REMOVE rabbit forehead mask ENTIRELY and all pink long hair. Match source face width about19% canvas, do not enlarge head using image2. Simple flat unshaded PV blocks, irregular thick black handdrawn outlines. Flat solid lavender background, no gradient. Omit all text, independent particles/props for later source layers. Current source1 exact closed-eye mouth/hand pose must override image2 identity reference; no neighboring held drawing, no morph/interpolation, no collage.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0338-f0774.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0766-source-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0774-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source f774 exclusive geometry/crop/expression/occlusion authority",
+    "Klee identity/color/costume ONLY; pose and scale forbidden",
+    "Actual source771/774 RGB and contour evidence"
+  ],
+  "continuity_status": "static_source_pair_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-5e70fdd0-e10e-492c-bf00-35e5b28c7986.png",
+  "static_review": "Current fully closed eyes, tall O and two open cheek-front hands independently drawn. Current source771/774 full/local RGB and contours reviewed.",
+  "known_issues": [
+    "Face wider and eye line about3% canvas lower than source",
+    "Cuffs larger and sleeve contours approximate",
+    "Hat/feather extends higher; backdrop gradient and costume shading persist"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0774-source-v1-source-static-contact.jpg"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "fine-f0927",
+  "source_frame": 927,
+  "source_candidate": "src-0468",
+  "source_cel": "cel-0175",
+  "family": "cyan_profile",
+  "prompt": "Use case: precise-object-edit. ONE full 16:9 hand-drawn PV replacement cel. Image1 is exact CURRENT TARGET source frame and controls camera/crop, pose, eye state, mouth, position, proportions, occlusion and color grade. Image2 is nearest Klee SAME-SHOT cel for identity, costume and line consistency ONLY; do not copy its pose/camera instead of source. Image3 is actual before/current SOURCE spatial difference sheet, for local shape changes only; output is never a montage or delta diagram. Replace EVERY original person/fragment with Genshin Impact Klee default Shooting Spark: pale blonde short twin ponytails, pointed ears, red beret creamclover whitefeather, redcream coat, brown gloves/boots/backpack only if actually visible. Keep source simple thick uneven dark lines, flat minimal colors, at most one shade. Apply source cool cyan/blue NIGHTGRADE to main figure, hat/coat dark muted red-purple, blonde hair cool lightblue, red irises MUTED RED under bluegrade, no source-green or blue iris. Preserve one OPEN slender foreshortened eye, tiny closed DOT mouth, right-facing STRICT PROFILE and calm forward/upward gaze unless specific target says otherwise. No smile, no extra eyes, no invented hands/legs/torso outside source crop. Blue/purple starry sky, crescent and tiny stars remain at original positions to best tool accuracy. REMOVE ALL subtitles/title/credits/lettering; clean collar/coat/background under letters. No text, no extra panels, no new objects, no glow or detailed restyling. Match local contour changes shown by source difference, don't merely hold preceding Klee drawing. Frame927 current target is a genuine new wind drawing, not a held copy. Match source eye/mouth/camera unchanged but redraw moving hair: narrow eye-adjacent fringe now extends farther down across cheek; broad near-side cheek lock bends/bulges toward viewer RIGHT at its middle/lower portion and tapers back LEFT to a sharp point at collar, rather than preceding straight vertical hook. Source rear hair arch is slightly more upright and its lower loop rounder; translate to Klee SHORT rear ponytail with upper contour more upright, lower lobes fuller/rounder, tips flowing LEFT/back, same root and length. Source shoulder/collar partly hidden by bulged front lock. Keep same Klee hat feather/clover, pointed ear, open muted-red iris and DOT mouth; no warm foreground actor, no extra eye/hands. Shape change must be visible; avoid simply copying image2. No text anywhere.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0468-f0927.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0925.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\cyan-f0925-f0927.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0927.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-96394a2a-110d-4372-83ee-523bd73e2f5c.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Distinct outward-bulged cheek lock and changed short rear ponytail",
+      "Same Klee identity, open muted-red eye and dot mouth",
+      "No visible text, hands or additional actor",
+      "Cheek lock continues in front of collar"
+    ],
+    "flaws": [
+      "Near-side lock lower sweep is enlarged and adapted to Klee; source pixel correspondence not exact",
+      "Eye-adjacent fringe descent differs from source geometry",
+      "Background/source camera alignment and actual-speed wind continuity remain unapproved"
+    ]
+  },
+  "temporal_review": "pending"
+}

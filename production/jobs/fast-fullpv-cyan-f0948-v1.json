@@ -1,0 +1,35 @@
+{
+  "job_id": "fast-fullpv-cyan-f0948-v1",
+  "source_frame": 948,
+  "canonical_cel": "cel-0183",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted_registration_pending",
+  "output": "generated/fast-fullpv-cyan-f0948-v1.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0486-f0948.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0948-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0945-f0948-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current948 edit target: authoritative full canvas source pose/crop/landmark registration",
+    "Current native face region: open eyelid/gaze/dot-mouth/nose/chin shape; no whole-canvas scale authority",
+    "Klee short rooted hair/beret/simple two-leaf collar identity only, not pose or warm illumination",
+    "Klee red pupil/upper dark hook and tiny white curl highlight only",
+    "Actual original945 to948 independent outline redraw, current hair-tip/hat/line pressure changes"
+  ],
+  "prompt": "Use case: identity-preserve. ONE 16:9 full-frame source948 independent PV drawing. Image1 is CURRENT EDIT TARGET and its exact HEAD/FACE location must stay unchanged: preserve RIGHT-facing profile nose, open narrow single eye, dot mouth and chin at their current image1 coordinates; don't move head down or fit the full hat. Image2 is the native current eye/nose/dot-mouth crop for exact facial expression, not overall composition. Replace original girl with Klee using Image3 only for short blonde hair attached in TWO ear/neck-rooted short side groups, clover beret, feather, pointed ear, plain two-leaf collar and simple coat identity; image3 frontal/warm pose must NOT be inherited. Image4 gives red eye identity with dark upper iris hook and tiny white curl highlight; eye remains one visible narrow open side-profile eye, no second frontal eye or smile. Current source eye about x66% y39%, nose x74% y41%, dot mouth x71% y51%, chin x70% y59%; these HIGH registered locations are binding. Beret replaces the current animal hat and should be cropped by top canvas if necessary, never lower face or reduce head to make hat fit. Original image1 long peach/pink hair becomes short cyan/lavender-lit blonde Klee hair with attached near-ear group ending by the collar, no waist-length locks or third detached hair fan. Preserve oversized profile head scale and source high crop. Simple red/burgundy coat under cool cyan/lavender night light exits bottom, plain cream two-leaf collar looks cyan, no diamond collar ornaments, no pompom, no hands or legs invented. Image5 actual source945/948 A/B+RGB+contours controls independently redrawn small hat/fringe/eyelid/profile/hair-root/shoulder contour and line pressure changes; not a held copy or fixed template. Preserve source purple-left to blue/cyan-right night sky, existing tiny stars/crescent, framing. Flat simplified hand-drawn PV colors, irregular dark outlines, minimal shading. OMIT all lyrics/text for original-layer restoration. ONE current cel, no collage, extra person, mirror, morph or flow.",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-259f8f34-d4bd-4949-80a6-253780e9c87c.png",
+  "static_review": "One right-facing cool-light Klee with single open red eye/dot mouth/short ear-rooted hair and top-cropped beret. Current source pose retained approximately; head registration and joins require actual adjacent review.",
+  "known_issues": [
+    "Residual face landmarks somewhat lower than original source",
+    "Simplified collar differs historical neighbors",
+    "Additional hat shading and hair line details"
+  ],
+  "blocking_static_findings": [],
+  "consecutive_review": "pending; not artistic accepted"
+}

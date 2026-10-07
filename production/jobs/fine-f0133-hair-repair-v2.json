@@ -1,0 +1,12 @@
+{
+  "job_id": "fine-f0133-hair-repair-v2",
+  "source_frame": 133,
+  "family": "standing_pillow",
+  "repair_of": "generated/fine-f0133-geometry-repair.png",
+  "references": [{"path": "generated/fine-f0133-geometry-repair.png", "role": "Current edit target; independent f133 sleeve contours and clock pose"}],
+  "prompt": "Localized cleanup of the supplied Klee cel, full original 16:9 canvas. Remove ONLY the two thin lavender/gray erroneous hair-like loops hanging below the viewer-left outstretched red sleeve, between that sleeve and her left waist: the curved sideways loop under the arm and the downward narrow pointed strand. Restore surrounding violet background there. Preserve BOTH genuine pale blonde short side ponytails, all bangs and front locks, red beret and feather, open droopy red eyes, face, orange cheek patches, head angle, wide outstretched diagonal arms, hand and clock positions, bent f133 sleeve contours and folds, cream cuff bands, brown gloves, tilted pillow behind the head, red angular coat, cream skirt trim, waist pom and backpack unchanged. This is f133, not the previous f129 drawing: do not freeze or copy another cel's sleeve silhouette. Keep original PV line style and colors. Do not add any hair, face detail, text, analysis panels or crop. Return one full-frame cel.",
+  "output": "generated/fine-f0133-hair-repair-v2.png",
+  "status": "reviewed_static_targeted_repair_temporal_pending",
+  "review": "Old-character hair loops removed; distinct f133 sleeve folds preserved. Pixel-locality and original-speed acceptance pending.",
+  "accepted": false
+}

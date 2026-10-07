@@ -1,0 +1,25 @@
+{
+  "job_id": "fine-f1319",
+  "source_frame": 1319,
+  "source_candidate": "src-0824",
+  "canonical_cel": "cel-0284",
+  "family": "seated_title_credits",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0824-f1319.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1309.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\title-f1314-f1319.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\title-f1314-head-pose-crop.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 source-like PV cel. Image1 is CURRENT ORIGINAL f1319 and is authoritative for exact size/location, pose, face angle and occlusion. Image2 is preceding Klee design/style ONLY, not a frozen pose. Image3 is real SOURCE A/B differences for local contour redraw, not an output sheet. Image4 is a CLOSE SOURCE HEAD POSE, showing intended tilt direction: LEFT EYE LOWER and RIGHT EYE HIGHER. Replace only the original girl of image1 with Klee ShootingSpark, same simple flat loose drawing as image2. Klee remains small near center. Sit with BOTH knees raised, two boots together on unchanged source floor y780 of1920x1080, brown gloved arms crossed on top of knees/IN FRONT, face and hair behind wrists, tiny closed dot mouth and half-lidded OPEN RED eyes, both open equally, glance down-left. Head/beret/bangs/ears lean visibly toward viewerLEFT about14degrees; follow image4 eye slope with left-eye center lower than right, NOT opposite. Keep body upright. Current f1319 has slightly rounder left elbow, hat/bang/cheek redraw and narrower right body/fold silhouette than1314; redraw these real changes subtly, not a hold/mirror/rotation of an earlier cel. Klee pale blonde TWO SHORT side ponytails, pointed ears, red beret cream clover white feather, cream-trim red coat with same hem length and cuffs, brown boots/gloves/backpack and round cream pom-poms from image2. Preserve figure scale/volume, hat and ponytail topology. No long pink hair/bunny mask/pajamas. Loose chunky dark outlines, broad flat patches, orange oval blush, restrained shadow. Purple lavender background. No lettering, titles, captions, credits, symbols, watermark; those will be restored from original layer. No extra props/blanket/pillow or characters. Output exactly one complete replacement cel.",
+  "output": "../generated/fine-f1319.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f79a-3717-70a0-99bd-273f3e9ae3e5\\exec-c94726dd-967c-46d5-a69e-c005ab1cfe69.png",
+  "status": "generated_pending_review",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "character_coherent_pixels": 37893,
+    "proof": "qa/late-title-source-audit.json",
+    "differences": "diffs/title-f1314-f1319.png"
+  },
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

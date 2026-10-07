@@ -1,0 +1,49 @@
+{
+  "source_frame": 2576,
+  "source_cel": "cel-0500",
+  "source_candidate": "src-1533",
+  "output": "generated\\fine-f2576.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2576: Current independent small right full-body curled pose. Head crown y0.248, both eyes half-open and clearly visible above pillow, red irises each CLEAR BLACK tiny oval pupil and white highlight. Head tilted counterclockwise screen-right eye higher. Figure original bounds x0.57..0.785 y0.248..0.732: boots must end at0.732H, not0.81H. Both KNEES visibly raised to chest with two large bent-thigh folded red coat panels, top knees aroundy0.47, simple cream folded hem aroundy0.61. Short shins and brown boots below knees, left boot lower. Both brown gripping gloves overlap lavender pillow, PLAIN rectangular cream cuffs, no cuff scallops. Mouth/chin hidden by pillow, no invented mouth. No separate puff. Prior Klee reference only identity/topology colors; current source head/eye/knee/sleeve contours redrawn, including sleeve fold shifts, pillowleft corner and raised coathem. Exactly two short pale blonde ponytails rooted at ears, redcloverberet only.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1533-f2576.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2570-f2576-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2553.png",
+      "role": "adjacent_klee_topology_line_color_only_not_frozen_pose"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Static source/adjacent check: head lift, visible black pupils, plain cuffs, both raised knees and pillow face occlusion present. Figure is still enlarged and shifted left (boots~0.82H versus source~0.73H); unresolved size/position issue recorded while advancing independent dive family."
+    ],
+    "issues": [
+      "Figure enlarged and shifted left relative current source."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-8f674026-5ad5-4c64-aa37-f8c24f1a8e23.png"
+}

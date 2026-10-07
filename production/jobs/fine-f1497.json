@@ -1,0 +1,28 @@
+{
+  "source_frame": 1497,
+  "prompt": "Use case: identity-preserve. Edit Image1 CURRENT ORIGINAL PV into Klee in-place, one full original 1920x1080 canvas. Image2 is SAME CURRENT SOURCE HEAD enlarged and has sole head/eye/tilt geometry authority. Image3 supplies ONLY the red clover beret, feather and pale-blonde identity, NO facial/pose authority. Image4 is actual source A/B, RGB difference and contour overlay, no output panels. No other pose template: source forearms geometry must be kept. Preserve the small original seated centered figure occupying x39..60%, y23..73%, boot soles at original y72%, knees raised together, crossed forearms across knees around y48..53%, both hands tucked FULLY behind opposing sleeves, never visible extra glove pairs on top. Exactly TWO short pale-blonde ponytails with roots by pointed ears, restrained volumes replacing original long hair. Red cream-clover beret, white feather, redcoat creamtrim folding around raised knees, pale bare knees and cream socktops, two round brown boots, modest brown backpack partly behind viewer-right shoulder. REMOVE original rabbit sleep mask completely. Original sleepy dot mouth and orangecheeks. If irises visible their WHOLE fill is muted RED, no blue source iris carried over. Loose uneven dark PV contours, flat patches, minimal shadow, not polished game art. Keep current source backdrop/text/credits layout; compositor restores exact already-visible original pixels. No new text/caption/crop/panels/characters, no enlarged or lowered body. Independently redraw current sleeves, coat folds, legs, boots and head landmarks shown by current source, no frozen template. Current f1497: CREDIT TEXT HAS DISAPPEARED; original plainlavenderBG no letters. Seated character head counterclockwiseLEFTlean about14deg and BOTH EYES FULLY CLOSED, tiny dotmouth. Source arms: left redelbow x42%y47%, left forearm diagonally rises to HIDDENhand at53%y44%; rightelbow57%y45% rightforearm crossing to HIDDENhand46%y50%, on raisedknees. No visiblegloves/no extrahands. Keep original bootsole floor y775, smalloriginalwholebodyplace. Exactly2shortblondeearrootpony, beretredcreamcloverwhitefeathercompact. Redcoat follows seatedkneefolds with creamhem/creamclover lowercoatonly; creamsocktops, two plainroundbrownboots smallwhitepoms atouteruppersides, NO bootclovers/no backpackclovers. Modest brownbackpack and creampom behindrightshoulder. Source lineweightuneven, simple flatPV color. No text/newprops, no transformationtemplate.",
+  "name": "fine-f1497.png",
+  "output": "generated/fine-f1497.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0894-f1497.png",
+      "role": "Current source pose/canvas"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1497.png",
+      "role": "Current source head"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only Klee identity"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1463-f1497.png",
+      "role": "Actual source spatial delta"
+    }
+  ],
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "review": "Closed-eye leftlean/plain background draft. FAIL exposed cream cuff/hand at sleeve crossing instead of fully-hidden hands; arm axes nearly horizontal, coat shadow/style drift. Needs targeted sleeve repair, acceptedfalse."
+}

@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0610",
+  "source_frame": 610,
+  "source_candidate": "src-0245",
+  "canonical_cel": "cel-0101",
+  "family": "prone_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0606.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0245-f0610.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0610.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0610-source-legs.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full 16:9 independent hand-drawn PV cel, no captions/text. Image1 is the preceding Klee cel EDIT TARGET: preserve identity, flat colors, short twin ponies, red beret cream clover and white feather, plain brown round clover badge (nothing dangling), pointed ears, face scale, backpack/garment design, both gloves and original pillow scene placement. Image2 CURRENT ORIGINAL is absolute authority for exact pose/scale/crop/anatomy/eye and mouth state/current leg and sleeve contours/props/occlusion. Image3 REAL original before/current/spatial difference sheet, upper-right current; blue before/red current contour. Image4 CURRENT original leg close-up, posing only. Replace the old character fully with default Klee, not pajamas: red coat with one small cream clover ONLY lower side coat, plain cream angular skirt and pink ruffle over RED shorts, bare PALE SKIN thighs/knees/shins up to plain cream boot top bands, BROWN BOOTS beyond those bands, no brown shins, no sleeve/boot clovers. Redraw all current changed contours at ORIGINAL scale, not hold/copy previous motion. Follow current source face visible eye state; red irises ONLY if source eyes open; no invented mouth if not visible. Body remains prone on same cream/purple pillow; two forward brown full gloves, sleeves behind wrists; knees/feet behind hip as current. Keep preceding character screen size, pillow size and placement, no camera zoom. Simple thick uneven PV outlines and completely flat areas, no textures/gradient/extra shadows/game art. Only current full-frame cel, never analysis panel/sheet. TARGET f0610: Redraw current fan-apart leg pose with slightly steeper rear/viewer-left shin/cream boot band and narrower left boot toe; current viewer-right boot toe is SHORTER/slanted DOWN-right, not elongated previous boot. Follow current shin knee crease and current foreground sleeve crease/hand contour shown in delta. Do not copy previous unchanged. Same sleepy half-open red eyes, mouth not visible; fixed source-scale prone torso/pillow and Klee identity.",
+  "output": "../generated/fine-f0610.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-f86ad7d2-c51f-44e8-84ea-93251bd43a16.png"
+}

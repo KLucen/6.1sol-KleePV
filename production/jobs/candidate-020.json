@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-853b25fb-b4e7-47d6-bea7-ac4aee82756c",
+  "candidate_id": 20,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. Single FULL16:9 PV cel editing image1 source-cel-020. Source1 sets THIS current extreme zoom/pose. Huge face now tighter than previous019; mouth largely cut off at bottom, orange cheek circles fill lower face, eyelids squeezed SHUT as heavy black chevrons with BOTH upper and lower strokes thick, brows and bangs differently angled as actual source drawing. Preserve current heavier eye line pressure, source brow/eye slopes and hair/bang motion. Large yellow black-outlined STAR at right ear now much BIGGER around x90%,y82%, exactly source size/location, in front of hair; do not freeze previous small star. NO arms/hands/torso, only collar sliver if inside source bottom. Replace pink hair with pale blonde short Klee hair and cropped top sleep mask with cropped red beret brim, no fullhat forced in view. Image2 Klee identity/style; image3 candidate019 sets stable hair/face/hat palette but not previous smaller framing/star/thinner eyelids. Keep exact full scene crop. Remove ALL bottom lyrics/credits/letters, leaving clean artwork; text restored separately. Preserve remaining purple in corners, flat sourcecolors, loose dark hand lines, simple shading. No panels/new props/extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-020.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-019.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-020.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Distinct heavier upper/lower chevron strokes and larger right yellow star than019. Mouth more bottom-clipped. Blonde/hat topology remains broadly consistent. No captions."
+}

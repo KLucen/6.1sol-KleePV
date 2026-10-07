@@ -1,0 +1,45 @@
+{
+  "source_frame": 2676,
+  "source_cel": "cel-0505",
+  "source_candidate": "src-1559",
+  "output": "generated\\fine-f2676.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2676: Independent prone landing rebound: body flattens almost HORIZONTAL, legs/boots kick backward to RIGHT but lowered markedly from prior. Headcenterx0.656 y0.615, crowny0.51, both tightly CLOSED angular squeezed eyelids, wide open horizontal O mouth partly hidden by lavender pillow top. Bodyaxis fromheadx0.656 y0.615 tohipsx0.758 y0.557, upperback nearly horizontal. Knees bent so both small brown boots now atx0.741 y0.435 andx0.780 y0.427, NOT high vertical feet. Both brown gloved palms press pillow sides leftx0.567 y0.646 rightx0.726 y0.667 with PLAIN straight cream cuffs. Current bounds figurex0.54..0.825 y0.412..0.746, exact SMALL scale; pillowx0.54..0.731 y0.667..0.748. Two separate SMALL cream puffs left of head one atx0.534 y0.461 otherx0.581 y0.433, not one giant puff. Klee redcoat folds at prone hips, cream hem, brownbackpack small on upperback; exactlytwo short blonde ear-root ponytails settle backward lower with current motion. Redcloverberet whitefeather replaces mask. Preserve actual current red contours and pillow depth, no text.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1559-f2676.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2671-f2676-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Static check: lowered kicked-back feet and flatter prone torso, both pressed gloves/pillow occlusion, closed eyes and two cream puffs represented. However model enlarged whole group and shifted left relative source, with larger pillow; unresolved scale/position retained."
+    ],
+    "issues": [
+      "Figure and pillow enlarged/left-shifted from source bounds."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-f1670111-eee9-485c-a2f4-01961c9d4eb4.png"
+}

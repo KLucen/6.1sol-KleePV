@@ -1,0 +1,153 @@
+{
+  "accepted": false,
+  "authorization": "允许先重建清晰字幕，看片后再指定返工",
+  "phases": [
+    {
+      "interval": [
+        1162,
+        1217
+      ],
+      "japanese": "痛いの痛いの飛んでいけ",
+      "chinese": "痛痛飞走吧",
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-layers-2026-10-06\\pain-real-caption.npz",
+      "sha256": "bb7405312bea6fd29750353b4baf451eceb3fc1fa1e68e159e88fa9a62c6254e",
+      "region": [
+        710,
+        954,
+        1185,
+        1047
+      ],
+      "lines": [
+        {
+          "frame": 2420,
+          "source_region": [
+            824,
+            954,
+            1268,
+            992
+          ],
+          "integer_translation": [
+            -100,
+            0
+          ],
+          "destination_region": [
+            724,
+            954,
+            1168,
+            992
+          ],
+          "core_pixels": 3678,
+          "foreground_bgr": [
+            211.0,
+            221.0,
+            247.0
+          ],
+          "source_sha256": "a4d05f6bb4f226aa7487b51a2861ff56f91267094d0784d4011f0dc6b9168379"
+        },
+        {
+          "frame": 2420,
+          "source_region": [
+            940,
+            1002,
+            1170,
+            1047
+          ],
+          "integer_translation": [
+            -111,
+            0
+          ],
+          "destination_region": [
+            829,
+            1002,
+            1059,
+            1047
+          ],
+          "core_pixels": 3106,
+          "foreground_bgr": [
+            210.0,
+            222.0,
+            241.0
+          ],
+          "source_sha256": "a4d05f6bb4f226aa7487b51a2861ff56f91267094d0784d4011f0dc6b9168379"
+        }
+      ]
+    },
+    {
+      "interval": [
+        1217,
+        1225
+      ],
+      "japanese": "魔法になる 合図",
+      "chinese": "成为魔法的信号",
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-layers-2026-10-06\\magic-real-caption.npz",
+      "sha256": "5540430c62891e1c0720856a864f4b271b062392599040ba736c0f8a2239b700",
+      "region": [
+        796,
+        954,
+        1100,
+        1047
+      ],
+      "lines": [
+        {
+          "frame": 1256,
+          "source_region": [
+            796,
+            954,
+            1100,
+            992
+          ],
+          "integer_translation": [
+            0,
+            0
+          ],
+          "destination_region": [
+            796,
+            954,
+            1100,
+            992
+          ],
+          "core_pixels": 3026,
+          "foreground_bgr": [
+            210.0,
+            221.0,
+            247.0
+          ],
+          "source_sha256": "4b1a2a6df84eb4ebdea7ad55ed6f69290539cc17a7770ae1ba66b4c9307d8ea6"
+        },
+        {
+          "frame": 1267,
+          "source_region": [
+            796,
+            1002,
+            1100,
+            1047
+          ],
+          "integer_translation": [
+            0,
+            0
+          ],
+          "destination_region": [
+            796,
+            1002,
+            1100,
+            1047
+          ],
+          "core_pixels": 3890,
+          "foreground_bgr": [
+            215.0,
+            224.0,
+            236.0
+          ],
+          "source_sha256": "1e4fd53e32b0bd4c25962a61035559b5f3ae68672225633e8decb34dbf4c818e"
+        }
+      ]
+    }
+  ],
+  "pain_registration_dice": {
+    "japanese": 0.7730706961683756,
+    "chinese": 0.9188148148148149
+  },
+  "method": "Actual whole original line crops, integer translation only; alpha estimated from real source glyphs and donor plate, no scaling/morph/AI text/guessed strokes.",
+  "native_static_review": "pending actual viewing",
+  "actual_speed_review": "not performed"
+}

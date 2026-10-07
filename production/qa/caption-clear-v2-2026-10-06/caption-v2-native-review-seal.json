@@ -1,0 +1,132 @@
+{
+  "sealed_at_utc": "2026-10-06T10:08:35.518247+00:00",
+  "accepted": false,
+  "changed_scope": [
+    1043,
+    1144
+  ],
+  "raw_technical_frames": 182,
+  "source_pts": "Compared every frame to retained private timeline original PTS",
+  "outside_ownership_errors": 0,
+  "body_vs_v1_errors": 0,
+  "all_81_frames_after_1143_exact_v1": true,
+  "focused_tests": {
+    "caption_v2": "4 passed",
+    "registration_and_coverage": "12 passed"
+  },
+  "native_visual_review": {
+    "actually_viewed": true,
+    "frames": [
+      1043,
+      1144
+    ],
+    "all_101_cn_frames": true,
+    "pages": [
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-01.png",
+        "sha256": "b403c2fe4a20ffe31c3feb764bc0e9ad21f317e63c8628f74b1a34a7d5e757a2"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-02.png",
+        "sha256": "9f65c2390d41fa1048e520052ea1016cd805f9f641555f37fdca3df16d7bb154"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-03.png",
+        "sha256": "7495ff89e5c3257b7e29896dcc51fa8cb68b42c63f6d9994b086bb562bcb47e7"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-04.png",
+        "sha256": "4520b3ac5364eaa194d5e0a2cb9b6f7189a42a009d84a0f1fb8a2c61bd7d22fe"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-05.png",
+        "sha256": "b0a9763d5a62a96554bf404abf3c54dae8b3e2d88c3ca4e923ede802f0c77305"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-06.png",
+        "sha256": "772e5c502712a83af60eae20051e1ec67eb0a16824974553e7b52d52008d8a0a"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-07.png",
+        "sha256": "0fba240f5568f1581c54d91fc18f40408a46aeb700aa149573a0418cc7334338"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-08.png",
+        "sha256": "b9e788eb6e40232901adc8e4108275793e3717167f6adbd3859c00b994038e40"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-09.png",
+        "sha256": "df11e89d87ec84d403c4800cacd7200a862da2fe3f263ebfbb774fced41edc90"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-10.png",
+        "sha256": "54ce5a868ca7f3041eaac992712e606f9d3af448a7098ba7e64a5a0574b27326"
+      },
+      {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\caption-clear-v2-2026-10-06\\cn-v2-native-page-11.png",
+        "sha256": "ad2487170a0396e1b08d39588aaffd6f31582aeef6498b2083066a97a898c6c9"
+      }
+    ],
+    "reference_crops": [
+      "f3402-cn-native.png",
+      "f1037-cn-native.png",
+      "f3402-both-native.png",
+      "f1037-both-native.png",
+      "v2-long-glyphs-native.png",
+      "v2-cn-alpha-native.png",
+      "f3402-cn-exact-donor.png"
+    ],
+    "observations": [
+      "Complete same-line Chinese is readable in all 101 native CN views; missing 人 stroke restored from the actual original donor.",
+      "Japanese and character artwork are unchanged.",
+      "Estimated donor AA differs slightly from current compressed original strokes; this was explicitly authorized."
+    ]
+  },
+  "single_contrast_experiment": {
+    "radius": 4,
+    "frames": [
+      1129,
+      1144,
+      1154
+    ],
+    "actually_viewed_native": true,
+    "adopted": false,
+    "decision": "Reject: the extra cream boot-clover shapes still camouflage 寂/分/う, while the thicker halo makes Chinese edges heavier. No further outline/threshold tuning.",
+    "files": [
+      "f1129-single-4px-halo-proposal-native.png",
+      "f1144-single-4px-halo-proposal-native.png",
+      "f1154-single-4px-halo-proposal-native.png"
+    ]
+  },
+  "remaining_issues": [
+    {
+      "interval": [
+        1129,
+        1144
+      ],
+      "issue": "Japanese 寂 camouflages with cream boot clover; not visually passed."
+    },
+    {
+      "interval": [
+        1144,
+        1161
+      ],
+      "issue": "Japanese 分/う camouflages with cream boot clovers; not visually passed."
+    },
+    {
+      "interval": [
+        1037,
+        1043
+      ],
+      "issue": "Outside this shared helper; inherited incomplete Chinese glyph is not repaired by this scoped v2 update."
+    }
+  ],
+  "encoded_review": "Not performed by this agent; chapter export and encoded review are separate root work.",
+  "actual_speed_review": "Not performed by this agent.",
+  "next_evidence_based_route": "Independent clean lyric underlay/ownership for same-color character badges; do not continue expanding halos.",
+  "shared_helper_sha256": "17c41ad2ef2ff3ecdfbc06386589260c28e557ef692621845c43b66ba56144ac",
+  "layer_sha256": "38ae00ae0480ca8077554a26e343315cfaa9d7da72e92b135bb543389bb4198e",
+  "technical_report_sha256": "631a3a8516553b62789469e9fd194dd5e247e58172682794d82600fcb39c1cc8",
+  "baseline_freeze_sha256": "e49ccce3daf33e9a15284d8ccd233f2e0255060d15df9ecfac09ca1fa4bb62d3",
+  "preserved_prior_artifacts": "Original helper snapshot, short layer, combined long data and Japanese donor NPZ frozen before edits. No old exports, selections, aliases or docs changed."
+}

@@ -1,0 +1,1578 @@
+{
+  "audit_utc": "2026-10-04T09:43:34.917494+00:00",
+  "scope": "Delivery integrity read-only audit, no generation/render/regression/repeated artistic review",
+  "outputs": [
+    {
+      "video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-dance-812-911-fast-draft-v11.mp4",
+      "actual_video_sha256": "568454f423d2a1bef897a2d3c4929fdb8328fce5fde024183d4ac289c33e5fc7",
+      "verification_report": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-812-911-fast-draft-v11-single-verification.json",
+      "verification_report_sha256": "518bf89791b1d414915dcf53ca46c37d0520bc401cd07e4b3abc26ed75a8bbcd",
+      "reported_video_sha256": "568454f423d2a1bef897a2d3c4929fdb8328fce5fde024183d4ac289c33e5fc7",
+      "video_sha_matches_report": true,
+      "report_video_path_matches": true,
+      "technical_pass": true,
+      "check_count": 17,
+      "all17_checks_true": true,
+      "failed_checks": [],
+      "expected_frames": 99,
+      "source_interval": [
+        812,
+        911
+      ]
+    },
+    {
+      "video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-dance-812-911-comparison-fast-draft-v11.mp4",
+      "actual_video_sha256": "69c506cc46100a3ec783391e32857b705a83d0308f280551fc5dee15b6597edb",
+      "verification_report": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-812-911-fast-draft-v11-comparison-verification.json",
+      "verification_report_sha256": "9cbf45f79a47cd662a52dc52e18405dd2e82ba6a1c9ed77a8fb8fed33d28daae",
+      "reported_video_sha256": "69c506cc46100a3ec783391e32857b705a83d0308f280551fc5dee15b6597edb",
+      "video_sha_matches_report": true,
+      "report_video_path_matches": true,
+      "technical_pass": true,
+      "check_count": 17,
+      "all17_checks_true": true,
+      "failed_checks": [],
+      "expected_frames": 99,
+      "source_interval": [
+        812,
+        911
+      ]
+    },
+    {
+      "video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-raised-1225-1285-fast-draft-v2.mp4",
+      "actual_video_sha256": "c0a57ac0b6e35d368bc28cbaa6e1c6030559b76b70fd2f7159674ef2bc150e36",
+      "verification_report": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\single-v2-technical-verification.json",
+      "verification_report_sha256": "bd82b5fdd81b20f5159da40c773dee521baac835931d0f75791901048bf44bbf",
+      "reported_video_sha256": "c0a57ac0b6e35d368bc28cbaa6e1c6030559b76b70fd2f7159674ef2bc150e36",
+      "video_sha_matches_report": true,
+      "report_video_path_matches": true,
+      "technical_pass": true,
+      "check_count": 17,
+      "all17_checks_true": true,
+      "failed_checks": [],
+      "expected_frames": 60,
+      "source_interval": [
+        1225,
+        1285
+      ]
+    },
+    {
+      "video": "C:\\Users\\KLucen\\Desktop\\kl\\production\\output\\klee-raised-1225-1285-comparison-fast-draft-v2.mp4",
+      "actual_video_sha256": "7365d89fd970b8ee290d9749c7d92e96fccfca95bce51589ee58c13f1710e04b",
+      "verification_report": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\comparison-v2-technical-verification.json",
+      "verification_report_sha256": "d74cdbdf1210e9b451cbc2654d20f73d05d32fc9a3682414e4029a4aa9c58ab2",
+      "reported_video_sha256": "7365d89fd970b8ee290d9749c7d92e96fccfca95bce51589ee58c13f1710e04b",
+      "video_sha_matches_report": true,
+      "report_video_path_matches": true,
+      "technical_pass": true,
+      "check_count": 17,
+      "all17_checks_true": true,
+      "failed_checks": [],
+      "expected_frames": 60,
+      "source_interval": [
+        1225,
+        1285
+      ]
+    }
+  ],
+  "timelines": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\timeline-dance-812-911-fast-draft-v11.json",
+      "exists": true,
+      "sha256": "3e6c40b9d382f2a61b510b3d6fa128c532ce0a7b7c52a1d51588e4e376e74b5d",
+      "source_start": 812,
+      "frames": 99,
+      "mode": "strict_source_draft_preview",
+      "pts_entries": 99
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\timeline-raised-1225-1285-fast-draft-v1.json",
+      "exists": true,
+      "sha256": "9a080f5ecbc8ad366e3d4f788b89ab411cb62466062c4aa6f384529ceaae12d4",
+      "source_start": 1225,
+      "frames": 60,
+      "mode": "strict_source_draft_preview",
+      "pts_entries": 60
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-batch-2026-10-04-asset-selections-snapshot.json",
+      "exists": true,
+      "sha256": "be0b533d96a1844551d15febe3269c44aff67af1ccd7607ecb557d31795ac857",
+      "selection_count": 228
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-batch-2026-10-04-progress-snapshot.json",
+      "exists": true,
+      "sha256": "f2d26d7a95d9b4a4c844623f1102643c2b8f23cea69f87e6510eab7ef2aad2c6",
+      "missing_selected_cels": 300,
+      "accepted_character_cels": 0
+    }
+  ],
+  "generation_records": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-batch-2026-10-04-generation-records.json",
+    "exists": true,
+    "sha256": "433e3d3cdb4a1046f5e8f4204011a7754b68af478bedd3a0c92ab08056e7f25c",
+    "raised_record_file": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\generation-records.json",
+      "exists": true,
+      "sha256": "ebfb700e6ef2cff5f504fc110aa310e1e3736b4ab14388ee5c56ca17c3c13c01"
+    },
+    "raised_link_sha_matches": true,
+    "root_dance_count": 12,
+    "root_cyan_count": 8,
+    "raised_count": 12,
+    "total_calls": 32,
+    "all32_records_complete": true,
+    "records": [
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0887-v1.json",
+        "job_sha256": "70a2f255f9b0cca18a7743fe363c92a573ae9b32db1cc861936325b80b2836a7",
+        "job_hash_matches_record": true,
+        "source_frame": 887,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0887-v1.png",
+        "output_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-98174fc6-20ee-4fac-b316-7c5103936b48.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0433-f0887.png",
+            "saved_sha256": "45af14e0865991b1502d609eb4000837eb56ac11a3a40a7b76ba382637a16ca8",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-two-leaf-collar-continuous-hem-f0843.png",
+            "saved_sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0880-f0887-source-ab-rgb-contours.png",
+            "saved_sha256": "3513fab5738309330b595c5006c7af25981823dc3ccefd8f60d0f84044d6fa58",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0889-hair-v2.json",
+        "job_sha256": "d48f963d1863b91e99229ff9074f658867fe210ef01124a16c35195843746f87",
+        "job_hash_matches_record": true,
+        "source_frame": 889,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 2,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0889-hair-v2.png",
+        "output_sha256": "31615b6c5a1a13920e0d886b9f62d38d2dd06db5b40735d01039679469b20d4b",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-cbf97405-cd93-451c-96a6-7eaedd7170ce.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0889-v1.png",
+            "saved_sha256": "c515a704f81aa33626293766b05ccf1be739bb22d10d635d9c0dd85170e74bc8",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0887-v1.png",
+            "saved_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0889-v1.json",
+        "job_sha256": "7d6ae615274d7a86c68eacfba4fc579c23f3a0b9124b392962b2ab3726a27dfb",
+        "job_hash_matches_record": true,
+        "source_frame": 889,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 5,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0889-v1.png",
+        "output_sha256": "c515a704f81aa33626293766b05ccf1be739bb22d10d635d9c0dd85170e74bc8",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c52ee6a5-7b04-4737-a240-d451994580a2.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0435-f0889.png",
+            "saved_sha256": "a9f75abbc1bb7daf79fdf5f14c007345e9ab433acf8f8058910388efee3dfffc",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0887-v1.png",
+            "saved_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0887-f0889-source-ab-rgb-contours.png",
+            "saved_sha256": "846d489ad40790be56f0b6eaaaad9684b6d47728170fd3a7ddaf7bafa11ba8f1",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0891-source-v2.json",
+        "job_sha256": "30ca85c8b8729249b82effddd76cfbdeaf863e69935e86745817d1e8b56aaa5c",
+        "job_hash_matches_record": true,
+        "source_frame": 891,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0891-source-v2.png",
+        "output_sha256": "01a62b92f07df277ef0b5e594bf157079ea8162656be99d1080978ae5a8abe82",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-a35eac08-af45-4a06-b9b1-c9dbf23a1355.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0437-f0891.png",
+            "saved_sha256": "53f87c8aed8e602b287b6ed99d7772e3df047c5c9ee1b815b4a76f97f872fc7a",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0889-hair-v2.png",
+            "saved_sha256": "31615b6c5a1a13920e0d886b9f62d38d2dd06db5b40735d01039679469b20d4b",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0894-source-v2.json",
+        "job_sha256": "b2784f6c51a7181f442e58b03fa4d2581ca9a82fc23b2cebfe97c86e6b1b06dd",
+        "job_hash_matches_record": true,
+        "source_frame": 894,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0894-source-v2.png",
+        "output_sha256": "11a74dd7e5a222b29503b07f1da99b256c2142a9556dc100aed09635cfc1611a",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-09547fa3-0005-4d29-9e8f-8f2fab84dd2e.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0440-f0894.png",
+            "saved_sha256": "2f443a794f55602205bf0ed6c7378e9d61a6669a5821bb9e048dd6b47aaa7f1f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0891-source-v2.png",
+            "saved_sha256": "01a62b92f07df277ef0b5e594bf157079ea8162656be99d1080978ae5a8abe82",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-occlusion-repairs\\f0891-f0894-source-ab-rgb-contours.png",
+            "saved_sha256": "708c764935e9d1f835f18763baffb3f5d39707be72bbba84925ad82d645432ff",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0897-source-v2.json",
+        "job_sha256": "52fc4a5535a81f6a02b33fcda43942c5b87e63c25ce259b79c258cdb179e1d62",
+        "job_hash_matches_record": true,
+        "source_frame": 897,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0897-source-v2.png",
+        "output_sha256": "8436e5ba4c037c7b33f1d44cbec8b0fec15c98221cbf04415322da8c019cc4b1",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-619bbdbd-d1f8-4b96-8084-ee49420adcdb.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0443-f0897.png",
+            "saved_sha256": "4f73be98a3e56fd29be48fc132380686fbcfae4dc178f0d0d4e59ce86d4ce06e",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0894-source-v2.png",
+            "saved_sha256": "11a74dd7e5a222b29503b07f1da99b256c2142a9556dc100aed09635cfc1611a",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-occlusion-repairs\\f0894-f0897-source-ab-rgb-contours.png",
+            "saved_sha256": "3b234eb2bd5ec98289025ca55fc53bded361c55c772ecdb81bba9e4a75e820fa",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0900-rearhat-v2.json",
+        "job_sha256": "647d28a4ad8996cb35cb67166031a8ad9f6c35c5d2c649445aa47d4eeb14ca22",
+        "job_hash_matches_record": true,
+        "source_frame": 900,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 2,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0900-rearhat-v2.png",
+        "output_sha256": "276249a21a63d3f52558fc501741738fb06cbca53592172c2a29ae505974cd1e",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-def4fa47-2599-4036-b13a-1976d2e4183e.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-028-clean.png",
+            "saved_sha256": "9685bae4ecaf86ed52f6c041fb73b5d4726c1f9e13fe120b4890bceddcd08aac",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0446-f0900.png",
+            "saved_sha256": "4cfe4b472b3ef58e514ae2ec122cafed36c6d2ff2656d9abef533c5a1d77e927",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0903-v1.json",
+        "job_sha256": "b74199933ec7eb74e0fab9f4ab4268ab4d8e1ac83f2f80e2e83cadb950268cdb",
+        "job_hash_matches_record": true,
+        "source_frame": 903,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 5,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0903-v1.png",
+        "output_sha256": "c35e9404a3b9bdb892b6fd61f741df7a230d9e55f3c7b15d00c72f73b8dd3b32",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-aed244ef-5907-4a3f-b3bd-2c055ccd80fa.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0449-f0903.png",
+            "saved_sha256": "e92a061bb2563cfe8263b8f7584e624b098a3ba0dd40eb45acd48700c6f4b79a",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-two-leaf-collar-continuous-hem-f0843.png",
+            "saved_sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0902-f0903-source-ab-rgb-contours.png",
+            "saved_sha256": "a42552eecc8002695498ff8a185ee8e666dff5fd297006e77703f7503130cc24",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0907-source-v2.json",
+        "job_sha256": "6aad10a97978e679535cdcf1a54789c7ee678b3f87566930b6e36fe37cc99b4a",
+        "job_hash_matches_record": true,
+        "source_frame": 907,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0907-source-v2.png",
+        "output_sha256": "65f4a6beb7a939a6395178de307f7e2f797631b5141f3272c33cd778216134ef",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-96cc52a3-9940-476d-adb8-97f34f18c347.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0452-f0907.png",
+            "saved_sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-f0908-source-ab-rgb-contours.png",
+            "saved_sha256": "eb34137475d3c8c25e2b398b67fd23ba5bffdc8ddfba54fb5fb2aea1e7d2538c",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0907-v1.json",
+        "job_sha256": "d717b8737cb81c7c83d0695e5e65dae32d39c703b335755e3abf0f4765e90cd2",
+        "job_hash_matches_record": true,
+        "source_frame": 907,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 5,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0907-v1.png",
+        "output_sha256": "90e2a27b837f5ed1e21f343bef15b3df3ad1ac6c288cd02c2b46f52265e11ec1",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-e7c2789b-3952-4495-b77d-003dd6b50c43.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0452-f0907.png",
+            "saved_sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0903-v1.png",
+            "saved_sha256": "c35e9404a3b9bdb892b6fd61f741df7a230d9e55f3c7b15d00c72f73b8dd3b32",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0905-f0907-source-ab-rgb-contours.png",
+            "saved_sha256": "09009d837e587a25f5c383b2b623845521033c89476090b2e33a1dd1c3a75937",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0908-v1.json",
+        "job_sha256": "541c5ac1bea8bbda303785bb4571fe3e79db50d433c504c94247d550323e805c",
+        "job_hash_matches_record": true,
+        "source_frame": 908,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 5,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0908-v1.png",
+        "output_sha256": "3c82816ab10f795ea4e5c6af71656aa74c35749db3dc0ad60bfd15646f10351b",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-f5a4471d-9e7a-42b1-9732-7b8be3cd31fb.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0453-f0908.png",
+            "saved_sha256": "db273e9f090a48f9f01a52d56ea3ceebe1e61605a322d6e71863460800780f63",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-two-leaf-collar-continuous-hem-f0843.png",
+            "saved_sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0907-f0908-source-ab-rgb-contours.png",
+            "saved_sha256": "eb34137475d3c8c25e2b398b67fd23ba5bffdc8ddfba54fb5fb2aea1e7d2538c",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_dance",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0909-v1.json",
+        "job_sha256": "66e4f0bf2c497c0d82cfaefd25acabae77439c5e0d0c1c48680263ac4fe7efcc",
+        "job_hash_matches_record": true,
+        "source_frame": 909,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0909-v1.png",
+        "output_sha256": "fa1444d00e40c1a12bf5fe08040761b2f3613c1777f4b55468564f38f0c50957",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-0f995b18-22bb-454f-84e0-eb317b546759.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0454-f0909.png",
+            "saved_sha256": "aea0c18297aeb5b3fdc7af48886d9277bcd1f6e58d15a8ce7b52e4772d352811",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-dance-f0908-v1.png",
+            "saved_sha256": "3c82816ab10f795ea4e5c6af71656aa74c35749db3dc0ad60bfd15646f10351b",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\f0908-f0909-source-ab-rgb-contours.png",
+            "saved_sha256": "588616d90d0909e69a47ca365133f1eec59884f462a80f80dcf495a5d712321c",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0938-position-v2.json",
+        "job_sha256": "9529f812653360e5c5891ae7138fdbb7a2a90c6fed6f61dc214c30e0d2f26c1e",
+        "job_hash_matches_record": true,
+        "source_frame": 938,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 2,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0938-position-v2.png",
+        "output_sha256": "becab9abfea39edb75d76080cf98ebbcb1e2a8f5470fc43f1b2c26f8331a7620",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-9c45e860-d34d-4943-a537-4d8b25bc3f46.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0938-v1.png",
+            "saved_sha256": "08f33cf52d1e1c164e4f3ededed16340ab2caf7fdca072c169340c696ced5aac",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0478-f0938.png",
+            "saved_sha256": "fe77d6858781cf9c4ba29c870a5b3cf5fa98afd4dded6a77462a778cb687c1b7",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0938-v1.json",
+        "job_sha256": "fd262e1b0a72277d4aea4040c8aabf6c4c14764f9e6b8510cbfe877f29877978",
+        "job_hash_matches_record": true,
+        "source_frame": 938,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0938-v1.png",
+        "output_sha256": "08f33cf52d1e1c164e4f3ededed16340ab2caf7fdca072c169340c696ced5aac",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-38d77fcb-fa5c-4ac7-8521-f926e4548283.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0478-f0938.png",
+            "saved_sha256": "fe77d6858781cf9c4ba29c870a5b3cf5fa98afd4dded6a77462a778cb687c1b7",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0935-f0938-source-ab-rgb-contours.png",
+            "saved_sha256": "faf86834097f1c6374ed073deb62bf9925d69887228f0c6e5a4b6cfe2b6186d7",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0942-v1.json",
+        "job_sha256": "db6cad84e4997473fafdf5236c4d0e36a0365b8a7238c90466b263b20c37c0b3",
+        "job_hash_matches_record": true,
+        "source_frame": 942,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0942-v1.png",
+        "output_sha256": "907a3ecd247924e27c99033e4d85f14769102cbc03d18add4fe655de118a0176",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-77fc3a3a-faa2-44e2-af67-c270b65684bb.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0481-f0942.png",
+            "saved_sha256": "8a968c05bb1cb415aab2ae0cb2b14677f4c5dc479404bbfbb4fe472ffe0c2347",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0942-source-eyes-nose-mouth.png",
+            "saved_sha256": "9844c0ca5a679507b92ccd63008a68cc8d9f909d7a36f1dd479157b3463a376b",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0938-position-v2.png",
+            "saved_sha256": "becab9abfea39edb75d76080cf98ebbcb1e2a8f5470fc43f1b2c26f8331a7620",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0939-f0942-source-ab-rgb-contours.png",
+            "saved_sha256": "eb26bc9091abe9f7ca091bfdaeec232df268b710aea40ec59c03b4351a40f5c5",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0948-v1.json",
+        "job_sha256": "62c2ae6a820c56c33f6c3dcf1eac33a749222c1b19912bc0c899a16aba87454e",
+        "job_hash_matches_record": true,
+        "source_frame": 948,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 5,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0948-v1.png",
+        "output_sha256": "3b551dc2d32b348527184c41609acb97ddd76baa7683e6dd8846ba2c63e48574",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-259f8f34-d4bd-4949-80a6-253780e9c87c.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0486-f0948.png",
+            "saved_sha256": "0700c16b52799c45314d50b341eaab8bd6168c8b137139970255f17477892ce2",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0948-source-eyes-nose-mouth.png",
+            "saved_sha256": "b4a2f179c9fe16dff2e285952e2a9e69bfb036a9392a4ea824dd11ca4c1e948b",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-head-short-hair-f0843.png",
+            "saved_sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0945-f0948-source-ab-rgb-contours.png",
+            "saved_sha256": "cb67a790a4bbcaaa1d72075b3d867c3e9c506bd2642df40aaa41b1947af8021d",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0954-v1.json",
+        "job_sha256": "2b2e35a48ede5eab97184ed628327eb58ee229ed13b244b94c9acf86b4e1028e",
+        "job_hash_matches_record": true,
+        "source_frame": 954,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0954-v1.png",
+        "output_sha256": "a1491f504be96cfd0b61ed03a6151b1c5c1f425e428a648568bf2f828b8f163b",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-b7b3dd2c-bb3a-4ef4-99ce-908c205efbcd.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0492-f0954.png",
+            "saved_sha256": "dd45e6bc4bdc81c0ecc12e5eabbc562af1bbdefd3cf5e9dfe5d3ad0ad0a25139",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-source-eyes-nose-mouth.png",
+            "saved_sha256": "187434d33cb4a34ab25658552b2192c0f7939a9217752a4c4cd20452180d41fd",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0948-v1.png",
+            "saved_sha256": "3b551dc2d32b348527184c41609acb97ddd76baa7683e6dd8846ba2c63e48574",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0951-f0954-source-ab-rgb-contours.png",
+            "saved_sha256": "852f1bb4ffa029beab1e199b6632a7910ccf97832998aeff4c91b2d7cffe9ed8",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0957-v1.json",
+        "job_sha256": "496391c8c4f2066fe966b71ef13c90deb8b11fbf6e1b7f2a23d4a2c2c855cd51",
+        "job_hash_matches_record": true,
+        "source_frame": 957,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0957-v1.png",
+        "output_sha256": "992133b4477b45f97c88e6fed093bcf27a97a29101f2873a08e8edd13ffa21b1",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5a87d4ea-11a2-48f1-9d9a-4c21c4d3d85b.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0495-f0957.png",
+            "saved_sha256": "35636af7edadede95e824734c80e6515bff3446cc439214fac71751d8c7a2a65",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-source-eyes-nose-mouth.png",
+            "saved_sha256": "5f98b782aafddbe9f0d45ea36207a69af461af9ff6393a945356ebcdb886d1bd",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0954-v1.png",
+            "saved_sha256": "a1491f504be96cfd0b61ed03a6151b1c5c1f425e428a648568bf2f828b8f163b",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-f0957-source-ab-rgb-contours.png",
+            "saved_sha256": "d44f7756699ee08d1062bef61209d193d0b6ed37d8c6fd6d76a12c15f1aa7496",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0960-v1.json",
+        "job_sha256": "77caa1fac299a182c9001caa4099d9d09de14eb62d772c2db9ca8f772587b37f",
+        "job_hash_matches_record": true,
+        "source_frame": 960,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0960-v1.png",
+        "output_sha256": "bd735602866dad17c59731766508291ff197eeb0d257656fcdba969677b06fa7",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5b38752e-c922-4b91-b6e8-7d54e30532be.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0496-f0960.png",
+            "saved_sha256": "5d8c343fc00ee9125b7cf09a74372d0f9e82e248f1dbf05d8cb84e9468347130",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-eyes-nose-mouth.png",
+            "saved_sha256": "2f1076959fe7aaf358ab185c76d1cf4e3bdf5dcb191834a7469b61bf75c230e3",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0957-v1.png",
+            "saved_sha256": "992133b4477b45f97c88e6fed093bcf27a97a29101f2873a08e8edd13ffa21b1",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-f0960-source-ab-rgb-contours.png",
+            "saved_sha256": "576f24152e74fa0e824814f00385f3a579d4f775b3063d5295423dae51bc0edf",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "root_cyan",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0963-v1.json",
+        "job_sha256": "a6f3814404b77d5743a0fb8cf6bf049c7dbdef2c934cda3104611261e41d6d85",
+        "job_hash_matches_record": true,
+        "source_frame": 963,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0963-v1.png",
+        "output_sha256": "c1e3a1758e766be35dda234badeb97b5a8ace24e0a94a992d2faf3ce21bcb85c",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d03b9b62-b778-474b-bfa7-334d3f1f8afa.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0499-f0963.png",
+            "saved_sha256": "d34162f82c5d1465fc67c0ba9ced4f45f72b327bf9a40df7f78106de976f14d3",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-source-eyes-nose-mouth.png",
+            "saved_sha256": "c50f176eb10aabf9930a86ddc4cbc1673f2ad28b9152074a3fbd911f80597725",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0960-v1.png",
+            "saved_sha256": "bd735602866dad17c59731766508291ff197eeb0d257656fcdba969677b06fa7",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-f0963-source-ab-rgb-contours.png",
+            "saved_sha256": "f5fe873722b82fc380048dd948ca13375387ea69cf9307a61aebc9605aaa81dd",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1225-v1.json",
+        "job_sha256": "e05a4abfc7e721c2187c6d7e352b5473ce1c1ee611a5c46cb3a5d637bcec2d28",
+        "job_hash_matches_record": true,
+        "source_frame": 1225,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 3,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1225-v1.png",
+        "output_sha256": "d1e5e5ad000709e401728ebb8410801a165e58bc5b85ab6f46892e3962fd9faf",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-d6d66e7f-ae0d-4464-b5b4-2db08a0bc8c5.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0757-f1225.png",
+            "saved_sha256": "90aadbc5f07a081b9d800b194ef0994e9616623a2b3f423470d9f9ab461be57f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-046.png",
+            "saved_sha256": "a194a614b082b9cdd9f9606296ab82321ad2e2a09f86f02604586008507e9374",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1221-f1225.png",
+            "saved_sha256": "9569cb8179fc33aeefb8694e36ace784f3c305a8d9157a01c43f2ea39d90ea12",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1256-v1.json",
+        "job_sha256": "85b8577b5ac6115aee04c947ed65eaf31cc3899ee7c93911e67b372af04bbea6",
+        "job_hash_matches_record": true,
+        "source_frame": 1256,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 3,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1256-v1.png",
+        "output_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-94a6f157-56a2-4887-9ef4-4c6d52f8069b.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0788-f1256.png",
+            "saved_sha256": "4b1a2a6df84eb4ebdea7ad55ed6f69290539cc17a7770ae1ba66b4c9307d8ea6",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1225-v1.png",
+            "saved_sha256": "d1e5e5ad000709e401728ebb8410801a165e58bc5b85ab6f46892e3962fd9faf",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1248-f1256.png",
+            "saved_sha256": "22183717600f53976f04896bbc18be001672dcde31c06fe5eadfe12114633227",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1282-v1.json",
+        "job_sha256": "b13ce982b8b388a896c1c9afe1606597bf20240ecc27f4998bb0fcea6951818a",
+        "job_hash_matches_record": true,
+        "source_frame": 1282,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1282-v1.png",
+        "output_sha256": "d60e4b21a9855f93cc252ff6962fc41adcd027a175a73109e5a164b76430aaf6",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-f9e0a35e-854c-43d0-900b-18afdd363a59.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0814-f1282.png",
+            "saved_sha256": "6e99cbfa8fc0ce510e222edce01da0550566bfd22e31f3fc2fd95f2657ceb59f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-046.png",
+            "saved_sha256": "a194a614b082b9cdd9f9606296ab82321ad2e2a09f86f02604586008507e9374",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1278-f1282.png",
+            "saved_sha256": "c210b8dcce8d45bb9f69533923e779fde29eb6681216824a497df04b650f905b",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1256-v1.png",
+            "saved_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1229-v1.json",
+        "job_sha256": "96446b1c967b02836e87beeeb65cd58abd0421ac85c01bb59dddaa90ed4a4c65",
+        "job_hash_matches_record": true,
+        "source_frame": 1229,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1229-v1.png",
+        "output_sha256": "cf8e770151cd436e30b3ce1265f5625f84fe963c6830c4309604563e3846c007",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-7c80ef96-3777-4c18-b013-c8f835c3fd2e.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0761-f1229.png",
+            "saved_sha256": "e36886b796d1c7a9279b8818221f23eb2d4cd871f8b77005fae0bf1a6604fd6d",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1256-v1.png",
+            "saved_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1225-f1229.png",
+            "saved_sha256": "99dbbfc6610da9f2c68bab4ba551f9acf51e8442930cfc9f81ec486da7944b20",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1229-hair-v2.json",
+        "job_sha256": "52923561901042b7c17433dddceeec0242289a0fa55b27992f95098c9d20525d",
+        "job_hash_matches_record": true,
+        "source_frame": 1229,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 2,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1229-hair-v2.png",
+        "output_sha256": "972f8b8d40e57813b1efdac74a8edd694529051df87f5bce204965873fe54947",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-2ccc4a17-3f2c-4cbb-8009-9c9b20bbdb50.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1229-v1.png",
+            "saved_sha256": "cf8e770151cd436e30b3ce1265f5625f84fe963c6830c4309604563e3846c007",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1256-v1.png",
+            "saved_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1234-v1.json",
+        "job_sha256": "0e2184572c09306cd5c2dda524d6b9389fde78e4ba88d21b1043db8570be4b37",
+        "job_hash_matches_record": true,
+        "source_frame": 1234,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1234-v1.png",
+        "output_sha256": "95b365a98ee2ff9748930ed477a28deb23f448a80c62d005703c7e8ca859bd94",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-bfe20c79-f61d-4e91-8513-667855b979a5.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0766-f1234.png",
+            "saved_sha256": "88d834682b2b6b7a57e80ff8e104ea215412191b03c3e5870a5e3abd03725d48",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1229-hair-v2.png",
+            "saved_sha256": "972f8b8d40e57813b1efdac74a8edd694529051df87f5bce204965873fe54947",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1229-f1234.png",
+            "saved_sha256": "4a4534d07fe994617874b58f41b2b1301ec351d02a700b181a60a0a520e9858c",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1241-v1.json",
+        "job_sha256": "27df09bb2cc8848dee30756ad1b0506d31f6bcae1ae5486b81e4f67c6745c30c",
+        "job_hash_matches_record": true,
+        "source_frame": 1241,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1241-v1.png",
+        "output_sha256": "2cd93e4235f4f7f64cd6c900614c1b150b9528f3ad689e5f9336db08f248c661",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-e063fe94-9188-45e1-8f3d-a2caf9178f15.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0773-f1241.png",
+            "saved_sha256": "826b8d90ac6e384d51d616f658878e70529a45a09315129a5c6be5e88d115e8e",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1234-v1.png",
+            "saved_sha256": "95b365a98ee2ff9748930ed477a28deb23f448a80c62d005703c7e8ca859bd94",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1234-f1241.png",
+            "saved_sha256": "8d25faa7d24d0ca92e75f28726a0a938098ddd9d76676aa69020c32042bd307a",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1248-v1.json",
+        "job_sha256": "23f1de2827cd5c2f0ca067f406915f9df7f8c8461cf517ba7671a80bc1270a26",
+        "job_hash_matches_record": true,
+        "source_frame": 1248,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1248-v1.png",
+        "output_sha256": "a36e912454cd4545beb7f11e768ea7eb3b32fd94d8fb019541b96da021bb917c",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-0f9a779c-59ab-4324-a789-b80d57c62e7d.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0780-f1248.png",
+            "saved_sha256": "823db7ca8d704473a47d55fcc5d1d8bd79db8bc6cda930020e56a4ac9e6ca90d",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1256-v1.png",
+            "saved_sha256": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1241-f1248.png",
+            "saved_sha256": "aea10d52ffde0dc74fc8f0d00780d744c94d380431fa5429daf8abe6a085942d",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1264-v1.json",
+        "job_sha256": "7cb6bf5cba8f1bb6d53ea7fc236e56ea117b3ebc0a4f17d2c59a2cdb6ccc4482",
+        "job_hash_matches_record": true,
+        "source_frame": 1264,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1264-v1.png",
+        "output_sha256": "bcc6adba9f6387b317b8156dc7880bbab72c72557ff34df8f4dd87143f3b5daa",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-de2e4e33-6f05-400d-a2ee-971d54b1fbe9.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0796-f1264.png",
+            "saved_sha256": "416561627716630a956ac89871cb9142e39bc29b545c94463fc89bdd1f23be23",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1282-v1.png",
+            "saved_sha256": "d60e4b21a9855f93cc252ff6962fc41adcd027a175a73109e5a164b76430aaf6",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1261-f1264.png",
+            "saved_sha256": "cc902deb5cc06385aed6be3a161851216c986aa3d6305ba65c2603f8e29f8576",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1267-v1.json",
+        "job_sha256": "563ad96958f6458254f3a681b870f8cee247fc0d70283878dd3fc3d649ff9f86",
+        "job_hash_matches_record": true,
+        "source_frame": 1267,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1267-v1.png",
+        "output_sha256": "0764644e82b46fd332bd869e49f2f54c5a091e2973a20845797f97754772025c",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-c7af27e7-b218-4d7d-beeb-aeecd043072e.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0799-f1267.png",
+            "saved_sha256": "1e4fd53e32b0bd4c25962a61035559b5f3ae68672225633e8decb34dbf4c818e",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1264-v1.png",
+            "saved_sha256": "bcc6adba9f6387b317b8156dc7880bbab72c72557ff34df8f4dd87143f3b5daa",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1264-f1267.png",
+            "saved_sha256": "13f6f5f98762a14c765167a453b091ad89846c7712f4b9ad86c5818a7b30cd0a",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1274-v1.json",
+        "job_sha256": "64eb0d433a052339f0536afeaf6c2cd7388332146b46584f5de6837c5aacbf38",
+        "job_hash_matches_record": true,
+        "source_frame": 1274,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1274-v1.png",
+        "output_sha256": "e83d1771a7108af290da2d8380432ccff5e8f358e7efbe63d7a8fc18b0d96842",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-d306b5e0-43dd-4a1f-a9d2-42be30621524.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0806-f1274.png",
+            "saved_sha256": "bea8a9e0d131bfc25c0038b7f2d3d6eb4ba364cf7e380dd23e8dcbcdbedd4387",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1282-v1.png",
+            "saved_sha256": "d60e4b21a9855f93cc252ff6962fc41adcd027a175a73109e5a164b76430aaf6",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1270-f1274.png",
+            "saved_sha256": "9f00c8bbb71be256fd21385611afd5a501cb1ef9827ea5f52872cfe2b85380c1",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      },
+      {
+        "group": "raised",
+        "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-raised-f1278-v1.json",
+        "job_sha256": "85a523c26dc3fb66c674732d033b2824f5aa58f5ce371690173ea24099a209db",
+        "job_hash_matches_record": true,
+        "source_frame": 1278,
+        "full_prompt_saved": true,
+        "reference_roles_complete": true,
+        "reference_count": 4,
+        "all_reference_files_and_hashes_match": true,
+        "output_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1278-v1.png",
+        "output_sha256": "38acd6f85896f8e4002e7e9637c9ce20eb73d73ca5f935388c0292eb2db69e85",
+        "output_hash_matches_record": true,
+        "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-8ac2d09a-90d7-4324-b5bd-c352b7bdbda4.png",
+        "tool_output_exists": true,
+        "tool_output_hash_matches_project_copy": true,
+        "call_status_saved": true,
+        "accepted": false,
+        "reference_results": [
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0810-f1278.png",
+            "saved_sha256": "629c044a5988836ba07ba9a5507d5c7a9fab62a4c1356fa6aab5bfa20e46989f",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-raised-f1274-v1.png",
+            "saved_sha256": "e83d1771a7108af290da2d8380432ccff5e8f358e7efbe63d7a8fc18b0d96842",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\source-delta-f1274-f1278.png",
+            "saved_sha256": "0ab6c3ce07b7171362aeacd6b0e73e1e17d2eccacba9fb4e95c3ba3effa54e68",
+            "exists": true,
+            "hash_matches": true
+          },
+          {
+            "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-dance-2026-10-04\\identity-red-eyes-only.png",
+            "saved_sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db",
+            "exists": true,
+            "hash_matches": true
+          }
+        ],
+        "complete": true
+      }
+    ]
+  },
+  "full_pv_missing_selected_cels": 300,
+  "full_pv_complete": false,
+  "original_speed_watch": "Not performed by this delivery audit; saved timing/static reports do not imply uninterrupted visual playback",
+  "artistic_accepted": false,
+  "delivery_integrity_pass": true
+}

@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0125",
+  "source_frame": 125,
+  "source_candidate": "src-0043",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0043-f0125.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0121-costume-repair.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0125.png"
+  ],
+  "prompt": "ONE full16:9 Klee replacement PV drawing. Image1 is CURRENT source: dictates exact pose/crop/location/prop geometry. Image2 previous Klee ONLY identity/costume/short twin ponytails/style continuity; do not freeze its raised arms. Image3 actual before/current source contour changes, upper-right target; output no panels. Key new pose: arms LOWER outward from image2. Viewer-LEFT arm stretches nearly horizontal left at shoulder height, supporting cream lavender-display clock near x50%,y38% canvas, width8%, slight clockwise tilt. Clock no longer high beside head. Viewer-RIGHT arm extends diagonally up-right, free open glove at x93%,y26% (farther right and lower than previous). Current source sleeve bends/outer contours/finger spread distinct. Both droopy half-open RED eyes, tiny closed caret mouth, orange cheeks, face tilt as image1. Torso/straight legs angled down-right cropped bottom, head position unchanged source image1; same red Klee coat with angular split lower panels, ONE cream clover lower viewer-left, broad cream underskirt with small outline clovers, pink ruffle, RED shorts, one dangling cream pom at viewer-left waist, no two hip pocket poms. Same capelet/chest pom, brown backpack/charm right, red beret creamclover/whitefeather same side, blondebangs TWO SHORT sideponytails/pointed ears. Lavender pillow stays BEHIND head, exact image1 angle/size/location; hands in front of pillow, clock in supported hand. Source loose dark lines/flat patches/single simple shadow, no glossy gradients. No lettering/captions/titles/credits/clock digits, no gray pajamas/rabbit sleepmask/extra hands/mirror/zoom.",
+  "output": "../generated/fine-f0125.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

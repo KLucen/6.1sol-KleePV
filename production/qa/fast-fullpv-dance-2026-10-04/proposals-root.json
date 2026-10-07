@@ -1,0 +1,104 @@
+{
+  "owner": "root_fast_fullpv_dance",
+  "accepted": false,
+  "source_interval": [
+    812,
+    911
+  ],
+  "mode": "strict_source",
+  "review_scope": "Each generated full image and source-pose inputs seen; batch composite and exact-speed acceptance pending. Confirmed blocking original-head visibility in old891 repaired; old907 insufficient movement replaced with source-dominant v2.",
+  "selections": [
+    {
+      "source_frame": 887,
+      "cel": "cel-0157",
+      "path": "generated/fast-fullpv-dance-f0887-v1.png",
+      "accepted": false,
+      "review": "Viewed actual source/880-to-887 difference/identity crops and generated tool output. One closed-eye O-mouth Klee with open high-left/low-right gloves and separated straight legs. Two ear-side short groups, two-leaf collar, continuous cream hem. No obvious third limb or waist hair fan. Source foot/head geometry approximated; final composite/adjacent-speed review pending.",
+      "known_issues": [
+        "Added cream soles/boot badges and pink knee blush not in simple source schema",
+        "Mild shading, clover size/position and exact head/boot contour still differ"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    },
+    {
+      "source_frame": 889,
+      "cel": "cel-0158",
+      "path": "generated/fast-fullpv-dance-f0889-hair-v2.png",
+      "accepted": false,
+      "review": "Extra rear waist fan removed on tool-output inspection. Two neck-level side groups remain; foreground right head/crop and rear gloves/legs retained visibly. Not claimed pixel locked; whole-frame drift and exact source overlap still need batch composite review.",
+      "known_issues": [
+        "Exact source silhouette contact and closed-eye head tilt remain approximate",
+        "Boot motifs/knee blush and mild shading still differ"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    },
+    {
+      "source_frame": 891,
+      "cel": "cel-0159",
+      "path": "generated/fast-fullpv-dance-f0891-source-v2.png",
+      "accepted": false,
+      "review": "Rear small face is now hidden behind huge foreground beret/head; high-left open glove and current separated legs retained; giant current tilted sleepy-red-eye/O face present. Source has a tiny rear side-hair/collar sliver, identity-adapted giant-beret concealment differs in residual extent. No extra limbs visible. Composite and original-speed checks pending.",
+      "known_issues": [
+        "Exact rear residual hair/collar sliver differs",
+        "Clothing motifs/boot badges and mild shading approximate"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    },
+    {
+      "source_frame": 903,
+      "cel": "cel-0164",
+      "path": "generated/fast-fullpv-dance-f0903-v1.png",
+      "accepted": false,
+      "review": "Viewed source903, actual902-to-903 spatial difference and tool output. Both source people replaced. Left warm foreground closed eyes/tiny closed chevron and right cool night-tinted right-facing open crimson-eye profile remain; no hands/legs invented. Foreground short side groups overlap rear neck/coat. Exact silhouette/tint and cross-source-neighbor continuity pending batch review.",
+      "known_issues": [
+        "Forehead/hat and side-hair silhouette approximate source",
+        "Mild shading and rounded collar/clover proportions",
+        "Rear nighttime red eye and garment tint differ from source identity tint"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    },
+    {
+      "source_frame": 907,
+      "cel": "cel-0166",
+      "path": "generated/fast-fullpv-dance-f0907-source-v2.png",
+      "accepted": false,
+      "review": "Foreground triangle now x27.5% and nearly level closed lids, matching current907 position instead of previous33%; source-dominant redraw retains two Klee portraits/cyan right-profile and front-on-rear order, no invented visible hands/legs. Slight shading and simplified collar remain. Composite/speed group pending.",
+      "known_issues": [
+        "Exact hair/collar/beret contour and mild shading approximate",
+        "Rear clover detail differs neighboring cels"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    },
+    {
+      "source_frame": 908,
+      "cel": "cel-0167",
+      "path": "generated/fast-fullpv-dance-f0908-v1.png",
+      "accepted": false,
+      "review": "Leftward major source movement present: left eye partly clipped, tiny triangle mouth near20% width, left giant head and right cool profile both Klee, no invented hands/legs. Right foreground ponytail ear root now visible and overlaps rear neck; distant left group remains cropped. Exact rear contour/logo/collar continuity still approximate; source/neighbor batch QA pending.",
+      "known_issues": [
+        "Rear beret front logo visibility and collar volume differ from903/907",
+        "Mild shading and exact side-hair/face silhouette approximate"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    },
+    {
+      "source_frame": 909,
+      "cel": "cel-0168",
+      "path": "generated/fast-fullpv-dance-f0909-v1.png",
+      "accepted": false,
+      "review": "Current two Klee portraits, clipped far-left closed eye, triangle near20% width, rear right-facing crimson-eye cyan profile present. Foreground near908 placement retained; rear fringe/profile/neck contours independently changed visibly. No invented limbs or extra floating waist group. Exact source rear changes and cropped collar/hat continuity approximate; full batch composite/cycle/speed pending.",
+      "known_issues": [
+        "Exact rear contour/fringe/hat change magnitude approximate",
+        "Mild shading and collar/clover details differ"
+      ],
+      "consecutive_review": "Actual exposure batch review pending; no artistic acceptance",
+      "static_contact_path": "qa/fast-fullpv-dance-2026-10-04/static-source-generated-contact-v2.png"
+    }
+  ]
+}

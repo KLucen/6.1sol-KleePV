@@ -1,0 +1,1292 @@
+{
+  "tool_mode": "builtin_imagegen",
+  "root_calls": 20,
+  "root_dance_calls": 12,
+  "root_cyan_calls": 8,
+  "new_missing_cels": 24,
+  "new_missing_source_frames": [
+    887,
+    889,
+    903,
+    907,
+    908,
+    909,
+    938,
+    942,
+    948,
+    954,
+    957,
+    960,
+    963,
+    1225,
+    1229,
+    1234,
+    1241,
+    1248,
+    1256,
+    1264,
+    1267,
+    1274,
+    1278,
+    1282
+  ],
+  "root_already_mapped_repair_cels": [
+    891,
+    894,
+    897,
+    900
+  ],
+  "unselected_repair_baselines_retained": true,
+  "root_dance_records": [
+    {
+      "job_id": "fast-fullpv-dance-f0887-v1",
+      "source_frame": 887,
+      "canonical_cel": "cel-0157",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0887-v1.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0433-f0887.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0880-f0887-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current source edit target, exclusive pose/crop authority",
+        "Cropped head identity only, not pose",
+        "Cropped two-leaf collar and continuous hem structure only",
+        "Actual source A/B, RGB difference and contour movement"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE full 16:9 independent Klee replacement cel for original PV frame 887. Input 1 is the CURRENT EDIT TARGET and exclusive authority for framing, body/head tilt, visible anatomy, hand shapes, feet locations and occlusion. Input 2 is cropped Klee HEAD IDENTITY ONLY: short pale-blonde side ponytails rooted next to pointed ears, red cream-clover beret, one white feather, simplified closed eyelids. Input 3 is COSTUME STRUCTURE ONLY: exactly two rounded cream collar leaves, uninterrupted red coat with a continuous cream hem, plain red shorts without white thigh bands, compact brown backpack straps, simple cream clover, brown gloves and boots. Do not copy these references' horizontal-arm pose or leg pose. Input 4 is actual ORIGINAL 880-to-887 A/B, amplified RGB differences and two-color contours: apply the current small changes, not a frozen earlier pose. Replace the source girl completely by Klee. Current pose: one full-body girl, leaning diagonally with head tilted clockwise/right, closed eyes and a tiny narrow O mouth. Screen-left arm stretches steeply upward to an OPEN five-finger brown glove near x42%/y16%; screen-right arm slopes downward to an OPEN brown glove near x66%/y58%. Keep both cuffs attached to wrists, exactly two arms, no extra hands or detached cream wedges. Torso center x49%/y54%, head center x55%/y32%, two separated long straight legs: screen-left lower boot center x39%/y94%, screen-right boot center x58%/y90%, its toe points up-right. Red shorts cover the same upper thigh geometry, bare knees and simple brown boots; don't compress the legs or move the feet upward. Two SHORT ear-rooted ponytails end near neck/upper collar, NO long hair behind sleeves, NO waist-level hair fans, NO cream pieces behind arms. Preserve current source crop, lavender field, pale sketch stars and yellow hand sparkles. Source duck sleep mask, pink long hair, pajama buttons/pockets must disappear entirely. Render simple flat muted PV color blocks with irregular thin black lines, no shading/gradient/detail inflation. Original Japanese/Chinese letters will be composited separately: omit all text in the generated drawing, don't invent glyphs, subtitles or panels. Do not make a collage, another pose, mirror, blur, interpolation or a second person. One current independent source cel, not a still hold.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-98174fc6-20ee-4fac-b316-7c5103936b48.png",
+      "asset_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+      "static_review": "Viewed actual source/880-to-887 difference/identity crops and generated tool output. One closed-eye O-mouth Klee with open high-left/low-right gloves and separated straight legs. Two ear-side short groups, two-leaf collar, continuous cream hem. No obvious third limb or waist hair fan. Source foot/head geometry approximated; final composite/adjacent-speed review pending.",
+      "known_issues": [
+        "Added cream soles/boot badges and pink knee blush not in simple source schema",
+        "Mild shading, clover size/position and exact head/boot contour still differ"
+      ],
+      "blocking_static_findings": [],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0887-v1.json",
+      "job_sha256": "70a2f255f9b0cca18a7743fe363c92a573ae9b32db1cc861936325b80b2836a7",
+      "output_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0433-f0887.png",
+          "role": "Current source edit target, exclusive pose/crop authority",
+          "sha256": "45af14e0865991b1502d609eb4000837eb56ac11a3a40a7b76ba382637a16ca8"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Cropped head identity only, not pose",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+          "role": "Cropped two-leaf collar and continuous hem structure only",
+          "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0880-f0887-source-ab-rgb-contours.png",
+          "role": "Actual source A/B, RGB difference and contour movement",
+          "sha256": "3513fab5738309330b595c5006c7af25981823dc3ccefd8f60d0f84044d6fa58"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0889-hair-v2",
+      "source_frame": 889,
+      "canonical_cel": "cel-0158",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0889-hair-v2.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0889-v1.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0887-v1.png"
+      ],
+      "reference_roles": [
+        "Current two-Klee edit target, preserve all but named waist tuft",
+        "Rear Klee short-hair root evidence, not whole-frame pose"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the CURRENT EDIT TARGET, a two-Klee PV frame 889. Make exactly ONE bounded correction: REMOVE the detached EXTRA pale-blonde hair fan on the SMALL BACKGROUND Klee, underneath her lowered screen-right red sleeve, around x54%-59% / y52%-61%. That waist-level tuft is a third hair group and has no ear root. Restore only the lavender field/visible backpack or red coat naturally behind this removed tuft. Keep the two real SHORT ear-side ponytails at neck level intact. Image 2 is rear Klee frame 887 only as proof of the two short ear-rooted groups/no waist tuft. Keep image 1's enormous right foreground face, red eyes/pupil/white highlight, open cropped mouth, hat scale/crop, feather, short hair, red shoulder, rear closed eyes/O, both brown spread gloves, arm lengths/angles, legs/boots, stars and yellow particles otherwise unchanged. Do NOT redraw/reposition the portraits, recolor eyes or invent fingers. This is not a new pose or collage. No text. Flat simplified PV line/color style; preserve composition and the proper foreground-over-background layer relationship. Correct only the extra waist tuft, not all hair.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "repair_scope": "Remove unrooted extra rear waist hair group only",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-cbf97405-cd93-451c-96a6-7eaedd7170ce.png",
+      "static_review": "Extra rear waist fan removed on tool-output inspection. Two neck-level side groups remain; foreground right head/crop and rear gloves/legs retained visibly. Not claimed pixel locked; whole-frame drift and exact source overlap still need batch composite review.",
+      "known_issues": [
+        "Exact source silhouette contact and closed-eye head tilt remain approximate",
+        "Boot motifs/knee blush and mild shading still differ"
+      ],
+      "blocking_static_findings": [],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0889-hair-v2.json",
+      "job_sha256": "d48f963d1863b91e99229ff9074f658867fe210ef01124a16c35195843746f87",
+      "output_sha256": "31615b6c5a1a13920e0d886b9f62d38d2dd06db5b40735d01039679469b20d4b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0889-v1.png",
+          "role": "Current two-Klee edit target, preserve all but named waist tuft",
+          "sha256": "c515a704f81aa33626293766b05ccf1be739bb22d10d635d9c0dd85170e74bc8"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0887-v1.png",
+          "role": "Rear Klee short-hair root evidence, not whole-frame pose",
+          "sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0889-v1",
+      "source_frame": 889,
+      "canonical_cel": "cel-0158",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0889-v1.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0435-f0889.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0887-v1.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0887-f0889-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current two-person source, sole placement/crop/occlusion authority",
+        "New rear dancer continuity only, not foreground pose",
+        "Cropped head identity only",
+        "Crimson iris and pupil/highlight identity only",
+        "Actual second-person entry A/B, RGB/contour evidence"
+      ],
+      "prompt": "Use case: identity-preserve. Make ONE current full-frame 16:9 PV cel for source frame 889, replacing BOTH source people by Klee. Image 1 is the CURRENT EDIT TARGET: it alone determines count=two performers, camera, scale, head/eye/mouth angles, all crops, placement and layer ordering. Image 2 is the just-drawn BACKGROUND Klee at 887, for rear dancer identity/clothing and pose continuity only; do NOT turn this into a single-person frame or move the foreground portrait. Image 3 is cropped Klee HEAD IDENTITY ONLY: ear-rooted short pale-blonde twins, red cream-clover beret, one white feather. Image 4 is EYE COLOR ONLY: deep crimson upper iris, black pupil and pale highlight; do not copy its eyelid angle or gaze. Image 5 shows actual source 887-to-889 A/B, RGB delta and two-color contours: the new huge foreground head enters from the RIGHT while the rear dancer remains behind. Draw the small rear Klee leaning right, closed eyes/tiny O, high screen-left open brown glove, low screen-right open glove and separated straight legs/boots at original positions. Draw the SECOND Klee as an enormous face and cropped shoulder on the RIGHT foreground, exactly as current source: leftmost head edge around x57%, upper hat cut by the TOP, far-right half of face/eye and mouth cut by the RIGHT edge, shoulder cut by BOTTOM. Eye-line slopes upward toward screen-right; one large full eye and one partial right eye, open crimson irises preserving original eyelid/pupil shapes and tiny open mouth at far-right edge. No recentering to fit a whole head; do not add hidden hands, feet or body. Foreground head/hair/hat/shoulder must occlude the rear dancer's right hair/sleeve/hand extent exactly in front-to-back order. Red hat replaces the source duck sleep-mask entirely, no animal mask or face/blush markings on hat; clipped white feather stays clipped if offscreen. Hair must be short with two ear-rooted groups, not the original long pink bob or broad waist hair. Rear costume keeps TWO cream collar leaves, continuous coat hem, plain red shorts/brown gloves and boots; foreground shows only naturally cropped red shoulder and cream collar. Exactly two people; no third head/limbs. Keep lavender source field and pale sketch stars/yellow sparkles in visible background. Flat muted colors and irregular thin black lines, no photoreal shading/detail inflation. Omit ALL Japanese/Chinese text; original source captions are independent compositing layers. No collage, labels, interpolation, morph, mirror or reused single-person still.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-c52ee6a5-7b04-4737-a240-d451994580a2.png",
+      "asset_sha256": "c515a704f81aa33626293766b05ccf1be739bb22d10d635d9c0dd85170e74bc8",
+      "static_review": "Two Klee portraits and cropped right foreground face drawn; crimson iris, rear high-left/low-right gloves and legs present. Extra rear waist-level blonde fan below lowered arm reappeared; cannot treat an unrooted extra third group as a minor motif. Front/rear exact silhouette contact not yet verified in composite.",
+      "known_issues": [
+        "Rear waist-level extra blonde hair group",
+        "Foreground/rear overlap needs source/composite check",
+        "Boot badges/soles/knee blush, mild shading"
+      ],
+      "blocking_static_findings": [
+        "Rear extra waist hair group must be removed before current draft selection"
+      ],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0889-v1.json",
+      "job_sha256": "7d6ae615274d7a86c68eacfba4fc579c23f3a0b9124b392962b2ab3726a27dfb",
+      "output_sha256": "c515a704f81aa33626293766b05ccf1be739bb22d10d635d9c0dd85170e74bc8",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0435-f0889.png",
+          "role": "Current two-person source, sole placement/crop/occlusion authority",
+          "sha256": "a9f75abbc1bb7daf79fdf5f14c007345e9ab433acf8f8058910388efee3dfffc"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0887-v1.png",
+          "role": "New rear dancer continuity only, not foreground pose",
+          "sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Cropped head identity only",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris and pupil/highlight identity only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0887-f0889-source-ab-rgb-contours.png",
+          "role": "Actual second-person entry A/B, RGB/contour evidence",
+          "sha256": "846d489ad40790be56f0b6eaaaad9684b6d47728170fd3a7ddaf7bafa11ba8f1"
+        }
+      ],
+      "currently_selected_draft": false
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0891-source-v2",
+      "source_frame": 891,
+      "canonical_cel": "cel-0159",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0891-source-v2.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0437-f0891.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0889-hair-v2.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+      ],
+      "reference_roles": [
+        "Current edit target; sole authority for pose, cropping, background dancer concealment and limbs",
+        "Previous Klee cel identity/topology continuity only, explicitly not current background-head pose",
+        "Short rooted blonde side groups and simple beret identity only",
+        "Crimson iris/highlight colors only"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE full 16:9 PV cel, source891. Image1 is CURRENT EDIT TARGET and sole authority for camera, scale, body lean, visible parts and occlusion. REPLACE BOTH original people with KLEE from Genshin, simplified in this source's flat hand-drawn PV line style. Image2 is previous Klee889 for identity/colors/short rooted twin-tail and clothing continuity ONLY, NOT positions or current visibility. Images3/4 supply ONLY short head hair topology/beret and crimson iris color. CRITICAL CORRECTION: at CURRENT891 the small BACKGROUND DANCER'S HEAD IS ENTIRELY HIDDEN BEHIND THE HUGE FOREGROUND HEAD; do NOT show a small face/ear/beret to the left or shift small torso/neck/head left. The small body retains current source torso angle, high-left arm with one spread palm just left of giant forehead, lower-right arm is occluded, two separated source leg directions and source boot positions. All hidden anatomy stays hidden. Visible rear clothing: plain red Klee coat, two-leaf cream collar only if current source visible, continuous cream hem, plain red shorts and brown boots, high open BROWN glove/cream cuff. Rear neckline simply terminates behind foreground silhouette. Foreground is giant warm Klee face filling RIGHT side, cut by TOP/RIGHT/BOTTOM with current tilted head and current face center, HALF-OPEN eyes with red irises/dark upper fill/curl highlights, tiny OPEN narrow oval O mouth at current source lower-right position. Replace giant animal sleep mask with red clover beret plus cropped feather; blonde fringe and ONLY SHORT rooted blonde neck-side groups, no old peach long hair. Keep foreground head OVER rear head/torso exactly in source current891 ordering. No invented full torso, extra hand, floating hair fan or detached pigtail. Flat purple source field, pale rough star pattern and independent yellow hand stars preserved in same composition; OMIT all Chinese/Japanese captions for separate source-glyph compositing. Flat simple color blocks, irregular thin black outlines, minimal shading; same short Klee hairstyle and simple two-leaf collar/plain hem schema as image2. One frame only, no collage, hold, mirror, morph, flow or copied889 pose.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-a35eac08-af45-4a06-b9b1-c9dbf23a1355.png",
+      "static_review": "Rear small face is now hidden behind huge foreground beret/head; high-left open glove and current separated legs retained; giant current tilted sleepy-red-eye/O face present. Source has a tiny rear side-hair/collar sliver, identity-adapted giant-beret concealment differs in residual extent. No extra limbs visible. Composite and original-speed checks pending.",
+      "known_issues": [
+        "Exact rear residual hair/collar sliver differs",
+        "Clothing motifs/boot badges and mild shading approximate"
+      ],
+      "blocking_static_findings": [],
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0891-source-v2.json",
+      "job_sha256": "30ca85c8b8729249b82effddd76cfbdeaf863e69935e86745817d1e8b56aaa5c",
+      "output_sha256": "01a62b92f07df277ef0b5e594bf157079ea8162656be99d1080978ae5a8abe82",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0437-f0891.png",
+          "role": "Current edit target; sole authority for pose, cropping, background dancer concealment and limbs",
+          "sha256": "53f87c8aed8e602b287b6ed99d7772e3df047c5c9ee1b815b4a76f97f872fc7a"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0889-hair-v2.png",
+          "role": "Previous Klee cel identity/topology continuity only, explicitly not current background-head pose",
+          "sha256": "31615b6c5a1a13920e0d886b9f62d38d2dd06db5b40735d01039679469b20d4b"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Short rooted blonde side groups and simple beret identity only",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris/highlight colors only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0894-source-v2",
+      "source_frame": 894,
+      "canonical_cel": "cel-0160",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0894-source-v2.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0440-f0894.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0891-source-v2.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-occlusion-repairs/f0891-f0894-source-ab-rgb-contours.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+      ],
+      "reference_roles": [
+        "Current894 edit target, sole crop/pose/occlusion authority",
+        "Klee891 topology and hidden background-face continuity ONLY",
+        "Actual original891\u2192894 giant head rotation/crop and mouth changes",
+        "Crimson iris identity ONLY"
+      ],
+      "prompt": "Use case: identity-preserve. One independent full16:9 PV cel, SOURCE894. Image1 CURRENT EDIT TARGET sets exact crop, current tilted giant face, two people, visible arms/legs, background and occlusion. Image2 new Klee891 is ONLY identity/simple costume/short rooted neck-side twin-tail continuity, not frozen891 pose. Image3 actual original891\u2192894 A/B+RGB+contours sets larger giant-head turn/crop, eyelid tilt/fringe/mouth/hat shift. Image4 iris red ONLY. Replace BOTH source girls with Klee, flat simplified source-style uneven black-outline cel. CRITICAL rear small dancer's FACE IS COMPLETELY CONCEALED by giant foreground head, as CURRENT894. DO NOT reveal small face, eyes, beret or shift rear torso/neck left. Only visible current rear high-left open BROWN glove and cream cuff/red sleeve, torso fragment, source-position two legs/brown boots remain; small source hair/collar sliver may remain only if visible at edge, never a complete head. Foreground HUGE warm Klee head occupies RIGHT, cut TOP/RIGHT/BOTTOM, follow CURRENT894 stronger clockwise/diagonal source eye-line and face turn, sleepy half-open crimson eyes with dark top fill and curl highlights, small oval O with source contour gap near x82%/y78%. NOT copied previous891 mouth/head. Red clover beret replaces animal mask; current tilted beret/cropped feather, short blonde fringe and TWO SHORT rooted ear-side/neck-side groups replace all peach long hair. Foreground hair/head layers IN FRONT of rear head/neck/arm. Partial simple two-leaf cream collar, red coat shoulder only; continuous plain cream hem and plain red shorts on rear. No invented hands/third limb/extra floating hair fan; no complete foreground body. Source purple rough star field and yellow hand stars stay in composition; OMIT all Chinese/Japanese text for separate original glyph layer. Flat minimal shaded color blocks, simple clover only, no pompom/many diamond ornaments. Full redraw894, no hold, morph, flow, mirror or collage.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-09547fa3-0005-4d29-9e8f-8f2fab84dd2e.png",
+      "static_review": "Rear small face remains concealed; visible high-left brown glove, red body and separated legs remain. Giant source eye-line slopes up-right more steeply than891 and current O gap is drawn; source reference takes precedence over ambiguous clockwise word in prompt. No extra hands/legs confirmed. Actual compositor/caption join pending.",
+      "known_issues": [
+        "Approximate small body/boot geometry",
+        "Mild shading, clover/collar/hair contours differ"
+      ],
+      "blocking_static_findings": [],
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0894-source-v2.json",
+      "job_sha256": "b2784f6c51a7181f442e58b03fa4d2581ca9a82fc23b2cebfe97c86e6b1b06dd",
+      "output_sha256": "11a74dd7e5a222b29503b07f1da99b256c2142a9556dc100aed09635cfc1611a",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0440-f0894.png",
+          "role": "Current894 edit target, sole crop/pose/occlusion authority",
+          "sha256": "2f443a794f55602205bf0ed6c7378e9d61a6669a5821bb9e048dd6b47aaa7f1f"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0891-source-v2.png",
+          "role": "Klee891 topology and hidden background-face continuity ONLY",
+          "sha256": "01a62b92f07df277ef0b5e594bf157079ea8162656be99d1080978ae5a8abe82"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-occlusion-repairs/f0891-f0894-source-ab-rgb-contours.png",
+          "role": "Actual original891\u2192894 giant head rotation/crop and mouth changes",
+          "sha256": "708c764935e9d1f835f18763baffb3f5d39707be72bbba84925ad82d645432ff"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris identity ONLY",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0897-source-v2",
+      "source_frame": 897,
+      "canonical_cel": "cel-0161",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0897-source-v2.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0443-f0897.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0894-source-v2.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-occlusion-repairs/f0894-f0897-source-ab-rgb-contours.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+      ],
+      "reference_roles": [
+        "Current897 edit target: huge LEFT-facing profile, rear concealment and limited visible rear limbs",
+        "Klee894 hat/hair/red coat/glove/boots continuity ONLY; not frontal face/current visibility",
+        "Actual original894\u2192897 turn to LEFT profile/cropping/limb visibility",
+        "Red iris with dark upper pupil/highlight colors ONLY"
+      ],
+      "prompt": "Use case: identity-preserve. ONE current independent SOURCE897 PV cel full16:9. Image1 CURRENT EDIT TARGET is sole authority for huge profile scale, positions, current LEFT-facing gaze/nose, background, two people and occlusion. Image2 previous Klee894 ONLY continuity of simple red clover beret, blonde short ear-rooted groups, plain red coat/continuous cream hem/brown glove boots, NOT its near-front face or visible rear legs. Image3 actual original894\u2192897 A/B/RGB/contours shows the giant face turning sharply into LEFT-facing profile, covering much more rear body. Image4 is only crimson iris identity. Replace BOTH original characters with Klee. HUGE foreground warm Klee head on RIGHT, cut TOP/RIGHT/BOTTOM, now strict LEFT-FACING SIDE PROFILE, exactly ONE visible sleepy half-open red eye with source gaze and dark upper/curl highlight near x54%/y66%, source-size projecting nose points LEFT near x44%/y76%, small closed mouth DOT near x59%/y91%, chin runs to bottom crop. No frontal paired eyes, no O/triangle mouth or smiling new expression. Giant clover beret replaces animal mask, cropped feather on rear side if actually within frame, follow source current profile hat/fringe/nose/chin silhouettes. Only TWO SHORT ear/neck-rooted blonde groups where actually visible, mostly right/bottom clipped; no old long peach sheet of hair. Small REAR dancer FACE/eyes/beret COMPLETELY HIDDEN behind giant profile: DO NOT display small face or shift rear body left. Match source current few high-left open glove fingertips near top/left edge of giant hat, limited red torso fragment behind giant nose, only current visible left leg/brown boot at bottom-left of foreground; right arm/right leg hidden by head must stay hidden. Layers: giant front head/short hair over all hidden rear anatomy. Tiny partial foreground cream collar/red shoulder at bottom-right only if source visible. Preserve exposed source purple rough stars, yellow hand stars, tiny incoming BLUE NIGHT sliver at top-right, exact visible crop. OMIT all Japanese/Chinese text for separately restored source glyphs. Simple flat PV blocks/irregular thin black line, minimal shading, no pompom/diamond ornament proliferation. Do not reveal hidden anatomy, invent hand/leg/third hair fan, add collage, mirror/hold/flow/morph or reuse frontal894 face.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-619bbdbd-d1f8-4b96-8084-ee49420adcdb.png",
+      "static_review": "Huge foreground left-facing Klee profile with one red sleepy eye and small mouth dot; rear face concealed, high hand/body fragment and only source-visible left boot drawn. No extra right leg/hand or small visible face. Source major profile turn retained; precise eye/chin/boot positions approximate. Actual source-caption/composite and speed pending.",
+      "known_issues": [
+        "Profile nose/chin/eye/dot positions approximate",
+        "Mild shading and contour/cropped collar variation"
+      ],
+      "blocking_static_findings": [],
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0897-source-v2.json",
+      "job_sha256": "52fc4a5535a81f6a02b33fcda43942c5b87e63c25ce259b79c258cdb179e1d62",
+      "output_sha256": "8436e5ba4c037c7b33f1d44cbec8b0fec15c98221cbf04415322da8c019cc4b1",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0443-f0897.png",
+          "role": "Current897 edit target: huge LEFT-facing profile, rear concealment and limited visible rear limbs",
+          "sha256": "4f73be98a3e56fd29be48fc132380686fbcfae4dc178f0d0d4e59ce86d4ce06e"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0894-source-v2.png",
+          "role": "Klee894 hat/hair/red coat/glove/boots continuity ONLY; not frontal face/current visibility",
+          "sha256": "11a74dd7e5a222b29503b07f1da99b256c2142a9556dc100aed09635cfc1611a"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-occlusion-repairs/f0894-f0897-source-ab-rgb-contours.png",
+          "role": "Actual original894\u2192897 turn to LEFT profile/cropping/limb visibility",
+          "sha256": "3b234eb2bd5ec98289025ca55fc53bded361c55c772ecdb81bba9e4a75e820fa"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Red iris with dark upper pupil/highlight colors ONLY",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0900-rearhat-v2",
+      "source_frame": 900,
+      "canonical_cel": "cel-0162",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0900-rearhat-v2.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/generated/candidate-028-clean.png",
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0446-f0900.png"
+      ],
+      "reference_roles": [
+        "Full current Klee edit target: foreground BACK-view huge red beret and short hair established; original cyan rear animal-hat remnant is blocking and must be replaced",
+        "Current actual source900: authoritative source crop/depth/visible rear-hat sliver and foreground occlusion; no rear face/limbs invented"
+      ],
+      "prompt": "Use case: precise-object-edit. ONE full16:9 PV cel source900. Image1 is EDIT TARGET: huge foreground BACK OF Klee's head/red beret, cream brim, white feather on LEFT, clover side ornament, blonde short ear-rooted ponytails, no face. Keep that foreground composition/crop/scale/back view, hair roots/two short side groups and red-cream color scheme. IMPORTANT BLOCKING ERROR: upper RIGHT behind foreground red beret still contains original cyan animal-hat DOUBLE ROUND EAR LOBES with GREEN OUTLINES, approx x58%-77% and y0%-25% of full canvas. Replace this ENTIRE visible rear animal-hat fragment, including green double ears and right/lower corner, with the OCCLUDED REAR KLEE'S cool night-lit burgundy/purple beret sliver and its dark-blue outline, plain simple curved beret rim; no green edge, animal ears/mask or rabbit-like lobes remain. Image2 CURRENT ORIGINAL900 decides the exact secondary visible region and depth: rear Klee is almost completely concealed by foreground BACK head, only tiny top/right hat sliver is visible; do NOT reveal a rear eye/face/neck/body/hand/leg. Keep foreground in front and rear cool beret clipped above and occluded along foreground hat boundary, no duplicate full character/extra feather invented. Do not mistake green animal-hat remnant for background/star/moon. Preserve original left lavender large sketch stars and right blue/cyan night sky/crescent transition framing, no text. Flat simplified hand-drawn PV color patches and dark irregular outlines; keep main Klee back-head unchanged as far as possible, no face/frontal eyes added. OMIT all lyrics for separate original-glyph restoration. One full cel, not collage, no holds/mirror/flow/morph.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-def4fa47-2599-4036-b13a-1976d2e4183e.png",
+      "static_review": "Visible cyan/green original double ear lobes replaced by a thin muted cool burgundy rear beret arc. Foreground back head/beret/short two side groups remain, no new face or limbs. Full-image tool inspection shows no green animal-hat lobes; actual900/901 composites still need old AA fringe check.",
+      "known_issues": [
+        "Very thin rear beret sliver approximates source visible area",
+        "Foreground details not pixel locked; mild shading"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "Pending actual900/901 and899/902 joins",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0900-rearhat-v2.json",
+      "job_sha256": "647d28a4ad8996cb35cb67166031a8ad9f6c35c5d2c649445aa47d4eeb14ca22",
+      "output_sha256": "276249a21a63d3f52558fc501741738fb06cbca53592172c2a29ae505974cd1e",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/candidate-028-clean.png",
+          "role": "Full current Klee edit target: foreground BACK-view huge red beret and short hair established; original cyan rear animal-hat remnant is blocking and must be replaced",
+          "sha256": "9685bae4ecaf86ed52f6c041fb73b5d4726c1f9e13fe120b4890bceddcd08aac"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0446-f0900.png",
+          "role": "Current actual source900: authoritative source crop/depth/visible rear-hat sliver and foreground occlusion; no rear face/limbs invented",
+          "sha256": "4cfe4b472b3ef58e514ae2ec122cafed36c6d2ff2656d9abef533c5a1d77e927"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0903-v1",
+      "source_frame": 903,
+      "canonical_cel": "cel-0164",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0903-v1.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0449-f0903.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0902-f0903-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current two-portrait source: crop/pose/expression/light/layers",
+        "Cropped head identity only",
+        "Cropped collar/coat structure only",
+        "Crimson iris identity only",
+        "Actual 902-to-903 rear contour and disappearing star evidence"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE independent 16:9 PV replacement cel at source frame 903. Image 1 is CURRENT EDIT TARGET, sole authority for camera/crops, TWO visible people, head scale/tilt, exact expression, rear profile position and front-to-back ordering. Image 2 gives Klee HEAD IDENTITY ONLY (short ear-rooted blonde twins, pointed ears, red cream-clover beret/one feather), not a pose template. Image 3 gives TWO-leaf collar and continuous red coat structure only. Image 4 gives crimson iris/black pupil/highlight identity only. Image 5 is actual original 902-to-903 A/B/RGB delta/two-color contour evidence; rear hat/fringe changes and cream foreground star overlays disappear. Replace BOTH original portraits, no source animal masks or pink hair may remain. LEFT foreground: enormous cropped Klee head occupies the left ~two thirds, hat cut by top and left, closed nearly horizontal eyes with slight current tilt, tiny CLOSED chevron mouth (not O or tongue), orange cheek circles. Keep source chin/shoulder crop at bottom. Only her head, short side hair and naturally cropped collar/shoulder are visible: NO hands, arms, feet or body invented. Side ponytails stay rooted at ears and short relative to this giant head; front hair lies in FRONT OF the rear head/neck/coat as in source, but no long original pink bob, no floating extra clumps. RIGHT rear: separate Klee in strict RIGHT-FACING profile behind the foreground head, one visible OPEN crimson eye tinted by original cyan/blue night lighting, tiny point mouth and original nose/chin silhouette, cropped hat/neck/coat. Do not turn her face frontward or close her eye; rear visible face center near x68%/y46%, source rear hat near x63%/y16%. Match original rear blue/cyan lighting on face/blonde hair/hat/coat rather than recoloring the whole rear portrait warm daytime; Klee clover hat replaces source sleep mask. Keep the original cobalt-to-cyan night sky, tiny stars and crescent moon in the exposed RIGHT field, and left transition edge. Foreground uses muted warm Klee colors; rear has source cool scene tint. Simplified flat PV blocks with irregular thin black outlines, no 3D/polished rendering/shading. Original Chinese/Japanese text will be restored independently: omit ALL text, do not draw labels or fake glyphs. Preserve visible crop and count exactly two; no collage, mirroring, hold, optical flow or transition blending.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-aed244ef-5907-4a3f-b3bd-2c055ccd80fa.png",
+      "static_review": "Viewed source903, actual902-to-903 spatial difference and tool output. Both source people replaced. Left warm foreground closed eyes/tiny closed chevron and right cool night-tinted right-facing open crimson-eye profile remain; no hands/legs invented. Foreground short side groups overlap rear neck/coat. Exact silhouette/tint and cross-source-neighbor continuity pending batch review.",
+      "known_issues": [
+        "Forehead/hat and side-hair silhouette approximate source",
+        "Mild shading and rounded collar/clover proportions",
+        "Rear nighttime red eye and garment tint differ from source identity tint"
+      ],
+      "blocking_static_findings": [],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0903-v1.json",
+      "job_sha256": "b74199933ec7eb74e0fab9f4ab4268ab4d8e1ac83f2f80e2e83cadb950268cdb",
+      "output_sha256": "c35e9404a3b9bdb892b6fd61f741df7a230d9e55f3c7b15d00c72f73b8dd3b32",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0449-f0903.png",
+          "role": "Current two-portrait source: crop/pose/expression/light/layers",
+          "sha256": "e92a061bb2563cfe8263b8f7584e624b098a3ba0dd40eb45acd48700c6f4b79a"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Cropped head identity only",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+          "role": "Cropped collar/coat structure only",
+          "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris identity only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0902-f0903-source-ab-rgb-contours.png",
+          "role": "Actual 902-to-903 rear contour and disappearing star evidence",
+          "sha256": "a42552eecc8002695498ff8a185ee8e666dff5fd297006e77703f7503130cc24"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0907-source-v2",
+      "source_frame": 907,
+      "canonical_cel": "cel-0166",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0907-source-v2.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0452-f0907.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0907-f0908-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current source907 edit target; exact current head crop/pose/positions authority",
+        "Klee short blonde ear-rooted groups/simple beret identity ONLY",
+        "Crimson eye color only for cyan profile",
+        "Actual source907\u2192908 changes for difference context; do not draw next908/current mouth must stay907"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE full 16:9 independent PV cel at SOURCE907. Image1 CURRENT EDIT TARGET is sole authority for pose, head scale, locations, visibility, TWO people and occlusion. Image2 Klee identity short rooted neck-side twin-tails/simple clover beret ONLY, not its full-body pose or frontal proportions. Image3 crimson iris/highlight color ONLY. Image4 source907(A)-908(B) actual RGB/two-color contours is movement CONTEXT: draw CURRENT907 image1, NOT future908 shifted-left/tilted pose. Previous draft907 head was ~92 native pixels too far RIGHT causing a compensation jump next frame, so reset from original907 source. Foreground warm giant Klee face cut by TOP/LEFT, current source CLOSED near-level thick eyelids, tiny OPEN TRIANGULAR mouth at x28% of canvas/y69%, chin at x28%/y89%; current face must NOT land at x33% or the next908 x20%. Follow current eyebrows, near level eye-line, face tilt, visible face scale; source right closed lid around x35%, left around x16%. Red beret replaces all animal sleep mask, short warm blonde fringe, pointed ears and ONLY short rooted ear/neck side-groups replace long peach hair, partial plain two-leaf cream collar and red shoulder. Rear is separate cool BLUE/CYAN night-tinted Klee facing strictly RIGHT at same current location, one open RED eye with current gaze, tiny dot mouth, current nose/chin/neck profile; subdued burgundy clover beret and cropped pale feather, short blonde side hair under cyan light. Warm foreground near ponytail sits in FRONT of rear neck/chest, rear head/hat behind foreground. No hands, legs or invented complete bodies are visible; do not add any. Keep source blue night field, tiny stars/crescent, warm foreground/night rear contrast. OMIT Chinese/Japanese text for separately restored original glyphs. Simplified flat original PV blocks, irregular black outlines, minimal shading, no elaborate collar motifs/pompom. Exactly two Klee portraits; no old character hair or mask, no extra detached hair fan, no collage, hold, mirror, flow or morph.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-96cc52a3-9940-476d-adb8-97f34f18c347.png",
+      "static_review": "Foreground triangle now x27.5% and nearly level closed lids, matching current907 position instead of previous33%; source-dominant redraw retains two Klee portraits/cyan right-profile and front-on-rear order, no invented visible hands/legs. Slight shading and simplified collar remain. Composite/speed group pending.",
+      "known_issues": [
+        "Exact hair/collar/beret contour and mild shading approximate",
+        "Rear clover detail differs neighboring cels"
+      ],
+      "blocking_static_findings": [],
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0907-source-v2.json",
+      "job_sha256": "6aad10a97978e679535cdcf1a54789c7ee678b3f87566930b6e36fe37cc99b4a",
+      "output_sha256": "65f4a6beb7a939a6395178de307f7e2f797631b5141f3272c33cd778216134ef",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0452-f0907.png",
+          "role": "Current source907 edit target; exact current head crop/pose/positions authority",
+          "sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Klee short blonde ear-rooted groups/simple beret identity ONLY",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson eye color only for cyan profile",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0907-f0908-source-ab-rgb-contours.png",
+          "role": "Actual source907\u2192908 changes for difference context; do not draw next908/current mouth must stay907",
+          "sha256": "eb34137475d3c8c25e2b398b67fd23ba5bffdc8ddfba54fb5fb2aea1e7d2538c"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0907-v1",
+      "source_frame": 907,
+      "canonical_cel": "cel-0166",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0907-v1.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0452-f0907.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0903-v1.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0905-f0907-source-ab-rgb-contours.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+      ],
+      "reference_roles": [
+        "Current source crop/head/mouth/two-person layering authority",
+        "Two-Klee identity/color continuity only, not frozen earlier pose",
+        "Actual original subtle905-to907 change, independence not reclassified",
+        "Head/short-hair identity only",
+        "Crimson iris/pupil identity only"
+      ],
+      "prompt": "Use case: identity-preserve. Produce ONE full 16:9 current PV cel at original frame 907. Image 1 is CURRENT EDIT TARGET and sole authority for TWO people, source scale/crop, front-head placement/tilt, eyes/mouth geometry, rear right-profile position and occlusion. Image 2 is prior Klee frame 903 for simplified two-character identity/color/hair/collar continuity ONLY, NOT a head-position/mouth template. Image 3 is actual ORIGINAL 905-to-907 A/B, amplified RGB difference and two-color contours: differences are subtle, still draw the retained CURRENT source cel, no alias/held earlier pose. Image 4 is cropped short-hair/hat identity only; image 5 is crimson iris/pupil/highlight identity only. Current foreground LEFT Klee has moved farther LEFT than frame903: mouth center around x28%/y69%, eyes near y48%, giant hat cut above and at left, closed nearly horizontal heavy eyelids and a very SMALL OPEN TRIANGULAR mouth (not the closed chevron of903, no tongue). Match current eyebrow/bang tilt and visible cheek circles. Short blonde side groups attached at pointed ears, no source long pink bob or floating added fans. Front right-side group covers the rear neck/chest as in current source; foreground crop extends below bottom with only partial cream two-leaf collar/red shoulder, NO visible hands/legs and none may be invented. Rear Klee remains strict RIGHT-facing behind, one open crimson eye under original blue/cyan night tint, tiny dot mouth, nose/chin/hat/fringe/collar matching CURRENT source outline changes. Rear center near x68%/y46%, do not close eye or turn it frontal; source cool illumination applies to blonde hair/face/beret/coat. Remove all original animal sleep-mask motifs, pink hair and source pajama details from BOTH people. Keep current cobalt/cyan sky, tiny source stars and crescent, with warm foreground vs cool rear. Simple flat muted PV blocks/irregular thin black lines, no shaded glossy illustration. Omit all Japanese/Chinese text; it is composited separately. No collage, no mirror, interpolation, nonrigid warp or copied static earlier pose. Preserve original cropping and near/far ordering.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "source_uniqueness_note": "Retained source candidate, 905-to907 compression/contour distinction not resolved; no alias applied",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-e7c2789b-3952-4495-b77d-003dd6b50c43.png",
+      "static_review": "Tool output has two Klee portraits, left closed eyes and small open triangle, rear cool right-facing open-eye profile; no invented limbs. Front head moved left compared903 but source head/chevron-to-triangle position not fully matched. Source/neighbor batch classification requested rather than repeated immediate detail repair.",
+      "known_issues": [
+        "Front head may remain too far right versus907 source (coarse mouth estimate80-100px at1920 width); severity awaiting adjacent review",
+        "Hat/hair/collar contour and source rear profile minute changes approximate",
+        "Mild shading and rounded proportions"
+      ],
+      "blocking_static_findings": [
+        "Front head-position severity awaiting batch source/neighbor classification"
+      ],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0907-v1.json",
+      "job_sha256": "d717b8737cb81c7c83d0695e5e65dae32d39c703b335755e3abf0f4765e90cd2",
+      "output_sha256": "90e2a27b837f5ed1e21f343bef15b3df3ad1ac6c288cd02c2b46f52265e11ec1",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0452-f0907.png",
+          "role": "Current source crop/head/mouth/two-person layering authority",
+          "sha256": "3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0903-v1.png",
+          "role": "Two-Klee identity/color continuity only, not frozen earlier pose",
+          "sha256": "c35e9404a3b9bdb892b6fd61f741df7a230d9e55f3c7b15d00c72f73b8dd3b32"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0905-f0907-source-ab-rgb-contours.png",
+          "role": "Actual original subtle905-to907 change, independence not reclassified",
+          "sha256": "09009d837e587a25f5c383b2b623845521033c89476090b2e33a1dd1c3a75937"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Head/short-hair identity only",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris/pupil identity only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        }
+      ],
+      "currently_selected_draft": false
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0908-v1",
+      "source_frame": 908,
+      "canonical_cel": "cel-0167",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0908-v1.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0453-f0908.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0907-f0908-source-ab-rgb-contours.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+      ],
+      "reference_roles": [
+        "Current two-person crop and left-shift source authority",
+        "Cropped head identity, not pose",
+        "Cropped collar/coat structure",
+        "Actual large907-to908 shift/bangs spatial evidence",
+        "Crimson iris identity only"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE full 16:9 PV cel at source frame 908, replace BOTH people. Image 1 is CURRENT EDIT TARGET, exclusive geometry/crop/pose/layer authority. Image 2 is short-hair Klee HEAD IDENTITY ONLY, NOT composition. Image 3 is two-leaf cream collar/continuous red coat structure ONLY. Image 4 is actual ORIGINAL907-to908 A/B, amplified RGB delta and two-color contours: a major LEFT shift and lean of the foreground face with changed bangs, the rear profile stays in place. Image 5 is crimson iris identity only, not gaze or head angle. Foreground is a HUGE Klee head pushed far LEFT and cut by TOP and LEFT, NOT centered like the small identity reference or previous 903. Its small open triangular mouth MUST be near x20%/y70%; left closed eyelid begins at/partly outside LEFT edge near y51%, right closed eyelid near x28%/y47% so eye-line slopes up-right. Front nose/cheek/chin and red clover beret follow CURRENT crop/lean. No tongue or O mouth. Do not recenter to fit both closed eyes or whole hat. Hair is short blonde bangs and only ear-rooted short side groups: near/right ponytail rooted beside current ear around x40%/y54%, flowing in FRONT OF rear neck/chest; far-left group stays clipped/hidden, don't invent it to show symmetry. No long pink source bob, waist hair or floating clumps. Foreground partial TWO-leaf cream collar and red shoulder are naturally cropped at bottom; NO visible limbs. Rear is separate Klee in strict RIGHT profile at current x68%/y46%, same source cool CYAN/BLUE NIGHT tint on face/blonde hair/red beret/coat, one open crimson eye with pupil/highlight, tiny dot mouth, source nose/chin/fringe/hat contour. Both animal sleep masks and pink source hair fully removed. Keep current blue night sky/tiny stars/crescent moon, warm foreground versus cool rear, exact near/far ordering. Draw simplified flat muted PV blocks/irregular thin black lines; no rendered gradients or elaborate details. ALL captions omitted; source original Japanese/Chinese glyphs are independent layers. One independently drawn current cel, no collage, mirror, morph, flow, copied still or missing rear person.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-f5a4471d-9e7a-42b1-9732-7b8be3cd31fb.png",
+      "static_review": "Leftward major source movement present: left eye partly clipped, tiny triangle mouth near20% width, left giant head and right cool profile both Klee, no invented hands/legs. Right foreground ponytail ear root now visible and overlaps rear neck; distant left group remains cropped. Exact rear contour/logo/collar continuity still approximate; source/neighbor batch QA pending.",
+      "known_issues": [
+        "Rear beret front logo visibility and collar volume differ from903/907",
+        "Mild shading and exact side-hair/face silhouette approximate"
+      ],
+      "blocking_static_findings": [],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0908-v1.json",
+      "job_sha256": "541c5ac1bea8bbda303785bb4571fe3e79db50d433c504c94247d550323e805c",
+      "output_sha256": "3c82816ab10f795ea4e5c6af71656aa74c35749db3dc0ad60bfd15646f10351b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0453-f0908.png",
+          "role": "Current two-person crop and left-shift source authority",
+          "sha256": "db273e9f090a48f9f01a52d56ea3ceebe1e61605a322d6e71863460800780f63"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Cropped head identity, not pose",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+          "role": "Cropped collar/coat structure",
+          "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0907-f0908-source-ab-rgb-contours.png",
+          "role": "Actual large907-to908 shift/bangs spatial evidence",
+          "sha256": "eb34137475d3c8c25e2b398b67fd23ba5bffdc8ddfba54fb5fb2aea1e7d2538c"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris identity only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-dance-f0909-v1",
+      "source_frame": 909,
+      "canonical_cel": "cel-0168",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-dance-f0909-v1.png",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0454-f0909.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0908-v1.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0908-f0909-source-ab-rgb-contours.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+      ],
+      "reference_roles": [
+        "Current two-person crop/rear changes/light source authority",
+        "Adjacent Klee topology/foreground placement only, not frozen rear",
+        "Actual908-to909 rear head/coat contour changes",
+        "Crimson iris identity only"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE current 16:9 independent PV cel at source frame 909. Image 1 is CURRENT EDIT TARGET, sole authority for TWO source people, exact visible crop, front-head tilt, rear profile shapes and layer ordering. Image 2 is the new Klee909 predecessor frame908 ONLY for identity/color/topology and adjacent foreground placement continuity; do not freeze the rear hat/fringe contours. Image 3 is actual ORIGINAL908-to909 A/B, amplified RGB differences and blue-before/red-current contours: foreground pose is retained while rear RIGHT-profile hat slope, fringe tips, side hair and chin/neck/coat contours are re-drawn. Image 4 is crimson iris/black pupil/highlight identity only. Replace BOTH source girls, no duck sleep mask or pink source hair left anywhere. Foreground: huge warm Klee face shoved far LEFT, cut by TOP/LEFT, left closed eye partly clipped, eye-line slopes up-right, tiny OPEN TRIANGULAR mouth near x20%/y70%, no tongue/O. Preserve newly established frame908 left placement, current source eyebrows/fringe/chin/near ear. Only short blonde ear-rooted groups and partial two-leaf cream collar/red shoulder visible; front right ponytail lies in front of rear neck/chest, far-left group remains clipped. NO hands/legs or complete body added. Rear: separate cool CYAN/BLUE NIGHT-tinted Klee in strict RIGHT-facing profile, one open crimson eye with current gaze/tiny dot mouth, follow current source changed beret tilt/fringe/endpoints/nose/chin/neck. Klee clover beret and clipped feather replace source mask, short blonde hair cool-tinted, subdued burgundy coat under same cyan illumination. Rear location/light not shifted to create different framing. Keep exposed source blue night field, tiny stars/crescent and transition boundary, warm foreground vs cool rear, exactly two people. Flat simplified PV blocks/irregular thin black outline, no elaborate shading. Omit ALL Chinese/Japanese text; original glyphs handled separately. No collage, mirror, hold, flow, morph or copied unchanged rear portrait.",
+      "accepted": false,
+      "original_speed_review": "unperformed",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-0f995b18-22bb-454f-84e0-eb317b546759.png",
+      "static_review": "Current two Klee portraits, clipped far-left closed eye, triangle near20% width, rear right-facing crimson-eye cyan profile present. Foreground near908 placement retained; rear fringe/profile/neck contours independently changed visibly. No invented limbs or extra floating waist group. Exact source rear changes and cropped collar/hat continuity approximate; full batch composite/cycle/speed pending.",
+      "known_issues": [
+        "Exact rear contour/fringe/hat change magnitude approximate",
+        "Mild shading and collar/clover details differ"
+      ],
+      "blocking_static_findings": [],
+      "artistic_accepted": false,
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-dance-f0909-v1.json",
+      "job_sha256": "66e4f0bf2c497c0d82cfaefd25acabae77439c5e0d0c1c48680263ac4fe7efcc",
+      "output_sha256": "fa1444d00e40c1a12bf5fe08040761b2f3613c1777f4b55468564f38f0c50957",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0454-f0909.png",
+          "role": "Current two-person crop/rear changes/light source authority",
+          "sha256": "aea0c18297aeb5b3fdc7af48886d9277bcd1f6e58d15a8ce7b52e4772d352811"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0908-v1.png",
+          "role": "Adjacent Klee topology/foreground placement only, not frozen rear",
+          "sha256": "3c82816ab10f795ea4e5c6af71656aa74c35749db3dc0ad60bfd15646f10351b"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0908-f0909-source-ab-rgb-contours.png",
+          "role": "Actual908-to909 rear head/coat contour changes",
+          "sha256": "588616d90d0909e69a47ca365133f1eec59884f462a80f80dcf495a5d712321c"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson iris identity only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        }
+      ],
+      "currently_selected_draft": true
+    }
+  ],
+  "root_cyan_records": [
+    {
+      "job_id": "fast-fullpv-cyan-f0938-position-v2",
+      "source_frame": 938,
+      "canonical_cel": "cel-0179",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted_position_approximation",
+      "output": "generated/fast-fullpv-cyan-f0938-position-v2.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0938-v1.png",
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0478-f0938.png"
+      ],
+      "reference_roles": [
+        "Edit target: keep short-hair Klee identity/lighting/clothing, fix major vertical registration",
+        "Current source938 authoritative facial landmark coordinates/current head crop"
+      ],
+      "prompt": "Use case: precise-object-edit. ONE full16:9 source938 PV cel. Image1 EDIT TARGET has correct one cyan Klee/right-profile/short rooted hair/red eye/dot/beret, but ENTIRE HEAD is placed roughly13% canvas TOO LOW. Image2 CURRENT SOURCE938 controls required current face position/crop exactly. Correct this ONE blocking registration issue by re-drawing the Klee head UP by about13% canvas height (around125px in image1's941height), preserving its scale and source right-facing pose. Eye center must be around x66% y39-41%, tiny mouth dot around x71% y51-52%, chin x70% y59-61%. The current image1 eye at~51%, mouth~65%, chin~73% is wrong; move these three landmarks UP together, not merely gaze or eye paint. Red beret top now intentionally goes beyond TOP canvas, clipped more, like source current oversized head; do NOT shrink head or keep whole beret inside frame. Eye remains narrow one red iris with upper pupil and white curl highlight, dot mouth not O, nose points RIGHT. Short ear-rooted blonde/cyan side groups, no long forelock or waist fan, cool burgundy/purple beret and coat, plain two-leaf collar adapt beneath the elevated source-position chin. Preserve purple/blue night backdrop and existing tiny stars/crescent layout, same one figure/no limbs invented. No old pink hair/animal mask, extra eye/hand/leg or new ornament. Minimal flat PV shading and dark uneven outline; omit all subtitles. Whole redraw registration only, no copied image2 source person, no collage/mirror/morph/hold.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-9c45e860-d34d-4943-a537-4d8b25bc3f46.png",
+      "static_review": "Head moved upward visibly and beret now cropped by top. One right-profile/red pupil-highlight/dot and short rooted groups retained; no original mask/long pink tail or invented limbs. Residual eye/mouth/chin vertical offset about4-5% versus source; full935/938/939 speed severity unconfirmed. Not artistic accepted; no more same-direction detail iteration.",
+      "known_issues": [
+        "Residual head/face vertical registration approximate (about4-5% height); adjacent-speed severity pending",
+        "Simple two-leaf collar differs ornate oldneighbor",
+        "Mild shading"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "Pending actual neighboring exposure review; static improvement is not full pose acceptance",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0938-position-v2.json",
+      "job_sha256": "9529f812653360e5c5891ae7138fdbb7a2a90c6fed6f61dc214c30e0d2f26c1e",
+      "output_sha256": "becab9abfea39edb75d76080cf98ebbcb1e2a8f5470fc43f1b2c26f8331a7620",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0938-v1.png",
+          "role": "Edit target: keep short-hair Klee identity/lighting/clothing, fix major vertical registration",
+          "sha256": "08f33cf52d1e1c164e4f3ededed16340ab2caf7fdca072c169340c696ced5aac"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0478-f0938.png",
+          "role": "Current source938 authoritative facial landmark coordinates/current head crop",
+          "sha256": "fe77d6858781cf9c4ba29c870a5b3cf5fa98afd4dded6a77462a778cb687c1b7"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0938-v1",
+      "source_frame": 938,
+      "canonical_cel": "cel-0179",
+      "tool": "builtin_imagegen",
+      "status": "generated_blocking_head_registration_unselected",
+      "output": "generated/fast-fullpv-cyan-f0938-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0478-f0938.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0935-f0938-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current938 edit target sole camera/profile pose/visible crop and night lighting",
+        "Warm Klee short rooted twin-tail/clover beret identity ONLY, not full pose",
+        "Crimson pupil/highlight color identity ONLY",
+        "Actual935\u2192938 source tiny fringe/outline/collar pressure changes, not hold proof"
+      ],
+      "prompt": "Use case: identity-preserve. Asset: ONE independent full16:9 PV cel at source938. Image1 is CURRENT EDIT TARGET and sole authority for camera, face position/scale, RIGHT-facing side profile, one visible open eye gaze, tiny dot mouth, nose/chin/neck and partial shoulder crop, blue night illumination. Image2 supplies ONLY Klee identity head topology: short blonde bangs, exactly TWO short rooted ear/neck-side ponytail groups, pointed ear, red clover beret/cropped pale feather. Do not copy its warm lighting or frontal face. Image3 gives only red iris, black upper pupil/hook and white highlight. Image4 is actual original935\u2192938 A/B/RGB/contours: current fringe tip, hat/profile contour, side hair and neck/coat pressure are independently redrawn subtly, not held or morph-generated. Replace the ONE original girl with Klee, remove all duck sleep mask and source long peach hair including the bottom-left flowing sheet. Current single close RIGHT-profile head remains at source face center, visible eye near x66%/y38%, small dot mouth near x71%/y51%, nose projects RIGHT around x74%/y41%, chin around x70%/y61%; preserve source gaze and eye opening, no added second frontal eye. Klee blonde hair is tinted LIGHT CYAN/LAVENDER by source night light; red beret and coat are subdued BURGUNDY/PURPLE under the same cool light, red iris still distinguishable. Maintain short ear-rooted side groups, no up-curled moon forelock, no waist-length locks, no detached fans. Simple two-leaf cream collar and red shoulder/chest extend down out of bottom, no pompom/diamond embroidery required, no hands/legs or invented full body visible. Keep source night sky's left purple/right cyan-blue glow, small stars and crescent in same composition, background under removed long hair is source sky, not extra hair. Minimal shading, flat original PV block colors and irregular thin dark outlines, one character only. OMIT Chinese/Japanese lyric text for independent source glyph restoration. No collage, mirror, flow, morph, frozen prior drawing or 3D illustration.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-38d77fcb-fa5c-4ac7-8521-f926e4548283.png",
+      "static_review": "Single cyan Klee/right-profile/red eye/dot/short rooted rear group/no mask or extra limbs. However head eye/mouth/chin landmarks about13% canvas too low versus current938, causing severe head drop versus adjacent935/939. Not selected, one source-guided registration redraw allowed.",
+      "known_issues": [
+        "Blocking: head landmarks roughly13% canvas below source",
+        "Mild shading and simple collar differ existing neighbor"
+      ],
+      "blocking_static_findings": [
+        "Current profile head placed too low; source current pose not followed"
+      ],
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0938-v1.json",
+      "job_sha256": "fd262e1b0a72277d4aea4040c8aabf6c4c14764f9e6b8510cbfe877f29877978",
+      "output_sha256": "08f33cf52d1e1c164e4f3ededed16340ab2caf7fdca072c169340c696ced5aac",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0478-f0938.png",
+          "role": "Current938 edit target sole camera/profile pose/visible crop and night lighting",
+          "sha256": "fe77d6858781cf9c4ba29c870a5b3cf5fa98afd4dded6a77462a778cb687c1b7"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Warm Klee short rooted twin-tail/clover beret identity ONLY, not full pose",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Crimson pupil/highlight color identity ONLY",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0935-f0938-source-ab-rgb-contours.png",
+          "role": "Actual935\u2192938 source tiny fringe/outline/collar pressure changes, not hold proof",
+          "sha256": "faf86834097f1c6374ed073deb62bf9925d69887228f0c6e5a4b6cfe2b6186d7"
+        }
+      ],
+      "currently_selected_draft": false
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0942-v1",
+      "source_frame": 942,
+      "canonical_cel": "cel-0181",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted_registration_pending",
+      "output": "generated/fast-fullpv-cyan-f0942-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0481-f0942.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0942-source-eyes-nose-mouth.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0938-position-v2.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0939-f0942-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current942 target full canvas profile registration/scale/crop authority",
+        "Current native local narrow-open eye/nose/dot-mouth shape and gaze, not full composition",
+        "Klee short rooted hair/simple beret/collar and cool-color continuity only; residualposition errors not inherited",
+        "Actual source939\u2192942 redraws/fringe/hat/profile contours"
+      ],
+      "prompt": "Use case: identity-preserve. ONE full16:9 independent source942 PV cel. Image1 CURRENT EDIT TARGET determines actual source right-profile head position and crop. Image2 CURRENT native SOURCE local eye/nose/mouth detail determines eyelid, gaze, thin pupil/highlight and DOT expression. Image3 newly drawn Klee938 is ONLY cyan Klee short hair/simple collar/beret color continuity; its residual face slightly too low must NOT override CURRENT image1 registration. Image4 actual original939\u2192942 A/B/RGB/contours determines current small independent outline/fringe/hat/collar pressure changes, not a held copy. Replace ONE original girl with Klee. Place RIGHT-facing face at SOURCE location: one narrow open red eye center x66% y40%, projecting nose x74% y41%, DOT mouth x71% y51%, chin x70% y60%. Keep this HIGH head registration; eye may not drop near50% and mouth may not drop65%. Red/burgundy clover beret intentionally cropped at TOP, feather clipped at top too, do not fit full oversized hat by moving face down or shrinking face. Current source head/profile tilt/gaze/opening retained, no frontal paired eye, no smile or O. Blonde hair cyan/lavender under exact source blue night light, TWO short attached neck/ear-side groups, near group ends by collar; NO old waist-length peach/pink hair, upcurled forelock or detached fan. Cream two-leaf collar appears cyan under light, simple burgundy red shoulder/coat exits bottom, no diamond ornaments or pompom. No hands/legs/body outside current crop invented. Source purple-left/cyan-right night field, tiny stars/crescent, silhouette identity replacement only. Flat simplified PV colors with irregular dark outlines and minimal shading, preserve source current face shape/opening and region scale. OMIT all lyric text for separately restored original layer. Independent current cel only, no collage/mirror/hold/flow/morph.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-77fc3a3a-faa2-44e2-af67-c270b65684bb.png",
+      "output_sha256": "907a3ecd247924e27c99033e4d85f14769102cbc03d18add4fe655de118a0176",
+      "static_review": "One cyan right-profile Klee, open red eye and dot mouth, short rooted hair groups. Residual head registration and actual neighboring continuity require review; no artistic or actual-speed acceptance.",
+      "known_issues": [
+        "Head/eye/mouth registration remains approximate versus actual source",
+        "Simple collar differs ornate historical neighbors",
+        "Independent outline redraw amplitude unconfirmed"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "pending",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0942-v1.json",
+      "job_sha256": "db6cad84e4997473fafdf5236c4d0e36a0365b8a7238c90466b263b20c37c0b3",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0481-f0942.png",
+          "role": "Current942 target full canvas profile registration/scale/crop authority",
+          "sha256": "8a968c05bb1cb415aab2ae0cb2b14677f4c5dc479404bbfbb4fe472ffe0c2347"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0942-source-eyes-nose-mouth.png",
+          "role": "Current native local narrow-open eye/nose/dot-mouth shape and gaze, not full composition",
+          "sha256": "9844c0ca5a679507b92ccd63008a68cc8d9f909d7a36f1dd479157b3463a376b"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0938-position-v2.png",
+          "role": "Klee short rooted hair/simple beret/collar and cool-color continuity only; residualposition errors not inherited",
+          "sha256": "becab9abfea39edb75d76080cf98ebbcb1e2a8f5470fc43f1b2c26f8331a7620"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0939-f0942-source-ab-rgb-contours.png",
+          "role": "Actual source939\u2192942 redraws/fringe/hat/profile contours",
+          "sha256": "eb26bc9091abe9f7ca091bfdaeec232df268b710aea40ec59c03b4351a40f5c5"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0948-v1",
+      "source_frame": 948,
+      "canonical_cel": "cel-0183",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted_registration_pending",
+      "output": "generated/fast-fullpv-cyan-f0948-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0486-f0948.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0948-source-eyes-nose-mouth.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+        "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0945-f0948-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current948 edit target: authoritative full canvas source pose/crop/landmark registration",
+        "Current native face region: open eyelid/gaze/dot-mouth/nose/chin shape; no whole-canvas scale authority",
+        "Klee short rooted hair/beret/simple two-leaf collar identity only, not pose or warm illumination",
+        "Klee red pupil/upper dark hook and tiny white curl highlight only",
+        "Actual original945 to948 independent outline redraw, current hair-tip/hat/line pressure changes"
+      ],
+      "prompt": "Use case: identity-preserve. ONE 16:9 full-frame source948 independent PV drawing. Image1 is CURRENT EDIT TARGET and its exact HEAD/FACE location must stay unchanged: preserve RIGHT-facing profile nose, open narrow single eye, dot mouth and chin at their current image1 coordinates; don't move head down or fit the full hat. Image2 is the native current eye/nose/dot-mouth crop for exact facial expression, not overall composition. Replace original girl with Klee using Image3 only for short blonde hair attached in TWO ear/neck-rooted short side groups, clover beret, feather, pointed ear, plain two-leaf collar and simple coat identity; image3 frontal/warm pose must NOT be inherited. Image4 gives red eye identity with dark upper iris hook and tiny white curl highlight; eye remains one visible narrow open side-profile eye, no second frontal eye or smile. Current source eye about x66% y39%, nose x74% y41%, dot mouth x71% y51%, chin x70% y59%; these HIGH registered locations are binding. Beret replaces the current animal hat and should be cropped by top canvas if necessary, never lower face or reduce head to make hat fit. Original image1 long peach/pink hair becomes short cyan/lavender-lit blonde Klee hair with attached near-ear group ending by the collar, no waist-length locks or third detached hair fan. Preserve oversized profile head scale and source high crop. Simple red/burgundy coat under cool cyan/lavender night light exits bottom, plain cream two-leaf collar looks cyan, no diamond collar ornaments, no pompom, no hands or legs invented. Image5 actual source945/948 A/B+RGB+contours controls independently redrawn small hat/fringe/eyelid/profile/hair-root/shoulder contour and line pressure changes; not a held copy or fixed template. Preserve source purple-left to blue/cyan-right night sky, existing tiny stars/crescent, framing. Flat simplified hand-drawn PV colors, irregular dark outlines, minimal shading. OMIT all lyrics/text for original-layer restoration. ONE current cel, no collage, extra person, mirror, morph or flow.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-259f8f34-d4bd-4949-80a6-253780e9c87c.png",
+      "static_review": "One right-facing cool-light Klee with single open red eye/dot mouth/short ear-rooted hair and top-cropped beret. Current source pose retained approximately; head registration and joins require actual adjacent review.",
+      "known_issues": [
+        "Residual face landmarks somewhat lower than original source",
+        "Simplified collar differs historical neighbors",
+        "Additional hat shading and hair line details"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "pending; not artistic accepted",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0948-v1.json",
+      "job_sha256": "62c2ae6a820c56c33f6c3dcf1eac33a749222c1b19912bc0c899a16aba87454e",
+      "output_sha256": "3b551dc2d32b348527184c41609acb97ddd76baa7683e6dd8846ba2c63e48574",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0486-f0948.png",
+          "role": "Current948 edit target: authoritative full canvas source pose/crop/landmark registration",
+          "sha256": "0700c16b52799c45314d50b341eaab8bd6168c8b137139970255f17477892ce2"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0948-source-eyes-nose-mouth.png",
+          "role": "Current native face region: open eyelid/gaze/dot-mouth/nose/chin shape; no whole-canvas scale authority",
+          "sha256": "b4a2f179c9fe16dff2e285952e2a9e69bfb036a9392a4ea824dd11ca4c1e948b"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+          "role": "Klee short rooted hair/beret/simple two-leaf collar identity only, not pose or warm illumination",
+          "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png",
+          "role": "Klee red pupil/upper dark hook and tiny white curl highlight only",
+          "sha256": "f669cfa68321f788920ca7440b72960a919df93958e9ff6eea5c4acee557a0db"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0945-f0948-source-ab-rgb-contours.png",
+          "role": "Actual original945 to948 independent outline redraw, current hair-tip/hat/line pressure changes",
+          "sha256": "cb67a790a4bbcaaa1d72075b3d867c3e9c506bd2642df40aaa41b1947af8021d"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0954-v1",
+      "source_frame": 954,
+      "canonical_cel": "cel-0185",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-cyan-f0954-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0492-f0954.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-source-eyes-nose-mouth.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0948-v1.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0951-f0954-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+        "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+        "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+        "Actual original previous/current A/B/RGB/contours: independent changes and wind direction"
+      ],
+      "prompt": "Use case: identity-preserve. ONE full16:9 source954 independent PV cel. Image1 CURRENT ORIGINAL EDIT TARGET decides right-facing profile head scale/crop and HIGH eye/nose/mouth/chin placement; replace original girl by ONE Klee. Image2 native CURRENT face expression; Image3 only preceding cool-light Klee short rooted hair/plain beret/collar topology/colors, NOT permission to copy previous expression/low registration. Image4 actual951\u2192954 spatial A/B/RGB/contour reference, draw CURRENT changes. CURRENT differences: Half-open single red eye, upper eyelid lowered and nearly horizontal compared with948. Tiny short hooked mouth mark, not open O. Nose projects right, underside of jaw now almost horizontal, less sharply diagonal chin than948. Hair wind begins moving near tips gently BACK/LEFT; no long tail. Keep face HIGH as original image1: eye/lid near x66% y39%, nose x74% y41%, tiny mouth x71% y51%, chin x70% y59%; beret cropped across top, do not lower face to fit whole hat. Klee blonde hair cyan/lavender under source night light, TWO short ear/neck-rooted side groups, neither longer than collar. Clover burgundy/red beret, clipped feather, pointed ear, plain cream two-leaf collar tinted cyan, burgundy coat shoulders exit bottom. No old animal mask, peach/pink waist hair, upward curled forelock, third detached fan, extra face/eye, invented hands/legs, ornate diamonds/pompoms. Existing purple-left/blue-cyan-right night sky, stars/crescent framing retained. Simple flat hand-drawn PV color areas, irregular dark outlines, minimal shading. OMIT ALL lyric text for separately restored original glyph layer. Redraw ONE cel with current eyelid/hair tip/collar/shoulder/outline pressure changes, no collage, holds, mirror, morph, flow or crossfade.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-b7b3dd2c-bb3a-4ef4-99ce-908c205efbcd.png",
+      "static_review": "One right-profile, upper lid now flatter half-open red eye, dot becomes tiny hooked mouth, near-root group tip independently lifts/back-left. No extra eyes/hands/legs/original pink tail. Face registration approximate inherited from prior; adjoining whole-shot review pending.",
+      "known_issues": [
+        "Residual head/face registration versus source",
+        "Simple collar differs historical neighbors",
+        "Source jaw flattening only approximate; shading"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "pending",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0954-v1.json",
+      "job_sha256": "2b2e35a48ede5eab97184ed628327eb58ee229ed13b244b94c9acf86b4e1028e",
+      "output_sha256": "a1491f504be96cfd0b61ed03a6151b1c5c1f425e428a648568bf2f828b8f163b",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0492-f0954.png",
+          "role": "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+          "sha256": "dd45e6bc4bdc81c0ecc12e5eabbc562af1bbdefd3cf5e9dfe5d3ad0ad0a25139"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-source-eyes-nose-mouth.png",
+          "role": "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+          "sha256": "187434d33cb4a34ab25658552b2192c0f7939a9217752a4c4cd20452180d41fd"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0948-v1.png",
+          "role": "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+          "sha256": "3b551dc2d32b348527184c41609acb97ddd76baa7683e6dd8846ba2c63e48574"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0951-f0954-source-ab-rgb-contours.png",
+          "role": "Actual original previous/current A/B/RGB/contours: independent changes and wind direction",
+          "sha256": "852f1bb4ffa029beab1e199b6632a7910ccf97832998aeff4c91b2d7cffe9ed8"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0957-v1",
+      "source_frame": 957,
+      "canonical_cel": "cel-0186",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-cyan-f0957-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0495-f0957.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-source-eyes-nose-mouth.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0954-v1.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-f0957-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+        "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+        "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+        "Actual original previous/current A/B/RGB/contours: independent changes and wind direction"
+      ],
+      "prompt": "Use case: identity-preserve. ONE full16:9 source957 independent PV cel. Image1 CURRENT ORIGINAL EDIT TARGET decides right-facing profile head scale/crop and HIGH eye/nose/mouth/chin placement; replace original girl by ONE Klee. Image2 native CURRENT face expression; Image3 only preceding cool-light Klee short rooted hair/plain beret/collar topology/colors, NOT permission to copy previous expression/low registration. Image4 actual954\u2192957 spatial A/B/RGB/contour reference, draw CURRENT changes. CURRENT differences: Single eye FULLY CLOSED as short almost-horizontal dark lid with eyebrow just above, no red iris visible. Tiny short hooked mouth, not O. Compared with954 actual eyelid closes; near-root short group lifts/backward at tip, stable root, collar opens beneath chin. Keep face HIGH as original image1: eye/lid near x66% y39%, nose x74% y41%, tiny mouth x71% y51%, chin x70% y59%; beret cropped across top, do not lower face to fit whole hat. Klee blonde hair cyan/lavender under source night light, TWO short ear/neck-rooted side groups, neither longer than collar. Clover burgundy/red beret, clipped feather, pointed ear, plain cream two-leaf collar tinted cyan, burgundy coat shoulders exit bottom. No old animal mask, peach/pink waist hair, upward curled forelock, third detached fan, extra face/eye, invented hands/legs, ornate diamonds/pompoms. Existing purple-left/blue-cyan-right night sky, stars/crescent framing retained. Simple flat hand-drawn PV color areas, irregular dark outlines, minimal shading. OMIT ALL lyric text for separately restored original glyph layer. Redraw ONE cel with current eyelid/hair tip/collar/shoulder/outline pressure changes, no collage, holds, mirror, morph, flow or crossfade.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-5a87d4ea-11a2-48f1-9d9a-4c21c4d3d85b.png",
+      "static_review": "Current single eye now fully closed with no red iris, near short group lifted and neck/collar opening retained, no original long sheet/extra limbs. Tiny mouth became crossed/slanted tick rather than original short hook; exact shape is recorded as approximation, not accepted. Head position and adjacent joins pending.",
+      "known_issues": [
+        "Residual head/face registration versus original source",
+        "Tiny mouth crossed tick differs original hook",
+        "Simple collar differs historical neighbors; mild shading"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "pending",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0957-v1.json",
+      "job_sha256": "496391c8c4f2066fe966b71ef13c90deb8b11fbf6e1b7f2a23d4a2c2c855cd51",
+      "output_sha256": "992133b4477b45f97c88e6fed093bcf27a97a29101f2873a08e8edd13ffa21b1",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0495-f0957.png",
+          "role": "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+          "sha256": "35636af7edadede95e824734c80e6515bff3446cc439214fac71751d8c7a2a65"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-source-eyes-nose-mouth.png",
+          "role": "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+          "sha256": "5f98b782aafddbe9f0d45ea36207a69af461af9ff6393a945356ebcdb886d1bd"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0954-v1.png",
+          "role": "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+          "sha256": "a1491f504be96cfd0b61ed03a6151b1c5c1f425e428a648568bf2f828b8f163b"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0954-f0957-source-ab-rgb-contours.png",
+          "role": "Actual original previous/current A/B/RGB/contours: independent changes and wind direction",
+          "sha256": "d44f7756699ee08d1062bef61209d193d0b6ed37d8c6fd6d76a12c15f1aa7496"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0960-v1",
+      "source_frame": 960,
+      "canonical_cel": "cel-0187",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-cyan-f0960-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0496-f0960.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-eyes-nose-mouth.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0957-v1.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-f0960-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+        "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+        "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+        "Actual original previous/current A/B/RGB/contours: independent changes and wind direction"
+      ],
+      "prompt": "Use case: identity-preserve. ONE full16:9 source960 independent PV cel. Image1 CURRENT ORIGINAL EDIT TARGET decides right-facing profile head scale/crop and HIGH eye/nose/mouth/chin placement; replace original girl by ONE Klee. Image2 native CURRENT face expression; Image3 only preceding cool-light Klee short rooted hair/plain beret/collar topology/colors, NOT permission to copy previous expression/low registration. Image4 actual957\u2192960 spatial A/B/RGB/contour reference, draw CURRENT changes. CURRENT differences: Single eye stays FULLY CLOSED, tiny hooked mouth, current957-to960 independent hat/fringe/closed-lid/profile/hair tip/collar line-pressure redraws, small but coherent. Do not freeze957. Keep face HIGH as original image1: eye/lid near x66% y39%, nose x74% y41%, tiny mouth x71% y51%, chin x70% y59%; beret cropped across top, do not lower face to fit whole hat. Klee blonde hair cyan/lavender under source night light, TWO short ear/neck-rooted side groups, neither longer than collar. Clover burgundy/red beret, clipped feather, pointed ear, plain cream two-leaf collar tinted cyan, burgundy coat shoulders exit bottom. No old animal mask, peach/pink waist hair, upward curled forelock, third detached fan, extra face/eye, invented hands/legs, ornate diamonds/pompoms. Existing purple-left/blue-cyan-right night sky, stars/crescent framing retained. Simple flat hand-drawn PV color areas, irregular dark outlines, minimal shading. OMIT ALL lyric text for separately restored original glyph layer. Redraw ONE cel with current eyelid/hair tip/collar/shoulder/outline pressure changes, no collage, holds, mirror, morph, flow or crossfade.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-5b38752e-c922-4b91-b6e8-7d54e30532be.png",
+      "static_review": "Single eye remains closed; current beret/top crop and fringe/profile/short-group contour visibly redrawn, mouth and collar approximated, no old long hair or extra limbs. No claim all source small redrawing amplitudes reproduced.",
+      "known_issues": [
+        "Residual head/face registration versus original",
+        "Tiny mouth slanted tick differs original hook",
+        "Mild shading/simple collar historical difference"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "pending",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0960-v1.json",
+      "job_sha256": "77caa1fac299a182c9001caa4099d9d09de14eb62d772c2db9ca8f772587b37f",
+      "output_sha256": "bd735602866dad17c59731766508291ff197eeb0d257656fcdba969677b06fa7",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0496-f0960.png",
+          "role": "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+          "sha256": "5d8c343fc00ee9125b7cf09a74372d0f9e82e248f1dbf05d8cb84e9468347130"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-source-eyes-nose-mouth.png",
+          "role": "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+          "sha256": "2f1076959fe7aaf358ab185c76d1cf4e3bdf5dcb191834a7469b61bf75c230e3"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0957-v1.png",
+          "role": "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+          "sha256": "992133b4477b45f97c88e6fed093bcf27a97a29101f2873a08e8edd13ffa21b1"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0957-f0960-source-ab-rgb-contours.png",
+          "role": "Actual original previous/current A/B/RGB/contours: independent changes and wind direction",
+          "sha256": "576f24152e74fa0e824814f00385f3a579d4f775b3063d5295423dae51bc0edf"
+        }
+      ],
+      "currently_selected_draft": true
+    },
+    {
+      "job_id": "fast-fullpv-cyan-f0963-v1",
+      "source_frame": 963,
+      "canonical_cel": "cel-0188",
+      "tool": "builtin_imagegen",
+      "status": "generated_draft_unaccepted",
+      "output": "generated/fast-fullpv-cyan-f0963-v1.png",
+      "accepted": false,
+      "artistic_accepted": false,
+      "original_speed_review": "unperformed",
+      "references": [
+        "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0499-f0963.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-source-eyes-nose-mouth.png",
+        "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0960-v1.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-f0963-source-ab-rgb-contours.png"
+      ],
+      "reference_roles": [
+        "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+        "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+        "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+        "Actual original previous/current A/B/RGB/contours: independent changes and wind direction"
+      ],
+      "prompt": "Use case: identity-preserve. ONE full16:9 source963 independent PV cel. Image1 CURRENT ORIGINAL EDIT TARGET decides right-facing profile head scale/crop and HIGH eye/nose/mouth/chin placement; replace original girl by ONE Klee. Image2 native CURRENT face expression; Image3 only preceding cool-light Klee short rooted hair/plain beret/collar topology/colors, NOT permission to copy previous expression/low registration. Image4 actual960\u2192963 spatial A/B/RGB/contour reference, draw CURRENT changes. CURRENT differences: Single eye FULLY CLOSED, tiny hooked mouth and high stable profile. Actual960-to963 wind strengthens: near ear-side short group tip sweeps BACK/LEFT and lifts moderately, fringe responds slightly; root stable. Adapt original huge long-hair swing to same SHORT Klee side group, not original waist-length sheet. Two-leaf collar and shoulder wind response retain current source neck opening. Keep face HIGH as original image1: eye/lid near x66% y39%, nose x74% y41%, tiny mouth x71% y51%, chin x70% y59%; beret cropped across top, do not lower face to fit whole hat. Klee blonde hair cyan/lavender under source night light, TWO short ear/neck-rooted side groups, neither longer than collar. Clover burgundy/red beret, clipped feather, pointed ear, plain cream two-leaf collar tinted cyan, burgundy coat shoulders exit bottom. No old animal mask, peach/pink waist hair, upward curled forelock, third detached fan, extra face/eye, invented hands/legs, ornate diamonds/pompoms. Existing purple-left/blue-cyan-right night sky, stars/crescent framing retained. Simple flat hand-drawn PV color areas, irregular dark outlines, minimal shading. OMIT ALL lyric text for separately restored original glyph layer. Redraw ONE cel with current eyelid/hair tip/collar/shoulder/outline pressure changes, no collage, holds, mirror, morph, flow or crossfade.",
+      "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-d03b9b62-b778-474b-bfa7-334d3f1f8afa.png",
+      "static_review": "Single closed eye/current tiny tick mouth. Short rooted group visibly lifted/back-left with attachment stable and collar/neck more exposed; source long-hair wind adapted to short group without huge sheet/extra fan. No original mask/limbs invented. Exact source micro changes and speed pending.",
+      "known_issues": [
+        "Residual face registration versus source",
+        "Tick mouth differs original hook",
+        "Source wind amplitude adapted to short hair; actual-speed unverified",
+        "Shading/ornament precision"
+      ],
+      "blocking_static_findings": [],
+      "consecutive_review": "pending",
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\fast-fullpv-cyan-f0963-v1.json",
+      "job_sha256": "a6f3814404b77d5743a0fb8cf6bf049c7dbdef2c934cda3104611261e41d6d85",
+      "output_sha256": "c1e3a1758e766be35dda234badeb97b5a8ace24e0a94a992d2faf3ce21bcb85c",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "reference_records": [
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0499-f0963.png",
+          "role": "Current original full cel: authoritative pose, expression, crop, source eye/nose/chin coordinates",
+          "sha256": "d34162f82c5d1465fc67c0ba9ced4f45f72b327bf9a40df7f78106de976f14d3"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0963-source-eyes-nose-mouth.png",
+          "role": "Current original native face region: precise visible eye/mouth expression not whole-scale composition",
+          "sha256": "c50f176eb10aabf9930a86ddc4cbc1673f2ad28b9152074a3fbd911f80597725"
+        },
+        {
+          "path": "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0960-v1.png",
+          "role": "Previous newly drawn Klee cel: short rooted hair/hat/collar/color topology only, not frozen pose; unaccepted and registration errors must not propagate",
+          "sha256": "bd735602866dad17c59731766508291ff197eeb0d257656fcdba969677b06fa7"
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0960-f0963-source-ab-rgb-contours.png",
+          "role": "Actual original previous/current A/B/RGB/contours: independent changes and wind direction",
+          "sha256": "f5fe873722b82fc380048dd948ca13375387ea69cf9307a61aebc9605aaa81dd"
+        }
+      ],
+      "currently_selected_draft": true
+    }
+  ],
+  "raised_records": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-raised\\generation-records.json",
+    "sha256": "ebfb700e6ef2cff5f504fc110aa310e1e3736b4ab14388ee5c56ca17c3c13c01"
+  },
+  "canvas_note": "Native near-16:9 tool outputs are preserved; existing compositor normalizes to source canvas.",
+  "artistic_acceptance": false
+}

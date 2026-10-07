@@ -1,0 +1,883 @@
+{
+  "scope": "late recovery worker only; root must review before shared selection",
+  "accepted": false,
+  "cels": [
+    {
+      "source_frame": 2420,
+      "source_cel": "cel-0470",
+      "path": "generated\\fine-f2420.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1407-f2420.png",
+      "job": "jobs\\fine-f2420.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Current pose follows viewer-left tilt, closed eyes and O mouth; left hand now matches lower-shoulder source position, right index points vertical, plain cuffs present. Adjacent static comparison with f2416 shows independent raised-arm and wrist redraw. Full-speed review unperformed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2424,
+      "source_cel": "cel-0471",
+      "path": "generated\\fine-f2424.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1411-f2424.png",
+      "job": "jobs\\fine-f2424.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Red half-open eyes, upright head, left index raised from prior and right index touching beside hat are present. Compared adjacent f2420 for hat/ponytail/costume topology; not actual-speed review."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2427,
+      "source_cel": "cel-0472",
+      "path": "generated\\fine-f2427.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1414-f2427.png",
+      "job": "jobs\\fine-f2427.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Independent taller O mouth and hand redraw; half-open red eyes, gloves and plain cuffs present. Adjacent f2424 comparison performed."
+        ],
+        "issues": [
+          "Head and eyelid slope remains slightly counterclockwise instead of source clockwise; source turn amplitude is under-executed and needs targeted repair."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2431,
+      "source_cel": "cel-0473",
+      "path": "generated\\fine-f2431.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1418-f2431.png",
+      "job": "jobs\\fine-f2431.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Both arms independently redrawn above head; hat replaces mask, squeezed angled eyes and tiny w mouth match. Gloves overlap hat edge and elbows spread asymmetrically as source. Adjacent f2427 static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2435,
+      "source_cel": "cel-0474",
+      "path": "generated\\fine-f2435.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1422-f2435.png",
+      "job": "jobs\\fine-f2435.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Left finger rises diagonal and right finger vertical; head and torso shift left versus f2431. Angled closed eyes, tiny w mouth and both plain cuffs remain; adjacent static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2439,
+      "source_cel": "cel-0475",
+      "path": "generated\\fine-f2439.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1426-f2439.png",
+      "job": "jobs\\fine-f2439.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Character shrinks and lowers as current source; hands lowered toward brim, both elbows lowered. Squeezed eyes and tiny w mouth retained, independent source motion from f2435 reflected. Adjacent static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2443,
+      "source_cel": "cel-0476",
+      "path": "generated\\fine-f2443.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1430-f2443.png",
+      "job": "jobs\\fine-f2443.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Lowered forehead hand position, smaller centered character and squeezed closed eyes present; adjacent f2439 comparison performed."
+        ],
+        "issues": [
+          "Viewer-left index is almost horizontal; source left finger has distinct upward-right diagonal, and bilateral hand asymmetry is flattened."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2447,
+      "source_cel": "cel-0477",
+      "path": "generated\\fine-f2447.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1434-f2447.png",
+      "job": "jobs\\fine-f2447.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Left glove lower than right and fingers point into bangs with asymmetric cuffs. Closed wedge eyes and tiny puckered mouth retained. Adjacent f2443 comparison performed."
+        ],
+        "issues": [
+          "Left palm no longer overlaps as much of source left eye area; the occlusion amount needs final paired review."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2451,
+      "source_cel": "cel-0478",
+      "path": "generated\\fine-f2451.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1438-f2451.png",
+      "job": "jobs\\fine-f2451.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Independent redraw with lowered left glove and flatter inward right index. Closed wedges, tiny puckered mouth and asymmetric cuffs present. Adjacent f2447 static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2455,
+      "source_cel": "cel-0479",
+      "path": "generated\\fine-f2455.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1442-f2455.png",
+      "job": "jobs\\fine-f2455.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Wide V arms and two five-digit gloved palms match source orientation; open red eyes and O mouth correct. Source/adjacent f2451 static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2457,
+      "source_cel": "cel-0480",
+      "path": "generated\\fine-f2457.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1444-f2457.png",
+      "job": "jobs\\fine-f2457.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Five-digit palms and V arms, red open eyes and O mouth present. Source/adjacent f2455 static comparison performed."
+        ],
+        "issues": [
+          "Generated hat/face moved upward despite source character nearly unchanged from f2455; the distinct canonical entry may be a background-only change and requires root alias audit or tighter redraw."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2459,
+      "source_cel": "cel-0481",
+      "path": "generated\\fine-f2459.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1446-f2459.png",
+      "job": "jobs\\fine-f2459.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Genuine independent hand/sleeve and more rectangular half-open red eye redraw present; head lower than drifted f2457. Five digits per palm and plain cream cuffs present. Source/adjacent static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2464,
+      "source_cel": "cel-0482",
+      "path": "generated\\fine-f2464.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1451-f2464.png",
+      "job": "jobs\\fine-f2464.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Closed line eyes, large O mouth, five-digit palms and V arms present; adjacent f2459 static comparison performed."
+        ],
+        "issues": [
+          "Lower mouth opening nearly merges into chin/neck in generated cel, while source retains visible skin below mouth; preserve source face geometry in targeted repair."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2467,
+      "source_cel": "cel-0483",
+      "path": "generated\\fine-f2467.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1454-f2467.png",
+      "job": "jobs\\fine-f2467.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Closed eyes and V palms retained; source/adjacent static comparison performed."
+        ],
+        "issues": [
+          "Lower O mouth still merges with chin/neck despite explicit skin-gap request; source face gap remains missing."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2469,
+      "source_cel": "cel-0484",
+      "path": "generated\\fine-f2469.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1456-f2469.png",
+      "job": "jobs\\fine-f2469.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Circular O mouth now has a clear skin gap to chin; closed eyes and independent palm/wrist rotation present. Five-digit palms and plain cuffs retained; adjacent f2467 static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2473,
+      "source_cel": "cel-0485",
+      "path": "generated\\fine-f2473.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1460-f2473.png",
+      "job": "jobs\\fine-f2473.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Half-open rectangular red eyes and tiny vertical O mouth match; wrists and palms independently redrawn from f2469. Both palm silhouettes follow source open shape, plain cuffs retained. Adjacent static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2477,
+      "source_cel": "cel-0486",
+      "path": "generated\\fine-f2477.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1464-f2477.png",
+      "job": "jobs\\fine-f2477.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Half-open red eyes, independently lowered palms and cuff curls present; adjacent f2473 static comparison performed."
+        ],
+        "issues": [
+          "Mouth remains too narrow relative to current source wider small O; requested widening under-executed."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2482,
+      "source_cel": "cel-0487",
+      "path": "generated\\fine-f2482.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1469-f2482.png",
+      "job": "jobs\\fine-f2482.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Large circular O and half-open red eyes match; lower skin strip remains visible. Shallower open palms, cuff/arm redraw retained. Adjacent f2477 static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2489,
+      "source_cel": "cel-0488",
+      "path": "generated\\fine-f2489.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1476-f2489.png",
+      "job": "jobs\\fine-f2489.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Narrow red eye slits and horizontal oval mouth are distinct from f2482; palms/cuffs lower and head drops. Adjacent static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2496,
+      "source_cel": "cel-0489",
+      "path": "generated\\fine-f2496.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1483-f2496.png",
+      "job": "jobs\\fine-f2496.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Closed line eyes, round medium O mouth and independent wrist/sleeve redraw present; source/adjacent f2489 static comparison performed."
+        ],
+        "issues": [
+          "Small pale tooth-like stroke added at top inside mouth, absent from source plain pink mouth."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2504,
+      "source_cel": "cel-0490",
+      "path": "generated\\fine-f2504.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1491-f2504.png",
+      "job": "jobs\\fine-f2504.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Tiny round O with plain pink fill and closed line eyes match; palms/wrist/cuff redraw present. Adjacent f2496 static comparison performed."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2510,
+      "source_cel": "cel-0491",
+      "path": "generated\\fine-f2510.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1497-f2510.png",
+      "job": "jobs\\fine-f2510.json",
+      "review": {
+        "performed": false
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2515,
+      "source_cel": "cel-0492",
+      "path": "generated\\fine-f2515.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1502-f2515.png",
+      "job": "jobs\\fine-f2515.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Static source and adjacent check: lowered diagonal sleeves and cropped curled gloves are present; half-lidded red eyes show small lid-overlapped dark pupils and corner highlights. Two short ear-root ponytails, pointed ears, sole Klee beret. Draft remains unaccepted; no actual-speed review."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2520,
+      "source_cel": "cel-0493",
+      "path": "generated\\fine-f2520.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1507-f2520.png",
+      "job": "jobs\\fine-f2520.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Static check: sleeves now hang down, gloves and cuffs remain correctly outside crop; narrowed triangular mouth represented. Identity features stable with preceding draft. Actual-speed review pending and artistic acceptance false."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2526,
+      "source_cel": "cel-0494",
+      "path": "generated\\fine-f2526.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1513-f2526.png",
+      "job": "jobs\\fine-f2526.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Static source check: independent raised rebound head and round tiny mouth represented, sleeves stay down and no missing-crop anatomy added. Both short ponytails persist; temporal inspection pending."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2532,
+      "source_cel": "cel-0495",
+      "path": "generated/fine-f2532-v2.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1519-f2532.png",
+      "job": "jobs\\fine-f2532-v2.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Targeted pupil repair succeeded: each red iris now contains one visible black oval while white corner highlights, tilted crop, foreground pillow and glove/hand occlusion persist. Static comparison only, unaccepted pending actual speed."
+        ],
+        "issues": [],
+        "scope": "single-cel static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2545,
+      "source_cel": "cel-0497",
+      "path": "generated\\fine-f2545.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1524-f2545.png",
+      "job": "jobs\\fine-f2545.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Static source check: small right-side full-body curled pose, two raised knees, dangling boots, lavender pillow hiding face and two gripping gloves are present. Both short blonde ponytails remain rooted beside ears. Costume has denser cream hem detail than source simplification; source pose retained, actual-speed pending."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2553,
+      "source_cel": "cel-0498",
+      "path": "generated\\fine-f2553.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1527-f2553.png",
+      "job": "jobs\\fine-f2553.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Static source/adjacent check: small bowed head lowered, folded knee panels and diagonal narrowed cream puff are redrawn, source curled pose and pillow occlusion retained. Actual-speed review pending."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2570,
+      "source_cel": "cel-0499",
+      "path": "generated/fine-f2570-v3.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1532-f2570.png",
+      "job": "jobs\\fine-f2570-v3.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Second source-first repair restored small right-side scale and bootbottom about0.735H, visible pupils and lavender pillow occlusion. Finite two repairs reached. Costume shows scalloped cuffs and knee folding less explicit than source; unresolved for root review."
+        ],
+        "issues": [
+          "Scalloped cuffs need plain cream shape.",
+          "Raised knee folding needs artistic review."
+        ],
+        "scope": "single-cel static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2576,
+      "source_cel": "cel-0500",
+      "path": "generated\\fine-f2576.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1533-f2576.png",
+      "job": "jobs\\fine-f2576.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static source/adjacent check: head lift, visible black pupils, plain cuffs, both raised knees and pillow face occlusion present. Figure is still enlarged and shifted left (boots~0.82H versus source~0.73H); unresolved size/position issue recorded while advancing independent dive family."
+        ],
+        "issues": [
+          "Figure enlarged and shifted left relative current source."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2657,
+      "source_cel": "cel-0501",
+      "path": "generated\\fine-f2657.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1552-f2657.png",
+      "job": "jobs\\fine-f2657.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static source geometry check: airborne raised arms with two fists, open oval mouth and red eyes with pupils, bent knees and pillow separation match source framing; figure size/feet close to source. Cuffs generated scalloped despite plain instruction, retained as unresolved draft issue."
+        ],
+        "issues": [
+          "Cream cuffs scalloped instead of plain source-style shape."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2662,
+      "source_cel": "cel-0502",
+      "path": "generated\\fine-f2662.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1554-f2662.png",
+      "job": "jobs\\fine-f2662.json",
+      "review": {
+        "performed": true,
+        "pass": true,
+        "notes": [
+          "Static source/adjacent check: raised fists and complete arms, narrow half-open red eyes with pupils, shortened folded-back legs and fixed pillow separation present. Cuffs now plain cream. Draft remains unaccepted pending actual-speed and precise body-axis review."
+        ],
+        "issues": [],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2667,
+      "source_cel": "cel-0503",
+      "path": "generated\\fine-f2667.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1555-f2667.png",
+      "job": "jobs\\fine-f2667.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static check: leaning airborne independent pose, complete raised arms, plain cuffs, short ponytails and no pillow contact retained. Figure tilts further than f2662 but lower body ends near0.60H rather than source0.54H, so precise body-axis/scale remains unresolved."
+        ],
+        "issues": [
+          "Folded lower body extends too low compared current source."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2671,
+      "source_cel": "cel-0504",
+      "path": "generated\\fine-f2671.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1556-f2671.png",
+      "job": "jobs\\fine-f2671.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static source pose check: eyes tightly squeezed closed, mouth visible, both gloves pressing pillow and feet up behind correctly differentiated. Generated figure/pillow enlarged and shifted left compared source; preserved as unresolved geometry issue, no artistic acceptance."
+        ],
+        "issues": [
+          "Whole figure and pillow enlarged/shifted left relative source."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2676,
+      "source_cel": "cel-0505",
+      "path": "generated\\fine-f2676.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1559-f2676.png",
+      "job": "jobs\\fine-f2676.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static check: lowered kicked-back feet and flatter prone torso, both pressed gloves/pillow occlusion, closed eyes and two cream puffs represented. However model enlarged whole group and shifted left relative source, with larger pillow; unresolved scale/position retained."
+        ],
+        "issues": [
+          "Figure and pillow enlarged/left-shifted from source bounds."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2680,
+      "source_cel": "cel-0506",
+      "path": "generated\\fine-f2680.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1560-f2680.png",
+      "job": "jobs\\fine-f2680.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static source/adjacent check: small narrowed puffs and slight head/pillow redraw reflected, closed eyes and prone hands correct. Inherited enlarged/left-shifted group persists; unresolved size issue."
+        ],
+        "issues": [
+          "Whole group enlarged/left-shifted despite source dimensions."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2684,
+      "source_cel": "cel-0507",
+      "path": "generated\\fine-f2684.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1562-f2684.png",
+      "job": "jobs\\fine-f2684.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Static source check: edit-in-place constraint restored original small right-side figure/pillow layout; kicked-back feet, closed eyes, open mouth over pillow and puff absence correct. Glove positions match source but shape is more clenched than pressed open palms, for artistic review. Actual-speed pending."
+        ],
+        "issues": [
+          "Gloves more clenched than current source pressed palms."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2782,
+      "source_cel": "cel-0508",
+      "path": "generated\\fine-f2782.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1594-f2782.png",
+      "job": "jobs\\fine-f2782.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Source standing left-profile vertical-pillow hug, tall legs and empty margins are independently redrawn; source rabbit mask and long pink hair removed, red iris/black pupil/white highlight and plain cuffs visible. Static single-cel review only."
+        ],
+        "issues": [
+          "Source pillow lies x0.606..0.649 y0.35..0.493; generated pillow is slightly taller and lower. Generated head/hat shifts upward and coat hem extends lower relative to source hip; requires paired geometry review."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2784,
+      "source_cel": "cel-0509",
+      "path": "generated\\fine-f2784.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1595-f2784.png",
+      "job": "jobs\\fine-f2784.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Rear-left three-quarter turn independently follows current source; eyes remain hidden, two short blonde ponytails and brown backpack present; compared source A/B delta and prior Klee f2782 statically."
+        ],
+        "issues": [
+          "Generated coat carries an added large clover and backpack decorative patch despite prompt constraint; pillow lower edge and coat hem remain extended downward relative to source."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2789,
+      "source_cel": "cel-0510",
+      "path": "generated\\fine-f2789.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1596-f2789.png",
+      "job": "jobs\\fine-f2789.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Saved independent draft; no added coat clover, plain backpack and both short ponytails visible; inspected with current source and f2784 delta/prior."
+        ],
+        "issues": [
+          "Head stays near f2784 rear-left view instead of turning farther toward rear; exposed cheek/ear contour freezes prior angle. Pillow/hem extend lower than current source; actual-speed review pending."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2793,
+      "source_cel": "cel-0511",
+      "path": "generated\\fine-f2793.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1597-f2793.png",
+      "job": "jobs\\fine-f2793.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Source-native edit now turns head/body to full rear with no facial eye, two short ponytails, current leaning body and rotated boots; compared current source/delta and prior Klee statically."
+        ],
+        "issues": [
+          "Cream hem adds scallop/clover detail from costume crop and extends below original hip; backpack design changes from prior cel; line/shading polish stronger than source."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2798,
+      "source_cel": "cel-0512",
+      "path": "generated\\fine-f2798.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1598-f2798.png",
+      "job": "jobs\\fine-f2798.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Current full-rear head and clockwise floating lean, both short ponytails, two arm slivers and boots redrawn from source; plain straight coat band now present; source A/B and prior Klee checked statically."
+        ],
+        "issues": [
+          "Generated backpack contains added cream clover; coat hem lower than source hip boundary; silhouette lacks source lower-head length after short-hair substitution and needs adjacent proportion review."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2802,
+      "source_cel": "cel-0513",
+      "path": "generated\\fine-f2802.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1599-f2802.png",
+      "job": "jobs\\fine-f2802.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Source rear-right turn and current leaning straight legs with right-facing boot soles reflected; two short ponytails, no exposed facial eye, source arm occlusion preserved; source A/B and prior Klee compared statically."
+        ],
+        "issues": [
+          "Added clover on backpack remains, and cream hem boundary extends below source hip; backpack/boot decoration differs between neighboring drafts."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2807,
+      "source_cel": "cel-0514",
+      "path": "generated\\fine-f2807.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1600-f2807.png",
+      "job": "jobs\\fine-f2807.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Independent rear-right nearprofile follows current source with one visible red eye, short ponytails, right-facing boot soles and steep current body lean; plain backpack has no added clover; source A/B and prior Klee compared statically."
+        ],
+        "issues": [
+          "Visible cream wrist edge is frilled rather than plain; boots lose cream upper trim; costume/hem and backpack topology still vary between neighboring cels."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2811,
+      "source_cel": "cel-0515",
+      "path": "generated\\fine-f2811.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1601-f2811.png",
+      "job": "jobs\\fine-f2811.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Current right-facing nearprofile eye, two glove shapes/pillow contact, tall down-right tilted legs and two creamtrim boots reflected; source A/B and prior Klee statically inspected."
+        ],
+        "issues": [
+          "Near glove pose bends across mouth instead of source more vertical index/hand; cream cuff edge remains scalloped and hem sits below original hip. No actual-speed review."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2816,
+      "source_cel": "cel-0516",
+      "path": "generated\\fine-f2816.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1602-f2816.png",
+      "job": "jobs\\fine-f2816.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Current independent right-profile head, near raised index beside chin, lower glove/pillow contact and crossed ankle boot overlap are present; source A/B and prior Klee statically compared."
+        ],
+        "issues": [
+          "Added large coat clover and cream-hem/cuff scallops persist; figure head/hat sits higher and coat lower than current source boundaries. Actual-speed review pending."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2820,
+      "source_cel": "cel-0517",
+      "path": "generated\\fine-f2820.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1603-f2820.png",
+      "job": "jobs\\fine-f2820.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Both source-visible sleepy eyes are independently turned toward camera; front-facing boot overlap and long diagonal legs present; short ponytails and identity preserved; current source/delta and prior Klee static comparison done."
+        ],
+        "issues": [
+          "Lavender pillow enlarged relative to source and lower far glove no longer follows source lower-edge grip; near cream cuff remains frilled and coat hem scalloped."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    },
+    {
+      "source_frame": 2825,
+      "source_cel": "cel-0518",
+      "path": "generated\\fine-f2825.png",
+      "source_reference": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1605-f2825.png",
+      "job": "jobs\\fine-f2825.json",
+      "review": {
+        "performed": true,
+        "pass": false,
+        "notes": [
+          "Front-facing sleepy red eyes with black pupils, exactly two top-corner gloves, plain cuffs, separated front-facing boots and horizontal pillow turn reflected. Current source/delta and prior Klee static comparison performed."
+        ],
+        "issues": [
+          "Pillow slightly wider than original and hat/feather extends upward beyond original head boundary; lower coat boundary remains below source hip; actual-speed review unperformed."
+        ],
+        "scope": "single-cel and adjacent static comparison only"
+      },
+      "actual_speed_reviewed": false
+    }
+  ],
+  "static_comparison_pages": [
+    "qa\\late-worker\\recovery-static-01.jpg",
+    "qa\\late-worker\\recovery-static-02.jpg",
+    "qa\\late-worker\\recovery-static-03.jpg",
+    "qa\\late-worker\\recovery-static-04.jpg",
+    "qa\\late-worker\\recovery-static-05.jpg",
+    "qa\\late-worker\\recovery-static-06.jpg",
+    "qa\\late-worker\\recovery-static-07.jpg",
+    "qa\\late-worker\\recovery-static-08.jpg",
+    "qa\\late-worker\\recovery-static-09.jpg",
+    "qa\\late-worker\\recovery-static-10.jpg"
+  ]
+}

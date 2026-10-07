@@ -1,0 +1,16 @@
+{
+  "job_id": "exec-4b017250-e2bf-40a9-bfa0-bcdf0f23804f",
+  "candidate_id": 46,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV frame replacing girl in image1 source-cel-046. Source1 CURRENTtightcrop/pose authority: big central upright headface, BOTH eyes completelyCLOSED thickhorizontalblackslits with no visibleirises; tiny roundOmouth; orangecheeks. Both diagonalraised arms extend OUTSIDEcanvas sides: only sleeves creamcuffs and partial forearm/glove bases along left/rightcutedges, NO hands/fingers insideframe. Do NOT reuse previous045 fullhands/widereyes/smallerhead. Replace sleepmask/pinkhair/pajamas with exact simpleKlee identity reference2 and nearest045 ref3styleonly: redberet creamfrontcloverwhitefeather partlycroppedifneeded, blondebob/short TWOsidepony tails near neck, pointedears, redcoatpatterncreamcollar/redarmscreamcuffs brownFULLglove bases. Only TWO sidepony tails, remove any source long rearhair belowarmpits ratherthan creatingduplicatewings. Preserve current source face/canvas scale and lowercollar croppedbottom, lavenderbackdropoutlinedstars. NO captions/credits/letters/subtitles, clean artwork only. LoosedarksourcePV outlines/broadflatfill/orangecheeks/minimalshadows, no new pose/anatomy/props.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-046.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-045.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-046.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "inspection": "Tight crop with thick closed eye slits/small round O; raised sleeves, cuffs and glove bases clipped at both side edges, no invented hands. Correct two attached short ponytails only, no text."
+}

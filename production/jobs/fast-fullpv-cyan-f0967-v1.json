@@ -1,0 +1,54 @@
+{
+  "job_id": "fast-fullpv-cyan-f0967-v1",
+  "source_frame": 967,
+  "canonical_cel": "cel-0190",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-cyan-f0967-v1.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-1fe031f3-132b-477d-b397-5c347cc8212a.png",
+  "asset_sha256": "dc800262544c0e6c9dcc014f6e47f4744d2c18cfe5edf004ab55e25595812a8a",
+  "static_review": "Current actual full source/face/spatialdelta and full tool output seen. One closed eye/tiny dark mouth, attached near short group, small fringe/collar/profile redraw. No old animal mask, long source hair, extra person or limb observed. No generated text. Source967 true lyric change belongs independent composite layer.",
+  "known_issues": ["Existing approximate high-face registration versus source", "Source closed-lid/forehead angle and wind micro amplitude approximate", "Extra shading, final composite/caption and original-speed review pending"],
+  "blocking_static_findings": [],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "post_generation_source_audit": "Full97-frame sequential source audit found true short lyric boundary at966 inside cel965 exposure, not967. Submitted prompt is preserved verbatim. Character drawing remains967; separate caption layer uses966 exact boundary.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0967-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0965-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0965-f0967-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current actual source full cel: exclusive composition/pose/high facial placement",
+    "Current native source face: single closed-eye hooked-dot expression",
+    "Previous Klee short hair/collar identity only, not pose or registration authority",
+    "Actual965-to967 source A/B RGB/contours; lyric phase excluded from character differences"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 independent Klee PV cel for CURRENT original967. Image1 CURRENT EDIT TARGET exclusively sets right-facing profile head/neck/shoulder shape, crop, high facial landmark positions. Image2 CURRENT native eye/nose/mouth sets expression only. Image3 is Klee identity and short ROOTED hair/plain collar topology ONLY, not a frozen pose or low-position template. Image4 is actual965->967 source A/B RGB and contours; redraw CURRENT subtle profile, brow/lid, shoulder collar and hair changes. Current single eye FULLY CLOSED, bold horizontal closed lid with thin tilted eyebrow; no iris/extra eye. Mouth tiny hooked DOT, not crossed two strokes or open mouth. Current nose/chin angle and cheek are same high right-profile crop as source1, lid at approx65.5%x38.5%y, nose74%x41%y, mouth71%x51%y, chin70%x59%y. Do not lower head to fit beret: source large beret/top feather is CUT OFF at top. Compared965, current collar shoulder edge has slightly more squared current curve and closed-lid/cheek outline pressure changes; maintain a SHORT swept-back leftward ear-rooted near ponytail, root stable, neck-length tips under current mild wind. Two short Klee ear groups only, far group naturally occluded. Pale-blonde hair under cyan/lavender night light, muted burgundy-red clover beret, one clipped cream feather, pointed ear, plain cream TWO-LEAF collar, burgundy coat exiting bottom. No old animal mask/ears, pink long source hair sheet, curled forelock, detached third fan, ornate diamonds or pompoms, invented hands/legs. Retain purple-left/blue-cyan-right sky, stars/crescent framing. OMIT ALL TEXT: this current frame's original lyric phase switches at967 and original lyrics are restored separately, don't copy old phrase or draw new lettering. Simple flat hand-drawn PV, irregular thin dark lines, minimal shading. One CURRENT cel, no collage, hold, mirror, morph or flow.",
+  "source_exposures": [
+    {
+      "start": 967,
+      "end": 969,
+      "pts": 40.292,
+      "end_pts": 40.375,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

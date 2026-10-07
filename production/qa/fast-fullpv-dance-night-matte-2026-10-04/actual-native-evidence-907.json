@@ -1,0 +1,34 @@
+{
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "sequential_decode": [
+    0,
+    907
+  ],
+  "timeline": "timeline-dance-812-911-fast-draft-v10.json",
+  "scope": [
+    902,
+    911
+  ],
+  "records": [
+    {
+      "frame": 907,
+      "asset": "generated/fast-fullpv-dance-f0907-source-v2.png",
+      "range": [
+        907,
+        908
+      ],
+      "source_rgb_sha256": "133bcf496ce6817204453f13b4fb804e83d6e6c988acefad898bc1c50176699c",
+      "generated_bgr_sha256": "634bbebdf202cac92902d7352785727222afb75d3b628f2e4eb7ddf05d83f4b4",
+      "fixed_bgr_sha256": "b9fa84f3dc54fc059491687916a88048706822c64540578b51885fb251e96023",
+      "new_matte_pixels": 1406399,
+      "source_matte_pixels": 1413209,
+      "repair_pixels": 1442402,
+      "changed_pixels": 47349,
+      "changed_outside_support": 0,
+      "source_visible_background_preserved": true,
+      "inspection": "pending_actual_native_review"
+    }
+  ],
+  "reconstruction": "Current-source visible sky robust smooth gradient, only vacated old support",
+  "not_a_cleanplate_donor": "Source1007 actually contains two huge people and different scene"
+}

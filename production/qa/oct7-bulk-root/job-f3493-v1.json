@@ -1,0 +1,82 @@
+{
+  "source_frame": 3493,
+  "source_candidate": "src-1995",
+  "source_exposures": [
+    {
+      "start": 3493,
+      "end": 3497,
+      "pts": 145.542,
+      "end_pts": 145.708,
+      "family": "hand_face_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "output": "generated/oct7-bulk-root-f3493-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the user's Klee PV draft. Redraw the FIRST image in the original simple hand-drawn PV style, replacing ALL visible original characters/fragments with Klee from Genshin Impact. The FIRST image alone determines camera, crop, body/head/hand pose, expression, visible extent and front/back overlap. Maintain the original blue backdrop and props. Keep any existing pillow and hand contact at source size/position. Use a red Klee cap with light feather, pale blonde short twin ponytails (exactly two, no long original hair), red simplified coat, plain cream cuffs, brown gloves/boots where visible, red eyes when source eyes are open. Preserve the source's closed eye/wink states and visible hands. Do not add hidden anatomy or extra hands. Identity/style references must NOT freeze the previous expression or pose. The source delta describes actual drawing changes, not a motion warp. Keep flat original-PV color blocks and line weight, no elaborate render, no new background decoration. Remove all source lettering from this generated cel: original Chinese/Japanese subtitles and credits are restored independently in composition. Do not generate text, labels, watermark, collage or reference panels. Produce exactly one complete 16:9 frame. Current source observation and required changes for f3493: Head leans slightly SCREEN RIGHT now, half-open sleepy rectangular red eyes remain, O mouth taller and larger. Screen LEFT index rises to nearly hat height, cuff more upright and left elbow outward. Screen RIGHT glove presses hat side closer to temple with index along the rim; elbow lowers and moves outward. Follow actual source new wrist/cuff/sleeve folds and rightward head orientation, not previous left tilt. Two short ponytails stay attached and follow head. No extra hands, large chest-up crop. Ordered input roles: Image 1: CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority; Image 2: Klee head identity only; ignore pose and expression, use source eyes and mouth; Image 3: Klee costume colors only; not framing or pose authority; Image 4: Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation; Image 5: Adjacent unaccepted Klee cel: palette, line weight and persistent two short ponytails only; NOT pose/expression/framing authority, do not copy collar/button drift",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1995-f3493.png",
+      "role": "CURRENT ORIGINAL target; sole composition, crop, pose, expression, anatomy and occlusion authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "835d9708aa05a750d94cf6d728e2adc29917fbdcbfe4de98c9cf660c73e5f7c2"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee head identity only; ignore pose and expression, use source eyes and mouth",
+      "actually_viewed": true,
+      "sha256_at_prepare": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "Klee costume colors only; not framing or pose authority",
+      "actually_viewed": true,
+      "sha256_at_prepare": "6642a7150fc8d784bf0a5300ce9b87dde979150f06abac2da55412e2c621df7a"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-root\\f3490-f3493-source-ab-rgb-contours.png",
+      "role": "Actual source AB RGB x4 and blue-before/red-current contours; apply real current changes, not interpolation",
+      "actually_viewed": true,
+      "sha256_at_prepare": "a75f733a9bc24815a1fe387502529dc8c08a5424c131b79062b1561cd8b74cc0"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-root-f3490-v1.png",
+      "role": "Adjacent unaccepted Klee cel: palette, line weight and persistent two short ponytails only; NOT pose/expression/framing authority, do not copy collar/button drift",
+      "actually_viewed": true,
+      "sha256_at_prepare": "d17f26bc73c27817145b73d90ed1b8755d4a97733d406a5fa1676420a46e07d2"
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "policy": "one_pass_no_artistic_repairs_before_user_full_draft_feedback",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-985227d3-d16b-4e8b-91ed-509e0aa0e9c0.png",
+  "output_sha256": "71dd38231e23c0e86ea555442080da86c72865d46ef0c2e7bfb7aeeecf035b2e",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Viewed output: rightward head tilt and higher left index/right hat-side glove with half-open red eyes and larger O mouth. Head/cap extent and coat clover-button drift remain unaccepted; source motion approximate and held exposures later remain exact.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

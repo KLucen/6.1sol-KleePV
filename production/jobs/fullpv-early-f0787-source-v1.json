@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-early-f0787-source-v1",
+  "source_frame": 787,
+  "canonical_cel": "cel-0130",
+  "source_candidate": "src-0346",
+  "family": "shout_closeup",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0787-source-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: ONE independently drawn 16:9 Klee PV cel for current f787. Image1 current source EDIT TARGET exclusively controls head/eyes/mouth, camera, zoom, arms and original edge crop. Image2 controls Klee COLOR/COSTUME/SHORT BLONDE PONIES identity ONLY, never its lowered arms, pose, head proportions or camera. Image3 source785/787 actual local RGB/contours; visible character is nearly unchanged but render current source1 independently, do not paste prior Klee art. Composition: close upper body, two red sleeves raised above head in wide V, two brown gloved open hands mostly cropped out by TOP EDGE with just source-visible lower fingers/cream cuffs at x22% and72%. Keep both raised arms, head top/beret cropped by TOP as in source. Face center x50%, eye centers x45%/55%,y26%, chin y46%, vertical open teardrop O atx50%,y39%, collar around54%. Native source face width about23% canvas. Heavy halfopen irregular eyelids and brows match source orientation: BOTH RED irises retain thick BLACK lower-left hooked pupil contours and WHITE notches/highlights, no blue and no extra central dot. Exactly2 SHORT blonde ear-root ponytails ending near collar, pointed ears; red beret cream clover ONE white feather cropped where source camera crops it. REMOVE rabbit forehead sleep mask and ALL old pink long hair. Red cream-trim Klee coat and cream collar, plain cream cuffs, brown gloves. No sleeve clovers, no third hair tuft, no hanging badge/danglers; no legs/no full body. Draw source raised sleeve folds asymmetrically and source cheek/chin tilt. Simple flat unshaded PV blocks, irregular thick black strokes, flat solid lavender backdrop. Omit source subtitles and particles for independent source-layer composition, no gradient/shading/texture. Match current source geometry/crop, do not zoom out to fit beret/hands. No panels, no added props, no morph or held frame.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0346-f0787.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fullpv-early-f0766-source-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0787-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source787 exclusive geometry/crop/expression/occlusion authority",
+    "Klee identity/color/costume ONLY; prior lowered arm pose forbidden",
+    "Actual source785/787 RGB and contour evidence"
+  ],
+  "source_audit_note": "Source785/787 visible drawing appears unchanged at inspected full/local image; changes concentrate caption. No alias approved or registered.",
+  "continuity_status": "static_source_pair_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-90fafe79-f211-4f94-aa20-9d79c3a277e5.png",
+  "static_review": "Source785/787 and current source/draft whole RGB contact reviewed. Current wide-V raised sleeves and top-clipped hands/hat present, two red eyes preserve black hooks/white notches, old mask removed.",
+  "known_issues": [
+    "Eye/face positions about3-4% canvas lower than source; face slightly wider",
+    "Collar source contour and sleeve folds simplified",
+    "Backdrop gradient and costume shading"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0787-source-v1-source-static-contact.jpg"
+}

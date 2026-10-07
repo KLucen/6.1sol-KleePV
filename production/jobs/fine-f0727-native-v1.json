@@ -1,0 +1,34 @@
+{
+  "source_frame": 727,
+  "name": "fine-f0727-native-v1",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0724-eye-hook-v3.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0320-f0727.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0727.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0727-source-eyes.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent full-frame 16:9 PV cel f0727, no captions/text. Image1 preceding Klee is EDIT TARGET for same native small upright screen scale/location/crop, costume/hair/hat design and hidden hands. Image2 CURRENT original source is absolute exact eyelid/brow/mouth and occlusion authority. Image3 actual source A/B RGBdiffx4/blue-before/red-current contours shows real fine blink drawing; image4 magnified CURRENT source eyes is eyelid/pupil-shape authority. Redraw this CURRENT independent blink, do not hold old face: BOTH UPPER EYELIDS LOWER by about half of preceding visible eye height, both eyes are now much narrower horizontally elongated halfclosed openings, not the old large rounded eyes. Current visible opening height is about one third eye width. Maintain tiny black LOWER-LEFT hook connected to lowerleft eyeoutline, enclosed white notch as current crop, visible red iris strips shaded darkred/palecoral, never lose blackpupil details. Current brows also lower and tiny inverted-v mouth shifts subtly according to source diff. Preserve all outside-face source-stable pose/garment contours and native screen size, arms behind body with no hands showing. Klee exactly two SHORT blonde ear-root ponytails, pointed ears, redberet creamclover/whitefeather/plain round brownclover badge with no dangling elements/no top cream tuft/no source bunny sleepmask. Redcreamtrimcoat creamclover emblem, plain cuffs, angular cream skirt/pinkruffle/redshorts at bottom crop, no pajamabuttons/pockets. Flat source lavender and thicksimple PV outlines, no gradients/texture/newprops. Output only current cel.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-054cde14-f9bf-469e-99eb-c65fefddcb75.png",
+  "output": "../generated/fine-f0727-native-v1.png",
+  "tool": "builtin imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "review": "Current narrow halfclosed horizontal eyelid openings independently redrawn from source fine blink, hidden hands/native pose preserved. Black lower-left hook/white accents present but extra tiny center dots/iris geometry differs. No temporal acceptance.",
+  "known_issues": [
+    "Extra central dot details in eyes",
+    "Small pupil/white accent geometry drift",
+    "Backdrop gradient persists"
+  ],
+  "job_id": "fine-f0727-native-v1",
+  "source_candidate": "src-0320",
+  "canonical_cel": "cel-0115",
+  "family": "front_small",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0724-eye-hook-v3.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0320-f0727.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0727.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/full-early-worker/f0727-source-eyes.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0727-native-v1-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

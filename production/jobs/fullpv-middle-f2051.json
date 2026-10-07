@@ -1,0 +1,46 @@
+{
+  "job_id": "fullpv-middle-f2051",
+  "source_frame": 2051,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1121-f2051.png",
+  "prompt": "Use case: identity-preserve. ONE independent strict-source Klee PV f2051 cel, edit CURRENT image1, 1920x1080.\nImage1 sole authority for current huge zoom, exact face/eye coordinates, crop, occlusion, star/background/caption pixels. Image2 Klee identity/costume ONLY, never its pose or visible head/body extent. Image3 actual f2048->f2051 A/B RGBdiff/contours right CURRENT. Image4 enlarged head/eye/loweredge source evidence.\nCurrent EXTREME crop shows ONLY viewer-right CLOSED black < chevron eye, enormously spanning x290..1240 y80..720. Viewer-left eye fully OUTSIDE LEFT border, hat/headtop OUTSIDE TOP, mouth only curved pink corner at BOTTOM-LEFT x0..270 y760..1080. Huge orange cheek ellipse lowercenter-right. Some bang/eyebrow black lines cross upper-left and uppercenter. NO complete face, NO hat, NO feather/clover, NO ears/ponytails unless genuine tiny existing fringe falls inside exact crop, NO hands, shoulders or body. Do not zoom out to show identity. It is a camera fragment of a Klee face.\nMake visible fringe PALE BLONDE instead of source peach and preserve current bangs/skin/blackline location. Underlying Klee anatomy has exactly two SHORT ear-root blonde ponies and single pointed ears, redcream beret/whitefeather/redcoat/brownglovesboots, all largely OFFSCREEN now. Never invent extra rounded sourceear wedge or long hair in-frame. Eyes fully closed therefore zero visible rediris/blackpupil/whitehighlight here.\nPreserve huge CURRENT single yellow five-point black-outlined STAR at viewer-right x1290..1920 y335..875, right tip cropped by RIGHT edge. Its overlap and size is independent effect source exactly, not a new hair ornament. Keep source background sliver lavender at upper-right and gray wedge below star where present. Same small cream bottomcenter captions \"\u611b\u3057\u3066\u305f\u3044\" above \"\u60f3\u8981\u53bb\u7231\" at sourcecoordinates all antialiased strokes. No duplicate star or captions.\nDraw loose thick source black ink, broad flat peach face and blonde fringe patches, orange blush, allpink mouth corner, minimal hard shadow; no smooth character gradients/gloss. Single frame only; no collage/tween/flow/morph/mirror/hold.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1121-f2051.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/anchor-gesture.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2048-f2051.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/resume-delta-f2048-f2051-head-eye-hands.png"
+  ],
+  "reference_roles": [
+    "CURRENT source huge zoom crop face/eye star occlusion background caption authority",
+    "Klee costume/identity ONLY",
+    "actual source A/B RGBdiff contours right current",
+    "source head eye loweredge actual RGBdiff contours"
+  ],
+  "output": "generated/fine-f2051.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed",
+  "source_inspection": {
+    "visible_people": 1,
+    "eye_state": "right closed chevron only; left outside frame",
+    "hands": "zero",
+    "delta_observed": "huge eye/star zoom, mouth bottom-left partial; headwear top outside frame"
+  },
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7c-1a6a-77e0-b22f-175f19938338\\exec-4863f756-4bbf-4a73-b0ee-5264b74cd2b8.png",
+  "output_sha256": "a419ab940d2eec5787ddab927636359ccd3b5d6205a9568348781bcd4381436a",
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "static_review": "qa/fullpv-middle/resume-output-review-f2051.json",
+  "known_issues": [
+    "Independent f2051 huge face fragment follows right closed-chevron-only crop, no hat/body/hands invented, mouth corner at bottom-left.",
+    "Klee blonde fringe introduced but upper bang silhouette differs; skin/blush shading smooth rather than source flat. Yellow star and black-eye endpoints close but not pixel exact.",
+    "Source star/caption/background layers still need restoration. Sequence continuity and actual-speed review pending."
+  ]
+}

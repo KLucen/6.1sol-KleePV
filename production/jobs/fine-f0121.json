@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0121",
+  "source_frame": 121,
+  "source_candidate": "src-0041",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0041-f0121.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0121.png"
+  ],
+  "prompt": "Use case: identity-preserve. Draw ONE full 16:9 Klee replacement PV cel. Image 1 CURRENT ORIGINAL fixes all framing, pose, prop size/location and occlusion. Image 2 is a CROPPED Klee identity/style reference ONLY, not composition or pose. Image 3 source before/current actual RGB and contour differences, output no panels. IMPORTANT actual new pose is BOTH arms spread up and out, away from face. Viewer-left brown-gloved hand supports the original rectangular cream digital clock near x55.6%, y26.5%, width8% canvas; clock angled diagonally clockwise from its upper-left to lower-right as image1, palm below it. Viewer-right arm stretches toward the upper-right, free hand open/splayed at x87%, y22%. Forearms no longer vertical before face. Both half-open red irises visible, droopy eyelids, tiny CLOSED caret mouth, orange cheeks, head still tilted a little right. Head center around x73.5%, y29.5%, not recentered. Both legs straight down-right off bottom; red Klee coat with cream capelet/pom, same hem length and shorts as established, brown backpack side. Red beret cream clover white feather same side, pale blonde bangs TWO SHORT side ponytails, pointed ears. Source current lavender diagonal pillow with cream side trims EXACTLY behind head; don't expand/move it from source. Do NOT inherit covered-eyes pose from identity crop. Use source loose dark outlines, simple flat warm patches, one small flat shadow, no refined gradients/textures/3D. NO captions/subtitles/credits/titles/lettering anywhere and no clock digits (restore separately). No gray pajamas, sleepmask, rabbit ears, extra limbs, lower duplicated ponytails, mirroring, zoom or shape interpolation.",
+  "output": "../generated/fine-f0121.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

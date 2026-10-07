@@ -1,0 +1,79 @@
+{
+  "id": "star-f1123-fast-continuation-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1123,
+  "source_cel": "cel-0237",
+  "source_reference": "source_refs/src-0655-f1123.png",
+  "source_exposures": [
+    {
+      "start": 1123,
+      "end": 1125,
+      "pts": 46.792,
+      "end_pts": 46.875,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1123-source-actual.png",
+      "role": "Exact current1123 BOTH forearms cross inward upper chest, wrists/gloves touching at center under collar; legs almost straight."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1123-source-face-native.png",
+      "role": "Native current narrow open eyes/small O mouth and slightlymoreupright head."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-f1123-source-ab-rgb-contours.png",
+      "role": "Actual1118→1123 source AB/RGB/contours: wrists draw inward/cross, cuffs overlap; coat/foot/head independent."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1123-source-body-native.png",
+      "role": "Native current crossed cuffs and tinygloves, elbows/legs/boots. Occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1118-fast-continuation-v1.png",
+      "role": "Previous Klee identity/simple originalPV style only, not separate fists pose."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent WHOLE Klee PV cel from CURRENT exact source Image1. Image2 current native face and Image4 current body alone decide expression/pose/framing/visible parts/occlusion. Image3 real previous→current AB/RGB/dual contours controls actual redraw. Image5 ONLY previous Klee identity, original PV simple hand drawn mostly flat style and costume consistency; never freeze its pose. Replace ENTIRE original girl: red beret cream clover white feather brown badge; pale short bangs/elf ears/exactly TWO compact rooted ponytails ending at shoulders ABOVE lower collar. Plain red coat with two-lobed cream collar, plain cream sleeve cuffs, continuous cream COAT hem over RED shorts, brown gloves/boots. No old long hair/animal hat/buttonrow/pockets/pajama pants/backpack/extra ornament/third tuft. Same source total slender fullbody height and framing. CURRENT1123 BOTH forearms angle DIAGONALLY INWARD and CROSS tightly in front of upper chest below collar. Small curled gloves touch near(945,380), mostly hidden by two overlapping cream cuffs. LEFT sleeve runs from elbow~880470 up-right to wrist~970400; RIGHT sleeve from elbow~1040480 up-left to wrist~945390. Preserve current left cream cuff/front sleeve overlay of the far cream cuff, coherent X crossing; not two separated vertical fists or prayer-palms. Tiny brown glove tops still visible above cuffs below collar, two hands only. Current head moreupright/small tilt left, narrow open red eyes with small open O mouth. TWO nearlyvertical grounded legs/boots, left has slight outward knee but lowerleg moreupright than1118, both soles near horizontal at~8751020 and10601020; no frozen big angled leftleg. Same garment hem, redraw crossed sleeve contours/coathem. Both hands and two legs only, coherent shoulder-elbow-cuff connectivity and current foreground sleeve overlap. No detached hair below collar or under arms: original long pink underarm tail removed leaving clean purple sky gap. Retain original purple stars layout, no extra graphics, no text/lyrics/watermark; source captions restored separately. One landscape whole frame, not collage/crop/flip/warp/transformed paste. Actually redraw current real keypose and contour/fold changes.",
+  "output": "generated/star-f1123-fast-continuation-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root viewed full/native current face/body and actualAB/RGB/contours/native locals. Both cuffs cross/touch undercollar and legs straighten.",
+  "source_delta_evidence": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-f1123-source-locals-native.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-644a1484-8dce-4acd-9ddf-a86ff63d337e.png",
+  "static_review": {
+    "passed": [
+      "independent near-upright groundedleg change",
+      "two small chest gloves and connected inward sleeve/cuffs",
+      "narrow open eyes/O mouth and exactlytwo rooted ponies"
+    ],
+    "deferred": [
+      "source tighter overlapping crossing cuffs simplified to touchingcuffs; same anatomy preserved but pose amplitude approximate",
+      "head/collar/hem vertical registration and knee/boot shading differ"
+    ],
+    "accepted": false
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "c24f186f0b0be2c1e7801dfc2a21975ed93c3cfc2b7204f0ca95a2c634b53430"
+}

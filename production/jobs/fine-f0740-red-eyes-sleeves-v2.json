@@ -1,0 +1,30 @@
+{
+  "source_frame": 740,
+  "name": "fine-f0740-red-eyes-sleeves-v2",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0740-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0324-f0740.png"
+  ],
+  "prompt": "Use case: precise-object-edit. ONE full-frame 16:9 PV Klee cel. Image1 Klee f0740 is EDIT TARGET, preserve existing native head/body scale/location, hat/hair/pupilhooks/brow/tinyinverted-vmouth/coat/skirt/bottomcrop. Image2 current source gives exact arms/wrist positional authority ONLY, never copy source iris colors/costume. TWO TARGETED repairs: 1. Recolor ONLY the BLUE top region inside BOTH EYES to DARK RED (#7f1b1f); lower iris remains PALE CORAL RED (#f48278). Keep the BLACK thick lower-left hook attached to border and WHITE enclosed notch EXACTLY, same eye/upperlid sizes/position, no center dot. Klee red eyes contain NO blue at all. 2. Extend BOTH source straight DIAGONALLY DOWN-OUT sleeves from existing unchanged shoulders so cream cuffs/glove centers end at CURRENT ORIGINAL wrists near canvas y94%, not drafty88%; left small glove nearx34%, right glove nearx66%. Keep angular wrist slope/current source small clenched brown glove contours, no huge/splayed hand. New source native arm length, do not scale body or move shoulders/face. Preserve coat emblem and plaincreamcuffs/no sleeveclovers. Exactly two short ear-root blonde ponytails, pointedears, redcreamclover beret whitefeather plainroundbadge, no danglers/topcreamtuft/bunny foreheadmask. Flatlavender source backdrop, simple PV black outlines and flat colors, no new props/text/panels/texture.",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-4161-7f52-a7db-fc181b2ec9f3\\exec-0dbcb4c4-9874-4fc9-b4ca-c7a1fa4a4b60.png",
+  "output": "../generated/fine-f0740-red-eyes-sleeves-v2.png",
+  "tool": "builtin imagegen",
+  "status": "reviewed_static_targeted_repair_temporal_pending",
+  "accepted": false,
+  "review": "Repair correctly restores both red irises with preserved black hooks/white notches and extends sleeves slightly. Independent down-out arms/compact glove contours retained; native wrists still several percent too high vs source, known unresolved alignment.",
+  "known_issues": [
+    "Wrists still too high vs source by about4% canvas height",
+    "Costume/body simplification",
+    "Backdrop gradient persists"
+  ],
+  "job_id": "fine-f0740-red-eyes-sleeves-v2",
+  "source_candidate": "src-0324",
+  "canonical_cel": "cel-0117",
+  "family": "front_small",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0740-native-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0324-f0740.png"
+  ],
+  "static_contact_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\fine-f0740-red-eyes-sleeves-v2-static-contact.jpg",
+  "continuity_status": "static_reviewed_temporal_pending"
+}

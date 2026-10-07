@@ -1,0 +1,36 @@
+{
+  "format": "klee-byte-preserving-snapshot-v1",
+  "volumes": [
+    {
+      "name": "engineering-objects-01-of-05.zip",
+      "bytes": 1774430383,
+      "sha256": "80984276fea7eb6a7d01120b6cafd7acb5132bc10031acb32c4dcd0df025fb6f",
+      "objects": 3164
+    },
+    {
+      "name": "engineering-objects-02-of-05.zip",
+      "bytes": 1792161749,
+      "sha256": "b3813d0040bf3456a820a98120931920599cb2cad22d579733b7245578d799a8",
+      "objects": 2697
+    },
+    {
+      "name": "engineering-objects-03-of-05.zip",
+      "bytes": 1754524910,
+      "sha256": "3af084cd643c61a83ad9e721846194c66fbc1b8f62042710d8a708fc4767c0ec",
+      "objects": 3126
+    },
+    {
+      "name": "engineering-objects-04-of-05.zip",
+      "bytes": 1778469938,
+      "sha256": "917c232f5199f4618a2bf9f8c5e00c637be9881deca40226e20f7b1d702f2102",
+      "objects": 2934
+    },
+    {
+      "name": "engineering-objects-05-of-05.zip",
+      "bytes": 1269211308,
+      "sha256": "aa847f67e881a634a57dac01cf71ecc711b692d53abda9a8d2f7fd2a3da4555e",
+      "objects": 1884
+    }
+  ],
+  "manifest_sha256": "693023e5915d71aaa64c16e8c899d1c87c2080b66e003b77b1f437e92b720e6e"
+}

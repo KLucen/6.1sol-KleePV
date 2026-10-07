@@ -1,0 +1,15 @@
+{
+  "job_id": "fine-f0050",
+  "source_frame": 50,
+  "source_candidate": "src-0015",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0015-f0050.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-001.png"
+  ],
+  "prompt": "Create ONE full 16:9 replacement cel for the current original hand-drawn music PV. Image 1 alone determines current body pose, exact location/crop, eye state, mouth, hand overlap, pillow and clock geometry. Image 2 is a previous Klee replacement: it determines the same Klee identity, outfit, short side ponytails, hat/feather side and simplified drawing style, NOT the previous pose. Replace the source girl at RIGHT with default Klee from Genshin Impact. Current LEFT-facing profile, one OPEN narrow red iris visible beneath thick upper eyelid, lips nearly closed with a tiny dot/short mouth stroke, not a round open mouth. Head inclined toward her clasped hands, pointed ear behind cheek; elbows and knees bent as source, lower legs cropped at bottom. Brown-gloved hands clasped together at current source positions in front of her cream cuffs, with one upper hand above the other. Klee red coat with cream hem and capelet, shorts where coat lifts from knee bend, backpack on back; no gray pajamas, rabbit hood or pajama hip pockets. Keep only TWO short blonde side ponytails, no long hair. Red beret with cream clover, side medallion and white feather as previous Klee. Lavender pillow remains diagonally BEHIND head with current cream border/blue shapes, not a bag covering her body. Maintain current exact clock position and source lavender background. Output NO subtitles, titles, credits, labels or lettering anywhere, including text on clock display; original text/clock will be restored separately. Flat irregular dark outlines, orange cheek, restrained one flat shadow, no highly rendered game style. Same canvas/crop, no added limb or zoom out.",
+  "output": "../generated/fine-f0050.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

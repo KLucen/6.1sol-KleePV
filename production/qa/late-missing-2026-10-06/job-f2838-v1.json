@@ -1,0 +1,75 @@
+{
+  "source_frame": 2838,
+  "source_cel": "cel-0521",
+  "source_candidate": "src-1609",
+  "output": "generated/late-f2838-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Produce ONE independent whole 16:9 hand-drawn cel by replacing the visible person in original IMAGE 1 with Genshin Impact Klee, preserving original scene, camera, exact body scale, placement, large empty margins and source action. Image1 full CURRENT original is sole pose, expression, direction and occlusion authority. Image2 native current figure crop makes current hands, pillow and feet visible; it is not a new framing. Image3 actual native local BEFORE/CURRENT, RGB difference x4 and blue-before/red-current contours controls the concrete changes. Image4 cropped Klee face is identity and simple palette ONLY, not eye state or head pose. Image5 adjacent Klee cel maintains short-pony topology, costume, source-like loose black lines and flat areas ONLY, not a frozen pose. CURRENT original, never previous Klee, determines new limb/eye state. Draw exactly two compact EAR-rooted short blonde side ponytails, no third loose rear lock; pale-blonde bangs, pointed ears, sleepy RED irises with small black pupils and white highlights when source open; fully shut eyes have no irises when source shut. Red beret with cream clover, small badge and white feather; simplified red coat/capelet, continuous plain cream trim/hem and PLAIN cream cuffs, brown continuous gloves and brown boots with cream upper trim. No scalloped cuffs or hem, no added coat/boot clovers or lettering. Keep SOURCE long limb proportions and garment hip level rather than shrink the person into chibi or lengthen coat. Replace rabbit sleep mask with Klee beret, not another mask. Keep exactly TWO source-visible hands. Preserve pillow at EXACT source polygon size, orientation and position, not enlarged. Pillow is lavender with original cream side edges; opaque pillow occludes torso, gloves and sleeves layer according to current SOURCE, no invented anatomy through pillow. Small brown backpack visible only where source/Klee turn genuinely allows. Match loose, sparse black contours and flat limited-color PV drawings, no polished splash art. Keep original purple background field; original source subtitle text removed cleanly to background, no generated words, glyphs, captions, numbers, logo or watermark. Compositor restores exact original captions/graphics later. Do not output contact sheet or diagram. CURRENT SOURCE details: f2838 changes independently from f2834: body and both legs become almost vertical with mild down-right lean, boot toes draw MUCH CLOSER together, left-screen long tilted shoe points down-left, right-screen rounded toe nearly frontal, feet approximately same level. Head faces viewer with both half-lidded red eyes, mouth now tiny short horizontal dark opening, NOT caret. Left-screen sleeve hangs as pointed down elbow with almost horizontal cuff; right-screen elbow nearer torso, forearm up-left, glove index still raised next to cheek, with glove distinctly more vertical. Pillow partly obscures torso, lower-left edge hangs lower, current pillow little narrower than earlier. Ponytails remain exactly two compact ear-root tufts. Use true CURRENT native pose, preserve current closer feet and tiny mouth change rather than copy old diagonal separated legs.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2838-source-actual.png",
+      "role": "CURRENT original sole framing pose occlusion authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2838-source-pose-native.png",
+      "role": "native CURRENT entire figure and pillow details not output crop"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2834-f2838-source-locals-native.png",
+      "role": "native source local actual A/B RGB and contours current red"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee face identity only not pose or eye-state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\late-f2834-oct6-v1.png",
+      "role": "adjacent Klee topology line color only do not freeze mouth and feet"
+    }
+  ],
+  "all_references_actual_viewed": true,
+  "whole_source_delta_saved_and_actual_viewed_not_submitted": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2834-f2838-source-ab-rgb-contours.png",
+  "source_exposure_strategy": "strict_source",
+  "source_exposures": [
+    {
+      "start": 2838,
+      "end": 2843,
+      "pts": 118.25,
+      "end_pts": 118.458,
+      "family": "floating_turn",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Independent nearly vertical legs and closely aligned boot toes, two compact rooted ponies, exactly two gloves and correct pillow-before-torso occlusion present. Current full/native source and actual A/B RGB/contours viewed. Tiny current horizontal mouth stayed caret from previous Klee, upper-body pose/cuffs amplitude remains approximate; pillow/head/coat length approximate, iris highlights not distinct. This expression difference is deferred for full-cut review rather than claiming exact keypose. No temporal/compositor review, accepted false.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10f41-d625-7081-823e-717bc8ebded2\\exec-6525201e-884f-4cab-90c3-4a08dc8ac05d.png",
+  "output_sha256": "5ce2bffde042f9b7428182a3718dde8a620aed0fa55d3dc7e1fdb0ab9a7adf56",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

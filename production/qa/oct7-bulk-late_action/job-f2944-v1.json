@@ -1,0 +1,104 @@
+{
+  "source_frame": 2944,
+  "cel": "cel-0531",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: One full-body actor right of center holding violet cream-edged pillow angled up-right; CLOSED flat eyelids, tiny mouth hidden by pillow; body leans left, left leg upright and right leg spreads diagonally right with two separate ground-contact feet. Source changed from close-legged crouch f2938 to spread upright pose f2944: separate boots, reopen leg gap, coat length unchanged. Two brown gloves: near spread fingers over pillow front; far glove grips upper-right trim from behind. Short ponytails respond outward to sway; plain cream cuffs. Pillow must not enlarge or conceal near glove.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1642-f2944.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\late-next-f2938-oct6-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f2938-f2944-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f2944-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "92297d315114e8c0b36db9e573b046b6081b338aa06ce245d0bf36869d3da058",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "a9a3ca5538f69b422864840cb680cd2260f540f387e019c8e3e99a8642cf6582",
+    "f178aa0b69fcef0037db4ac271842633164d6106efef4b6538a826c5d128d21b",
+    "ef19442b93ebf39d31497747be9f61a44b23f7642e0d59f573e9710f896aaa9f"
+  ],
+  "output": "generated/oct7-bulk-late_action-f2944-v1.png",
+  "source_exposures": [
+    {
+      "start": 2944,
+      "end": 2951,
+      "pts": 122.667,
+      "end_pts": 122.958,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 2988,
+      "end": 2994,
+      "pts": 124.5,
+      "end_pts": 124.75,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "One full-body actor right of center holding violet cream-edged pillow angled up-right; CLOSED flat eyelids, tiny mouth hidden by pillow; body leans left, left leg upright and right leg spreads diagonally right with two separate ground-contact feet. Source changed from close-legged crouch f2938 to spread upright pose f2944: separate boots, reopen leg gap, coat length unchanged. Two brown gloves: near spread fingers over pillow front; far glove grips upper-right trim from behind. Short ponytails respond outward to sway; plain cream cuffs. Pillow must not enlarge or conceal near glove.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-0abc16c6-e7db-4006-8577-582e7c15d200.png",
+  "output_sha256": "1c77a33712805d5532afbe8de051496d78f4cfafb11871ba89fa89fcd30efa03",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Static whole image viewed: closed eyes, two brown gloves, separated spread boots and short ponytail Klee. Pillow/head degree and near hand scale differ slightly from source; defer art and encoded temporal review to full draft feedback.",
+    "accepted": false
+  }
+}

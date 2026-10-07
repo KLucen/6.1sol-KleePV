@@ -1,0 +1,32 @@
+{
+  "source_frame": 880,
+  "source_reference": "source_refs/src-0426-f0880.png",
+  "output": "generated/root-continuation-f0880-v1.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Asset: ONE full-frame 16:9 Klee character replacement animation cel, original f0880. Image 1 is the CURRENT original edit target and sole authority for composition/camera, exact visible body placement, lean, limb geometry, expression and occlusion. Image 2 is CURRENT head detail: both eyes CLOSED, further clockwise head/eyelid tilt and SMALL tilted O mouth native x1005-1025,y383-405. Image 3 is source f0873->f0880 actual A/B amplified RGB and two-color contours, change evidence only; do not render its panels. Image 4 is Klee SHORT HAIR LENGTH, hat, palette and simplified costume identity ONLY. Do NOT copy its frontal centered head, symmetrical shallow V, tightly bent rear boot or split coat hem. Draw CURRENT f0880 action: body leans further screen-right with head clockwise; screen-left arm reaches almost VERTICALLY up to OPEN brown palm x777-864,y105-193, moves up/right from f0873. Screen-right arm slopes down-right to OPEN brown glove x1232-1288,y611-690, lower than f0873. Exactly one brown glove connected to each plain cream cuff; source hand size, no extra fingers, palms or cuffs. BOTH legs are LONG and SEPARATED now. Left long leg boot x689-837,y974-1052. Lower the formerly high rightward kicked shoe into the current open stance at x1081-1186,y935-1015, with current rotated sole edge. NO tucked rear boot under hip, NO higher f0873 kick, no third leg. Maintain two connected short LOW blonde ponytails, roots behind pointed ears, tips at neck/upper shoulder only. No waist-level hair wings, original long pink hair, rabbit mask, or ivory upward forelock. Simple short bangs/front strands. Red beret centered cream clover, ONE side badge-attached white feather. Plain TWO-LOBED cream collar, NOT scalloped flower collar. Plain red coat with CONTINUOUS cream lower hem, red shorts without frills, bare pale knees, compact brown boots/plain cream cuffs, small brown backpack/two slim straps, ONE centered lower-chest cream clover. No buttons, center seam, cream chest stripe, split hem notch, extra clovers. Let sleeve/hem/short hair tips follow current lean without changing costume identity. Flat pastel original PV blocks, irregular hand-drawn black outlines, minimal detail, no gradients, rendered shadows, glossy lighting or 3D. Preserve original lavender sketch stars and yellow effect positions outside actor. Remove captions from the RAW generated cel; source captions will be independently restored over both boots later. Do not invent any text, watermark, contact sheet, variant, extra actor or anatomy. Source current pose overrides every reference character pose.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0426-f0880.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-head-eyelids-mouth.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0863-hair-v2.png"
+  ],
+  "reference_roles": [
+    "current source edit target/near-vertical arm and lowered right boot authority",
+    "current closed eyelids/clockwise head/smaller tilted O",
+    "source neighbor actual RGB/contours, changes only",
+    "Klee short hair/hat/palette/costume only, not previous pose/split hem"
+  ],
+  "strict_source_exposure": [
+    880,
+    887
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-cf6b6d7b-9cad-475f-9716-034cfd9cba18.png",
+  "known_issues": [
+    "Collar remains scalloped multi-lobed despite two-lobed prompt; split coat hem/cream shorts cuffs remain",
+    "Small cream/blonde pointed regions behind arms need hair/occlusion semantic review; no extra hand confirmed",
+    "Closed-eye lean, near-vertical arm and lowered second foot represented but native contours/boot sole orientation approximate; mild shading persists"
+  ],
+  "static_review": "Root viewed output: higher-left open glove, lower-right glove, clockwise closed-eye tilt, small O and two long separated legs with lowered right boot present. Not artistically accepted or actual-speed reviewed."
+}

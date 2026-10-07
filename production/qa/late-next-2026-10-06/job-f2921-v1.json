@@ -1,0 +1,51 @@
+{
+  "source_frame": 2921,
+  "output": "generated/late-next-f2921-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE whole16:9 PV animation cel for actualf2921.\nPrimary request: redraw CURRENT original pillow-holding figure as Klee. Inputs1currentwhole sole pose/camera authority;2actual2916BEFORE/2921CURRENT plus RGB/dualcontours motion only;3native current closedeyehead;4native current complete body/pillow/hands/knees;5tiny head-only Klee identity/style, not previous upright body.\nExecute new keypose: sourcehead/torso stay on far right aroundx1330. Both legs now SEPARATE, no longer two parallel left-sloping legs as2916. Screen-left leg slopes diagonally down-left to planted front-facing toe atx1230. Screen-right leg nearlyvertical below right hip; its boot is full SIDE-ON pointingRIGHT with a horizontal long visible sole. Preserve this asymmetrical wide boot stance; don't draw both boots frontal or touching. Knees/ankles and coathem current positions exactaspossible, preserve long standing proportions.\nPillow now angles moresteeply up-right atchest, near-left bottom atx1360y490 andfaruppercorner atx1530y300. Near elbow curves from leftside into raised near creamcuff; BROWN near glove fingers spread horizontallyOVER center/front of pillow. Far BROWN glove grips top-right cornerOVER creamruffle; far forearm completely occluded behind pillow. Exactlytwo brown gloves, no bare fingertips or extra arm. Pillow beforetorso, not behind nearpalm.\nKlee identity: warmblondebob with exactlytwo compact low ponytails, far one hidden naturally by pillow, pointedears, redberet creamclover/onefeather, TWOfullyclosed thick eyelids, twoorangecheeks, tinymouth mostlycovered by pillow/scarf. Simple redcoat, plaincreamcuffs/continuoushem, compactbrownbackpack behindleftshoulder, barelegs, creamtoppedbrownboots. Do not invent original pinklonghair, animalears or pajamas.\nMaintain currentoriginal tiny figure placement/scale, huge plainlavender leftmargin anduniformbackdrop. Flat simplified hand-drawn PVeconomy, wobbly black contours and sparse minimal shadows, not highdetailgameart.\nONE fullcel only, no panels/labels/lettering/captions/watermark; sourceleft CN/JPlines restoredseparately. No third pony or extra limb. Do not freeze previous2916 stance.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-actual.png",
+      "role": "current whole source edit target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2916-f2921-source-ab-rgb-contours.png",
+      "role": "actual open-legged sway and steeper pillow motion; overview",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-face-native.png",
+      "role": "current closed eyelids/tiny mouth native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2921-source-pose-native.png",
+      "role": "current near palm, pillow tilt and separated boot orientation native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+      "role": "cropped Klee identity/style only",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-22150a9d-f3a8-4437-a839-9f6e209eaa4d.png",
+  "output_sha256": "d88b5c409c6d4cbe0df49222ca3531a666ee2f00451644fa3f450dd97afacad8",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole generated/current source/native AB. New spread legs: left slopes down-left/front toe and right vertical/right profile sole; both closed eyelids, pillow steeper up-right, near brown palm/cuff continuous. Small far brown gripping tips visible beside cream ruffle, cream upper corner ownership needs native clarification, not asserted fully glove-accepted. Source pillow/head registration approximate, coat/boot ornaments and scarf drift deferred; no temporal/compositor acceptance.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

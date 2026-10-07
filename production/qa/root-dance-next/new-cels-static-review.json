@@ -1,0 +1,733 @@
+{
+  "created_utc": "2026-10-03T15:09:38.270127+00:00",
+  "scope": "Source/native-normalized draft static comparisons of explicit f856,863,868,873,880 only",
+  "manifest_snapshot_utc": "2026-10-03T15:03:25.017446+00:00",
+  "manifest_file_sha256_at_read": "d2e0f17731b8e78efddaa6c1a1adee141e8a5afdefb48bccf95d466d48c90f6d",
+  "selection_file_sha256_at_read": "f01ce5f2a8cdd1672373985933d8cd6e9335d8feb31b4379b72d392d9750c8a4",
+  "explicit_new_paths_authorized_by_parent": true,
+  "selection_state_modified": false,
+  "production_core_modified": false,
+  "source_aliases_added": false,
+  "artistically_accepted": false,
+  "actual_speed_playback_performed": false,
+  "group_contact": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0856-f0880-explicit-new-source-draft-group.png",
+  "frames": [
+    {
+      "frame": 856,
+      "cel": "cel-0152",
+      "source_exposures": [
+        {
+          "start": 856,
+          "end": 863,
+          "pts": 35.667,
+          "end_pts": 35.958,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0402-f0856.png",
+        "file_sha256": "aacf3ac3a46cc0c762fc402ed34ce11711abb9974958d6abfb4a2df8891f456c",
+        "native_size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "07403d5708ad8cfe0760a49bd4a5ccabc16da4835916b94dc3499f61d4b279bc"
+      },
+      "draft": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0856-v1.png",
+        "file_sha256": "ff06249d64b1659588377ed5ecba721c704241a64e3fb50c04ed2bc00cb9c559",
+        "native_size_wh": [
+          1672,
+          941
+        ],
+        "native_rgb_pixel_sha256": "40328b7397bf47e3231b9621994e141a2d53f1f82df0d1c0392ceb58eebe9965"
+      },
+      "draft_canvas_normalization": {
+        "target_size_wh": [
+          1920,
+          1080
+        ],
+        "resampling": "PIL LANCZOS",
+        "alignment": "whole-frame scaling only; no pose registration or warping"
+      },
+      "explicit_asset_selection_snapshot": {
+        "source_frame": 856,
+        "path": "generated/root-continuation-f0856-v1.png",
+        "review": "Current palms raised and rear boot drawn inward with bowed closed eyes/O mouth; costume and contour continuity remain unaccepted.",
+        "known_issues": [
+          "Coat seam and clover shift",
+          "Eyelid/glove/boot contours",
+          "Pony/collar continuity",
+          "Mild shading"
+        ],
+        "accepted": false
+      },
+      "manifest_selection_snapshot": {
+        "path": "generated\\root-continuation-f0856-v1.png",
+        "source_frame": 856,
+        "selection_review": "Current palms raised and rear boot drawn inward with bowed closed eyes/O mouth; costume and contour continuity remain unaccepted.",
+        "verified_alias": null,
+        "selection_known_issues": [
+          "Coat seam and clover shift",
+          "Eyelid/glove/boot contours",
+          "Pony/collar continuity",
+          "Mild shading"
+        ]
+      },
+      "manifest_selected_path_matches_explicit_draft": true,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 863,
+      "cel": "cel-0153",
+      "source_exposures": [
+        {
+          "start": 863,
+          "end": 868,
+          "pts": 35.958,
+          "end_pts": 36.167,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0409-f0863.png",
+        "file_sha256": "02f01d2017f4eabb337e93c6d1ae56b6879a2e79247b95f293c0387770339c44",
+        "native_size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "01a7b71d191bd37adf34d5c791424a005898dbdf8070d1cee412e2ee83c94f1c"
+      },
+      "draft": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0863-hair-v2.png",
+        "file_sha256": "4ed9eddc4b4c52f55afc02359df4d1abd5748833f128b020ba1bc1245a83172c",
+        "native_size_wh": [
+          1672,
+          941
+        ],
+        "native_rgb_pixel_sha256": "dc05d9f56d7d3852cb3429c296de715487dc60e31c4b7b6a0d7bc6d5981fa6b7"
+      },
+      "draft_canvas_normalization": {
+        "target_size_wh": [
+          1920,
+          1080
+        ],
+        "resampling": "PIL LANCZOS",
+        "alignment": "whole-frame scaling only; no pose registration or warping"
+      },
+      "explicit_asset_selection_snapshot": {
+        "source_frame": 863,
+        "path": "generated/root-continuation-f0863-hair-v2.png",
+        "review": "draft_static_inspected; current-source pose, bounded rear-hair shortening; temporal acceptance pending",
+        "accepted": false,
+        "known_issues": [
+          "Short ponytail roots and coat/shorts/cuff topology unaccepted; source pose contours approximate; repair not pixel-locked"
+        ],
+        "adoption": "root_draft_only"
+      },
+      "manifest_selection_snapshot": {
+        "path": "generated\\root-continuation-f0863-hair-v2.png",
+        "source_frame": 863,
+        "selection_review": "draft_static_inspected; current-source pose, bounded rear-hair shortening; temporal acceptance pending",
+        "verified_alias": null,
+        "selection_known_issues": [
+          "Short ponytail roots and coat/shorts/cuff topology unaccepted; source pose contours approximate; repair not pixel-locked"
+        ]
+      },
+      "manifest_selected_path_matches_explicit_draft": true,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 868,
+      "cel": "cel-0154",
+      "source_exposures": [
+        {
+          "start": 868,
+          "end": 873,
+          "pts": 36.167,
+          "end_pts": 36.375,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0414-f0868.png",
+        "file_sha256": "e35221926a303e3c7d3ff597b84fc64c1955bb05fafbc362af7b60cc9b6b558b",
+        "native_size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "f57971eb0e199e89f8b6aa5106b90ac2cc2213d692013ad71dc3b16dab0f786f"
+      },
+      "draft": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0868-v1.png",
+        "file_sha256": "883380187556145067056afefa4d5aac16f78b71d4e1f683ae0ff83a12588779",
+        "native_size_wh": [
+          1672,
+          941
+        ],
+        "native_rgb_pixel_sha256": "ac92e4c844249d64de440474fdaeb9714de8d13fb4b8217302249354da2551f1"
+      },
+      "draft_canvas_normalization": {
+        "target_size_wh": [
+          1920,
+          1080
+        ],
+        "resampling": "PIL LANCZOS",
+        "alignment": "whole-frame scaling only; no pose registration or warping"
+      },
+      "explicit_asset_selection_snapshot": {
+        "source_frame": 868,
+        "path": "generated/root-continuation-f0868-v1.png",
+        "review": "draft_static_inspected; open palms and foreshortened rear leg independently drawn",
+        "accepted": false,
+        "known_issues": [
+          "Overlong rear blonde tufts, costume hem/cuff variation and approximate boot depth; artistic/actual-speed review pending"
+        ],
+        "adoption": "root_draft_only"
+      },
+      "manifest_selection_snapshot": {
+        "path": "generated\\root-continuation-f0868-v1.png",
+        "source_frame": 868,
+        "selection_review": "draft_static_inspected; open palms and foreshortened rear leg independently drawn",
+        "verified_alias": null,
+        "selection_known_issues": [
+          "Overlong rear blonde tufts, costume hem/cuff variation and approximate boot depth; artistic/actual-speed review pending"
+        ]
+      },
+      "manifest_selected_path_matches_explicit_draft": true,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 873,
+      "cel": "cel-0155",
+      "source_exposures": [
+        {
+          "start": 873,
+          "end": 880,
+          "pts": 36.375,
+          "end_pts": 36.667,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0419-f0873.png",
+        "file_sha256": "95441e5038a447a9f5b53f83507de68a64667b058b6a27869adf84e8da65c422",
+        "native_size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "48a6e8804a8b37dcc1da315c4c6776dbd44e35d05e89311102fe277b93b80621"
+      },
+      "draft": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0873-v1.png",
+        "file_sha256": "a837b28c4bef984c21a82587a8cd8b91f5937153550384a86b35faab17a4bfbb",
+        "native_size_wh": [
+          1672,
+          941
+        ],
+        "native_rgb_pixel_sha256": "e3c672c7934f603cb6324de5dc72d9ea4953417ee985f4bea5af381e57f93d86"
+      },
+      "draft_canvas_normalization": {
+        "target_size_wh": [
+          1920,
+          1080
+        ],
+        "resampling": "PIL LANCZOS",
+        "alignment": "whole-frame scaling only; no pose registration or warping"
+      },
+      "explicit_asset_selection_snapshot": {
+        "source_frame": 873,
+        "path": "generated/root-continuation-f0873-v1.png",
+        "review": "draft_static_inspected; asymmetric high/low arms and unfolded long forward kick independently drawn",
+        "accepted": false,
+        "known_issues": [
+          "Multi-lobed collar, split hem/shorts cuffs and clover variation; native source contours approximate"
+        ],
+        "adoption": "root_draft_only"
+      },
+      "manifest_selection_snapshot": {
+        "path": "generated\\root-continuation-f0873-v1.png",
+        "source_frame": 873,
+        "selection_review": "draft_static_inspected; asymmetric high/low arms and unfolded long forward kick independently drawn",
+        "verified_alias": null,
+        "selection_known_issues": [
+          "Multi-lobed collar, split hem/shorts cuffs and clover variation; native source contours approximate"
+        ]
+      },
+      "manifest_selected_path_matches_explicit_draft": true,
+      "artistically_accepted": false
+    },
+    {
+      "frame": 880,
+      "cel": "cel-0156",
+      "source_exposures": [
+        {
+          "start": 880,
+          "end": 887,
+          "pts": 36.667,
+          "end_pts": 36.958,
+          "family": "star_dance",
+          "source_transform": {
+            "kind": "identity",
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ]
+          }
+        }
+      ],
+      "source": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0426-f0880.png",
+        "file_sha256": "bbfda6bd21d70243e9e6836fbb9657f415a37e6a7f3a9bd4eab71f2abd599c90",
+        "native_size_wh": [
+          1920,
+          1080
+        ],
+        "native_rgb_pixel_sha256": "6855fbe5c654372de3adbbde274f6574907a9ea9ce465cbae1fbe65e5620daa2"
+      },
+      "draft": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0880-v1.png",
+        "file_sha256": "e8fcedd4f4bb79106734983c09e0b201af882305671d9fdcb313600c2aff0811",
+        "native_size_wh": [
+          1672,
+          941
+        ],
+        "native_rgb_pixel_sha256": "4be25cc4b384cf2b0fed02034aa8078bf0fadc465110bf3acd4a8851e01a133f"
+      },
+      "draft_canvas_normalization": {
+        "target_size_wh": [
+          1920,
+          1080
+        ],
+        "resampling": "PIL LANCZOS",
+        "alignment": "whole-frame scaling only; no pose registration or warping"
+      },
+      "explicit_asset_selection_snapshot": {
+        "source_frame": 880,
+        "path": "generated/root-continuation-f0880-v1.png",
+        "review": "draft_static_inspected; near-vertical raised arm and lowered second boot independently drawn",
+        "accepted": false,
+        "known_issues": [
+          "Multi-lobed collar/split hem and pointed cream hair regions behind arms need group/occlusion review; contours approximate"
+        ],
+        "adoption": "root_draft_only"
+      },
+      "manifest_selection_snapshot": {
+        "path": "generated\\root-continuation-f0880-v1.png",
+        "source_frame": 880,
+        "selection_review": "draft_static_inspected; near-vertical raised arm and lowered second boot independently drawn",
+        "verified_alias": null,
+        "selection_known_issues": [
+          "Multi-lobed collar/split hem and pointed cream hair regions behind arms need group/occlusion review; contours approximate"
+        ]
+      },
+      "manifest_selected_path_matches_explicit_draft": true,
+      "artistically_accepted": false
+    }
+  ],
+  "neighbor_pairs": [
+    {
+      "before_frame": 856,
+      "current_frame": 863,
+      "neighbor_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-new-selected-neighbor-static-contact.png",
+      "local_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-new-selected-local-static-contact.png",
+      "actual_source_rgb_contour_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-ab-rgb-contours.png",
+        "file_sha256": "6d1180c7f6abdcf825b93ef37d6eea6f0649d51e4c77212626d3c11b2ea68261",
+        "native_size_wh": [
+          3840,
+          2240
+        ],
+        "native_rgb_pixel_sha256": "346856695f4e024d8db0cf9d061a5e49a04fbefe3b23ee36354485a1e86ec93a"
+      },
+      "original_source_delta_metrics": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-source-ab-rgb-contours.json",
+      "local_boxes_xyxy": [
+        {
+          "role": "head-mouth-hair-collar",
+          "box": [
+            500,
+            70,
+            1290,
+            635
+          ]
+        },
+        {
+          "role": "hands-cuffs-arms",
+          "box": [
+            250,
+            65,
+            1370,
+            795
+          ]
+        },
+        {
+          "role": "hip-leg-overlap-boots",
+          "box": [
+            540,
+            595,
+            1340,
+            1080
+          ]
+        }
+      ],
+      "native_scale_current_detail_pairs": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-new-source-draft-head-mouth-hair-collar.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-new-source-draft-legs-boots.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0863-new-source-draft-torso-costume.png"
+      ]
+    },
+    {
+      "before_frame": 863,
+      "current_frame": 868,
+      "neighbor_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-new-selected-neighbor-static-contact.png",
+      "local_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-new-selected-local-static-contact.png",
+      "actual_source_rgb_contour_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-ab-rgb-contours.png",
+        "file_sha256": "127592e1a1b76bb9a81a18307704dd913ddc5deb1a51c752a9ab08cb66098cf2",
+        "native_size_wh": [
+          3840,
+          2240
+        ],
+        "native_rgb_pixel_sha256": "f38559fd89276a2ffb7f550bd8f7fc8baa0f777c913e030a7c5ed0546d24e12a"
+      },
+      "original_source_delta_metrics": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-ab-rgb-contours.json",
+      "local_boxes_xyxy": [
+        {
+          "role": "head-mouth-hair-collar",
+          "box": [
+            500,
+            70,
+            1290,
+            635
+          ]
+        },
+        {
+          "role": "hands-cuffs-arms",
+          "box": [
+            250,
+            65,
+            1370,
+            795
+          ]
+        },
+        {
+          "role": "hip-leg-overlap-boots",
+          "box": [
+            540,
+            595,
+            1340,
+            1080
+          ]
+        }
+      ],
+      "native_scale_current_detail_pairs": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-new-source-draft-head-mouth-hair-collar.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-new-source-draft-legs-boots.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-new-source-draft-torso-costume.png"
+      ]
+    },
+    {
+      "before_frame": 868,
+      "current_frame": 873,
+      "neighbor_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-new-selected-neighbor-static-contact.png",
+      "local_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-new-selected-local-static-contact.png",
+      "actual_source_rgb_contour_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-ab-rgb-contours.png",
+        "file_sha256": "3478fa842457b94f575690868eb33580691d8e5ad01c810d238d085428ceef8e",
+        "native_size_wh": [
+          3840,
+          2240
+        ],
+        "native_rgb_pixel_sha256": "0ddcbbf90716aa57b12844f45d31892c13357e3b449ca1ceda42e62670543601"
+      },
+      "original_source_delta_metrics": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-source-ab-rgb-contours.json",
+      "local_boxes_xyxy": [
+        {
+          "role": "head-mouth-hair-collar",
+          "box": [
+            500,
+            70,
+            1290,
+            635
+          ]
+        },
+        {
+          "role": "hands-cuffs-arms",
+          "box": [
+            250,
+            65,
+            1370,
+            795
+          ]
+        },
+        {
+          "role": "hip-leg-overlap-boots",
+          "box": [
+            540,
+            595,
+            1340,
+            1080
+          ]
+        }
+      ],
+      "native_scale_current_detail_pairs": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-new-source-draft-head-mouth-hair-collar.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-new-source-draft-legs-boots.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0873-new-source-draft-torso-costume.png"
+      ]
+    },
+    {
+      "before_frame": 873,
+      "current_frame": 880,
+      "neighbor_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-new-selected-neighbor-static-contact.png",
+      "local_source_and_draft_board": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-new-selected-local-static-contact.png",
+      "actual_source_rgb_contour_reference": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-ab-rgb-contours.png",
+        "file_sha256": "6f50c909f218da0cd38d33be5af09380dc51e65d650ad8b6fc4e3b8324eddb1b",
+        "native_size_wh": [
+          3840,
+          2240
+        ],
+        "native_rgb_pixel_sha256": "f836d6c50e7a720d768adfb1fafbf81b38faf96bb22c1677f036d0f027093bc2"
+      },
+      "original_source_delta_metrics": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-source-ab-rgb-contours.json",
+      "local_boxes_xyxy": [
+        {
+          "role": "head-mouth-hair-collar",
+          "box": [
+            500,
+            70,
+            1290,
+            635
+          ]
+        },
+        {
+          "role": "hands-cuffs-arms",
+          "box": [
+            250,
+            65,
+            1370,
+            795
+          ]
+        },
+        {
+          "role": "hip-leg-overlap-boots",
+          "box": [
+            540,
+            595,
+            1340,
+            1080
+          ]
+        }
+      ],
+      "native_scale_current_detail_pairs": [
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-new-source-draft-head-mouth-hair-collar.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-new-source-draft-legs-boots.png",
+        "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0880-new-source-draft-torso-costume.png"
+      ]
+    }
+  ],
+  "static_review": {
+    "review_scope": "Static explicit 856 -> 863 hair-v2 -> 868 v1 -> 873 v1 -> 880 v1 source/draft group; no actual composite or original-speed acceptance",
+    "viewed_evidence": {
+      "full_native_drafts": [
+        856,
+        863,
+        868,
+        873,
+        880
+      ],
+      "source_draft_group": true,
+      "all_four_neighbor_source_draft_contour_boards": true,
+      "all_four_local_source_draft_boards": true,
+      "all_four_source_only_actual_rgb_x4_and_two_color_contour_local_boards": true,
+      "additional_native_normalized_detail_pairs_viewed": [
+        "f0863-new-source-draft-legs-boots.png",
+        "f0868-new-source-draft-legs-boots.png",
+        "f0868-new-source-draft-head-mouth-hair-collar.png",
+        "f0873-new-source-draft-head-mouth-hair-collar.png",
+        "f0880-new-source-draft-head-mouth-hair-collar.png",
+        "f0880-new-source-draft-legs-boots.png"
+      ]
+    },
+    "overall": {
+      "gross_source_pose_changes_present": true,
+      "obvious_extra_hand_or_third_leg_observed": false,
+      "source_eyes_closed_in_all_five_and_drafts_remain_closed": true,
+      "artistic_acceptance": false,
+      "actual_speed_playback_performed": false,
+      "complete_glyph_acceptance": false,
+      "verdict": "Useful independent pose drafts, still unaccepted due to hair/costume/contour continuity risks. No final motion or compositor pass is established."
+    },
+    "per_frame": [
+      {
+        "frame": 856,
+        "draft": "root-continuation-f0856-v1.png",
+        "role": "Existing unaccepted preceding anchor, not repaired in this task",
+        "observed": "Closed eyes and a tall narrow open mouth; both open gloves point upward with forward palms. Screen-left leg extends down and foreground; screen-right leg folds back with the boot to its right. Exactly two hands and two leg chains visible.",
+        "costume_state": "Vertical center seam continues into the cream hem; clover sits toward screen-right of the coat; plain red shorts lack the narrow cream thigh bands introduced at f863. Wide multi-lobed collar and rounded side ponytails.",
+        "limitations": "Already-unaccepted anchor means copying its costume details is not approval of them."
+      },
+      {
+        "frame": 863,
+        "draft": "root-continuation-f0863-hair-v2.png",
+        "source_change": "Higher frontal head and small O; both wrists turn from upright open palms to thin outward edge-on fingers; folded rear leg draws slightly inward.",
+        "draft_observed": "Both gloves now form horizontal side-facing silhouettes, not retained f856 upright palms. Frontal closed eyes and the smaller O are present. Two separate leg chains connect beneath the shorts; long front/down leg hides the medial root of the folded leg. The short side ponies end near the shoulders, and the previous overlong back-hair shape is absent in this explicit hair-v2.",
+        "risks": [
+          "Center seam disappears despite another mostly frontal view; clover moves to the coat center and is smaller.",
+          "Hem changes to two rounded split/scalloped lobes and cream bands are introduced below both red shorts legs.",
+          "Pony tie/root identity and collar contour are still stylized rather than anatomically registered."
+        ]
+      },
+      {
+        "frame": 868,
+        "draft": "root-continuation-f0868-v1.png",
+        "source_change": "Both palms reopen with thumbs up; frontal head tilts slightly, O grows vertically; rear leg foreshortens to a compact tucked knee and small shoe below it.",
+        "draft_observed": "Exactly two splayed brown gloves with upward thumbs; closed eyes, larger vertical O and two legs retained. Rear knee and boot are compact instead of copying the long far shin from the prior draft.",
+        "risks": [
+          "Additional long blonde fans reappear behind both upper sleeves, extending far below the two cheek-side short ponies. Their roots are obscured and do not preserve the bounded f863 hair-v2 topology.",
+          "Rear boot remains farther screen-right and more exposed than the source's tightly tucked shoe; foreshortening/depth is approximate.",
+          "Collar becomes two smooth leaf-like lobes; clover becomes conspicuously larger; hem becomes one broad curved band; cream shorts-leg bands disappear. These are schema changes, not just pose deformation."
+        ]
+      },
+      {
+        "frame": 873,
+        "draft": "root-continuation-f0873-v1.png",
+        "source_change": "Major independent extreme: body/head move right and lean clockwise; screen-left arm lifts steeply, screen-right arm lowers; formerly tucked leg unfolds into a long down-right kick with the sole edge visible.",
+        "draft_observed": "Asymmetric high-left/low-right arms and both visible open gloves are present. Closed eyelids and tilted smaller O remain. Exactly two long separated leg chains; down-left boot and raised down-right kicking boot are correctly distinct, with a readable sole edge on the kicking boot. This is not a rigid transform or alias of f868.",
+        "risks": [
+          "Collar changes back to a multi-lobed scallop; coat hem again splits/scallops; thin cream shorts bands return.",
+          "Coat clover shrinks again and follows a different front-center placement from the f868 motif.",
+          "Backpack strap widths/side panels and pony-tip volume differ; exact boot depth and body contour still need motion/composite inspection."
+        ]
+      },
+      {
+        "frame": 880,
+        "draft": "root-continuation-f0880-v1.png",
+        "source_change": "Raised arm approaches vertical; low-right hand descends; head leans further clockwise and O becomes smaller; the kicking second boot lowers into the caption band while the other leg remains down.",
+        "draft_observed": "High-left glove is nearly vertical above the head, low-right glove is lower, and both are visible. Two long separated legs remain; the right boot lowers and its sole-facing angle becomes shallower instead of staying at the f873 raised kick. Both closed eyes and smaller O remain.",
+        "risks": [
+          "Small pale wedges appear behind the raised sleeve and beneath the lowering sleeve. They are not hand-shaped and no extra hand is confirmed, but their connection to the two short pony roots is not traced convincingly. They must be judged as hair/occlusion continuity, not automatically as retained yellow effects.",
+          "Source head/eyelid/mouth clockwise progression is stronger than the visually approximate draft progression; avoid claiming an exact head rotation match.",
+          "Multi-lobed collar, split hem and cream shorts bands persist from f873 but do not reconcile f856/f863/f868 costume changes.",
+          "Both boots enter opposite ends of the fixed caption area in the source; generated underlay alone cannot certify registered text occlusion or pale-on-pale contrast."
+        ]
+      }
+    ],
+    "prioritized_findings": [
+      {
+        "id": "NEXT-STATIC-01",
+        "priority": "P2",
+        "frames": [
+          863,
+          868,
+          873,
+          880
+        ],
+        "finding": "Hair topology is not continuous after the f863 shortening: f868 introduces large rear fans; f880 adds weakly rooted pale wedges behind the sleeves.",
+        "constraint": "Keep exactly two short side ponytails, attached through recognizable same-side roots; no extra long rear-hair fans. Draw sleeve-over-hair/strap occlusion explicitly. Preserve each current source hand and arm pose while repairing hair."
+      },
+      {
+        "id": "NEXT-STATIC-02",
+        "priority": "P2",
+        "frames": [
+          856,
+          863,
+          868,
+          873,
+          880
+        ],
+        "finding": "Center seam, collar-lobe schema, split-vs-one-piece hem, shorts cream bands and coat-clover placement/size toggle between neighbors.",
+        "constraint": "Choose one reviewed coat/shorts/collar schema before a bounded repair. Keep the same seam presence, collar topology, hem construction and clover motif as local cloth features that deform with perspective, not different garment designs. Do not call a costume repair pixel-locked without measuring drift."
+      },
+      {
+        "id": "NEXT-STATIC-03",
+        "priority": "P2",
+        "frames": [
+          868,
+          873,
+          880
+        ],
+        "finding": "Gross two-leg trajectory is represented but f868 rear boot depth and subsequent soles/cuff outlines are approximate; f880 head tilt is not exact.",
+        "constraint": "Retain two separate leg chains with the correct foreground medial overlap at f868; unfold the same tucked leg at f873, then lower that boot at f880. Match the current head/eyelid/mouth lean independently. Inspect actual sequential composites before acceptance."
+      }
+    ],
+    "separate_caption_review": "The 24 actual-source decode audit supports a fixed phase through f886, not actual generated text acceptance. Updated production composite pages are a subsequent separate task.",
+    "shared_state_modified": false,
+    "source_aliases_added": false
+  },
+  "limitations": [
+    "Native-normalized generated images are not actual source-resolved output composites.",
+    "Static silhouette comparisons do not verify exposure timing or full-speed motion.",
+    "Source stars, yellow sparkle drawings and captions also appear in full-frame contours; not every edge is character anatomy.",
+    "Manifest can lag saved asset_selections; explicit parent-specified new drafts and saved unaccepted selection entries were checked directly."
+  ]
+}

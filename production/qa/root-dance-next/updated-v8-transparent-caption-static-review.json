@@ -1,0 +1,2437 @@
+{
+  "created_utc": "2026-10-03T15:19:53.188765+00:00",
+  "scope": "Updated v8 transparent-caption static inspection of 14 source/composite pages, all 56 frames f831..886, plus four actual native full composites f863/868/873/880",
+  "source_interval_half_open": [
+    831,
+    887
+  ],
+  "native_pair_count": 56,
+  "viewed_page_count": 14,
+  "viewed_full_composite_count": 4,
+  "all_56_native_pairs_hash_verified_and_pages_viewed": true,
+  "all_14_pages_pixel_equal_to_rebuilds_from_their_four_native_pairs": true,
+  "all_four_full_composite_caption_crops_pixel_equal_to_native_pair_target_half": true,
+  "exporter_evidence": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\evidence.json",
+    "file_sha256": "c80fc83dfeb154ecebe9802478626dc91a623fadf35947083aa41834d9458b64",
+    "reported_actual_decode_count": 75,
+    "reported_interval_half_open": [
+      812,
+      887
+    ]
+  },
+  "provenance": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\timeline-opening-36s958-draft-v8.json",
+      "exporter_recorded_sha256": "55e869bb871923cd62716895adda50ab878a614cb9a7a76f4dc23725f51c7ecc",
+      "current_file_sha256": "55e869bb871923cd62716895adda50ab878a614cb9a7a76f4dc23725f51c7ecc",
+      "matches_exporter_record": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\compose.py",
+      "exporter_recorded_sha256": "b85ae7e9a6891c1fb4425c98a82fd86e9ca66eaa905ac786706d52ce0b64352e",
+      "current_file_sha256": "b85ae7e9a6891c1fb4425c98a82fd86e9ca66eaa905ac786706d52ce0b64352e",
+      "matches_exporter_record": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\dance_caption_layers.py",
+      "exporter_recorded_sha256": "b2e63d3accbd5024b714c3103c6fcc296ca6b386697687cbf9c8ae6bcf9ea3db",
+      "current_file_sha256": "b2e63d3accbd5024b714c3103c6fcc296ca6b386697687cbf9c8ae6bcf9ea3db",
+      "matches_exporter_record": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\export_dance_caption_evidence.py",
+      "exporter_recorded_sha256": "651189d29a4b3e9b8fa37ce37dd73880967af050d13abc053e7ef38e0584b12f",
+      "current_file_sha256": "651189d29a4b3e9b8fa37ce37dd73880967af050d13abc053e7ef38e0584b12f",
+      "matches_exporter_record": true
+    }
+  ],
+  "all_current_production_provenance_hashes_match_exporter_evidence": true,
+  "independent_source_24_frame_audit": {
+    "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\extension-caption-audit.json",
+    "file_sha256": "195afec4b376ee67c0dfbceed1f1a4853f7a12ef9991023502dc42408652c8c7",
+    "scope_half_open": [
+      863,
+      887
+    ],
+    "all_24_full_native_bgr_hashes_match_exporter_decoded_source": true
+  },
+  "new_56_frame_original_video_decode_performed_by_this_private_review": false,
+  "exporter_stable_registered_subset_mismatch_gt30_count_range": [
+    0,
+    0
+  ],
+  "exporter_warm_candidate_outside_alpha_count_range": [
+    198,
+    4425
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "frames_inclusive": [
+        831,
+        834
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-01.png",
+        "file_sha256": "8b10a20cfd182b3fc52d3fe458eba44d1053c96a2d597bd732c5a3c5217d3bdc",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "a6539d1059b9f99e81411871082b074fe7ead3a9f391d90a15c6ddc705547c4c"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 2,
+      "frames_inclusive": [
+        835,
+        838
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-02.png",
+        "file_sha256": "76621190dc79c4677d55ee33d36ad345abe9ea0e3454e7abba2d2243e2777615",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "39dfbaf0793e851487c0439f43ccc239e661da5c5001a5a582b29c7a7ee2fec1"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 3,
+      "frames_inclusive": [
+        839,
+        842
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-03.png",
+        "file_sha256": "53db5cb533f4a188db7f7ba3e879a5328d6756aafe4c062e7dc0e6388113db4a",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "9212a793e6769d67656a7e1d1a9a67177350ba4d1f1441fb4f1441682d356fed"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 4,
+      "frames_inclusive": [
+        843,
+        846
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-04.png",
+        "file_sha256": "9eaef903a8f7f12f6dc66e8cc55fe584be65a893012b2e3f4d5bb60f8da9e07f",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "01dd08b5065fb846fd7a4249dc82701a71d9cce60e3cf01ab4d8b65cc160adbc"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 5,
+      "frames_inclusive": [
+        847,
+        850
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-05.png",
+        "file_sha256": "a7a50e4272ec714c53fdc0d1f7c440d826f87e8c7f894d0d27daf9c468dd5c53",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "57b9b8baf5734fa0a065f68ee7fe6d11d49f906422ef778260f8b32609172354"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 6,
+      "frames_inclusive": [
+        851,
+        854
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-06.png",
+        "file_sha256": "3c0f54520377c2d533b745e080fd304fdf2e1ecbd511441ce31b90827caefd65",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "fcb5c9a370c6c2731d16ea262793fc63143b98b142c815b6c909c879c1ee8dc7"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 7,
+      "frames_inclusive": [
+        855,
+        858
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-07.png",
+        "file_sha256": "bbf82cb90c23cc9c3798f99ec8b569290154ff520f68c53a9ff5bc12b4089872",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "2043506de8444102ddb3289885e6b2ff8b15cdc0be6965e2ec216e7d2a9c534d"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 8,
+      "frames_inclusive": [
+        859,
+        862
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-08.png",
+        "file_sha256": "6c610ecf89f6d9a536b8cf802369c80a52fe009104932e8c02cc9682d746007b",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "7ffe0ebb3518e4f69bc0d4c5f0fe98b0115c513a7d341366824f6d712179970d"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 9,
+      "frames_inclusive": [
+        863,
+        866
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-09.png",
+        "file_sha256": "b72e96926017b65333e1837b9f4b0cfe1561e03b627fefc76a9c47978f0dcaf4",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "de6593bbac0bfeb029e32d178e44dad5e3e85bf77d0d9124367d8a54cbfb4e30"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 10,
+      "frames_inclusive": [
+        867,
+        870
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-10.png",
+        "file_sha256": "45e7698f9bc1d01261cea1087adaf54c6f365e5e390ced89f81ab50ef1d2dd56",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "a7595073f6b06bb44ffc80f074d686f8bd899cd8f5252f647cce23467a6fe515"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 11,
+      "frames_inclusive": [
+        871,
+        874
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-11.png",
+        "file_sha256": "734170a00365a9c83aca02a86e110aa0563e079e3120d85ed1fe0b433eea5c74",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "517f7df73db63ba5bbb5b251bd03a1b49d29afc36c75c3916aa8694b35733a6a"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 12,
+      "frames_inclusive": [
+        875,
+        878
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-12.png",
+        "file_sha256": "1d73b2a278d95b563dd5878fa4e7c27cc527d3520237a1fe46b8d301597bbcde",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "48e927f90888f0348f6b85fe8fcea7e1dcb0dbf617a1d6c8eb2ce189e077a25c"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 13,
+      "frames_inclusive": [
+        879,
+        882
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-13.png",
+        "file_sha256": "c94dc86656d8499edb5afd5aedf9cdf1961f6a1a58a345e445e8c394a4b3c954",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "edd0fa820638561f8fd0e829ed718d9090dfc199b8a32b2e6750eb0ff2cbec01"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    },
+    {
+      "page": 14,
+      "frames_inclusive": [
+        883,
+        886
+      ],
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\overlap-caption-page-14.png",
+        "file_sha256": "b835df16c427205215a87f26d1c6226dbb9cdbcb7ba329a789ac729c8d044bba",
+        "size_wh": [
+          1528,
+          840
+        ],
+        "rgb_pixel_sha256": "d4bd242581a98ed958a2fdc4d4bbe42df50a44433765019b36873e94ac2a7775"
+      },
+      "viewed": true,
+      "pixel_mismatch_to_rebuilt_page_from_its_four_native_pairs": 0
+    }
+  ],
+  "full_composites": [
+    {
+      "frame": 863,
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0863-full-composite.png",
+        "file_sha256": "5c884f227410d97c553a448f2b732b9fabdccab6653e146a4caf7188422d0476",
+        "size_wh": [
+          1920,
+          1080
+        ],
+        "rgb_pixel_sha256": "a62f8002eedbe6018d461b77b9dd1d72c27595144246b3f66d792e21a43f3155"
+      },
+      "viewed": true,
+      "caption_region_mismatch_to_native_pair_composite_half": 0,
+      "no_obvious_orphan_cream_waist_dots_observed": true
+    },
+    {
+      "frame": 868,
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0868-full-composite.png",
+        "file_sha256": "9580b873d38883a5d82ca2e02e91fd713a32ab39fec94192b8a4fec3ce1e6fb2",
+        "size_wh": [
+          1920,
+          1080
+        ],
+        "rgb_pixel_sha256": "c67b951a32dac69117af32de6cb825c351d3d50bc3a409f3dd0a1de45f1b817f"
+      },
+      "viewed": true,
+      "caption_region_mismatch_to_native_pair_composite_half": 0,
+      "no_obvious_orphan_cream_waist_dots_observed": true
+    },
+    {
+      "frame": 873,
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0873-full-composite.png",
+        "file_sha256": "34783168c4ed5112fbc3712a0afae3226e6a5a91c3ee5bba6661e28ccb5f7c5d",
+        "size_wh": [
+          1920,
+          1080
+        ],
+        "rgb_pixel_sha256": "33699f753d016db2f943017b7182e2cd135c4845756277244e424c606789d2db"
+      },
+      "viewed": true,
+      "caption_region_mismatch_to_native_pair_composite_half": 0,
+      "no_obvious_orphan_cream_waist_dots_observed": true
+    },
+    {
+      "frame": 880,
+      "artifact": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0880-full-composite.png",
+        "file_sha256": "897018867a22de45c0340f5e34e76e76b7a0704b16e7d89b0038fe27ccf8b651",
+        "size_wh": [
+          1920,
+          1080
+        ],
+        "rgb_pixel_sha256": "2b5de7753194565cf1b55ca05d917d4eadb37f3a2e2eb531be57afde330aa7fa"
+      },
+      "viewed": true,
+      "caption_region_mismatch_to_native_pair_composite_half": 0,
+      "no_obvious_orphan_cream_waist_dots_observed": true
+    }
+  ],
+  "frame_evidence": [
+    {
+      "frame": 831,
+      "saved_unaccepted_asset": "generated/root-continuation-f0831-v1.png",
+      "exporter_decoded_source_bgr_sha256": "7069be99c355f847c69590336e8ead2f0a23265d05ef30d4688895948c2837e3",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0831-native-caption-pair.png",
+        "file_sha256": "111299ea55a7006207547b5c59c61026b4b6ac537f0edc3c6e7cbad2b00bbdcb",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "0c5a64e76404a8c1aaa9cbeaba36a116e1d33a352a5d89f2f2ad5545ab005340"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7446,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 231,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 832,
+      "saved_unaccepted_asset": "generated/root-continuation-f0831-v1.png",
+      "exporter_decoded_source_bgr_sha256": "9cee59648ddb888dcfa0fc9c7fd6c296c70c18344c70e1912efca974fda6e17a",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0832-native-caption-pair.png",
+        "file_sha256": "fd68d438d8c008d41249f0da5be544f984047a61810aba4fdd4a764f7eb2113e",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "de8a65c9570fda578f6f9f81ff518e83b0bba5577dcdaec71f2699cfe136ce5e"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7391,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 338,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 833,
+      "saved_unaccepted_asset": "generated/root-continuation-f0831-v1.png",
+      "exporter_decoded_source_bgr_sha256": "43e2049cf7bfd530ab2745d2c2eca1b9ee82794486ce65519aa4a1fd024487ed",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0833-native-caption-pair.png",
+        "file_sha256": "3acec5a5360bf7f50a7c4abf871fcac1591d1bed07568e78cf3c4cccc9bbeafb",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "f8039cdf3814b0e4272e72c5e6e8e6453e06f031d3184518cdece766ec780d76"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7395,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 230,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 834,
+      "saved_unaccepted_asset": "generated/root-continuation-f0831-v1.png",
+      "exporter_decoded_source_bgr_sha256": "bff73ae0f519f0d2dbd47daaa1f47407f600ccace77a8b9c032010e1a725b823",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0834-native-caption-pair.png",
+        "file_sha256": "3104d02c7c97fddc7d3fb79df3d9e66d9891c9287d948c6d87558a8cab37ca09",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "a0effc5ed9c6236634615cc0a27156cf5f8509955398fc69c89af0483dbcd718"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7402,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 286,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 835,
+      "saved_unaccepted_asset": "generated/root-continuation-f0835-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "bf6e1fb568ef4539ff469b36231c44e9dbb1a9249ee81c91923b22960802dd95",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0835-native-caption-pair.png",
+        "file_sha256": "9dd51d0266bf120f220010efa13ea3de63c4f8fed0707827763094f2454a95c7",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "dea99f8ee9d929a17b4196d2f8dd668374a9c4f85c24bf880cbc94f3fc853acc"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7398,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 267,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 836,
+      "saved_unaccepted_asset": "generated/root-continuation-f0835-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "d0641fc6c376650ff5961c64baddab328a5a06c54d36518638012c3a0593a3fc",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0836-native-caption-pair.png",
+        "file_sha256": "dd46090e39db61180724a21b1c73e31c497022058cb66eaeea93e5df2a2f7dfb",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "227c6be1456d0c50c1df2ffdfeb5fc401ac86dcf81cd75a39ea0df5d01e74bc9"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7364,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 368,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 837,
+      "saved_unaccepted_asset": "generated/root-continuation-f0835-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "3bcfffd26756f5a8bccc85780c697c53db2610943bb8c19a541c3144bd587c56",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0837-native-caption-pair.png",
+        "file_sha256": "88ef7682bb7b2c3acbd195c9216de63842788a192a365ceee990aa931577cb67",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "590bfc5a80c5fb0c4d008fe4dc88bbe396c8ecde24b986aa06127be5c364d1eb"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7312,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 253,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 838,
+      "saved_unaccepted_asset": "generated/root-continuation-f0835-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "010d37a8e54876f8a5243ec51fc6854fc5792614f9011e5c37eb9a1b98317cb4",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0838-native-caption-pair.png",
+        "file_sha256": "103c26c31124ec0ca99af8252314aa735203d5137573cbfe500b97412475c344",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "fa8f0993cb20ff8098c23a393503895ab7ab43bf4054da1f530551f1c9436fa3"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7310,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 198,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 839,
+      "saved_unaccepted_asset": "generated/root-continuation-f0839-gloves-v2.png",
+      "exporter_decoded_source_bgr_sha256": "4b12b76dbe86040ad78ad58cdf2b7ea502d7112b12b129122a7f63883be6f667",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0839-native-caption-pair.png",
+        "file_sha256": "0989c2e47a1124a23ab34388cbda05afef7ff1f2bb180cbe5665ffc6e775df87",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "30dc1d910652c8618782251793b5afb474c7e8d6c54b0641d767100c2661e71e"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7309,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 332,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 840,
+      "saved_unaccepted_asset": "generated/root-continuation-f0839-gloves-v2.png",
+      "exporter_decoded_source_bgr_sha256": "ff9c7f90f508244dbf5e012a73bd4ea274f82c7cb82a88039ef10fb1449a0ddf",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0840-native-caption-pair.png",
+        "file_sha256": "153a655cc65e908940ef4769801b70d12438194f11f863fd55724b3fb4b65208",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "fd71dbd7b3dfccce4e2fc2a9bcc06be7459cd68426fc8984c9ec9bde79d52fdd"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7031,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 314,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 841,
+      "saved_unaccepted_asset": "generated/root-continuation-f0839-gloves-v2.png",
+      "exporter_decoded_source_bgr_sha256": "dc15e661a06ccef9aba5050582bcf0d80f8d4b7218f2c674c263e036fcd401f2",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0841-native-caption-pair.png",
+        "file_sha256": "7cf96f4dec402501a7c8a8fc2b76bac96ce5554521189ccea89de895860314e8",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "e5abd4bde94c2f601ba16a1e1582ceabc3cc980f9274015484508eb4b5a72894"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7035,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 265,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 842,
+      "saved_unaccepted_asset": "generated/root-continuation-f0839-gloves-v2.png",
+      "exporter_decoded_source_bgr_sha256": "938ea765185135e091b9f9fab5143dd8ecddfba7fe1c6e8780ce8d3379c309df",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0842-native-caption-pair.png",
+        "file_sha256": "4d9a77295f9f79179f85c8969f918ee2cd83878883e11a8ebf93d5497d91e639",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "156053acf6afafcb25d4a3512fe2e228fea5a73dcdd5faa291cb3c015d5a4681"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7021,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 279,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 843,
+      "saved_unaccepted_asset": "generated/root-continuation-f0843-v1.png",
+      "exporter_decoded_source_bgr_sha256": "b4b8462debd7fe395d4ad6b9bf8ed93680f0b412fb6a304ca1cccd662b06deb4",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0843-native-caption-pair.png",
+        "file_sha256": "1aaa310de44fcc225e467d70bec7fdac2192857ae9049c9d8603b8921f99ebe8",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "85d4280fb3c1d50d41d040ee375138c491d6a9badd727523a75e542949631e9f"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6843,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 405,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 844,
+      "saved_unaccepted_asset": "generated/root-continuation-f0843-v1.png",
+      "exporter_decoded_source_bgr_sha256": "b9f124b4066b18d291036852eed3f6668b956448c3ae83a265cef8947fcd6c2c",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0844-native-caption-pair.png",
+        "file_sha256": "9539d967a613d198364faed7fd07db8cb31a997034c7d5b6bbc6bd902c5a618b",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "ed462f8f7ca09dd4d35c412541c41cb6c48b66d1ea51e1ae699ef60e6046aa25"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6873,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 486,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 845,
+      "saved_unaccepted_asset": "generated/root-continuation-f0843-v1.png",
+      "exporter_decoded_source_bgr_sha256": "1f9765db9485f2708455cfbe6c373b5597abf1098e11421570b054bc4e45c5e8",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0845-native-caption-pair.png",
+        "file_sha256": "e9f420a7bd459b085e33b71a09032346147707502b69c0ac994859e1759ef09f",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "7543101a78c92dd04d03f4482ef95fea061e8b502d57d4d8d479b2ec1d09a1b5"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6853,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 420,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 846,
+      "saved_unaccepted_asset": "generated/root-continuation-f0843-v1.png",
+      "exporter_decoded_source_bgr_sha256": "6fd51c919575cc20912dce228fc518eb7c9261201414c07d5668137d69f70d1e",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0846-native-caption-pair.png",
+        "file_sha256": "6915da598c0a0cc5345f7fbbe16d3bb3d2d9210700dc6ea95e374474ba14b0d3",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "3df51bdac1680b2a108d04f2ca6d0686372b1aea4e5eb790a88aeb9570277d22"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6859,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 446,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 847,
+      "saved_unaccepted_asset": "generated/root-continuation-f0843-v1.png",
+      "exporter_decoded_source_bgr_sha256": "f5eb7184974093430ddb4ad9c513b8f8be8bc75d3603314f6eeb36c7800e4c99",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0847-native-caption-pair.png",
+        "file_sha256": "0fa4c1f50711f1829ef5de20a45e0db4b7994fe6d6f2a3c41870ba1a8e3986dc",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "d16502c381c732aafdc579611675a623e561d488b00c538e97a6c23887df5014"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6869,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 419,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 848,
+      "saved_unaccepted_asset": "generated/root-continuation-f0848-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "7995dbcf03a51e757228bb5c989a9aa621ca895f5592b275e9de7e300a06193b",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0848-native-caption-pair.png",
+        "file_sha256": "03ca5a10a32ed8e1e60ef94a20b386406789ab720d01145c4f4cef9d12a20ced",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "cf5882a77d0c3aa0db5e8c5c3f7018cde7de24d0eefb3b66f90c9c5cb62d76da"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7052,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1550,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 849,
+      "saved_unaccepted_asset": "generated/root-continuation-f0848-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "76f0ae55505c6ac7c7d78145c710594c482d7ca620f12dd686d0d0751114f8d3",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0849-native-caption-pair.png",
+        "file_sha256": "ba6e8d9555360f67ceab89c957406734146cf4f29f50167db84f232bb242f11c",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "f47716ced6f7ae2d365cedc8de990df8023b008f040c2039d275228795f11119"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7042,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1414,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 850,
+      "saved_unaccepted_asset": "generated/root-continuation-f0848-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "229c43a59f2baca627370142e0973f4d206c7f582210492bba54a126748b4f63",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0850-native-caption-pair.png",
+        "file_sha256": "1f3787be4014f7916335b9c481e672e2edfff489de5f7c7298e31294a0f4dd70",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "4d3824d9d3a309caf8abe003f54aae998dab67d39accba442f848bdca63a276f"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 7026,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1422,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 851,
+      "saved_unaccepted_asset": "generated/root-continuation-f0848-source-native-v2.png",
+      "exporter_decoded_source_bgr_sha256": "e9e0b27d24d3708c82d6791690f488a5a51e7c879c7a78e1a7a40eaf520c21e0",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0851-native-caption-pair.png",
+        "file_sha256": "1c3aeacd7dca8398ba5871ba26f740b4c5e287e7f34e60da43b04a0ebe667c4d",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "93b5a26e51d677ae03932c66699fb9319f54a7ee20f181a0f2eba01c2214a73c"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6960,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1377,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 852,
+      "saved_unaccepted_asset": "generated/root-continuation-f0852-v1.png",
+      "exporter_decoded_source_bgr_sha256": "650780ff6498de202f25b685262854ebc0b467a8862d173a267644e2ae862f5a",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0852-native-caption-pair.png",
+        "file_sha256": "57f1405fde83ac1c7116a529e8c62f65fe016282dcf6719a2d78ee88cd87dff4",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "9095edae4a0f0574759265257761959025ee68389dba171c6b9858db2e026630"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6962,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1732,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 853,
+      "saved_unaccepted_asset": "generated/root-continuation-f0852-v1.png",
+      "exporter_decoded_source_bgr_sha256": "e4e09c0a86f03c3fc1253e54cf87732e83bc6ede907d6c39cd947944bf7b172c",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0853-native-caption-pair.png",
+        "file_sha256": "8ae9dae8fcb334e0f1336c4f5d57b16c3b6b33c4bb6e863d35cd72d4b5b12603",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "34b9be8bbdf416b61d9da651d34a669e71b3d1aae9827139d14eb00417aaf592"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6836,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1684,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 854,
+      "saved_unaccepted_asset": "generated/root-continuation-f0852-v1.png",
+      "exporter_decoded_source_bgr_sha256": "8df99dea90f9246934bdcd461b749de5eb74358a327934051acc5ec0992e4e79",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0854-native-caption-pair.png",
+        "file_sha256": "be6e5ee352d0b6cfbd530cee5247b36c9eb9849f04e57ce92415cf7421ad15e6",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "852e7494c24d7240d664939eb850e2821144e65a803965487afcc4f65a7150be"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6753,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1735,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 855,
+      "saved_unaccepted_asset": "generated/root-continuation-f0852-v1.png",
+      "exporter_decoded_source_bgr_sha256": "8b015494cd01864f9ef4251fadf0eff6b43050c77a681bf2703b4ff1a95329d4",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0855-native-caption-pair.png",
+        "file_sha256": "fcccc59869a2a434eb3d3a99dc43e9b333e960bba021142807c2933be736d7b3",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "7a07e28774cd890cf21778724f801ed12da3d4525a9904e5f47ecc256d8ba5d8"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6811,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1670,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 856,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "b407768fe206d842ccb5bdf24098ed02b5ce72712e6ac825f164a242d6b45998",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0856-native-caption-pair.png",
+        "file_sha256": "9a685eddb9630f5831b4c81c269b1f4097c4153162438d4cec51020caecab93d",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "8efa4c463fd6c7f9b06af1f65292408f88e80fe6d2510575583e551a09c9056f"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6902,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1866,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 857,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "42bc72c61de9732bfee06b25c5521ffb0d836851bd67d27bcfead6fb7bc8ec81",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0857-native-caption-pair.png",
+        "file_sha256": "3b9a3a335a688c66ef108a20a8a47fba35dcf1c3e7c683f3f317823014f619f0",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "5547e53e88ad5d5ac606e2a78a9d74078bd39ba1cfb40818659b58dbea65d15b"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6917,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1724,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 858,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "b37c20f2c15ec02c8be6ab2b82f1ba554d0e5073e948c527ee5be0566af6eccf",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0858-native-caption-pair.png",
+        "file_sha256": "450237c82c177f5c4e60772b51369b457fd50b7d20fbbd417af45ff47afd636f",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "2c529462fd8af46947488a45a8e97bbf40f4fba1c18e39e5936ae850a8bf7251"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6880,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1817,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 859,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "2743d93d6b05bcfe99d664df0d2a0f855b2357fd9e9dd0985948d1980dbd9d95",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0859-native-caption-pair.png",
+        "file_sha256": "e8982e556569c55c4756cfb6773234790bf7a61cb9bfcf38ee0b4b2cf107d0a8",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "5a74f186565da56d53ab06bc2c566163ff7ca649128fea202de1ff285947b356"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6827,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1784,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 860,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "5a7b7b85ba68b4426ecfdfe83a99c35da6ec7c914aa5642b0fda96640fd8e404",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0860-native-caption-pair.png",
+        "file_sha256": "43256e96fb1ab88179aca97be52a76b6662702306feb396cad9fc60420f9cc49",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "def8c2bdac20150d9b8d719a4a9f5db7fb1d3740fa4adac6f2f98a8838b303c1"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6817,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1942,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 861,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "60393f3e0d2394090a900514f2b6387cae2089c318c9751fedbd03df8021b309",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0861-native-caption-pair.png",
+        "file_sha256": "8a57f657ef37ad7dbd5da321c16e060ff9197debf2014cab96a094c9641286c4",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "4b25babd238701b47ee31ee1387f80d3c9353faf2f1e9ac55ee7990aca2cb3ff"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6790,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1803,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 862,
+      "saved_unaccepted_asset": "generated/root-continuation-f0856-v1.png",
+      "exporter_decoded_source_bgr_sha256": "69cd19b9ed90a3afa4baa6ce82b5714cae01a13f6b90957d45311421e592ba52",
+      "independent_24_frame_source_hash_match": null,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0862-native-caption-pair.png",
+        "file_sha256": "f5792c87a0f6344195511b85cc05fd8bcc37661adb690b46ac9b9dff11c6503a",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "761c0d9bfd14ca15267f2c9de994b3542b55e8f836f19371fdd1df337713b97e"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6746,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1776,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 863,
+      "saved_unaccepted_asset": "generated/root-continuation-f0863-hair-v2.png",
+      "exporter_decoded_source_bgr_sha256": "01ec4b346f308727a49d5b61fdcd0b75e6dba143ce3b8d025b2b0d24e764cef8",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0863-native-caption-pair.png",
+        "file_sha256": "c0722e82ee30564d17670716cedf6023812477aafc3e2b61ff8c042193781305",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "2d169b747faac09cab6039d8f0466427709ad8c6f4c90ed069182f2edac693a7"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6722,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1579,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 864,
+      "saved_unaccepted_asset": "generated/root-continuation-f0863-hair-v2.png",
+      "exporter_decoded_source_bgr_sha256": "567cdfaa0e09c4a37bddfba020add5111eba1f9c5b271a138e778932a80d16b1",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0864-native-caption-pair.png",
+        "file_sha256": "3ca6a6ffb37a125eb7231ae2a8eb9aad1810ce5a57dc3708ec40a7bac50c4ee5",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "25a4bb874d6f12c3c4fb566adc1a22919d39e03fc205437148da5ed96f0af564"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6763,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1649,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 865,
+      "saved_unaccepted_asset": "generated/root-continuation-f0863-hair-v2.png",
+      "exporter_decoded_source_bgr_sha256": "62a22f3c8411b6e9a24e1631769efb6843c6abe01cf8275c0a4939c1afbb304b",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0865-native-caption-pair.png",
+        "file_sha256": "0ca981028518552694472a21827e0d78fb2bbf711a99dc7e31a3a59f8ed2cba5",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "f1010ae5e70beeaa9b904507309d7b3eb1b29e7d98c8bb41f3de0376ae10419c"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6780,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1529,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 866,
+      "saved_unaccepted_asset": "generated/root-continuation-f0863-hair-v2.png",
+      "exporter_decoded_source_bgr_sha256": "09a211de3d5962042e8ab8fabcc96a6d17804dcf7c410fbff9d7701623d8436f",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0866-native-caption-pair.png",
+        "file_sha256": "a798cc2d81373116efc3cb405026c6cc0196b962b7e12facca0b981e2529978b",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "395a8c461c2ef374371e893521f43ce0b4d0a996a33c3ab4aadfd0f398cfa08d"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6795,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1602,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 867,
+      "saved_unaccepted_asset": "generated/root-continuation-f0863-hair-v2.png",
+      "exporter_decoded_source_bgr_sha256": "4a51ea8feedfed64b176ef2079b98db5b0d917563b0190f198363016cdd469e6",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0867-native-caption-pair.png",
+        "file_sha256": "2ee04a2e0581126b21939cdd61644b5a1c5dd7f5b591a474167f0b241d55c141",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "ad1beb64ce4882886a7c888f7e18c0884f2a9c6b60e7a386711e76329298565a"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6777,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1559,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 868,
+      "saved_unaccepted_asset": "generated/root-continuation-f0868-v1.png",
+      "exporter_decoded_source_bgr_sha256": "01e9cd9f9f73fbe976a6a2c2100225ee78b13928480d286313d22fc652770455",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0868-native-caption-pair.png",
+        "file_sha256": "a79ef2d117e6f7451b78c957934f4014dc5bf1a262f5146e46d9061d0f25566e",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "8f7b00aac1566e0b6e00ab91b4e010d272e57e5725cf9a59f183520863e474cc"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6724,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1297,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 869,
+      "saved_unaccepted_asset": "generated/root-continuation-f0868-v1.png",
+      "exporter_decoded_source_bgr_sha256": "4c18ab6719d284345944a35c54c2236bffd5a9c6a5055a8ffd45ab593f5a74c4",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0869-native-caption-pair.png",
+        "file_sha256": "1a3db70a125ef2cd71ee2f2688c7560651f8d90391ad04eaa58e3a8cbfdc3901",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "84b105e9e0d181449e51a22cbc099bdeafd262d4f17f92a6f2084712d187f324"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6691,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1022,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 870,
+      "saved_unaccepted_asset": "generated/root-continuation-f0868-v1.png",
+      "exporter_decoded_source_bgr_sha256": "d59c3da5469eee491cefacd34f6ad90d635ddc6012ce84d6addad45f4b823f71",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0870-native-caption-pair.png",
+        "file_sha256": "7a7adc51a9cb5e9c70d631a0cdc377d69dc9a6e2c69ba1019b10dfdd2592500b",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "663be60afa36a35b64ad996df0da09e4f11bc5ebbba73743970adf9e304fbc13"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6747,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1111,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 871,
+      "saved_unaccepted_asset": "generated/root-continuation-f0868-v1.png",
+      "exporter_decoded_source_bgr_sha256": "bff33ca002d268096cf39978a2ba0625beb3c8ea5fbbd268bc53d8380d2e0dc0",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0871-native-caption-pair.png",
+        "file_sha256": "518f0c1dd31d1580e46e7b90ac085ac842ff9733357b530fdc7ad51789dee811",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "7ad88606e7202042e1f87f3a8d4d81af06f974371dd4641a4069c84717bee64f"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6748,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1061,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 872,
+      "saved_unaccepted_asset": "generated/root-continuation-f0868-v1.png",
+      "exporter_decoded_source_bgr_sha256": "9288208924dfb7fef79e6a403398fdbb49fe687af8ffaf3e7c6fc39b1a0d6a37",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0872-native-caption-pair.png",
+        "file_sha256": "278f29a9e6b397baa5c90c6dab792fffd4d1fcac352f4cd7ae95b47bc88c9b7c",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "f6874c72682e02d07e79f729058e760567d9fba01df62bf599ee0c5a3f9499c7"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6792,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 1406,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 873,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "9748c94b3d33fa2b0b8965dbdb9cfa4ea52876907a90ef717dfc5bf470e285dd",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0873-native-caption-pair.png",
+        "file_sha256": "21733f7485cb0587287c9cd16f87a85655ab8046d02de298a70b998a21f0a336",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "43b8b8af7a52ddcbc32fe451d999b0daed5ead475f31d3b674fc36a19a46f5de"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6821,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2449,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 874,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "bde80bce96fad160729c7083e27903330479bbc6afc2e8f711b128d1437cfc4e",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0874-native-caption-pair.png",
+        "file_sha256": "f238125c5bd89e6ad732dce8a874997def1d376526624f262086b522040498bf",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "59945764906e9a80a05fd7fad896e49c5149c763e36015bc0b10579ae039526e"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6841,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2550,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 875,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "7f3d8c8b7865c3977772c8f16ca8a16423e25f5a18e44ca14cc84caab10c94f3",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0875-native-caption-pair.png",
+        "file_sha256": "3e455b9c99ce3f08ab815d67a9225c74bbe174e739857364040ce14493d32e29",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "b6dd01cc6fdb24a17b3cb593eaee863a0701832df0f047d8e98b1e9eb0353774"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6803,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2446,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 876,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "89fa43d82e38617a3d82beedc367398b1b0d9a98ff3a751c979542647a5e7e2a",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0876-native-caption-pair.png",
+        "file_sha256": "204d369dce077d98cad077eb4b2d7eb326e4308a4221d38c57c24b87bc6f8294",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "e1660ede1802ac45b2abf75bedfa1f35811f76bb40cd29fa8aa06d3557b754af"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6821,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2653,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 877,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "646ee8eb9c8cb35e239221a61cdd0f6488439191889fa19bccf29ba1ea345044",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0877-native-caption-pair.png",
+        "file_sha256": "c3c71883b4dae8d0c86e6f8a9956427672b6059ef5394a5dcc56ced47fd392a2",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "8eced88250a283d76a056dfcceae0666faa3609781edacca9fc6ca22add300a1"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6732,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2484,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 878,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "f80c2724d2e16602a81bcbd6bd3af3f8824eddbbee4ee3afd4aae1aa046fa2e2",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0878-native-caption-pair.png",
+        "file_sha256": "85016339043e10d584fadbc188dc27dcc244410249994b9da8e6072b67612037",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "895dbc412a74035e1d2797a4c49d83ea31604dd7ecf84ac0b7e3ce07fb737434"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6662,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2639,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 879,
+      "saved_unaccepted_asset": "generated/root-continuation-f0873-v1.png",
+      "exporter_decoded_source_bgr_sha256": "daae6b24fe388b21b256b2a1e5c84ba4f2a5b524789c8193d62efeae6b32c333",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0879-native-caption-pair.png",
+        "file_sha256": "82969dcf2418560bea1ebb9ffb58106b5db8b92c5c0349a23e2a3d0e479fe1ae",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "1529ca758ab72fe39bcc3669469469421565bbbf768764048bc35b78c3119568"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6624,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 2526,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 880,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "9104aafae9c3d048ba10b75bc9038d9b422d5a762eaa3e4bedc1897aac510b0e",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0880-native-caption-pair.png",
+        "file_sha256": "158890d21bda7235b19521325a280a0ce4dcbfa1cf1b99252b6f7c3019016810",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "23f9b732ae824ab15b800f3e7396924bdc45156888cec85b6c71b27fff04b682"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6824,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4322,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 881,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "505c548b4d02b61f9917a8e64370f2a55904489ef7eeb349d307cce513b14339",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0881-native-caption-pair.png",
+        "file_sha256": "a547b8a074652057ae3ab62586b94034282b638f8c7bc51157438ef786305c39",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "3710261b2c8d3e92e9d138ba7af626312ae9e46e3579f93fcf16c1b3c0dac235"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6782,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4063,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 882,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "bfa012a0fc1af2772b9969b25c0beeb6b24107924def10769171d2e176c523dd",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0882-native-caption-pair.png",
+        "file_sha256": "9d221ecdff89a4cd6079c813fb10f846b5c2b51c9c25dba58d3b698a7e87b3b6",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "6723091fffc79f28b0d3b4185268462d922ea4cc04fa3d2eb9b7f1f752909341"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6745,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4191,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 883,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "6e2d9dff907d9b62818808f8009243af3344e649795aee18089864961927edef",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0883-native-caption-pair.png",
+        "file_sha256": "f51e79cd8eb508dedade443ba7b1ae3d1ac0f2dc8ac37edb9c7ec0965c3d3110",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "624ccbb777f788838d54b320400db3ed1278828fffea16405407ff06cb51af11"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6737,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4078,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 884,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "9d4c93f6569a808c068828f6c3c388d518770388d4a1da52475b89f076e03744",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0884-native-caption-pair.png",
+        "file_sha256": "cc4b66b0ac84f9c959e2641f603483c78aea68c517e63e80f61c94bafe14f816",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "a00f4ac9fd49a3dfeeecb88a541e35346c796a817bc4199e937b0332c337e9e8"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6771,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4309,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 885,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "2af2c04b4c236ec1fdff97d2d55d30cee499ad49ffdddf040760fdb2192c2ab6",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0885-native-caption-pair.png",
+        "file_sha256": "233992005009e76fef6086d68cba0f7d8512ed4889361e76267940f7b541a6bc",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "e1dbf5146988aacbf23fad282d6fe2e8c9d3ce6c4bb34191b9cd39c51d3d8fc3"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6813,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4197,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    },
+    {
+      "frame": 886,
+      "saved_unaccepted_asset": "generated/root-continuation-f0880-v1.png",
+      "exporter_decoded_source_bgr_sha256": "fc5ad373fdee5ae2c3f40de29275f2df9692dd899694bd4a919815f2f693b00e",
+      "independent_24_frame_source_hash_match": true,
+      "native_pair": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\dance-caption-v8\\f0886-native-caption-pair.png",
+        "file_sha256": "dc3a699d621a5fac0a686348b2c7f4222c06a4e0b05b1e214148faee7ebbf0ef",
+        "size_wh": [
+          764,
+          93
+        ],
+        "rgb_pixel_sha256": "f7831a1e7c4ddda34e4c2867e9ebe44672b94e65da64b581fece3d1106e6cb17"
+      },
+      "native_pair_matches_exporter_hash": true,
+      "exporter_caption_diagnostics": [
+        {
+          "name": "dance_stable_donor_lyric_subset",
+          "rectangle": [
+            754,
+            954,
+            1136,
+            1047
+          ],
+          "source_bright_core_pixels": 6755,
+          "core_mismatch_gt30_pixels": 0,
+          "current_warm_candidates_outside_donor_alpha_pixels": 4425,
+          "scope": "stable donor subset only; not full glyph or contrast acceptance",
+          "alpha_reconstructed": true
+        }
+      ],
+      "exporter_undeclared_changed_pixels": 0,
+      "manual_page_reviewed": true,
+      "obvious_new_chinese_glyph_fragmentation_observed_at_viewed_2x_scale": false
+    }
+  ],
+  "manual_findings": [
+    {
+      "frames_inclusive": [
+        831,
+        838
+      ],
+      "observation": "Chinese bottom line remains readable and no new missing/fractured stroke was obvious at viewed 2x scale; Japanese center remains crowded by pale star lines."
+    },
+    {
+      "frames_inclusive": [
+        839,
+        847
+      ],
+      "observation": "Descending/front boot crosses the left lyric area. Chinese first characters remain in front of the brown boot/sole rather than erased; not all AA is source-exact."
+    },
+    {
+      "frames_inclusive": [
+        848,
+        867
+      ],
+      "observation": "Left front boot sits behind the first Chinese glyphs. Registered cream strokes remain visible over brown. Japanese left/top boot-cuff contact can be pale-on-pale."
+    },
+    {
+      "frames_inclusive": [
+        868,
+        872
+      ],
+      "observation": "New f868 shoe/pose underlay is present; Chinese first glyphs remain foreground with no obvious new break. Long rear hair remains an independent raw-art continuity issue."
+    },
+    {
+      "frames_inclusive": [
+        873,
+        879
+      ],
+      "observation": "Foot/cuff shape changes with the unfolded kick. Chinese left two characters remain present over the left boot, and the rest of the line remains legible; Japanese starts cross pale cuff with weak contrast."
+    },
+    {
+      "frames_inclusive": [
+        880,
+        886
+      ],
+      "observation": "Both boots enter opposite ends. Chinese left two characters lie over the left brown boot; the final two Chinese characters lie over the right brown boot. The visible strokes remain foreground without obvious new fragmentation. Japanese end glyphs cross cream cuffs and lose contrast; center star crossings remain reconstruction/contrast limits.",
+      "native_inspection_regions_xyxy": {
+        "chinese_left_boot_contact": [
+          754,
+          1006,
+          850,
+          1041
+        ],
+        "chinese_right_boot_contact": [
+          1040,
+          1006,
+          1136,
+          1041
+        ],
+        "chinese_center_star_crossing": [
+          884,
+          1006,
+          1016,
+          1041
+        ],
+        "japanese_left_pale_cuff_contact": [
+          754,
+          954,
+          858,
+          990
+        ],
+        "japanese_right_pale_cuff_contact": [
+          1025,
+          954,
+          1136,
+          990
+        ]
+      }
+    }
+  ],
+  "obvious_new_chinese_fragmentation_observed": false,
+  "confirmed_new_fragmentation_locations": [],
+  "verdict": "No obvious new fragmented Chinese glyph found within these reviewed static artifacts. Registered stable-subset numbers and fixed-phase support are not complete glyph acceptance, exact source alpha or a contrast/motion pass.",
+  "complete_glyph_acceptance": false,
+  "artistic_acceptance": false,
+  "actual_speed_watch_performed": false,
+  "core_or_selections_modified": false,
+  "limitations": [
+    "This review reads exporter-produced actual composites and pairs. It does not independently decode 56 original-video frames; only the earlier separate 24-frame actual source audit is cross-hash-checked.",
+    "All Chinese observations are static 2x nearest-neighbor page inspection, not OCR certification or inspection of every AA pixel.",
+    "The stable registered donor subset is narrower than full glyph geometry. Zero subset mismatches do not certify glyph counters, AA, contrast or exact original alpha.",
+    "Japanese glyphs over cream cuffs and moving pale star crossings remain hard to read; no complete Japanese glyph acceptance is claimed.",
+    "Four updated full images showed no obvious orphan cream waist dots, but existing pale hair wedges at f880 remain raw-art occlusion questions, not yellow-effect or caption-layer approval.",
+    "All underlying Klee drafts remain unaccepted for hair/costume/contour continuity. No full-speed watch or whole-PV completion is claimed."
+  ]
+}

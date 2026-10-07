@@ -1,0 +1,77 @@
+{
+  "job_id": "fast-fullpv-cyan-f0975-hair-v2",
+  "source_frame": 975,
+  "canonical_cel": "cel-0193",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-cyan-f0975-hair-v2.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-0b9a8dd2-d834-4611-ad0c-68c9775dc455.png",
+  "asset_sha256": "fc7d1c851ce87eb91ca7b5a7ed19d4120da07caa8e22a790f666eb8ee76f63c7",
+  "static_review": "Full corrected builtin output inspected. Near group leftmost edge moves from~333 to~478native px, restoring short persistent length/mass close to973; root stays at ear and lower tip lifts moderately. Closed-eye mouth/head/collar remain. No new lobe/third group/old source mask/limb. Do not claim non-hair pixels exactly locked; whole-image/native delta and original-speed review pending.",
+  "known_issues": ["Residual micro wind direction/amplitude and exact source face registration", "Tool edit may change outside the targeted hair; no pixel lock claim", "Final matte/glyph and original-speed artistic review pending"],
+  "blocking_static_findings": [],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0975-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0973-v1.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0973-f0975-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Existing current975 Klee edit target: only excessive near short ponytail length/volume",
+    "Previous973: same persistent short hair root/length/volume only",
+    "Actual current975 original: wind/pose not long-hair length",
+    "Actual973-to975 source spatial difference: modest wind direction/amplitude"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit image1, the existing CURRENT975 Klee full cel. ONLY correct the near ear-rooted SHORT ponytail's excessive length/volume; keep the complete head/face, closed eyelid/brow/tiny dot mouth, beret/feather, cheek, front fringe, plain two-leaf collar, coat, crop, and sky as they are. Do not reposition face or reframe. Image2 previous973 only defines this SAME persistent short ponytail's root and length/volume. Image3 current original975 defines modest source wind state, NOT original huge long hair. Image4 actual973->975 source A/B/contours shows a modest wind-tip change, not a new much longer hair sheet. Image1 current ponytail leftmost tip is WRONG at about x20% canvas; it elongated by more than100px. Keep its root tied behind same pointed near ear at approx x46% y53%, but shorten its horizontal extent by about25% so farthest left tip is approx x26-27% canvas, matching image2 original short group length. Maintain SAME compact neck-length mass, no thick long fan. Current wind tips may flatten/back-left slightly and lowest tip lift about15-20px relative image2, but must not acquire new length/volume or new lobes. Keep all locks connected at existing root, no detached hair, no third group, no new ribbon/bag/pompom. Keep all other image1 content and irregular PV outlines/color schema unchanged as much as possible; one full16:9 corrected current cel, no collage, no text, no transformation/morph/flow.",
+  "source_exposures": [
+    {
+      "start": 975,
+      "end": 978,
+      "pts": 40.625,
+      "end_pts": 40.75,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 978,
+      "end": 980,
+      "pts": 40.75,
+      "end_pts": 40.833,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0010631084442139,
+            -0.000008568673365516588,
+            -0.9812138080596924
+          ],
+          [
+            0.000008568673365516588,
+            1.0010631084442139,
+            -0.5378986597061157
+          ]
+        ]
+      }
+    }
+  ],
+  "repair_of": "fast-fullpv-cyan-f0975-v1",
+  "repair_reason": "Near ponytail horizontal extent grew roughly35-40% from previous, beyond modest source wind; do not propagate"
+}

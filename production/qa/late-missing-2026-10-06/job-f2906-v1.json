@@ -1,0 +1,119 @@
+{
+  "source_frame": 2906,
+  "source_cel": "cel-0524",
+  "source_candidate": "src-1630",
+  "output": "generated/late-f2906-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "blocked_static_unselected",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Produce ONE independent whole 16:9 hand-drawn cel by replacing the visible person in original IMAGE 1 with Genshin Impact Klee, preserving original scene, camera, exact body scale, placement, large empty margins and source action. Image1 full CURRENT original is sole pose, expression, direction and occlusion authority. Image2 native current figure crop makes current hands, pillow and feet visible; it is not a new framing. Image3 actual native local BEFORE/CURRENT, RGB difference x4 and blue-before/red-current contours controls the concrete changes. Image4 cropped Klee face is identity and simple palette ONLY, not eye state or head pose. Image5 adjacent Klee cel maintains short-pony topology, costume, source-like loose black lines and flat areas ONLY, not a frozen pose. CURRENT original, never previous Klee, determines new limb/eye state. Draw exactly two compact EAR-rooted short blonde side ponytails, no third loose rear lock; pale-blonde bangs, pointed ears, sleepy RED irises with small black pupils and white highlights when source open; fully shut eyes have no irises when source shut. Red beret with cream clover, small badge and white feather; simplified red coat/capelet, continuous plain cream trim/hem and PLAIN cream cuffs, brown continuous gloves and brown boots with cream upper trim. No scalloped cuffs or hem, no added coat/boot clovers or lettering. Keep SOURCE long limb proportions and garment hip level rather than shrink the person into chibi or lengthen coat. Replace rabbit sleep mask with Klee beret, not another mask. Keep exactly TWO source-visible hands. Preserve pillow at EXACT source polygon size, orientation and position, not enlarged. Pillow is lavender with original cream side edges; opaque pillow occludes torso, gloves and sleeves layer according to current SOURCE, no invented anatomy through pillow. Small brown backpack visible only where source/Klee turn genuinely allows. Match loose, sparse black contours and flat limited-color PV drawings, no polished splash art. Keep original purple background field; original source subtitle text removed cleanly to background, no generated words, glyphs, captions, numbers, logo or watermark. Compositor restores exact original captions/graphics later. Do not output contact sheet or diagram. CURRENT SOURCE details: f2906 starts a DIFFERENT upright front-standing gesture. Eyes BOTH FULLY CLOSED as two simple horizontal dark lids with NO iris, pupil or white eye, source mouth not visibly drawn so do not invent a singing mouth. Body upright with slight softly bent knees; both boots stay under body, separate and flat near ground, left-screen foot a little lower. Hold a LARGE HORIZONTAL lavender pillow diagonally across chest toward RIGHT at EXACT original native pose rectangle and cream side ruffle, not the previous small upright pillow against chin. Pillow top edge slopes up to right, right edge has original cream wavy ruffle that is PROP, not clothing cuff. Left-screen NEAR sleeve comes from left shoulder, elbow left, forearm crosses horizontally RIGHT in FRONT of pillow; near brown glove spreads fingers gripping the middle-left pillow face/edge. Right-screen FAR glove grips TOP-RIGHT pillow corner with exactly source's protruding curled fingers above corner; its sleeve/forearm hidden BEHIND pillow, do not invent an exposed far arm. Gloves are continuous brown, no bare source hands. Exactly two compact ear-root blonde ponies; same simple red costume plain cuffs and cream hem, cream cheek-colored small shirt collar. Original pillow occludes torso; preserve front glove ABOVE pillow and far arm BELOW pillow. This new source pose overrides previous leaning open-eyed Klee identity reference.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2906-source-actual.png",
+      "role": "CURRENT original sole framing pose occlusion authority"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2906-source-pose-native.png",
+      "role": "native CURRENT entire figure and pillow details not output crop"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2847-f2906-source-locals-native.png",
+      "role": "native source local actual A/B RGB and contours current red"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee face identity only not pose or eye-state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f2825.png",
+      "role": "nearby Klee topology line color only MUST change to upright closed eyes and horizontal pillow"
+    }
+  ],
+  "all_references_actual_viewed": true,
+  "whole_source_delta_saved_and_actual_viewed_not_submitted": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-missing-2026-10-06\\f2847-f2906-source-ab-rgb-contours.png",
+  "source_exposure_strategy": "strict_source",
+  "source_exposures": [
+    {
+      "start": 2906,
+      "end": 2911,
+      "pts": 121.083,
+      "end_pts": 121.292,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 2951,
+      "end": 2955,
+      "pts": 122.958,
+      "end_pts": 123.125,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 2994,
+      "end": 2999,
+      "pts": 124.75,
+      "end_pts": 124.958,
+      "family": "standing_pillow",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Closed eyes, upright body and source horizontal tilted pillow occlusion present, near glove foreground brown. Far top-right gripping hand remains bare source skin, serious replacement inconsistency; preserve unselected variant, one bounded whole-cel correction follows. No compositor or actual-speed review, accepted false.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10f41-d625-7081-823e-717bc8ebded2\\exec-f5235c20-31a5-4fc8-ad4e-0392a39428b0.png",
+  "output_sha256": "ae2e1206ad62ddcfba27a3d18273c8dcbbcffa27adad5e5c8c2d554df217067c",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

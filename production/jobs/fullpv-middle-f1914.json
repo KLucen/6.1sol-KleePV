@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f1914",
+  "source_frame": 1914,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1015-f1914.png",
+  "prompt": "Use case: identity-preserve. Independent strict-source PV cel f1914. Edit image1 CURRENT SOURCE as sole camera, pose, expression, crop and occlusion authority. Image2 prior Klee f1901 gives ONLY hair/beret/costume/flat-line continuity. Image3 actual source1901->1914 RGBdiff and blue/red contours: RIGHT is current target. Keep full1920x1080 lavender scene and source small right captions. Independently redraw this actual source drawing: CLOSED thin diagonal eyelids and small lower mouth, head leaning down-left, no iris visible/no invented smile; follow source outline/crease changes shown in spatialdiff. Single character sits left torso upright/slouched, supporting hands down flat by hips, TWO straight parallel legs extend diagonally down-left. Exact current source hand/hip/foot projection and length; don't bend/cross legs or copy previous geometry. Replace ALL original people outfit with Klee: TWO short blonde side ponytails by pointedears, red clover beret brown band whitefeather replacing rabbit mask completely, no double hat/mask remnants/long peach hair. Redcoat creamcollar pompom plaincreamcuffs creamhem with minimal lower clover, brown supporting gloves. Creamshortbloomers upperthighs, small pale knee gaps and two brownboots at current source feet; absolutely no peach pajamapants or longcreamtrousers. Source mouth and cheeks remain exact current expression. Simple thick wobbly black PV line, flat fills/simple source hard shade, no gradient glossy texture. No added actors or props. Preserve captions/background for later source compositor.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1015-f1914.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1901.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1901-f1914.png"
+  ],
+  "reference_roles": [
+    "current source drawing sole pose/expression/crop/occlusion authority",
+    "previous Klee identity costume and style continuity only",
+    "actual adjacent source RGBdifference contours; RIGHT current"
+  ],
+  "output": "generated/fine-f1914.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-cdb58d09-d22d-48a5-8961-44d487122059.png",
+  "output_sha256": "4e93d852738aa9bc93a2fe9cab10e11850cef24722437d98f246b03fd1dff736",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

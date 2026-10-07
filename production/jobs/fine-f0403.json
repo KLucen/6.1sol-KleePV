@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-20a1bd77-f8ff-4b84-9b08-d73bf0ddb765",
+  "canonical_cel": "cel-0063",
+  "source_frame": 403,
+  "family": "kneeling_props",
+  "tool": "builtin imagegen",
+  "prompt": "Use case identity-preserve. ONE full16:9 sourcePV exit animation cel f0403. Reference1 CURRENT source is absolute crop/visible-fragment geometry. Reference2 earlier Klee hair-exit cel008 is blonde color/flat outline identity style ONLY; its huge wide hair shape and puff are NOT current pose and MUST NOT be copied. Reference3 actual source A/B delta CURRENT top-right shows almost entire character has gone BELOW frame, not an output sheet. Replace current visible pink hair tips with pale-blonde Klee hair tips, same loose black outline/simple flat source-like small shadow. There is NO face, hat, eye, ear, hand, clothing, backpack or body visible and none may be invented. CURRENT shows ONLY a small THREE-spike cropped hair fragment entering along BOTTOM center-left: about x32.4%-54.7% of full canvas, tallest slender spike at x47.9%, top76.9%height, slanted second narrow spike around41.6%/80%, short outer lobe around33.7%/90.6%. Hair extends beyond bottom, nothing else. Keep its exact current silhouette/crop/position, do not expand across entire bottom or bring previous entire head back. No cream puff, since original current has none. Rest of FULL canvas uniform source purple. No captions/letters/lyrics/credits/watermark/annotation. Preserve full16:9 canvas, not a closeup crop or sheet.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0127-f0403.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-008.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0403.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0403.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0399 to f0403: 304291 pixels >=28; entire broad hair-exit shape disappears below frame leaving only small center-left three-spike fragment, no remaining puff.",
+  "inspection": "Only small blonde three-spike bottom fragment, no invented face/hat/body and no puff, source actual visibility retained. Top and left positions broadly correct; right fragment edge about1 percent canvas wider than source. Slight outline width/crop QA flag, no text, sequence pending."
+}

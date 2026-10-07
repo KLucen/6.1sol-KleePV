@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0099",
+  "source_frame": 99,
+  "source_candidate": "src-0035",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0035-f0099.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0095.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0099.png"
+  ],
+  "prompt": "ONE full16:9 Klee replacement animation cel. Current original image1 determines exact pose/crop/occlusion and independent line redraw. PreviousKlee2 keeps SAME identity/outfit proportions/colors/hatfeather side/two short ponytails/PV style only. Image3 original BEFORE/CURRENT spatialdifferences, upper-right current, no analysispanels output. Sameheldpose: bothforearms raised nearlyvertical, brown gloves grip opposite sides of clock with spreadfingers over itsfront display; clock covers BOTH EYES, tiny closedcaret mouth/orangecheek fragments below. Current separatehanddrawn shapes change nearcuff curves, fingertips, upper sleeve/shoulder crease, bangs and pillow border veryslightly; use source current contours and pressure not exact frozenprevious. Do not invent a new action or exposefull eyes. Torso upright with slightdiagonal rightlean, BOTH legs straight extended down-right clippedbottom, same Klee redcreamcoat length/hem/shorts/capelet/backpack. Same redberet/creamclover/whitefeather side, pointedears, blondebangs/TWO SHORT sideponytails. Diagonal lavenderpillow remains behind head, gloves IN FRONT of clock, source current clocksize/tilt unchanged. NO subtitles/titles/credits/labels/lettering anywhere, blankclockdisplay forsource restoration. Flat handdrawn loose darkcontours/simplepatches/oneshade, no graypajamas/rabbit hood/pockets, addedlimb orzoom/mirror.",
+  "output": "../generated/fine-f0099.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

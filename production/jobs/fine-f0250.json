@@ -1,0 +1,19 @@
+{
+  "job_id": "exec-3755cfab-a551-4267-bc8a-6f606ad78dbb",
+  "canonical_cel": "cel-0038",
+  "source_frame": 250,
+  "family": "pillow_face_occlusion",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV source f0250 replacement. Reference1 CURRENTpose authority; reference2 Kleeidentity/styleonly; reference3 actualsource246→250 diff explainsnewblocking. This is NEW pillowlowered-acrossENTIREFACE pose: purplepillow fromleftupper(x49%,y26%) to rightupper(x93%,y8%), bottomleft(x56%,y74%) bottomright(x99%,y53%); full sourcepanel/creamruffles/blueshadows. All face/eyes/mouth/neck HIDDEN; ONLY TOPofheadgear visible ABOVEpillow. Replace visible pinksleepmask/hairedheadcrest with Klee REDberet creamclover/whitefeather confined to samevisibleheadregion, do NOTshowface/chin/eyes or extraheadbelowpillow. Klee redcreamcoat visiblebelowpillow, exactly source leftelbow nowLOWERwidebentnearx40%,y78%, creamcuff nearx46%,y65%; left BROWNglove is open slightlyspreadfingers against left pillowedge nearx51%,y56%, NOTold vertical curledgrip. Rightbrownfingersfrontofedge clippedrightnear99%,y38%, sourcecurrentcuffoutsideframe. Twofullbrown gloves no skintips, pillowFRONT ofcharacter, glovesFRONT ofruffles. Preserve smallCREAMPUFFeffectfloatingleftofpillow nearx40%,y42%, nothand or accessory. Full lavendercanvas, remove ALLcaptions/letters/text. LooseblackPVoutlines/broadflatcolors/minimalshadows. ShorttwoKleeponytails only ifsourcevisibilitypermits, no longrearhairwings/addedprops.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0074-f0250.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0250.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0250.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "New headgear-only visibility over lowered pillow, glovehands spread vs curledgrip, leftelbow lower, cream puff added. Diff632413 pixels>=28.",
+  "inspection": "Correct pillow completely hides face, headgear top only, spread glove/cuff and cream puff retained. QA FAIL extra duplicated rearblond wings below both armpits despite prompt; fourpony appearance requires targetedrepair. Sourcegeometry broadened a little. Draft not accepted."
+}

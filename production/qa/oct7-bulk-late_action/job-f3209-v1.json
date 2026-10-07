@@ -1,0 +1,82 @@
+{
+  "source_frame": 3209,
+  "cel": "cel-0575",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Actual3207-to3209 is mostly HELD original person and foreground stars with small background star movement. CURRENT source now face at screen-right, torso upright slight tilt, TWO sleeves crossing diagonally above head toward upper-left; front screen-left sleeve diagonally across crown and back screen-right sleeve behind crown. Two hands at upper-left top are triangular open palms, NOT rounded fists; translate as two simple BROWN mitten-shaped triangular open gloves matching source silhouette, fully within top. Large left foreground star hides left elbow/upper sleeve; right foreground star covers right torso, lower-left foreground star cropped. Round half-open eyes and tiny diagonal O mouth; two SHORT Klee tails rooted behind arms, no third hair tuft. Prior image costume too ornamental: use flat plain cream collar/cuffs and simple coat only, no patterned chest, no imported text/backpack.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1761-f3209.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-097.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3207-f3209-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3209-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "e9885a6db27c0a3c07c3c486edf0dba555222a34e16d3eee8e0a7dc2bb0fd7c0",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "c68f9129d9354d495ac6780473cf31f2e19086abfb0ccfa24b33075e17c9b438",
+    "cc2819aae4ec15a802966a8be4c2f202dca684b6ffee6ddd8f0298994fea985f",
+    "7b68cc6ab49a7b8efe916a43afa2f2b4539215860101d8b8972eec48eb48c602"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3209-v1.png",
+  "source_exposures": [
+    {
+      "start": 3209,
+      "end": 3212,
+      "pts": 133.708,
+      "end_pts": 133.833,
+      "family": "yellow_star_burst",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Actual3207-to3209 is mostly HELD original person and foreground stars with small background star movement. CURRENT source now face at screen-right, torso upright slight tilt, TWO sleeves crossing diagonally above head toward upper-left; front screen-left sleeve diagonally across crown and back screen-right sleeve behind crown. Two hands at upper-left top are triangular open palms, NOT rounded fists; translate as two simple BROWN mitten-shaped triangular open gloves matching source silhouette, fully within top. Large left foreground star hides left elbow/upper sleeve; right foreground star covers right torso, lower-left foreground star cropped. Round half-open eyes and tiny diagonal O mouth; two SHORT Klee tails rooted behind arms, no third hair tuft. Prior image costume too ornamental: use flat plain cream collar/cuffs and simple coat only, no patterned chest, no imported text/backpack.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11444-1f48-73f3-9364-3aa1516f5c3d\\exec-d9b2ef93-a371-416b-8a10-7ac6edb1ef65.png",
+  "output_sha256": "fa444e5c7f2f3d142f50b31047a69931f66f5750750d47f6087276677a32ad57",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output actually viewed: two crossed sleeves above crown toward upper-left, both triangular brown mitten gloves and large front-left/right stars occlude respective sleeve/torso. Source following overall but glove tips nearly top-clipped unlike native source margin, wider eyes and mouth vs source, collar central pom and floral buttons persist, three-looking left/right short tufts possible. Unaccepted static draft, no temporal/compositor acceptance.",
+    "accepted": false
+  }
+}

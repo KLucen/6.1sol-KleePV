@@ -1,0 +1,31 @@
+{
+  "job_id": "fine-f0945",
+  "source_frame": 945,
+  "source_candidate": "src-0484",
+  "source_cel": "cel-0182",
+  "family": "cyan_profile",
+  "prompt": "Use case: precise-object-edit. ONE full 16:9 hand-drawn PV replacement cel. Image1 is exact CURRENT TARGET source frame and controls camera/crop, pose, eye state, mouth, position, proportions, occlusion and color grade. Image2 is nearest Klee SAME-SHOT cel for identity, costume and line consistency ONLY; do not copy its pose/camera instead of source. Image3 is actual before/current SOURCE spatial difference sheet, for local shape changes only; output is never a montage or delta diagram. Replace EVERY original person/fragment with Genshin Impact Klee default Shooting Spark: pale blonde short twin ponytails, pointed ears, red beret creamclover whitefeather, redcream coat, brown gloves/boots/backpack only if actually visible. Keep source simple thick uneven dark lines, flat minimal colors, at most one shade. Apply source cool cyan/blue NIGHTGRADE to main figure, hat/coat dark muted red-purple, blonde hair cool lightblue, red irises MUTED RED under bluegrade, no source-green or blue iris. Preserve one OPEN slender foreshortened eye, tiny closed DOT mouth, right-facing STRICT PROFILE and calm forward/upward gaze unless specific target says otherwise. No smile, no extra eyes, no invented hands/legs/torso outside source crop. Blue/purple starry sky, crescent and tiny stars remain at original positions to best tool accuracy. REMOVE ALL subtitles/title/credits/lettering; clean collar/coat/background under letters. No text, no extra panels, no new objects, no glow or detailed restyling. Match local contour changes shown by source difference, don't merely hold preceding Klee drawing. Frame945 genuine new wind position: source near-side hair is more diagonally straight on upper/middle segment from cheek to lower RIGHT elbow, then curves down to a longer nearly vertical sharp tip at collar; sky gap behind it is taller and narrower. Redraw Klee front lock with straighter diagonal midsection and lower elbow opening, lower tip slightly lower/closer to pom, same hair root and length. Eye-adjacent tiny bang curved tip turns RIGHT near open eye; front bang broad plane tips slightly UP/right in source, translate into Klee fringe local contour. Source back hair swings inward/right below ear, retarget SHORT Klee ponytail as slight DOWNWARD rotation of same intact lobes with unchanged root/size/volume; do NOT shrink its hair or add points. Preserve hat/head/profile/eye/mouth positions and all fixed costume elements from current source/adjacent Klee as appropriate. One OPEN muted-red iris, DOT mouth, no extra eye or hands/person. Cheek lock must correctly cover collar with visible blue/neck gap behind it; shoulder bottom-cropped. NO text.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0484-f0945.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0939.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\cyan-f0939-f0945.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0945.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-3550811d-6c2a-47bd-8ec5-c1178d99a8be.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Straighter diagonal front lock with lower elbow and narrow gap behind collar",
+      "One open muted-red iris and dot mouth; no lettering/extra actor/hands",
+      "Hat feather and clover, ear behind hair, front lock over collar remain"
+    ],
+    "flaws": [
+      "Near-side lock becomes substantially longer in replacement; root/length continuity may need targeted refinement",
+      "Rear ponytail does not clearly rotate down as requested, largely holds neighbor",
+      "Pom/coat collar geometry drifts with hair changes; source alignment and speed QA pending"
+    ]
+  },
+  "temporal_review": "pending"
+}

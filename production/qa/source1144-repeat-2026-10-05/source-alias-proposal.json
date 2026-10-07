@@ -1,0 +1,277 @@
+{
+  "accepted": false,
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "source_sha256": "27b5b242fe6ea8f93ae3ce4d794451aa78a25d1796c45f3bbc3b46b17ed880b7",
+  "source_frame": 1144,
+  "source_candidate": "src-0676",
+  "source_cel": "cel-0243",
+  "verified_target_frame": 1140,
+  "verified_target_candidate": "src-0672",
+  "verified_target_cel": "cel-0242",
+  "source_exposures_unchanged": [
+    {
+      "start": 1144,
+      "end": 1147,
+      "pts": 47.667,
+      "end_pts": 47.792,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "target_exposures_unchanged": [
+    {
+      "start": 1140,
+      "end": 1144,
+      "pts": 47.5,
+      "end_pts": 47.667,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "transform": {
+    "kind": "identity",
+    "matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "character_only_reuse": true,
+  "background_and_captions_keep_each_original_frame": true,
+  "semantic_reason": "All actual f1140..1146 were sequentially decoded, compared to exact saved source references, and visually reviewed as native character crops. Closed eyelid strokes, tiny mouth dot, the clasped hands directly in front of the mouth, overlapping cuffs and crossed sleeves, hat/hair roots and tips, button/pocket/hem seams, trouser cuffs and shoe outlines coincide. Actual RGB and dual contours show no coherent character movement; residual color/one-pixel edge strips are codec noise. The lyric changes at f1144 and the stars continue moving independently. Reuse only the character drawing for [1144,1147), never its earlier subtitle/background plate.",
+  "all_actual_source_exposure_frames_viewed": [
+    1140,
+    1141,
+    1142,
+    1143,
+    1144,
+    1145,
+    1146
+  ],
+  "actual_viewed_files": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-full-native-ab.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-character-native-ab.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-character-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-01.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-02.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-03.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1140-f1141.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1142-f1143.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1144-f1145.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1146-f1146.png"
+  ],
+  "view_scale": "Native character AB/RGB/contours, local pages and exposure pages were displayed without scaling. The full-frame AB overview alone was resized from 3840x1112 to 2048x593; it is not the basis for native local identity approval.",
+  "proof_files": {
+    "full-native-ab": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-full-native-ab.png",
+      "sha256": "c88e6a6a222cdcfd47f13499f733a56cef0eb77bb8c8307ce714dafd4215a55c"
+    },
+    "full-rgb-contours": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-full-rgb-contours.png",
+      "sha256": "bc2704bb8107d1c602050663f6641e7a212341a98c0c93d7e229116be780879a"
+    },
+    "character-native-ab": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-character-native-ab.png",
+      "sha256": "92303204d3ff8d368a641e937dfa32906d6603909a26ef1f72d45ea37ba49281"
+    },
+    "character-rgb-contours": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-character-rgb-contours.png",
+      "sha256": "ea10f4ba9b07c1436c2d443884bb9c3740c9ea87b75feaec28075cc81e42eb55"
+    },
+    "locals-page-01": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-01.png",
+      "sha256": "7379024a2e216361e4e8e22027f3768547fe8acddd3451d3d5013a56ac4c3d32"
+    },
+    "locals-page-02": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-02.png",
+      "sha256": "317b044e9024b46ae374d53c6b21f533248cfd0300d2cfe5fc9a287693b841f7"
+    },
+    "locals-page-03": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-03.png",
+      "sha256": "c66a690358ac969163e74200cdaf1c57b75083ba2ce2306732e10f1eb519283f"
+    }
+  },
+  "proof_exposure_pages": [
+    {
+      "frames": [
+        1140,
+        1141
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1140-f1141.png",
+      "sha256": "79af026be89e43c2f75f84537f68ec5ae43812f446a31869d31effe3762ed534",
+      "native_pixels_not_scaled": true
+    },
+    {
+      "frames": [
+        1142,
+        1143
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1142-f1143.png",
+      "sha256": "2d9d08c1ff18a870dc6304d54fa47bda20bf2f9ee8574d8850ed61756b66d4d6",
+      "native_pixels_not_scaled": true
+    },
+    {
+      "frames": [
+        1144,
+        1145
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1144-f1145.png",
+      "sha256": "9153fcfa7ef18125eb17d8e7c6d0896ebae60463d37e010bb1eef9759109c94c",
+      "native_pixels_not_scaled": true
+    },
+    {
+      "frames": [
+        1146
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1146-f1146.png",
+      "sha256": "220f6461104f5c284bbab80d4d129b0522db6ee9b3a6ec28ca565fcd98ce530c",
+      "native_pixels_not_scaled": true
+    }
+  ],
+  "evidence_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\source-evidence.json",
+  "evidence_sha256": "758d69921e3fc3796eb9d283e75b6320ba89cf2eed0cc3cadb1b6032d1504a62",
+  "worker_review": "source_semantic_visual_review_complete",
+  "root_review": "actual_visual_review_required_before_adoption",
+  "mapping_available_only_after_target_art_selected": true,
+  "artistic_accepted": false,
+  "alias_created": false,
+  "original_speed_review": "not_performed",
+  "1133_metadata_and_current_target_check": {
+    "proposal": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\source-alias-proposal.json",
+      "sha256": "7751833716d4610cdd4ac611e16e14fe2163adba66e366cf2306a9a65498ccb3"
+    },
+    "evidence": {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\source-evidence.json",
+      "sha256": "b171d4b6aa8fecc67afd722a798660455abd2b65f91b14673011d361f742d857"
+    },
+    "source_interval": [
+      1133,
+      1134
+    ],
+    "target_interval": [
+      1129,
+      1133
+    ],
+    "actual1129_1133_source_matches_new_sequential_decode": true,
+    "root_review_files": [
+      {
+        "role": "full-native-ab",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-full-native-ab.png",
+        "sha256": "4278821413be136b8615165a8de446472b999a9c95c18165bdb94d932cf17b8e"
+      },
+      {
+        "role": "full-rgb-contours",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-full-rgb-contours.png",
+        "sha256": "c0996c628fe661bb4c3923b19a54ec39d7247582d673d1ef9a77259a10aff57d"
+      },
+      {
+        "role": "character-native-ab",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-native-ab.png",
+        "sha256": "dbf952fa651e77d63b3bb33218d4128b968f4c8e5486db3fb55a52a3c6f0d347"
+      },
+      {
+        "role": "character-rgb-contours",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-rgb-contours.png",
+        "sha256": "67615e2a717ff377653ee21c73a58a5eae474846fd428d48bb918b50b4f637c3"
+      },
+      {
+        "role": "locals-page-01",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-01.png",
+        "sha256": "ffec23d4b285ab1a511bb15ba98f0b742df990ac071207ca8cd811779685a291"
+      },
+      {
+        "role": "locals-page-02",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-02.png",
+        "sha256": "a430ed1e06df01d106559ca3a2fc5732e1f20a377423a711498b2ac776a524d5"
+      },
+      {
+        "role": "locals-page-03",
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-03.png",
+        "sha256": "6ddcc380bc12077cb4f051c580d121e57d506f66ed21300eca82dbe1c2aaf00b"
+      },
+      {
+        "role": "all-exposure-page",
+        "frames": [
+          1129,
+          1130
+        ],
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1129-f1130.png",
+        "sha256": "7ac9f657f595a33d9cbbc43f5c81e037e5bd4c40252231cad101e6166bc77d2f"
+      },
+      {
+        "role": "all-exposure-page",
+        "frames": [
+          1131,
+          1132
+        ],
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1131-f1132.png",
+        "sha256": "0c00c4f598e65a476b2db1b863af17e1f89c1b7034dbc8877243b3d9faf16277"
+      },
+      {
+        "role": "all-exposure-page",
+        "frames": [
+          1133,
+          1134
+        ],
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1133-f1134.png",
+        "sha256": "cb23611695605c9430f2afdd44a6fe33828193872e5d3257274336a5399eba2d"
+      }
+    ],
+    "currently_selected_target": {
+      "source_frame": 1129,
+      "path": "generated/star-f1129-source-keypose-redraw-v2.png",
+      "job": "jobs/star-f1129-source-keypose-redraw-2026-10-05-v2.json",
+      "review": "root_static_only; Vertical overlapped clasp below chin now drawn; coherent two crossing sleeves/cuffs and exactly two hands; Closed caret mouth, two rooted shoulder ponies, upright grounded legs",
+      "known_issues": [
+        "Extra clover coat ornaments, boot trim and frontal forelock differ from plain preceding style",
+        "Red iris lacks distinct pupil/highlight; narrowed eyelids approximate current source",
+        "Head/hem vertical registration and knee shading differ; no composite or actual-speed acceptance"
+      ],
+      "accepted": false,
+      "adoption": "root_missing_first_draft_only",
+      "reviewed_by": "root",
+      "output_sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+      "original_speed_review": "not_performed"
+    },
+    "target_selected_draft_not_accepted": true,
+    "root_actual_visual_review_required": true
+  },
+  "no_art_or_shared_file_writes": true,
+  "limits": "Original source identity evidence only. Does not accept generated artwork, a caption compositor, or motion at actual speed."
+}

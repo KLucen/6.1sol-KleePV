@@ -1,0 +1,212 @@
+{
+  "source_frames": 3658,
+  "actual_pts_count": 3658,
+  "raw_candidates": 2160,
+  "independent_cel_candidates": 689,
+  "source_exposures_with_motion": 938,
+  "merge_types": {
+    "independent_candidate": 1334,
+    "codec_copy_of_representative": 750,
+    "same_drawing_with_source_layer_translation": 76
+  },
+  "families": {
+    "back_side_turn": {
+      "cels": 25,
+      "candidates": 73,
+      "first_frame": 1901,
+      "last_end_frame": 3087
+    },
+    "blank_transition": {
+      "cels": 3,
+      "candidates": 4,
+      "first_frame": 1771,
+      "last_end_frame": 3071
+    },
+    "blanket_closeup": {
+      "cels": 9,
+      "candidates": 29,
+      "first_frame": 1680,
+      "last_end_frame": 1771
+    },
+    "curled_floating": {
+      "cels": 5,
+      "candidates": 28,
+      "first_frame": 2542,
+      "last_end_frame": 2655
+    },
+    "cyan_profile": {
+      "cels": 55,
+      "candidates": 109,
+      "first_frame": 911,
+      "last_end_frame": 2253
+    },
+    "dive_prone_alternation": {
+      "cels": 9,
+      "candidates": 44,
+      "first_frame": 2655,
+      "last_end_frame": 2784
+    },
+    "ending_closeup": {
+      "cels": 23,
+      "candidates": 128,
+      "first_frame": 3530,
+      "last_end_frame": 3658
+    },
+    "face_reaction": {
+      "cels": 18,
+      "candidates": 44,
+      "first_frame": 287,
+      "last_end_frame": 395
+    },
+    "feet_closeup": {
+      "cels": 22,
+      "candidates": 28,
+      "first_frame": 3219,
+      "last_end_frame": 3267
+    },
+    "floating_turn": {
+      "cels": 15,
+      "candidates": 35,
+      "first_frame": 2784,
+      "last_end_frame": 2906
+    },
+    "front_small": {
+      "cels": 17,
+      "candidates": 40,
+      "first_frame": 707,
+      "last_end_frame": 785
+    },
+    "hand_face_gestures": {
+      "cels": 14,
+      "candidates": 54,
+      "first_frame": 3476,
+      "last_end_frame": 3530
+    },
+    "hat_closeup": {
+      "cels": 12,
+      "candidates": 47,
+      "first_frame": 1539,
+      "last_end_frame": 1646
+    },
+    "kneeling_props": {
+      "cels": 20,
+      "candidates": 44,
+      "first_frame": 395,
+      "last_end_frame": 504
+    },
+    "long_seated": {
+      "cels": 7,
+      "candidates": 24,
+      "first_frame": 1787,
+      "last_end_frame": 1901
+    },
+    "medium_gestures": {
+      "cels": 30,
+      "candidates": 127,
+      "first_frame": 2409,
+      "last_end_frame": 2542
+    },
+    "opening_pillow": {
+      "cels": 4,
+      "candidates": 13,
+      "first_frame": 0,
+      "last_end_frame": 38
+    },
+    "pillow_face_occlusion": {
+      "cels": 12,
+      "candidates": 19,
+      "first_frame": 210,
+      "last_end_frame": 287
+    },
+    "prone_pillow": {
+      "cels": 25,
+      "candidates": 116,
+      "first_frame": 536,
+      "last_end_frame": 707
+    },
+    "raised_arms_closeup": {
+      "cels": 14,
+      "candidates": 63,
+      "first_frame": 1222,
+      "last_end_frame": 1285
+    },
+    "sack_closeup": {
+      "cels": 7,
+      "candidates": 20,
+      "first_frame": 504,
+      "last_end_frame": 536
+    },
+    "seated_title_credits": {
+      "cels": 27,
+      "candidates": 78,
+      "first_frame": 1285,
+      "last_end_frame": 1502
+    },
+    "shout_closeup": {
+      "cels": 11,
+      "candidates": 13,
+      "first_frame": 785,
+      "last_end_frame": 812
+    },
+    "shout_zoom": {
+      "cels": 19,
+      "candidates": 48,
+      "first_frame": 2009,
+      "last_end_frame": 2057
+    },
+    "small_rest_pose": {
+      "cels": 5,
+      "candidates": 6,
+      "first_frame": 1502,
+      "last_end_frame": 1539
+    },
+    "small_seated": {
+      "cels": 4,
+      "candidates": 11,
+      "first_frame": 1646,
+      "last_end_frame": 1680
+    },
+    "standing_pillow": {
+      "cels": 36,
+      "candidates": 95,
+      "first_frame": 38,
+      "last_end_frame": 3055
+    },
+    "star_dance": {
+      "cels": 89,
+      "candidates": 291,
+      "first_frame": 812,
+      "last_end_frame": 3390
+    },
+    "star_gestures": {
+      "cels": 118,
+      "candidates": 443,
+      "first_frame": 1007,
+      "last_end_frame": 3476
+    },
+    "wink_closeup": {
+      "cels": 5,
+      "candidates": 5,
+      "first_frame": 2253,
+      "last_end_frame": 2264
+    },
+    "yellow_star_burst": {
+      "cels": 41,
+      "candidates": 81,
+      "first_frame": 3087,
+      "last_end_frame": 3219
+    }
+  },
+  "coverage_errors": [],
+  "review_limits": [
+    "Every source frame was decoded. Numerical candidates were visually inspected as full-frame contact sheets; numerical equivalence is not complete art approval.",
+    "Small coherent RGB/outline/eye/hand differences above the calibrated codec floor are retained.",
+    "Repeated drawings may have confirmed source rigid layer/camera motion. Their matrix is source evidence, not non-rigid character interpolation.",
+    "Family boundaries are semantic labels and can straddle transitional composite shots.",
+    "Moving source stars and subtitles are excluded from drawing equivalence and must be preserved per source frame when compositing.",
+    "These analysis masks are not production character mattes: pale costume/skin/props can share the ignored source effects palette.",
+    "Two-character composite source frames are retained conservatively when their characters move separately; a whole-frame rigid match cannot prove independent layer identity.",
+    "Cyan inserts and source zooms include fine changes that need adjacent-frame review at full resolution.",
+    "Do not equate the number of source drawing candidates with the number of artist-approved replacement drawings."
+  ]
+}

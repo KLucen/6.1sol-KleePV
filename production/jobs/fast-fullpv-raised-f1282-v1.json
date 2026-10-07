@@ -1,0 +1,51 @@
+{
+  "owner": "raised_closeup_batch",
+  "source_frame": 1282,
+  "cel": "cel-0276",
+  "mode": "strict_source",
+  "tool_mode": "builtin_image_gen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "prompt": "Use case: identity-preserve. Asset: independent Klee PV replacement cel f1282, full 1920x1080 composition. Image 1 is edit target and ONLY pose/zoom/crop/expression/background authority. Image 2 is the same-shot Klee closeup f1261 for short low twin ponytails, beret, feather, glove and head proportions only, not closed eyes or garment decorative patterns. Image 3 is actual source f1278/f1282 RGB and two-color contours, showing mouth becoming an unbroken narrow vertical O, slightly more upright head and changes to collar/arm folds; not an artwork layer. Image 4 Klee f1256 is simpler plain two-leaf collar and red coat style continuity ONLY, not its wide crop or closed eyes. Completely replace original pink-haired girl and animal hat by Klee: blonde simple bangs, exactly two short attached neck-side ponytails, pointed ears, red beret cream clover with one white feather, red sleeves and cream cuffs, brown gloves. Keep source f1282 close zoom and modest clockwise head lean, large half-open vertical eyes with thick sleepy upper lids. Klee eye interiors dark RED upper half and muted pink-red lower half, NOT source blue-gray; keep source little curl highlights but no extra pupil added. Tiny narrow CLOSED-outline vertical O mouth, orange blush. Both raised sleeves run diagonally to side boundaries exactly like image 1; left brown glove base is visible and exits far left, right cuff and glove base exit right. Do NOT invent visible fingers or hands outside the source crop, exactly two raised arms, no extra limbs. Hat/head size follows source target not image 2 extrapolation. Short side ponytails rooted behind ears, no long hanging waist tails, no detached cream limb shapes. Simple flat source-PV colors, loose black outlines, minimal one source-like shadow patch, not glossy game art; plain cream collar, no ornate fabric diamond fill. Keep current purple stars and background, no new props. Remove all text from art image; exact source Chinese/Japanese lyric pixels will be restored as a separate layer in time. No original pink hair, animal mask, gray sleeves or bare wrists left.",
+  "referenced_image_paths": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0814-f1282.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-046.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1278-f1282.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1256-v1.png"
+  ],
+  "reference_roles": [
+    "edit_target_source_pose_crop_expression_background",
+    "existing_closeup_Klee_1261_identity_not_pose_or_pattern",
+    "actual_source_RGB_contours_1278_to_1282",
+    "new_wide_Klee_1256_plain_collar_coat_only"
+  ],
+  "intended_output": "generated/fast-fullpv-raised-f1282-v1.png",
+  "exposure": [
+    1282,
+    1285
+  ],
+  "selected_draft_proposed": true,
+  "static_review": {
+    "source_action": "Tall open sleepy eyes, modest clockwise lean, tiny closed vertical O, wrists and sleeves clipped at sides.",
+    "result": "RED tall eyes, tiny O, two short rooted blonde side groups, correct side crop/no invented fingers, plain two-leaf collar.",
+    "blocking_confirmed": [],
+    "issues": [
+      "Cream collar and mild shading differ from decorated existing closeup candidate-046/047.",
+      "Eye interiors use large dark red upper fill/curl highlight rather than separately centered pupil."
+    ]
+  },
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-f9e0a35e-854c-43d0-900b-18afdd363a59.png",
+  "observed_call_seconds": 40.0,
+  "output_sha256": "d60e4b21a9855f93cc252ff6962fc41adcd027a175a73109e5a164b76430aaf6",
+  "output_canvas": [
+    1672,
+    941
+  ],
+  "canvas_note": "Native tool output retained; compositor normalizes to source 1920x1080 canvas",
+  "reference_sha256": {
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0814-f1282.png": "6e99cbfa8fc0ce510e222edce01da0550566bfd22e31f3fc2fd95f2657ceb59f",
+    "C:/Users/KLucen/Desktop/kl/production/generated/candidate-046.png": "a194a614b082b9cdd9f9606296ab82321ad2e2a09f86f02604586008507e9374",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-raised/source-delta-f1278-f1282.png": "c210b8dcce8d45bb9f69533923e779fde29eb6681216824a497df04b650f905b",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1256-v1.png": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f"
+  }
+}

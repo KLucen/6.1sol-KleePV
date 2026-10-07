@@ -1,0 +1,71 @@
+{
+  "accepted": false,
+  "selections": [
+    {
+      "source_frame": 2911,
+      "path": "generated/late-next-f2911-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Root actually viewed whole builtin with actual source/native. One Klee, two closed eyes, exactly two brown gloves gripping/covering pillow with far sleeve hidden, two compact ponies. Mostly retains2906 head/torso/pillow silhouette; knee/boot redrawing amplitude and original jitter small, not exact source. Minor hem/long-leg/collar drift deferred; no temporal/compositor acceptance. Next changing pose uses cropped identity instead of held whole anchor.",
+      "known_issues": [
+        "Root actually viewed whole builtin with actual source/native. One Klee, two closed eyes, exactly two brown gloves gripping/covering pillow with far sleeve hidden, two compact ponies. Mostly retains2906 head/torso/pillow silhouette; knee/boot redrawing amplitude and original jitter small, not exact source. Minor hem/long-leg/collar drift deferred; no temporal/compositor acceptance. Next changing pose uses cropped identity instead of held whole anchor."
+      ],
+      "job": "qa\\late-next-2026-10-06\\job-f2911-v1.json",
+      "sha256": "f5d4f5b2ebab7aa84f3a2ee421ad7a726e8bf87698ae8df99c00e2385b5fb602"
+    },
+    {
+      "source_frame": 2916,
+      "path": "generated/late-next-f2916-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Root actually viewed whole generated and current source/native/AB: real rightward upperbody sway, both legs slant down-left, closed eyes, two compact ponies, two brown gloves and hidden far sleeve, nearer elbow/palm lifted, pillow before torso. Pose and pupil count correct. Coat pockets/buttons/hem and boot clovers/backpack ornament vary, pillow/head registration approximate. Deferred first-cut costume drift; static only, acceptedfalse, compositor/temporal pending.",
+      "known_issues": [
+        "Root actually viewed whole generated and current source/native/AB: real rightward upperbody sway, both legs slant down-left, closed eyes, two compact ponies, two brown gloves and hidden far sleeve, nearer elbow/palm lifted, pillow before torso. Pose and pupil count correct. Coat pockets/buttons/hem and boot clovers/backpack ornament vary, pillow/head registration approximate. Deferred first-cut costume drift; static only, acceptedfalse, compositor/temporal pending."
+      ],
+      "job": "qa\\late-next-2026-10-06\\job-f2916-v1.json",
+      "sha256": "3bd39014a448937fd487a927e85b49b7fcc4a4b593b6e1d954f6c97f4d8374c5"
+    },
+    {
+      "source_frame": 2921,
+      "path": "generated/late-next-f2921-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Root actually viewed whole generated/current source/native AB. New spread legs: left slopes down-left/front toe and right vertical/right profile sole; both closed eyelids, pillow steeper up-right, near brown palm/cuff continuous. Small far brown gripping tips visible beside cream ruffle, cream upper corner ownership needs native clarification, not asserted fully glove-accepted. Source pillow/head registration approximate, coat/boot ornaments and scarf drift deferred; no temporal/compositor acceptance.",
+      "known_issues": [
+        "Root actually viewed whole generated/current source/native AB. New spread legs: left slopes down-left/front toe and right vertical/right profile sole; both closed eyelids, pillow steeper up-right, near brown palm/cuff continuous. Small far brown gripping tips visible beside cream ruffle, cream upper corner ownership needs native clarification, not asserted fully glove-accepted. Source pillow/head registration approximate, coat/boot ornaments and scarf drift deferred; no temporal/compositor acceptance."
+      ],
+      "job": "qa\\late-next-2026-10-06\\job-f2921-v1.json",
+      "sha256": "d88b5c409c6d4cbe0df49222ca3531a666ee2f00451644fa3f450dd97afacad8"
+    },
+    {
+      "source_frame": 2926,
+      "path": "generated/late-next-f2926-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Root actually viewed current whole/native wide pose/far grip and generated whole: two fully closed eyes, two brown gripping hands, far forearm hidden, spread asymmetric legs and right profile sole retained. Head/pillow farther right supported. Hat/feather and coat/boot ornament drift remains; positional match approximate; static only, not temporal or compositor accepted.",
+      "known_issues": [
+        "Root actually viewed current whole/native wide pose/far grip and generated whole: two fully closed eyes, two brown gripping hands, far forearm hidden, spread asymmetric legs and right profile sole retained. Head/pillow farther right supported. Hat/feather and coat/boot ornament drift remains; positional match approximate; static only, not temporal or compositor accepted."
+      ],
+      "job": "qa\\late-next-2026-10-06\\job-f2926-v1.json",
+      "sha256": "72bff105d117f9358b3ed8027d707ab7617ec73ca654ca356a8a700756c72829"
+    },
+    {
+      "source_frame": 2932,
+      "path": "generated/late-next-f2932-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Actually viewed full source/actual delta and corrected native face/wide pose. Closed eyelids, two brown grips, far arm hidden; closer overlapping boots and bent knees reflect changed source stance. Coat pockets/buttons/backpack charm and boot ornaments drift from adjacent drafts, mouth slightly more visible; spatial motion amplitude approximate. Static draft only, no temporal/compositor acceptance.",
+      "known_issues": [
+        "Actually viewed full source/actual delta and corrected native face/wide pose. Closed eyelids, two brown grips, far arm hidden; closer overlapping boots and bent knees reflect changed source stance. Coat pockets/buttons/backpack charm and boot ornaments drift from adjacent drafts, mouth slightly more visible; spatial motion amplitude approximate. Static draft only, no temporal/compositor acceptance."
+      ],
+      "job": "qa\\late-next-2026-10-06\\job-f2932-v1.json",
+      "sha256": "088289f9659f46004d42768071ecc1bd3dd1be40ce7689cb0332d47afe82a9a5"
+    },
+    {
+      "source_frame": 2938,
+      "path": "generated/late-next-f2938-oct6-v1.png",
+      "accepted": false,
+      "review": "draft_static_only; Root actually viewed whole current source, native corrected face/full pose/far grip and generated whole. Closed eyelids, two brown grips and hidden far forearm, rounded near elbow and close overlapping frontal boots retained. Small source-to-draft displacement amplitude approximate; coat/backpack/boot/clover details vary across cels. No continuous speed or compositor review, accepted false.",
+      "known_issues": [
+        "Root actually viewed whole current source, native corrected face/full pose/far grip and generated whole. Closed eyelids, two brown grips and hidden far forearm, rounded near elbow and close overlapping frontal boots retained. Small source-to-draft displacement amplitude approximate; coat/backpack/boot/clover details vary across cels. No continuous speed or compositor review, accepted false."
+      ],
+      "job": "qa\\late-next-2026-10-06\\job-f2938-v1.json",
+      "sha256": "a9a3ca5538f69b422864840cb680cd2260f540f387e019c8e3e99a8642cf6582"
+    }
+  ]
+}

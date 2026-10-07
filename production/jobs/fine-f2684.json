@@ -1,0 +1,45 @@
+{
+  "source_frame": 2684,
+  "source_cel": "cel-0507",
+  "source_candidate": "src-1562",
+  "output": "generated\\fine-f2684.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. EDIT ORIGINAL IMAGE1 IN PLACE as ONE independent full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Keep image1 exact spatial layout and enormous empty margins. Replace the visible human only inside its original bounds; do not enlarge or recenter the figure. Preserve all source props at identical image1 size and positions, especially the lavender pillow; do not expand the pillow. Image1 is CURRENT original target and sole authority for framing, head/body size, pose, expression, eye state, limb positions, cropping, all visible people and occlusion. Images2/3 are cropped Klee IDENTITY and COSTUME only; do not copy their poses or eye state. The source difference diagram, when present, controls actual local contour change: follow AFTER/red current, not BEFORE/blue. Any final adjacent Klee drawing only maintains short-ponytail topology, costume cut, palette and loose source-like lines, never freezes pose. Replace EVERY visible person/partial person with Genshin Klee, keeping exact original screen size and proportions, not smaller chibi. Pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, RED eyes when open, red beret with cream clover white feather and side badge, red coat/capelet cream trim and skirt hem, PLAIN cream cuffs without scallops/frills, brown gloves and boots, small brown backpack where visible. Replace original rabbit sleep mask rather than adding it on Klee; no old pink long hair, gray pajamas or bare original hands. Loose black hand-drawn contours, flat areas, orange source-like cheek ovals, restrained simple shading, not polished game splash art. Keep original background and all independent props/stars/effects in original positions and depth. Only source-visible body exists; never add missing feet/face/hands outside crop or reveal anatomy behind an opaque object. No text, captions, Japanese/Chinese/English letters, credits, numbers, logos, watermark or diagram. Remove source caption glyphs to matching field; compositor restores exact current-source graphics later. CURRENT SOURCE f2684: Current independent prone redraw has NO cream puff at all; remove both previous puffs and preserve plain purple field. Original character+pillow stay SMALL on right: entireboundsx0.54..0.824 y0.415..0.755, lavender pillow onlyx0.54..0.731 y0.667..0.755, exact current original size. Headcenterx0.657 y0.619, crown aroundy0.512, body nearly horizontal behindface. Both legs bentup behind toRIGHT with small brownboots atx0.746 y0.441 andx0.780 y0.437. Eyes tightly CLOSED angular squeezed shapes; short open oval O mouth lower edge partly hidden by pillowtop, sourcevisible mouthonly. Both brown pressing gloves at original handx0.565 and0.725 with simple straightcream cuffs. Current hand digit contours, bang/jaw lines, coat/sleevefolds and bootcontours independently redrawn via current redcontours. Sole redcreamcloverberet whitefeather replacesmask, exactlytwo shortblondeear-rootponytails, smallbrownbackpack proneupperback, redcoat simplecreamhem. EDIT IMAGE1 preserving every prop at original size; no text.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1562-f2684.png",
+      "role": "current_source_pose_crop_and_occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "klee_identity_only_not_pose_or_eye_state"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "klee_costume_only_not_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\source-f2680-f2684-delta.png",
+      "role": "actual_source_spatial_delta_after_red_contours"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": false,
+    "notes": [
+      "Static source check: edit-in-place constraint restored original small right-side figure/pillow layout; kicked-back feet, closed eyes, open mouth over pillow and puff absence correct. Glove positions match source but shape is more clenched than pressed open palms, for artistic review. Actual-speed pending."
+    ],
+    "issues": [
+      "Gloves more clenched than current source pressed palms."
+    ],
+    "scope": "single-cel and adjacent static comparison only"
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8e-2372-7f32-a86a-a1cec77b77b5\\exec-1305b49a-126b-4d4e-9794-a8c69562b5cd.png"
+}

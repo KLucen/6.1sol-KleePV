@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-671bb64d-9f9a-4084-aa0d-9d1ac781374e",
+  "candidate_id": 40,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 PV cel editing reference1 source-cel-040. Source1 determines precise tilted key pose: head/body lean COUNTERCLOCKWISE toward screen-left, closedeyes slant matching tilt, tiny open oval O mouth. Screen-right arm bends overhead with glove by hat and ONE index finger pointing diagonally upper-left near top-middle; screen-left forearm much LOWER at bottom-left, glove one index pointing upper-left with remaining fingers curled. Preserve distinct source arm/finger/hat overlap and full frame crop; right glove sits in FRONT of redhat/feather where crossing, cream cuff behind glove, left glove before cuff. Replace pink hair/sleep mask/pajamas with same default Klee as reference2 anchor-gesture, which was built for this exactpose: blonde SHORT two ponytails/pointedears, redberet cream clover whitefeather, redcoat cream trim/collar/cuffs, brown gloves. Keep anchor identity/style but source1 actual pose/crop. Preserve all source cream outlined star effects on lavender backdrop. REMOVE ALL captions/lyrics/credits/lettering, INCLUDING bottomtext present in both refs, leaving clean coat/background for originalsource text restoration. Loose dark source lines, flat patches/orange cheeks/simple source shadows, no new props or panels/extra fingers.",
+  "references": [
+    "analysis/source_cels/source-cel-040.jpg",
+    "production/generated/anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-040.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Source tilted gesture matched, right overhead single-index glove overlaps hat/feather, left index lower at bottom-left. Same anchor simplified style but captions removed. Stars retained."
+}

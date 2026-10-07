@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f2016-ear-repair-v2",
+  "source_frame": 2016,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1086-f2016.png",
+  "prompt": "Targeted structure repair of image1 Klee f2016 draft. Image2 ORIGINAL f2016 controls near-frontal face and exact visible ears/occlusion. Fix ONLY the DUPLICATE ear on viewerRIGHT of face: currently a long pale original human-ear wedge beside cheek AND a second sideways pointed ear outside hair. There must be only ONE right ear, ONE left ear total. Keep the inner original-ear footprint beside rightcheek but redraw it as a SINGLE Klee pointed elfear, modest side triangle oriented outward, attachedatactualsourceearroot. DELETE the extra outer triangle at right side near ponytail; restore blondehair/lavender there. Do not draw a separate inner longhumanear/wedge, no extraear. Preserve source/current face coordinates, half-lidded red eyes blacksmallpupils whiteC-highlights, orangecheeks, openpinksmallroundrectmouth, topcroppedredberet sameclovers/onefeather, shortsblondeponytails, bottomcroppedredcoat/creamcollar/browngloves. Do not invent different expression, camera, newparts or longhair. Thick blackwobblyPVline and FLATfills. No gradients. One targetedrepair, no morph/tween.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2016.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1086-f2016.png"
+  ],
+  "reference_roles": [
+    "draft to repair only duplicate right ear, retain rest",
+    "current original sole ear visibility occlusion face pose framing authority"
+  ],
+  "output": "generated/fine-f2016-ear-repair-v2.png",
+  "repair_attempt": 1,
+  "repair_flaw": "duplicate right original-human ear and outer pointed ear",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-1c1e4f7e-a5b5-4314-b285-629b7972c26a.png",
+  "output_sha256": "a517a62db1162893875dcd1b0286082e64f9d455a4c0c9f91ad563c53f709fdd",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

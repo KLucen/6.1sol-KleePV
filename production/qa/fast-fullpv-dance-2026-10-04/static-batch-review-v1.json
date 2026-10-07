@@ -1,0 +1,34 @@
+{
+  "scope": "Read-only static artwork/source/neighbor review; no artistic acceptance",
+  "reviewer": "/root/dance_missing_refs",
+  "new_drafts_viewed": [887, 889, 903, 907],
+  "existing_selected_neighbors_viewed": [891, 902, 905],
+  "source_generated_pair_boards_viewed": 7,
+  "source_generated_evidence": "static-contact-evidence-v1.json",
+  "findings_document": "static-batch-review-v1.md",
+  "blocking": [
+    {"frame":891,"asset":"candidate-025-clean.png","kind":"existing_neighbor_pose_occlusion_error","source_exposure":[891,894],"finding":"Source conceals background face/eyes/mouth while narrow left hair/head arc and collar fragment remain; existing draft reveals a complete small face left of foreground portrait, with changed background head/torso lean."}
+  ],
+  "nonblocking_for_draft_advancement": [
+    {"frame":887,"kind":"small_pose_and_style_approximation"},
+    {"frame":889,"kind":"short_hair_identity_changes_exact_overlap_contour"},
+    {"frame":903,"kind":"hat_and_hair_contour_approximation"},
+    {"frame":907,"kind":"reduced_left_head_motion_amplitude","mouth_offset_x_artwork_pixels_manual_estimate":80,"manual_landmark_only":true,"not_exact_source_pose":true}
+  ],
+  "unconfirmed": [
+    {"frames":[902,903,905,907],"kind":"garment_schema_and_ponytail_silhouette_flash_severity","static_variation_confirmed":true,"original_speed_required":true},
+    {"frames":[903,907],"kind":"short_twin_tail_root_topology"},
+    {"frames":[889,891],"kind":"plain_to_ornate_clothing_join"},
+    {"frames":[887,889,903,907],"kind":"actual_composite_masks_effects_and_caption_phase"}
+  ],
+  "pending_new_frames": [908,909],
+  "generation_called": false,
+  "artwork_modified": false,
+  "shared_selections_modified": false,
+  "source_exposures_changed": false,
+  "compose_modified": false,
+  "whole_test_suite_run": false,
+  "full_video_exported": false,
+  "actual_speed_review_performed": false,
+  "artistically_accepted": false
+}

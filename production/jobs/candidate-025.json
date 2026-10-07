@@ -1,0 +1,11 @@
+{
+  "job_id": "candidate-025",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-025.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "prompt": "Use case: identity-preserve. Edit image1 into ONE 16:9 replacement music-video frame. Image1 determines all camera, exact crop, location, visible hands, gaze, expressions, perspective, layering and stars/text; image2 determines ONLY the simplified Klee character identity and flat hand-drawn line style. BOTH visible people must become Klee (Genshin Impact default red coat and beret, cream clover, white feather, short blonde twin side ponytails, pointed ears, red eyes, brown gloves/boots). Main foreground Klee: enormous diagonally tilted close face on RIGHT, cropped by top/right/bottom edges, half-lidded OPEN red eyes with original sleepy neutral expression and tiny open oval mouth; keep source exact face angle and position. Behind her: full-body smaller Klee at original center-left position, with screen-left arm raised above head, fingers visibly spread and source other arm/body partially occluded by huge foreground head; red coat, bare knees, long cream stockings and brown boots, not source pajama pants. Maintain two depth layers, don't merge figures. Huge foreground head masks background figure just as original. Short Klee ponytails replace ALL long pink hair; red Klee beret replaces sleep mask. Preserve violet flat background, sketchy cream stars, two small yellow stars by raised hand, exact Japanese/Chinese bottom subtitles. Keep original simple dark shaky outlines, flat colors, orange cheek ovals, minimum shading. Do not add detailed textures, additional props or faces, panels or zoom changes. Full scene output single cel.",
+  "output": "../generated/candidate-025.png",
+  "status": "generated",
+  "review": "Both foreground/background figures required. Review red-eyed sleepy face and foreground depth."
+}

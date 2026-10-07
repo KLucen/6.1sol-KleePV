@@ -1,0 +1,42 @@
+{
+  "source_frame": 2402,
+  "source_cel": "cel-0466",
+  "source_candidate": "src-1389",
+  "output": "generated/fine-f2402.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "tool": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Create ONE full-frame 16:9 cel for a strict source-exposure hand-drawn PV. Image 1 is the CURRENT original PV cel and the sole authority for framing, pose, facial expression, eye state, limb positions, cropping and occlusion. Identity/costume cropped references ONLY define Klee's design and simplified flat palette, never override the current pose. Replace EVERY visible part of the original person with Genshin Klee in this source's loose dark hand-drawn outlines and flat color areas; keep source head/body size and body length, not an enlarged chibi figure. Klee has pale blonde bangs, exactly TWO SHORT side ponytails, pointed ears, a red beret with cream clover, white feather and side badge, red cream-trim coat/capelet with angular cream cuffs and cream skirt hem, brown gloves and brown boots, small brown backpack when visible, one waist pom. Preserve current source expression and gesture. Do not retain pink long hair, sleep mask, gray pajamas or bare original hands. Keep original purple field and original pale hand-drawn stars and objects in their current layout. No added objects or changed camera. No captions, Japanese/Chinese/English text, logos, credits, letters, numbers or watermarks anywhere. Any bottom source captions should be omitted to plain matching background; compositor restores exact source graphics later. This is one independent drawing, not a contact sheet. CURRENT f2402 endpoint: centered full standing body, both eyes CLOSED as two narrow relaxed lines, tiny dot mouth and orange cheek ovals. Both upper arms bend outward, both forearms raised with one index finger pointing VERTICALLY UP, hands at approximately x746 and1170 in1920source, about y320. Feet at bottom in exactly original stance. Coat reaches source upper-leg start around y640, keep long visible legs; do not shrink body or turn pose into chibi. Source difference reference is diagram only: follow its AFTER/red outline, hands farther outward and lower than BEFORE/blue. Do not draw the diagram or any text.",
+  "references": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1389-f2402.png",
+      "role": "current_source_pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "identity_only"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+      "role": "costume_only"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-worker\\star-gestures-2401-2402-delta.png",
+      "role": "actual_source_spatial_delta"
+    }
+  ],
+  "static_review": {
+    "performed": true,
+    "pass": true,
+    "notes": [
+      "Closed source eye state, two upward pointing glove index fingers, two short ponytails and full standing extent are present.",
+      "Original graphics and sky remain compositor responsibilities; no pixel-equality or speed acceptance claimed."
+    ]
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "source_exposure_strategy": "strict_source",
+  "generator_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fa51-4599-7241-911f-9c4ef31bc14a\\exec-b4b63137-5325-4241-b090-ef65dea40684.png"
+}

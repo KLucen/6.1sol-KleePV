@@ -1,0 +1,77 @@
+{
+  "source_frame": 3328,
+  "cel": "cel-0617",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "source_exposures": [
+    {
+      "start": 3328,
+      "end": 3332,
+      "pts": 138.667,
+      "end_pts": 138.833,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "output": "generated/oct7-bulk-ending-f3328-v1.png",
+  "prompt": "Use-case: illustration-story. Produce ONE complete hand-drawn 16:9 PV cel replacing every visible original person in image 1 with Klee from Genshin Impact. Image 1 is the CURRENT actual original cel, sole authority for composition, person count, crop, posture, eye aperture, mouth, shoulder height, elbow wrist finger position and occlusion. Image 2 determines Klee identity only. Image 3 is diagnostic actual original BEFORE/CURRENT AB plus RGB x4 and contour overlay, not the requested collage. Image 4 is native local diagnostic evidence. Image 5 is previous Klee style continuity only; follow current source changes rather than freezing it. Draw one normal whole PV frame, never diagnostic panels or montage. Preserve the purple flat source background and exact original camera framing, character scale and lean. Simple thick black freehand outlines and flat unshaded color blocks, same rough low-frame-rate original style, not detailed polished anime. Klee has pale blond bangs, TWO SHORT side ponytails only, red clover beret with white feather, red eyes with same source eyelids/direction, subtle orange cheeks, red coat and cream collar. Whenever hands are visible they wear plain dark brown gloves, with SIMPLE solid cream cuffs, no lace/frills; do not add a backpack mascot to a crop where no bag is visible. Replace all original pink long hair, animal sleep-mask hat and mauve clothing; no original-person leftovers, extra hands or extra face. Keep visible source pose and gesture even when source differs from identity photo. Keep cropped torso cropped, do not invent feet, whole body, props or extra people. Remove all source lyric letters/subtitles and do not invent any text: original subtitles and source FX will be restored deterministically in video. Exact source-specific observation and changes to implement: FULL BODY strict BACK VIEW, NO face NO eyes NO mouth anywhere. Figure x790..1530 y250..1065, leans diagonally right. Both arms spread mostly horizontal and slightly down, palms outward. One rear boot lifts toward viewer with sole at x1260 y900, other lower boot crosses down-right at x1320 y1030. Short TWO blonde ponytails seen from rear under red beret, not original long hair sheet. Red back coat with cream hem, brown shorts and light thighs, brown boots; subtle back straps permitted without mascot.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1832-f3328.png",
+      "role": "CURRENT source sole composition, visible people, pose, expression, crop and occlusion authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: pale blonde short twin tails, red eyes, red clover beret white feather; not pose or crop",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3324-f3328-source-ab-rgb-contours.png",
+      "role": "Actual original before/current AB, RGB x4 and blue-before/red-current contour spatial changes; CURRENT only is target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3324-f3328-source-locals-native.png",
+      "role": "Native current/before eyes-mouth, both hands and cuffs, hair spatial evidence; use CURRENT pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-ending-f3316-v1.png",
+      "role": "Previous Klee draft style and identity continuity only, NOT pose; defer existing defects and obey current source",
+      "actually_viewed": true
+    }
+  ],
+  "source_observation": "FULL BODY strict BACK VIEW, NO face NO eyes NO mouth anywhere. Figure x790..1530 y250..1065, leans diagonally right. Both arms spread mostly horizontal and slightly down, palms outward. One rear boot lifts toward viewer with sole at x1260 y900, other lower boot crosses down-right at x1320 y1030. Short TWO blonde ponytails seen from rear under red beret, not original long hair sheet. Red back coat with cream hem, brown shorts and light thighs, brown boots; subtle back straps permitted without mascot.",
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-4dde-7ef3-acba-6160d6af8c4d\\exec-c0fa1836-a49d-4640-b610-e9fa08551592.png",
+  "output_sha256": "4c3aa3110c0fe5d24b93fc8fb696b7f606d2b59a01fab78f447578521049c4c7",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Strict rear view Klee has no face and lifted boot sole, two short tails, arms spread and legs crossing. Added rear straps and cream hem adapt source silhouette; yellow particles baked in asset and need source-FX ownership review. No temporal acceptance.",
+    "accepted": false
+  }
+}

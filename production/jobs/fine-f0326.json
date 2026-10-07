@@ -1,0 +1,20 @@
+{
+  "job_id": "exec-1ab89d71-b8a9-4e88-8aa3-ea2868343765",
+  "canonical_cel": "cel-0052",
+  "source_frame": 326,
+  "family": "face_reaction",
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. ONE full16:9 current-source PV cel f0326. Reference1 is exact CURRENT source controlling camera/crop, face/eye/cheek geometry, all hand/finger contact and sleeve position. Reference2 cropped Klee head controls identity/line simplification only, not framing or source pose; reference3 cropped Klee clothing controls plain cream cuffs, sparse open peach diamonds on cream collar and small round scalloped cream medallion ONLY. Reference4 source A/B delta CURRENT top-right is spatial redraw guide, not output sheet. Replace girl with default Klee in source loose black outlines/flat broad color patches/limited shadows: short two attached blonde side ponytails and pointed ears, red cream-clover beret viewer-right white feather, red cream coat, ENTIRE brown gloves, burgundy/red half-open sleepy eyes with dark flat upper iris band and curled lower highlights. NO new black pupils or round black semicircle bulges in the iris band. Current pose same right-side closeup hands cupping cheeks, but REDRAW f0326 slightly changed bang tip, black lid pressure, upright spread finger lobes/gaps and cuff rim/outer elbow lines. New mouth is TINY pale pink shallow rounded TRIANGLE/dome, about x61.5-64.3 percent,y67.1-70.1 percent, width about twice height: an arched top and almost horizontal bottom. NOT round O, NOT wide white rectangle. Match current hand asymmetry and palm/cheek contact, hair entirely behind gloves, wrists entering actual-source cuffs. Headgear cropped above, torso beyond lower frame, same source visible scope. Plain cream cuffs with no clovers/decoration; no stray brown marks outside gloves and glove/cuff boundaries. Only two short side ponytails, no duplicate armpit wings or hair below coat. Remove every source caption, Japanese/Chinese lyrics/credits/bubble/outline, clean uniform purple left and background; no text of any kind, no annotation, watermark, props or unseen anatomy. Output full current frame, never montage.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0101-f0326.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-head-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-collar-f0307.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0326.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0326.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "continuity_status": "pending_sequence_review",
+  "source_delta_verified": "f0322 to f0326: 150969 pixels >=28; tiny O becomes shallow rounded triangle/dome, bang/lids/fingers/cuff rims independently redrawn and caption changes disregarded.",
+  "inspection": "Tiny pink shallow triangular mouth correct and brown palm cuffs clean; plain cream cuff vocabulary and scalloped medallion consistent. Current fingers/cuff shapes genuinely differ, no source text. Eyes appear somewhat narrower and extra iris shading patches introduced versus flatter previous/source style; hat nearly fully fit rather than earlier top crop. Source eyelid/crop and overall sequence repair flag."
+}

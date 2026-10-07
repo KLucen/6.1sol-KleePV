@@ -1,0 +1,32 @@
+{
+  "job_id": "fast-fullpv-dance-f0887-v1",
+  "source_frame": 887,
+  "canonical_cel": "cel-0157",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0887-v1.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0433-f0887.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0880-f0887-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Current source edit target, exclusive pose/crop authority",
+    "Cropped head identity only, not pose",
+    "Cropped two-leaf collar and continuous hem structure only",
+    "Actual source A/B, RGB difference and contour movement"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE full 16:9 independent Klee replacement cel for original PV frame 887. Input 1 is the CURRENT EDIT TARGET and exclusive authority for framing, body/head tilt, visible anatomy, hand shapes, feet locations and occlusion. Input 2 is cropped Klee HEAD IDENTITY ONLY: short pale-blonde side ponytails rooted next to pointed ears, red cream-clover beret, one white feather, simplified closed eyelids. Input 3 is COSTUME STRUCTURE ONLY: exactly two rounded cream collar leaves, uninterrupted red coat with a continuous cream hem, plain red shorts without white thigh bands, compact brown backpack straps, simple cream clover, brown gloves and boots. Do not copy these references' horizontal-arm pose or leg pose. Input 4 is actual ORIGINAL 880-to-887 A/B, amplified RGB differences and two-color contours: apply the current small changes, not a frozen earlier pose. Replace the source girl completely by Klee. Current pose: one full-body girl, leaning diagonally with head tilted clockwise/right, closed eyes and a tiny narrow O mouth. Screen-left arm stretches steeply upward to an OPEN five-finger brown glove near x42%/y16%; screen-right arm slopes downward to an OPEN brown glove near x66%/y58%. Keep both cuffs attached to wrists, exactly two arms, no extra hands or detached cream wedges. Torso center x49%/y54%, head center x55%/y32%, two separated long straight legs: screen-left lower boot center x39%/y94%, screen-right boot center x58%/y90%, its toe points up-right. Red shorts cover the same upper thigh geometry, bare knees and simple brown boots; don't compress the legs or move the feet upward. Two SHORT ear-rooted ponytails end near neck/upper collar, NO long hair behind sleeves, NO waist-level hair fans, NO cream pieces behind arms. Preserve current source crop, lavender field, pale sketch stars and yellow hand sparkles. Source duck sleep mask, pink long hair, pajama buttons/pockets must disappear entirely. Render simple flat muted PV color blocks with irregular thin black lines, no shading/gradient/detail inflation. Original Japanese/Chinese letters will be composited separately: omit all text in the generated drawing, don't invent glyphs, subtitles or panels. Do not make a collage, another pose, mirror, blur, interpolation or a second person. One current independent source cel, not a still hold.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-98174fc6-20ee-4fac-b316-7c5103936b48.png",
+  "asset_sha256": "1a2b91fdc32a3fdb970086bbd7035876594304be9e2372286e536070adf5b55f",
+  "static_review": "Viewed actual source/880-to-887 difference/identity crops and generated tool output. One closed-eye O-mouth Klee with open high-left/low-right gloves and separated straight legs. Two ear-side short groups, two-leaf collar, continuous cream hem. No obvious third limb or waist hair fan. Source foot/head geometry approximated; final composite/adjacent-speed review pending.",
+  "known_issues": [
+    "Added cream soles/boot badges and pink knee blush not in simple source schema",
+    "Mild shading, clover size/position and exact head/boot contour still differ"
+  ],
+  "blocking_static_findings": [],
+  "artistic_accepted": false
+}

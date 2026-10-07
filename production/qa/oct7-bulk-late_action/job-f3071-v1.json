@@ -1,0 +1,82 @@
+{
+  "source_frame": 3071,
+  "cel": "cel-0534",
+  "date": "2026-10-07",
+  "owner": "late_action",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve. Asset type: one entire 16:9 cel of a hand-drawn music PV, not a contact sheet.\nReplace EVERY original person visible in Image 1 with Klee (Genshin Impact) in the same simple flat-color sketch style, same camera, position, scale, crop, pose, expression and occlusion. Image 1 is the CURRENT target and overrides all other references for anatomy, visible parts, gesture and motion. Image 2 sets Klee identity only. Image 3 is continuity of simplified Klee design/color, not a pose template. Images 4 and 5 show actual preceding/current original spatial differences; follow CURRENT panels, no diagnostic panels in the output.\nKlee: red clover beret with one white feather and side clover badge, light blond bangs and two SHORT ponytails, pointy ears, plain cream collar and cuffs, red coat dress with cream trim, brown gloves and brown boots. No frilly cuffs, no long original pink hair, no original animal hood, no additional person or body parts. Translate original hair motion into short Klee ponytail motion, preserving roots, overlap and current direction. Preserve the original background colors, camera boundaries and props in their original positions and proportions. Leave all lyrics/text absent: lettering is independently restored during compositing. No logos or watermark. Flat limited palette, slightly irregular dark hand-drawn contours; no gradients, new elaborate illustration or polish escalation.\nCURRENT target observations and adjacent-source motion: Head rises and turns over RIGHT shoulder: back/left-side torso still toward camera, face appears at upper-right of head looking downward right with TWO half-open eyes and small open oval mouth. One near bent sleeve and closed brown glove appear low-right across body, plain cream cuff; other hand fully hidden. Upper torso bottom-cropped, no legs, no pillow. Hat crown returns toward y212. Back head/hair mass on left translates to short Klee ponytail behind left shoulder; right cheek bob and right ponytail overlap face/body according to current source. Rotate red hat to same head angle, feather stays attached to anatomical hat side (moves to image right with turn), no rear-only face freeze.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1679-f3071.png",
+      "role": "CURRENT original PV target; sole authority for pose, facial expression, crop, visible parts and occlusion"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover hat, feather, short blond twin ponytails, ears; NOT pose or expression"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-late_action-f3067-v1.png",
+      "role": "Adjacent Klee draft simplification, costume colors and short hair connections only; do NOT freeze its pose"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3067-f3071-ab-rgb-contours.png",
+      "role": "Original BEFORE/CURRENT, actual RGB x4, blue-before/red-current contours; diagnostic not final art"
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-late_action\\f3071-source-local-ab-rgb-contours.png",
+      "role": "Native local eyes/hands/hair/clothing changes and occlusion diagnostic; follow CURRENT panels"
+    }
+  ],
+  "reference_sha256_at_prepare": [
+    "8215c8c554e19b44991238e278f2a74e8020100cf5359ba4ae74a9e8d97721e5",
+    "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+    "fdc46fcbf9dd9ec5e6274b441f88056abd8aafc6ef77a53c5bb81b86bdff7dc0",
+    "ce86fd743e450eaf0df4ac03faaceba7923ed05636a11915fef454e61bb63323",
+    "b8d4d6c6c7f98567a2e7ba83b3a9f162452b47bc75295efb79c6f765166f968a"
+  ],
+  "output": "generated/oct7-bulk-late_action-f3071-v1.png",
+  "source_exposures": [
+    {
+      "start": 3071,
+      "end": 3075,
+      "pts": 127.958,
+      "end_pts": 128.125,
+      "family": "back_side_turn",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "source_observations": "Head rises and turns over RIGHT shoulder: back/left-side torso still toward camera, face appears at upper-right of head looking downward right with TWO half-open eyes and small open oval mouth. One near bent sleeve and closed brown glove appear low-right across body, plain cream cuff; other hand fully hidden. Upper torso bottom-cropped, no legs, no pillow. Hat crown returns toward y212. Back head/hair mass on left translates to short Klee ponytail behind left shoulder; right cheek bob and right ponytail overlap face/body according to current source. Rotate red hat to same head angle, feather stays attached to anatomical hat side (moves to image right with turn), no rear-only face freeze.",
+  "one_pass_draft_policy": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-1a23-71b1-b85a-6f535dd16578\\exec-4debd42a-5fd6-41b2-8ad1-a8b32c00e01a.png",
+  "output_sha256": "aa02dd58a776751e003a4fcf77304088aa8ebd00914b5f94691f2f45fe93accf",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Whole output viewed: right-facing three-quarter head, half-open red eyes, small open oval mouth, one low-right bent brown glove, no pillow. Backpack disappears from previous rear view and collar/clover simplify differently; head/hand alignment approximate. Deferred art continuity review.",
+    "accepted": false
+  }
+}

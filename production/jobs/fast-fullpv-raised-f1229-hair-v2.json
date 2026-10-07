@@ -1,0 +1,51 @@
+{
+  "owner": "raised_closeup_batch",
+  "source_frame": 1229,
+  "cel": "cel-0265",
+  "mode": "strict_source",
+  "tool_mode": "builtin_image_gen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "prompt": "Use case: precise-object-edit. Edit image 1, the generated Klee cel f1229. One blocking repair ONLY: remove both leftover original girl's long peach-pink hair tips below her raised armpits, the narrow two-pronged peach forms to either side of the lower red torso (left around x600 y850, right around x1250 y865 in 1920x1080). These are unwanted original hair, NOT hands, NOT backpack, NOT part of Klee. Replace both dangling peach hair remnants with the matching plain purple background. Keep exactly the two short pale blonde Klee ponytails rooted beside her neck; they end above the armpits. Image 2 is f1256 showing the correct empty-purple regions at torso sides and short-hair topology only, not eye state or mouth. Preserve image 1 current red half-open eyes, open-bottom vertical O mouth, hat, feather, entire head and face, all two raised arms, cuffs, two complete brown gloved hands, sleeve folds, torso seam/button, stars, canvas and crop as closely as possible. Do not recolor, redraw other areas or copy image 2 closed eyes. No added lettering. Return full-frame repaired cel, still simple PV style.",
+  "referenced_image_paths": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1229-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1256-v1.png"
+  ],
+  "reference_roles": [
+    "edit_target_generated_1229_blocking_old_hair_remnants",
+    "same_shot_correct_short_hair_1256_reference_only"
+  ],
+  "intended_output": "generated/fast-fullpv-raised-f1229-hair-v2.png",
+  "exposure": [
+    1229,
+    1234
+  ],
+  "repair_reason": "confirmed two original long peach hair remnants under armpits",
+  "repair_attempt": 1,
+  "selected_draft_proposed": true,
+  "static_review": {
+    "source_action": "Both complete spread palms move down, half-open low eyes, larger open-bottom vertical O, head/collar slightly lower.",
+    "result": "Selected hair-v2 removes confirmed old peach hair tips under BOTH armpits from v1; red sleepy eyes, raised brown hands and short attached ponytails retained.",
+    "blocking_confirmed": [],
+    "resolved_blocking": [
+      "v1 retained original long peach-pink hair under both armpits; one targeted built-in edit removed them."
+    ],
+    "issues": [
+      "Targeted hair edit closed the previously open-bottom O contour; facial state remains vertical O but line-gap fidelity differs.",
+      "Local edit is not pixel-locked outside target; small full-image drift has not been quantified.",
+      "Mild shading beyond source flatness."
+    ]
+  },
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a104e3-14b6-7e82-a5e5-9711b4483037\\exec-2ccc4a17-3f2c-4cbb-8009-9c9b20bbdb50.png",
+  "observed_call_seconds": 26.8,
+  "output_sha256": "972f8b8d40e57813b1efdac74a8edd694529051df87f5bce204965873fe54947",
+  "output_canvas": [
+    1672,
+    941
+  ],
+  "canvas_note": "Native tool output retained; compositor normalizes to source 1920x1080 canvas",
+  "reference_sha256": {
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1229-v1.png": "cf8e770151cd436e30b3ce1265f5625f84fe963c6830c4309604563e3846c007",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-raised-f1256-v1.png": "632466f655658499a3f7068a994a4a48ff06ebd80a6e7ce0ed890d58ad4cd60f"
+  }
+}

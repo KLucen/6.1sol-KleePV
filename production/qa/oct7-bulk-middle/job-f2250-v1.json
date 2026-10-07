@@ -1,0 +1,81 @@
+{
+  "source_frame": 2250,
+  "cel": "cel-0425",
+  "source_candidate": "src-1244",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2250-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native actual source hand A/B, RGB and contours: match the current gesture and edge crop with brown Klee gloves; no extra hands. Image 5: Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop.\nCurrent source frame f2250; original predecessor f2244. Actual observed current pose and changes: One cool bowed right profile eyes shut, near brown glove still in front of face covering nose/mouth; no iris. Current fingers draw closer together and the rightmost fingertip retracts slightly; palm contour tightens left. Cuff remains rectangular, near cheek lock tip small inward shift at collar; rear short ponytail settles down. No extra far hand or actor, do not reopen eye. Current source has slight lower hat re-ink and bangs pressure.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1244-f2250.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-visible-hands-wide-native.png",
+      "role": "Native actual source hand A/B, RGB and contours: match the current gesture and edge crop with brown Klee gloves; no extra hands."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2244-v1.png",
+      "role": "Adjacent Klee draft: simplified PV ink, palette and persistent hairstyle only; do not freeze its pose or crop."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1244-f2250.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2244-f2250-visible-hands-wide-native.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\oct7-bulk-middle-f2244-v1.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2250,
+      "end": 2252,
+      "pts": 93.75,
+      "end_pts": 93.833,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "One cool bowed right profile eyes shut, near brown glove still in front of face covering nose/mouth; no iris. Current fingers draw closer together and the rightmost fingertip retracts slightly; palm contour tightens left. Cuff remains rectangular, near cheek lock tip small inward shift at collar; rear short ponytail settles down. No extra far hand or actor, do not reopen eye. Current source has slight lower hat re-ink and bangs pressure.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fb-e34c-7e51-87f3-7279e0fb6fa1\\exec-55f77d6c-6f8d-49bc-8b54-cbb62ae8a2f7.png",
+  "output_sha256": "1e4dc8c69764bbd862c97642f09d2c08d17843eb7819aaae99c2e37835965909",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Viewed full output: face-covering brown glove, shut eye, hidden mouth and plain rectangular cuff. Minor fingertip contraction/near-lock phase weakly represented; cheek color warms and head remains toward viewer relative to source strict side profile. Draft unaccepted, defer feedback/compositor/speed.",
+    "accepted": false
+  }
+}

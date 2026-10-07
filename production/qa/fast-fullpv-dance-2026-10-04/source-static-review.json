@@ -1,0 +1,28 @@
+{
+  "scope": "Source-only manual view of six current source images, six actual full A/B/RGB/contour boards, six final local boards",
+  "reviewer": "/root/dance_missing_refs",
+  "current_source_frames_viewed": [887, 889, 903, 907, 908, 909],
+  "actual_preceding_cel_frames": [880, 887, 902, 905, 907, 908],
+  "full_delta_boards_viewed": 6,
+  "final_local_boards_viewed": 6,
+  "canonical_source_pixel_equality_verified_count": 6,
+  "sequential_decode_range": [0, 912],
+  "source_only_review_completed": true,
+  "generated_artwork_reviewed": false,
+  "artistically_accepted": false,
+  "actual_speed_review_performed": false,
+  "aliases_created": false,
+  "exposures_changed": false,
+  "shared_selections_modified": false,
+  "compose_modified": false,
+  "finding_documents": ["source-pose-occlusion-review.md", "missing-source-reference-queue.json"],
+  "unresolved_source_uniqueness": [907],
+  "source_hashes": [
+    {"frame":887,"source_png_sha256":"45af14e0865991b1502d609eb4000837eb56ac11a3a40a7b76ba382637a16ca8","delta_sha256":"3513fab5738309330b595c5006c7af25981823dc3ccefd8f60d0f84044d6fa58","local_board_sha256":"781148671aa42aa0e52e6082c981c1d41bf2719e8a26b086414b55a0f9682b79"},
+    {"frame":889,"source_png_sha256":"a9f75abbc1bb7daf79fdf5f14c007345e9ab433acf8f8058910388efee3dfffc","delta_sha256":"846d489ad40790be56f0b6eaaaad9684b6d47728170fd3a7ddaf7bafa11ba8f1","local_board_sha256":"a923943c3373be85630a8097388a88857b49f84228096f65338175c67814ecb8"},
+    {"frame":903,"source_png_sha256":"e92a061bb2563cfe8263b8f7584e624b098a3ba0dd40eb45acd48700c6f4b79a","delta_sha256":"a42552eecc8002695498ff8a185ee8e666dff5fd297006e77703f7503130cc24","local_board_sha256":"d159524893061943350a425d04b2ce6dcbac3750ee685a51e46c4d63c5f8497d"},
+    {"frame":907,"source_png_sha256":"3f403c18da4a7e43492203fee227549cb55b30363f0c4128a25c9157a895cb7e","delta_sha256":"09009d837e587a25f5c383b2b623845521033c89476090b2e33a1dd1c3a75937","local_board_sha256":"a846d82b0557907f4ec041fc55f11b7d75bc07739fda22499f77adecfb66db85"},
+    {"frame":908,"source_png_sha256":"db273e9f090a48f9f01a52d56ea3ceebe1e61605a322d6e71863460800780f63","delta_sha256":"eb34137475d3c8c25e2b398b67fd23ba5bffdc8ddfba54fb5fb2aea1e7d2538c","local_board_sha256":"ad311b3123f0032ca759d3fc8363089424699214377a55e0dc8ae24943347117"},
+    {"frame":909,"source_png_sha256":"aea0c18297aeb5b3fdc7af48886d9277bcd1f6e58d15a8ce7b52e4772d352811","delta_sha256":"588616d90d0909e69a47ca365133f1eec59884f462a80f80dcf495a5d712321c","local_board_sha256":"171fd4a28c167208e8f11700f68ceb2d635f3998bd86657a75c03b6c601eb963"}
+  ]
+}

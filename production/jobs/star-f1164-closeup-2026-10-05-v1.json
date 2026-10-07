@@ -1,0 +1,77 @@
+{
+  "id": "star-f1164-closeup-2026-10-05-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1164,
+  "source_cel": "cel-0248",
+  "source_reference": "source_refs/src-0696-f1164.png",
+  "source_exposures": [
+    {
+      "start": 1164,
+      "end": 1168,
+      "pts": 48.5,
+      "end_pts": 48.667,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-actual.png",
+      "role": "Current whole framing, actor scale, exact pose/occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-face-native.png",
+      "role": "Current closed eyelids, narrow O mouth, face orientation."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1162-f1164-source-ab-rgb-contours.png",
+      "role": "Actual previous/current redraw: head shifts and cuff/hand outlines move."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1164-source-hands-body-native.png",
+      "role": "Current asymmetric index hands, tilted left cuff and upright right cuff, cropped chest."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-039.png",
+      "role": "Klee identity/style/persistent two short ponytails and costume only, not frozen prior pose."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Produce ONE whole independent handdrawn Klee PV cel, landscape 16:9. Image1 CURRENT ORIGINAL f1164 decides exact closeup framing, scale, face/head/body orientation, silhouette and two hands. Image2 current native face, Image3 true original before/current AB/RGB/contours, Image4 current hands/cuffs/body decide the new drawing. Image5 existing Klee cel ONLY identity, line style, palette and costume continuity, NOT a pasted previous pose. Replace entire pink-haired original girl/animal hat/pajamas with pale blonde Klee: short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails; red beret cream clover, white feather and round brown badge as image5, red coat with same chest pattern/collar medallion, cream cuffs, brown continuous gloves. Match current original scale and position: upper body fills frame, head crown near y60, chin around y620, shoulders/chest cropped by bottom, no legs added. BOTH eyes fully closed near-horizontal strokes, no iris/pupil. Small NARROW vertical O mouth and rounded orange cheeks, head nearly upright with current slight rightward contour shift. TWO index fingers pointed upward with remaining fingers curled: viewer-left hand centered about x420 y690, index tip about x395 y560, left cream cuff angles up-right fromx375y840 tox550y760; right index tip aboutx1440y490, right hand aroundx1430y645 and right cuff almosthorizontal y720..845. Current left hand is LOWER than right, no symmetrical pose. Elbows bend coherently with forearms; current cuff/shoulder folds redraw, left forearm narrows toward tilted cuff. Exactly2 hands only, each ONE extended index not V sign. Two short ponytails connect behind ears and stay beside collar, no old long pink locks, third neck hair or detached hair beneath sleeves. Preserve organic simple dark ink, flat pastel PV colors and original purple backdrop/star placement. No text/lyrics/watermark, original text restored independently later. Do not freeze image5 hands or face, do not collage/crop/flip/morph/paste. No new objects or extra anatomy.",
+  "output": "generated/star-f1164-closeup-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root actually viewed full/current face/body and AB/RGB/dual contours plus both native local pages. True shifted head/eyelids/mouth and hands/cuffs cannot alias1162.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-1dde2278-a244-4b7e-adfa-d8887629e2d4.png",
+  "output_sha256": "968cffe05b5a8a3baeda537fab2c99d9be3c0de61cd96417ba3abd121d3ffe0d",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "passed": [
+      "Both closed eyelids and narrow O, two index gloves only; left cuff lower/tilted vs right upright",
+      "Two rooted compact blonde ponies, coherent elbows/sleeves; closeup bottom crop no extra legs"
+    ],
+    "deferred": [
+      "Hands/face placement approximate; chest pattern and collar continuity follows old closeup anchor",
+      "Source background/caption restoration and actual-speed review pending"
+    ],
+    "accepted": false
+  }
+}

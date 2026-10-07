@@ -1,0 +1,325 @@
+{
+  "source_interval": [
+    911,
+    1008
+  ],
+  "rows": [
+    {
+      "source_frame": 911,
+      "cel": "cel-0169",
+      "canonical_source_frame": 911,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-031-clean.png",
+      "asset_sha256": "a1cec54c9450781fb4dce9e7d569f0f4b15be07158867a99c3d4b9de3659edff",
+      "selection_state": "current_manifest_selection",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 0,
+      "observed_source_glyph_core": 10883,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 1052223,
+      "new_matte_pixels": 781549,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0911-composite.png",
+      "composite_sha256": "4689014a66919454a8e9dcb828cef1fabe00a7fe6e1e16cd7721b37015d72921",
+      "composite_bgr_sha256": "4ee16d863911bc3aea0eec784233159e61061782cb18c7021494b5f60c4c8ec1"
+    },
+    {
+      "source_frame": 938,
+      "cel": "cel-0179",
+      "canonical_source_frame": 938,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0938-position-v2.png",
+      "asset_sha256": "becab9abfea39edb75d76080cf98ebbcb1e2a8f5470fc43f1b2c26f8331a7620",
+      "selection_state": "current_manifest_selection",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 0,
+      "observed_source_glyph_core": 10683,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 778434,
+      "new_matte_pixels": 711434,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0938-composite.png",
+      "composite_sha256": "582f10aaabf8fce315e35257d795af0cae2e367fc38c5b42423ef8fb96e5b340",
+      "composite_bgr_sha256": "01cf83f2d4dd00dccad72cb6ffcb9d174daf759691635823af31c578f7ee8c14"
+    },
+    {
+      "source_frame": 954,
+      "cel": "cel-0185",
+      "canonical_source_frame": 954,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0954-v1.png",
+      "asset_sha256": "a1491f504be96cfd0b61ed03a6151b1c5c1f425e428a648568bf2f828b8f163b",
+      "selection_state": "current_manifest_selection",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 0,
+      "observed_source_glyph_core": 10729,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 832858,
+      "new_matte_pixels": 669789,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0954-composite.png",
+      "composite_sha256": "1d470460ad649a68952240a83e4c122efb8e3d3e3782bb1789d0cd7b3d7e347c",
+      "composite_bgr_sha256": "5ae459cdf806de37cba55318a34394c77d2c73301a004e3fcf0b060228572192"
+    },
+    {
+      "source_frame": 963,
+      "cel": "cel-0188",
+      "canonical_source_frame": 963,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0963-v1.png",
+      "asset_sha256": "c1e3a1758e766be35dda234badeb97b5a8ace24e0a94a992d2faf3ce21bcb85c",
+      "selection_state": "current_manifest_selection",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 0,
+      "observed_source_glyph_core": 10303,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 922882,
+      "new_matte_pixels": 689944,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0963-composite.png",
+      "composite_sha256": "aca06dbff425ff318467bd18134f1efdb9d27870608bd58113bee60a0e787c19",
+      "composite_bgr_sha256": "0714df9552dd547b4cba4760e953fa4dca99a303109a4ef3d0afdcfb918c7656"
+    },
+    {
+      "source_frame": 965,
+      "cel": "cel-0189",
+      "canonical_source_frame": 965,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0965-v1.png",
+      "asset_sha256": "24925f8aa9ece6bb0c88f4aee45bec8a2eed9d7a695e3c93ea153004202c7551",
+      "selection_state": "root_saved_shadow_candidate_not_mapping",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 0,
+      "observed_source_glyph_core": 10341,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 923669,
+      "new_matte_pixels": 688838,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0965-composite.png",
+      "composite_sha256": "11ae94ba3ea6363ffb9188980aaa59a11744e2178d61987ebb83af82e44123dd",
+      "composite_bgr_sha256": "00aea8882760307f635038dba0025f0a2e42c97d4b7e98ac4bbd267689c0ee65"
+    },
+    {
+      "source_frame": 966,
+      "cel": "cel-0189",
+      "canonical_source_frame": 965,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0965-v1.png",
+      "asset_sha256": "24925f8aa9ece6bb0c88f4aee45bec8a2eed9d7a695e3c93ea153004202c7551",
+      "selection_state": "root_saved_shadow_candidate_not_mapping",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 1,
+      "observed_source_glyph_core": 3924,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 924057,
+      "new_matte_pixels": 688838,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0966-composite.png",
+      "composite_sha256": "b7545f319b6f7e67446bdddd802e0ef4e9a7cbeb226935d9c4e2d7690f7fdd5d",
+      "composite_bgr_sha256": "165f802f5a91b78d69362bf821131679e8da4a3b8b0f5c635d61a66b7fc8be08"
+    },
+    {
+      "source_frame": 967,
+      "cel": "cel-0190",
+      "canonical_source_frame": 967,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0967-v1.png",
+      "asset_sha256": "dc800262544c0e6c9dcc014f6e47f4744d2c18cfe5edf004ab55e25595812a8a",
+      "selection_state": "root_saved_shadow_candidate_not_mapping",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 1,
+      "observed_source_glyph_core": 3930,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 924454,
+      "new_matte_pixels": 709181,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0967-composite.png",
+      "composite_sha256": "5b7a6293256c438ca0122a0d15a65b8cd5107fbf99d69a89fc40590ffc9c48d8",
+      "composite_bgr_sha256": "340a4a77c9c1efbfa362b84375af892e08634cfe612e559ef0ae45a245be9673"
+    },
+    {
+      "source_frame": 969,
+      "cel": "cel-0191",
+      "canonical_source_frame": 969,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fast-fullpv-cyan-f0969-v1.png",
+      "asset_sha256": "83008c7de39177b3e22342a4d40929608b408fc9850acc38d6022fcd8174352a",
+      "selection_state": "root_saved_shadow_candidate_not_mapping",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 1,
+      "observed_source_glyph_core": 3915,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 971656,
+      "new_matte_pixels": 731955,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f0969-composite.png",
+      "composite_sha256": "9d456c95dd7e37757a9c1caf44c1b7051b9428cd476f7f51267f45f82c2b7833",
+      "composite_bgr_sha256": "b8e0fc1722c8ed304d090d5aadfd129c8bfec2b8689fac39ef2c0d93a9521574"
+    },
+    {
+      "source_frame": 1006,
+      "cel": "cel-0204",
+      "canonical_source_frame": 1006,
+      "asset": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-032-clean.png",
+      "asset_sha256": "dc9c3f5b3364e6d43f9619d47b615afc7351e2f6272b4b78600e45809eb546cb",
+      "selection_state": "current_manifest_selection",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "caption_phase": 1,
+      "observed_source_glyph_core": 3836,
+      "observed_source_glyph_rgb_exact": true,
+      "outside_registered_subject_caption_support_changed": 0,
+      "source_matte_pixels": 1493671,
+      "new_matte_pixels": 1356403,
+      "composite": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary\\f1006-composite.png",
+      "composite_sha256": "ebb448a254cea46c2dc865b0f35fd10e875db5c06ea2d62bcdcd9221fb0921c9",
+      "composite_bgr_sha256": "b85ef499150f99226adadb8e013d9c585a827c0a05d9fd30eaaf0b3fa2daf17b"
+    }
+  ],
+  "missing_frames_no_placeholder": [],
+  "native_caption_pages": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary-caption-page-01.png",
+      "sha256": "28fd6b738164b3d6602791463a21e4596b5e39fba0981b1441e8cb83d52d8635",
+      "frames": [
+        911,
+        938,
+        954,
+        963,
+        965,
+        966,
+        967,
+        969
+      ]
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary-caption-page-02.png",
+      "sha256": "2747d3adba3df06fb32122a7561ce69df8735d95c9fe4a88689afdde42be00bf",
+      "frames": [
+        1006
+      ]
+    }
+  ],
+  "body_pages": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary-body-page-01.png",
+      "sha256": "4359e7c010e67238599a00d2c5f3eb1d88f2c712b9f3e2aab3019cb58bf96fc6",
+      "frames": [
+        911,
+        938,
+        954,
+        963
+      ]
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary-body-page-02.png",
+      "sha256": "b8ab70e1306f87bcfaeb7939031d3bab86cad020e6a968f78f5ee2502d8e0391",
+      "frames": [
+        965,
+        966,
+        967,
+        969
+      ]
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-layers-2026-10-04\\preliminary-body-page-03.png",
+      "sha256": "f68ac5381a6051c9e63950e1d37f882e4cef6811779e9bd18c8908c3435de4f5",
+      "frames": [
+        1006
+      ]
+    }
+  ],
+  "static_technical_only": true,
+  "actual_speed_artistic_review": "pending",
+  "artistic_acceptance": false
+}

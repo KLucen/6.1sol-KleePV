@@ -1,0 +1,13 @@
+{
+  "job_id": "exec-485d0380-59f2-4c23-9930-0e24b5c7f4d2",
+  "candidate_id": 14,
+  "tool": "builtin imagegen",
+  "prompt": "Precise object edit on this one FULL16:9 Klee PV frame. Keep every pose, pixel layout, face, closed eyes, caret mouth, hat, collar, BOTH inward brown fists, coat, sleeves and purple backdrop the same. Only remove the TWO UNWANTED LARGE rear blonde hair appendages behind the shoulders: the large lower-left wing-shaped tuft at x14–32%,y63–86% and large lower-right wing at x71–85%,y63–86%. Refill their deleted areas with the surrounding solid lavender background. Preserve the TWO CORRECT SMALL blonde side ponytails immediately behind the ears/along jaw at x26–43%,y54–73% and x57–74%,y54–73%; do not enlarge them. The result should have only one short ponytail on each side of Klee's head, no duplicated long rear wings. Output same fullframe, no crop and no other changes.",
+  "references": [
+    "production/generated/candidate-014-draft.png"
+  ],
+  "original_source": "analysis/source_cels/source-cel-014.jpg",
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-014.png",
+  "status": "generated",
+  "inspection": "Targeted repair removed duplicate large rear hair wings. Only compact left/right short side ponytails remain; bowed head, eyes closed, caret mouth, two inward fists unchanged."
+}

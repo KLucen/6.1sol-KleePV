@@ -1,0 +1,22 @@
+{
+  "id": "112",
+  "prompt": "Use case: precise-object-edit. Asset: one complete 16:9 hand-drawn PV cel. Image 1 is the original source frame and determines exact camera, character size and position, cropping, pose, eye state, mouth, hands, props and occlusion. Image 2 is ONLY Klee identity and drawing-style guidance, not pose or composition. Replace every original person in image 1 with Genshin Impact Klee in her default Shooting Spark outfit. Pale blonde bangs and short twin side ponytails, pointed ears, red beret with cream clover and white feather, red coat with cream trim, brown gloves and boots, small brown backpack when visible. Match source simplified dark loose outlines and flat color blocks, orange oval blush, at most one simple shadow color. Keep source eye state and facial expression rather than copying the anchor's closed-eye expression. Klee's irises are RED, not source blue: preserve source eyelids and eye-shape/openness but recolor visible upper iris patch dark red and lower iris patch warm red; no blue irises. Full scene, no extra panel, no montage, no new objects, no extra body parts outside the original crop. Preserve original background, props and independent effects at original locations to best accuracy. REMOVE all source captions, title, credits, handwriting and lettering from output, including lettering on clothing. Draw only clean character, background, props and effects; the compositor separately restores exact original text. No text anywhere. Specific target: ENDING CLOSEUP arms open high. Frontal centered head, face large exactly like image 1; both upper arms rise diagonally outward to screen corners, BOTH hands cropped off beyond top and side borders. No hands at cheeks, no clasped hands. Preserve half-lidded OPEN rectangular eyes and small VERTICAL OVAL singing mouth, tired rather than smiling. Fully visible head-top/hat starts near source upper center; do not zoom out. Red sleeves replace all grey/pale original garments across left and right corners, cream sleeve cuffs follow source. Cream clover on red beret and white feather on viewer right. Face and head keep source proportions and placement rather than image2. White outlined background stars remain behind character; no stars invented in front. Remove bottom subtitles completely leaving clean collar/coat. Strong source thick uneven outline and very simple flat coloring; no detailed anime shading.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-112.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\anchor-gesture.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-112.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-682b18ba-1dd0-4a65-b9ab-3bcf8d5bcbde.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Open half-lidded RED eyes, small oval mouth and diagonally raised arms retained; no lettering."
+    ],
+    "flaws": [
+      "Visible forearm extensions remain skin-colored, though hands are cropped; hat feather adds outer geometry and face placement approximate."
+    ],
+    "temporal_review": "pending"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "job_id": "fine-f0095-v2",
+  "source_frame": 95,
+  "source_candidate": "src-0033",
+  "tool": "builtin imagegen",
+  "refs": [
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0095-geometry-repair.png",
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0033-f0095.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0095-source-clock-hands-face.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/held-clock-v2/f0091-f0095-source-delta.png"
+  ],
+  "prompt": "Use case: identity-preserve LOCAL EDIT. ONE full 16:9 animation cel. Ref1 CURRENT Klee95 is target and fixes every existing unrelated contour/color/camera/pillow/body/costume/clock/hand. Ref2 CURRENT source95 controls unique pose/face visibility only, never original pink hair or pajamas. Ref3 SOURCE95 clock-hands-face zoom controls correct depth and tiny visible eye corners: fingers FRONT of clock corners, cream lower case band FRONT of upper eyes; ONLY tiny RED lower-iris slivers under the band corners like source, both lower orange cheeks, downturned closed mouth and chin still visible. Ref4 actual source91->95 delta is analysis only, preserve CURRENT95 local finger/cuff/outline differences, no panels/labels. Remove ONLY the erroneous third long blonde lower wing behind the viewer-right forearm between short upper right ponytail and backpack (x80%-84%,y38%-47%). Retain EXACTLY TWO short pale blonde ponytails, one immediately beside each pointed ear, ending at shoulder height; no further blonde hair between elbow/backpack or near waist. Repair removed lower wing to original purple/pillow backdrop as appropriate and keep red sleeve/backpack contours intact. Existing beret/clover/white feather/badge, bangs, orange cheeks, compact lavender clock, smooth angular cream cuff bands and BROWN gloves remain intact. Do not move or enlarge held clock while repairing hair/iris. Keep existing red split coat, collar/chest ornaments, ONE waist pom, cream angular faint-clover skirt, narrow pink ruffle, RED shorts and distinct straight legs unchanged. Same loose dark PV outlines, flat patches, one simple shadow. NO writing/numbers/digits/captions/letters/watermark, clock display blank. No new sleeve symbols, new poms or wider sleeves.",
+  "output": "../generated/fine-f0095-v2.png",
+  "repair_of": "fine-f0095-geometry-repair.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "static_review": "pending",
+  "temporal_review": "pending",
+  "prop_restoration": "not enabled; held clock needs validated finger protection"
+}

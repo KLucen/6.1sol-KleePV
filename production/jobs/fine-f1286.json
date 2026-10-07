@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f1286",
+  "source_frame": 1286,
+  "canonical_cel": "cel-0278",
+  "family": "seated_title_credits",
+  "prompt": "Use case: precise-object-edit. Asset: ONE full 16:9 hand-drawn PV cel, not a sheet. Image 1 is the exact CURRENT source drawing f1286 and determines character size/position, head tilt, eye state, tiny dot mouth, crossed forearms over raised knees, feet, cropping and occlusion. Image 2 is the approved preceding Klee cel at f1285, for the same Klee design, clothing, proportions, color and loose line style only. Image 3 is actual before/current SOURCE spatial differences; use it to redraw local outlines, never output a montage or diagram. Replace the original girl in image1 with Genshin Impact Klee, default Shooting Spark: pale blonde short twin side ponytails and pointed ears, red beret with cream clover and white feather, red coat with cream cuffs/trim, brown gloves and boots, small brown backpack only where visible. Keep image2's simplified source-like chunky dark uneven lines, flat colors, orange oval blush, no detailed game rendering. Klee is small near the center, approximately source bounds x755–1170 y245–775 on a 1920x1080 canvas, sitting on the ground with both knees raised, two boots together, forearms crossed ON TOP of the knees in the foreground; face and short ponytails behind arms. Her head tips slightly toward viewer-right, tired half-lidded OPEN RED eyes look toward viewer-left/down, tiny closed dot mouth; not smiling. Source f1286 is a genuine small redraw after f1285: slightly changed jaw/bang/hat outlines, curled near hand and collar, outer right hair/ponytail curve, trouser/coat fold and boot contours. Preserve these local coherent changes translated to Klee rather than merely holding image2 unchanged, but keep identity/topology and no gratuitous pose change. Body/coat over legs must follow source closed seated silhouette; no blanket, hood or pillow. Preserve lavender empty background. REMOVE ALL text, subtitles, titles, credits and lettering; clean background and clothes. No extra objects, panel, diagram or additional characters. Output only the single complete replacement cel.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0818-f1286.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-048.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\late-f1285-f1286.png"
+  ],
+  "status": "generated",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64f-70f8-71e1-9a62-c776fde54c97\\exec-a1de1691-d352-4bfc-9825-f4a5655f5d7c.png",
+  "static_review": {"status": "reviewed_candidate", "matches": ["Tired open red eyes, crossed forearms on raised knees, closed seated silhouette, no lettering"], "limits": ["Close line variant; final continuous-frame alignment still needed"]},
+  "temporal_review": "pending",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "direct_coherent_pixels": 38333,
+    "rigid_similarity_confirmed": false
+  },
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1286.png"
+}

@@ -1,0 +1,75 @@
+{
+  "command": "C:\\Users\\KLucen\\anaconda3\\python.exe -m unittest discover -s production -p test_*.py -v",
+  "observed_exec_session": 16386,
+  "exit_code": 0,
+  "test_count": 63,
+  "elapsed_seconds": 74.68,
+  "outcome": "OK",
+  "source_code_sha256": [
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\audit_full_pv_coverage.py",
+      "Hash": "BB0C2DCC6513467953AFA4D768142AAEA2203858B6442379E66C00EB629A54ED"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\caption_layers.py",
+      "Hash": "26EE56CD71707B12F50B33E26359AE8F1E3E108C7C8CC16F8CC848F2FDFADE3D"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\compose.py",
+      "Hash": "B85AE7E9A6891C1FB4425C98A82FD86E9CA66EAA905AC786706D52CE0B64352E"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\dance_caption_layers.py",
+      "Hash": "B2E63D3ACCBD5024B714C3103C6FCC296CA6B386697687CBF9C8AE6BCF9EA3DB"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\opening_clock_layers.py",
+      "Hash": "458EADAA4F321C62F5C1EAFDDC5696880A65935F3515E73BE0D2F957F9118078"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\review_interval.py",
+      "Hash": "2DEC5FC168059CEC134D292876502B14A07E3642BD347BFA82D9D141BA43CE28"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_caption_composite.py",
+      "Hash": "88303885712FCDCAF26F484B406FBE956443058327A89FFDD0FE7E78F45B85E6"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_caption_diagnostics.py",
+      "Hash": "14A8004DFDF3BDFBC637461C3FF77181272E143B5FA5C8F5B25537384E1F6005"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_clear_dance_captions.py",
+      "Hash": "E27B14649981DC164EE95C15D75E43CA6ECF41FBA7F91E52F61A0FCD9B0DE8B9"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_coverage_issue_inventory.py",
+      "Hash": "149D3B3A332DC3E4B8A130B4337562B61D9BE9812E0A94184067748B32550B50"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_dance_caption_integration.py",
+      "Hash": "1CC7DE46785EFACAEAF24A613B1AC3FD9F9D04EB0751506ED1E407F2CBF8BDAD"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_dance_caption_layers.py",
+      "Hash": "02DAE815AB65B816C96D7ADDA176D9D5D05DA80E8710189CAABFEDB001000173"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_opening_clock_layers.py",
+      "Hash": "AD7FB9E8EDAB37FB36DCF7AFC430FD88CFBB6C4797AA5AE72475F144F6A61155"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_render_timing.py",
+      "Hash": "03C081B1E38AB1309016439F8CAE8DC82C07AADBCA4B988C1C36246824165041"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\test_title_layers.py",
+      "Hash": "9CB088CB1ED18AA40691F07F424E43C589C2B921210C62FC5EB003481BB46269"
+    },
+    {
+      "Path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\title_layers.py",
+      "Hash": "CB09A08BE478D2CCC98AB68E8E260D9731B896EB1239A4821963B48B7383C4C0"
+    }
+  ],
+  "scope": "Focused production unit/integration regressions; not artistic acceptance"
+}

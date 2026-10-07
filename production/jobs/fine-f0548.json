@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0548",
+  "source_frame": 548,
+  "source_candidate": "src-0198",
+  "canonical_cel": "cel-0091",
+  "family": "prone_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0198-f0548.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0544.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0548.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset ONE independent full 16:9 hand-drawn animation cel. Image1 current original PV is ABSOLUTE authority for pose/scale/crop/hand and foot positions, face eye-state/expression, original pillow outline/flat shadow and all occlusions. Replace ONLY pink-haired pajama character with default Klee from Genshin. Remove burned-in captions cleanly and preserve all scene art positions; no text, no letters/digits. Image2 hatidentity/colorconstruction ONLY, notheadscale. Image3 nearest preceding Klee drawing: flat loose line/color/hair/backpack construction ONLY, NOT frozenpose. Correct it to default outfit as specified. Image4 REAL two-dimensional original before/current/difference/contours: upperright isCURRENT, bluebefore/redcurrent shows independentchanged contours. Redraw those changes, no analysispanels. Image5 ifpresent iscostumeconstructiononly. ORIGINAL loose uneven thick blackcontour, flat lavenderbackdrop, plain red/cream/brown/blonde patches, simple flat source gray shadows. ExactlyTWO SHORT ear-rootedsideponies, pointedears, paleblondebangs, sleepy half-openREDeyes percurrentoriginal, orangeovalcheeks, no inventedmouthifsourcehidden. Redberetcreamcloverwhitefeather androundbrowncloverbadgeviewerRIGHT, NOdanglingornamentunderbadge. Plainred coat/capelet ONE small creamclover onleft lowercoatpanel ONLY, plaincream angularskirt+pink ruffle, REDSHORTS wherevisible. Bare thighs+knees bend atsourcejointplaces, SIMPLEBROWNboots with plaincreamtopbands. Nevercreamlongpajamapants, NO bootclovers/poms/badges, NO sleeveclovers. Brownfullgloves with original exactfinger/handcontours, plaincreamcuffs behindbrown wrists, shortredsleeves extendforward. Smallbrownbackpack liesonupperback behindhead, stablebuckle. BodyliesPRONE tummy-down oncream/purplePILLOW withbotharmsforwardtowardleft andbothkneesbentrearfeetup. Follow source exactentirebody/neck/hip/knee/anatomy, no newposeandnoenlargement. Pillowbehindarms/face/body andoriginaledgespreserved. No newshadows/reflections, no polishedgameart, no gradients/textures. Onecurrentcel only, notsheet.\nCURRENT SOURCE: CURRENT548 independentsource: half-open sleepy red eyes, no visiblemouth. Farraisedfoot tipx914,y331, nearfoot tox1215,y482 slopesdown-right, currentnew outlinesfrom544 change bootsole/cuff crease/raisedlegs pressureandangles. Body/head/arms unchangedpositionbutredrawtinybang/hairtip/cuffchanges peractualRGBcontours. Do notfreeze544 anddonotappendclovers.",
+  "output": "../generated/fine-f0548.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-5eb8daf8-0f84-4d70-940a-e180278c5661.png"
+}

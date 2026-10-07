@@ -1,0 +1,39 @@
+{
+  "job_id": "fullpv-middle-f2039",
+  "source_frame": 2039,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1109-f2039.png",
+  "prompt": "Edit image1 CURRENT original into a true independent strict-source Klee f2039 PV cel. Current source sole pose/expression/crop/camera/occlusion authority. Image2 f2037Klee identity and costume/shortpony continuity ONLY, not frozen pose; image3actualsource2037->2039 RGBdifference and contours RIGHTcurrent. Current enlargedfrontface same primaryshout with minute currentinkpressure changes and same bottomcenter lyric text and current redraw: face/head shift slightly left/down, brow and bangtips squeeze separately. Matchsource mouth/eyelid/jaw coordinates notcopyprior. TWO fully CLOSED eyes as hugeblack>< inwardchevrons, zero visibleirises/pupils or eyehighlights. Two orangecheeks, BIG allpinkopenshoutmouth exactcurrentoutline. Topberet/crown croppedTOP, shoulders/collar/onlysourceknuckle slivers BOTTOMcropped; don't invent fullgloves/handsbody. Redcloverberet brownband ONEwhitefeather attachedanatomicalleft/viewerRIGHT, two SHORT paleblondeponies by singlepointedear eachside where actuallyvisible. No oldrabbitmask/headband/longpeachhair/pajamas, no doubleear or sourcehumanearwedgebesidecheek. Redcoat creamfoldedcollar/simplepompom plaincreamcuffs brownGLOVES onlyactualsourceknuckles. Lavender1920x1080 with CURRENTsmallcreamlyrics bottomcenter '\u611b\u3057\u3066\u305f\u3044' above '\u60f3\u8981\u53bb\u7231' atsourcecoordinates. Wobblythicksourceblackline andFLATbroadfills/hardshadow ONLY, no gradientglossdetailclovercuffs/newactorsprops. Independently draw currentminorpressurechanges, no heldpose/morph/tween/mirror.\nDo not move sourcebottomcenter caption overdifferentpartofmouth. Keepclosedchevroneyes exactcurrentends, allpinkmouth mostlyflatbottom; currentsourcecaptionpreservedforcompositor. No cloveronbrown band: cloveronREDberet, simplebrownband.\nMatch CURRENTsource closed-chevron endpoints and currentpinkmouthslightlymoreupright roundedrectangle; face currentleftedge x~420not priorlargeidentitywrongregistration. Mouth chin nearBOTTOM, sourceonlyhand/collar slivers, notlargevisiblegloves. Don't expose humanear wedgepluspointedear. Redberetfrontcloveronredpart only.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1109-f2039.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f2037.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/shout_zoom/source-delta-f2037-f2039.png"
+  ],
+  "reference_roles": [
+    "current source sole pose expression camera crop occlusion caption timing",
+    "previous Klee identity style continuity only not pose",
+    "actual source RGBdifference contours right current"
+  ],
+  "output": "generated/fine-f2039.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-5815b68b-b720-4a1b-88d3-78c5698432ba.png",
+  "output_sha256": "2614dac43a6a0a897a53a40fd5206c7043c9241a0f1bd4b0e4739f7b59159292",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed",
+  "static_review": "qa/fullpv-middle/resume-output-review-f2039.json",
+  "known_issues": [
+    "Recovered saved draft. Current minor source contour changes are approximate; closed eye state represented without visible irises.",
+    "Extra circular beret clover and voluminous ponytails persist; lower sleeve and hand fragments exceed source visibility.",
+    "Caption strokes and source background need layer restoration; full continuity and actual-speed review pending."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "job_id": "fine-f0510",
+  "source_frame": 510,
+  "source_candidate": "src-0175",
+  "canonical_cel": "cel-0083",
+  "family": "sack_closeup",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0175-f0510.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f0507.png",
+    "C:/Users/KLucen/Desktop/kl/production/diffs/early-full-f0510.png"
+  ],
+  "prompt": "Use case: identity-preserve. Asset: ONE independent full-frame 16:9 hand-drawn PV animation cel, no panels. Replace ONLY the pink-haired pajama girl in image 1 with default Klee; original image1 is absolute authority for current camera, crop, exact face landmarks, pose, finger shape/position and bag geometry. Preserve lavender background and cream sack including gray shadow, creases, rope shape and source positions. Image2 is cropped Klee HAT identity/colors ONLY, not head scale. Image3 is adjacent Klee504 for stable head/hair topology and loose flat source-like line style ONLY; NEVER freeze its pose or prop positions. Image4 real source before/current/difference/blue-before/red-current contours is motion authority, current upper-right. Redraw current source variation in lids/mouth/bangs/shoulder/sleeve/cuff/fingers; no analysis panels. Klee pale blonde bangs and exactly TWO SHORT ear-rooted ponytails, pointed ears, red sleepy half-open irises where original visible, orange ovals, exact original mouth. Red beret cream clover with white feather and brown clover badge on viewer-RIGHT, same simplified cut/color. Flat red cape/coat, plain cream collar and cuffs, simple brown full gloves. One small collar pom only if not occluded. No sleeve clover ornament, no decorative seams or embroidery, no extra hanging badge, no third waist-level hairwing. Source wrist/hand positions conserved: glove fingers overlap IN FRONT OF bag, cream cuff behind wrist, red sleeve behind brown glove; bag IN FRONT of far sleeve/torso; far fingers visible only where original visible. Stay tight source closeup cropped by right and lower canvas edges, no legs invented, no enlarging head/eyes, no rendering polish/gradient/texture. No text, captions, letters, digits, watermark. Single source-current pose only.\nREFERENCE3 OVERRIDE: last neighboring Klee f507 palette/style/hair topology only. Current f510 independently raises bag and left-facing spread fingers AGAIN. Source gathered bagmouth x485..725,y216..363; bag whole x196..860,y216..960; near glove thumb tipx635,y530, four fingers left x483..630,y540..735, palmto cuffcontactx657,y790; creamcuff startsx695,y626andendsx854,y940, steepdiagonal contact. Farhandnow x162..220,y550..675 gripsleftbag behindedge, notfar507lowerpoint. Eye lids original leftx1140..1295,y425..455 andrightx1420..1592,y440..480, tiny tired RED pupils source eye area, cheekx1200/1505,y632, mouthsmallslantedovalx1350,y709; keep exactlycurrentface landmarks (do NOTlower them for extra Klee forehead). Foreground red arm angle is steeper risingtowardbag, originatinglower-rightoutsidecanvas. Bagrope narrower/tilted and loopbottom~700notcopy507. No sleeveclover, no badge danglingextrafromhat, no new pom hiddenbyarm. Execute all actualindependentchanges, keeponefullcel.",
+  "output": "../generated/fine-f0510.png",
+  "status": "generated_draft",
+  "accepted": false,
+  "continuity_status": "pending_static_and_sequence_review",
+  "caption_cleanup_required": false,
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6b-b543-7510-a42a-a701a562a442\\exec-f0675bb6-3b53-4600-91fe-c502d28e1ceb.png"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f1943",
+  "source_frame": 1943,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1021-f1943.png",
+  "prompt": "Identity-preserve strict-source PV independent f1943. Edit image1 CURRENT ORIGINAL SOURCE; sole back-facing pose/camera/crop/occlusion authority. Image2 previouslygenerated Klee f1940 is ONLY identity/short-hair/costume/line continuity, must not freeze its exact outline. Image3 actual source1940->1943 RGBdiff and blue/red contours: RIGHT currentf1943. Preserve full1920x1080 lavender scene and small LEFTtwo-line lyrics. Single centrallyplaced BACK of head/body, NO face/eyes/mouth/cheek/frontalbangs/legs. Torso stays bottomcropped at same source registration, arms down visible sides. Independently redraw tiny current source changes in headhighlight edge, side contour, shoulder/sleeve edges and linepressure. Replace complete original long peach hair and sleepmask/pajamas with Klee: pale blonde nape-lengthshort hair and TWO SHORT sideponytails by pointedears, rear redberet brownband singlewhitefeather on viewerLEFT for rearview. No originalheadband/doublehat/longhairsheet. Plain rear redcoat creamcollar and plaincreamcuffs, optional visible tiny handtips must be BROWNglove tips, never barepeach skin. Keep continuous same rear hat shape and ponytail roots/lengths as image2 while responding only current source subtle redraw amplitude. No addedbackpack/props/actors or invented frontalclover/pose. Thick wobbling black sourcePVoutline, broadFLATfills/simplehardshadows only, nogradient gloss texture polish, no morph/tween/hold/mirror. Preserve source captions for later restoration.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1021-f1943.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1940.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1940-f1943.png"
+  ],
+  "reference_roles": [
+    "current original source rear pose/crop/no-face visibility",
+    "Klee rear identity/style continuity only; not pose template",
+    "actual source spatial delta; RIGHT current"
+  ],
+  "output": "generated/fine-f1943.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-604b5fde-fa38-486a-98ea-e3a5fb70d5e1.png",
+  "output_sha256": "6a403afdb0d4e82dfe9a669f0a933aa05daf20ac8726d9a1738d54ddc4d1f05e",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

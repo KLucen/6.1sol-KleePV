@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0079",
+  "source_frame": 79,
+  "source_candidate": "src-0027",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0027-f0079.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0075.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0079.png"
+  ],
+  "prompt": "ONE full16:9 Klee replacement cel. CURRENT original image1 determines exact pose/crop/occlusion. Previous Klee image2 fixes SAME identity, proportions, redberet/whitefeather side, short blonde two ponytails, outfit and style, not pose. Image3 source before/current differences, upper-right current: no panels/labels in output. Major current change: face now FRONTWARD, clock directly HORIZONTAL ACROSS BOTH EYES near source x1275,y320; BOTH EYES ARE COMPLETELY HIDDEN BEHIND CLOCK. Do NOT show eyes peeking over/under the clock. Two brown gloves grip separate LEFT and RIGHT sides of clock, fingers wrapping onto its front edges, palms in front of clock, cream cuffs raised beside cheeks; both arms lift vertically with elbows bent down near chest. Tiny closed inverted-V/caret mouth visible below clock, orange cheek fragments. Klee's redberet above clock, creamclover/whitefeather unchanged design, pale blonde bangs partly hidden, pointed ears where source-visible, TWO short side ponytails rotate with head. Redcreamcoat/capelet/backpack, knees still bent and legs cut off at bottom; source current more upright torso lean and sleeve folds followed. Lavender diagonal pillow behind head, original boundaries/pattern and clock geometry preserved. Entire frame NO captions/subtitles/titles/credits/labels/lettering; clock display blank, source digits restored separately. Simple flat PV patches, irregular dark outlines, one shadow, no gray pajamas/rabbit hood/hip pockets, extra eye/arm or zoom out.",
+  "output": "../generated/fine-f0079.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

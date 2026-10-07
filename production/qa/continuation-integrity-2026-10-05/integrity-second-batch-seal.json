@@ -1,0 +1,2215 @@
+{
+  "snapshot_utc": "2026-10-05T11:19:42.535610+00:00",
+  "scope": "private metadata/file integrity, not artwork acceptance",
+  "coverage_refresh_run": true,
+  "selection_row_count": 277,
+  "duplicate_selection_frames": {},
+  "duplicate_selected_paths": {},
+  "duplicate_path_note": "Repeated source cels must normally use approved aliases; any direct duplicate is reported, never silently fixed.",
+  "new_draft_job_checks": [
+    {
+      "source_frame": 1091,
+      "selection": {
+        "source_frame": 1091,
+        "path": "generated/star-f1091-source-redraw-v4.png",
+        "review": "root_static_only; Fresh original-source redraw removes the disconnected original pink underarm hair; gap is clear purple.; Half-open flat eyelids, CLOSED caret mouth, bent screen-right camera-facing empty sleeve opening with fingers hidden.; Two short rooted hair groups ending above collar edge, coherent full body with two grounded boots.",
+        "known_issues": [
+          "Head/eye vertical registration and coat/cuff opening shape approximate original; hand detail and new knee/boot shading differ.",
+          "Costume/hat/collar simplification changes relative to earlier standing cels; deferred nonblocking draft consistency review."
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "job": "jobs/star-f1091-source-redraw-2026-10-05-v4.json",
+        "output_sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1091-source-redraw-2026-10-05-v4.json",
+      "job_sha256": "ee512abc5eaccf8da6376e9d50281625c165a83cb0820ede6fc596bc40034e34",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-source-redraw-v4.png",
+        "exists": true,
+        "sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8565ea4f-3075-4393-8484-fee8b60a9ec0.png",
+        "exists": true,
+        "sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-actual.png",
+          "exists": true,
+          "sha256": "f29ba6893c9af135ef6e33f797273cc55c1dfa87ce02acf2c25679eccdbeec36",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-source-face-native.png",
+          "exists": true,
+          "sha256": "2a278c759428c964ae1d46d3d51b2ce63d802d16d9c5fb292564353bf831998e",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-missing-2026-10-05\\klee-topology-no-face-f1053.png",
+          "exists": true,
+          "sha256": "6e69b0e262866e6fcde15658b1f051138666d9600b48bae1dce760a175a34554",
+          "dimensions": [
+            990,
+            465
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1097,
+      "selection": {
+        "source_frame": 1097,
+        "path": "generated/star-f1097-fast-continuation-v1.png",
+        "review": "root_static_only; visible right curled chest glove/cuff coherent; heavy half-open eyes and closed caret mouth; two rooted short ponytails and clean underarm gap; left down/out glove and right bent tilted boot",
+        "known_issues": [
+          "hand/cuff shape and head placement approximate",
+          "added boot/skin shading differs from original flat cel"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "job": "jobs/star-f1097-fast-continuation-2026-10-05-v1.json",
+        "output_sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1097-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "7ce10f471967dfbcb2daf7dfbe13d938a29d0035caaf3c39121ba1b7e3f35f64",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1097-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-5fcf2cbe-0089-4a86-8209-3bfbb24361d9.png",
+        "exists": true,
+        "sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-actual.png",
+          "exists": true,
+          "sha256": "c6ccc5fd7e2f01cac2fb7c882cda005039995530f69cfd73436ed5343ff0b508",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-face-native.png",
+          "exists": true,
+          "sha256": "143de2789c93b72c11360f3a4e02bc1e8c472f54f0808f328559d60a78b31aed",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-f1097-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "92a9c972fc1c697d7ffad7ff81a4643361c20082e6d9b1120f9f3697c3a7e04c",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1097-source-body-native.png",
+          "exists": true,
+          "sha256": "29b2a5f041b5be79891c8f5b73a66ad49e2226b11914bcbd35e1c8975131c1c9",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-source-redraw-v4.png",
+          "exists": true,
+          "sha256": "b3d9c2d40c7432fd24a6843ce0249f9a05b0cac2a61424dde6c660283370d816",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1102,
+      "selection": {
+        "source_frame": 1102,
+        "path": "generated/star-f1102-fast-continuation-v1.png",
+        "review": "root_static_only; independent open O mouth and taller eye openings; right curled chest glove and left down/out glove; two short rooted ponytails/no underarm original hair; right boot more upright",
+        "known_issues": [
+          "eyes/hand/cuff shapes approximate",
+          "added knee/boot shading and vertical head framing differs"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "job": "jobs/star-f1102-fast-continuation-2026-10-05-v1.json",
+        "output_sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1102-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "c1746cc4e38d1383a53ea93fd1e235234e546474ef0fc914966042ed8482333b",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1102-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-d5d25d0b-9772-4e59-8dec-87e642bfef12.png",
+        "exists": true,
+        "sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-actual.png",
+          "exists": true,
+          "sha256": "ed21556489830fedce9b9b7bda65f3043988c129a669b6c57234bd5ea6ea2550",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-face-native.png",
+          "exists": true,
+          "sha256": "aa934fa9428edbefa946f0e7f6ee025328b4b2d8f7a184c09e84bddfadb4c4d5",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1100-f1102-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "cb87fc374c3d756b813927aa5aea1b3d80dca5ebd998e17d8b699ffa5d87e623",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-source-body-native.png",
+          "exists": true,
+          "sha256": "8fcbbe12e5fe658ca45c16993c01b060f3ec022b33ef0474e261115c454deb30",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1097-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1106,
+      "selection": {
+        "source_frame": 1106,
+        "path": "generated/star-f1106-fast-continuation-v1.png",
+        "review": "root_static_only; left up/out curled glove and connected cuff; right glove fingertips partially hidden by chest cuff; two short rooted ponytails/no original underarm hair; two upright grounded legs",
+        "known_issues": [
+          "palm/cuff proportions and head vertical framing approximate",
+          "knee/boot shaded style remains"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "job": "jobs/star-f1106-fast-continuation-2026-10-05-v1.json",
+        "output_sha256": "5dc84fa8479d2b8402895ee0f0afa8900bbab94960c08fa2278cc27486b7c6c2",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1106-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "25965489b25eb10dc1398cf31889121823851027f140000b8f6f6de7d4cf95f2",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1106-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "5dc84fa8479d2b8402895ee0f0afa8900bbab94960c08fa2278cc27486b7c6c2",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8906a714-7b69-40df-92bf-a2929bb16239.png",
+        "exists": true,
+        "sha256": "5dc84fa8479d2b8402895ee0f0afa8900bbab94960c08fa2278cc27486b7c6c2",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-actual.png",
+          "exists": true,
+          "sha256": "e400acc047b89829f8617bc9ddd4128b6aa777dbbb58944f87bdc37e7a98c71c",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-face-native.png",
+          "exists": true,
+          "sha256": "6c2d51aa999c46543d736f5a3b22070865a167c0dc2a94d99337e8380f78f929",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1102-f1106-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "1983249d5dd33f7d22778e9b3a4a38e28aa0a651b81ec53a914846e56f01bdcf",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-source-body-native.png",
+          "exists": true,
+          "sha256": "0145dbf3ccff9c59ae589fd4efccd13393be3fa67f82f831deb35d61ec67ec82",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1102-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "f29a76f079cfee71b83289e77c05fac05a85ef36552d15940c05ba741d6c90b4",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1113,
+      "selection": {
+        "source_frame": 1113,
+        "path": "generated/star-f1113-fast-continuation-v1.png",
+        "review": "root_static_only; left glove/cuff curls closer and higher to body; right cuff hides fingertips at chest; two rooted shoulder ponytails and no old outlined underarm hair; left leg/boot angles outward and right remains upright",
+        "known_issues": [
+          "hand/cuff shape and head/coat framing approximate",
+          "faint graphic remnant near left torso requires compositing-layer review",
+          "added knee/boot shading"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "job": "jobs/star-f1113-fast-continuation-2026-10-05-v1.json",
+        "output_sha256": "a46d448b2a41f575e53b6d5c1745c27c476eb32bf6c8d9f1e87595d08fe8c99e",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1113-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "7cf95f8ac90546cb388857ec90c0c517bc9257e98788c910d439b8eb3dcaa389",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1113-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "a46d448b2a41f575e53b6d5c1745c27c476eb32bf6c8d9f1e87595d08fe8c99e",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-c89fdd8e-d52e-4703-967b-51e6061b3bdb.png",
+        "exists": true,
+        "sha256": "a46d448b2a41f575e53b6d5c1745c27c476eb32bf6c8d9f1e87595d08fe8c99e",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1113-source-actual.png",
+          "exists": true,
+          "sha256": "a5498cd0c537369b8f6a84d21285fbcc017230e1d5a21a987159163f5fb3db55",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1113-source-face-native.png",
+          "exists": true,
+          "sha256": "a6fc38e97187a270f4c4c5a88aaf9acb543584626f70a500461c5f27b8ab69e7",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1106-f1113-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "18dd5ee36f7e2bc4b48ccce5e00146329d82043eff26d212ca5ac423834a8903",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1113-source-body-native.png",
+          "exists": true,
+          "sha256": "54b07f201be96bbcfa42e312f76b3ee063ed23d321bd545fa9cba40aca9e5a17",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1106-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "5dc84fa8479d2b8402895ee0f0afa8900bbab94960c08fa2278cc27486b7c6c2",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1118,
+      "selection": {
+        "source_frame": 1118,
+        "path": "generated/star-f1118-fast-continuation-v1.png",
+        "job": "jobs/star-f1118-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; two separate curled gloves brought to chest; left sleeve inward crossedtorso/right upright; two rooted shoulder ponytails/no originalhair; left tilted leg and upright right groundedfoot",
+        "known_issues": [
+          "hand/cuff/head/hem registration approximate",
+          "style added knee/boot shading"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "76b3832e4b3d7685a12413b45d701c56b8c2995336bb727c7afefdcf9a524b51",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1118-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "69d384f720bab7cfaff93b1ccc667097d62db0dc14433604df26def0a3eda68f",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1118-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "76b3832e4b3d7685a12413b45d701c56b8c2995336bb727c7afefdcf9a524b51",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-19c86e65-69b6-4bf7-a122-f8d6ce5cbb36.png",
+        "exists": true,
+        "sha256": "76b3832e4b3d7685a12413b45d701c56b8c2995336bb727c7afefdcf9a524b51",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-source-actual.png",
+          "exists": true,
+          "sha256": "1f97460eda3d499abcb136e0b499262521740a151b06e5cfdafc0ddc02c6529a",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-source-face-native.png",
+          "exists": true,
+          "sha256": "4904419877a07fe6597f8278d6386f30d822952ef784c68d09ff3ca444742c6a",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1117-f1118-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "814291bc3e210f177dedcb74f8a389f47e1fdf7cae183f14a9a2e9c66978bbc7",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-source-body-native.png",
+          "exists": true,
+          "sha256": "721b6eb9d5a15909e935c5eabb5ac4d8c94d2c36a2ad8c31e4982330889aae02",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1113-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "a46d448b2a41f575e53b6d5c1745c27c476eb32bf6c8d9f1e87595d08fe8c99e",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1123,
+      "selection": {
+        "source_frame": 1123,
+        "path": "generated/star-f1123-fast-continuation-v1.png",
+        "job": "jobs/star-f1123-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; independent near-upright groundedleg change; two small chest gloves and connected inward sleeve/cuffs; narrow open eyes/O mouth and exactlytwo rooted ponies",
+        "known_issues": [
+          "source tighter overlapping crossing cuffs simplified to touchingcuffs; same anatomy preserved but pose amplitude approximate",
+          "head/collar/hem vertical registration and knee/boot shading differ"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "c24f186f0b0be2c1e7801dfc2a21975ed93c3cfc2b7204f0ca95a2c634b53430",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1123-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "cf0f1b35c19e6a60e6f75e09bcf1b923719893e1417dcc2702d0feecc8ef698a",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1123-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "c24f186f0b0be2c1e7801dfc2a21975ed93c3cfc2b7204f0ca95a2c634b53430",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-644a1484-8dce-4acd-9ddf-a86ff63d337e.png",
+        "exists": true,
+        "sha256": "c24f186f0b0be2c1e7801dfc2a21975ed93c3cfc2b7204f0ca95a2c634b53430",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1123-source-actual.png",
+          "exists": true,
+          "sha256": "47cee53f2f3545be7c208dda8bf3a3ce33f785aa3a5f056bd6921fc9370ec5b2",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1123-source-face-native.png",
+          "exists": true,
+          "sha256": "3f041d7f049c6b3a07891459d35331a3afd56c904d141e47d5120ab16e11462d",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1118-f1123-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "8c4c796fca539d6b9c6c2d6b66a990a3e803dcd7c903426122b1e1f486a1b8d5",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1123-source-body-native.png",
+          "exists": true,
+          "sha256": "07c7381eb2a2e7afd0a7b77bdbe2705ff375a593ec638fade1d329939d0ba7b2",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1118-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "76b3832e4b3d7685a12413b45d701c56b8c2995336bb727c7afefdcf9a524b51",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1129,
+      "selection": {
+        "source_frame": 1129,
+        "path": "generated/star-f1129-source-keypose-redraw-v2.png",
+        "job": "jobs/star-f1129-source-keypose-redraw-2026-10-05-v2.json",
+        "review": "root_static_only; Vertical overlapped clasp below chin now drawn; coherent two crossing sleeves/cuffs and exactly two hands; Closed caret mouth, two rooted shoulder ponies, upright grounded legs",
+        "known_issues": [
+          "Extra clover coat ornaments, boot trim and frontal forelock differ from plain preceding style",
+          "Red iris lacks distinct pupil/highlight; narrowed eyelids approximate current source",
+          "Head/hem vertical registration and knee shading differ; no composite or actual-speed acceptance"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1129-source-keypose-redraw-2026-10-05-v2.json",
+      "job_sha256": "91124576db9a10d773344e1c640273f1f936090be25577a7601048af94671718",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1129-source-keypose-redraw-v2.png",
+        "exists": true,
+        "sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-9a6aca2e-6ef2-4754-bb39-3fb3df6e40f1.png",
+        "exists": true,
+        "sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1129-source-actual.png",
+          "exists": true,
+          "sha256": "7d75057134f08f7c89b02a1ea402b72ba8d862fa5c59803251d27fd233d21552",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1129-source-face-native.png",
+          "exists": true,
+          "sha256": "1bffde1307a1867ade5e3124e5fa671447af7df747292dc0f95d11e043ba5fd9",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1129-source-body-native.png",
+          "exists": true,
+          "sha256": "49f1157bc3bacc6205a9c3549fb16384922a6e5a82e51f9010fe4481560f2480",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1125-f1129-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "ebd1626503c2c22e4c62b3f3858c9ce426729306dffd366d579b08b5a64e1d01",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+          "exists": true,
+          "sha256": "b19614e2524b36b4339165bff9738b9ead49b0d1e14883ba91fae92ae37a1939",
+          "dimensions": [
+            340,
+            312
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1134,
+      "selection": {
+        "source_frame": 1134,
+        "path": "generated/star-f1134-fast-continuation-v1.png",
+        "job": "jobs/star-f1134-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; Raised vertical clasp reaches lower face, coherent crossing sleeves/two hands; Two short rooted shoulder ponytails, near-upright grounded legs; independent higher glove/cuff change",
+        "known_issues": [
+          "Tiny source mouth dot hidden behind glove; hand rise/cuff overlap amplitude simplified",
+          "Cream coat trim/boot trim/forelock differ from initial plain style; previous clover coat motifs removed",
+          "Narrow red eyes have no distinct black pupil despite prompt; head/hem registration and skin/shading approximate"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "6ff1603775009b3f9dc0ad5e9e3b8ab8601c150f7b0d27e54f3bcde1f56c3913",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1134-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "15153c3f25d8a631453d69f979162b24761fa3adcd3aa1e0234858ec51afc136",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1134-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "6ff1603775009b3f9dc0ad5e9e3b8ab8601c150f7b0d27e54f3bcde1f56c3913",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-b39ba788-bad6-4c20-98bf-de3316c9fe37.png",
+        "exists": true,
+        "sha256": "6ff1603775009b3f9dc0ad5e9e3b8ab8601c150f7b0d27e54f3bcde1f56c3913",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1134-source-actual.png",
+          "exists": true,
+          "sha256": "4662e32d890d75bb46640c5a727958e9478e582c2f5a1d190822e3c9ed61f841",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1134-source-face-native.png",
+          "exists": true,
+          "sha256": "8960c0c17d60252308ab2bf5229e5050c7ecfff1f2b88351f1d8a4c1fa62e9bc",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1133-f1134-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "abfd2f28f7abe999c4727fcfe5694c22a222fc15faa8faf483cd2df0f568fc87",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1134-source-body-native.png",
+          "exists": true,
+          "sha256": "10ebdb74e43aaeff6244c64db4f8319608c55649f499d4e5cb9fe7d858b85759",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1129-source-keypose-redraw-v2.png",
+          "exists": true,
+          "sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1140,
+      "selection": {
+        "source_frame": 1140,
+        "path": "generated/star-f1140-fast-continuation-v1.png",
+        "job": "jobs/star-f1140-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; Both eyes completely closed with no iris; compact vertical clasp and two crossing connected sleeves; Exactly two short rooted ponytails, upright grounded legs; plain continuous cream hem restored",
+        "known_issues": [
+          "Source tiny mouth dot mostly hidden behind glove; current clasp/cuff amplitude approximate",
+          "Boot trim/forelock, collar shape and head/hem registration differ; knee shading",
+          "Actual-speed/compositor layer validation not performed"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "89b294706e355c958bd7d9b950e96f5935b66ed0a7a2cbcbfca5986a999889df",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1140-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "96ce8142483aa91739cfa460ced6a5ada90a95ba2855cc682af6645a61db2841",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1140-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "89b294706e355c958bd7d9b950e96f5935b66ed0a7a2cbcbfca5986a999889df",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-f1087682-1d4a-4231-bccd-25653546934d.png",
+        "exists": true,
+        "sha256": "89b294706e355c958bd7d9b950e96f5935b66ed0a7a2cbcbfca5986a999889df",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1140-source-actual.png",
+          "exists": true,
+          "sha256": "2a5c0958b94e39fe1181c9a8f5ea85b7450728f126b8f9c8b8d4096640678576",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1140-source-face-native.png",
+          "exists": true,
+          "sha256": "b9cae0c0913fbe7d8405dd96aba0462448fcd3146a15151e2e6f792390f0e0c6",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1134-f1140-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "260223d64a0934db398fc0e77b9a1408c106b44eade8431c75e3698a4f852495",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1140-source-body-native.png",
+          "exists": true,
+          "sha256": "e23917b60b6ce10e6e9b2b499a6b5850c3d17deb22753a85f0f4bdf7ee86ef60",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1134-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "6ff1603775009b3f9dc0ad5e9e3b8ab8601c150f7b0d27e54f3bcde1f56c3913",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1147,
+      "selection": {
+        "source_frame": 1147,
+        "path": "generated/star-f1147-fast-continuation-v1.png",
+        "job": "jobs/star-f1147-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; Both separate browngloves each one index extended upward, fingers curled, coherent cuff/elbow connection; Both eyes fully closed/noiris, tiny mouth dot; rooted2pony and nearverticalgroundedlegs",
+        "known_issues": [
+          "Glove/cuff shapes and shoulder/elbow angles simplified; collar/head/hem/boot registration approximate",
+          "Boot creamtrim/frontforelock and kneeshading differ from initial standingstyle",
+          "Compositor and actual-speed validation pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "97496fe763875ff9b08ecb909a7ff9282c344f9d9f273c9936f5027b7b2441bf",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1147-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "b97880d08b448a4c0ecbcc9c3aa1083939ea76d97f2d6dff1b33d1f95be3fbdc",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1147-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "97496fe763875ff9b08ecb909a7ff9282c344f9d9f273c9936f5027b7b2441bf",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-3317cf40-bdb9-49c1-b0c3-af53a66e43a8.png",
+        "exists": true,
+        "sha256": "97496fe763875ff9b08ecb909a7ff9282c344f9d9f273c9936f5027b7b2441bf",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1147-source-actual.png",
+          "exists": true,
+          "sha256": "8a4ddb90754c0320c3668cf9e434f6ce94a8d1e70d87b0f734a3764dd73ff476",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1147-source-face-native.png",
+          "exists": true,
+          "sha256": "e4b7e5adc4927c927d304b28e2837276390ecf3fd6c0b694bdd5bd51feaffe14",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1144-f1147-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "df1b5147f104bcf87b56bf2e5d9939022b78d1e4111f9bb82f0c7bf646919d06",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1118-continuation-2026-10-05\\f1147-source-body-native.png",
+          "exists": true,
+          "sha256": "d11cd7e943582f1f513fe22bacdd10b1a4cabdb896372541d80e81fa5740979e",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1140-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "89b294706e355c958bd7d9b950e96f5935b66ed0a7a2cbcbfca5986a999889df",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1154,
+      "selection": {
+        "source_frame": 1154,
+        "path": "generated/star-f1154-fast-continuation-v1.png",
+        "job": "jobs/star-f1154-fast-continuation-2026-10-05-v1.json",
+        "review": "root_static_only; Both index gloves move fartherout and straightenvertical, cuffs and forearms swingout coherently; Bothclosedeyes tinyclosedmouthdot, two rootedponies, nearverticalgroundedlegs",
+        "known_issues": [
+          "Hand/cuff/forearm amplitude and contour simplified",
+          "Frontforelock/boottrim/knee shading/head-hem verticalregistration differ; compositor/actual-speed pending"
+        ],
+        "accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "original_speed_review": "not_performed"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\star-f1154-fast-continuation-2026-10-05-v1.json",
+      "job_sha256": "81105d7ffa2d6d13efbb82954b07a2fe9375a564f2c394f021176a02c7d5f024",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1154-fast-continuation-v1.png",
+        "exists": true,
+        "sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-216be78e-9d6f-49dc-8458-a7045d5c9e04.png",
+        "exists": true,
+        "sha256": "e6cb4462b0b006f5b5b054ab1fdd5f68ce4125f4302e459026b19442f98aa52a",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-actual.png",
+          "exists": true,
+          "sha256": "dca93728594185dfd593f84f4d9db4c0dcf724fa1b113c4627e94f77ff11c104",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-face-native.png",
+          "exists": true,
+          "sha256": "679e4f17643a570baff367ccae4902a1bcddb53fe468ac7d0ed52dc659f2eca3",
+          "dimensions": [
+            380,
+            310
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1147-f1154-source-ab-rgb-contours.png",
+          "exists": true,
+          "sha256": "bc86460b3afaf15d2f45b95b72ffaa12bb6ee3e893459a0e24855fd547fed984",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1154-continuation-2026-10-05\\f1154-source-body-native.png",
+          "exists": true,
+          "sha256": "18d4c47ba6232bdeb0ed588371539dfc3296480321e96c87121ad07949876e93",
+          "dimensions": [
+            700,
+            725
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1147-fast-continuation-v1.png",
+          "exists": true,
+          "sha256": "97496fe763875ff9b08ecb909a7ff9282c344f9d9f273c9936f5027b7b2441bf",
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 2059,
+      "selection": {
+        "source_frame": 2059,
+        "path": "generated/middle-continuation-f2059-2026-10-05-v1.png",
+        "job": "jobs/middle-continuation-f2059-2026-10-05-v1.json",
+        "review": "root reviewed source/new whole-frame comparisons; native source and new2065/2069 key occlusion inspected; static draft only. One full left-facing profile actor, no giant edge-face remnants. Main source two diagonal open palms and planted/bent-back legs represented; red iris black pupil tiny white highlight and exactly two rooted short blonde ponies. f2058->2059 has main pose unchanged but edge-face removal; no full-camera move.",
+        "known_issues": [
+          "Head/hat taller and profile eye more exposed than source; near cheek slightly lower",
+          "Glove fingers simplified and planted/rear boot contours wider",
+          "Coat hem edge and collar obscuration differ; light clothing shading",
+          "Generated background/stars/captions need source-layer compositor restoration; no pixel-lock claim",
+          "Consecutive static comparison performed; actual-speed and final composition not performed"
+        ],
+        "accepted": false,
+        "artistic_accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef",
+        "original_speed_review": "not_performed",
+        "proposal": "qa/middle-missing-continuation-2026-10-05/draft-proposal.json"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-continuation-f2059-2026-10-05-v1.json",
+      "job_sha256": "87b1570b840c1f7e69af4f1a2c681f44904e24024204b4aa10aab098d084e89d",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2059-2026-10-05-v1.png",
+        "exists": true,
+        "sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-774b5e10-d72b-490e-9df5-a381f311cab7.png",
+        "exists": true,
+        "sha256": "a1a0e8de99f5af5d92418f369bb1dc1c78f9b82832e8b911121d77186de0bbef",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1129-f2059.png",
+          "exists": true,
+          "sha256": "3ccaf1e8a48f0993ee63c13749824332d1544d494cb7eac809a8a7f213b65b06",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-f2058-main-identity-only-crop.png",
+          "exists": true,
+          "sha256": "9a756b338160544d3e421695f72d2b46f5338d6ba9d8307ccbaadf7e69517727",
+          "dimensions": [
+            670,
+            945
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2058-f2059-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "feb702fd842ed3d9f7aca0036fd147968733a54220b182686993d7e37a8438d4",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2059-source-native-keyparts.png",
+          "exists": true,
+          "sha256": "8569a9ce6b9cd523c7ceb2a6494af76fd2c9a945f6f0743053808f8dca5f3070",
+          "dimensions": [
+            750,
+            1214
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2059-keyparts-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "91d4c864b9bed47aeeca143231fba3be23b47b389c2b41992f043d97fd89a2d7",
+          "dimensions": [
+            3000,
+            1214
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 2061,
+      "selection": {
+        "source_frame": 2061,
+        "path": "generated/middle-continuation-f2061-2026-10-05-v1.png",
+        "job": "jobs/middle-continuation-f2061-2026-10-05-v1.json",
+        "review": "root reviewed source/new whole-frame comparisons; native source and new2065/2069 key occlusion inspected; static draft only. One narrow left profile turns away, head left/down vs2059 and torso leans toward plantedfoot. Current left cuff/glove moves down and rear hand fingertips up; new draft responds but exaggerates visibleglove and eye. Current bentbackfoot tilt represented.",
+        "known_issues": [
+          "Hat/face taller and more exposed than source eye sliver; red iris under bang only partially obscured",
+          "Both gloves too exposed, rear glove/particle position and near cuff lower than source, source AA/detail not retained",
+          "Rear boot is wider; planted leg/rightward lean approximate",
+          "Generated source background, yellow stars and captions require source-layer restoration; actual-speed/composition pending"
+        ],
+        "accepted": false,
+        "artistic_accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143",
+        "original_speed_review": "not_performed",
+        "proposal": "qa/middle-missing-continuation-2026-10-05/draft-proposal.json"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-continuation-f2061-2026-10-05-v1.json",
+      "job_sha256": "aa4d95e1bc3fb1ebb86b7561daba6e618e39649e8c8ce70edcef49a1d125f063",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2061-2026-10-05-v1.png",
+        "exists": true,
+        "sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-221f1d4b-5404-4e35-a45d-111a21aa5563.png",
+        "exists": true,
+        "sha256": "209d20f4b784a276f18eb2ce89301e133cef3abbbf63fe817dde58bf4b083143",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1131-f2061.png",
+          "exists": true,
+          "sha256": "19011559f68a6530f125e0514a6125df2a9e47c0178a16f4c49a41360f2efd6f",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-f2058-main-identity-only-crop.png",
+          "exists": true,
+          "sha256": "9a756b338160544d3e421695f72d2b46f5338d6ba9d8307ccbaadf7e69517727",
+          "dimensions": [
+            670,
+            945
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2059-f2061-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "89ffe834b405da7bc74f3ce0d410831c7f54d550b80c7eca014b0bf8df3149fc",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2061-source-native-keyparts.png",
+          "exists": true,
+          "sha256": "1f388e406dfa373c1fbf0354259933e7999def17b6bc0cf0a5f7b091c529de86",
+          "dimensions": [
+            750,
+            1214
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2061-keyparts-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "22e5872f2c7f8ffba1f3611187d6b2e3ad98469225c9c3a5c5b90b291ee377c4",
+          "dimensions": [
+            3000,
+            1214
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 2065,
+      "selection": {
+        "source_frame": 2065,
+        "path": "generated/middle-continuation-f2065-2026-10-05-hair-v2.png",
+        "job": "jobs/middle-continuation-f2065-2026-10-05-hair-v2.json",
+        "review": "root reviewed source/new whole-frame comparisons; native source and new2065/2069 key occlusion inspected; static draft only. Current rear3/4 turn strongly leans down-right, near open foreshortenedpalm upper-left, far cuff/tiny fingers mostly occluded; new pose and raised rear sole represented. Repair v2 now exactly2 connected short outer ponies, cream collar restored between them.",
+        "known_issues": [
+          "One targeted whole-cel repair removed extra middle hair bundle; v1 preserved unselected",
+          "Profile face/eye more exposed and hat larger than original rear3/4 face sliver",
+          "Near open palm is bare-skin/fingerless glove rather than continuous brown glove; far exposed fingers skin-colored",
+          "Backpack appears as larger plainshape vs prior hiddenedge; clothing/sole silhouette differ",
+          "Source background/stars/caption compositor restoration and actual-speed review pending"
+        ],
+        "accepted": false,
+        "artistic_accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+        "original_speed_review": "not_performed",
+        "proposal": "qa/middle-missing-continuation-2026-10-05/draft-proposal.json"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-continuation-f2065-2026-10-05-hair-v2.json",
+      "job_sha256": "3a3907764263efc06b844dc2bdf3f3ec4c01cebabf950baf82b59ec328875c4b",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-hair-v2.png",
+        "exists": true,
+        "sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-bc0e5156-9721-4b9c-bf62-dd387ae95103.png",
+        "exists": true,
+        "sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-v1.png",
+          "exists": true,
+          "sha256": "34dd6d596bdffbf6fb81d2c505703e08647f018bb435a3e1584c08d8fc57b411",
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1135-f2065.png",
+          "exists": true,
+          "sha256": "f2cf69940032d9d41f10585c0b19d45fffdc376069578585d615f752a19367e7",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-f2058-main-identity-only-crop.png",
+          "exists": true,
+          "sha256": "9a756b338160544d3e421695f72d2b46f5338d6ba9d8307ccbaadf7e69517727",
+          "dimensions": [
+            670,
+            945
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 2069,
+      "selection": {
+        "source_frame": 2069,
+        "path": "generated/middle-continuation-f2069-2026-10-05-v1.png",
+        "job": "jobs/middle-continuation-f2069-2026-10-05-v1.json",
+        "review": "root reviewed source/new whole-frame comparisons; native source and new2065/2069 key occlusion inspected; static draft only. Fullback noface/eyes/mouth. Both arms spread independently at originalsidepositions, exactly2 brown gloved palms. Short two rooted ponies connect underrearberet; rearwhitefeather visible and frontclover hidden. Crossed bentback bootsole occludes plantedleg as source.",
+        "known_issues": [
+          "Head/hat slightly high/large; new nape ink detail absent in source",
+          "Backpack is larger/simple rectangular, coat hem contours and short-leg proportions approximate",
+          "Both gloved palms broader; current finger count/AA simplified",
+          "Rear sole drawn facing viewer and in front of support leg, but larger/rounder than source",
+          "Generated background/stars/captions require original-layer restoration; actual-speed/composition pending"
+        ],
+        "accepted": false,
+        "artistic_accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed",
+        "original_speed_review": "not_performed",
+        "proposal": "qa/middle-missing-continuation-2026-10-05/draft-proposal.json"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-continuation-f2069-2026-10-05-v1.json",
+      "job_sha256": "4b7c53d57020e021a6b386c60612ffa5d94f543f4bc87921bb10c529a79ad348",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2069-2026-10-05-v1.png",
+        "exists": true,
+        "sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-1447ee8f-da92-4118-adb1-819e0aaf2934.png",
+        "exists": true,
+        "sha256": "ea866dd395db7c5b399f5278328948e6cc664f7e64e7072a5069828c8de38eed",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1139-f2069.png",
+          "exists": true,
+          "sha256": "25d5d7160a39f8b2db985bf1a940c077de1d2befdf46ba990295f11bec647cf8",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\klee-back-hat-hair-only-f0827.png",
+          "exists": true,
+          "sha256": "72f1b04b1bded561f84fcbabb8795562d0da2fe418485692601ad07f4aff6413",
+          "dimensions": [
+            390,
+            325
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-hair-v2.png",
+          "exists": true,
+          "sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2065-f2069-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "9fc107c7e55722e9db6f6902fae44e6c61575543b5a7c43d4d7f635e9c3e371f",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2069-source-native-keyparts.png",
+          "exists": true,
+          "sha256": "3c5e36c17b97ec53ea199214253d9d3b291c88ec0acb521a8b858a9a95ab3b6e",
+          "dimensions": [
+            1120,
+            1384
+          ]
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 2073,
+      "selection": {
+        "source_frame": 2073,
+        "path": "generated/middle-continuation-f2073-2026-10-05-v1.png",
+        "job": "jobs/middle-continuation-f2073-2026-10-05-v1.json",
+        "review": "root reviewed source/new whole-frame comparisons; native source and new2065/2069 key occlusion inspected; static draft only. Right-facing profile with ONE closed eye and tiny O mouth, no iris/far-eyeinvented. One fullybrown forward glove, hiddenfararmonlysleeve. Nearthighright/shinbackleft overlaps far diagonaldownrightleg; bothfeetairborne. Two rooted shortponies and currentturn preserved.",
+        "known_issues": [
+          "New head/hat slightly larger and face a little lower; source thin doubleclosedeyeline simplified heavy single stroke",
+          "Near glove too broad and finger-gap contours differ; farhand remains hidden as required",
+          "Backpack visibility and collar/hem differ; light skin/clothing shading",
+          "Airborne crossedlegs follow original bend/occlusion but both boots larger and extendedfoot sole angle differs",
+          "Generated source background/effects/captions require compositor restoration; finalcomposition/actual-speed notperformed"
+        ],
+        "accepted": false,
+        "artistic_accepted": false,
+        "adoption": "root_missing_first_draft_only",
+        "reviewed_by": "root",
+        "output_sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc",
+        "original_speed_review": "not_performed",
+        "proposal": "qa/middle-missing-continuation-2026-10-05/draft-proposal.json"
+      },
+      "job_path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\jobs\\middle-continuation-f2073-2026-10-05-v1.json",
+      "job_sha256": "c04403058c876fdb095288759302eaac5d7e9b345548e9bab684fa0ff1eb529f",
+      "workspace_output": {
+        "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2073-2026-10-05-v1.png",
+        "exists": true,
+        "sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "builtin_origin": {
+        "path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a10ac5-e91a-77e0-a0bd-35ae84473039\\exec-0c13eb77-2eb9-4f93-8ffa-2ada6c8adc67.png",
+        "exists": true,
+        "sha256": "6e031be5e5e3bed7d8655bd44396a7bd46d52e4183bb7117a1637319bf830ecc",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "references": [
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1143-f2073.png",
+          "exists": true,
+          "sha256": "1e03f363942aa09d4ea8b199a80878a0b7077b57e567051e780bf9eee3605152",
+          "dimensions": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\middle-continuation-f2065-2026-10-05-hair-v2.png",
+          "exists": true,
+          "sha256": "e32dae216b2c7d7e98f90d750c4b6119e004522b3fc2a01b2a028cf94da28b6b",
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\actual-source-f2069-f2073-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "76581b67978353b0d0d2e6c3f7a083203291885c83b1d364dbfeabb2e9b2897f",
+          "dimensions": [
+            3840,
+            2240
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2073-source-native-keyparts.png",
+          "exists": true,
+          "sha256": "0b1888a9ffd208337e66431f0793c70250092ce5b8272b1a516cf2c933171a41",
+          "dimensions": [
+            1120,
+            1384
+          ]
+        },
+        {
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-missing-continuation-2026-10-05\\f2073-keyparts-AB-RGB-contours.png",
+          "exists": true,
+          "sha256": "717d7916562f3a9da1ee357915dc3c091b8b689c37346b8eec274d3c35f43f62",
+          "dimensions": [
+            4480,
+            1384
+          ]
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "new_source_alias_checks": [
+    {
+      "source_frame": 1100,
+      "alias": {
+        "source_frame": 1100,
+        "source_candidate": "src-0632",
+        "source_cel": "cel-0231",
+        "verified_target_frame": 1097,
+        "verified_target_candidate": "src-0629",
+        "verified_target_cel": "cel-0230",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "proof_png": "qa/star-microcel-audit-2026-10-05/f1097-f1100-character-native-ab.png",
+        "proof_local_regions": [
+          "qa/star-microcel-audit-2026-10-05/f1097-f1100-locals-native-page-01.png",
+          "qa/star-microcel-audit-2026-10-05/f1097-f1100-locals-native-page-02.png",
+          "qa/star-microcel-audit-2026-10-05/f1097-f1100-locals-native-page-03.png"
+        ],
+        "proof_exposure_pages": [
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1097-f1098.png",
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1099-f1100.png",
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1101-f1102.png"
+        ],
+        "semantic_reason": "Root actually inspected native character A/B, RGB/contours, all local pages and all exposure frames in prior continuation. Same half-open eyelids, tiny closed caret mouth, right hand at collar and left arm lowered outward; hat, hair roots and ends, glove contours, cuffs, button/pocket/seam/hem lines, knees and boots overlap. Actual RGB differences inside the person are isolated codec-colored one-pixel strips, not coherent new outlines. Stars move and Japanese edges vary independently. All five source frames f1097..1101 visually reviewed. Only source character reuse; backgrounds/captions/exposures remain current source. Does not accept generated art or compositor.",
+        "review": "manual_full_resolution_source_approved"
+      },
+      "proofs": [
+        {
+          "field": "proof_png",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-character-native-ab.png",
+          "exists": true,
+          "sha256": "7720c9142813c59f533318d809aa7f81917bc96985a9328d94e46102f865d026",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-01.png",
+          "exists": true,
+          "sha256": "67c6fee51a2ff6da7426f683a492a877e8005c066a21aea5a81dcdb23dec7ef7",
+          "dimensions": [
+            1380,
+            494
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-02.png",
+          "exists": true,
+          "sha256": "f5638384e56e9cb09bab4e261834a342f966b3fb82bdc490e861054f67fd6b1c",
+          "dimensions": [
+            1320,
+            679
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1097-f1100-locals-native-page-03.png",
+          "exists": true,
+          "sha256": "b9678e4db59cdd3b731ebe23ef0d750bbc53e1ecfcc72c6e77150f7e1298ab19",
+          "dimensions": [
+            1500,
+            664
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1097-f1098.png",
+          "exists": true,
+          "sha256": "933563441ab9f2ca29014e5c66dd3164520e3151572da4e4929175930a466e78",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1099-f1100.png",
+          "exists": true,
+          "sha256": "df91c0d39e3ba1726b73cf70333e8b449d6e36ff73705be7e3635f373933a8dc",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1101-f1102.png",
+          "exists": true,
+          "sha256": "f63307319f4427569938828d374f71b0641051e49097cfe08be3eeea6e48a6ac",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        }
+      ],
+      "current_target_selection": [
+        {
+          "source_frame": 1097,
+          "path": "generated/star-f1097-fast-continuation-v1.png",
+          "review": "root_static_only; visible right curled chest glove/cuff coherent; heavy half-open eyes and closed caret mouth; two rooted short ponytails and clean underarm gap; left down/out glove and right bent tilted boot",
+          "known_issues": [
+            "hand/cuff shape and head placement approximate",
+            "added boot/skin shading differs from original flat cel"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "job": "jobs/star-f1097-fast-continuation-2026-10-05-v1.json",
+          "output_sha256": "031219ac9520285c549c335207a170f027ac22832be5c323202e747a237db851",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1117,
+      "alias": {
+        "source_frame": 1117,
+        "source_candidate": "src-0649",
+        "source_cel": "cel-0235",
+        "verified_target_frame": 1113,
+        "verified_target_candidate": "src-0645",
+        "verified_target_cel": "cel-0234",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "proof_png": "qa/star-microcel-audit-2026-10-05/f1113-f1117-character-native-ab.png",
+        "proof_local_regions": [
+          "qa/star-microcel-audit-2026-10-05/f1113-f1117-locals-native-page-01.png",
+          "qa/star-microcel-audit-2026-10-05/f1113-f1117-locals-native-page-02.png",
+          "qa/star-microcel-audit-2026-10-05/f1113-f1117-locals-native-page-03.png"
+        ],
+        "proof_exposure_pages": [
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1113-f1114.png",
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1115-f1116.png",
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1117-f1118.png"
+        ],
+        "semantic_reason": "Root actually inspected native character A/B, RGB/contours, all local pages and all exposure frames in prior continuation. Same small open oval mouth, half-open eyes, left outward raised palm/cuff and right hand beside collar; hat/hair, shoulders, sleeve folds, coat/pockets/hem, legs and boots overlap. Only moving stars, lyric compression and scattered codec-colored short strips change. All five source frames f1113..1117 visually reviewed. f1118 is a new both-hands-at-chest drawing. Only source character reuse; backgrounds/captions/exposures remain current source. Does not accept generated art or compositor.",
+        "review": "manual_full_resolution_source_approved"
+      },
+      "proofs": [
+        {
+          "field": "proof_png",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-character-native-ab.png",
+          "exists": true,
+          "sha256": "437d63c6261aadc9d84139ff5b0729c3e3aa5ff0cb0947fefc95d7b8b00ad0b1",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-01.png",
+          "exists": true,
+          "sha256": "604b21312f0dc71cd41cbced0e1942f5327f216775f867fcb63e3c9a1d7a6362",
+          "dimensions": [
+            1380,
+            494
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-02.png",
+          "exists": true,
+          "sha256": "8b3e6a68de585b5dc8e1e5c7b1da0f53a3802750b595ce6380c3820a49016ee3",
+          "dimensions": [
+            1320,
+            679
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1113-f1117-locals-native-page-03.png",
+          "exists": true,
+          "sha256": "7d686c21e9e8c5ab3fd71e4d6a72d0181edf4fc6f9f1ce921b344e127c4a2dde",
+          "dimensions": [
+            1500,
+            664
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1113-f1114.png",
+          "exists": true,
+          "sha256": "350a553a5aa5fb75ff1a15b52ec48b62db9ad9a22a98eae5f6a498775e54d8ac",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1115-f1116.png",
+          "exists": true,
+          "sha256": "3260db743497ea9ff184ed1fef7390ddcb921f6620f39a075a6ab1a8ef7eca58",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1117-f1118.png",
+          "exists": true,
+          "sha256": "4a7c8271f3ef9e21e49fc4015e43a93758d6a7e371d1121f9e01d568da2012de",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        }
+      ],
+      "current_target_selection": [
+        {
+          "source_frame": 1113,
+          "path": "generated/star-f1113-fast-continuation-v1.png",
+          "review": "root_static_only; left glove/cuff curls closer and higher to body; right cuff hides fingertips at chest; two rooted shoulder ponytails and no old outlined underarm hair; left leg/boot angles outward and right remains upright",
+          "known_issues": [
+            "hand/cuff shape and head/coat framing approximate",
+            "faint graphic remnant near left torso requires compositing-layer review",
+            "added knee/boot shading"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "job": "jobs/star-f1113-fast-continuation-2026-10-05-v1.json",
+          "output_sha256": "a46d448b2a41f575e53b6d5c1745c27c476eb32bf6c8d9f1e87595d08fe8c99e",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1125,
+      "alias": {
+        "source_frame": 1125,
+        "source_candidate": "src-0657",
+        "source_cel": "cel-0238",
+        "verified_target_frame": 1123,
+        "verified_target_candidate": "src-0655",
+        "verified_target_cel": "cel-0237",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "proof_png": "qa/source1125-repeat-2026-10-05/f1123-f1125-character-native-ab.png",
+        "proof_local_regions": [
+          "qa/source1125-repeat-2026-10-05/f1123-f1125-locals-native-page-01.png",
+          "qa/source1125-repeat-2026-10-05/f1123-f1125-locals-native-page-02.png",
+          "qa/source1125-repeat-2026-10-05/f1123-f1125-locals-native-page-03.png"
+        ],
+        "proof_exposure_pages": [
+          "qa/source1125-repeat-2026-10-05/exposure-native-f1123-f1124.png",
+          "qa/source1125-repeat-2026-10-05/exposure-native-f1125-f1126.png",
+          "qa/source1125-repeat-2026-10-05/exposure-native-f1127-f1128.png"
+        ],
+        "semantic_reason": "Root actually viewed all eight native character AB/RGB/contours/local/exposure pages, all f1123..1128. All f1123..1128 retain the same half-open eyelids, small round mouth, hat face/ears, hair roots and ends, two curled hands at the chest, tightly crossing cream cuffs/sleeves, torso button/pocket/seam/hem lines, straight legs, pant cuffs and boot silhouettes. Native canonical RGB/dual contour/local evidence shows only isolated codec-colored person-edge pixels, not coherent redrawn contours. Pink stars and Japanese caption edges vary independently, including a star moving between the lower legs. The all-exposure native sheets show no intermediate character pose or expression change. Original backgrounds/captions and exposure preserved; generated art/compositor not accepted.",
+        "review": "manual_full_resolution_source_approved"
+      },
+      "proofs": [
+        {
+          "field": "proof_png",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-character-native-ab.png",
+          "exists": true,
+          "sha256": "b3fcd7f574bfd9edad76586ef65ea50608d888cf58e98c4261c9536cabfbd1dc",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-locals-native-page-01.png",
+          "exists": true,
+          "sha256": "926ef2c7d739548bae062f80bec33a6aa17f16d0ee4879a6d2b77b3174acb587",
+          "dimensions": [
+            1380,
+            494
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-locals-native-page-02.png",
+          "exists": true,
+          "sha256": "64b04d81f68e2b228073e7bd9b09ac4cb54989c81f4ff76384a63a4dcab446fb",
+          "dimensions": [
+            1320,
+            679
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\f1123-f1125-locals-native-page-03.png",
+          "exists": true,
+          "sha256": "1566ba1fbf14999b810b12bfd621ff8838bdfea4f47cb1dd38c5c15c414a6dc6",
+          "dimensions": [
+            1500,
+            664
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\exposure-native-f1123-f1124.png",
+          "exists": true,
+          "sha256": "fc54383288a23bc28769b8a2b818cfbe2dfc4551e1151a2d51a7252115bb7af7",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\exposure-native-f1125-f1126.png",
+          "exists": true,
+          "sha256": "d0f9139a1ba7722101f35728832967c8f57b9cbee19d0d6c78220001e366069e",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1125-repeat-2026-10-05\\exposure-native-f1127-f1128.png",
+          "exists": true,
+          "sha256": "838953223527d469c1f0e0c45d6458a11d1a2a8d8107c8cd0b1eb37d7fdf8441",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        }
+      ],
+      "current_target_selection": [
+        {
+          "source_frame": 1123,
+          "path": "generated/star-f1123-fast-continuation-v1.png",
+          "job": "jobs/star-f1123-fast-continuation-2026-10-05-v1.json",
+          "review": "root_static_only; independent near-upright groundedleg change; two small chest gloves and connected inward sleeve/cuffs; narrow open eyes/O mouth and exactlytwo rooted ponies",
+          "known_issues": [
+            "source tighter overlapping crossing cuffs simplified to touchingcuffs; same anatomy preserved but pose amplitude approximate",
+            "head/collar/hem vertical registration and knee/boot shading differ"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "c24f186f0b0be2c1e7801dfc2a21975ed93c3cfc2b7204f0ca95a2c634b53430",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1133,
+      "alias": {
+        "source_frame": 1133,
+        "source_candidate": "src-0665",
+        "source_cel": "cel-0240",
+        "verified_target_frame": 1129,
+        "verified_target_candidate": "src-0661",
+        "verified_target_cel": "cel-0239",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "proof_png": "qa/star-microcel-audit-2026-10-05/f1129-f1133-character-native-ab.png",
+        "proof_local_regions": [
+          "qa/star-microcel-audit-2026-10-05/f1129-f1133-locals-native-page-01.png",
+          "qa/star-microcel-audit-2026-10-05/f1129-f1133-locals-native-page-02.png",
+          "qa/star-microcel-audit-2026-10-05/f1129-f1133-locals-native-page-03.png"
+        ],
+        "proof_exposure_pages": [
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1129-f1130.png",
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1131-f1132.png",
+          "qa/star-microcel-audit-2026-10-05/exposure-native-f1133-f1134.png"
+        ],
+        "semantic_reason": "Root actually viewed native AB/RGB/dualcontours, all3locals and all f1129..1133 exposureframes;1134 is distinct raisedclasp excluded. Same tiny closed caret mouth, half-open eyes and clasped hands below chin at the collar; hat/hair, fingers, cuffs, crossed sleeve outlines, seam/pockets/hem, legs and boots overlap. A few one-pixel vertical/horizontal RGB strips coincide with codec grid lines without silhouette or fold displacement. Only moving stars and lyric compression are coherent differences. All five source frames f1129..1133 visually reviewed. f1134 is a new hands-raised-to-mouth drawing. Only character reuse, current backgrounds/captions/exposure retained. Generated art/compositor not accepted.",
+        "review": "manual_full_resolution_source_approved"
+      },
+      "proofs": [
+        {
+          "field": "proof_png",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-character-native-ab.png",
+          "exists": true,
+          "sha256": "dbf952fa651e77d63b3bb33218d4128b968f4c8e5486db3fb55a52a3c6f0d347",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-01.png",
+          "exists": true,
+          "sha256": "ffec23d4b285ab1a511bb15ba98f0b742df990ac071207ca8cd811779685a291",
+          "dimensions": [
+            1380,
+            494
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-02.png",
+          "exists": true,
+          "sha256": "a430ed1e06df01d106559ca3a2fc5732e1f20a377423a711498b2ac776a524d5",
+          "dimensions": [
+            1320,
+            679
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\f1129-f1133-locals-native-page-03.png",
+          "exists": true,
+          "sha256": "6ddcc380bc12077cb4f051c580d121e57d506f66ed21300eca82dbe1c2aaf00b",
+          "dimensions": [
+            1500,
+            664
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1129-f1130.png",
+          "exists": true,
+          "sha256": "7ac9f657f595a33d9cbbc43f5c81e037e5bd4c40252231cad101e6166bc77d2f",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1131-f1132.png",
+          "exists": true,
+          "sha256": "0c00c4f598e65a476b2db1b863af17e1f89c1b7034dbc8877243b3d9faf16277",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star-microcel-audit-2026-10-05\\exposure-native-f1133-f1134.png",
+          "exists": true,
+          "sha256": "cb23611695605c9430f2afdd44a6fe33828193872e5d3257274336a5399eba2d",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        }
+      ],
+      "current_target_selection": [
+        {
+          "source_frame": 1129,
+          "path": "generated/star-f1129-source-keypose-redraw-v2.png",
+          "job": "jobs/star-f1129-source-keypose-redraw-2026-10-05-v2.json",
+          "review": "root_static_only; Vertical overlapped clasp below chin now drawn; coherent two crossing sleeves/cuffs and exactly two hands; Closed caret mouth, two rooted shoulder ponies, upright grounded legs",
+          "known_issues": [
+            "Extra clover coat ornaments, boot trim and frontal forelock differ from plain preceding style",
+            "Red iris lacks distinct pupil/highlight; narrowed eyelids approximate current source",
+            "Head/hem vertical registration and knee shading differ; no composite or actual-speed acceptance"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "27345da450a6362263b219ce4a34fd9c462930953f4defc4e8f1616034ca471d",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "source_frame": 1144,
+      "alias": {
+        "source_frame": 1144,
+        "source_candidate": "src-0676",
+        "source_cel": "cel-0243",
+        "verified_target_frame": 1140,
+        "verified_target_candidate": "src-0672",
+        "verified_target_cel": "cel-0242",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "semantic_reason": "Root actually viewed nativeAB/RGB/contours, all3locals and all7exposureframes f1140..1146. Same horizontalclosedeyes, mouthdot, mouthfrontclasp, crossedcuffs, hem/pantcuffs/boots. Caption changes at1144 and stars move independently; no new personcontours. Reuse ONLYcharacter, retaincurrentbackground/caption/exposure;no generatedart/compositor acceptance.",
+        "proof_png": "qa/source1144-repeat-2026-10-05/f1140-f1144-character-native-ab.png",
+        "proof_local_regions": [
+          "qa/source1144-repeat-2026-10-05/f1140-f1144-locals-native-page-01.png",
+          "qa/source1144-repeat-2026-10-05/f1140-f1144-locals-native-page-02.png",
+          "qa/source1144-repeat-2026-10-05/f1140-f1144-locals-native-page-03.png"
+        ],
+        "proof_exposure_pages": [
+          "qa/source1144-repeat-2026-10-05/exposure-native-f1140-f1141.png",
+          "qa/source1144-repeat-2026-10-05/exposure-native-f1142-f1143.png",
+          "qa/source1144-repeat-2026-10-05/exposure-native-f1144-f1145.png",
+          "qa/source1144-repeat-2026-10-05/exposure-native-f1146-f1146.png"
+        ],
+        "review": "manual_full_resolution_source_approved"
+      },
+      "proofs": [
+        {
+          "field": "proof_png",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-character-native-ab.png",
+          "exists": true,
+          "sha256": "92303204d3ff8d368a641e937dfa32906d6603909a26ef1f72d45ea37ba49281",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-01.png",
+          "exists": true,
+          "sha256": "7379024a2e216361e4e8e22027f3768547fe8acddd3451d3d5013a56ac4c3d32",
+          "dimensions": [
+            1380,
+            494
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-02.png",
+          "exists": true,
+          "sha256": "317b044e9024b46ae374d53c6b21f533248cfd0300d2cfe5fc9a287693b841f7",
+          "dimensions": [
+            1320,
+            679
+          ]
+        },
+        {
+          "field": "proof_local_regions",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\f1140-f1144-locals-native-page-03.png",
+          "exists": true,
+          "sha256": "c66a690358ac969163e74200cdaf1c57b75083ba2ce2306732e10f1eb519283f",
+          "dimensions": [
+            1500,
+            664
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1140-f1141.png",
+          "exists": true,
+          "sha256": "79af026be89e43c2f75f84537f68ec5ae43812f446a31869d31effe3762ed534",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1142-f1143.png",
+          "exists": true,
+          "sha256": "2d9d08c1ff18a870dc6304d54fa47bda20bf2f9ee8574d8850ed61756b66d4d6",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1144-f1145.png",
+          "exists": true,
+          "sha256": "9153fcfa7ef18125eb17d8e7c6d0896ebae60463d37e010bb1eef9759109c94c",
+          "dimensions": [
+            1400,
+            1007
+          ]
+        },
+        {
+          "field": "proof_exposure_pages",
+          "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\source1144-repeat-2026-10-05\\exposure-native-f1146-f1146.png",
+          "exists": true,
+          "sha256": "220f6461104f5c284bbab80d4d129b0522db6ee9b3a6ec28ca565fcd98ce530c",
+          "dimensions": [
+            700,
+            1007
+          ]
+        }
+      ],
+      "current_target_selection": [
+        {
+          "source_frame": 1140,
+          "path": "generated/star-f1140-fast-continuation-v1.png",
+          "job": "jobs/star-f1140-fast-continuation-2026-10-05-v1.json",
+          "review": "root_static_only; Both eyes completely closed with no iris; compact vertical clasp and two crossing connected sleeves; Exactly two short rooted ponytails, upright grounded legs; plain continuous cream hem restored",
+          "known_issues": [
+            "Source tiny mouth dot mostly hidden behind glove; current clasp/cuff amplitude approximate",
+            "Boot trim/forelock, collar shape and head/hem registration differ; knee shading",
+            "Actual-speed/compositor layer validation not performed"
+          ],
+          "accepted": false,
+          "adoption": "root_missing_first_draft_only",
+          "reviewed_by": "root",
+          "output_sha256": "89b294706e355c958bd7d9b950e96f5935b66ed0a7a2cbcbfca5986a999889df",
+          "original_speed_review": "not_performed"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "source_map_sha256": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+  "source_map_unchanged": true,
+  "first_sealed_root_8call_archive_sha256": "28582f48abce8367395ad697a0198b9529a184f0708815f7d011b61aafd62714",
+  "first_sealed_root_8call_archive_unchanged": true,
+  "coverage_summary": {
+    "source_frames": 3658,
+    "source_cel_upper_bound": 689,
+    "raw_generated_png_files": 567,
+    "job_json_files": 573,
+    "direct_selected_asset_cels": 433,
+    "direct_generated_character_cels": 432,
+    "verified_alias_expansion_cels": 11,
+    "alias_inclusive_character_cels": 443,
+    "source_reuse_no_character_cels": 1,
+    "mapped_cels_including_source_reuse": 444,
+    "missing_selected_cels": 245,
+    "blocked_failed_cels": 0,
+    "historical_blocked_selection_records_resolved": 1,
+    "covered_frames_draft_plus_source_reuse": 2603,
+    "coverage_percent_draft_plus_source_reuse": 71.15910333515582,
+    "character_replacement_draft_frames": 2553,
+    "verified_no_character_source_reuse_frames": 50,
+    "contiguous_available_prefix_frames": 1162,
+    "drafts_with_structured_flaws_or_cleanup": 287,
+    "accepted_character_cels": 0,
+    "artistic_acceptance_status_counts": {
+      "not_recorded": 362,
+      "explicit_not_accepted": 327
+    },
+    "mapped_artistic_acceptance_status_counts": {
+      "not_recorded": 117,
+      "explicit_not_accepted": 327
+    },
+    "job_statuses": {
+      "generated": 159,
+      "bounded_batch_saved_unaccepted": 1,
+      "missing": 8,
+      "queued": 1,
+      "generated_draft_unaccepted_position_approximation": 1,
+      "generated_blocking_head_registration_unselected": 1,
+      "generated_draft_unaccepted_registration_pending": 2,
+      "generated_draft_unaccepted": 189,
+      "generated_blocking_hair_volume_unselected": 1,
+      "generated_blocking_nod_overshoot_unselected": 1,
+      "generated_blocked_superseded": 1,
+      "generated_draft": 125,
+      "geometry_repair_draft": 5,
+      "generated_repair": 1,
+      "reviewed_static_targeted_repair_temporal_pending": 8,
+      "source_reuse_no_character_visible": 1,
+      "partial_repair_draft_unaccepted": 3,
+      "failed_head_tilt_unaccepted": 2,
+      "reviewed_static_temporal_pending": 31,
+      "not_adopted_body_alignment_and_excessive_tilt": 3,
+      "generated_pending_review": 9,
+      "reviewed_static_partial_repair": 1,
+      "needs_head_tilt_and_body_alignment_repair": 1,
+      "failed_pupil_details_unaccepted": 1,
+      "generated_draft_cuff_repair_required": 1,
+      "generated_repair_draft": 5,
+      "submitted_repair": 1,
+      "rejected_headwear_semantics": 1,
+      "saved_unaccepted_repair_drafts": 1,
+      "generated_blocking_extra_pony_unselected": 2,
+      "queued_not_submitted_parent_stop": 1,
+      "generated_static_draft": 1,
+      "generated_blocking_original_underarm_hair_unselected": 1,
+      "generated_failed_underarm_hair_preserved_unselected": 2,
+      "blocked_pose_unselected": 1
+    },
+    "late_worker_missing_cels_canonical_frame_ge_2400": 153
+  },
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "shared_current_hashes": {
+    "asset_selections.json": "1877d3d8460ef931f724bbc91f2a2666eeeb10654aef8c543d53d61b05351a0d",
+    "source_aliases.json": "166d4fd0335c799164a74e90ea417793fdd85836d90f452045a284d5ad49b0b8",
+    "source_map.json": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+    "full-pv-progress-manifest.json": "fde5c209f70d1d53ffbbab18900c43bfe62ec995e8e794b0af1ee09632cb2aad",
+    "full-pv-coverage-report.json": "0cb8b6eab20ef28635644147023c3a9a5bafdbac9b270523448175c677c72b4f",
+    "compose.py": "d7c8a077c47d1668e4eb247cc6c3e774331e8e67a03f5635318379d9a0e64f79",
+    "star_gestures_layers.py": "bac52c90a0f325e113093545fa76cba088dd39a926af959ba917fff9f9cdb370",
+    "star_caption_alternate.py": "01c4720b290a05e5b54228dde0f0a53f1792406c756446eb9d89f2a2f9ff12bc"
+  },
+  "source_alias_record_count": 12,
+  "issues": [],
+  "manual_shared_files_written_by_worker": [],
+  "worker_artistic_or_actual_speed_acceptance": false,
+  "status": "integrity_metadata_pass"
+}

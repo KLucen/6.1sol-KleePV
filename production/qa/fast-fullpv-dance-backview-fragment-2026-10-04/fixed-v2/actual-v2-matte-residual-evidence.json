@@ -1,0 +1,726 @@
+{
+  "roi_xyxy": [
+    1125,
+    0,
+    1490,
+    285
+  ],
+  "interpretation": "Static native residual old fringe and sky seam are blockers; core threshold zero alone is insufficient",
+  "records": [
+    {
+      "frame": 900,
+      "old_source_fringe_pixels": 559,
+      "old_source_fringe_bounds_xyxy": [
+        1144,
+        4,
+        1470,
+        253
+      ],
+      "old_source_fringe_samples": [
+        {
+          "xy": [
+            1226,
+            4
+          ],
+          "source_bgr": [
+            163,
+            114,
+            15
+          ],
+          "generated_bgr": [
+            235,
+            100,
+            0
+          ],
+          "output_bgr": [
+            163,
+            114,
+            15
+          ]
+        },
+        {
+          "xy": [
+            1275,
+            19
+          ],
+          "source_bgr": [
+            162,
+            123,
+            9
+          ],
+          "generated_bgr": [
+            233,
+            103,
+            1
+          ],
+          "output_bgr": [
+            162,
+            123,
+            9
+          ]
+        },
+        {
+          "xy": [
+            1287,
+            29
+          ],
+          "source_bgr": [
+            150,
+            120,
+            7
+          ],
+          "generated_bgr": [
+            233,
+            104,
+            1
+          ],
+          "output_bgr": [
+            150,
+            120,
+            7
+          ]
+        },
+        {
+          "xy": [
+            1305,
+            45
+          ],
+          "source_bgr": [
+            155,
+            117,
+            7
+          ],
+          "generated_bgr": [
+            233,
+            106,
+            0
+          ],
+          "output_bgr": [
+            155,
+            117,
+            7
+          ]
+        },
+        {
+          "xy": [
+            1350,
+            80
+          ],
+          "source_bgr": [
+            139,
+            128,
+            17
+          ],
+          "generated_bgr": [
+            234,
+            109,
+            1
+          ],
+          "output_bgr": [
+            139,
+            128,
+            17
+          ]
+        },
+        {
+          "xy": [
+            1390,
+            112
+          ],
+          "source_bgr": [
+            173,
+            124,
+            14
+          ],
+          "generated_bgr": [
+            234,
+            114,
+            1
+          ],
+          "output_bgr": [
+            173,
+            124,
+            14
+          ]
+        },
+        {
+          "xy": [
+            1414,
+            168
+          ],
+          "source_bgr": [
+            174,
+            121,
+            9
+          ],
+          "generated_bgr": [
+            234,
+            108,
+            1
+          ],
+          "output_bgr": [
+            174,
+            121,
+            9
+          ]
+        },
+        {
+          "xy": [
+            1467,
+            252
+          ],
+          "source_bgr": [
+            182,
+            138,
+            25
+          ],
+          "generated_bgr": [
+            217,
+            102,
+            1
+          ],
+          "output_bgr": [
+            182,
+            138,
+            25
+          ]
+        }
+      ],
+      "generated_sky_vacated_patch_pixels": 7056,
+      "generated_sky_vacated_patch_bounds_xyxy": [
+        1138,
+        4,
+        1472,
+        257
+      ],
+      "generated_sky_patch_samples": [
+        {
+          "xy": [
+            1232,
+            4
+          ],
+          "source_bgr": [
+            135,
+            115,
+            11
+          ],
+          "generated_bgr": [
+            234,
+            99,
+            0
+          ],
+          "output_bgr": [
+            234,
+            99,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1245,
+            23
+          ],
+          "source_bgr": [
+            246,
+            211,
+            138
+          ],
+          "generated_bgr": [
+            233,
+            98,
+            1
+          ],
+          "output_bgr": [
+            233,
+            98,
+            1
+          ]
+        },
+        {
+          "xy": [
+            1263,
+            35
+          ],
+          "source_bgr": [
+            236,
+            211,
+            136
+          ],
+          "generated_bgr": [
+            233,
+            100,
+            1
+          ],
+          "output_bgr": [
+            233,
+            100,
+            1
+          ]
+        },
+        {
+          "xy": [
+            1283,
+            51
+          ],
+          "source_bgr": [
+            241,
+            218,
+            137
+          ],
+          "generated_bgr": [
+            235,
+            102,
+            1
+          ],
+          "output_bgr": [
+            235,
+            102,
+            1
+          ]
+        },
+        {
+          "xy": [
+            1316,
+            70
+          ],
+          "source_bgr": [
+            246,
+            224,
+            139
+          ],
+          "generated_bgr": [
+            234,
+            105,
+            0
+          ],
+          "output_bgr": [
+            234,
+            105,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1347,
+            94
+          ],
+          "source_bgr": [
+            182,
+            183,
+            97
+          ],
+          "generated_bgr": [
+            235,
+            107,
+            0
+          ],
+          "output_bgr": [
+            235,
+            107,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1383,
+            123
+          ],
+          "source_bgr": [
+            170,
+            178,
+            91
+          ],
+          "generated_bgr": [
+            236,
+            112,
+            0
+          ],
+          "output_bgr": [
+            236,
+            112,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1471,
+            256
+          ],
+          "source_bgr": [
+            208,
+            131,
+            28
+          ],
+          "generated_bgr": [
+            217,
+            108,
+            5
+          ],
+          "output_bgr": [
+            217,
+            108,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 901,
+      "old_source_fringe_pixels": 546,
+      "old_source_fringe_bounds_xyxy": [
+        1144,
+        4,
+        1470,
+        253
+      ],
+      "old_source_fringe_samples": [
+        {
+          "xy": [
+            1226,
+            4
+          ],
+          "source_bgr": [
+            163,
+            114,
+            15
+          ],
+          "generated_bgr": [
+            235,
+            100,
+            0
+          ],
+          "output_bgr": [
+            163,
+            114,
+            15
+          ]
+        },
+        {
+          "xy": [
+            1171,
+            20
+          ],
+          "source_bgr": [
+            125,
+            107,
+            10
+          ],
+          "generated_bgr": [
+            232,
+            93,
+            0
+          ],
+          "output_bgr": [
+            125,
+            107,
+            10
+          ]
+        },
+        {
+          "xy": [
+            1291,
+            32
+          ],
+          "source_bgr": [
+            158,
+            126,
+            18
+          ],
+          "generated_bgr": [
+            233,
+            106,
+            0
+          ],
+          "output_bgr": [
+            158,
+            126,
+            18
+          ]
+        },
+        {
+          "xy": [
+            1313,
+            49
+          ],
+          "source_bgr": [
+            163,
+            118,
+            14
+          ],
+          "generated_bgr": [
+            233,
+            106,
+            1
+          ],
+          "output_bgr": [
+            163,
+            118,
+            14
+          ]
+        },
+        {
+          "xy": [
+            1355,
+            84
+          ],
+          "source_bgr": [
+            152,
+            130,
+            18
+          ],
+          "generated_bgr": [
+            233,
+            110,
+            1
+          ],
+          "output_bgr": [
+            152,
+            130,
+            18
+          ]
+        },
+        {
+          "xy": [
+            1395,
+            117
+          ],
+          "source_bgr": [
+            162,
+            127,
+            8
+          ],
+          "generated_bgr": [
+            233,
+            115,
+            1
+          ],
+          "output_bgr": [
+            162,
+            127,
+            8
+          ]
+        },
+        {
+          "xy": [
+            1415,
+            176
+          ],
+          "source_bgr": [
+            182,
+            131,
+            19
+          ],
+          "generated_bgr": [
+            73,
+            32,
+            9
+          ],
+          "output_bgr": [
+            182,
+            131,
+            19
+          ]
+        },
+        {
+          "xy": [
+            1467,
+            252
+          ],
+          "source_bgr": [
+            182,
+            138,
+            25
+          ],
+          "generated_bgr": [
+            217,
+            102,
+            1
+          ],
+          "output_bgr": [
+            182,
+            138,
+            25
+          ]
+        }
+      ],
+      "generated_sky_vacated_patch_pixels": 7088,
+      "generated_sky_vacated_patch_bounds_xyxy": [
+        1138,
+        4,
+        1472,
+        257
+      ],
+      "generated_sky_patch_samples": [
+        {
+          "xy": [
+            1232,
+            4
+          ],
+          "source_bgr": [
+            135,
+            115,
+            11
+          ],
+          "generated_bgr": [
+            234,
+            99,
+            0
+          ],
+          "output_bgr": [
+            234,
+            99,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1238,
+            23
+          ],
+          "source_bgr": [
+            242,
+            207,
+            134
+          ],
+          "generated_bgr": [
+            234,
+            98,
+            1
+          ],
+          "output_bgr": [
+            234,
+            98,
+            1
+          ]
+        },
+        {
+          "xy": [
+            1260,
+            35
+          ],
+          "source_bgr": [
+            234,
+            209,
+            134
+          ],
+          "generated_bgr": [
+            234,
+            100,
+            0
+          ],
+          "output_bgr": [
+            234,
+            100,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1281,
+            51
+          ],
+          "source_bgr": [
+            246,
+            220,
+            140
+          ],
+          "generated_bgr": [
+            235,
+            101,
+            0
+          ],
+          "output_bgr": [
+            235,
+            101,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1314,
+            70
+          ],
+          "source_bgr": [
+            245,
+            223,
+            138
+          ],
+          "generated_bgr": [
+            235,
+            104,
+            0
+          ],
+          "output_bgr": [
+            235,
+            104,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1342,
+            94
+          ],
+          "source_bgr": [
+            244,
+            227,
+            141
+          ],
+          "generated_bgr": [
+            236,
+            106,
+            0
+          ],
+          "output_bgr": [
+            236,
+            106,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1382,
+            123
+          ],
+          "source_bgr": [
+            176,
+            184,
+            97
+          ],
+          "generated_bgr": [
+            235,
+            112,
+            0
+          ],
+          "output_bgr": [
+            235,
+            112,
+            0
+          ]
+        },
+        {
+          "xy": [
+            1471,
+            256
+          ],
+          "source_bgr": [
+            208,
+            131,
+            28
+          ],
+          "generated_bgr": [
+            217,
+            108,
+            5
+          ],
+          "output_bgr": [
+            217,
+            108,
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "not_acceptance": true
+}

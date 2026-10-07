@@ -1,0 +1,35 @@
+{
+  "job_id": "fullpv-middle-f1940",
+  "source_frame": 1940,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1019-f1940.png",
+  "prompt": "Use case:identity-preserve. Independent strict-source PV replacement f1940. EDIT current SOURCE image1; it is sole camera/body pose/crop/visibility authority. Image2 is Klee BERET identity only; image3 Klee COAT identity only, never its frontal pose or star/moon props. Image4 is actual source1940->1943 RGBdiff/contours with LEFT currentf1940, showing tiny back contour/redraw differences. Full1920x1080 lavender background and two-line left caption remain. Current source is one centrally placed BACK-FACING character, backofhead centered x920 y255..615 and torso cropped bottom at1080. NO face, eyes, mouth, cheek, front bangs, frontal clover emblem, hands or legs may be revealed/invented. Preserve head/body orientation and crop; arms down along torso at source shoulder/side registration. Replace original peach longhair/sleepmask/graypajamas with BACK VIEW of Klee: pale blonde short hair cap ending at nape and TWO SHORT side ponytails beside pointedears, no longhairsheet or hair belowshoulders. Red beret brownband from rear; single whitefeather anatomically on Klee's leftside seen on viewerLEFT in rearview, never add secondhat or bunnyheadband. Back redcoat plaincreamcollar and appropriate creamcuff edges where source arm is visible. No new backpack/props/actors. Keep minimal source-like drawing: thick wobbly blackoutline, broadflat red/blonde/creamfills, atmost simple hard shadow, no gradients, glossy rendering, texture or detailed gamecostume. Under shortKlee hair, render only the same alreadypresent source body/coat volume; never change camera, extend scene/body, or add pose. Independently draw current source linework; no holding, flipping, tweening or morphing.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1019-f1940.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1940-f1943.png"
+  ],
+  "reference_roles": [
+    "current source BACK-facing crop/body/no-face visibility authority",
+    "Klee hat identity only",
+    "Klee redcoat creamcollar and cuffs identity only; ignore frontal pose/props",
+    "actual adjacent source RGBdiff and contour overlay; LEFT current"
+  ],
+  "output": "generated/fine-f1940.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-587d6f4b-4b84-4174-a48f-0e9215f53c8f.png",
+  "output_sha256": "ff6440031303b3c3ed7b491e7f7027cd7b4fbdf3f292c9dfc85f6fe3f01e9361",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

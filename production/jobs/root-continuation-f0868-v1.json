@@ -1,0 +1,32 @@
+{
+  "source_frame": 868,
+  "source_reference": "source_refs/src-0414-f0868.png",
+  "output": "generated/root-continuation-f0868-v1.png",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "mode": "builtin_imagegen",
+  "prompt": "Use case: identity-preserve. Asset: ONE full-frame 16:9 animation cel replacing the complete original performer with Klee at original f0868. Image 1 is the CURRENT source edit target: sole authority for camera, pose, head/chest placement, limb joints, crop and occlusion. Image 2 is CURRENT source head/expression: both eyelids CLOSED, slightly raised/tilted frontal head and enlarged vertical O mouth near native x692-722,y325-367. Image 3 is actual source f0863->f0868 A/B, amplified RGB difference and two-color contours: shows specific changes only; do not render its panels. Image 4 is unaccepted Klee HAIR/COSTUME/COLOR identity reference ONLY, NOT its T-arm pose, forward kick or body placement. Current action: both arms are a shallow raised V with large OPEN SPREAD brown-gloved palms and raised thumbs, left at x326-416,y235-345, right x988-1079,y270-366; NOT the preceding thin edge-on hands. One attached glove at each plain cream cuff, exactly two hands. Keep the long front/screen-left leg descending to compact rolled boot x704-827,y991-1055. The OTHER leg is tightly foreshortened below the hip: rounded bent knee/thigh, only a tiny boot below it near x752-834,y786-850, partly behind the front leg. Do not draw a long rear shin or a wide boot to the far right. Exactly two legs and two boots with correct depth. Klee identity: exactly TWO connected short LOW blonde ponytails attached behind pointed ears with tips near neck/upper shoulders; simple short face strands/bangs. NO blonde tufts at waist/backpack, no original long pink hair, no rabbit mask, no upturned ivory forelock. Red beret with centered cream clover, one side badge-attached white feather. Same two-lobed plain cream collar, red coat with a CONTINUOUS cream-trim hem, red shorts, pale bare knees, brown boots with plain cream cuffs, small brown backpack/two slim straps, ONE centered lower-chest cream clover. No chest buttons, center seam, cream chest stripe, additional clovers or frilled shorts. Let current sleeve, hem and short ponytail tips respond to current tilt without changing attachments. Simple flat pastel PV blocks, irregular black hand-drawn outline, minimal detail, no gradients, glossy lighting, rendered shading or 3D. Preserve original lavender star scene and effects outside the actor at source positions. Remove lyrics from the RAW character cel; original lettering is restored independently later, so do not generate any text. One cel only, no contact sheet, variants, watermarks, extra people or anatomy. Follow the current SOURCE gesture and small bent boot, never freeze a reference pose.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0414-f0868.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-head-eyelids-mouth.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\root-dance-next\\f0868-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0843-v1.png"
+  ],
+  "reference_roles": [
+    "current source edit target/pose authority",
+    "current source closed eyelids/vertical O mouth",
+    "source neighbor actual RGB and contours/change evidence",
+    "Klee short hair/costume topology/color only, not pose"
+  ],
+  "strict_source_exposure": [
+    868,
+    873
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-8ee6ca4c-26d3-4fb4-b879-d91f4e7f9a66.png",
+  "known_issues": [
+    "Rear blonde tufts remain longer than the intended short-ponytail simplification; multiple hair silhouettes need group review",
+    "Enlarged vertical mouth and open palms observed, but native head/boot placement and two-leg depth are approximate",
+    "Costume hem and shorts cuffs differ from f863; mild shading persists"
+  ],
+  "static_review": "Root viewed output: both closed eyes, larger vertical O, open brown gloves, front long leg and foreshortened rear knee/boot present. Unaccepted hair and costume continuity recorded; no actual-speed acceptance."
+}

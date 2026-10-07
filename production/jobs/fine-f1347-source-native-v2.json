@@ -1,0 +1,12 @@
+{
+  "job_id": "fine-f1347-source-native-v2", "source_frame": 1347, "family": "seated_title_credits",
+  "references": [
+    {"path": "source_refs/src-0831-f1347.png", "role": "Current source edit target, exact clockwise lean and floor"},
+    {"path": "qa/title-repair-v6/source-head-f1347.png", "role": "Current source head and both eyes; strongest clockwise lean"},
+    {"path": "generated/fine-f1342-source-native-v2.png", "role": "Adjacent Klee identity, scale and garment only"},
+    {"path": "qa/title-repair-v6/source-delta-f1342-f1347.png", "role": "Actual current right-lean extreme, body and contour differences"}
+  ],
+  "prompt": "Current source1347 seated PV pose extreme, replace sole original human with Klee in-place, one complete1920x1080 cel. Image1 and CURRENT enlarged head image2 have sole geometry authority; adjacent Klee image3 only identity/garment/scale continuity; image4 actualsource redrawing not output panels. Crucial: head leans clearly CLOCKWISE toward viewer-right about12degrees, both open drooping red eyes and brow axis slope DOWN toward viewer-right, face and bangs follow source current tilt; not upright or leftlean. Tiny dot mouth, orangecheeks, source sleepy gaze; iris wholly mutedRED no blue. Preserve small source seated figure x39..60%, y23..72%, original boot baseline aroundy71.5%, no82pxloweredfloor or enlargedbody. Knees together raised, crossed red sleeves rest across knees, hands tucked fully behind opposite sleeves NO extra visible brown hands above arms. Stable exactlytwo short blonde ponytails and pointedears, red creamclover beret whitefeather, coherent redcoat creamtrim folds aroundknees, brownroundboots creamtops, modest right backpack. Independently redraw source current sleeve contours, cloak folds, leg and boot silhouette and hair direction; no freeze/rotation of previous fullcel. Loose dark PV outlines, flat colorpatches, littleflatshadow. Keep source creamJapanese title behind figure as background unchanged; no newtext/crop/panels. Return current1347 independent drawing.",
+  "output": "generated/fine-f1347-source-native-v2.png", "status": "reviewed_static_temporal_pending", "accepted": false,
+  "review": "Current strongest clockwise head lean, open red irises and tucked hands now present, earlier severe enlarged/lowered body failure avoided. Exact floor and adjacent contours still require measured comparison; original title pixels not generated lettering must be used."
+}

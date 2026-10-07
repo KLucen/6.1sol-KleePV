@@ -1,0 +1,31 @@
+{
+  "source_frame": 1296,
+  "prompt": "Use case: identity-preserve. Edit Image 1, the CURRENT ORIGINAL PV cel f1296, in place into Klee. Output one full 1920x1080 canvas. Image 2 is the SAME CURRENT source head enlarged: it alone decides exact eyelid axes, gaze, facial landmarks and nearly upright head angle. Image 3 is a HAT-ONLY Klee reference and decides only the red clover beret, feather and pale-blonde identity, never pose or proportions. Image 4 is actual previous/current ORIGINAL source RGB difference and contour evidence; no panels in output.\nKeep the original small central seated figure's exact pose, overall extent and placement: x~746..1135, boots at y~775, raised knees pressed together. Both forearms are DIAGONALLY CROSSED across the knees, following the current original outlines. BOTH HANDS ARE COMPLETELY HIDDEN under the opposite sleeves: zero visible fingers, palms, wrists or glove shapes. Do not uncross arms or rest them side by side. The head is nearly upright and eyes sleepy half-open, with the same low-left black C-hook pupils and small WHITE notches. Replace the entire blue upper iris fill with muted RED, keeping black pupil/white notch anatomy. Same tiny dot mouth and orange cheeks.\nReplace the original rabbit forehead sleep mask entirely with a restrained red cream-clover beret and white feather. Exactly TWO short pale-blonde ponytails rooted behind pointed ears. Compact red Klee coat with cream collar, cream cuff trim, cream lower hem and one small cream clover on the coat, folded around these raised knees. Pale knees, cream sock tops, two plain rounded brown boots with small cream side poms. Modest brown backpack partly behind viewer-right shoulder. Do not add clovers to boots or cuffs; do not add extra hair loops, hands, accessory balls or original rabbit-mask fragments. Keep body landmarks and crossed sleeve occlusion exact before changing clothing colors.\nMatch the original PV's loose uneven dark contours, simple flat color patches and extremely sparse shading. Do not polish into a game illustration. Preserve the plain lavender source backdrop and huge empty margins; no new text, crop, extra character, panel, enlarged/lowered body or invented shadow.",
+  "name": "fine-f1296-source-native-v2.png",
+  "output": "generated/fine-f1296-source-native-v2.png",
+  "tool": "builtin_imagegen",
+  "references": [
+    {
+      "path": "source_refs/src-0819-f1296.png",
+      "role": "Current original target: pose, scale, crop and occlusion"
+    },
+    {
+      "path": "qa/root-title-worker/source-head-f1296.png",
+      "role": "Current source eyes/head geometry"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only Klee identity, no pose authority"
+    },
+    {
+      "path": "qa/root-title-worker/source-delta-f1286-f1296.png",
+      "role": "Actual neighboring source RGB differences and contours"
+    }
+  ],
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-33ab182e-76ed-4a77-a26c-bd7a7795e28d.png",
+  "review": "Current-source redraw removes visible extra hands, preserves red iris black hook pupils and approximate original face/boot placement. Central cuff and crossing contour, coat and boot pom sizes need adjacent-frame review.",
+  "known_issues": ["Central cream cuff and arm-crossing contour require local source comparison", "Coat, pony and boot-pom volume continuity pending"],
+  "accepted": false,
+  "original_speed_watch": "not_performed"
+}

@@ -1,0 +1,14 @@
+{
+  "batch": "continue_early_cels_2026-10-02",
+  "tool": "builtin imagegen, one independent call per source cel",
+  "source_strategy": "strict_source, current original geometry plus cropped identity/costume and actual 2D source difference",
+  "frames": [410, 417, 420, 423, 426, 429],
+  "canonical_cels": ["cel-0065", "cel-0066", "cel-0067", "cel-0068", "cel-0069", "cel-0070"],
+  "outputs": ["../generated/fine-f0410.png", "../generated/fine-f0417.png", "../generated/fine-f0420.png", "../generated/fine-f0423.png", "../generated/fine-f0426.png", "../generated/fine-f0429.png"],
+  "accepted_cels": 0,
+  "inspection_scope": "Current source frame and source A/B RGB/contour difference viewed before generation. Generated images inspected against source and neighboring generated drawings. No actual-speed video of this six-cel batch rendered or watched by this agent.",
+  "main_failures": ["Closed-eye face landmarks drift downward in f0417/f0420/f0423/f0426", "f0420/f0426 mouths too large", "Boot ornament varies: cream pom in f0417, circular badge in f0423", "Coat clovers/chest panel/backpack charm and hair lengths fluctuate"],
+  "better_geometry_candidate": "f0429 preserves small mouth and fish-in-front-of-hat overlap, but garment continuity and exact registration remain pending",
+  "global_files_modified": false,
+  "status": "bounded_batch_saved_unaccepted"
+}

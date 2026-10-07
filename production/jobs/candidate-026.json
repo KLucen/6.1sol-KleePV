@@ -1,0 +1,11 @@
+{
+  "job_id": "candidate-026",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\analysis\\source_cels\\source-cel-026.jpg",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-025.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\025-026\\comparison.png"
+  ],
+  "prompt": "Use case: identity-preserve. One FULL16:9 music PV replacement cel. Image1 is CURRENT original target B: exact geometry/crop/expression/occlusion. Image2 is the previous Klee cel A: identity, stable redberet/clover/feather, blonde short sideponytails, redcreamcoat and drawing style only. Image3 is actual original A/B visual difference: upper-left before, upper-right AFTER targetB, lower panels are analysis only never appear in output. Draw current B rather than copying A. BOTH people become default Klee. Huge foreground head at RIGHT shifts slightly LOWER, rotates a little more upright and reveals more beret top compared to A; eyes remain HALF-OPEN sleepy red, tiny oval mouth changes shape to B, cheek and jaw contours track B. Maintain Klee head identity and hat proportions from A as the head turns; do not change hairstyle. Smaller fullbody behind main face stays original center-left raised-arm pose, glove fingers spread, eyes as current source, coat/skirt and visible legs/boots, other body partly hidden behind head. In the original difference its clothing outlines/foot shapes/raised wrist shift subtly: keep targetB positions. Main face is in FRONT of smaller figure. Preserve exact source lavender background, handdrawn cream stars and yellow stars, source bottom Chinese/Japanese text. Flat source-style simple patches/dark handdrawn outlines/orangeblush, restrained single shade, no added rendering complexity, no labels/diffpanels, no extra face or limb, no zoom out.",
+  "output": "../generated/candidate-026.png",
+  "status": "generated"
+}

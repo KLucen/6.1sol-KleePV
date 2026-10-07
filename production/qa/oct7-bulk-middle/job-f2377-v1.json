@@ -1,0 +1,76 @@
+{
+  "source_frame": 2377,
+  "cel": "cel-0459",
+  "source_candidate": "src-1364",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "output": "generated/oct7-bulk-middle-f2377-v1.png",
+  "prompt": "Use case: identity-preserve. Asset: one complete replacement cel for the existing MIMI hand-drawn music-video animation.\nReplace EVERY visible original person in image 1 with Klee from Genshin Impact. Redraw the entire requested cel, not little patches or a contact sheet.\nReference roles in exact order: Image 1: Current original source: sole pose, expression, crop, visible actor count and occlusion authority. Image 2: Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template. Image 3: Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state. Image 4: Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility.\nCurrent source frame f2377; original predecessor f2371. Actual observed current pose and changes: Actually inspected full current source f2377, actual f2371/f2377 AB RGBx4 and red-current contour plus native clasping hands/face. One full standing performer, OPEN round eyes and mouth changes from O to tiny CLOSED inverted-chevron pout. Current hands are CLASPED together centrally just below chin: one gloved hand wraps curled fingers around the other, not two separate fists side by side. Both elbows down and both forearms angled UP/inward with cream cuffs forming clear overlapping V/cross under clasp, hands foreground over collar and torso. Head centered near upright, both legs now straight and both boots full flat/separated. Follow actual clasped-hand finger contour and source silhouette; no long pink hair, no object/extra hand. Simple PV plain cream collar not pompom.\nThe current original is the only authority for camera position, size, body lean, eye aperture, mouth, visible hands, edge crops and front/back layering. Closely follow its actual delta, not a new pose.\nKlee has short blonde two ponytails, never the original long pink hair or animal sleep mask. In cool lighting blonde may be pale bluish, but identity remains blonde. Red clover beret, white feather, pointed ears, red eyes if visible. Red coat with plain cream collar and cuffs, brown gloves and brown boots if visible. No invented ruffles or extra hands.\nKeep the same simple flat hand-drawn PV proportions, loose dark contour, restrained shading and warm/cool source lighting. Preserve original sky and independent effects and props where present. Keep prop geometry and correct hand/prop occlusion.\nNo captions, letters, text or watermark in generated cel; subtitles will be restored independently. Do not add a face, body, hand or second actor that is outside the current source crop. Do not retain any original person.\nOutput a single full 16:9 composition matching source framing, not a split comparison, collage, diagram or standalone model sheet.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1364-f2377.png",
+      "role": "Current original source: sole pose, expression, crop, visible actor count and occlusion authority."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+      "role": "Klee identity only: red clover beret, white feather, short blonde twin ponytails, pointed ears and red eyes; not a pose template."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-source-ab-rgb-contours.png",
+      "role": "Actual previous/current original A/B, amplified RGB difference and blue-before/red-current contours; follow current state."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-upper-head-hand-native.png",
+      "role": "Native source local changes of eyelid, mouth, bangs or visible contour; preserve current visibility."
+    }
+  ],
+  "referenced_image_paths": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1364-f2377.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-open-eye-identity-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-source-ab-rgb-contours.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-middle\\f2371-f2377-upper-head-hand-native.png"
+  ],
+  "source_exposures": [
+    {
+      "start": 2377,
+      "end": 2382,
+      "pts": 99.042,
+      "end_pts": 99.25,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "observed_source_notes": "Actually inspected full current source f2377, actual f2371/f2377 AB RGBx4 and red-current contour plus native clasping hands/face. One full standing performer, OPEN round eyes and mouth changes from O to tiny CLOSED inverted-chevron pout. Current hands are CLASPED together centrally just below chin: one gloved hand wraps curled fingers around the other, not two separate fists side by side. Both elbows down and both forearms angled UP/inward with cream cuffs forming clear overlapping V/cross under clasp, hands foreground over collar and torso. Head centered near upright, both legs now straight and both boots full flat/separated. Follow actual clasped-hand finger contour and source silhouette; no long pink hair, no object/extra hand. Simple PV plain cream collar not pompom.",
+  "reference_inputs_actually_viewed": true,
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a11443-e788-7030-8805-9bbfe0811ee8\\exec-763d0b03-32dc-46d6-88d3-c4cc880f7245.png",
+  "output_sha256": "8bd54f7538ea4e6145e5a32825b7c175cecde49cebb259ea9eb12a46c5de4a34",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Actually reviewed output: one full Klee with centrally CLASPED brown hands, inward forearms overlapping below chin, tiny closed pout, both legs straight and boots flat. Clasp anatomy now represented. Known miss: source eyes round open but generated half-lidded; coat/boot artwork changed compared prior with no fifth prior reference and requires temporal feedback. No original actor/extra hands. accepted=false; no retry.",
+    "accepted": false
+  }
+}

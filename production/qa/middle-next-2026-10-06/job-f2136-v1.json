@@ -1,0 +1,51 @@
+{
+  "source_frame": 2136,
+  "output": "generated/middle-next-f2136-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nAsset type: ONE complete 16:9 whole animation cel, true original f2136, not panels or component cutouts.\nPrimary request: replace BOTH original people with Klee while preserving the exact CURRENT original composition and foreground occlusion.\nInput images in order:\n1 EDIT TARGET: original current f2136. Sole authority for pose, camera, expression, scale, visible anatomy and crop.\n2 SUPPORT: original f2135 BEFORE / f2136 CURRENT plus RGB difference and blue/red contours. The giant foreground is almost held; the SMALL BACKGROUND left raised palm/fingers rotate and shift, the sleeve/coat and parted legs/boot contours change. Redraw these actual small-body differences, not a random new giant head pose. Follow CURRENT, do not reproduce the panels.\n3 SUPPORT: native current foreground face/hat/collar. Keep the half-lidded open eyes, heavy slanted lids, orange cheeks, tilted oval mouth and exact edge crops.\n4 SUPPORT: native currently visible small background body. Only the raised open palm/cream cuff/red sleeve, torso, spread legs and boot contacts are visible. Foreground giant head entirely hides background face and right arm; do not reveal them.\n5 IDENTITY/CONTINUITY ONLY: a HEAD-ONLY crop of the prior giant Klee f2132. Continue blonde bang/pony root language, red beret/clover/feather, red eyes, pointed ears and economical thick black drawing. Not position, tilt, expression or mouth authority. The crop intentionally contains no small body.\nSubject: two Klee depictions. Giant foreground Klee fills the right two-thirds, clipped at the top/right/bottom, in front of all covered small-body parts. Replace cap with giant Klee beret, keep foreground coverage, and redraw bangs, cheeks, ear, collar and side pony connections for CURRENT f2136. Small background Klee retains original lean, raised spread five-finger hand now brown-gloved, cream cuff, red coat with simple cream collar and hem, spread legs with cream boot tops and brown boots. Do not increase hidden anatomy visibility.\nScene/style: current original lavender sky and pale sketched stars as context, hand-drawn chibi PV flat warm fills, minimal shadow and ornament density. No realistic rendering.\nConstraints: ONE full-frame cel, no grids or borders. No added limbs, original pink hair, grey pajamas, original animal cap, hidden background head, hidden right glove or gaps exposing it. No new text, no AI captions, no watermark. Captions and original stars will be composited separately. Keep foreground close to current f2136, but do not freeze the changed small-body glove, sleeve or legs from f2135. The identity crop is not a pose template.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-source-actual.png",
+      "role": "current edit target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2135-f2136-source-ab-rgb-contours.png",
+      "role": "actual previous/current original difference; overview viewing only",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-foreground-native.png",
+      "role": "current foreground native pose",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2136-background-visible-native.png",
+      "role": "current visible background native occlusion",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\klee-f2132-foreground-head-only.png",
+      "role": "head-only identity/continuity, no pose",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-0678e3ab-447e-4756-9217-905565713155.png",
+  "output_sha256": "759411881279234dad00469e24443035421e029df1026da4dc1ca646ccc8f174",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole builtin cel/current native source and actual spatial AB. Two Klee, hidden rear head/right arm remain hidden; rotated raised brown palm attaches to cream cuff. Rear coat/legs independently redrawn. Foreground nearly held but slight mouth/collar/feather amplitude and costume drift, boot directions approximate; defer to first cut rework. No AI captions. Static only, accepted false; compositor and temporal review pending.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

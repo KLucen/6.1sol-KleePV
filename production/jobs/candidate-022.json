@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-89b81d4c-7689-429d-94c7-3a252add8062",
+  "candidate_id": 22,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One FULL16:9 PV cel editing reference1 source-cel-022. This is intended EXTREME MACRO of ONLY ONE squeezed-shut eye and adjacent hair/star, NOT a portrait. Source1 dictates exact crop: one huge black closed-eye CHEVRON sweeps diagonally from lower-left toward upper-right, its vertex near x18%,y88%; lower stroke is cut by bottom edge. Pale skin wedge fills middle, pink hair areas at upper/right/left corners become Klee PALE BLONDE bangs with exact connected crop and similar source shadows. Massive yellow black-outlined STAR foreground occupies lower-right and is CUT by right and bottom edges. Keep star size/position and eye-stroke shape/weight exactly. NO second eye, mouth, nose, face outline, ears, hat, hands or torso visible; do not zoomout/add them for identity. Image2 Klee identity/style, image3 candidate021 supplies continuous blonde/skin/line palette but NOT its full two-eye framing. Replace visible pink hair only. Remove ALL bottom-center lyrics/letters/credits and leave clean skin/hair. Loose source dark outlines, flat color patches and simple shadow. Single fullframe macro cel, no panels, no new props.",
+  "references": [
+    "analysis/source_cels/source-cel-022.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-021.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-022.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "One-eye macro crop correctly retained, no invented second eye/mouth/head/torso. Visible source pink hair replaced blonde; huge right/bottom-cropped yellow star and black eye stroke retained. Text removed."
+}

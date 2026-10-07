@@ -1,0 +1,53 @@
+{
+  "job_id": "fast-fullpv-cyan-f0980-v1",
+  "source_frame": 980,
+  "canonical_cel": "cel-0194",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-cyan-f0980-v1.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-7e6ae07e-2ee5-4fdf-af3b-7d525773cf34.png",
+  "asset_sha256": "d03f21a3bc229367482a31961ccf9134a87dafa9d263cd322a787d0fbc317e6d",
+  "static_review": "Complete actual source/face/delta and tool output viewed. Maintains corrected compact short ear group, closed eye and tiny mouth, with small current outline/collar redraw. No regrowth to975-v1 long fan, original mask or extra limb. Source registration and micro-motion approximate, not an accepted full-pose template.",
+  "known_issues": ["Approximate current-source face registration and stroke/wind micro changes", "Extra shading/decoration", "Final matte/glyph and original-speed review pending"],
+  "blocking_static_findings": [],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-cyan-f0975-hair-v2.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0975-f0980-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "Actual980 full source: high right-profile/crop and current redraw",
+    "Actual980 face: closed eye/tiny mouth expression",
+    "Corrected975 short rooted hair/collar topology only, not frozen pose",
+    "Actual975-to980 source A/B RGB/contours: current small changes"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 independent Klee replacement cel. Image1 CURRENT ORIGINAL EDIT TARGET exclusively decides current right-facing profile pose, head/neck/shoulder geometry, HIGH facial landmark placement and top/bottom crop. Image2 CURRENT native face decides visible eye/mouth expression only. Image3 previous Klee cel decides short EAR-ROOTED hair, beret/feather and plain TWO-LEAF collar topology/color ONLY; do not freeze its pose, do not copy its approximate low face registration. Image4 actual original previous/current A/B RGB difference and two-color contour overlay decides current changes. Keep source eye near x65.5% y38.5%, nose74%x41%y, mouth71%x51%y, chin70%x59%y; beret/feather crop OFF TOP, do not lower or shrink head to fit accessories. One Klee under cyan/lavender night light: cool pale-blonde hair, two SHORT neck/collar-length ear-rooted side groups with far group occluded correctly, one pointed near ear, muted burgundy red cream-clover beret with one clipped feather, simple cream two-leaf collar and burgundy coat shoulders exiting bottom. No original animal mask/animal ears or long pink hair sheet, curled forelock, third detached fan, ornate diamonds/pompoms, invented hands/legs/second face. Preserve original purple-left/blue-cyan-right sky and tiny stars/crescent framing. Simple flat hand-drawn PV color areas, irregular thin dark lines, minimal shading. OMIT ALL TEXT for separate original glyph composition. ONE CURRENT cel, no collage, hold, mirror, morph, optical flow or crossfade. CURRENT SPECIFIC CHANGES: Current FRAME980 versus original975 has subtle independent eyelid/brow/hair contour and collar rim redraw while wind sustains the SAME back/left state. Current eye FULLY CLOSED, bold near-horizontal eyelid and thin rising brow, tiny hooked-dot mouth. No iris/red slit, open smile or added eye. Near Klee short group's fixed ear root and corrected compact975-v2 length/mass MUST persist: farthest-left tip near26-28%canvas, not the erroneous20% long fan. Current lower tip/outer lobe may settle by a few pixels and fringe/collar/shoulder pressure redraw subtly, not expand or flap to the opposite side. Same high right-facing source position and top-cropped beret/feather. Draw current independent strokes, not literal frozen975 raster; microdifferences only where current source indicates them.",
+  "source_exposures": [
+    {
+      "start": 980,
+      "end": 981,
+      "pts": 40.833,
+      "end_pts": 40.875,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

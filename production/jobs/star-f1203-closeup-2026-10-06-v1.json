@@ -1,0 +1,76 @@
+{
+  "id": "star-f1203-closeup-2026-10-06-v1",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1203,
+  "source_cel": "cel-0258",
+  "source_reference": "source_refs/src-0735-f1203.png",
+  "source_exposures": [
+    {
+      "start": 1203,
+      "end": 1207,
+      "pts": 50.125,
+      "end_pts": 50.292,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-actual.png",
+      "role": "Current whole pose and framing, lower head/arms."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-face-native.png",
+      "role": "Closed angular eyes; tiny closed caret/check/W mouth, not prior horizontal mouth."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1199-f1203-source-ab-rgb-contours.png",
+      "role": "Actual lower hands/cuffs, altered mouth and shoulder redraw."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\closeup-refs-2026-10-05\\f1203-source-hands-body-native.png",
+      "role": "Current lower forehead gestures, cuffs/elbows/body and overlap."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1199-closeup-v1.png",
+      "role": "Klee identity/costume only; do not copy old mouth or higher hands."
+    }
+  ],
+  "prompt": "Use case: identity-preserve. ONE independent WHOLE handdrawn Klee PV cel, landscape 16:9. Image 1 CURRENT original decides whole pose, framing, scale and occlusion. Image 2 current native face decides expression. Image 3 actual previous/current source AB, RGB difference and dual contours decides redraw. Image 4 current native hands/body decides cuffs, elbows and shoulders. Image 5 previous Klee is ONLY identity, organic line style and costume continuity, NOT frozen pose. Replace all original pink-haired girl/animal hat/pajamas with pale blonde Klee, short bangs, pointed ears, EXACTLY TWO compact rooted shoulder ponytails, red beret/cream clover/white feather/brown round badge, same simple red coat/cream patterned collar/chest medallion/cuffs/brown gloves as image 5. Upper-body closeup cropped at bottom; no extra legs. Simple dark organic ink, mostly flat pastel PV colors. CURRENT f1203 changes from1199: head slightly LOWER, centered/upright, crown around y210 and chin y765. Eyes CLOSED angular > <, tiny CLOSED caret-like W/check mouth, not previous horizontal pinched mouth. LEFT index remains diagonally UP-RIGHT but lowers, fingertip x918,y525; glove knuckles x820,y650; cream cuff x620..780,y605..795. RIGHT index lowers, diagonally UP-LEFT fingertip x1130,y480, knuckles x1240,y600, cream cuff x1260..1450,y575..755. Broad left elbow x450,y820 and right elbow x1530,y840, shoulders lower and cuffs rotate. Both gloves in front of bangs, eyes not covered. Two coherent brown-gloved hands connected to their red sleeves. Exactly TWO rooted short shoulder ponies, no old long pink hair/third bunch. Independently redraw current source silhouette, hand angles, expression and shoulders; reference5 does not decide pose. Original purple backdrop/current stars, NO text/lyrics/watermark; source captions restored separately. No collage, paste, flip, morph or extra objects.",
+  "output": "generated/star-f1203-closeup-v1.png",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "source_and_delta_review": "Root actually viewed full current source, native face/body, AB/RGB/contours overview and native local page1, and preceding1199 Klee; confirms changed mouth/lowered gestures.",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-fbdd656e-d446-4728-b61e-7ac60f2bfb4b.png",
+  "output_sha256": "fff4bd7d4f579eed21ccedd953e8ebc813e985c3f29ecff5f0d45b80fe95c969",
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "passed": [
+      "Two coherent hands, two compact rooted ponies; lowered hand/cuff redraw"
+    ],
+    "deferred": [
+      "Mouth remains horizontal pinched, not the target caret/check; fresh-source correction required",
+      "Head/hand/torso registration approximate; source layer and temporal review pending"
+    ],
+    "accepted": false
+  }
+}

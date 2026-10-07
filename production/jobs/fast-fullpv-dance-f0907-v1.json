@@ -1,0 +1,37 @@
+{
+  "job_id": "fast-fullpv-dance-f0907-v1",
+  "source_frame": 907,
+  "canonical_cel": "cel-0166",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "output": "generated/fast-fullpv-dance-f0907-v1.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0452-f0907.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fast-fullpv-dance-f0903-v1.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/f0905-f0907-source-ab-rgb-contours.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-dance-2026-10-04/identity-red-eyes-only.png"
+  ],
+  "reference_roles": [
+    "Current source crop/head/mouth/two-person layering authority",
+    "Two-Klee identity/color continuity only, not frozen earlier pose",
+    "Actual original subtle905-to907 change, independence not reclassified",
+    "Head/short-hair identity only",
+    "Crimson iris/pupil identity only"
+  ],
+  "prompt": "Use case: identity-preserve. Produce ONE full 16:9 current PV cel at original frame 907. Image 1 is CURRENT EDIT TARGET and sole authority for TWO people, source scale/crop, front-head placement/tilt, eyes/mouth geometry, rear right-profile position and occlusion. Image 2 is prior Klee frame 903 for simplified two-character identity/color/hair/collar continuity ONLY, NOT a head-position/mouth template. Image 3 is actual ORIGINAL 905-to-907 A/B, amplified RGB difference and two-color contours: differences are subtle, still draw the retained CURRENT source cel, no alias/held earlier pose. Image 4 is cropped short-hair/hat identity only; image 5 is crimson iris/pupil/highlight identity only. Current foreground LEFT Klee has moved farther LEFT than frame903: mouth center around x28%/y69%, eyes near y48%, giant hat cut above and at left, closed nearly horizontal heavy eyelids and a very SMALL OPEN TRIANGULAR mouth (not the closed chevron of903, no tongue). Match current eyebrow/bang tilt and visible cheek circles. Short blonde side groups attached at pointed ears, no source long pink bob or floating added fans. Front right-side group covers the rear neck/chest as in current source; foreground crop extends below bottom with only partial cream two-leaf collar/red shoulder, NO visible hands/legs and none may be invented. Rear Klee remains strict RIGHT-facing behind, one open crimson eye under original blue/cyan night tint, tiny dot mouth, nose/chin/hat/fringe/collar matching CURRENT source outline changes. Rear center near x68%/y46%, do not close eye or turn it frontal; source cool illumination applies to blonde hair/face/beret/coat. Remove all original animal sleep-mask motifs, pink hair and source pajama details from BOTH people. Keep current cobalt/cyan sky, tiny source stars and crescent, with warm foreground vs cool rear. Simple flat muted PV blocks/irregular thin black lines, no shaded glossy illustration. Omit all Japanese/Chinese text; it is composited separately. No collage, no mirror, interpolation, nonrigid warp or copied static earlier pose. Preserve original cropping and near/far ordering.",
+  "accepted": false,
+  "original_speed_review": "unperformed",
+  "source_uniqueness_note": "Retained source candidate, 905-to907 compression/contour distinction not resolved; no alias applied",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-e7c2789b-3952-4495-b77d-003dd6b50c43.png",
+  "static_review": "Tool output has two Klee portraits, left closed eyes and small open triangle, rear cool right-facing open-eye profile; no invented limbs. Front head moved left compared903 but source head/chevron-to-triangle position not fully matched. Source/neighbor batch classification requested rather than repeated immediate detail repair.",
+  "known_issues": [
+    "Front head may remain too far right versus907 source (coarse mouth estimate80-100px at1920 width); severity awaiting adjacent review",
+    "Hat/hair/collar contour and source rear profile minute changes approximate",
+    "Mild shading and rounded proportions"
+  ],
+  "blocking_static_findings": [
+    "Front head-position severity awaiting batch source/neighbor classification"
+  ],
+  "artistic_accepted": false
+}

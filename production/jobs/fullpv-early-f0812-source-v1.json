@@ -1,0 +1,34 @@
+{
+  "job_id": "fullpv-early-f0812-source-v1",
+  "source_frame": 812,
+  "canonical_cel": "cel-0140",
+  "source_candidate": "src-0358",
+  "family": "star_dance",
+  "tool": "builtin_imagegen",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "output": "generated/fullpv-early-f0812-source-v1.png",
+  "prompt": "Use case: identity-preserve. ONE independent 16:9 Klee PV cel f812. Image1 CURRENT SOURCE edit target exclusively owns camera/native body proportions/pose/head angle/eye/crop/limbs/occlusion; Image2 Klee identity COLOR COSTUME SHORT HAIR ONLY, not its standing front pose or scale; Image3 actual source811/812 RGB/contours. Redraw current girl on RIGHT side (head centerx77%,y27%, body centerx80%,y50%) facing LEFT with one visible red iris retaining BLACK hooked pupil/WHITE highlight, small open O atx75%,y33%. Two arms extended sideways and slightly DOWN, forward left brown glove nearx63%,y47%, rear right glove nearx96%,y45%. Walking split legs: forward leg extends down-left to bootx69%,y86%; rear leg extends down-right to bootx93%,y85%, partly HIDDEN by foreground giant peach/orange polygon at RIGHT edge. Exactly2 arms/hands/legs, no extra anatomy. Replace old pink hair/entire rabbit forehead mask with Klee: two SHORT blonde ear-root ponies swept RIGHT gently, pointed ears, red cream-clover beret ONE white feather, red cream-trim coat with one cream lower clover, plain cream cuffs/collar, brown gloves; cream hem/redshorts/bare pale knees and compact brown boots cream top cuffs. Match current source limb joints and native proportions despite costume change, coat hem abouty62%. Source lavender white sketch-star background and all giant cropped foreground colored polygon/effect edges unchanged; small yellow stars near rear wrist belong to source. Only ONE visible character. Remove subtitles only. Flat unshaded PV blocks/black irregular outlines, no gradient or extra decoration; no sleeve clovers, third ponytail, badge danglers. No pose freezing, no zoom, no morph/hold, no panels.",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0358-f0812.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0745-contour-v2.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\full-early-worker\\resume-f0812-source-local.png"
+  ],
+  "reference_roles": [
+    "Current source812 exclusive geometry/crop/expression/occlusion authority",
+    "Klee identity/color/costume ONLY; prior front pose forbidden",
+    "Actual source811/812 RGB and contour evidence"
+  ],
+  "visible_character_inventory": "One right-side left-facing walking girl; rear hand/foot reach foreground right polygon edge. Foreground corner polygons inspected with next source815 and treated as original transition/effect, not added anatomy.",
+  "continuity_status": "static_source_pair_reviewed_original_speed_pending",
+  "original_speed_review": "unperformed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0ff7b-c7a1-7f91-bbe2-9414bb249983\\exec-4d38a1d6-9573-4d8c-8ffa-1e38d57b643f.png",
+  "static_review": "Current full source/draft contact checked, walking split legs/extended arms/right foreground boot overlap present, no mask/old long hair. Source811/812 cut and next814 source inspected.",
+  "known_issues": [
+    "New head/hat taller than source; current cheek/mouth and far ponytail simplified",
+    "Coat hem slightly short vs source torso; leg/cuff proportions differ",
+    "Source background/foreground contours and yellow star number differ",
+    "Gradient backdrop and shading"
+  ],
+  "static_contact_path": "qa/full-early-worker/fullpv-early-f0812-source-v1-source-static-contact.jpg"
+}

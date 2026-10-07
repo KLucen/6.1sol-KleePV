@@ -1,0 +1,51 @@
+{
+  "source_frame": 2938,
+  "output": "generated/late-next-f2938-oct6-v1.png",
+  "tool": "builtin_imagegen",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "prompt": "Use case: identity-preserve\nONE whole16:9 simple hand-drawn PV cel for actual frame2938. Replace current original figure with Klee, preserve source pose, placement, scale and occlusion. Input1 currentwhole source is sole authority. Input2 actual2932-before/2938-current AB/RGB/dualcontours indicates small real line changes; do not invent big motion. Input3 currentclosed-eyehead. Input4 currentnativewholebody/pillowhands/knees. Input5 tinyKleehead identity/style only, not prior standingpose.\nCurrent figure on far right, headcenter aboutx1400 in1920canvas. Both eyes fully CLOSED thickhorizontal lines; orangepink cheeks, tiny mouth mostlyhidden at pillow/scarf. The slight changed near upperarm now has a fuller rounded underside, elbow down-left of cuff with slightly higher upward-curving forearm into brown palm. Fingers are spread over pillow front, near thumb pointsup. Pillow upperedge slopes modestlyup-right, loweredge curved, creamrufflealong far right. Far brown glove grips top-right edge with two small rounded tips, far forearm entirely occluded. Exactly two BROWN gloves, creamcuffs distinct from gloves, no bare finger patches or extra arm.\nBoth legs close together and bent at knees toscreenright, lowerlegs slope gentlydown-left. Screen-left/front calf crosses infrontof the back calf at ankles; leftrounded frontal boot overlaps slightlyinfrontof rightback frontal boot. Not the wide2926 stance, no side-pointing stretched rightboot. Preservecurrent small hem/leg/ankle contour changes and tall original standing proportions.\nKlee: warm blonde bob with two lowcompact pigtails (far hidden naturally by pillow), pointed ears, redberet creamclover and onefeather, simple redcoat with plaincreamcuffs/continuousplainhem, smallbrownbackpack behindleftshoulder, barelegs and creamtopped brownboots. Flat minimal PV colors, wobblyblack outlines, sparse shadows. No original longpinkhair/animalears/pajamatrousers. Small character in original far-right position, huge uniform lavender leftmargin.\nNo panels/labels/letters/subtitles/watermarks. Source text restored separately. Full wholecel only; don't copy previous unchangedbody or add unseen parts.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-actual.png",
+      "role": "Current whole source, sole pose, contour and camera authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2932-f2938-source-ab-rgb-contours.png",
+      "role": "Actual slight forearm/pillow/hem contour change, overview",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-current-face-native.png",
+      "role": "Current closed eyes/bangs/mouth native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\f2938-source-wide-pose-native.png",
+      "role": "Current rounded near elbow, both pillow grips and overlapping knees/ankles native",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\late-next-2026-10-06\\klee-f2911-head-only-identity.png",
+      "role": "Klee head identity and simplified style only",
+      "actually_viewed": true
+    }
+  ],
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-41eb8367-79a0-4768-8585-6065794af0de.png",
+  "output_sha256": "a9a3ca5538f69b422864840cb680cd2260f540f387e019c8e3e99a8642cf6582",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Root actually viewed whole current source, native corrected face/full pose/far grip and generated whole. Closed eyelids, two brown grips and hidden far forearm, rounded near elbow and close overlapping frontal boots retained. Small source-to-draft displacement amplitude approximate; coat/backpack/boot/clover details vary across cels. No continuous speed or compositor review, accepted false.",
+    "accepted": false
+  },
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  }
+}

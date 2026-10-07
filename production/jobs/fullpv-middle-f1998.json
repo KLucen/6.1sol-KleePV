@@ -1,0 +1,33 @@
+{
+  "job_id": "fullpv-middle-f1998",
+  "source_frame": 1998,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1068-f1998.png",
+  "prompt": "Identity-preserve strict-source independent PV f1998. Edit image1 CURRENT ORIGINAL as sole pose/camera/crop/eye/mouth/arm visibility authority. Image2 previousKlee f1995 identity/style/costume continuity ONLY, not frozen drawing. Image3 source1995->1998 actualRGBdifference/two-colorcontours RIGHTcurrent. Full1920x1080 lavender frame, bothleft/rightsourcecaptions. RIGHT-facing strictprofile with ONE sleepy halfopen eye, tiny downward mouth/orangecheek, noseandchin at exactsource current registration. Keep source thin eye aperture/darkpupil/sourcehighlights/gaze; convert irisblue to darkREDupper/pinkREDlower retaining blackpupil (no solidreddisc). Current source small bangs/eyelid/sidehairlineand bent frontclosearm outline/redraw pressure changes must be redrawn independently. Replace ALL original longpeachhair/rabbitmask/headband/pajamas: Klee TWO SHORT blonde sideponytails by pointedear, farpony/ear occluded in strictprofile; single redcloverberet brownband singlewhitefeather attachedanatomicalLEFT/farside partlybehindcrown; do not enlarge head/ear/costume beyond current source framing. Redcoat creamcollar/simplepompom plaincreamcuff, brown gloveonlywhere source shows hand. Source torso narrowprofile bottomcropped, exactarm/forearm projection. No hidden second eye, no addedhands/legs/backpack/props/actors/longhairsheet. Thick sourcewobbly blackcontours broadFLATfills/simplehardshade only, no gradient/gloss/texture or detailedgamerender. No heldpose/morph/tween/flip/reuse. Preserve sourcecaptionlocations for compositor.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-1068-f1998.png",
+    "C:/Users/KLucen/Desktop/kl/production/generated/fine-f1995.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/back_side_turn/source-delta-f1995-f1998.png"
+  ],
+  "reference_roles": [
+    "current original rightprofile pose/expression/crop/oneeye and armocclusion",
+    "Klee profile identity/style/costume continuity only",
+    "actual source RGBdiff/contours; RIGHT current"
+  ],
+  "output": "generated/fine-f1998.png",
+  "accepted": false,
+  "artistic_accepted": false,
+  "status": "generated_draft_unaccepted",
+  "actual_speed_watch": "not_performed",
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fc8d-adea-7902-a4ef-0c47946327f9\\exec-3edca80c-ea0b-4608-b35c-cd5b0fb3a5a1.png",
+  "output_sha256": "d34e86522b73f32bc30f839407b88f5fc25b2f0e667ea2eee767c595ec3d8eed",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "actual_speed_review": "not_performed"
+}

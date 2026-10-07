@@ -1,0 +1,24 @@
+{
+  "canonical_frames": [
+    1959,
+    1963,
+    1968,
+    1975,
+    1979,
+    1986
+  ],
+  "status": "static_review_drafts_only",
+  "artistic_accepted": false,
+  "actual_speed_watch": "not_performed",
+  "contact_sheets": [
+    "qa/fullpv-middle/review-1959-1963-1968.jpg",
+    "qa/fullpv-middle/review-1975-1979-1986.jpg"
+  ],
+  "findings": [
+    "Single rear-only character, no invented face. All original mask/headband/pajamas/longpeachhair replaced. Brown glove tips and plain cuffs retained. Short hairstyle and beret roots mostly continuous.",
+    "1968 removes pink hair accent strokes while neighbors1959/1963retain.1975/1979/1986retain accents but beret/feather translates subtly; these generated differences have greater amplitude than actual original contour pressure changes. Temporal harmonization remains.",
+    "1975 correctly reflects timing of added RIGHTcaption. Generated wider hair/ear/ponytail touches right text around1975; compositor must restore exact source text and test overlap/caption readability.",
+    "Exact rear shoulder/body alignment and cuff exposure under replacement short hair need compositor/actual-speed review. Background and all caption pixels require source restoration.",
+    "No artistic acceptance or speed-watch performed."
+  ]
+}

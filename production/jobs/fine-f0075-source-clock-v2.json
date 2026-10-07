@@ -1,0 +1,30 @@
+{
+  "source_frame": 75,
+  "name": "fine-f0075-source-clock-v2.png",
+  "output": "generated/fine-f0075-source-clock-v2.png",
+  "tool": "builtin_imagegen",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-1d934261-9adc-4a69-9031-7ecd638037d2.png",
+  "static_review": "Major source head turn and bent elbows with clock raised viewer-left of face independently drawn; LCD 0:33 clear. Hands stayed skin instead of brown gloves and black-hook pupil anatomy differs.",
+  "known_issues": ["Skin-colored hands instead of brown gloves", "Eyes/pupils and head width differ", "Extra coat clovers/pocket details and shading", "Clock/pillow registration approximate"],
+  "references": [
+    {
+      "path": "source_refs/src-0025-f0075.png",
+      "role": "CURRENT original exact pose, eye state, cloth and clock/hand geometry"
+    },
+    {
+      "path": "qa/root-held-clock-worker/f0075-source-clock-hands-face.png",
+      "role": "CURRENT source clock/hand/face detail and partial or full 0:33"
+    },
+    {
+      "path": "style_refs/face-reaction-hat-only-f0310.png",
+      "role": "Hat-only identity, no source pink hair"
+    },
+    {
+      "path": "qa/root-held-clock-worker/f0068-f0075-source-delta.png",
+      "role": "Actual original A/B RGB/contours, current at upper-right"
+    }
+  ],
+  "prompt": "Use case: identity-preserve. Edit Image 1, CURRENT ORIGINAL PV cel f75, IN PLACE into Klee. ONE complete source-framed 1920x1080 canvas, no panels/crops. Image1 decides absolute pose, extent, original camera crop and all props/occlusion. Image2 is the SAME CURRENT original clock/hands/face detail. Image3 Klee HAT ONLY decides identity, never scale/body/face. Image4 is actual source f68/f75 delta; upper-right is CURRENT f75. Draw the current changed source head, wrists/fingers, sleeves and clock contours independently, no preceding-frame hold.\nKeep CURRENT original two-eye/front-face pose and raised clock/elbows stated below. Pillow remains original lavender/cream giant tilted rectangle behind the head and elbows at exact original outline.\nReplace rabbit sleep mask and long pink hair with Klee red cream-clover beret/white feather, pointed ear and TWO SHORT pale blonde ponytails behind head, no long hair/sleep-mask remnants. Red simple Klee coat with cream collar/cuffs/hem and ONLY one tiny coat clover, red shorts/pale legs where source body is visible, modest brown pack behind shoulder. Keep original lean, body landmarks, arm length, foot/canvas crop. No extra clovers, detached cuff balls, backpack rabbit plush, giant feather or polished game art. Loose uneven dark PV sketch lines, simple FLAT patches, extremely sparse shading. Original source lavender backdrop and original left Chinese/Japanese lyrics verbatim unchanged; no new text other than original partially seen clock time.\nCURRENT f75 MAJOR change: head turns from left profile toward camera, with TWO source sleepy OPEN eyes and same dot mouth. BOTH irises red with black low-left curved pupils and white accents. Elbows bend UP, clock rises beside viewer-LEFT upper cheek, x975..1160,y315..480, with face center aboutx1290,y360. Clock front LCD faces camera obliquely, tilted UP-RIGHT about40degrees. Pale LCD reads 0:33 fully except edge fingers, like source. Both gloves lift/support clock at source lower/right edges, no horizontal straight f68 arms, no eye-concealing f79 pose. Source f75 body and visible face are absolute authority."
+}

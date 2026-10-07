@@ -1,0 +1,31 @@
+{
+  "job_id": "fine-f0951",
+  "source_frame": 951,
+  "source_candidate": "src-0489",
+  "source_cel": "cel-0184",
+  "family": "cyan_profile",
+  "prompt": "Use case: precise-object-edit. ONE full 16:9 hand-drawn PV replacement cel. Image1 is exact CURRENT TARGET source frame and controls camera/crop, pose, eye state, mouth, position, proportions, occlusion and color grade. Image2 is nearest Klee SAME-SHOT cel for identity, costume and line consistency ONLY; do not copy its pose/camera instead of source. Image3 is actual before/current SOURCE spatial difference sheet, for local shape changes only; output is never a montage or delta diagram. Replace EVERY original person/fragment with Genshin Impact Klee default Shooting Spark: pale blonde short twin ponytails, pointed ears, red beret creamclover whitefeather, redcream coat, brown gloves/boots/backpack only if actually visible. Keep source simple thick uneven dark lines, flat minimal colors, at most one shade. Apply source cool cyan/blue NIGHTGRADE to main figure, hat/coat dark muted red-purple, blonde hair cool lightblue, red irises MUTED RED under bluegrade, no source-green or blue iris. Preserve one OPEN slender foreshortened eye, tiny closed DOT mouth, right-facing STRICT PROFILE and calm forward/upward gaze unless specific target says otherwise. No smile, no extra eyes, no invented hands/legs/torso outside source crop. Blue/purple starry sky, crescent and tiny stars remain at original positions to best tool accuracy. REMOVE ALL subtitles/title/credits/lettering; clean collar/coat/background under letters. No text, no extra panels, no new objects, no glow or detailed restyling. Match local contour changes shown by source difference, don't merely hold preceding Klee drawing. IMPORTANT OVERRIDE FOR FRAME951: expression REALLY CHANGES in CURRENT source. Do NOT retain preceding tall open eye/dot mouth. Current upper eyelid DROPS into a near-horizontal, slightly downward slant, eye becomes HALF-LIDDED with shorter visible iris; eyebrow is a short slanted line, thoughtful/concerned rather than happy. Keep one visible iris MUTED RED, reduce eye height and pupil exposure to match source. Mouth changes from DOT to a TINY downturned curved arch, no smile. Face remains RIGHT STRICT PROFILE, head same position. Genuine wind change: source cheek lock returns closer to face, near-vertical upper run then bends RIGHT at lower half, end becomes rounded with a tiny fork/notch pointing downward, not previous large left-hooked elbow. Redraw Klee persistent near-side lock with this straighter inward return and modest lower rounded fork, same root/length. Source back hair swings LEFT outward; translate to Klee SHORT ponytail rotating/curving LEFT/back from same root, same intact lobes and hair volume, no new spikes/length. Current collar/shoulder partly hidden by lock; no warm foreground actor/hands. Hat identity consistent. Correct current half-lidded eye and downturned tiny mouth are essential, source overrides generic eye/dot instruction. No text.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0489-f0951.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0945.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\cyan-f0945-f0951.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0951.png",
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64e-8c50-7fd1-b635-e39a2893292f\\exec-5a3810c2-2377-401e-8a95-165ce9f9ebee.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "static_review": {
+    "status": "reviewed_candidate",
+    "semantic_matches": [
+      "Actual source expression change: half-lidded shorter visible muted-red iris and tiny downturned curved mouth",
+      "Front lock returns inward with rounded fork/notch; no previous huge elbow gap",
+      "Klee hat/ear/costume identity and no text/extra actor/hands"
+    ],
+    "flaws": [
+      "Eyebrow/eye adaptation appears more worried and head/front-fringe geometry drifts slightly from source",
+      "Front lock is adapted to Klee and not exact original curve; rear ponytail response subtle",
+      "Source camera alignment/temporal continuity and background restore pending"
+    ]
+  },
+  "temporal_review": "pending"
+}

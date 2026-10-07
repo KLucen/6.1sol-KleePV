@@ -1,0 +1,15 @@
+{
+  "job_id": "exec-bb355968-fae1-4f1a-8106-e324e6b80cd5",
+  "candidate_id": 18,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One FULL16:9 PV cel editing reference1 source-cel-018. Source1 alone defines this NEW EXTREME CLOSEUP: both eyes squeezed completely SHUT as black inward-pointing CHEVRONS (> on screen-left, < on screen-right), eyebrows above; HUGE vertical oval open pink mouth, orange blush, upper head/ALL hat outside TOP frame, chin around y60%, collar big at lower middle, raised upper arms/sleeves at both edges clipped beyond top. NO hands visible. Preserve precisely eye chevron expression and mouth size, current camera crop and face tilt; do not copy earlier open eyes from reference3. Replace only pink hair and pajamas with Klee blonde hair/pointed ears only wherever in crop, red coat cream patterned collar, source-like loose dark outline/flat color. Short TWO side ponytails connected behind ears only where visible; do not add visible hat/feather or zoom out to fit identity. Image2 sets Klee identity/style, image3 candidate017 sets colors/clothing consistency only, not framing/open eyes. Remove ALL bottom subtitles/letters/credits and leave clean coat/background; source text restored separately. Keep lavender backdrop in remaining corners and any nontext independent effects. Single fullscene, no panels, extra limbs or game rendering.",
+  "references": [
+    "analysis/source_cels/source-cel-018.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-017.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-018.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "inspection": "Extreme close crop and distinctive shut chevron eyes matched. Huge oval mouth/raised sleeve edges, no visible hands. Small hat cord fragment enters top from generated design; largely out of frame. Lyrics removed."
+}

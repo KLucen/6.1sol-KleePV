@@ -1,0 +1,103 @@
+{
+  "scope": "f2115 to f2121 source-only alias diagnostic evidence; not artistic acceptance",
+  "source_images": [
+    {
+      "frame": 2115,
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2115-source-actual.png",
+      "sha256": "a5ead6e82cbd4e72915e5cda744a7872ad5d1dbdad2b09ef631ddd0f8deb15c3"
+    },
+    {
+      "frame": 2121,
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-next-2026-10-06\\f2121-source-actual.png",
+      "sha256": "2a571c831242edda2ef72b56a8d7d13dd5ec05b9047d4c4b590449fc94348124"
+    }
+  ],
+  "target_exposure": {
+    "start": 2121,
+    "end": 2122,
+    "frames": 1,
+    "pts": 88.375,
+    "end_pts": 88.417
+  },
+  "diagnostics": [
+    {
+      "name": "face-hat-hair",
+      "source_box_xyxy": [
+        885,
+        190,
+        1240,
+        595
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-alias-audit-oct6\\f2115-f2121-face-hat-hair-native-ab-rgb-contours.png",
+      "dimensions": [
+        710,
+        858
+      ],
+      "sha256": "06dc51d193a3f971b9f6a0d8640ec3b02f3f82d872b41a4513dc1514eea6650a"
+    },
+    {
+      "name": "raised-fingers-cuff-sleeve",
+      "source_box_xyxy": [
+        650,
+        120,
+        910,
+        440
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-alias-audit-oct6\\f2115-f2121-raised-fingers-cuff-sleeve-native-ab-rgb-contours.png",
+      "dimensions": [
+        520,
+        688
+      ],
+      "sha256": "10e1df0c183c1490aa0a5d36bd9d6b6f9a3c8c22c1379968cefeb079dfdc4074"
+    },
+    {
+      "name": "extended-hand-cuff-hair",
+      "source_box_xyxy": [
+        1025,
+        445,
+        1305,
+        665
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-alias-audit-oct6\\f2115-f2121-extended-hand-cuff-hair-native-ab-rgb-contours.png",
+      "dimensions": [
+        560,
+        488
+      ],
+      "sha256": "b93359b6c62572cb628ca47282ad417763f9b4c3ca82499b5019f68994a65305"
+    },
+    {
+      "name": "torso-collar-pockets-hem",
+      "source_box_xyxy": [
+        775,
+        365,
+        1075,
+        725
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-alias-audit-oct6\\f2115-f2121-torso-collar-pockets-hem-native-ab-rgb-contours.png",
+      "dimensions": [
+        600,
+        768
+      ],
+      "sha256": "cc0ed8d4f1b904b88890233f7218433501d20c0bf9a26b99ded92681cd6d0847"
+    },
+    {
+      "name": "legs-boots",
+      "source_box_xyxy": [
+        685,
+        680,
+        1265,
+        1065
+      ],
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\middle-alias-audit-oct6\\f2115-f2121-legs-boots-native-ab-rgb-contours.png",
+      "dimensions": [
+        1160,
+        818
+      ],
+      "sha256": "91811a7a23371b80818807bdd4f563fc533da755c0ee3e1ef86c58cdacf9e83b"
+    }
+  ],
+  "drawing_modified": false,
+  "alias_created": false,
+  "accepted": false,
+  "human_review": "pending actual viewing of these supplementary native evidence pages"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "star-f1091-underarm-locator-repair-2026-10-05-v3",
+  "mode": "builtin_imagegen",
+  "asset_type": "whole_independent_pv_cel",
+  "source_frame": 1091,
+  "source_cel": "cel-0229",
+  "source_reference": "source_refs/src-0623-f1091.png",
+  "source_exposures": [
+    {
+      "start": 1091,
+      "end": 1097,
+      "pts": 45.458,
+      "end_pts": 45.708,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\star-f1091-underarm-hair-v2.png",
+      "role": "Whole frame EDIT TARGET; preserve the entire pose/identity. The disconnected underarm pink shape must be removed."
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\star1091-continuation-2026-10-05\\f1091-underarm-locator-nearest6x.png",
+      "role": "DIAGNOSTIC LOCATOR crop from Image1, enlarged nearest6x ONLY. Pink black-outlined detached sliver between red sleeve and red torso is the ONE unwanted original hair remnant. This is not a new pose or artwork reference."
+    }
+  ],
+  "prompt": "Use case: precise-object-edit. Edit Image1 as ONE entire landscape full-frame PV cel. Image2 is only a zoomed LOCATION of one defect already in Image1, not an image to insert. Critical request: DELETE the SMALL PINK BLACK-OUTLINED SLIVER in Image2, floating in the PURPLE GAP between red screen-left sleeve and red torso. It is an unconnected leftover ORIGINAL GIRL'S LONG HAIR, not a Klee hair lock, skin, armpit, sleeve, elbow, accessory, star or body part. Replace the ENTIRE pink shape AND all its own black outline with plain purple sky matching the surrounding visible gap. The corrected gap is PURPLE ONLY; do not leave a black U outline, pink dot, peach triangle, new cream lock or red patch. Do not connect it to Klee's hair. The exact whole-frame location is about x744..757,y414..433 of1672x941. Preserve the real red sleeve edge and red torso edge beside this gap. Everything else stays as close as possible: same Klee beret/feather, two short rooted shoulder ponytails, elf ears, half-open flat eyelids, CLOSED caret mouth, cream collar, plain red coat and coat hem, shorts, left brown glove, BENT right sleeve with right hand HIDDEN, two long pale legs and brown boots, purple star background. Do not change pose/framing/expression, crop, add fingers, invent new details or text. Whole frame output, not a cropped patch or collage. This is a real removal: a result that retains ANY part of this disconnected pink sliver or its outline is wrong. We do not claim pixel-perfect outside locking.",
+  "output": "generated/star-f1091-underarm-hair-v3.png",
+  "status": "generated_failed_underarm_hair_preserved_unselected",
+  "accepted": false,
+  "original_speed_review": "not_performed",
+  "repair_reason": "First whole-frame request retained the original hair remnant; second and final scoped retry uses direct native-crop locator and no conflicting original long-hair reference.",
+  "tool_output_path": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64c-22e7-7f70-8158-3c5f3ef5f311\\exec-ff7837bb-def1-482c-837a-e438e3f32369.png",
+  "static_review": {
+    "flaws": [
+      "Direct diagnostic-locator edit still retains pink underarm spike."
+    ],
+    "blocking": [
+      "Original detached underarm hair remains."
+    ],
+    "decision": "Two consecutive scoped removal failures. Stop same edit direction, reset to exact source redraw; no further repeat of this prompt."
+  },
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "output_sha256": "9f01afe6d58325e976bd94582830e30529d1c419d1951236dee7d0b485e16648"
+}

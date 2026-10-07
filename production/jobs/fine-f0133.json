@@ -1,0 +1,16 @@
+{
+  "job_id": "fine-f0133",
+  "source_frame": 133,
+  "source_candidate": "src-0046",
+  "family": "standing_pillow",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0046-f0133.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f0129.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0133.png"
+  ],
+  "prompt": "ONE full16:9 Klee PV redraw. Current SOURCE image1 controls framing/pose/props; previousKlee2 fixes continuous identity, garment and proportions only. Image3 actual before/current spatial changes, top-right current target, never output panels. This is a SUBTLE distinct held wide-arm drawing, not a new action: same almoststraight line from clock-hand down-left to free glove far-right, right glove fingers point RIGHT, palms/cuffs/upper sleeve contours redraw slightly according current source. Keep both arms extended not raised above head. Cream lavender-displayclock centered approximately x48.5%,y50% canvas, width8%, supported frombelowright by brown left glove; pillow remains exact source angle/position behind head. Half-open RED eyes, closed tiny caret mouth, orange cheek patches, same slightly tilted head. Current small changes sleeve crease, coat outline, bang/cheek contour pressure and leg silhouette per difference guide; don't freeze exact prior contours. SAME redberet creamclover/whitefeather side, blondebangs TWO SHORT sideponytails pointedears, cream capelet/chestpom, split red angularcoat lowerleftclover, broad angularcreamunderskirt with tinyoutlineclovers/pinkruffle/REDshorts, one dangling leftwaistpom, brownrightbackpack/charm, brown gloves. Straight legs angled downright clippedbottom and coat length stable. Loose source handdrawn darkline flatpatches oneshade, NO captions/title/subtitle/credits/letters/digits anywhere, blankclockdisplay forsource restoration, no pajamas/sleepmask/rabbitears/extra limbs/mirror/zoom.",
+  "output": "../generated/fine-f0133.png",
+  "status": "generated",
+  "caption_cleanup_required": false,
+  "temporal_review": "pending"
+}

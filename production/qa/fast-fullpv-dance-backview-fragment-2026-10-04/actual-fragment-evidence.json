@@ -1,0 +1,75 @@
+{
+  "source": "C:\\Users\\KLucen\\Desktop\\kl\\\u3010\u4e2d\u65e5\u5b57\u5e55MIMI\u3011\u75db\u75db\u98de\u8d70\u5427\u75db\u3044\u306e\u75db\u3044\u306e\u98db\u3093\u3067\u3044\u3051\u3063 - feat. saewool.mp4",
+  "sequential_decode": [
+    0,
+    901
+  ],
+  "roi_xyxy": [
+    1080,
+    0,
+    1530,
+    330
+  ],
+  "bounds_definition": "Visible cyan/green anatomical core, not all compression fringe",
+  "inspection": "pending_native_review",
+  "records": [
+    {
+      "frame": 900,
+      "exposure": [
+        900,
+        902
+      ],
+      "asset": "generated/candidate-028-clean.png",
+      "source_visible_old_core_bounds_xyxy": [
+        1143,
+        6,
+        1472,
+        269
+      ],
+      "source_bgr_sha256": "5cb627109db144b3d1f7c38fefe21af129a3b11aa57e0bed6fb15f0382cf6ec7",
+      "generated_visible_old_core_bounds_xyxy": [
+        1146,
+        4,
+        1469,
+        255
+      ],
+      "generated_bgr_sha256": "656b5625fb21d74156c42ed3955eae2f0aa9027890e790bb19cfd11e9222c578",
+      "current-composite_visible_old_core_bounds_xyxy": [
+        1146,
+        4,
+        1469,
+        255
+      ],
+      "current-composite_bgr_sha256": "af8af77ea6184857eb4f2e5ac4741f83c993b2d0152b8c352bb76c86318c5585"
+    },
+    {
+      "frame": 901,
+      "exposure": [
+        900,
+        902
+      ],
+      "asset": "generated/candidate-028-clean.png",
+      "source_visible_old_core_bounds_xyxy": [
+        1143,
+        6,
+        1472,
+        269
+      ],
+      "source_bgr_sha256": "daeacf0b46e5b02e27ad58800fd3fe9a1db04dd1c7288ed0959907118b756b8f",
+      "generated_visible_old_core_bounds_xyxy": [
+        1146,
+        4,
+        1469,
+        255
+      ],
+      "generated_bgr_sha256": "656b5625fb21d74156c42ed3955eae2f0aa9027890e790bb19cfd11e9222c578",
+      "current-composite_visible_old_core_bounds_xyxy": [
+        1146,
+        4,
+        1469,
+        255
+      ],
+      "current-composite_bgr_sha256": "a84612d17a59177618d9f1722b174a73ed98603d95c495ba8da644eddfefe406"
+    }
+  ]
+}

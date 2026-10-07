@@ -1,0 +1,36 @@
+{
+  "job_id": "fullpv-middle-f1587",
+  "source_frame": 1587,
+  "tool": "built-in image_gen",
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0930-f1587.png",
+  "prompt": "Use case: identity-preserve. One independently hand-redrawn strict-source Klee PV cel, full same 1920x1080 framing. EDIT current original SOURCE IMAGE 1, only current source decides camera, crop, position, proportions, expression, precise hand gesture and occlusion. Image 2 ONLY Klee beret brown band cream clover white feather identity, not pose/scale. Image 3 actual previous/current original RGB difference x4 and blue/red contours ONLY demonstrates local redrawn outlines; no output collage. Replace original bunny headwear entirely with Klee red beret, no rabbit ears or face or sleep-mask. Default Klee pale blond pointed bangs TWO SHORT side ponytails, pointed ears, muted RED irises where visible, orange oval cheek patches source-size. Only already visible sleeves become RED with plain cream cuffs, hands BROWN GLOVES, preserve all visible distinct fingers. Maintain same hat identity and simplification as f1539 and f1611 drafts without freezing either extreme; cap is pulled down only when SOURCE says so. Flat lavender background and current right-side Chinese/Japanese text remain unchanged. Rough source-like dark lines, simple flat patches, NO gradient, texture, polished game illustration, extra shadows or ornaments. HEAD GIANT ON LEFT approximately x60..1080 cropped at bottom, do not introduce shoulders/body below crop. CURRENT TARGET f1587: Hands gently pull hat brim DOWN; brim near y790 but does NOT completely cover eyes. Brown gloved palms x35..310,y535..925 left and x884..1174,y561..897 right, long diagonal fingers gripping sides in original exact count/direction; plain cream cuffs and red sleeves bottom. Both eyes NOW NARROW HALF-LIDDED red iris strips visible UNDER brim at x365..518,y834..886 and x685..839,y834..886. Small whites/highlights lower corners. Eyebrows source partially visible just below lowered edge. Do NOT fully shut/hide these eyes yet. Keep current mouth near x600,y1030 downturned. Hat lower edge y794 follows pulled headwear source, no rabbit mask. Current source difference changes brim, fingers, bang tips, sleeve folds and lids.",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0930-f1587.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/hat_closeup/source-delta-f1581-f1587.png"
+  ],
+  "reference_roles": [
+    "current source pose and geometry",
+    "hat identity only",
+    "actual source differences"
+  ],
+  "output": "generated/fine-f1587.png",
+  "accepted": false,
+  "status": "generated_draft_unaccepted",
+  "endpoint_dependencies": [
+    1539,
+    1611
+  ],
+  "original_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0fb6c-4b15-7973-b7d5-51482b0cc2ed\\exec-56b8717e-251d-4836-9650-e3e8beabb6af.png",
+  "output_sha256": "dbf2fabfcfde0f31d0d5e5672c34654758db59528a02c9b62c9bb161b7367f53",
+  "output_canvas": [
+    1920,
+    1080
+  ],
+  "tool_canvas": [
+    1672,
+    941
+  ],
+  "artistic_accepted": false,
+  "actual_speed_review": "not_performed"
+}

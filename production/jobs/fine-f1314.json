@@ -1,0 +1,22 @@
+{
+  "job_id": "fine-f1314",
+  "source_frame": 1314,
+  "canonical_cel": "cel-0283",
+  "family": "seated_title_credits",
+  "prompt": "Use case: precise-object-edit. Asset: ONE full 16:9 hand-drawn PV cel, not a sheet. Image 1 is the exact CURRENT source drawing f1314 and determines character size/position, head tilt, eye state, tiny dot mouth, crossed forearms over raised knees, feet, cropping and occlusion. Image 2 is the approved preceding Klee cel at f1309, for the same Klee design, clothing, proportions, color and loose line style only. Image 3 is actual before/current SOURCE spatial differences; use it to redraw local outlines, never output a montage or diagram. Replace the original girl in image1 with Genshin Impact Klee, default Shooting Spark: pale blonde short twin side ponytails and pointed ears, red beret with cream clover and white feather, red coat with cream cuffs/trim, brown gloves and boots, small brown backpack only where visible. Keep image2's simplified source-like chunky dark uneven lines, flat colors, orange oval blush, no detailed game rendering. Klee is small near the center, approximately source bounds x745–1140 y245–780 on a 1920x1080 canvas, sitting on the ground with both knees raised, two boots together, forearms crossed ON TOP of the knees in the foreground; face and short ponytails behind arms. Her head and beret visibly lean toward viewer-LEFT: left eye is lower than right eye, hat brim rises toward viewer-right, approximately 10 degrees of source tilt; tired half-lidded OPEN RED eyes look toward viewer-left/down, tiny closed dot mouth; not smiling. Source f1314 is a new tilted-head drawing after f1309. Head/hat/bangs/ears must be redrawn with source visible leftward head lean; do NOT hold image2's almost-level face. Chin rests closer to near crossed arm; shoulders/forearm slope change to meet head. Boots stay together on source floor line and body remains nearly upright, so this is not rotating the entire character. Preserve Klee's stable hat design and short ponytail topology, but redraw their current silhouette and local source motion. Remove all pale lettering. Body/coat over legs must follow source closed seated silhouette; no blanket, hood or pillow. Preserve lavender empty background. REMOVE ALL text, subtitles, titles, credits and lettering; clean background and clothes. No extra objects, panel, diagram or additional characters. Output only the single complete replacement cel.",
+  "refs": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0823-f1314.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1309.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\late-f1309-f1314.png"
+  ],
+  "status": "needs_head_tilt_and_body_alignment_repair",
+  "draft_tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a0f64f-70f8-71e1-9a62-c776fde54c97\\exec-dff9772a-8451-4851-9c94-2d022003243e.png",
+  "static_review": {"status": "not_adopted", "flaws": ["Original draft head/eye tilt too weak relative to source and body footprint grows", "Repair v1/v2 fixes lean direction but preserves oversized body/floor shift and exceeds source lean", "Repair v3 changes boot/backpack ornaments and head returns near level", "Repair v4 retains body but tilts head in wrong direction", "Repair v5 gives asymmetric eyelid openness without the source full-head lean"], "attempts": ["generated/fine-f1314-v1.png", "generated/fine-f1314-v2.png", "generated/fine-f1314-v3.png", "generated/fine-f1314-v4.png", "generated/fine-f1314-v5.png"], "next_strategy": "Do not adopt any attempt or auto-hold. Use source head pose with stable body as an explicit localized imagegen composition."},
+  "temporal_review": "pending",
+  "source_review": {
+    "status": "genuine_drawing_change",
+    "direct_coherent_pixels": 67271,
+    "rigid_similarity_confirmed": false
+  },
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\fine-f1314.png"
+}

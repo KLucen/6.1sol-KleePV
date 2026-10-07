@@ -1,0 +1,29 @@
+{
+  "owner": "fullpv_early",
+  "accepted": false,
+  "shared_selection_modified": false,
+  "review_scope": "Static original/draft comparison only; actual-speed sequence review pending. All proposals remain unaccepted.",
+  "selections": [
+    {"source_frame": 507, "path": "generated/fine-f0507.png", "review": "New independent bag/hand raised contour; sleepy red-eye state and bag occlusion present. Hat badge extra appendages and hair volume drift remain."},
+    {"source_frame": 510, "path": "generated/fine-f0510.png", "review": "New independent steeper forearm and raised bag/hand contour. Hat appendages and hair continuity remain."},
+    {"source_frame": 522, "path": "generated/fine-f0522.png", "review": "Closed eyes, mouth behind bag, changed cream bag arc present; extra hat appendages remain."},
+    {"source_frame": 526, "path": "generated/fine-f0526.png", "review": "Closed eyes and bag arc disappearance present. Hat appendages/hair drift remain."},
+    {"source_frame": 536, "path": "generated/fine-f0536-prone-repair.png", "review": "New prone anchor removes captions/pajama pants/sleeve and boot clovers; source body/pillow placement broadly retained. Hat appendix defect remains."},
+    {"source_frame": 540, "path": "generated/fine-f0540.png", "review": "Independent foot/cuff contours; source-scale broadly retained. Hat extra appendages remain."},
+    {"source_frame": 544, "path": "generated/fine-f0544.png", "review": "Independent foot/cuff contours; source-scale broadly retained. Hat extra appendages remain."},
+    {"source_frame": 548, "path": "generated/fine-f0548.png", "review": "Independent foot/cuff contours; source-scale broadly retained. Hat extra appendages remain."},
+    {"source_frame": 558, "path": "generated/fine-f0558.png", "review": "Key feet-close upright-shin pose present. Hat extra appendages remain; full sequence check pending."},
+    {"source_frame": 562, "path": "generated/fine-f0562-skin-shin-v3.png", "review": "Two targeted repairs: crossed foreground shin and both bare skin shins restored, hat dangling sticks removed. Garment ruffle simplification and foot angle remain unaccepted."},
+    {"source_frame": 566, "path": "generated/fine-f0566.png", "review": "Crossed shins broadly present; source foot angle approximate, hat appendages remain."},
+    {"source_frame": 570, "path": "generated/fine-f0570-coat-clover-v3.png", "review": "Two targeted repairs restore source-scale/current leg geometry then missing lower coat clover. Base fine-f0570.png rejected for whole-body enlargement."},
+    {"source_frame": 574, "path": "generated/fine-f0574-source-native-v2.png", "review": "Source-native repair removes base enlargement, changes current boot contour, retains bare shins/clover/no hat sticks. Base fine-f0574.png rejected for enlargement; sequence review pending."}
+  ],
+  "rejected": [
+    {"source_frame": 562, "path": "generated/fine-f0562.png", "reason": "Copied parallel shins rather than current crossed shin."},
+    {"source_frame": 562, "path": "generated/fine-f0562-source-native-v2.png", "reason": "Rear bare shin incorrectly brown."},
+    {"source_frame": 570, "path": "generated/fine-f0570.png", "reason": "Whole-body enlargement relative to source and preceding drawing."},
+    {"source_frame": 570, "path": "generated/fine-f0570-source-native-v2.png", "reason": "Lower coat cream clover dropped."},
+    {"source_frame": 574, "path": "generated/fine-f0574.png", "reason": "Whole-body enlargement relative to source and preceding drawing."}
+  ],
+  "source_candidate_note": "689 retained source candidates are an upper bound, not a declaration that all candidates are verified unique drawings. No candidate merging or exposure edits performed here."
+}

@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "scope": "Manually audited source drawing aliases; numerical canonical count remains an upper bound.",
+  "aliases": [
+    {
+      "source_frame": 1299,
+      "source_candidate": "src-0820",
+      "source_cel": "cel-0280",
+      "verified_target_frame": 1296,
+      "verified_target_candidate": "src-0819",
+      "verified_target_cel": "cel-0279",
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "proof_png": "qa/title1296-1299-char-diff.png",
+      "proof_metrics": {
+        "interior_coherent_pixels": 231,
+        "largest_region": 42,
+        "masked_mean_delta": 0.3787164360228378
+      },
+      "semantic_reason": "Full-resolution eye, mouth, bang, crossed forearm, knee, fold and boot contours match. New pale title lettering touches exterior contour, contaminating automated connected mask. Residuals are restricted to outside antialiasing at title-adjacent silhouette, not a coherent character redraw.",
+      "review": "manual_full_resolution_source_approved"
+    },
+    {
+      "source_frame": 1380,
+      "source_candidate": "src-0840",
+      "source_cel": "cel-0291",
+      "verified_target_frame": 1314,
+      "verified_target_candidate": "src-0823",
+      "verified_target_cel": "cel-0283",
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "proof_png": "qa/title-source-copy-audit/f1314-f1380.png",
+      "proof_metrics": {
+        "interior_pixels_delta_28": 3157,
+        "largest_interior_difference_component": 41,
+        "interior_mean_rgb_max_delta": 6.434196720328567
+      },
+      "semantic_reason": "Full-resolution source eye hooks/highlights, eyelids, mouth dot, bang and mask outlines, crossed sleeve endpoints and creases, knee cuffs, boot contours and floor match in the direct no-transform A/B and enlarged crops. Differences are scattered codec/color residuals along identical contours, not a coherent pose, expression or fabric redraw. Current source lettering is separately preserved by the compositor.",
+      "review": "manual_full_resolution_source_approved"
+    },
+    {
+      "source_frame": 1309,
+      "source_candidate": "src-0822",
+      "source_cel": "cel-0282",
+      "verified_target_frame": 1375,
+      "verified_target_candidate": "src-0839",
+      "verified_target_cel": "cel-0290",
+      "transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "proof_png": "qa/title-source-copy-audit/f1309-f1375.png",
+      "proof_metrics": {
+        "interior_pixels_delta_28": 1901,
+        "largest_interior_difference_component": 24,
+        "interior_mean_rgb_max_delta": 5.8859974307212335
+      },
+      "semantic_reason": "Direct source A/B and enlarged eye, crossed-sleeve and boot crops show identical pupil hooks and highlights, eyelid/gaze, mouth, bang, collar, forearm diagonals, fold endpoints, lower cuffs and boots. Residuals are scattered compression/color changes without coherent new contours. The later generated f1375 draft is the identity-preserving asset anchor because its hands are correctly hidden; the source drawing alias is valid in either temporal direction.",
+      "review": "manual_full_resolution_source_approved"
+    },
+    {
+      "source_frame": 682,
+      "source_candidate": "src-0291",
+      "source_cel": "cel-0112",
+      "verified_target_frame": 671,
+      "verified_target_candidate": "src-0288",
+      "verified_target_cel": "cel-0111",
+      "transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            0.9997162818908691,
+            0.000006522950570797548,
+            1.973134994506836
+          ],
+          [
+            -0.000006522950570797548,
+            0.9997162818908691,
+            0.35860657691955566
+          ]
+        ]
+      },
+      "transform_direction": "verified_target_frame_to_source_frame",
+      "proof_png": "qa/full-early-worker/source-audit-f0671-f0682.png",
+      "proof_local_regions": "qa/full-early-worker/source-audit-f0671-f0682-local-regions.png",
+      "proof_gray_paint": "qa/full-early-worker/source-audit-f0671-f0682-gray-paint.png",
+      "proof_metrics": {
+        "coherent_pixels": 579,
+        "largest_region": 43,
+        "masked_mean_delta": 2.7854069286714704,
+        "ecc": 0.9940186671287179
+      },
+      "semantic_reason": "Parent inspected full-source aligned and unaligned A/B, actual RGB difference, contour overlay, enlarged closed-eye/bang/glove/cuff/pillow/legs/coat and gray-shadow paint. Same coherent shapes and paint patch persist. Differences are codec/edge residuals plus original rigid camera displacement; subtitle raster stays current-source. Source-copy approval does not accept the generated draft's head angle or proportions.",
+      "review": "manual_full_resolution_source_approved"
+    },
+    {
+      "source_frame": 720,
+      "source_candidate": "src-0315",
+      "source_cel": "cel-0113",
+      "verified_target_frame": 671,
+      "verified_target_candidate": "src-0288",
+      "verified_target_cel": "cel-0111",
+      "transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            0.9999895691871643,
+            0.00020945645519532263,
+            8.209941864013672
+          ],
+          [
+            -0.00020945645519532263,
+            0.9999895691871643,
+            0.09160907566547394
+          ]
+        ]
+      },
+      "transform_direction": "verified_target_frame_to_source_frame",
+      "proof_png": "qa/full-early-worker/source-audit-f0671-f0720.png",
+      "proof_local_regions": "qa/full-early-worker/source-audit-f0671-f0720-local-regions.png",
+      "proof_gray_paint": "qa/full-early-worker/source-audit-f0671-f0720-gray-paint.png",
+      "proof_metrics": {
+        "coherent_pixels": 184,
+        "largest_region": 35,
+        "masked_mean_delta": 3.8714571655660004,
+        "ecc": 0.9894206828682397
+      },
+      "semantic_reason": "Parent inspected full-source aligned and unaligned A/B, actual RGB difference, contour overlay, enlarged closed-eye/bang/glove/cuff/pillow/legs/coat and gray-shadow paint. Same coherent shapes and paint patch persist. Differences are codec/edge residuals plus original rigid camera displacement; subtitle raster stays current-source. Source-copy approval does not accept the generated draft's head angle or proportions.",
+      "review": "manual_full_resolution_source_approved"
+    },
+    {
+      "source_frame": 1080,
+      "source_candidate": "src-0612",
+      "source_cel": "cel-0227",
+      "verified_target_frame": 1048,
+      "verified_target_candidate": "src-0580",
+      "verified_target_cel": "cel-0222",
+      "transform": {
+        "kind": "identity",
+        "matrix": [[1, 0, 0], [0, 1, 0]]
+      },
+      "proof_png": "qa/standing-repeat-audit-2026-10-05/f1048-f1080-character-native-ab-rgb-contours.png",
+      "proof_local_regions": "qa/standing-repeat-audit-2026-10-05/f1048-f1080-locals-native-ab-rgb-contours.png",
+      "proof_exposure_pages": [
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1080-f1081-native-review.png",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1082-f1083-native-review.png",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1084-f1084-native-review.png"
+      ],
+      "proof_metrics": {
+        "interior_mean_rgb_max_delta": 5.817688715752541,
+        "interior_pixels_delta_28": 3543,
+        "largest_interior_difference_component": 21
+      },
+      "semantic_reason": "Root inspected direct source A/B, actual RGB difference, contour overlay, native eyelids/mouth/bangs/collar, both gloves/cuffs, coat seam/pockets/hem and visible boot edges, plus all actual f1080..1084 at native crop scale. The closed eyes, mouth caret, arm endpoints and fabric contours match f1048 without transformation. Residuals are scattered codec/color noise; background stars move independently. Only the character artwork is reused. Every current source frame retains its original background, captions and exposure. This source-repeat approval does not accept the generated artwork or its caption compositor.",
+      "review": "manual_full_resolution_source_approved"
+    },
+    {
+      "source_frame": 1085,
+      "source_candidate": "src-0617",
+      "source_cel": "cel-0228",
+      "verified_target_frame": 1053,
+      "verified_target_candidate": "src-0585",
+      "verified_target_cel": "cel-0223",
+      "transform": {
+        "kind": "identity",
+        "matrix": [[1, 0, 0], [0, 1, 0]]
+      },
+      "proof_png": "qa/standing-repeat-audit-2026-10-05/f1053-f1085-character-native-ab-rgb-contours.png",
+      "proof_local_regions": "qa/standing-repeat-audit-2026-10-05/f1053-f1085-locals-native-ab-rgb-contours.png",
+      "proof_exposure_pages": [
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1085-f1086-native-review.png",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1087-f1088-native-review.png",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1089-f1090-native-review.png"
+      ],
+      "proof_metrics": {
+        "interior_mean_rgb_max_delta": 7.3889856465077175,
+        "interior_pixels_delta_28": 1332,
+        "largest_interior_difference_component": 33
+      },
+      "semantic_reason": "Root inspected direct source A/B, actual RGB difference, contour overlay, native face/hair/collar, lower inward gloves/cuffs, coat seam/pockets/hem and visible boots, plus all actual f1085..1090 at native crop scale. The closed eyelid strokes, tiny mouth, head angle and lower arm contours match f1053 without transformation. Codec/color residuals lie along the same outlines; moving stars are not reused. Only the character artwork is reused, preserving every current background/caption frame and original exposure. The next f1091 pose is a distinct half-open-eye/bent-sleeve drawing and is not included. This source-repeat approval does not accept the generated artwork or its caption compositor.",
+      "review": "manual_full_resolution_source_approved"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "source_frame": 3287,
+  "cel": "cel-0606",
+  "status": "reviewed_static_temporal_pending",
+  "accepted": false,
+  "source_exposures": [
+    {
+      "start": 3287,
+      "end": 3291,
+      "pts": 136.958,
+      "end_pts": 137.125,
+      "family": "star_dance",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "tool": "builtin_imagegen",
+  "output": "generated/oct7-bulk-ending-f3287-v1.png",
+  "prompt": "Use-case: illustration-story. Produce ONE complete hand-drawn 16:9 PV cel replacing every visible original person in image 1 with Klee from Genshin Impact. Image 1 is the CURRENT actual original cel, sole authority for composition, person count, crop, posture, eye aperture, mouth, shoulder height, elbow wrist finger position and occlusion. Image 2 determines Klee identity only. Image 3 is diagnostic actual original BEFORE/CURRENT AB plus RGB x4 and contour overlay, not the requested collage. Image 4 is native local diagnostic evidence. Draw one normal whole PV frame, never diagnostic panels or montage. Preserve the purple flat source background and exact original camera framing, character scale and lean. Simple thick black freehand outlines and flat unshaded color blocks, same rough low-frame-rate original style, not detailed polished anime. Klee has pale blond bangs, TWO SHORT side ponytails only, red clover beret with white feather, red eyes with same source eyelids/direction, subtle orange cheeks, red coat and cream collar. Whenever hands are visible they wear plain dark brown gloves, with SIMPLE solid cream cuffs, no lace/frills; do not add a backpack mascot to a crop where no bag is visible. Replace all original pink long hair, animal sleep-mask hat and mauve clothing; no original-person leftovers, extra hands or extra face. Keep visible source pose and gesture even when source differs from identity photo. Keep cropped torso cropped, do not invent feet, whole body, props or extra people. Remove all source lyric letters/subtitles and do not invent any text: original subtitles and source FX will be restored deterministically in video. Exact source-specific observation and changes to implement: FEET ONLY shot. Two lower legs enter top on the right half. Near foot at x930..1575 y790..1070 points upward-right about 15 degrees; this nearer leg is almost vertical, far boot is partial at top-right x1650..1920 y175..490. Compared actual previous f3283, near foot lower and toe rounder; keep cream boot-top band and light bare leg instead of pajama trouser. No head or body. CRITICAL feet-only source crop: NO FACE, NO HEAD, NO HAT, NO HAIR, NO ARMS, NO HANDS, NO TORSO. Exactly two Klee brown boots with simple cream boot tops and light lower legs replace the two visible original slippers and pajama trousers. Keep exact original crop entry from top edge, same toe/heel axes, source crossing and front/back overlap; do not widen framing or add full figure. Left half remains empty purple. Source slippers become Klee boots, not brown slippers. No pants, no clover symbols on boots and no extra legs.",
+  "reference_roles": [
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-1806-f3287.png",
+      "role": "CURRENT source sole composition, visible people, pose, expression, crop and occlusion authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\root-continuation-f0843-v1.png",
+      "role": "Klee costume identity only: brown boots with plain cream tops and light bare legs; NEVER full body pose or framing",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3283-f3287-source-ab-rgb-contours.png",
+      "role": "Actual original before/current AB, RGB x4 and blue-before/red-current contour spatial changes; CURRENT only is target",
+      "actually_viewed": true
+    },
+    {
+      "path": "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\oct7-bulk-ending\\f3283-f3287-source-locals-native.png",
+      "role": "Native current/before eyes-mouth, both hands and cuffs, hair spatial evidence; use CURRENT pose",
+      "actually_viewed": true
+    }
+  ],
+  "source_observation": "FEET ONLY shot. Two lower legs enter top on the right half. Near foot at x930..1575 y790..1070 points upward-right about 15 degrees; this nearer leg is almost vertical, far boot is partial at top-right x1650..1920 y175..490. Compared actual previous f3283, near foot lower and toe rounder; keep cream boot-top band and light bare leg instead of pajama trouser. No head or body.",
+  "temporal_review": {
+    "performed": false,
+    "accepted": false
+  },
+  "tool_output": "C:\\Users\\KLucen\\.codex\\generated_images\\01a111fc-4dde-7ef3-acba-6160d6af8c4d\\exec-7430f227-f8de-4bf8-af74-0b704248e6b4.png",
+  "output_sha256": "e14cd4ce79fcb6a7f31148b1bb663995283a54d05611e5d54b9ae69392a36138",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "static_review": {
+    "performed": true,
+    "scope": "single cel and adjacent source/Klee static only",
+    "notes": "Two cropped brown boots and light legs, near up-right toe and far top-right foot; no unwanted body. Cream top height and original slipper-to-boot silhouette differ; draft continuity and final layer mattes pending.",
+    "accepted": false
+  }
+}

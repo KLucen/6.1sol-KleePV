@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-06",
+  "frame": 2829,
+  "tool": "builtin_imagegen",
+  "error": "referenced_image_paths must contain at most 5 paths",
+  "reference_count": 6,
+  "output_generated": false,
+  "quota_failure": false,
+  "retry_performed_before_parent_authorized_correction": false,
+  "parent_authorized_argument_correction": true,
+  "corrected_submission_succeeded": true,
+  "suggested_bounded_correction": "Omit whole source spatial delta from tool input; retain it as inspected evidence. Keep current full source, native pose crop, native local A/B RGB contours, Klee identity crop, adjacent Klee cel, exactly 5 refs. Revise indexed prompt accordingly before submission.",
+  "scope": "Private evidence only; no shared selections, maps or compositor changed."
+}

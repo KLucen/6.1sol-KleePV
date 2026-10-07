@@ -1,0 +1,26 @@
+{
+  "job_id": "fullpv-middle-f1508",
+  "tool": "built-in image_gen",
+  "source_frame": 1508,
+  "source_reference": "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0896-f1508.png",
+  "references": [
+    "C:/Users/KLucen/Desktop/kl/production/source_refs/src-0896-f1508.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/face-reaction-hat-only-f0310.png",
+    "C:/Users/KLucen/Desktop/kl/production/style_refs/kneeling-props-costume-f0433-v2.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fullpv-middle/small_rest_pose/source-delta-f1502-f1508.png"
+  ],
+  "reference_roles": [
+    "current pose and framing",
+    "hat identity only",
+    "costume identity only",
+    "actual source spatial delta"
+  ],
+  "prompt": "Use case: identity-preserve. Asset type one independently hand-redrawn strict-source Klee PV cel f1508. EDIT current original SOURCE IMAGE 1, retain complete same 1920x1080 framing and flat lavender background. Image 1 exclusively decides pose size positioning eye/mouth state visible hands sleeves occlusion and body cropping. Image 2 identity-only red Klee beret brown band cream clover white feather, NOT its pose or scale. Image 3 costume-only red/cream coat and plain cream cuffs brown gloves, NEVER its star or moon props. Image 4 actual previous/current source RGB x4 differences and blue/red contours ONLY for redraw direction and amplitude, NOT a montage to output. Default Klee, pale blond bangs TWO SHORT connected side ponytails, pointed ears, red coat cream hem, brown gloves/boots. Completely REPLACE original rabbit sleeping mask with Klee's red beret; NO rabbit mask. Exact current pose: Head at upper-left around x460 y470, paired boots lower-right x840 y713, diagonal body with shallower tilt than f1502. Crossed forearms cover front chest, front elbow x520 y630. Current face slightly more lowered; closed eyelids straight matching current source, tiny dot mouth. No detached breathing effect yet. Body x351..914,y335..786. Preserve the current source hand/arm occlusion; no invented exposed fingers. Consistent plain cream cuffs, stable coat cut and hem, two short ponytails from each side root, same costume palette across existing f1502 and f1526 endpoint drafts; do not freeze or geometrically rotate an endpoint drawing. REDRAW current source sleeve, hem, boots and eyelids independently. Simple rough dark PV outlines and flat colors no texture, gradient, paper grain, elaborate shading or polished game illustration. NO additional objects or captions. Return only one full-frame cel.",
+  "accepted": false,
+  "status": "generated_draft",
+  "output": "generated/fine-f1508.png",
+  "endpoint_dependencies": [
+    1502,
+    1526
+  ]
+}

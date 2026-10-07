@@ -1,0 +1,17 @@
+{
+  "record_type": "human_caption_reconstruction_authorization",
+  "relayed_by": "root",
+  "date_local": "2026-10-05",
+  "question_original": "部分日文字幕与原人物裤脚同色，原笔画无法完整辨认。为加快全片首版，是否允许用原PV中同一句的清晰字形重建，保留原文、位置和出现时间，但接受少量笔形差异？",
+  "human_answer_original": "允许先重建清晰字幕，看片后再指定返工。",
+  "scope": {
+    "real_clear_glyphs_from_the_same_original_lyric_only": true,
+    "preserve_original_lyric_text": true,
+    "preserve_original_position": true,
+    "preserve_original_appearance_timing": true,
+    "small_glyph_shape_difference_permitted_for_first_draft": true,
+    "ai_generated_caption_allowed": false,
+    "artistic_acceptance_granted": false,
+    "later_human_video_feedback_can_request_rework": true
+  }
+}

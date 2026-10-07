@@ -1,0 +1,109 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0209",
+  "source_frame": 1012,
+  "source_reference": "source_refs/src-0545-f1012.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1012,
+      "end": 1013,
+      "pts": 42.167,
+      "end_pts": 42.208,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve.\nAsset type: one independent complete 16:9 hand-drawn PV replacement cel, source f1012 / cel-0209. Edit Image 1.\nImage roles in exact order:\n1. Current original PV source f1012: absolute authority for composition, crop, positions, two visible character instances, head angles, sleepy open eyes, tiny open oval mouth, visibility and front/back occlusion. Replace all visible original character regions.\n2. Klee head structure crop: identity only, pale blonde SHORT side ponytails attached just behind pointed ears, red beret, cream clover, exactly ONE white feather. It does not prescribe this frame's pose or expression.\n3. Klee costume crop: identity only, exactly TWO plain cream leaf-shaped collar panels meeting at center, red coat with cream trim. No bow, pompom, scallops, geometric patterns or extra collar petals.\n4. Source A/B + actual RGB x4 + blue/red contour difference sheet: spatial evidence for f1011 to CURRENT f1012 only. Top right is current. Preserve fine source line-pressure changes around rear hat/hair and both faces, without enlarging motion.\n5. Adjacent newly generated f1010 draft: only continuity for already checked short-hair connection, plain two-leaf collar and drawing style. It is unaccepted and does not dictate current geometry. Image 1 is the current source authority. Reproduce Image 1's source's lower-left foreground face position, reshaped bangs, eyelid slopes and lower oval mouth from the earlier f1010 pose; do not simply repeat Image 5.\nScene: keep the current blue-purple star field and independent tiny star positions. Full source canvas, no new camera framing. Large warm foreground Klee remains tilted diagonally, cropped by the top, right and lower edges, centered where the current foreground face is. Behind her, the rear Klee remains to screen-left with ONLY the visible head/face and shoulder fragments seen in Image 1, with cool blue-purple lighting. Foreground head and collar occlude the rear right face/body exactly as source. There are NO visible hands in this source; draw no hands or extra limbs. Foreground has half-open droopy eyes with source eyelid slope, Klee red irises, white lower notches and black ink pupil detail; small open outlined oval mouth, orange cheek ovals. Rear visible eye remains half open and cool tinted.\nReplace the original animal hoods, long pink/lavender hair and original clothes completely with Klee identity. Each instance has compact cheek-length side locks and two SHORT side ponytails, only visible portions drawn; no waist-length back sheet, long braid or added loose third tail. Do not borrow the original character's long hair topology. Rear tint is lighting on Klee, not retention of the original blue character.\nMatch simple loose dark outlines, flat colors, sparse source-like shading and source proportions. Respect the current face bounding box and crop. Preserve the original burned-in Japanese/Chinese subtitle if feasible, with no invented lettering; subtitle pixels will be independently restored in composition, so do not place new characters or extra text. No new props, logos, decorative elements, extra characters, extra feather or animal face on the hat.\nProduce one standalone completed cel, not a collage, comparison sheet, transparent sprite or animation.\nCurrent f1012 requirements: The foreground face is slightly lower and farther left than f1010; chin nearly reaches the lower-right area, both sleepy eyelids are sloped as CURRENT source. Retain the rear blue-tinted Klee at the visible original rear-eye position. This is the 'today' subtitle phase, but do not invent unreadable letters. The old f1011 replacement has patterned collars/pompoms and is deliberately NOT a reference.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0545-f1012.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1012-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "e6911084c76e327a5315b8ade374d22e0fcf1d0a8057b11956e651257fba0c70",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "generated/star-gestures-f1010-fast-v1.png",
+      "role": "static inspected adjacent draft continuity only; unaccepted; no current pose authority",
+      "sha256": "b6ac6ec0788dd9ccccb575f68394a292da63278a7d92e63dd654d9a34a2b28b5",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1012-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Both instances replaced",
+      "Current lower-left face shift, open oval mouth and sleepy eyes",
+      "Short hair and plain two-leaf collar"
+    ],
+    "flaws": [
+      "Original subtitle and source stars must be restored",
+      "Minor extra white iris highlights versus source"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1012-fast-v1.png",
+  "output_sha256": "503d8227ea5931d820f6bf1a21141c7960b6d897e6794ab25783f43c1e109d45",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-9de5320a-41d7-4d73-abcf-3bced39db727.png",
+  "source_sha256": "1b055c1020b0fdd733b5cd7e8b15e512de8133a6bfc8691f9313faa00a44738a",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0544-f1011.png",
+    "source_after": "source_refs/src-0546-f1013.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1012-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1012-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Original subtitle and source stars must be restored",
+    "Minor extra white iris highlights versus source"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}

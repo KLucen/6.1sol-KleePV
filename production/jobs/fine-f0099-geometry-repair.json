@@ -1,0 +1,68 @@
+{
+  "job_id": "fine-f0099-geometry-repair",
+  "source_frame": 99,
+  "source_candidate": "src-0035",
+  "family": "standing_pillow",
+  "tool": "builtin imagegen",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\source_refs\\src-0035-f0099.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\style_refs\\face-reaction-hat-only-f0310.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\standing-costume-crop.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\fine-f0099-geometry-repair.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\diffs\\f0099-clock-source-detail.png"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full 16:9 1920x1080 original PV character-replacement cel, no contact sheet. Reference 1 CURRENT original full frame alone determines camera, head/torso/hand and clock coordinates, source pose, visible face and occlusion. Reference 2 HAT-ONLY Klee crop supplies red beret/cream clover/white feather/badge and flat source-like identity style, NOT geometry or a hidden face. Reference 3 cropped Klee costume supplies fixed red split coat, cream angular clover underskirt/pink ruffle/red shorts/brown backpack colors and construction ONLY, not pose. Reference 4 original A/B and actual RGB x4 plus blue-before/red-current contours show real redraw changes, analysis not artwork; output only CURRENT full single cel. Replace source pink-haired pajama girl with DEFAULT Klee using loose black contours, flat patches, restrained one flat shadow, orange cheek ovals. Pale blonde bangs, pointed ears and EXACTLY TWO SHORT side ponytails, one each side; red beret replaces rabbit sleepmask, no sleepmask, no pajamas. Raise BOTH red-sleeved arms vertically with BOTH brown gloves gripping opposite clock edges: all fingers in FRONT of cream clock frame/display corners, clock in FRONT of upper face/eyes, face in FRONT of pillow; hat behind clock/hands; cuffs plain angular cream bands, not scalloped fluffy balls. Clock covers upper eyes and eyebrows but BOTH orange lower cheek fragments, chin and tiny closed downturned mouth ARE visible BELOW clock at x73.2%,y34.7% as in source. Permit only tiny lower eye-corner/red iris slivers directly under source clock corners if CURRENT actually shows them; no full eyes visible. Preserve CURRENT high/right clock geometry instead of copying any displaced Klee full image: visible cream clock front roughly quadrilateral top-left(1305,261),top-right(1451,238),bottom-right(1465,318),bottom-left(1332,344), purple display center approximately(1386,279) i.e.x72.2%,y25.8%, widthroughly150px height70px, same slight upward-right tilt. Fingers occlude case corners without shifting clock left/down. Blank lavender clock display absolutely NO letters/digits. Original diagonal lavender pillow with blue patches/cream fringes stays BEHIND head at x54.5%-83.5%,y13%-53%. Upright body leans gently down-right, no bent knees: both legs straight extended/cropped past bottom border. Keep original torso length/shoulder heights; fixed red split coat lowerleftcreamclover, angular cream underskirt with faint clovers/pinkruffle, RED shorts not white, ONE dangling cream pom at viewer-left waist (plus small collar pom), small brown backpack behind viewer-right body, no extra hip poms. Do not enlarge head or alter original shot scale to display outfit. Uniform original purple background, empty left side. No captions/subtitles/titles/credits/letters/numbers/writing/labels/watermark anywhere; exact original text and prop pixels restored later. Ref5 zoomCURRENT original clock/hands/face strictlypreserves the original narrow creamcase proportions, no extra enlargement. CURRENT f0099 differs fromf0095 in actual source viewer-left finger hooks and wristedge, viewer-right upper curled fingers and cufflower lip, thin sleeve diagonals and hem/frontcloth contour pressure. Trace current actualgrip/clocklevel fromsource, not previouslygenerated enlargeddisplay. Clockcreamfront only160px(8.3%)wide, purplevisibleinterior about96px(5%)becauseglovefingers overlap BOTHcorners. Clocklowercream band about18pxthick, atsourcey305-339, doNOTremovecream bottom band or make display giant70%-79%width. Fingerpositions: leftinwardtipsx1363(71%), rightinwardtipsx1420(74%), samecurvepaths as zoomsource. Tiny closedcaret mouth and both orangecheeks visible BELOWclock atsourcex73.2%/y34.5%. Onlysourceoccludedlower-eye corner specks ifvisible, nofull eyes. CRITICAL hair: TWO short blonde sideponytails ONLY, oneleftone right athead/upper shoulder, BOTHhairtipsend above48%height; no blondehair at y50%-65%, no third lowerhairwing behind EITHERtorso side. Where longoriginalhair existed belowshoulder remove it, showpurplebackground orrelevant redcoat/backpack, notblondelonghair. Stable same outfit withredsplitcoat/creamskirtpinkruffleREDshorts, ONEleftwaistpom, ONEsmallcollarpom, plainangularcreamcuffs andbrownhands. Sourcebody leansdownright onstraightlegs, no posegrowth or zoom. Preserve original empty leftpurple canvas and pillowbehind head. No writing/digits.",
+  "output": "../generated/fine-f0099-geometry-repair.png",
+  "status": "geometry_repair_draft",
+  "accepted": false,
+  "caption_cleanup_required": false,
+  "continuity_status": "static_source_and_adjacent_comparison_flagged_actual_speed_pending",
+  "inspection": "Display hull about(-6.6,+14.4) px from source; narrow clock geometry better than old draft but visible display remains1.49 times source hull area. Source cheeks/chin/closed mouth/tiny eye fragments preserved, hands foreground and two main short ponytails. Sleeve volume/collar panel/coat dots and possible low rear blonde fragment differ from neighbors; exact registration not proven. Not accepted.",
+  "clock_geometry_diagnostic": {
+    "frame": 99,
+    "source_display": {
+      "bbox": [
+        1342,
+        254,
+        1440,
+        304
+      ],
+      "center": [
+        1388.5100354191263,
+        275.65348288075563
+      ],
+      "pixels": 3388
+    },
+    "repair_display": {
+      "bbox": [
+        1327,
+        260,
+        1437,
+        322
+      ],
+      "center": [
+        1381.9239022451818,
+        290.06020266242797
+      ],
+      "pixels": 5033
+    },
+    "generated_roi": [
+      1280,
+      235,
+      1480,
+      350
+    ],
+    "display_hull_center_offset_px": [
+      -6.59,
+      14.41
+    ],
+    "display_hull_area_ratio": 1.486,
+    "limits": "Display hull differs with finger occlusion and is NOT rigid clock-body registration or artistic acceptance. Tight ROI excludes purple pillow above-left."
+  },
+  "repair_flags": [
+    "clock_external_shape_and_finger_occlusion_registration_pending",
+    "costume_and_sleeve_volume_sequence_drift",
+    "original_background_pillow_and_clock_pixels_restoration_pending",
+    "actual_speed_review_pending"
+  ]
+}

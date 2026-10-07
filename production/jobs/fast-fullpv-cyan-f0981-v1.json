@@ -1,0 +1,74 @@
+{
+  "job_id": "fast-fullpv-cyan-f0981-v1",
+  "source_frame": 981,
+  "canonical_cel": "cel-0195",
+  "tool": "builtin_imagegen",
+  "status": "generated_blocking_nod_overshoot_unselected",
+  "asset_sha256": "d240ebf7009118e668944673c75197e13ce6c109ab61f4c9b8ec348a4a1b265b",
+  "output": "generated/fast-fullpv-cyan-f0981-v1.png",
+  "original_tool_output": "C:/Users/KLucen/.codex/generated_images/01a0f64c-22e7-7f70-8158-3c5f3ef5f311/exec-4c4ff538-42af-4c74-ae78-6094289b04d4.png",
+  "static_review": "Whole output/current source/nativeface/delta inspected. Correct closed-eye clockwise nod, but eye/nose/chin drop from980 is approximately18%canvas vs source10%, worsening baseline registration; held unselected for one amplitude repair. Extra far white neck/hair lobe also needs connected current structure check.",
+  "blocking_static_findings": ["Downward head relocation overshoots source current nod"],
+  "accepted": false,
+  "artistic_accepted": false,
+  "original_speed_review": "unperformed",
+  "references": [
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-actual.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0981-source-eyes-nose-mouth.png",
+    "C:/Users/KLucen/Desktop/kl/production/qa/fast-fullpv-cyan-2026-10-04/f0980-topology-no-face-reference.png",
+    "C:\\Users\\KLucen\\Desktop\\kl\\production\\qa\\fast-fullpv-cyan-2026-10-04\\f0980-f0981-source-ab-rgb-contours.png"
+  ],
+  "reference_roles": [
+    "CURRENT981 full source: pronounced clockwise/down nod and lower/right landmarks/crop",
+    "CURRENT native981 face: closed eyelid partly occluded by fringe, tiny dot mouth and profile angle",
+    "980 cropped no-whole-face topology board: identity/short length/plain collar only, not high upright pose",
+    "Actual980-to981 A/B RGB/contours: head/collar shift and wind"
+  ],
+  "prompt": "Use case: identity-preserve. ONE full16:9 independent Klee replacement cel for CURRENT source981. Image1 is the CURRENT EDIT TARGET, exclusive authority for this NEW HEAD NOD: original head now tilts clockwise/down about10-15degrees and face is visibly LOWER and farther RIGHT than980. Image2 CURRENT native face decides the closed eye, nose/chin angles and tiny dot mouth. Image3 contains only cropped Klee BERET/FEATHER COLOR, SHORT EAR-ROOTED PONY and TWO-LEAF COLLAR topology; NO wholeface or pose authority. Image4 actual980->981 source A/B/RGB/contours makes the pronounced head/neck/collar motion explicit. IMPORTANT do NOT draw the previous high upright face. Current eyelid is partly hidden under downward fringe, around x68-70% y48-49%, sloping slightly down-right; nose around76%x51%y, mouth72.5%x62.5%y, chin71.5%x69%y. Closed eye only, NO red iris/open eye/second eye. Forehead/bangs tilt with the head, top beret lower with more visible top margin, neck bends and collar shifts down/right, shoulders follow source, body exits bottom. Match current small dark dot/hook mouth and cheek position, not smiling/open mouth. Replace source animal mask and all long source hair with Klee: muted burgundy clover beret, ONE feather, pointed near ear, cyan/lavender-lit pale-blonde short hair, TWO short neck-length ear-rooted groups with far group occluded by head, plain two-leaf cream collar and burgundy coat. Near short pony root follows the NEW lower/right ear, not its previous absolute position, same compact length/mass as cropped topology; tip settles down-left slightly from wind, no elongated fan, no third group, no curled forelock. No original animal ears/mask, original pink long hair sheet, ornate collars/pompoms, invented hands/legs or new person. Preserve source purple-left/blue-cyan-right night sky/stars/crescent framing. Simple flat handdrawn PV areas, irregular dark outlines, minimal shading. OMIT ALL TEXT for separate original glyph layer. Draw ONE CURRENT nod posture, not earlier upright template, no collage, hold, mirror, morph, optical flow or crossfade.",
+  "source_exposures": [
+    {
+      "start": 981,
+      "end": 983,
+      "pts": 40.875,
+      "end_pts": 40.958,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "start": 983,
+      "end": 984,
+      "pts": 40.958,
+      "end_pts": 41,
+      "family": "cyan_profile",
+      "source_transform": {
+        "kind": "verified_original_rigid_motion",
+        "matrix": [
+          [
+            1.0006134510040283,
+            -0.00010519158968236297,
+            -0.5572144389152527
+          ],
+          [
+            0.00010519158968236297,
+            1.0006134510040283,
+            -0.46388089656829834
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "job_id": "exec-1a505c19-860f-4333-aa21-5ee8312f071b",
+  "candidate_id": 9,
+  "tool": "builtin imagegen",
+  "prompt": "Use case: identity-preserve. One full 16:9 hand-drawn PV cel. Edit image1 source-cel-009: pink pajama girl replaced with default Klee only. Source defines exact right-side close-up, half-open drooping eyes looking toward sack, oval small open mouth, and both arms extending straight horizontally toward screen-left to hold a large cream drawstring sack. Preserve sack shape, tie/open top, dangling loop cord and simple gray shadows. Foreground near hand has all five fingers widely spread over FRONT of sack around x29%,y73%, palm facing sack; render as brown glove. Far hand wraps BEHIND left sack edge with only fingertips visible, exactly as source, also brown glove. Near red/cream-cuff arm crosses in FRONT of hidden torso and the sack's lower-right edge; sack occludes far forearm. KEEP both-arm pose, no pillow, no cheek-cupping. Image2 anchor supplies Klee identity/simplified style; image3 candidate005 supplies continued blonde head/hat palette only, not hands or pose. Klee red beret cream clover white feather, blonde short side ponytails, pointed ears, red coat cream trim. Replace sleep mask and pajamas fully. Original lavender background, crop and no text as source unchanged. Loose black outlines/flat fills/orange blush/simple shadows. No panels, no new props or extra limbs.",
+  "references": [
+    "analysis/source_cels/source-cel-009.jpg",
+    "production/generated/anchor-gesture.png",
+    "production/generated/candidate-005.png"
+  ],
+  "output": "C:\\Users\\KLucen\\Desktop\\kl\\production\\generated\\candidate-009.png",
+  "status": "generated",
+  "inspection": "Sack and loop cord retained, spread foreground glove on sack, far fingertips emerging from behind left edge, horizontal foreground arm preserved. Sleepy eye/oval-mouth source expression."
+}

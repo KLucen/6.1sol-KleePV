@@ -1,0 +1,287 @@
+{
+  "snapshot_utc": "2026-10-05T05:43:52.302478+00:00",
+  "stage": "after_render_source_alias_extension_not_a_retroactive_prerender_freeze",
+  "source_alias_sha256_before": "4f694200247410c2e14e6fb5989c68ea0cf4b68ba6f6ca0d3e224c2620a53532",
+  "source_alias_sha256_after": "cd6098a64c8455b08784bb7ec9919f7bfd6bd60550ce7cee83b183fc1c34be20",
+  "reviewed_aliases": [
+    {
+      "alias": {
+        "source_frame": 1080,
+        "source_candidate": "src-0612",
+        "source_cel": "cel-0227",
+        "verified_target_frame": 1048,
+        "verified_target_candidate": "src-0580",
+        "verified_target_cel": "cel-0222",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "proof_png": "qa/standing-repeat-audit-2026-10-05/f1048-f1080-character-native-ab-rgb-contours.png",
+        "proof_local_regions": "qa/standing-repeat-audit-2026-10-05/f1048-f1080-locals-native-ab-rgb-contours.png",
+        "proof_exposure_pages": [
+          "qa/standing-repeat-audit-2026-10-05/exposure-f1080-f1081-native-review.png",
+          "qa/standing-repeat-audit-2026-10-05/exposure-f1082-f1083-native-review.png",
+          "qa/standing-repeat-audit-2026-10-05/exposure-f1084-f1084-native-review.png"
+        ],
+        "proof_metrics": {
+          "interior_mean_rgb_max_delta": 5.817688715752541,
+          "interior_pixels_delta_28": 3543,
+          "largest_interior_difference_component": 21
+        },
+        "semantic_reason": "Root inspected direct source A/B, actual RGB difference, contour overlay, native eyelids/mouth/bangs/collar, both gloves/cuffs, coat seam/pockets/hem and visible boot edges, plus all actual f1080..1084 at native crop scale. The closed eyes, mouth caret, arm endpoints and fabric contours match f1048 without transformation. Residuals are scattered codec/color noise; background stars move independently. Only the character artwork is reused. Every current source frame retains its original background, captions and exposure. This source-repeat approval does not accept the generated artwork or its caption compositor.",
+        "review": "manual_full_resolution_source_approved"
+      },
+      "actual_source_checks": [
+        {
+          "frame": 1080,
+          "exact_reference": true,
+          "source_png_sha256": "6c4d2e9f67e4d7797bd84c8558e5369a565da0591dd6bd89794007e5ae0ad499",
+          "pts": 45.0
+        },
+        {
+          "frame": 1081,
+          "exact_reference": true,
+          "source_png_sha256": "23110831bd150e2046b528e3d2a59096d5b06b32a905bbe65cc1cecbf315f1a6",
+          "pts": 45.042
+        },
+        {
+          "frame": 1082,
+          "exact_reference": true,
+          "source_png_sha256": "af67f08d0e22f44d1e5f367982e972a428d787c42aa507959fff7411d5b4f89d",
+          "pts": 45.083
+        },
+        {
+          "frame": 1083,
+          "exact_reference": true,
+          "source_png_sha256": "b315fb415454bdf5635841c09caf5aa6366f8d3bf891328c2430474c17b788d2",
+          "pts": 45.125
+        },
+        {
+          "frame": 1084,
+          "exact_reference": true,
+          "source_png_sha256": "fb5e0c71af8875be179e000d69fbb0e0ec5921bbeb238334e19e2e855ac838b7",
+          "pts": 45.167
+        }
+      ],
+      "proof_sha256": {
+        "qa/standing-repeat-audit-2026-10-05/f1048-f1080-character-native-ab-rgb-contours.png": "0079b8a9c295f19530c3accdc2f353a95227edaa1abe49626d8d2662bd7a0007",
+        "qa/standing-repeat-audit-2026-10-05/f1048-f1080-locals-native-ab-rgb-contours.png": "7e4e4163a99c1a9d4cd0df0f69a6661e4052d179ae50087b12aafd4b14852625",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1080-f1081-native-review.png": "9da155846e7a090a070222e53d3374a610bd249c219fb82efcb721e32882f11f",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1082-f1083-native-review.png": "9e8ccaadd3ec3b74e13a7a24b1ee9ee1b6bb8938f6ec22f13f685e25b4b2149d",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1084-f1084-native-review.png": "8873d9c614e5e0ac56e5cfa3a3376a2bba76d9454922d46e99a7585b0fe83add"
+      },
+      "source_drawing_review": "approved_by_root_native_spatial_and_all_exposure_inspection",
+      "character_artistic_accepted": false,
+      "caption_gate_passed": false,
+      "final_composite_or_original_speed_review": "not_performed"
+    },
+    {
+      "alias": {
+        "source_frame": 1085,
+        "source_candidate": "src-0617",
+        "source_cel": "cel-0228",
+        "verified_target_frame": 1053,
+        "verified_target_candidate": "src-0585",
+        "verified_target_cel": "cel-0223",
+        "transform": {
+          "kind": "identity",
+          "matrix": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        "proof_png": "qa/standing-repeat-audit-2026-10-05/f1053-f1085-character-native-ab-rgb-contours.png",
+        "proof_local_regions": "qa/standing-repeat-audit-2026-10-05/f1053-f1085-locals-native-ab-rgb-contours.png",
+        "proof_exposure_pages": [
+          "qa/standing-repeat-audit-2026-10-05/exposure-f1085-f1086-native-review.png",
+          "qa/standing-repeat-audit-2026-10-05/exposure-f1087-f1088-native-review.png",
+          "qa/standing-repeat-audit-2026-10-05/exposure-f1089-f1090-native-review.png"
+        ],
+        "proof_metrics": {
+          "interior_mean_rgb_max_delta": 7.3889856465077175,
+          "interior_pixels_delta_28": 1332,
+          "largest_interior_difference_component": 33
+        },
+        "semantic_reason": "Root inspected direct source A/B, actual RGB difference, contour overlay, native face/hair/collar, lower inward gloves/cuffs, coat seam/pockets/hem and visible boots, plus all actual f1085..1090 at native crop scale. The closed eyelid strokes, tiny mouth, head angle and lower arm contours match f1053 without transformation. Codec/color residuals lie along the same outlines; moving stars are not reused. Only the character artwork is reused, preserving every current background/caption frame and original exposure. The next f1091 pose is a distinct half-open-eye/bent-sleeve drawing and is not included. This source-repeat approval does not accept the generated artwork or its caption compositor.",
+        "review": "manual_full_resolution_source_approved"
+      },
+      "actual_source_checks": [
+        {
+          "frame": 1085,
+          "exact_reference": true,
+          "source_png_sha256": "31b67ca6375be52bed9909f2c7aad4978fbb22b9382e7ea491fbae47ca7470ce",
+          "pts": 45.208
+        },
+        {
+          "frame": 1086,
+          "exact_reference": true,
+          "source_png_sha256": "4c88ec07745fc64808842dd927e1567443a3ba224bc10a083373929792609f6b",
+          "pts": 45.25
+        },
+        {
+          "frame": 1087,
+          "exact_reference": true,
+          "source_png_sha256": "000cff92588f8f803a0dcb6a03e72f52ef10ced1a21837bb2d2de4c73536716c",
+          "pts": 45.292
+        },
+        {
+          "frame": 1088,
+          "exact_reference": true,
+          "source_png_sha256": "d448a38cee2a639d637e69d4470e06185516f072ff0dde1cde076e8279198039",
+          "pts": 45.333
+        },
+        {
+          "frame": 1089,
+          "exact_reference": true,
+          "source_png_sha256": "eeee0f0abf98811f4ff7019db42796d268c245491e6a7acf0a5b4dc8ba85becb",
+          "pts": 45.375
+        },
+        {
+          "frame": 1090,
+          "exact_reference": true,
+          "source_png_sha256": "7d2a9d5ddfc5ccc6950e70d9167933a4a0df51c7e148ab933be44c7d41dede25",
+          "pts": 45.417
+        }
+      ],
+      "proof_sha256": {
+        "qa/standing-repeat-audit-2026-10-05/f1053-f1085-character-native-ab-rgb-contours.png": "7913633ba20563d7b6746c4abe4cbdc5950b3d6d0ab2c2b74bf066494ab2190d",
+        "qa/standing-repeat-audit-2026-10-05/f1053-f1085-locals-native-ab-rgb-contours.png": "cbfd398c9d4a69411d0271aaf1e88965cd6cfe7ea1e27e6ec18c9e6c1e198bdb",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1085-f1086-native-review.png": "91ff26814733f02241b16f1a38e40c65d59edc0218efaa46e1db826c4b9f6c98",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1087-f1088-native-review.png": "6dd4fff5f78face031f42aaf8e42f42471f6ae697dcc6380e62d1b41c2064de3",
+        "qa/standing-repeat-audit-2026-10-05/exposure-f1089-f1090-native-review.png": "125070128c02e31698feb58b4f53a4ade1d13ab03a66e682b9a9ca4172f13312"
+      },
+      "source_drawing_review": "approved_by_root_native_spatial_and_all_exposure_inspection",
+      "character_artistic_accepted": false,
+      "caption_gate_passed": false,
+      "final_composite_or_original_speed_review": "not_performed"
+    }
+  ],
+  "new_builtin_image_calls": 0,
+  "source_exposures_changed": false,
+  "new_covered_source_frames": 11,
+  "progress": {
+    "source_frames": 3658,
+    "source_cel_upper_bound": 689,
+    "raw_generated_png_files": 538,
+    "job_json_files": 543,
+    "direct_selected_asset_cels": 416,
+    "direct_generated_character_cels": 415,
+    "verified_alias_expansion_cels": 6,
+    "alias_inclusive_character_cels": 421,
+    "source_reuse_no_character_cels": 1,
+    "mapped_cels_including_source_reuse": 422,
+    "missing_selected_cels": 267,
+    "blocked_failed_cels": 0,
+    "historical_blocked_selection_records_resolved": 1,
+    "covered_frames_draft_plus_source_reuse": 2515,
+    "coverage_percent_draft_plus_source_reuse": 68.75341716785128,
+    "character_replacement_draft_frames": 2465,
+    "verified_no_character_source_reuse_frames": 50,
+    "contiguous_available_prefix_frames": 1091,
+    "drafts_with_structured_flaws_or_cleanup": 265,
+    "accepted_character_cels": 0,
+    "artistic_acceptance_status_counts": {
+      "not_recorded": 384,
+      "explicit_not_accepted": 305
+    },
+    "mapped_artistic_acceptance_status_counts": {
+      "not_recorded": 117,
+      "explicit_not_accepted": 305
+    },
+    "job_statuses": {
+      "generated": 159,
+      "bounded_batch_saved_unaccepted": 1,
+      "missing": 8,
+      "queued": 1,
+      "generated_draft_unaccepted_position_approximation": 1,
+      "generated_blocking_head_registration_unselected": 1,
+      "generated_draft_unaccepted_registration_pending": 2,
+      "generated_draft_unaccepted": 189,
+      "generated_blocking_hair_volume_unselected": 1,
+      "generated_blocking_nod_overshoot_unselected": 1,
+      "generated_blocked_superseded": 1,
+      "generated_draft": 125,
+      "geometry_repair_draft": 5,
+      "generated_repair": 1,
+      "reviewed_static_targeted_repair_temporal_pending": 8,
+      "source_reuse_no_character_visible": 1,
+      "partial_repair_draft_unaccepted": 3,
+      "failed_head_tilt_unaccepted": 2,
+      "reviewed_static_temporal_pending": 8,
+      "not_adopted_body_alignment_and_excessive_tilt": 3,
+      "generated_pending_review": 9,
+      "reviewed_static_partial_repair": 1,
+      "needs_head_tilt_and_body_alignment_repair": 1,
+      "failed_pupil_details_unaccepted": 1,
+      "generated_draft_cuff_repair_required": 1,
+      "generated_repair_draft": 5,
+      "submitted_repair": 1,
+      "rejected_headwear_semantics": 1,
+      "saved_unaccepted_repair_drafts": 1,
+      "generated_static_draft": 1
+    },
+    "late_worker_missing_cels_canonical_frame_ge_2400": 153
+  },
+  "unchanged_frozen_inputs_and_videos": {
+    "source_map.json": "05de0751535d1c627171b81f41a0183bf3990b902d44435bfc8b3120a30caf76",
+    "asset_selections.json": "ed7186f751a4c625219987085743fa31ec8e73ed88a281da453110e235088a55",
+    "compose.py": "accdc5260867891caba73b9cbff3b3047c6c2f806157c1318d3d49214bf98181",
+    "timeline-cyan-911-1008-fast-draft-v1.json": "3efab00f86b92e6fbf80eb24c606b40041f3fd052500f10b5874f5ae176f0453",
+    "qa/standing-repeat-audit-2026-10-05/exact-source-evidence.json": "59987c1bc52ad3a4fe0ad0a631a80d626efedd06ec4af4645b50dba729a8e883",
+    "qa/standing-missing-2026-10-05/oct5-full-7call-promptset.json": "1e6372e9e88024bfac931dc462b0f7f5993e7a823b80236b5ca2b6346e814608",
+    "qa/fast-fullpv-batch2-integrity-2026-10-04/batch2-full-27call-promptset.json": "173f36b5ee4b9fd280b91db09db77c845789ddd5f39a67f58fb9675ae6eef32a",
+    "output/klee-cyan-911-1008-fast-draft-v1.mp4": "d6fc2c5829ad263403af221669a2d28890cc52900963bf1f1ffd2cad8c887386",
+    "output/klee-cyan-911-1008-comparison-fast-draft-v1.mp4": "7b6a51b6db42306075ffb122d37c4926f886918306853dce06223995a6c1b0a2",
+    "qa/fast-fullpv-batch2-final-integrity-2026-10-05/final-integrity-audit.json": "a963453a0fe5cdaa9ce01fd76057d82fc1ec940f75b82918d8e17b1e73f224e3"
+  },
+  "post_review_snapshots": {
+    "qa\\standing-repeat-audit-2026-10-05\\source-aliases-post-review-snapshot.json": "cd6098a64c8455b08784bb7ec9919f7bfd6bd60550ce7cee83b183fc1c34be20",
+    "qa\\standing-repeat-audit-2026-10-05\\progress-post-review-snapshot.json": "8e32d4580cf23cd31e87c91381abd641593cd3c0553ba1fcc118d0f0c8d42e11"
+  },
+  "prior_420_cel_integrity_audit": "Preserved historical snapshot; it does not include these two later aliases.",
+  "unresolved_private_star_layer_gate": {
+    "interval": [
+      1008,
+      1043
+    ],
+    "blocking_caption_frames": [
+      1037,
+      1043
+    ],
+    "root_rechecked_f1037": "Japanese line still fragmented over the new boots; core-pixel numeric success is insufficient.",
+    "shared_compositor_hooked": false,
+    "frozen_private_files": {
+      "star_gestures_layers.py": "bde8b46784462ac7e7e9f93ec4f57c5ded9c80a6063fd1f250fa7ae11fda8193",
+      "qa\\star-gestures-layers-2026-10-05\\f1037-native-caption-pair.png": "88a3cf74df287f427d470d57f78e28e2531cc364908e8de4ad21934c70b75919"
+    }
+  },
+  "interrupted_parallel_tasks": {
+    "tasks": [
+      "star_finish_oct5",
+      "standing_repeat_audit_oct5"
+    ],
+    "reason": "Account usage-limit errors; no retry, model switch or alternate generation route attempted.",
+    "existing_art_and_outputs_preserved": true
+  },
+  "full_pv_delivered": false,
+  "accepted": false
+}

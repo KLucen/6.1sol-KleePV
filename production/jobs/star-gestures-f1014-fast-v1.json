@@ -1,0 +1,113 @@
+{
+  "owner": "star_gestures_batch2",
+  "status": "generated_draft_unaccepted",
+  "accepted": false,
+  "source_cel": "cel-0211",
+  "source_frame": 1014,
+  "source_reference": "source_refs/src-0547-f1014.png",
+  "source_meta": "source_meta.json",
+  "source_exposures": [
+    {
+      "start": 1014,
+      "end": 1017,
+      "pts": 42.25,
+      "end_pts": 42.375,
+      "family": "star_gestures",
+      "source_transform": {
+        "kind": "identity",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ],
+  "mode": "strict_source",
+  "prompt": "Use case: identity-preserve. Edit Image 1 into one independent full 16:9 source-faithful Klee PV cel f1014 / cel-0211.\nInput roles: Image 1 CURRENT original f1014 alone controls pose, camera crop, visibility, expression and occlusion. Image 2 Klee head identity crop controls only red beret with cream clover and exactly one white feather, pale blonde short side ponytails connected behind pointed ears; not head angle. Image 3 Klee costume crop controls only red coat/cream trim and exactly two PLAIN leaf-shaped cream collar panels; no patterned/scalloped collar, bow, pompom or extra petals. Image 4 original f1013 -> CURRENT f1014 A/B, RGB difference and contour sheet controls true change: warm foreground turns from two-eye diagonal front view to LEFT-FACING PROFILE, with nose and ONE visible droopy near eye. Image 5 CURRENT f1014 -> next f1017 source delta is future-boundary evidence only, not a pose to draw.\nCURRENT pose: huge warm Klee head dominates screen-right, at original scale and left-facing PROFILE angle, top/right/bottom crop fixed. Preserve nose/forehead/chin outline positions; only one narrow droopy open eye looking left, red iris and small source white lower notch, orange cheek oval, tiny closed mouth ink/dot on profile edge. No second eye, no front-facing oval mouth. Draw short Klee bangs and cheek locks; original long pink hair must become compact blonde hair plus two short side ponytails with only the actually visible side drawn, no long back sheet or invented extra braid.\nBehind foreground is a SECOND cool blue-purple Klee head/shoulder fragment on screen-left at original depth and crop. Most of rear face is concealed by warm foreground; do not expose a new rear eye, face, arm or body. Replace every visible original rear animal hood and long lavender hair silhouette, including the visible left strip, with cool-tinted Klee hat and SHORT hair; vacant long-hair space becomes original starfield.\nNo hands visible in this cel: draw no hands or added limbs. At bottom/right only source visible collar/shoulder fragments should be drawn in correct red-coat/plain-collar identity. Preserve current front-over-rear occlusion.\nUse source's loose dark linework, flat colors, simple blush and restrained shading. Keep source blue-purple background and independent star placements; original captions are restored separately by compositor, do not invent text. No extra figures, objects, accessories, feather duplicates or animal faces. One standalone whole cel, no collage or motion synthesis.",
+  "ordered_reference_roles": [
+    {
+      "path": "source_refs/src-0547-f1014.png",
+      "role": "edit target/current source sole pose crop expression occlusion authority",
+      "sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-head-short-hair-f0843.png",
+      "role": "Klee head short hair and hat structure only",
+      "sha256": "0e6357204873596be01dded4c6fdbcbb88c8017f670147c0ecb890786b05c697",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-dance-2026-10-04/identity-two-leaf-collar-continuous-hem-f0843.png",
+      "role": "Klee plain two-leaf collar and coat structure only",
+      "sha256": "20af9373221e45f8a2b8e53fa8ad918c2577848d31e060334511669ee74a72d4",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1014-source-delta.png",
+      "role": "original A/B spatial RGB and contours only",
+      "sha256": "db4d39670c3cbebec6f226e8919b945f36627e5f7bdeb0811fd291cc482a9e1c",
+      "viewed_before_generation": true
+    },
+    {
+      "path": "qa/fast-fullpv-star-gestures-2026-10-04/f1014-source-next-delta.png",
+      "role": "Current side-profile to next source rear-head macro spatial evidence only; do not render future pose",
+      "sha256": "edf499f2b0312b1ca392ceba251451000dd20b1693d2ede7321c7e933bbc9efc",
+      "viewed_before_generation": true
+    }
+  ],
+  "expected_output": "generated/star-gestures-f1014-fast-v1.png",
+  "tool": "builtin_image_gen",
+  "generation_calls": 1,
+  "static_review": {
+    "status": "full_output_viewed_source_and_adjacent_checked",
+    "matches": [
+      "Current left-facing profile, one visible eye",
+      "Closed tiny mouth",
+      "Rear face hidden by source overlap",
+      "No added hands",
+      "Short ponytails and plain two-leaf collar"
+    ],
+    "flaws": [
+      "Small dark-blue upper iris band remains on warm foreground profile eye; color-detail review deferred",
+      "Source subtitle and original stars need independent restoration",
+      "Hair/hat details differ from old unaccepted backview f1017"
+    ],
+    "blocking_character_issue_observed": false,
+    "artistic_acceptance": "not_accepted",
+    "composite_review": "pending"
+  },
+  "temporal_review": "not_performed_per_batch_scope",
+  "output_path": "generated/star-gestures-f1014-fast-v1.png",
+  "output_sha256": "e7b64c46c6adba10c591a815514fc7b4bafb40f421d8a63c4cd78d4b19678329",
+  "generated_origin": "C:/Users/KLucen/.codex/generated_images/01a10741-a381-7501-925c-5bf02d6a9b85/exec-cc0b666b-9218-4f2f-957b-8ad3786ddb4b.png",
+  "source_sha256": "e798ff2002ea59382a05be74a7d47388e1e421dd8808e08aa059ee210ab6e0bb",
+  "source_meta_sha256": "a1db00c0d6a74330a72f0aa18e1a8cc34f824c29cf6d4e02e9d7cee7a51232eb",
+  "consecutive_review": {
+    "source_before": "source_refs/src-0546-f1013.png",
+    "source_after": "source_refs/src-0549-f1017.png",
+    "source_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1014-source-delta.png",
+    "source_next_delta": "qa\\fast-fullpv-star-gestures-2026-10-04\\f1014-source-next-delta.png",
+    "status": "static_source_and_adjacent_drafts_checked",
+    "limits": "No original-speed, composite, whole-prefix render or artistic acceptance"
+  },
+  "known_issues": [
+    "Small dark-blue upper iris band remains on warm foreground profile eye; color-detail review deferred",
+    "Source subtitle and original stars need independent restoration",
+    "Hair/hat details differ from old unaccepted backview f1017"
+  ],
+  "output_dimensions": [
+    1672,
+    941
+  ],
+  "caption_cleanup_required": true,
+  "source_background_restoration_required": true
+}
